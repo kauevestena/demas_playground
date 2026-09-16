@@ -477,11 +477,11 @@
   <main id="map-container">
     <div id="map"></div>
 
-    <!-- Basemap Switcher -->
+    <!-- Basemap Switcher (OpenFreeMap) -->
     <div class="basemap-switcher">
-      <button class="basemap-btn active" data-style="voyager">Claro</button>
-      <button class="basemap-btn" data-style="osm">OSM</button>
-      <button class="basemap-btn" data-style="dark">Escuro</button>
+      <button class="basemap-btn active" data-style="liberty" title="OpenFreeMap Liberty (Padrão)">Liberty</button>
+      <button class="basemap-btn" data-style="positron" title="OpenFreeMap Positron (Claro/Minimalista)">Positron</button>
+      <button class="basemap-btn" data-style="bright" title="OpenFreeMap Bright (Vívido)">Bright</button>
     </div>
 
     <!-- Map Legend -->
@@ -535,57 +535,17 @@
       return CATEGORY_COLORS[comment] || '#64748b';
     }
 
-    // Basemap tile styles
+    // OpenFreeMap vector basemap styles (free, high-performance, open-source)
     const BASEMAP_STYLES = {
-      voyager: {
-        version: 8,
-        sources: {
-          'carto-voyager': {
-            type: 'raster',
-            tiles: [
-              'https://a.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png',
-              'https://b.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png',
-              'https://c.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png'
-            ],
-            tileSize: 256,
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, &copy; <a href="https://carto.com/attributions">CARTO</a>'
-          }
-        },
-        layers: [{ id: 'carto-voyager', type: 'raster', source: 'carto-voyager', minzoom: 0, maxzoom: 19 }]
-      },
-      osm: {
-        version: 8,
-        sources: {
-          'osm-standard': {
-            type: 'raster',
-            tiles: ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'],
-            tileSize: 256,
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-          }
-        },
-        layers: [{ id: 'osm-standard', type: 'raster', source: 'osm-standard', minzoom: 0, maxzoom: 19 }]
-      },
-      dark: {
-        version: 8,
-        sources: {
-          'carto-dark': {
-            type: 'raster',
-            tiles: [
-              'https://a.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}@2x.png',
-              'https://b.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}@2x.png'
-            ],
-            tileSize: 256,
-            attribution: '&copy; OpenStreetMap, &copy; CARTO'
-          }
-        },
-        layers: [{ id: 'carto-dark', type: 'raster', source: 'carto-dark', minzoom: 0, maxzoom: 19 }]
-      }
+      liberty: 'https://tiles.openfreemap.org/styles/liberty',
+      positron: 'https://tiles.openfreemap.org/styles/positron',
+      bright: 'https://tiles.openfreemap.org/styles/bright'
     };
 
-    // Initialize MapLibre
+    // Initialize MapLibre with OpenFreeMap Liberty
     const map = new maplibregl.Map({
       container: 'map',
-      style: BASEMAP_STYLES.voyager,
+      style: BASEMAP_STYLES.liberty,
       center: [-52.6716, -26.2295], // Pato Branco center
       zoom: 12.8,
       minZoom: 9,
@@ -598,142 +558,157 @@
     let hoveredFeatureId = null;
     const popup = new maplibregl.Popup({ closeButton: false, closeOnClick: false, offset: 12 });
 
+    let allGeojsonData = null;
+
+    function setupLayersAndEvents() {
+      if (!allGeojsonData) return;
+
+      if (!map.getSource('health-facilities')) {
+        map.addSource('health-facilities', {
+          type: 'geojson',
+          data: allGeojsonData,
+          generateId: true // ensure feature IDs for feature-state
+        });
+      }
+
+      // Build Match expression for MapLibre circle-color
+      const matchColor = ['match', ['get', 'comment']];
+      for (const [comment, color] of Object.entries(CATEGORY_COLORS)) {
+        matchColor.push(comment, color);
+      }
+      matchColor.push('#64748b'); // fallback
+
+      // Glow / Halo Layer on Hover
+      if (!map.getLayer('health-facilities-glow')) {
+        map.addLayer({
+          id: 'health-facilities-glow',
+          type: 'circle',
+          source: 'health-facilities',
+          paint: {
+            'circle-radius': [
+              'case',
+              ['boolean', ['feature-state', 'hover'], false],
+              22,
+              0
+            ],
+            'circle-color': matchColor,
+            'circle-opacity': 0.28,
+            'circle-stroke-width': 0
+          }
+        });
+      }
+
+      // Main Point Circle Layer (radius expands from 7 to 13 on hover!)
+      if (!map.getLayer('health-facilities-circle')) {
+        map.addLayer({
+          id: 'health-facilities-circle',
+          type: 'circle',
+          source: 'health-facilities',
+          paint: {
+            'circle-radius': [
+              'case',
+              ['boolean', ['feature-state', 'hover'], false],
+              13, // EXPANDED RADIUS ON HOVER!
+              7   // NORMAL RADIUS
+            ],
+            'circle-color': matchColor,
+            'circle-stroke-width': [
+              'case',
+              ['boolean', ['feature-state', 'hover'], false],
+              3.5,
+              1.5
+            ],
+            'circle-stroke-color': '#ffffff',
+            'circle-opacity': 0.95
+          }
+        });
+      }
+
+      // Setup Hover Events
+      map.on('mousemove', 'health-facilities-circle', (e) => {
+        if (e.features.length > 0) {
+          const feature = e.features[0];
+          map.getCanvas().style.cursor = 'pointer';
+
+          if (hoveredFeatureId !== null) {
+            map.setFeatureState({ source: 'health-facilities', id: hoveredFeatureId }, { hover: false });
+          }
+          hoveredFeatureId = feature.id;
+          map.setFeatureState({ source: 'health-facilities', id: hoveredFeatureId }, { hover: true });
+
+          // Build popup HTML
+          const props = feature.properties;
+          const coords = feature.geometry.coordinates;
+          const catColor = getCategoryColor(props.comment);
+
+          const popupHtml = `
+            <div class="popup-header">
+              <div style="display: flex; gap: 6px; align-items: center; margin-bottom: 4px;">
+                <span class="badge-category" style="background: ${catColor};">${props.comment}</span>
+                <span class="badge-cnes">CNES: ${props['ref:CNES'] || 'N/D'}</span>
+              </div>
+              <div class="popup-title">${props.name || props.official_name}</div>
+            </div>
+            <div class="popup-row">
+              <span>📍</span>
+              <span>${props['addr:street'] || ''} ${props['addr:housenumber'] ? ', ' + props['addr:housenumber'] : ''} — ${props['addr:suburb'] || 'Pato Branco'}</span>
+            </div>
+            ${props.phone ? `
+            <div class="popup-row">
+              <span>📞</span>
+              <a class="popup-phone" href="tel:${props.phone}">${props.phone}</a>
+            </div>` : ''}
+            ${props.opening_hours ? `
+            <div class="popup-row">
+              <span>⏰</span>
+              <span><strong>Horário:</strong> ${props.opening_hours}</span>
+            </div>` : ''}
+            <div class="popup-row" style="margin-top: 6px; padding-top: 6px; border-top: 1px dashed #e2e8f0; font-size: 11px; color: #64748b;">
+              <span>🏛️ ${props.operator || 'Público'}</span>
+            </div>
+          `;
+
+          popup.setLngLat(coords).setHTML(popupHtml).addTo(map);
+          highlightCard(feature.id);
+        }
+      });
+
+      map.on('mouseleave', 'health-facilities-circle', () => {
+        map.getCanvas().style.cursor = '';
+        if (hoveredFeatureId !== null) {
+          map.setFeatureState({ source: 'health-facilities', id: hoveredFeatureId }, { hover: false });
+        }
+        hoveredFeatureId = null;
+        popup.remove();
+        clearCardHighlight();
+      });
+
+      // Click to center and zoom
+      map.on('click', 'health-facilities-circle', (e) => {
+        if (e.features.length > 0) {
+          const feature = e.features[0];
+          map.flyTo({ center: feature.geometry.coordinates, zoom: 15, duration: 1000 });
+        }
+      });
+    }
+
     // Load GeoJSON Data
     fetch('data/unidades_saude_pato_branco.geojson')
       .then(res => res.json())
       .then(geojson => {
+        allGeojsonData = geojson;
         allFeatures = geojson.features;
         document.getElementById('total-count').innerText = allFeatures.length;
 
-        map.on('load', () => {
-          // Add GeoJSON source
-          map.addSource('health-facilities', {
-            type: 'geojson',
-            data: geojson,
-            generateId: true // ensure feature IDs for feature-state
-          });
-
-          // Build Match expression for MapLibre circle-color
-          const matchColor = ['match', ['get', 'comment']];
-          for (const [comment, color] of Object.entries(CATEGORY_COLORS)) {
-            matchColor.push(comment, color);
-          }
-          matchColor.push('#64748b'); // fallback
-
-          // Glow / Halo Layer on Hover
-          map.addLayer({
-            id: 'health-facilities-glow',
-            type: 'circle',
-            source: 'health-facilities',
-            paint: {
-              'circle-radius': [
-                'case',
-                ['boolean', ['feature-state', 'hover'], false],
-                22,
-                0
-              ],
-              'circle-color': matchColor,
-              'circle-opacity': 0.28,
-              'circle-stroke-width': 0
-            }
-          });
-
-          // Main Point Circle Layer (radius expands from 7 to 13 on hover!)
-          map.addLayer({
-            id: 'health-facilities-circle',
-            type: 'circle',
-            source: 'health-facilities',
-            paint: {
-              'circle-radius': [
-                'case',
-                ['boolean', ['feature-state', 'hover'], false],
-                13, // EXPANDED RADIUS ON HOVER!
-                7   // NORMAL RADIUS
-              ],
-              'circle-color': matchColor,
-              'circle-stroke-width': [
-                'case',
-                ['boolean', ['feature-state', 'hover'], false],
-                3.5,
-                1.5
-              ],
-              'circle-stroke-color': '#ffffff',
-              'circle-opacity': 0.95
-            }
-          });
-
-          // Setup Hover Events
-          map.on('mousemove', 'health-facilities-circle', (e) => {
-            if (e.features.length > 0) {
-              const feature = e.features[0];
-              map.getCanvas().style.cursor = 'pointer';
-
-              if (hoveredFeatureId !== null) {
-                map.setFeatureState({ source: 'health-facilities', id: hoveredFeatureId }, { hover: false });
-              }
-              hoveredFeatureId = feature.id;
-              map.setFeatureState({ source: 'health-facilities', id: hoveredFeatureId }, { hover: true });
-
-              // Build popup HTML
-              const props = feature.properties;
-              const coords = feature.geometry.coordinates;
-              const catColor = getCategoryColor(props.comment);
-
-              const popupHtml = `
-                <div class="popup-header">
-                  <div style="display: flex; gap: 6px; align-items: center; margin-bottom: 4px;">
-                    <span class="badge-category" style="background: ${catColor};">${props.comment}</span>
-                    <span class="badge-cnes">CNES: ${props['ref:CNES'] || 'N/D'}</span>
-                  </div>
-                  <div class="popup-title">${props.name || props.official_name}</div>
-                </div>
-                <div class="popup-row">
-                  <span>📍</span>
-                  <span>${props['addr:street'] || ''} ${props['addr:housenumber'] ? ', ' + props['addr:housenumber'] : ''} — ${props['addr:suburb'] || 'Pato Branco'}</span>
-                </div>
-                ${props.phone ? `
-                <div class="popup-row">
-                  <span>📞</span>
-                  <a class="popup-phone" href="tel:${props.phone}">${props.phone}</a>
-                </div>` : ''}
-                ${props.opening_hours ? `
-                <div class="popup-row">
-                  <span>⏰</span>
-                  <span><strong>Horário:</strong> ${props.opening_hours}</span>
-                </div>` : ''}
-                <div class="popup-row" style="margin-top: 6px; padding-top: 6px; border-top: 1px dashed #e2e8f0; font-size: 11px; color: #64748b;">
-                  <span>🏛️ ${props.operator || 'Público'}</span>
-                </div>
-              `;
-
-              popup.setLngLat(coords).setHTML(popupHtml).addTo(map);
-
-              // Highlight corresponding list card in sidebar
-              highlightCard(feature.id);
-            }
-          });
-
-          map.on('mouseleave', 'health-facilities-circle', () => {
-            map.getCanvas().style.cursor = '';
-            if (hoveredFeatureId !== null) {
-              map.setFeatureState({ source: 'health-facilities', id: hoveredFeatureId }, { hover: false });
-            }
-            hoveredFeatureId = null;
-            popup.remove();
-            clearCardHighlight();
-          });
-
-          // Click to center and zoom
-          map.on('click', 'health-facilities-circle', (e) => {
-            if (e.features.length > 0) {
-              const feature = e.features[0];
-              map.flyTo({ center: feature.geometry.coordinates, zoom: 15, duration: 1000 });
-            }
-          });
-
-          // Initial render of facility list
+        if (map.loaded()) {
+          setupLayersAndEvents();
           renderList(allFeatures);
-        });
+        } else {
+          map.on('load', () => {
+            setupLayersAndEvents();
+            renderList(allFeatures);
+          });
+        }
       })
       .catch(err => console.error('Error loading GeoJSON:', err));
 
@@ -902,52 +877,16 @@
       applyFilters();
     });
 
-    // Basemap Switcher
+    // Basemap Switcher (OpenFreeMap)
     document.querySelectorAll('.basemap-btn').forEach(btn => {
       btn.addEventListener('click', () => {
         document.querySelectorAll('.basemap-btn').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
         const styleKey = btn.getAttribute('data-style');
         
-        // Save current health layers
         map.setStyle(BASEMAP_STYLES[styleKey]);
         map.once('style.load', () => {
-          // Re-add health-facilities source and layers
-          map.addSource('health-facilities', {
-            type: 'geojson',
-            data: 'data/unidades_saude_pato_branco.geojson',
-            generateId: true
-          });
-
-          const matchColor = ['match', ['get', 'comment']];
-          for (const [comment, color] of Object.entries(CATEGORY_COLORS)) {
-            matchColor.push(comment, color);
-          }
-          matchColor.push('#64748b');
-
-          map.addLayer({
-            id: 'health-facilities-glow',
-            type: 'circle',
-            source: 'health-facilities',
-            paint: {
-              'circle-radius': ['case', ['boolean', ['feature-state', 'hover'], false], 22, 0],
-              'circle-color': matchColor,
-              'circle-opacity': 0.28
-            }
-          });
-
-          map.addLayer({
-            id: 'health-facilities-circle',
-            type: 'circle',
-            source: 'health-facilities',
-            paint: {
-              'circle-radius': ['case', ['boolean', ['feature-state', 'hover'], false], 13, 7],
-              'circle-color': matchColor,
-              'circle-stroke-width': ['case', ['boolean', ['feature-state', 'hover'], false], 3.5, 1.5],
-              'circle-stroke-color': '#ffffff',
-              'circle-opacity': 0.95
-            }
-          });
+          setupLayersAndEvents();
           applyFilters();
         });
       });
