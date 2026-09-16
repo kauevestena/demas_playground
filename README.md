@@ -14,7 +14,7 @@ demas_playground/
 │   │   └── resolver.py     # Municipality to IBGE code resolver
 │   ├── pyproject.toml      # Package definition & metadata
 │   └── README.md
-├── web/                    # Interactive web playground using MapLibre GL JS
+├── playground_prototype/   # Interactive web playground using MapLibre GL JS
 │   ├── index.html          # Interactive map interface with hover highlights & category filters
 │   └── data/               # GeoJSON datasets with OSM tags & comment classifications
 ├── LICENSE                 # MIT License
@@ -35,9 +35,9 @@ records = retrieve_facilities(municipality=411850, output_format="raw", public_o
 ```
 
 ### Web Playground
-Open `web/index.html` in your browser or run a simple local web server:
+Open `playground_prototype/index.html` in your browser or run a simple local web server:
 ```bash
-python3 -m http.server 8000 --directory web
+python3 -m http.server 8000 --directory playground_prototype
 ```
 
 ## License
