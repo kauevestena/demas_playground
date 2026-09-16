@@ -15,13 +15,185 @@ document.addEventListener('DOMContentLoaded', () => {
     'UBS': { color: '#2563eb', label: 'UBS' },
     'UPA 24h': { color: '#dc2626', label: 'UPA 24h' },
     'CAPS': { color: '#7c3aed', label: 'CAPS' },
+    'Hospital': { color: '#e11d48', label: 'Hospital' },
     'Hospital Público': { color: '#e11d48', label: 'Hospital' },
+    'Farmácia': { color: '#059669', label: 'Farmácia' },
     'Farmácia Pública': { color: '#059669', label: 'Farmácia' },
+    'SAMU': { color: '#ea580c', label: 'SAMU 192' },
     'SAMU 192': { color: '#ea580c', label: 'SAMU 192' },
     'Especialidades': { color: '#0891b2', label: 'Especialidades' },
+    'Vigilância': { color: '#4b5563', label: 'Vigilância / Gestão' },
     'Vigilância / Gestão': { color: '#4b5563', label: 'Vigilância / Gestão' },
     'Outros': { color: '#64748b', label: 'Outros' },
   };
+
+  /**
+   * Classify any facility (from pre-cached files or live CNES API) into standard categories.
+   */
+  function resolveCategory(props) {
+    if (!props) return 'Outros';
+    const comment = String(props.comment || '').trim();
+    const name = String(props.name || props.official_name || '').toUpperCase();
+    const amenity = String(props.amenity || '').toLowerCase();
+    const healthcare = String(props.healthcare || '').toLowerCase();
+
+    // 1. UBS / Atenção Básica
+    if (
+      comment.startsWith('UBS') ||
+      comment.includes('Básica') ||
+      comment === 'Posto de Saúde' ||
+      name.startsWith('UBS') ||
+      name.includes('UNIDADE BASICA') ||
+      name.includes('POSTO DE SAUDE') ||
+      name.includes('CENTRO DE SAUDE') ||
+      name.includes('ESF ') ||
+      name.includes('ESTRATEGIA SAUDE DA FAMILIA')
+    ) {
+      return 'UBS';
+    }
+
+    // 2. UPA / Emergência / Pronto Atendimento
+    if (
+      comment.startsWith('UPA') ||
+      comment.includes('Pronto Atendimento') ||
+      comment.includes('Urgência') ||
+      comment.includes('Pronto Socorro') ||
+      name.startsWith('UPA') ||
+      name.includes('PRONTO ATENDIMENTO') ||
+      name.includes('PRONTO SOCORRO') ||
+      name.includes('24H')
+    ) {
+      return 'UPA 24h';
+    }
+
+    // 3. CAPS / Saúde Mental
+    if (
+      comment.startsWith('CAPS') ||
+      comment.includes('Psicossocial') ||
+      name.startsWith('CAPS') ||
+      name.includes('PSICOSSOCIAL') ||
+      healthcare === 'psychiatry'
+    ) {
+      return 'CAPS';
+    }
+
+    // 4. Hospitais / Maternidades
+    if (
+      comment.includes('Hospital') ||
+      comment.includes('Maternidade') ||
+      name.includes('HOSPITAL') ||
+      name.includes('MATERNIDADE') ||
+      name.includes('SANTA CASA') ||
+      amenity === 'hospital' ||
+      healthcare === 'hospital'
+    ) {
+      return 'Hospital';
+    }
+
+    // 5. Farmácias Públicas / CAF
+    if (
+      comment.includes('Farmácia') ||
+      comment.includes('CAF') ||
+      comment.includes('Abastecimento Farmacêutico') ||
+      name.includes('FARMACIA') ||
+      amenity === 'pharmacy' ||
+      healthcare === 'pharmacy'
+    ) {
+      return 'Farmácia';
+    }
+
+    // 6. SAMU / Atendimento Móvel de Urgência
+    if (
+      comment.includes('SAMU') ||
+      comment.includes('192') ||
+      name.includes('SAMU') ||
+      name.includes('BASE DESCENTRALIZADA')
+    ) {
+      return 'SAMU';
+    }
+
+    // 7. Especialidades / Policlínicas / CEO / CER
+    if (
+      [
+        'Centro de Especialidades',
+        'Odontologia (CEO)',
+        'Reabilitação (CER)',
+        'Reabilitação Física',
+        'Saúde da Mulher & Criança',
+        'Apoio Sorológico (COAS)',
+        'Consórcio Intermunicipal',
+        'Diagnóstico por Imagem',
+        'Serviço de Atenção Domiciliar',
+        'Especialidades'
+      ].includes(comment) ||
+      comment.includes('Especialidade') ||
+      comment.includes('Policlínica') ||
+      comment.includes('CEO') ||
+      comment.includes('CER') ||
+      comment.includes('Reabilitação') ||
+      comment.includes('Odontologia') ||
+      name.includes('ESPECIALIDADE') ||
+      name.includes('POLICLINICA') ||
+      name.includes('CEO') ||
+      name.includes('CER ') ||
+      name.includes('REABILITACAO') ||
+      name.includes('ODONTOLOG') ||
+      name.includes('FISIOTERAPIA') ||
+      name.includes('CLINICA') ||
+      amenity === 'dentist' ||
+      healthcare === 'dentist' ||
+      healthcare === 'diagnostic_centre' ||
+      healthcare === 'rehabilitation'
+    ) {
+      return 'Especialidades';
+    }
+
+    // 8. Vigilância / Gestão / Secretaria / CAS
+    if (
+      [
+        'Vigilância Sanitária',
+        'Vigilância Epidemiológica',
+        'Secretaria Municipal de Saúde',
+        'Regional de Saúde (Estadual)',
+        'Saúde do Trabalhador (CEREST)',
+        'Auditoria e Regulação',
+        'Biossegurança em Saúde',
+        'Sala de Vacinas',
+        'Abastecimento de Saúde (CAS)',
+        'Suprimentos / Logística',
+        'Vigilância / Gestão'
+      ].includes(comment) ||
+      comment.includes('Vigilância') ||
+      comment.includes('Secretaria') ||
+      comment.includes('Regulação') ||
+      comment.includes('Logística') ||
+      name.includes('VIGILANCIA') ||
+      name.includes('SECRETARIA') ||
+      name.includes('REGULACAO') ||
+      name.includes('CAS ') ||
+      healthcare === 'vaccination'
+    ) {
+      return 'Vigilância';
+    }
+
+    return 'Outros';
+  }
+
+  function matchesCategory(props, activeCat) {
+    if (!activeCat || activeCat === 'ALL') return true;
+    const cat = resolveCategory(props);
+    if (cat === activeCat) return true;
+    if ((activeCat === 'Hospital' || activeCat === 'Hospital Público') && cat === 'Hospital') return true;
+    if ((activeCat === 'Farmácia' || activeCat === 'Farmácia Pública') && cat === 'Farmácia') return true;
+    if ((activeCat === 'SAMU' || activeCat === 'SAMU 192') && cat === 'SAMU') return true;
+    if ((activeCat === 'Vigilância' || activeCat === 'Vigilância / Gestão') && cat === 'Vigilância') return true;
+    return false;
+  }
+
+  function getCategoryStyle(props) {
+    const cat = resolveCategory(props);
+    return CATEGORY_STYLES[cat] || CATEGORY_STYLES['Outros'];
+  }
 
   const BASEMAPS = {
     liberty: 'https://tiles.openfreemap.org/styles/liberty',
@@ -88,6 +260,8 @@ document.addEventListener('DOMContentLoaded', () => {
       offset: 14,
       maxWidth: '320px',
     });
+
+    window.__demasMap = map;
   } catch (webglErr) {
     console.warn('MapLibre GL failed to initialize (WebGL unavailable or disabled):', webglErr);
     const mapEl = document.getElementById('map');
@@ -127,13 +301,81 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function addHealthLayers() {
-    if (!map || !map.loaded() || map.getSource('health-facilities')) return;
+    if (!map || map.getSource('health-facilities')) return;
 
     map.addSource('health-facilities', {
       type: 'geojson',
-      data: { type: 'FeatureCollection', features: [] },
-      generateId: true,
+      data: currentGeojson || { type: 'FeatureCollection', features: [] },
     });
+
+    const COLOR_MAP = {
+      // UBS
+      'UBS': '#2563eb',
+      'UBS Prisional': '#2563eb',
+      'Posto de Saúde': '#2563eb',
+      
+      // UPA 24h
+      'UPA 24h': '#dc2626',
+      'Pronto Atendimento': '#dc2626',
+      
+      // CAPS
+      'CAPS': '#7c3aed',
+      'CAPS II': '#7c3aed',
+      'CAPSi (Infanto-Juvenil)': '#7c3aed',
+      'CAPS III': '#7c3aed',
+      'CAPS ad': '#7c3aed',
+      
+      // Hospital
+      'Hospital Público': '#e11d48',
+      'Hospital': '#e11d48',
+      'Maternidade': '#e11d48',
+      
+      // Farmácia
+      'Farmácia Pública': '#059669',
+      'Farmácia': '#059669',
+      'Abastecimento Farmacêutico (CAF)': '#059669',
+      
+      // SAMU
+      'SAMU 192': '#ea580c',
+      'SAMU': '#ea580c',
+      
+      // Especialidades
+      'Especialidades': '#0891b2',
+      'Centro de Especialidades': '#0891b2',
+      'Odontologia (CEO)': '#0891b2',
+      'Reabilitação (CER)': '#0891b2',
+      'Reabilitação Física': '#0891b2',
+      'Saúde da Mulher & Criança': '#0891b2',
+      'Apoio Sorológico (COAS)': '#0891b2',
+      'Consórcio Intermunicipal': '#0891b2',
+      'Diagnóstico por Imagem': '#0891b2',
+      'Serviço de Atenção Domiciliar': '#0891b2',
+      
+      // Vigilância / Gestão
+      'Vigilância / Gestão': '#4b5563',
+      'Vigilância Sanitária': '#4b5563',
+      'Vigilância Epidemiológica': '#4b5563',
+      'Secretaria Municipal de Saúde': '#4b5563',
+      'Regional de Saúde (Estadual)': '#4b5563',
+      'Saúde do Trabalhador (CEREST)': '#4b5563',
+      'Auditoria e Regulação': '#4b5563',
+      'Biossegurança em Saúde': '#4b5563',
+      'Sala de Vacinas': '#4b5563',
+      'Abastecimento de Saúde (CAS)': '#4b5563',
+      'Suprimentos / Logística': '#4b5563',
+      
+      // Outros
+      'Academia da Saúde': '#64748b',
+      'Doação de Sangue (HEMEPAR)': '#64748b',
+      'Outros Serviços de Saúde': '#64748b',
+      'Outros': '#64748b'
+    };
+
+    const matchCircleColor = ['match', ['get', 'comment']];
+    for (const [comment, color] of Object.entries(COLOR_MAP)) {
+      matchCircleColor.push(comment, color);
+    }
+    matchCircleColor.push('#64748b');
 
     // Outer Glow layer
     map.addLayer({
@@ -147,19 +389,7 @@ document.addEventListener('DOMContentLoaded', () => {
           18,
           9
         ],
-        'circle-color': [
-          'match',
-          ['get', 'comment'],
-          'UBS', '#2563eb',
-          'UPA 24h', '#dc2626',
-          'CAPS', '#7c3aed',
-          'Hospital Público', '#e11d48',
-          'Farmácia Pública', '#059669',
-          'SAMU 192', '#ea580c',
-          'Especialidades', '#0891b2',
-          'Vigilância / Gestão', '#4b5563',
-          '#64748b'
-        ],
+        'circle-color': matchCircleColor,
         'circle-opacity': [
           'case',
           ['boolean', ['feature-state', 'hover'], false],
@@ -182,19 +412,7 @@ document.addEventListener('DOMContentLoaded', () => {
           10,
           6
         ],
-        'circle-color': [
-          'match',
-          ['get', 'comment'],
-          'UBS', '#2563eb',
-          'UPA 24h', '#dc2626',
-          'CAPS', '#7c3aed',
-          'Hospital Público', '#e11d48',
-          'Farmácia Pública', '#059669',
-          'SAMU 192', '#ea580c',
-          'Especialidades', '#0891b2',
-          'Vigilância / Gestão', '#4b5563',
-          '#64748b'
-        ],
+        'circle-color': matchCircleColor,
         'circle-stroke-width': [
           'case',
           ['boolean', ['feature-state', 'hover'], false],
@@ -289,6 +507,9 @@ document.addEventListener('DOMContentLoaded', () => {
           diff: true,
           transformStyle: preserveHealthLayers,
         });
+        map.once('styledata', () => {
+          updateUI();
+        });
       }
     });
   });
@@ -317,12 +538,12 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!popup || !map) return;
     const coords = feature.geometry.coordinates.slice();
     const p = feature.properties;
-    const catStyle = CATEGORY_STYLES[p.comment] || { color: '#64748b' };
+    const catStyle = getCategoryStyle(p);
 
     const content = `
       <div class="popup-inner">
         <div class="popup-badge" style="background: ${catStyle.color}15; color: ${catStyle.color}; border: 1px solid ${catStyle.color}40;">
-          ${p.comment || 'Estabelecimento'}
+          ${p.comment || catStyle.label}
         </div>
         <h4 class="popup-title">${p.name || p.official_name || 'Sem nome'}</h4>
         <div class="popup-meta">
@@ -493,32 +714,40 @@ document.addEventListener('DOMContentLoaded', () => {
     // Filter features
     const filtered = currentFeatures.filter(f => {
       const p = f.properties;
-      const matchesCategory = activeCategory === 'ALL' || p.comment === activeCategory;
+      const matchesCat = matchesCategory(p, activeCategory);
       const q = searchQuery.toLowerCase();
       const matchesSearch = !q ||
         (p.name && p.name.toLowerCase().includes(q)) ||
         (p.official_name && p.official_name.toLowerCase().includes(q)) ||
         (p['addr:street'] && p['addr:street'].toLowerCase().includes(q)) ||
         (p['addr:suburb'] && p['addr:suburb'].toLowerCase().includes(q)) ||
-        (p['ref:CNES'] && p['ref:CNES'].includes(q));
+        (p['ref:CNES'] && String(p['ref:CNES']).includes(q)) ||
+        (p.comment && p.comment.toLowerCase().includes(q));
 
-      return matchesCategory && matchesSearch;
+      return matchesCat && matchesSearch;
     });
 
     visibleCountEl.textContent = filtered.length;
 
-    // Update map filter
-    if (map && map.loaded() && map.getLayer('health-circles')) {
-      const filters = ['all'];
-      if (activeCategory !== 'ALL') {
-        filters.push(['==', ['get', 'comment'], activeCategory]);
+    // Update map filter using matching feature CNES codes
+    if (map && map.getSource('health-facilities')) {
+      const isFiltered = (activeCategory !== 'ALL' || searchQuery !== '');
+      if (!isFiltered || filtered.length === currentFeatures.length) {
+        if (map.getLayer('health-circles')) map.setFilter('health-circles', null);
+        if (map.getLayer('health-glow')) map.setFilter('health-glow', null);
+        if (map.getLayer('health-labels')) map.setFilter('health-labels', null);
+      } else if (filtered.length === 0) {
+        const hideFilter = ['==', ['get', 'ref:CNES'], '__NONE__'];
+        if (map.getLayer('health-circles')) map.setFilter('health-circles', hideFilter);
+        if (map.getLayer('health-glow')) map.setFilter('health-glow', hideFilter);
+        if (map.getLayer('health-labels')) map.setFilter('health-labels', hideFilter);
+      } else {
+        const cnesList = filtered.map(f => String(f.properties['ref:CNES'] || f.id));
+        const filterExpr = ['in', ['get', 'ref:CNES'], ['literal', cnesList]];
+        if (map.getLayer('health-circles')) map.setFilter('health-circles', filterExpr);
+        if (map.getLayer('health-glow')) map.setFilter('health-glow', filterExpr);
+        if (map.getLayer('health-labels')) map.setFilter('health-labels', filterExpr);
       }
-      if (searchQuery) {
-        // Simple search query in map
-      }
-      map.setFilter('health-circles', activeCategory === 'ALL' ? null : ['==', ['get', 'comment'], activeCategory]);
-      map.setFilter('health-glow', activeCategory === 'ALL' ? null : ['==', ['get', 'comment'], activeCategory]);
-      map.setFilter('health-labels', activeCategory === 'ALL' ? null : ['==', ['get', 'comment'], activeCategory]);
     }
 
     renderFacilityCards(filtered);
@@ -540,14 +769,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     facilityListContainer.innerHTML = features.map(f => {
       const p = f.properties;
-      const catStyle = CATEGORY_STYLES[p.comment] || { color: '#64748b' };
+      const catStyle = getCategoryStyle(p);
       const coords = f.geometry.coordinates;
 
       return `
         <article class="facility-card" data-id="${f.id}" data-lat="${coords[1]}" data-lon="${coords[0]}">
           <div class="card-header">
             <span class="card-badge" style="background: ${catStyle.color}15; color: ${catStyle.color}; border: 1px solid ${catStyle.color}35;">
-              ${p.comment || 'Estabelecimento'}
+              ${p.comment || catStyle.label}
             </span>
             <span class="card-cnes">CNES: ${p['ref:CNES'] || '—'}</span>
           </div>
