@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "demas-driver"
+version = "0.1.0"
+description = "Python driver to query DEMAS/CNES Open Data API and export healthcare facilities to OSM-ready GeoJSON"
+readme = "README.md"
+authors = [
+    { name = "Kaue" }
+]
+license = { text = "MIT" }
+requires-python = ">=3.8"
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/demas_playground/demas_driver"

@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rede Pública de Saúde — Pato Branco (PR) | DEMAS Playground</title>
+  
+  <!-- MapLibre GL JS CSS & JS -->
+  <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" />
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --primary: #1d4ed8;
+      --primary-hover: #1e40af;
+      --bg-surface: #ffffff;
+      --bg-panel: #f8fafc;
+      --text-main: #0f172a;
+      --text-muted: #64748b;
+      --border-color: #e2e8f0;
+      --radius-md: 8px;
+      --radius-lg: 12px;
+      --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+      --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+      --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      color: var(--text-main);
+      background-color: #f1f5f9;
+      height: 100vh;
+      overflow: hidden;
+      display: flex;
+    }
+
+    #sidebar {
+      width: 400px;
+      min-width: 340px;
+      height: 100vh;
+      background: var(--bg-surface);
+      border-right: 1px solid var(--border-color);
+      display: flex;
+      flex-direction: column;
+      z-index: 10;
+      box-shadow: var(--shadow-lg);
+      transition: transform 0.3s ease;
+    }
+
+    #map-container {
+      flex: 1;
+      height: 100vh;
+      position: relative;
+    }
+
+    #map {
+      width: 100%;
+      height: 100%;
+    }
+
+    /* Header */
+    .sidebar-header {
+      padding: 20px 20px 16px;
+      background: #0f172a;
+      color: #ffffff;
+    }
+
+    .header-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 10px;
+      font-size: 11px;
+      font-weight: 600;
+      border-radius: 9999px;
+      background: rgba(59, 130, 246, 0.25);
+      color: #93c5fd;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 8px;
+    }
+
+    .header-title {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 1.3;
+      margin-bottom: 4px;
+    }
+
+    .header-subtitle {
+      font-size: 12px;
+      color: #94a3b8;
+    }
+
+    /* Controls Bar */
+    .controls-section {
+      padding: 16px 20px;
+      background: #ffffff;
+      border-bottom: 1px solid var(--border-color);
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .search-box {
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+
+    .search-box svg {
+      position: absolute;
+      left: 12px;
+      width: 16px;
+      height: 16px;
+      color: var(--text-muted);
+      pointer-events: none;
+    }
+
+    .search-input {
+      width: 100%;
+      padding: 9px 12px 9px 36px;
+      font-size: 13px;
+      font-family: inherit;
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      background: var(--bg-panel);
+      color: var(--text-main);
+      outline: none;
+      transition: all 0.2s;
+    }
+
+    .search-input:focus {
+      background: #ffffff;
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(29, 78, 216, 0.15);
+    }
+
+    /* Filter Chips */
+    .filter-chips {
+      display: flex;
+      gap: 6px;
+      overflow-x: auto;
+      padding-bottom: 4px;
+      scrollbar-width: thin;
+    }
+
+    .filter-chips::-webkit-scrollbar {
+      height: 4px;
+    }
+
+    .filter-chips::-webkit-scrollbar-thumb {
+      background: #cbd5e1;
+      border-radius: 4px;
+    }
+
+    .chip {
+      white-space: nowrap;
+      padding: 5px 10px;
+      font-size: 11.5px;
+      font-weight: 500;
+      border-radius: 9999px;
+      background: var(--bg-panel);
+      border: 1px solid var(--border-color);
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+
+    .chip:hover {
+      background: #e2e8f0;
+      color: var(--text-main);
+    }
+
+    .chip.active {
+      background: var(--primary);
+      border-color: var(--primary);
+      color: #ffffff;
+    }
+
+    /* Results Info */
+    .results-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 12px;
+      color: var(--text-muted);
+      padding: 0 2px;
+    }
+
+    /* Facilities List */
+    .facility-list {
+      flex: 1;
+      overflow-y: auto;
+      padding: 12px 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .facility-card {
+      padding: 12px 14px;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      cursor: pointer;
+      transition: all 0.2s;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .facility-card:hover {
+      border-color: var(--primary);
+      box-shadow: var(--shadow-sm);
+      transform: translateY(-1px);
+    }
+
+    .facility-card.active {
+      border-color: var(--primary);
+      background: rgba(29, 78, 216, 0.04);
+      box-shadow: 0 0 0 2px rgba(29, 78, 216, 0.15);
+    }
+
+    .card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 8px;
+    }
+
+    .card-name {
+      font-size: 13.5px;
+      font-weight: 600;
+      color: var(--text-main);
+      line-height: 1.3;
+    }
+
+    .card-badges {
+      display: flex;
+      gap: 4px;
+      flex-wrap: wrap;
+    }
+
+    .badge-category {
+      font-size: 11px;
+      font-weight: 600;
+      padding: 2px 7px;
+      border-radius: 4px;
+      color: #ffffff;
+      background: #64748b;
+    }
+
+    .badge-cnes {
+      font-size: 10.5px;
+      font-weight: 500;
+      padding: 2px 6px;
+      border-radius: 4px;
+      background: #f1f5f9;
+      color: #475569;
+      border: 1px solid #e2e8f0;
+    }
+
+    .card-addr {
+      font-size: 12px;
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .card-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 11.5px;
+      color: #64748b;
+      margin-top: 2px;
+    }
+
+    .card-phone {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .card-phone:hover {
+      text-decoration: underline;
+    }
+
+    /* Map Controls UI */
+    .basemap-switcher {
+      position: absolute;
+      top: 14px;
+      right: 14px;
+      background: #ffffff;
+      padding: 6px;
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-md);
+      display: flex;
+      gap: 4px;
+      z-index: 5;
+    }
+
+    .basemap-btn {
+      padding: 6px 12px;
+      font-size: 12px;
+      font-weight: 600;
+      border: none;
+      background: transparent;
+      border-radius: 6px;
+      cursor: pointer;
+      color: var(--text-muted);
+      transition: all 0.15s;
+    }
+
+    .basemap-btn:hover {
+      background: #f1f5f9;
+      color: var(--text-main);
+    }
+
+    .basemap-btn.active {
+      background: var(--primary);
+      color: #ffffff;
+    }
+
+    /* Custom MapLibre Popup */
+    .maplibregl-popup-content {
+      padding: 16px;
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-lg);
+      font-family: inherit;
+      max-width: 320px;
+      line-height: 1.4;
+      border: 1px solid var(--border-color);
+    }
+
+    .popup-header {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      margin-bottom: 10px;
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 8px;
+    }
+
+    .popup-title {
+      font-size: 14.5px;
+      font-weight: 700;
+      color: var(--text-main);
+    }
+
+    .popup-row {
+      font-size: 12px;
+      color: #475569;
+      margin-bottom: 4px;
+      display: flex;
+      gap: 6px;
+    }
+
+    .popup-row strong {
+      color: var(--text-main);
+    }
+
+    .popup-phone {
+      color: var(--primary);
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .popup-phone:hover {
+      text-decoration: underline;
+    }
+
+    /* Floating Legend */
+    .map-legend {
+      position: absolute;
+      bottom: 24px;
+      right: 14px;
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(8px);
+      padding: 12px 14px;
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-md);
+      font-size: 11.5px;
+      z-index: 5;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      border: 1px solid var(--border-color);
+      max-width: 220px;
+    }
+
+    .legend-title {
+      font-weight: 700;
+      font-size: 12px;
+      color: var(--text-main);
+      margin-bottom: 2px;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: #334155;
+    }
+
+    .legend-circle {
+      width: 11px;
+      height: 11px;
+      border-radius: 50%;
+      border: 1.5px solid #ffffff;
+      box-shadow: 0 0 0 1px rgba(0,0,0,0.15);
+      flex-shrink: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <aside id="sidebar">
+    <div class="sidebar-header">
+      <div class="header-badge">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <path d="M12 2v20M2 12h20"/>
+        </svg>
+        DEMAS / CNES Open Data
+      </div>
+      <h1 class="header-title">Rede Pública de Saúde</h1>
+      <p class="header-subtitle">Município de Pato Branco — Paraná</p>
+    </div>
+
+    <div class="controls-section">
+      <div class="search-box">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input type="text" id="search-input" class="search-input" placeholder="Buscar unidade, bairro ou CNES..." />
+      </div>
+
+      <div class="filter-chips" id="filter-chips">
+        <button class="chip active" data-category="ALL">Todos (<span id="total-count">0</span>)</button>
+        <button class="chip" data-category="UBS">UBS</button>
+        <button class="chip" data-category="UPA 24h">UPA 24h</button>
+        <button class="chip" data-category="CAPS">CAPS</button>
+        <button class="chip" data-category="Farmácia Pública">Farmácias</button>
+        <button class="chip" data-category="SAMU 192">SAMU 192</button>
+        <button class="chip" data-category="Especialidades">Especialidades</button>
+        <button class="chip" data-category="Vigilância">Vigilância / Gestão</button>
+        <button class="chip" data-category="Outros">Outros</button>
+      </div>
+
+      <div class="results-info">
+        <span>Exibindo: <strong id="visible-count">0</strong> estabelecimentos</span>
+        <span>Fonte: DataSUS / CNES</span>
+      </div>
+    </div>
+
+    <div class="facility-list" id="facility-list">
+      <!-- Dynamically populated -->
+    </div>
+  </aside>
+
+  <!-- Main Map Container -->
+  <main id="map-container">
+    <div id="map"></div>
+
+    <!-- Basemap Switcher -->
+    <div class="basemap-switcher">
+      <button class="basemap-btn active" data-style="voyager">Claro</button>
+      <button class="basemap-btn" data-style="osm">OSM</button>
+      <button class="basemap-btn" data-style="dark">Escuro</button>
+    </div>
+
+    <!-- Map Legend -->
+    <div class="map-legend">
+      <div class="legend-title">Categorias de Saúde</div>
+      <div class="legend-item"><span class="legend-circle" style="background: #2563eb;"></span> Unidade Básica (UBS)</div>
+      <div class="legend-item"><span class="legend-circle" style="background: #dc2626;"></span> Pronto Atendimento (UPA)</div>
+      <div class="legend-item"><span class="legend-circle" style="background: #9333ea;"></span> Saúde Mental (CAPS)</div>
+      <div class="legend-item"><span class="legend-circle" style="background: #16a34a;"></span> Farmácia Pública</div>
+      <div class="legend-item"><span class="legend-circle" style="background: #ea580c;"></span> SAMU 192 (Urgência)</div>
+      <div class="legend-item"><span class="legend-circle" style="background: #0d9488;"></span> Odontologia (CEO)</div>
+      <div class="legend-item"><span class="legend-circle" style="background: #db2777;"></span> Especialidades & Mulher</div>
+      <div class="legend-item"><span class="legend-circle" style="background: #ca8a04;"></span> Academia da Saúde</div>
+      <div class="legend-item"><span class="legend-circle" style="background: #475569;"></span> Vigilância & Gestão</div>
+    </div>
+  </main>
+
+  <script>
+    // Color mapping by category (comment column)
+    const CATEGORY_COLORS = {
+      'UBS': '#2563eb',
+      'UBS Prisional': '#3b82f6',
+      'UPA 24h': '#dc2626',
+      'CAPS II': '#9333ea',
+      'CAPSi (Infanto-Juvenil)': '#a855f7',
+      'Farmácia Pública': '#16a34a',
+      'SAMU 192': '#ea580c',
+      'Odontologia (CEO)': '#0d9488',
+      'Reabilitação (CER)': '#4f46e5',
+      'Reabilitação Física': '#6366f1',
+      'Saúde da Mulher & Criança': '#db2777',
+      'Apoio Sorológico (COAS)': '#ec4899',
+      'Consórcio Intermunicipal': '#0284c7',
+      'Diagnóstico por Imagem': '#0891b2',
+      'Serviço de Atenção Domiciliar': '#059669',
+      'Academia da Saúde': '#ca8a04',
+      'Vigilância Sanitária': '#475569',
+      'Vigilância Epidemiológica': '#475569',
+      'Abastecimento Farmacêutico (CAF)': '#64748b',
+      'Abastecimento de Saúde (CAS)': '#64748b',
+      'Biossegurança em Saúde': '#64748b',
+      'Sala de Vacinas': '#0284c7',
+      'Secretaria Municipal de Saúde': '#334155',
+      'Regional de Saúde (Estadual)': '#1e293b',
+      'Saúde do Trabalhador (CEREST)': '#0f766e',
+      'Auditoria e Regulação': '#334155',
+      'Doação de Sangue (HEMEPAR)': '#b91c1c'
+    };
+
+    function getCategoryColor(comment) {
+      return CATEGORY_COLORS[comment] || '#64748b';
+    }
+
+    // Basemap tile styles
+    const BASEMAP_STYLES = {
+      voyager: {
+        version: 8,
+        sources: {
+          'carto-voyager': {
+            type: 'raster',
+            tiles: [
+              'https://a.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png',
+              'https://b.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png',
+              'https://c.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png'
+            ],
+            tileSize: 256,
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, &copy; <a href="https://carto.com/attributions">CARTO</a>'
+          }
+        },
+        layers: [{ id: 'carto-voyager', type: 'raster', source: 'carto-voyager', minzoom: 0, maxzoom: 19 }]
+      },
+      osm: {
+        version: 8,
+        sources: {
+          'osm-standard': {
+            type: 'raster',
+            tiles: ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'],
+            tileSize: 256,
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          }
+        },
+        layers: [{ id: 'osm-standard', type: 'raster', source: 'osm-standard', minzoom: 0, maxzoom: 19 }]
+      },
+      dark: {
+        version: 8,
+        sources: {
+          'carto-dark': {
+            type: 'raster',
+            tiles: [
+              'https://a.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}@2x.png',
+              'https://b.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}@2x.png'
+            ],
+            tileSize: 256,
+            attribution: '&copy; OpenStreetMap, &copy; CARTO'
+          }
+        },
+        layers: [{ id: 'carto-dark', type: 'raster', source: 'carto-dark', minzoom: 0, maxzoom: 19 }]
+      }
+    };
+
+    // Initialize MapLibre
+    const map = new maplibregl.Map({
+      container: 'map',
+      style: BASEMAP_STYLES.voyager,
+      center: [-52.6716, -26.2295], // Pato Branco center
+      zoom: 12.8,
+      minZoom: 9,
+      maxZoom: 18
+    });
+
+    map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-left');
+
+    let allFeatures = [];
+    let hoveredFeatureId = null;
+    const popup = new maplibregl.Popup({ closeButton: false, closeOnClick: false, offset: 12 });
+
+    // Load GeoJSON Data
+    fetch('data/unidades_saude_pato_branco.geojson')
+      .then(res => res.json())
+      .then(geojson => {
+        allFeatures = geojson.features;
+        document.getElementById('total-count').innerText = allFeatures.length;
+
+        map.on('load', () => {
+          // Add GeoJSON source
+          map.addSource('health-facilities', {
+            type: 'geojson',
+            data: geojson,
+            generateId: true // ensure feature IDs for feature-state
+          });
+
+          // Build Match expression for MapLibre circle-color
+          const matchColor = ['match', ['get', 'comment']];
+          for (const [comment, color] of Object.entries(CATEGORY_COLORS)) {
+            matchColor.push(comment, color);
+          }
+          matchColor.push('#64748b'); // fallback
+
+          // Glow / Halo Layer on Hover
+          map.addLayer({
+            id: 'health-facilities-glow',
+            type: 'circle',
+            source: 'health-facilities',
+            paint: {
+              'circle-radius': [
+                'case',
+                ['boolean', ['feature-state', 'hover'], false],
+                22,
+                0
+              ],
+              'circle-color': matchColor,
+              'circle-opacity': 0.28,
+              'circle-stroke-width': 0
+            }
+          });
+
+          // Main Point Circle Layer (radius expands from 7 to 13 on hover!)
+          map.addLayer({
+            id: 'health-facilities-circle',
+            type: 'circle',
+            source: 'health-facilities',
+            paint: {
+              'circle-radius': [
+                'case',
+                ['boolean', ['feature-state', 'hover'], false],
+                13, // EXPANDED RADIUS ON HOVER!
+                7   // NORMAL RADIUS
+              ],
+              'circle-color': matchColor,
+              'circle-stroke-width': [
+                'case',
+                ['boolean', ['feature-state', 'hover'], false],
+                3.5,
+                1.5
+              ],
+              'circle-stroke-color': '#ffffff',
+              'circle-opacity': 0.95
+            }
+          });
+
+          // Setup Hover Events
+          map.on('mousemove', 'health-facilities-circle', (e) => {
+            if (e.features.length > 0) {
+              const feature = e.features[0];
+              map.getCanvas().style.cursor = 'pointer';
+
+              if (hoveredFeatureId !== null) {
+                map.setFeatureState({ source: 'health-facilities', id: hoveredFeatureId }, { hover: false });
+              }
+              hoveredFeatureId = feature.id;
+              map.setFeatureState({ source: 'health-facilities', id: hoveredFeatureId }, { hover: true });
+
+              // Build popup HTML
+              const props = feature.properties;
+              const coords = feature.geometry.coordinates;
+              const catColor = getCategoryColor(props.comment);
+
+              const popupHtml = `
+                <div class="popup-header">
+                  <div style="display: flex; gap: 6px; align-items: center; margin-bottom: 4px;">
+                    <span class="badge-category" style="background: ${catColor};">${props.comment}</span>
+                    <span class="badge-cnes">CNES: ${props['ref:CNES'] || 'N/D'}</span>
+                  </div>
+                  <div class="popup-title">${props.name || props.official_name}</div>
+                </div>
+                <div class="popup-row">
+                  <span>📍</span>
+                  <span>${props['addr:street'] || ''} ${props['addr:housenumber'] ? ', ' + props['addr:housenumber'] : ''} — ${props['addr:suburb'] || 'Pato Branco'}</span>
+                </div>
+                ${props.phone ? `
+                <div class="popup-row">
+                  <span>📞</span>
+                  <a class="popup-phone" href="tel:${props.phone}">${props.phone}</a>
+                </div>` : ''}
+                ${props.opening_hours ? `
+                <div class="popup-row">
+                  <span>⏰</span>
+                  <span><strong>Horário:</strong> ${props.opening_hours}</span>
+                </div>` : ''}
+                <div class="popup-row" style="margin-top: 6px; padding-top: 6px; border-top: 1px dashed #e2e8f0; font-size: 11px; color: #64748b;">
+                  <span>🏛️ ${props.operator || 'Público'}</span>
+                </div>
+              `;
+
+              popup.setLngLat(coords).setHTML(popupHtml).addTo(map);
+
+              // Highlight corresponding list card in sidebar
+              highlightCard(feature.id);
+            }
+          });
+
+          map.on('mouseleave', 'health-facilities-circle', () => {
+            map.getCanvas().style.cursor = '';
+            if (hoveredFeatureId !== null) {
+              map.setFeatureState({ source: 'health-facilities', id: hoveredFeatureId }, { hover: false });
+            }
+            hoveredFeatureId = null;
+            popup.remove();
+            clearCardHighlight();
+          });
+
+          // Click to center and zoom
+          map.on('click', 'health-facilities-circle', (e) => {
+            if (e.features.length > 0) {
+              const feature = e.features[0];
+              map.flyTo({ center: feature.geometry.coordinates, zoom: 15, duration: 1000 });
+            }
+          });
+
+          // Initial render of facility list
+          renderList(allFeatures);
+        });
+      })
+      .catch(err => console.error('Error loading GeoJSON:', err));
+
+    // Render Facilities List in Sidebar
+    function renderList(features) {
+      const container = document.getElementById('facility-list');
+      container.innerHTML = '';
+      document.getElementById('visible-count').innerText = features.length;
+
+      features.forEach((feat, index) => {
+        const props = feat.properties;
+        const catColor = getCategoryColor(props.comment);
+
+        const card = document.createElement('div');
+        card.className = 'facility-card';
+        card.id = `card-${feat.id ?? index}`;
+
+        card.innerHTML = `
+          <div class="card-top">
+            <div class="card-name">${props.name || props.official_name}</div>
+            <span class="badge-category" style="background: ${catColor};">${props.comment}</span>
+          </div>
+          <div class="card-addr">
+            <span>📍 ${props['addr:street'] || 'Logradouro não informado'} ${props['addr:housenumber'] ? ', ' + props['addr:housenumber'] : ''} (${props['addr:suburb'] || 'Pato Branco'})</span>
+          </div>
+          <div class="card-footer">
+            <span class="badge-cnes">CNES ${props['ref:CNES'] || ''}</span>
+            ${props.phone ? `<a href="tel:${props.phone}" class="card-phone" onclick="event.stopPropagation()">${props.phone}</a>` : '<span>Sem telefone</span>'}
+          </div>
+        `;
+
+        card.addEventListener('mouseenter', () => {
+          if (feat.id !== undefined) {
+            if (hoveredFeatureId !== null) {
+              map.setFeatureState({ source: 'health-facilities', id: hoveredFeatureId }, { hover: false });
+            }
+            hoveredFeatureId = feat.id;
+            map.setFeatureState({ source: 'health-facilities', id: feat.id }, { hover: true });
+          }
+        });
+
+        card.addEventListener('mouseleave', () => {
+          if (feat.id !== undefined) {
+            map.setFeatureState({ source: 'health-facilities', id: feat.id }, { hover: false });
+            hoveredFeatureId = null;
+          }
+        });
+
+        card.addEventListener('click', () => {
+          const coords = feat.geometry.coordinates;
+          map.flyTo({ center: coords, zoom: 15.5, duration: 1200 });
+
+          // Show popup
+          const popupHtml = `
+            <div class="popup-header">
+              <div style="display: flex; gap: 6px; align-items: center; margin-bottom: 4px;">
+                <span class="badge-category" style="background: ${catColor};">${props.comment}</span>
+                <span class="badge-cnes">CNES: ${props['ref:CNES'] || 'N/D'}</span>
+              </div>
+              <div class="popup-title">${props.name || props.official_name}</div>
+            </div>
+            <div class="popup-row">
+              <span>📍</span>
+              <span>${props['addr:street'] || ''} ${props['addr:housenumber'] ? ', ' + props['addr:housenumber'] : ''} — ${props['addr:suburb'] || 'Pato Branco'}</span>
+            </div>
+            ${props.phone ? `
+            <div class="popup-row">
+              <span>📞</span>
+              <a class="popup-phone" href="tel:${props.phone}">${props.phone}</a>
+            </div>` : ''}
+            <div class="popup-row" style="margin-top: 6px; padding-top: 6px; border-top: 1px dashed #e2e8f0; font-size: 11px; color: #64748b;">
+              <span>🏛️ ${props.operator || 'Público'}</span>
+            </div>
+          `;
+          popup.setLngLat(coords).setHTML(popupHtml).addTo(map);
+          highlightCard(feat.id ?? index);
+        });
+
+        container.appendChild(card);
+      });
+    }
+
+    function highlightCard(id) {
+      clearCardHighlight();
+      const el = document.getElementById(`card-${id}`);
+      if (el) {
+        el.classList.add('active');
+        el.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }
+    }
+
+    function clearCardHighlight() {
+      document.querySelectorAll('.facility-card.active').forEach(c => c.classList.remove('active'));
+    }
+
+    // Filter Logic
+    let currentCategory = 'ALL';
+    let currentSearch = '';
+
+    function applyFilters() {
+      const filtered = allFeatures.filter(feat => {
+        const props = feat.properties;
+        const comment = props.comment || '';
+
+        // Category matching
+        let matchesCategory = false;
+        if (currentCategory === 'ALL') {
+          matchesCategory = true;
+        } else if (currentCategory === 'UBS') {
+          matchesCategory = comment.startsWith('UBS');
+        } else if (currentCategory === 'CAPS') {
+          matchesCategory = comment.startsWith('CAPS');
+        } else if (currentCategory === 'Especialidades') {
+          matchesCategory = ['Odontologia (CEO)', 'Reabilitação (CER)', 'Reabilitação Física', 'Saúde da Mulher & Criança', 'Apoio Sorológico (COAS)', 'Consórcio Intermunicipal', 'Diagnóstico por Imagem', 'Serviço de Atenção Domiciliar'].includes(comment);
+        } else if (currentCategory === 'Vigilância') {
+          matchesCategory = ['Vigilância Sanitária', 'Vigilância Epidemiológica', 'Abastecimento Farmacêutico (CAF)', 'Abastecimento de Saúde (CAS)', 'Biossegurança em Saúde', 'Sala de Vacinas', 'Secretaria Municipal de Saúde', 'Regional de Saúde (Estadual)', 'Saúde do Trabalhador (CEREST)', 'Auditoria e Regulação'].includes(comment);
+        } else if (currentCategory === 'Outros') {
+          matchesCategory = ['Academia da Saúde', 'Doação de Sangue (HEMEPAR)'].includes(comment);
+        } else {
+          matchesCategory = (comment === currentCategory);
+        }
+
+        // Search matching
+        let matchesSearch = true;
+        if (currentSearch.trim() !== '') {
+          const s = currentSearch.toLowerCase();
+          const name = (props.name || '').toLowerCase();
+          const street = (props['addr:street'] || '').toLowerCase();
+          const suburb = (props['addr:suburb'] || '').toLowerCase();
+          const cnes = String(props['ref:CNES'] || '');
+          matchesSearch = name.includes(s) || street.includes(s) || suburb.includes(s) || cnes.includes(s);
+        }
+
+        return matchesCategory && matchesSearch;
+      });
+
+      // Update Map Source Filter
+      if (map.getSource('health-facilities')) {
+        if (filtered.length === allFeatures.length) {
+          map.setFilter('health-facilities-circle', null);
+          map.setFilter('health-facilities-glow', null);
+        } else {
+          const ids = filtered.map(f => f.id);
+          const filterExpr = ['in', ['id'], ['literal', ids]];
+          map.setFilter('health-facilities-circle', filterExpr);
+          map.setFilter('health-facilities-glow', filterExpr);
+        }
+      }
+
+      renderList(filtered);
+    }
+
+    // Event Listeners for Filter Chips
+    document.querySelectorAll('.chip').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.chip').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        currentCategory = btn.getAttribute('data-category');
+        applyFilters();
+      });
+    });
+
+    // Search Input Listener
+    document.getElementById('search-input').addEventListener('input', (e) => {
+      currentSearch = e.target.value;
+      applyFilters();
+    });
+
+    // Basemap Switcher
+    document.querySelectorAll('.basemap-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.basemap-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const styleKey = btn.getAttribute('data-style');
+        
+        // Save current health layers
+        map.setStyle(BASEMAP_STYLES[styleKey]);
+        map.once('style.load', () => {
+          // Re-add health-facilities source and layers
+          map.addSource('health-facilities', {
+            type: 'geojson',
+            data: 'data/unidades_saude_pato_branco.geojson',
+            generateId: true
+          });
+
+          const matchColor = ['match', ['get', 'comment']];
+          for (const [comment, color] of Object.entries(CATEGORY_COLORS)) {
+            matchColor.push(comment, color);
+          }
+          matchColor.push('#64748b');
+
+          map.addLayer({
+            id: 'health-facilities-glow',
+            type: 'circle',
+            source: 'health-facilities',
+            paint: {
+              'circle-radius': ['case', ['boolean', ['feature-state', 'hover'], false], 22, 0],
+              'circle-color': matchColor,
+              'circle-opacity': 0.28
+            }
+          });
+
+          map.addLayer({
+            id: 'health-facilities-circle',
+            type: 'circle',
+            source: 'health-facilities',
+            paint: {
+              'circle-radius': ['case', ['boolean', ['feature-state', 'hover'], false], 13, 7],
+              'circle-color': matchColor,
+              'circle-stroke-width': ['case', ['boolean', ['feature-state', 'hover'], false], 3.5, 1.5],
+              'circle-stroke-color': '#ffffff',
+              'circle-opacity': 0.95
+            }
+          });
+          applyFilters();
+        });
+      });
+    });
+  </script>
+</body>
+</html>
