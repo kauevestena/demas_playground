@@ -34,3 +34,7 @@ ENV/
 *.swo
 .DS_Store
 Thumbs.db
+
+# Cloudflare & Scratch
+.wrangler/
+scratch/

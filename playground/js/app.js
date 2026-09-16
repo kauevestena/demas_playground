@@ -38,6 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let currentStyleId = 'liberty';
   let hoveredFeatureId = null;
   let currentFeatures = [];
+  let currentGeojson = null;
   let activeCategory = 'ALL';
   let searchQuery = '';
   let cachedManifest = {};
@@ -67,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (proxyInput) proxyInput.value = savedProxy;
 
   // 3. Initialize MapLibre GL
-  map = new maplibre_gl.Map({
+  map = new maplibregl.Map({
     container: 'map',
     style: BASEMAPS.liberty,
     center: [-52.6799, -26.2252], // Default: Pato Branco
@@ -76,10 +77,10 @@ document.addEventListener('DOMContentLoaded', () => {
     maxZoom: 19,
   });
 
-  map.addControl(new maplibre_gl.NavigationControl({ showCompass: true, visualizePitch: true }), 'top-right');
-  map.addControl(new maplibre_gl.ScaleControl({ unit: 'metric' }), 'bottom-left');
+  map.addControl(new maplibregl.NavigationControl({ showCompass: true, visualizePitch: true }), 'top-right');
+  map.addControl(new maplibregl.ScaleControl({ unit: 'metric' }), 'bottom-left');
 
-  const popup = new maplibre_gl.Popup({
+  const popup = new maplibregl.Popup({
     closeButton: true,
     closeOnClick: false,
     offset: 14,
@@ -233,9 +234,28 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  map.on('load', async () => {
+  function applyCameraForCurrentCity() {
+    if (!map || !map.loaded()) return;
+    const codeStr = String(currentCityInfo.code6);
+    if (cachedManifest[codeStr] && cachedManifest[codeStr].center) {
+      map.flyTo({
+        center: cachedManifest[codeStr].center,
+        zoom: 12.5,
+        speed: 1.2,
+      });
+    } else if (currentFeatures.length > 0) {
+      const bounds = new maplibregl.LngLatBounds();
+      currentFeatures.forEach(f => bounds.extend(f.geometry.coordinates));
+      map.fitBounds(bounds, { padding: 50, maxZoom: 14.5, speed: 1.2 });
+    }
+  }
+
+  map.on('load', () => {
     addHealthLayers();
-    await initApplication();
+    if (currentGeojson && map.getSource('health-facilities')) {
+      map.getSource('health-facilities').setData(currentGeojson);
+      applyCameraForCurrentCity();
+    }
   });
 
   // Basemap switcher buttons
@@ -357,10 +377,10 @@ document.addEventListener('DOMContentLoaded', () => {
       if (!selectCode) {
         const firstCached = munis.find(m => cachedManifest[String(m.code6)]);
         if (firstCached) {
-          muniSelect.value = firstCached.code6;
+          muniSelect.value = String(firstCached.code6);
           await loadCityData(firstCached.code6, firstCached.nome, uf);
         } else if (munis.length > 0) {
-          muniSelect.value = munis[0].code6;
+          muniSelect.value = String(munis[0].code6);
           await loadCityData(munis[0].code6, munis[0].nome, uf);
         }
       }
@@ -409,22 +429,10 @@ document.addEventListener('DOMContentLoaded', () => {
       showProgress(false);
 
       currentFeatures = geojson.features || [];
-      const source = map.getSource('health-facilities');
-      if (source) {
-        source.setData(geojson);
-      }
-
-      // Center map on city
-      if (cachedManifest[String(code6)] && cachedManifest[String(code6)].center) {
-        map.flyTo({
-          center: cachedManifest[String(code6)].center,
-          zoom: 12.5,
-          speed: 1.2,
-        });
-      } else if (currentFeatures.length > 0) {
-        const bounds = new maplibre_gl.LngLatBounds();
-        currentFeatures.forEach(f => bounds.extend(f.geometry.coordinates));
-        map.fitBounds(bounds, { padding: 50, maxZoom: 14.5, speed: 1.2 });
+      currentGeojson = geojson;
+      if (map && map.loaded() && map.getSource('health-facilities')) {
+        map.getSource('health-facilities').setData(geojson);
+        applyCameraForCurrentCity();
       }
 
       updateUI();
@@ -624,4 +632,7 @@ document.addEventListener('DOMContentLoaded', () => {
       proxyModal.style.display = 'flex';
     });
   }
+
+  // 7. Start application loading immediately
+  initApplication();
 });
