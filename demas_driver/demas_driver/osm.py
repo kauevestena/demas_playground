@@ -51,6 +51,14 @@ ACCENT_DICT = {
     r"\bLourenco\b": "Lourenço",
 }
 
+UF_BY_CODE = {
+    11: "RO", 12: "AC", 13: "AM", 14: "RR", 15: "PA", 16: "AP", 17: "TO",
+    21: "MA", 22: "PI", 23: "CE", 24: "RN", 25: "PB", 26: "PE", 27: "AL", 28: "SE", 29: "BA",
+    31: "MG", 32: "ES", 33: "RJ", 35: "SP",
+    41: "PR", 42: "SC", 43: "RS",
+    50: "MS", 51: "MT", 52: "GO", 53: "DF",
+}
+
 # Verified coordinates for Pato Branco to replace default placeholders or erroneous values
 VERIFIED_COORDINATES = {
     4102231: (-26.2279538, -52.6717836),  # CAPSi
@@ -171,7 +179,7 @@ def clean_email(email_str: str) -> str:
     return ""
 
 
-def determine_category_and_tags(estab: dict) -> tuple:
+def determine_category_and_tags(estab: dict, municipality_name: str = None, uf_sigla: str = None) -> tuple:
     """
     Determines:
       - comment: concise category string (e.g. 'UBS', 'UPA 24h', 'CAPS', 'CEO', etc.)
@@ -188,13 +196,19 @@ def determine_category_and_tags(estab: dict) -> tuple:
     tel = clean_phone(estab.get("numero_telefone_estabelecimento"))
     email = clean_email(estab.get("endereco_email_estabelecimento"))
 
+    cod_uf = estab.get("codigo_uf")
+    state = uf_sigla or UF_BY_CODE.get(cod_uf, "")
+    city = municipality_name or ""
+
     # Determine operator
     if nat_jur == "1023":
-        operator = "Governo do Estado do Paraná"
+        operator = f"Governo do Estado ({state})" if state else "Governo do Estado"
     elif nat_jur == "1210":
-        operator = "CONIMS - Consórcio Intermunicipal de Saúde"
+        operator = "Consórcio Intermunicipal de Saúde"
+    elif city:
+        operator = f"Prefeitura Municipal de {city}"
     else:
-        operator = "Prefeitura Municipal de Pato Branco"
+        operator = "Administração Pública Municipal"
 
     tags = {
         "operator": operator,
@@ -217,11 +231,13 @@ def determine_category_and_tags(estab: dict) -> tuple:
     if num and num.upper() not in ("S/N", "0000", "0", "SN", "S/Nº"):
         tags["addr:housenumber"] = num
 
-    if bairro and bairro.upper() not in ("INTERIOR", "PATO BRANCO"):
+    if bairro and bairro.upper() not in ("INTERIOR", "CENTRO", city.upper() if city else ""):
         tags["addr:suburb"] = title_case_pt(bairro)
 
-    tags["addr:city"] = "Pato Branco"
-    tags["addr:state"] = "PR"
+    if city:
+        tags["addr:city"] = city
+    if state:
+        tags["addr:state"] = state
     tags["addr:country"] = "BR"
 
     if cep:
@@ -455,7 +471,12 @@ def determine_category_and_tags(estab: dict) -> tuple:
     return comment, tags
 
 
-def convert_to_osm_geojson(establishments: list, apply_micro_offsets: bool = True) -> dict:
+def convert_to_osm_geojson(
+    establishments: list,
+    apply_micro_offsets: bool = True,
+    municipality_name: str = None,
+    uf_sigla: str = None,
+) -> dict:
     """
     Converts a list of CNES establishment dictionaries into a JOSM-ready GeoJSON FeatureCollection.
     """
@@ -468,12 +489,20 @@ def convert_to_osm_geojson(establishments: list, apply_micro_offsets: bool = Tru
         if cnes in VERIFIED_COORDINATES:
             lat, lon = VERIFIED_COORDINATES[cnes]
         else:
-            lat = estab.get("latitude_estabelecimento_decimo_grau")
-            lon = estab.get("longitude_estabelecimento_decimo_grau")
+            raw_lat = estab.get("latitude_estabelecimento_decimo_grau")
+            raw_lon = estab.get("longitude_estabelecimento_decimo_grau")
+            try:
+                lat = float(raw_lat) if raw_lat is not None else None
+                lon = float(raw_lon) if raw_lon is not None else None
+                if lat is not None and lon is not None:
+                    # Sanity check: valid coordinates within Brazil bounds
+                    if not (-35.0 <= lat <= 6.0 and -75.0 <= lon <= -34.0):
+                        lat, lon = None, None
+            except (ValueError, TypeError):
+                lat, lon = None, None
 
-        # Sanity check: fallback to city center if coordinate is missing or off bounds
-        if lat is None or lon is None or not (-26.40 <= lat <= -26.00 and -52.90 <= lon <= -52.50):
-            lat, lon = (-26.2295, -52.6716)
+        if lat is None or lon is None:
+            continue
 
         # Micro-offset for co-located facilities
         if apply_micro_offsets:
@@ -489,7 +518,7 @@ def convert_to_osm_geojson(establishments: list, apply_micro_offsets: bool = Tru
             else:
                 coord_usage[coord_key] = 1
 
-        _, tags = determine_category_and_tags(estab)
+        _, tags = determine_category_and_tags(estab, municipality_name=municipality_name, uf_sigla=uf_sigla)
 
         features.append(
             {

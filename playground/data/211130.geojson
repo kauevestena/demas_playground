@@ -1,0 +1,5786 @@
+{
+  "type": "FeatureCollection",
+  "name": "Estabelecimentos Públicos de Saúde - DEMAS / CNES",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 948357,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "948357",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO ATENDIMENTO A PESSOA COM HIPERTENSAO E DIABETES",
+        "addr:street": "Rua Machado de Assis",
+        "addr:suburb": "Liberdade",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65035-280",
+        "phone": "+55 98 99150-9827",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro Atendimento A Pessoa Com Hipertensao e Diabetes",
+        "short_name": "UBS Centro Atendimento A Pessoa Com Hipertensao e Diabetes",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2843804,
+          -2.532001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2308444,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2308444",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE AMAR",
+        "addr:street": "Rua Deputado Luis Rocha",
+        "addr:housenumber": "24",
+        "addr:suburb": "Vicente Fialho",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65070-290",
+        "email": "antonina.silva@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude Amar",
+        "short_name": "UBS Centro de Saude Amar",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2367134,
+          -2.5116108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2876175,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2876175",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE BAIRRO DE FATIMA",
+        "addr:street": "Rua da Liberdade",
+        "addr:housenumber": "76",
+        "addr:suburb": "Fatima",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65010-000",
+        "email": "emillyruahma1999@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude Bairro de Fatima",
+        "short_name": "UBS Centro de Saude Bairro de Fatima",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.29292,
+          -2.53434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 666394,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "666394",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE BARRETO",
+        "addr:street": "Rua São Domingos",
+        "addr:suburb": "Barreto",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65041-380",
+        "email": "daniellisantoscoutinho7@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude Barreto",
+        "short_name": "UBS Centro de Saude Barreto",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2603936,
+          -2.5441471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2309998,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2309998",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE BEZERRA DE MENESES",
+        "addr:street": "Rua 02",
+        "addr:suburb": "São Francisco",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65076-340",
+        "phone": "+55 46 98211-7279",
+        "email": "csbezerrademenezes@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude Bezerra de Meneses",
+        "short_name": "UBS Centro de Saude Bezerra de Meneses",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3047296,
+          -2.5080751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2309289,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2309289",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE COHAB ANIL",
+        "addr:street": "Rua 4",
+        "addr:suburb": "Iv Conjunto Cohab",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65010-000",
+        "email": "enfermeirabrunnalima@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude Cohab Anil",
+        "short_name": "UBS Centro de Saude Cohab Anil",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2170617,
+          -2.5349739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2645866,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2645866",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE COQUEIRO",
+        "addr:street": "Avenida Coqueiro",
+        "addr:housenumber": "01",
+        "addr:suburb": "Coqueiro",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65020-150",
+        "email": "wilcassis@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude Coqueiro",
+        "short_name": "UBS Centro de Saude Coqueiro",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.359522,
+          -2.7276745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7261136,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "7261136",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE COQUILHO",
+        "addr:street": "Avenida Principal 10 A",
+        "addr:housenumber": "10",
+        "addr:suburb": "Vila Coquilho",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65010-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude Coquilho",
+        "short_name": "UBS Centro de Saude Coquilho",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.1871686,
+          -2.6666777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2697963,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2697963",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE DA LIBERDADE",
+        "addr:street": "Rua Machado de Assis",
+        "addr:suburb": "Liberdade",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65035-380",
+        "email": "andressacosta.cst@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude da Liberdade",
+        "short_name": "UBS Centro de Saude da Liberdade",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2842356,
+          -2.5320135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3226387,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "3226387",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE DA VILA LOBAO",
+        "addr:street": "Estrada da Vitoria",
+        "addr:housenumber": "08",
+        "addr:suburb": "Vila Lobao",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65046-070",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude da Vila Lobao",
+        "short_name": "UBS Centro de Saude da Vila Lobao",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.243098,
+          -2.5636134
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2309262,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2309262",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE DE PEDRINHAS I",
+        "addr:street": "Rua Br 135 Km 13",
+        "addr:suburb": "Pedrinhas",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65095-603",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude de Pedrinhas I",
+        "short_name": "UBS Centro de Saude de Pedrinhas I",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2955153,
+          -2.6812242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2456923,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2456923",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE DE PEDRINHAS II",
+        "addr:street": "Rua Nova",
+        "addr:suburb": "Pedrinhas",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65095-000",
+        "phone": "+55 98 3241-5231",
+        "email": "lohannasousa.18@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude de Pedrinhas II",
+        "short_name": "UBS Centro de Saude de Pedrinhas II",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3043424,
+          -2.6917786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8181918,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "8181918",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE DIAMANTE",
+        "addr:street": "Travessa Dirceu",
+        "addr:housenumber": "36",
+        "addr:suburb": "Diamante",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65010-030",
+        "email": "luciely_nunes16@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude Diamante",
+        "short_name": "UBS Centro de Saude Diamante",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.1918,
+          -2.818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 978841,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "978841",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE DIVINEIA",
+        "addr:street": "Avenida Mahiba Azar",
+        "addr:housenumber": "02",
+        "addr:suburb": "Jardim America Olhod",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65065-250",
+        "email": "csdivineia@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude Divineia",
+        "short_name": "UBS Centro de Saude Divineia",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2208933,
+          -2.490757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2697971,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2697971",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE DJALMA MARQUES",
+        "addr:street": "Rua Av 01",
+        "addr:suburb": "Turu",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65065-680",
+        "email": "hildafernandesbarreto2014@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude Djalma Marques",
+        "short_name": "UBS Centro de Saude Djalma Marques",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2165815,
+          -2.5240511
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2455838,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2455838",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE DO JOAO PAULO",
+        "addr:street": "Rua Gostinho Torres",
+        "addr:suburb": "João Paulo",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65040-150",
+        "email": "centrodesaudejoaopaulogestor@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude do João Paulo",
+        "short_name": "UBS Centro de Saude do João Paulo",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2731012,
+          -2.5445474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2308797,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2308797",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE DO RADIONAL",
+        "addr:street": "Rua G",
+        "addr:suburb": "Radional",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65047-550",
+        "email": "andreza.gomes1@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude do Radional",
+        "short_name": "UBS Centro de Saude do Radional",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.250213,
+          -2.5480909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2458780,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2458780",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE DO TIBIRI",
+        "addr:street": "Rua Principal",
+        "addr:suburb": "Tibiri",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65095-820",
+        "phone": "+55 46 98241-7355",
+        "email": "ingrid.sousandrade@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude do Tibiri",
+        "short_name": "UBS Centro de Saude do Tibiri",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2470295,
+          -2.6120611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3365816,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "3365816",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE DR ANTONIO GUANARE",
+        "addr:street": "Rua da Vitoria",
+        "addr:suburb": "Coroadinho",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65040-210",
+        "phone": "+55 98 3271-1014",
+        "email": "csantonioguanare@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude Dr Antonio Guanare",
+        "short_name": "UBS Centro de Saude Dr Antonio Guanare",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2691216,
+          -2.5674339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7798342,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "7798342",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE DR EXPEDITO ALVES DE MELO",
+        "addr:street": "Avenida Brasil",
+        "addr:suburb": "Residencial Alexandr",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65010-000",
+        "email": "nonatopauloalves@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude Dr Expedito Alves de Melo",
+        "short_name": "UBS Centro de Saude Dr Expedito Alves de Melo",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.1879707,
+          -2.6063257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2698005,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2698005",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE DR JOSE RIBAMAR FRAZAO CORREA",
+        "addr:street": "Rua Tancredo Neves",
+        "addr:suburb": "Nova Republica",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65010-000",
+        "phone": "+55 98 3241-5803",
+        "email": "ilmaralima0808@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude Dr Jose Ribamar Frazao Correa",
+        "short_name": "UBS Centro de Saude Dr Jose Ribamar Frazao Correa",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2760524,
+          -2.6422066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7071116,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "7071116",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE DRA VALDECY ELEOTERIA MARTINS",
+        "addr:street": "Rua Av Principal",
+        "addr:suburb": "Residencial Paraiso",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65010-000",
+        "email": "sousalisboa@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude Dra Valdecy Eleoteria Martins",
+        "short_name": "UBS Centro de Saude Dra Valdecy Eleoteria Martins",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2994536,
+          -2.5696933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3173828,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "3173828",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE FABICIANA DE MORAES",
+        "addr:street": "Rua 03 Qda 07 Hab Nice Lobao",
+        "addr:suburb": "São Luis",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65010-000",
+        "email": "csfabicianademoraes@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude Fabiciana de Moraes",
+        "short_name": "UBS Centro de Saude Fabiciana de Moraes",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2066535,
+          -2.5870659
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3827402,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "3827402",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE GAPARA",
+        "addr:street": "Rua Projetada",
+        "addr:suburb": "Gapara",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65010-000",
+        "phone": "+55 98 3242-3656",
+        "email": "csgapara@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude Gapara",
+        "short_name": "UBS Centro de Saude Gapara",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3033713,
+          -2.589182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 842761,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "842761",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE IPASE",
+        "addr:street": "Rua Manoel Bandeira",
+        "addr:housenumber": "02",
+        "addr:suburb": "Ipase",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65061-031",
+        "email": "psipase21@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude Ipase",
+        "short_name": "UBS Centro de Saude Ipase",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2578626,
+          -2.5330158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2645890,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2645890",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE IPEM SAO CRISTOVAO",
+        "addr:street": "Rua Jerusalem Quadra 210",
+        "addr:housenumber": "16",
+        "addr:suburb": "Jardim São Cristóvão",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65055-380",
+        "email": "italoestrela@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude Ipem São Cristóvão",
+        "short_name": "UBS Centro de Saude Ipem São Cristóvão",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2177699,
+          -2.5683811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2309440,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2309440",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE ITAPERA",
+        "addr:street": "Rua Principal",
+        "addr:housenumber": "21",
+        "addr:suburb": "Itapera",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65010-000",
+        "email": "fabiannaadm@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude Itapera",
+        "short_name": "UBS Centro de Saude Itapera",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2763735,
+          -2.6782048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2645750,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2645750",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE JAILSON ALVES VIANA OLIMPICA III",
+        "addr:street": "Avenida 04",
+        "addr:suburb": "Cidade Olimpica",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65050-000",
+        "phone": "+55 98 3276-6039",
+        "email": "dayanakelly19@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude Jailson Alves Viana Olimpica III",
+        "short_name": "UBS Centro de Saude Jailson Alves Viana Olimpica III",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.1856211,
+          -2.6067973
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6120520,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "6120520",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE JANAINA",
+        "addr:street": "Rua Cafeteira",
+        "addr:housenumber": "01",
+        "addr:suburb": "Vila Janaina",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65050-420",
+        "email": "raysa_mayara@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude Janaina",
+        "short_name": "UBS Centro de Saude Janaina",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.1900901,
+          -2.593683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2455803,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2455803",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE JOAO DE DEUS",
+        "addr:street": "Rua Gardenia Goncalves",
+        "addr:suburb": "João de Deus",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65059-680",
+        "email": "fernandacutrim@outlook.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude João de Deus",
+        "short_name": "UBS Centro de Saude João de Deus",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2300523,
+          -2.5590897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2309270,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2309270",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE LAURA VASCONCELOS",
+        "addr:street": "Rua Br 135 Km 23",
+        "addr:suburb": "Estiva",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65010-000",
+        "phone": "3241-9754/3241-4638",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude Laura Vasconcelos",
+        "short_name": "UBS Centro de Saude Laura Vasconcelos",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3519567,
+          -2.7574533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2458721,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2458721",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE MARACANA",
+        "addr:street": "Rua Av Ros Mochel",
+        "addr:suburb": "Maracana",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65095-000",
+        "phone": "+55 98 3241-7604",
+        "email": "df3543407@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude Maracana",
+        "short_name": "UBS Centro de Saude Maracana",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2894453,
+          -2.6288335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2645785,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2645785",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE MARIA AYRECILA CIDADE OLIMPICA II",
+        "addr:street": "Rua 16",
+        "addr:housenumber": "01",
+        "addr:suburb": "Cidade Olimpica",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65010-000",
+        "phone": "+55 98 3257-8765",
+        "email": "dra.carliele30@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude Maria Ayrecila Cidade Olimpica II",
+        "short_name": "UBS Centro de Saude Maria Ayrecila Cidade Olimpica II",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.179939,
+          -2.5940095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3576566,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "3576566",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE MARIA DE LOURDES RODRIGUES",
+        "addr:street": "Rua Bom Jardim",
+        "addr:housenumber": "385",
+        "addr:suburb": "Rio Grande",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65010-000",
+        "phone": "+55 98 3241-7843",
+        "email": "socorro.m.enf@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude Maria de Lourdes Rodrigues",
+        "short_name": "UBS Centro de Saude Maria de Lourdes Rodrigues",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.292515,
+          -2.6535887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2530562,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2530562",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE NAZARE NEIVA",
+        "addr:street": "Rua 15",
+        "addr:suburb": "São Raimundo",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65010-000",
+        "email": "luenfermeira1@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude Nazare Neiva",
+        "short_name": "UBS Centro de Saude Nazare Neiva",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2291307,
+          -2.5962415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2456834,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2456834",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE QUEBRA POTE",
+        "addr:street": "Rua Praca do Cemiterio",
+        "addr:suburb": "Quebra Pote",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65010-000",
+        "email": "leticiamonroe2@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude Quebra Pote",
+        "short_name": "UBS Centro de Saude Quebra Pote",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2155818,
+          -2.6923404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2309300,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2309300",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE SALOMAO FIQUENE",
+        "addr:street": "Avenida Leste Oeste",
+        "addr:suburb": "Cohatrac II",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65052-020",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude Salomao Fiquene",
+        "short_name": "UBS Centro de Saude Salomao Fiquene",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2031532,
+          -2.5385422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2702878,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2702878",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE SANTA BARBARA",
+        "addr:street": "Rua Principal",
+        "addr:housenumber": "180",
+        "addr:suburb": "Santa Barbara",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65050-000",
+        "phone": "+55 98 3257-3417",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude Santa Barbara",
+        "short_name": "UBS Centro de Saude Santa Barbara",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2118392,
+          -2.6033704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2645807,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2645807",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE SANTA EFIGENIA",
+        "addr:street": "Rua Tancredo Neves",
+        "addr:suburb": "Santa Efigenia",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65010-000",
+        "email": "santaefigeniausf@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude Santa Efigenia",
+        "short_name": "UBS Centro de Saude Santa Efigenia",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.1919581,
+          -2.5767582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2310007,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2310007",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE SAO CRISTOVAO",
+        "addr:street": "Travessa Campo do Estrela",
+        "addr:suburb": "São Cristovo",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65055-070",
+        "phone": "+55 46 98258-8177",
+        "email": "postocssaocristovao@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude São Cristóvão",
+        "short_name": "UBS Centro de Saude São Cristóvão",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2396897,
+          -2.575022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2309297,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2309297",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE SAO RAIMUNDO",
+        "addr:street": "Rua Av Senador Jose Sarney",
+        "addr:suburb": "Vila Mauro Fecury II",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65010-000",
+        "phone": "+55 98 3273-1257",
+        "email": "rooseveltgestornassau@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude São Raimundo",
+        "short_name": "UBS Centro de Saude São Raimundo",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.33086,
+          -2.5500169
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2308479,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2308479",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE THALLES RIBEIRO GONCALVES",
+        "addr:street": "Rua Nossa Senhora da Conceicao",
+        "addr:suburb": "Vila Esperança",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65010-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude Thalles Ribeiro Goncalves",
+        "short_name": "UBS Centro de Saude Thalles Ribeiro Goncalves",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2571366,
+          -2.6165697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2456869,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2456869",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE VILA BACANGA EMBRIAO",
+        "addr:street": "Rua Av dos Portugueses",
+        "addr:suburb": "Vila Bacanga",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65080-820",
+        "email": "daniellemesquita459@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude Vila Bacanga Embriao",
+        "short_name": "UBS Centro de Saude Vila Bacanga Embriao",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3118202,
+          -2.5561939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3376265,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "3376265",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE VILA EMBRATEL",
+        "addr:street": "Rua 14",
+        "addr:suburb": "Vila Embratel",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65010-000",
+        "phone": "+55 98 3212-8913",
+        "email": "ubsvilaembratel@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude Vila Embratel",
+        "short_name": "UBS Centro de Saude Vila Embratel",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3098428,
+          -2.5696156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2458179,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2458179",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE VILA ITAMAR",
+        "addr:street": "Rua 2",
+        "addr:suburb": "Vila Itamar",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65055-060",
+        "phone": "+55 98 3258-1484",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude Vila Itamar",
+        "short_name": "UBS Centro de Saude Vila Itamar",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2469787,
+          -2.5945899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2309319,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2309319",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE VILA NOVA",
+        "addr:street": "Rua Praca Raimundo de Sousa Gomes",
+        "addr:suburb": "Vila Nova",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65080-350",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude Vila Nova",
+        "short_name": "UBS Centro de Saude Vila Nova",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3278111,
+          -2.538179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2456818,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2456818",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE YVES PARGA",
+        "addr:street": "Rua Principal Br 135",
+        "addr:suburb": "Vila Maranhao",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65095-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude Yves Parga",
+        "short_name": "UBS Centro de Saude Yves Parga",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3161231,
+          -2.624974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2698013,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2698013",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CLINICA DA FAMILIA DA COHAB",
+        "addr:street": "Rua 13",
+        "addr:suburb": "Cohab Anil",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65050-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Clinica da Familia da Cohab",
+        "short_name": "UBS Clinica da Familia da Cohab",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2156309,
+          -2.5416759
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2464624,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2464624",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CLINICA DA FAMILIA DO ANJO DA GUARDA",
+        "addr:street": "Avenida Principal",
+        "addr:suburb": "Anjo da Guarda",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65085-790",
+        "email": "luanagsg@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Clinica da Familia do Anjo da Guarda",
+        "short_name": "UBS Clinica da Familia do Anjo da Guarda",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3329749,
+          -2.5647562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 929417,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "929417",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CLINICA DA FAMILIA DO CENTRO",
+        "addr:street": "Rua Oswaldo Cruz",
+        "addr:housenumber": "921",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65051-630",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Clinica da Familia do Centro",
+        "short_name": "UBS Clinica da Familia do Centro",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.295385,
+          -2.5306646
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2455765,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2455765",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CLINICA DA FAMILIA DO SACAVEM",
+        "addr:street": "Avenida Presidente Medici",
+        "addr:suburb": "Sacavem",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65040-410",
+        "phone": "+55 98 3243-2223",
+        "email": "fernandolima2@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Clinica da Familia do Sacavem",
+        "short_name": "UBS Clinica da Familia do Sacavem",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2610126,
+          -2.5578223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2310058,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2310058",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CLINICA DA FAMILIA DO TURU",
+        "addr:street": "Avenida 7",
+        "addr:suburb": "Turu",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65065-760",
+        "phone": "+55 46 98212-8461",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Clinica da Familia do Turu",
+        "short_name": "UBS Clinica da Familia do Turu",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2229527,
+          -2.5026525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2881314,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2881314",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CLINICA DA FAMILIA MORADA DO SOL",
+        "addr:street": "Rua 10",
+        "addr:suburb": "Morad do Sol",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65010-000",
+        "email": "luarcuri03@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Clinica da Familia Morada do Sol",
+        "short_name": "UBS Clinica da Familia Morada do Sol",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2993504,
+          -2.6464224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5992982,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "5992982",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CLINICA DA FAMILIA VILA MARANHAO",
+        "addr:street": "Rua Conj Residecial Vila Maranhao",
+        "addr:suburb": "Vila Maranhao",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65090-872",
+        "email": "luanaslsilva@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Clinica da Familia Vila Maranhao",
+        "short_name": "UBS Clinica da Familia Vila Maranhao",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2972982,
+          -2.53599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7152744,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "7152744",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "NUCLEO DE ASSISTENCIA DE SAUDE NAS",
+        "addr:street": "Rua Br 135 Km 14",
+        "addr:suburb": "Pedrinhas",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65095-603",
+        "phone": "+55 98 3276-0891",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Nucleo de Assistencia de Saude Nas",
+        "short_name": "UBS Nucleo de Assistencia de Saude Nas",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.297,
+          -2.53
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4096584,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "4096584",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PENITENCIARIA REGIONAL DE SAO LUIS PRSLZ",
+        "addr:street": "Rua Br 135 K16",
+        "addr:suburb": "Pedrinhas",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65095-603",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Penitenciaria Regional de São Luis Prslz",
+        "short_name": "UBS Penitenciaria Regional de São Luis Prslz",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2969727,
+          -2.5299843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9784950,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "9784950",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PROCURADORIA GERAL DA JUSTICA UNIDADE CONSULTORIO MEDICO",
+        "addr:street": "Rua Av Carlos Cunha",
+        "addr:suburb": "Jacaracaty",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65076-280",
+        "email": "marconisat@ig.com.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Procuradoria Geral da Justica Unidade Consultorio Medico",
+        "short_name": "UBS Procuradoria Geral da Justica Unidade Consultorio Medico",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.287,
+          -2.51
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2645793,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2645793",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "U S F ANTONIO CARLOS SOUSA REIS OLIMPICA I",
+        "addr:street": "Rua Dois",
+        "addr:suburb": "Cidade Olimpica",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65058-508",
+        "phone": "+55 98 3257-6427",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde U S F Antonio Carlos Sousa Reis Olimpica I",
+        "short_name": "UBS U S F Antonio Carlos Sousa Reis Olimpica I",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.1872824,
+          -2.5974648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 724203,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "724203",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UBS VEREADOR BATISTA MATOS ALEMANHA",
+        "addr:street": "Rua Jose Seveira",
+        "addr:housenumber": "05",
+        "addr:suburb": "Alemanha",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65036-190",
+        "email": "sheilagugui@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde UBS Vereador Batista Matos Alemanha",
+        "short_name": "UBS UBS Vereador Batista Matos Alemanha",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2695597,
+          -2.537398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9904638,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "9904638",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE CINTRA",
+        "addr:street": "Rua da Companhia",
+        "addr:housenumber": "01",
+        "addr:suburb": "Anil",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65045-230",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Cintra",
+        "short_name": "UBS Unidade Básica de Saude Cintra",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2378763,
+          -2.5444839
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3173852,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "3173852",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA DO SAO FRANCISCO",
+        "addr:street": "Rua Paparaubas Lote 31",
+        "addr:suburb": "São Francisco",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65010-000",
+        "email": "maedelara@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia do São Francisco",
+        "short_name": "UBS Da Familia do São Francisco",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2991874,
+          -2.5140255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2645815,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2645815",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA PIRAPORA",
+        "addr:street": "Rua Av Santos Dumont Quadra D",
+        "addr:suburb": "Tirirical",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65010-000",
+        "email": "adricaferreirac@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Pirapora",
+        "short_name": "UBS Da Familia Pirapora",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2385073,
+          -2.5591947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2645777,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2645777",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA SANTA CLARA",
+        "addr:street": "Rua Lucy Sarney Rua Uniao",
+        "addr:suburb": "Santa Clara",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65010-000",
+        "phone": "+55 98 3257-2026",
+        "email": "rbkati@bol.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Santa Clara",
+        "short_name": "UBS Da Familia Santa Clara",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.1986015,
+          -2.596122
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2645769,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2645769",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA VILA SARNEY",
+        "addr:street": "Rua Br 135 Km 07",
+        "addr:suburb": "Vila Sarney",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65095-602",
+        "phone": "+55 98 3241-1833",
+        "email": "mayara_crys15@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Vila Sarney",
+        "short_name": "UBS Da Familia Vila Sarney",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2706714,
+          -2.6336726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4091426,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "4091426",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE PRISIONAL DE RESSOCIALIZACAO DE SAO LUIS UPR 2",
+        "addr:street": "Rua Br 135 Km 13",
+        "addr:housenumber": "1",
+        "addr:suburb": "Pedrinhas",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65095-603",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Prisional",
+        "short_name": "UBS Prisional",
+        "access": "private",
+        "comment": "UBS Prisional"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2972,
+          -2.531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4091418,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "4091418",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE PRISIONAL DE RESSOCIALIZACAO DE SAO LUIS UPR 6",
+        "addr:street": "Rua Br 135 Km 13",
+        "addr:housenumber": "1",
+        "addr:suburb": "Pedrinhas",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65095-603",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Prisional",
+        "short_name": "UBS Prisional",
+        "access": "private",
+        "comment": "UBS Prisional"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.297,
+          -2.531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6929370,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "6929370",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE PRISIONAL DE RESSOCIALIZACAO FEMININA",
+        "addr:street": "Rua Br 135 Km 15",
+        "addr:suburb": "Pedrinhas",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65095-603",
+        "phone": "+55 98 3264-7202",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Prisional",
+        "short_name": "UBS Prisional",
+        "access": "private",
+        "comment": "UBS Prisional"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2979,
+          -2.5318
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6929389,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "6929389",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE PRISIONAL SAO LUIS 5",
+        "addr:street": "Rua Br 135 Km 15",
+        "addr:suburb": "Pedrinhas",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65095-603",
+        "phone": "+55 98 3241-9875",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Prisional",
+        "short_name": "UBS Prisional",
+        "access": "private",
+        "comment": "UBS Prisional"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2969727,
+          -2.5300157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2697998,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2697998",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ESPECIALIDADES DO FILIPINHO",
+        "addr:street": "Rua Vespasiano Qd 13",
+        "addr:housenumber": "16",
+        "addr:suburb": "Filipinho",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65043-030",
+        "phone": "+55 98 3214-4614",
+        "email": "cemfilipinhoslz@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3037998,
+          -2.53269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2698021,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2698021",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ESPECIALIDADES DR PAULO RAMOS",
+        "addr:street": "Rua do Passeio",
+        "addr:housenumber": "236",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65015-350",
+        "phone": "+55 98 3231-3265",
+        "email": "2017cspramos@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3031836,
+          -2.535426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2698048,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2698048",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ESPECIALIDADES VILA ESPERANCA",
+        "addr:street": "Rua Praca Marly Sarney",
+        "addr:suburb": "Vila Esperança",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65037-330",
+        "phone": "+55 98 99161-3951",
+        "email": "cemvilaesperanca2019@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3182683,
+          -2.5358333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2697955,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "2697955",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POLICLINICA COHATRAC",
+        "addr:street": "Rua Nove",
+        "addr:housenumber": "1",
+        "addr:suburb": "Cohatrac II",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65054-350",
+        "phone": "+55 98 3238-5786",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2977955,
+          -2.53269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6905935,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "6905935",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POLICLINICA DA CIDADE OPERARIA",
+        "addr:street": "Rua Av Pricipal Av Oeste",
+        "addr:suburb": "Cidade Operaria",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65058-185",
+        "phone": "+55 98 3247-2572",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2975935,
+          -2.5369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2874520,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "2874520",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POLICLINICA DA CRIANCA",
+        "addr:street": "Avenida Iv",
+        "addr:housenumber": "71",
+        "addr:suburb": "Cohab",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65051-225",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2979,
+          -2.5317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2887061,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "2887061",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POLICLINICA DO COROADINHO",
+        "addr:street": "Rua Av dos Africanos",
+        "addr:suburb": "Coroadinho",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65042-245",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2572243,
+          -2.5573473
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2459647,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "2459647",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POLICLINICA DO DIAMANTE",
+        "addr:street": "Rua João Luis",
+        "addr:housenumber": "01",
+        "addr:suburb": "Diamante",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65015-340",
+        "phone": "+55 46 98232-7698",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2979647,
+          -2.53245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 806935,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "806935",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POLICLINICA DO IDOSO",
+        "addr:street": "Rua Av Quarto Centenario",
+        "addr:suburb": "Liberdade",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65035-033",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2796802,
+          -2.5257562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6905927,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "6905927",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POLICLINICA DO VINHAIS",
+        "addr:street": "Avenida 02",
+        "addr:suburb": "Vinhais",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65070-000",
+        "phone": "+55 46 98236-7535",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2972759,
+          -2.5369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 838535,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "838535",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POLICLINICA VILA LUIZAO",
+        "addr:street": "Rua do Cajueiro",
+        "addr:suburb": "Vila Luizao",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65057-420",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2518535,
+          -2.59083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 750379,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "750379",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PROGRAMA SAUDE JA AMBULATORIO DE ESPECIALIDADES",
+        "addr:street": "Rua Granja Barreto",
+        "addr:housenumber": "01",
+        "addr:suburb": "Outeiro da Cruz",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65040-620",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.0379,
+          -2.075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4392159,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "4392159",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAUDE JA CENTRO DE ESPECIALIDADES DO ITAQUI BACANGA",
+        "addr:street": "Rua Av dos Portugueses",
+        "addr:suburb": "Anjo da Guarda",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65010-000",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3007022,
+          -2.5441708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2697661,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "2697661",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL AQUILES LISBOA",
+        "addr:street": "Rua Av Jose Sarney",
+        "addr:suburb": "Vila Nova",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65085-140",
+        "phone": "+55 98 3242-6534",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Aquiles Lisboa",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.29791,
+          -2.531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2308800,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2308800",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL DA CIDADE DR JACKSON LAGO",
+        "addr:street": "Rua Tancredo Neves",
+        "addr:suburb": "Santa Efigenia",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65082-153",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital da Cidade Dr Jackson Lago",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3022309,
+          -2.5323088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2882655,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "2882655",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL DA ILHA",
+        "addr:street": "Avenida São Luis Rei de Franca",
+        "addr:suburb": "Turu",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65065-470",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital da Ilha",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2291039,
+          -2.4944539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5446546,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "5446546",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL DA MULHER",
+        "addr:street": "Rua Av dos Portugueses",
+        "addr:suburb": "Anjo da Guarda",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65010-000",
+        "phone": "(098) 98 992000897",
+        "email": "hospitaldamulherdirecaoslz@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital da Mulher",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3020678,
+          -2.5356833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9144706,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "9144706",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL DA ZONA RURAL",
+        "addr:street": "Rua Br 135 Km 07",
+        "addr:suburb": "Maracana",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65010-000",
+        "phone": "(98)",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital da Zona Rural",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.303,
+          -2.53
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2464594,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "2464594",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL DE REF EST DE ALTA COMPLEXIDADE DR CARLOS MACIEIRA",
+        "addr:street": "Rua Av Jeronimo de Albuquerque",
+        "addr:suburb": "Calhau",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65070-220",
+        "phone": "+55 46 98235-5722",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital de Ref Est de Alta Complexidade Dr Carlos Macieira",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2464977,
+          -2.5225918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2455773,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2455773",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL DO COROADINHO",
+        "addr:street": "Rua da Vitoria",
+        "addr:housenumber": "01",
+        "addr:suburb": "Coroadinho",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65040-120",
+        "phone": "+55 98 3212-8402",
+        "email": "umcoroadinho@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital do Coroadinho",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3120885,
+          -2.5357905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2456915,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2456915",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL DO ITAQUI BACANGA",
+        "addr:street": "Rua dos Portugueses",
+        "addr:suburb": "Anjo da Guarda",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65080-805",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital do Itaqui Bacanga",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2216473,
+          -2.4879505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2309475,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "2309475",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL DR GENESIO REGO",
+        "addr:street": "Avenida dos Franceses",
+        "addr:suburb": "Vila Palmeira",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65036-283",
+        "phone": "+55 46 98243-1045",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Dr Genesio Rego",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3029727,
+          -2.5299843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 180637,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "180637",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL DR RAIMUNDO LIMA SLZ",
+        "addr:street": "Avenida Getulio Vargas",
+        "addr:housenumber": "2508",
+        "addr:suburb": "Monte Castelo",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65025-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Dr Raimundo Lima Slz",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3274911,
+          -2.530365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3344614,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "3344614",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL GERAL DA VILA LUIZAO",
+        "addr:street": "Rua São Paulo",
+        "addr:suburb": "Vila Luizao",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65068-641",
+        "phone": "+55 98 3233-0665",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Geral da Vila Luizao",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3059013,
+          -2.5621339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2308762,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2308762",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL MUNICIPAL DJALMA MARQUES SOCORRAO I",
+        "addr:street": "Rua do Passeio",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65015-370",
+        "phone": "+55 98 99162-7622",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Municipal Djalma Marques Socorrao I",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3167448,
+          -2.5358333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2458292,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "2458292",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL PRESIDENTE VARGAS",
+        "addr:street": "Rua 05 de Janeiro",
+        "addr:housenumber": "166",
+        "addr:suburb": "Jordoa",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65040-450",
+        "phone": "+55 31 98324-9809",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Presidente Vargas",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2979,
+          -2.53188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2702886,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "2702886",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "COMPLEXO HOSPITALAR MATERNO INFANTIL DO MARANHAO",
+        "addr:street": "Rua do Norte",
+        "addr:housenumber": "2",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65015-330",
+        "phone": "+55 46 98231-4856",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Complexo Hospitalar Materno Infantil do Maranhao",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2632624,
+          -2.5661403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2458799,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2458799",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL DA CRIANCA DR ODORICO AMARAL DE MATOS",
+        "addr:street": "Avenida dos Franceses",
+        "addr:housenumber": "113",
+        "addr:suburb": "Alemanha",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65036-281",
+        "phone": "+55 46 98243-5458",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital da Crianca Dr Odorico Amaral de Matos",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3023896,
+          -2.535769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2646536,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "2646536",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL DE ONCOLOGIA DO MARANHAO DR TARQUINIO LOPES FILHO",
+        "addr:street": "Rua Praca Neto Guterres",
+        "addr:housenumber": "002",
+        "addr:suburb": "Madre Deus",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65015-615",
+        "phone": "+55 98 3218-8600",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital de Oncologia do Maranhao Dr Tarquinio Lopes Filho",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2976536,
+          -2.53264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9364439,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "9364439",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL DE TRAUMA E ORTOPEDIA HTO",
+        "addr:street": "Rua Cantanhede",
+        "addr:housenumber": "03",
+        "addr:suburb": "Turu",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65073-215",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital de Trauma e Ortopedia Hto",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2516382,
+          -2.4875249
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2457768,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "2457768",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL NINA RODRIGUES",
+        "addr:street": "Rua Av Getulio Vargas",
+        "addr:housenumber": "2508",
+        "addr:suburb": "Monte Castelo",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65037-010",
+        "phone": "+55 46 98232-5080",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Nina Rodrigues",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.32749,
+          -2.5303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2309254,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "2309254",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "MATERNIDADE DE ALTA COMPLEXIDADE DO MARANHAO",
+        "addr:street": "Avenida Jeronimo de Albuquerque",
+        "addr:suburb": "Cohab Anil III",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65051-210",
+        "phone": "+55 46 98245-2323",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Maternidade de Alta Complexidade do Maranhao",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2208338,
+          -2.5390372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2697688,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "2697688",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "MATERNIDADE NOSSA SENHORA DA PENHA",
+        "addr:street": "Rua Dinamarca",
+        "addr:housenumber": "25",
+        "addr:suburb": "Anjo da Guarda",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65085-808",
+        "phone": "+55 98 3228-9763",
+        "email": "hcnspenha@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Maternidade Nossa Senhora da Penha",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.1766333,
+          -2.5920672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2456907,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2456907",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE MISTA DE SAO BERNARDO",
+        "addr:street": "Avenida Tiradente",
+        "addr:suburb": "São Bernardo",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65056-300",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Mista de São Bernardo",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3039989,
+          -2.5408495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2464276,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2464276",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE MISTA DO BEQUIMAO",
+        "addr:street": "Rua Av do Contorno",
+        "addr:suburb": "Bequimao",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65061-510",
+        "phone": "+55 98 99117-2945",
+        "email": "umbequimao@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Mista do Bequimao",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.260354,
+          -2.5514606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2457784,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2457784",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PRONTO SOCORRO DO ANIL",
+        "addr:street": "Rua Av Casemiro Junior",
+        "addr:suburb": "Anil",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65045-180",
+        "phone": "+55 46 98245-2815",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "emergency": "yes",
+        "opening_hours": "24/7",
+        "name": "UPA 24 Horas Maria Itália Freddo",
+        "short_name": "UPA 24h",
+        "comment": "UPA 24h"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2977784,
+          -2.53245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2309327,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "2309327",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO COMUNITARIO DO BEQUIMAO",
+        "addr:street": "Rua Delcy Batista",
+        "addr:suburb": "Conjunto Bequimao",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65061-560",
+        "phone": "+55 46 98236-4067",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro Comunitario do Bequimao",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3039327,
+          -2.5323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2698072,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "2698072",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "ESCOLA COMUNITARIA ORLANDO ARAUJO",
+        "addr:street": "Rua Jau",
+        "addr:housenumber": "48",
+        "addr:suburb": "Divineia",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65065-200",
+        "phone": "+55 46 98221-5057",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Escola Comunitaria Orlando Araujo",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3018317,
+          -2.5337969
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4392140,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "4392140",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "AMBULATORIO DE SAUDE MENTAL ITAQUI BACANGA",
+        "addr:street": "Avenida dos Portugueses",
+        "addr:suburb": "Vila Isabel",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65082-125",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Ambulatorio de Saude Mental Itaqui Bacanga",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2986131,
+          -2.549617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 409650,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "409650",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ASSISTENCIA A SAUDE DO SHOPPING DA CRIANCA",
+        "addr:street": "Travessa Boa Ventura",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65010-090",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Assistencia A Saude do Shopping da Crianca",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3059442,
+          -2.5306003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2310066,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2310066",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ASSISTENCIA D JOAO ANTONIO FARINA",
+        "addr:street": "Rua 03 Quadra 17",
+        "addr:housenumber": "05",
+        "addr:suburb": "Filipinho",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65042-010",
+        "phone": "+55 98 3214-4611",
+        "email": "csdjafarina@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Assistencia D João Antonio Farina",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3030066,
+          -2.53231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5107911,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "5107911",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ATENCAO INTEGRAL A SAUDE DO IDOSO",
+        "addr:street": "Rua Salvador de Oliveira",
+        "addr:housenumber": "12",
+        "addr:suburb": "Filipinho",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65043-130",
+        "phone": "+55 98 3243-2912",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Atencao Integral A Saude do Idoso",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3030977,
+          -2.5358548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2961830,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2961830",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE CUIDADOS A PESSOA COM DEFICIENCIA",
+        "addr:street": "Rua Sauvador Oliveira",
+        "addr:housenumber": "12",
+        "addr:suburb": "Filipinho",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65043-130",
+        "email": "caspd.semusslz@gmail.comn",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Cuidados A Pessoa Com Deficiencia",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2997932,
+          -2.5416855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9293159,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "9293159",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ESPECIALIDADE NINAR",
+        "addr:street": "Rua Dasmaceno",
+        "addr:suburb": "São Marcos",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65070-210",
+        "phone": "+55 98 99109-4779",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Especialidade Ninar",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2973159,
+          -2.53929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2308320,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2308320",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ESPECIALIDADE ODONTOLOGICA CEO ALEMANHA",
+        "addr:street": "Rua Luis de Carvalho",
+        "addr:suburb": "Alemanha",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65036-420",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Centro de Especialidades Odontológicas (CEO)",
+        "short_name": "CEO",
+        "comment": "Odontologia (CEO)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3024325,
+          -2.5357905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6048544,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "6048544",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ESPECIALIDADE ODONTOLOGICA CEO FILIPINHO",
+        "addr:street": "Rua Vespasiano Qda 13",
+        "addr:housenumber": "16",
+        "addr:suburb": "Filipinho",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65043-030",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Centro de Especialidades Odontológicas (CEO)",
+        "short_name": "CEO",
+        "comment": "Odontologia (CEO)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3038273,
+          -2.5360048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6379575,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "6379575",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ESPECIALIDADE ODONTOLOGICA CEO VILA ESPERANCA",
+        "addr:street": "Rua São Raimundo",
+        "addr:suburb": "Vila Esperança",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65037-330",
+        "phone": "+55 98 97017-4896",
+        "email": "ceovilaesperanca@hotmail.com",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Centro de Especialidades Odontológicas (CEO)",
+        "short_name": "CEO",
+        "comment": "Odontologia (CEO)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3039575,
+          -2.53637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2310023,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2310023",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ESPECIALIDADES DO BAIRRO DE FATIMA",
+        "addr:street": "Rua Ademar de Barros",
+        "addr:suburb": "Bairro de Fatima",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65030-030",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Especialidades do Bairro de Fatima",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3026042,
+          -2.5355118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5993008,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "5993008",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ESPECIALIDADES ODONTOLOGICAS VILA MARANHAO",
+        "addr:street": "Rua Conj Residencial Vila Maranhao",
+        "addr:suburb": "Vila Maranhao",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65090-872",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Centro de Especialidades Odontológicas (CEO)",
+        "short_name": "CEO",
+        "comment": "Odontologia (CEO)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2966819,
+          -2.5375268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9931880,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "9931880",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE HEMODIALISE SAO LUIS",
+        "addr:street": "Rua Av Getulio Vargas",
+        "addr:housenumber": "2508",
+        "addr:suburb": "Monte Castelo",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65037-010",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Hemodialise São Luis",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.327,
+          -2.53
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2882671,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "2882671",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE REF ESPEC ATENCAO INTEGRADA SAUDE PESSOA IDOSA",
+        "addr:street": "Rua Treza",
+        "addr:housenumber": "286",
+        "addr:suburb": "Cohab Anil I",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65066-780",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Ref Espec Atencao Integrada Saude Pessoa Idosa",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.297126,
+          -2.53124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7694547,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "7694547",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO ESPECIALIZADO DE REABILITACAO DO OLHO DAGUA CER III",
+        "addr:street": "Rua Domingos Rodrigues",
+        "addr:housenumber": "070",
+        "addr:suburb": "Olho Dagua",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65073-460",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Centro Especializado em Reabilitação (CER)",
+        "short_name": "CER",
+        "comment": "Reabilitação (CER)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2217903,
+          -2.4784967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9804242,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "9804242",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO ESPECIALIZADO EM REABILITACAO CIDADE OPERARIA",
+        "addr:street": "Rua Av Leste",
+        "addr:suburb": "Cidade Operaria",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65058-181",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Centro Especializado em Reabilitação (CER)",
+        "short_name": "CER",
+        "comment": "Reabilitação (CER)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2500811,
+          -2.5309876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4147995,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "4147995",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO ESPECIALIZADO TEA 12",
+        "addr:street": "Avenida Cinco",
+        "addr:suburb": "Cohab Anil III",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65051-210",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro Especializado Tea 12",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.216275,
+          -2.54396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5510643,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "5510643",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CEO DO ANJO DA GUARDA",
+        "addr:street": "Rua Av Odilo Costa Filho",
+        "addr:suburb": "Anjo da Guarda",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65085-900",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Centro de Especialidades Odontológicas (CEO)",
+        "short_name": "CEO",
+        "comment": "Odontologia (CEO)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3030722,
+          -2.5358333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6830390,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "6830390",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CEREST",
+        "addr:street": "Rua Av Beira Mar",
+        "addr:housenumber": "366",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65015-000",
+        "phone": "+55 98 3232-3363",
+        "amenity": "clinic",
+        "healthcare": "occupational_health",
+        "name": "CEREST Macro Centro Sul",
+        "short_name": "CEREST",
+        "comment": "Saúde do Trabalhador (CEREST)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3025827,
+          -2.5351045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6828744,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "6828744",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CEREST CENTRO DE REF ESTADUAL EM SAUDE DO TRABALHADOR",
+        "addr:street": "Rua Av dos Holandeses Edificio Almere Office",
+        "addr:housenumber": "03",
+        "addr:suburb": "Calhau",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65071-380",
+        "amenity": "clinic",
+        "healthcare": "occupational_health",
+        "name": "CEREST Macro Centro Sul",
+        "short_name": "CEREST",
+        "comment": "Saúde do Trabalhador (CEREST)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2978744,
+          -2.5368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8209294,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "8209294",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "ESPACO TEA SACAVEM",
+        "addr:street": "Avenida dos Africanos",
+        "addr:suburb": "Sacavem",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65040-410",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Espaco Tea Sacavem",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2572212,
+          -2.5555335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5719631,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "5719631",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAUDE JA CENTRO DE ESPECIALIDADES DO SAO BERNARDO",
+        "addr:street": "Avenida Tiredentes",
+        "addr:suburb": "São Bernardo",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65056-300",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Saude Ja Centro de Especialidades do São Bernardo",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2918968,
+          -2.5377198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4653548,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "4653548",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SESMT SERVICO ESPECIALIZADO DE SEG E MEDICINA DO TRABALHO",
+        "addr:street": "Rua do Passeio",
+        "addr:housenumber": "236",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65015-350",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Sesmt Serviço Especializado de Seg e Medicina do Trabalho",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3548,
+          -2.465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 936693,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "936693",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE ESPECIALIDADE ODONTOLOGICAS SORRIR II SFCO",
+        "addr:street": "Rua Av Ferrreria Gullar",
+        "addr:housenumber": "200",
+        "addr:suburb": "São Francisco",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65076-170",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Centro de Especialidades Odontológicas (CEO)",
+        "short_name": "CEO",
+        "comment": "Odontologia (CEO)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2979,
+          -2.531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9431039,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "9431039",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE ESPECIALIDADES ODONTOLOGICAS SORRIR",
+        "addr:street": "Rua Av Vitorino Freire",
+        "addr:housenumber": "26",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65075-215",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Centro de Especialidades Odontológicas (CEO)",
+        "short_name": "CEO",
+        "comment": "Odontologia (CEO)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2861039,
+          -2.53943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2455811,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2455811",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE TESTAGEM E ACONSELHAMENTO EM DST AIH AIDS",
+        "addr:street": "Rua Prca São Roque",
+        "addr:suburb": "Lira",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65026-240",
+        "phone": "+55 98 3212-8380",
+        "amenity": "clinic",
+        "healthcare": "diagnostic_centre",
+        "name": "Centro de Testagem e Aconselhamento em Dst Aih Aids",
+        "comment": "Diagnóstico por Imagem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3030977,
+          -2.5358333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2456826,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2456826",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE TESTAGEM E ACONSELHAMENTO EM DST HIV AIDS",
+        "addr:street": "Rua Av São Sebastiao",
+        "addr:suburb": "Anil",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65010-000",
+        "phone": "+55 98 3212-8805",
+        "amenity": "clinic",
+        "healthcare": "diagnostic_centre",
+        "name": "Centro de Testagem e Aconselhamento em Dst Hiv Aids",
+        "comment": "Diagnóstico por Imagem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3036826,
+          -2.53245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6832989,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "6832989",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE MOVEL DE MAMOGRAFIA",
+        "addr:street": "Rua Av Carlos Cunha",
+        "addr:suburb": "Calhau",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65010-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Movel de Mamografia",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2871343,
+          -2.510537
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6832970,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "6832970",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE MOVEL DE TOMOGRAFIA COMPUTADORIZADO",
+        "addr:street": "Rua Av Carlos Cunha",
+        "addr:suburb": "Calhau",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65010-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Movel de Tomografia Computadorizado",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2873,
+          -2.51
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6971237,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "6971237",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "AMBULANCIA DE SUPORTE BASICO DE VIDA 9031",
+        "addr:street": "Avenida João Pessoa",
+        "addr:housenumber": "402",
+        "addr:suburb": "Filipinho",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65042-815",
+        "phone": "+55 98 3212-8700",
+        "email": "samuslz@gmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3031237,
+          -2.53697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7258305,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "7258305",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "AMBULANCIA DE SUPORTE BASICO DE VIDA 9033",
+        "addr:street": "Rua Deputado Luis Rocha",
+        "addr:housenumber": "24",
+        "addr:suburb": "Vicente Fialho",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65070-290",
+        "phone": "+55 98 3238-5961",
+        "email": "samuslz@gmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3009734,
+          -2.535619
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6971245,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "6971245",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "AMBULANCIA DE SUPORTE DE VIDA 9032",
+        "addr:street": "Rua Deputado Luis Rocha",
+        "addr:housenumber": "24",
+        "addr:suburb": "Vicente Fialho",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65070-290",
+        "phone": "+55 98 3212-8700",
+        "email": "samuslz@gmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3040419,
+          -2.5356618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6971261,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "6971261",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "AMBULANCIA DE SUPORTE DE VIDA 9034",
+        "addr:street": "Avenida João Pessoa",
+        "addr:housenumber": "402",
+        "addr:suburb": "Filipinho",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65010-000",
+        "email": "samuslz@gmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3016171,
+          -2.5355118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6970591,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "6970591",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "AMBULANCIA SAMU SUPORTE AVANCADO USA I",
+        "addr:street": "Avenida João Pessoa",
+        "addr:housenumber": "402",
+        "addr:suburb": "Filipinho",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65042-815",
+        "phone": "+55 98 99165-0976",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192 - Suporte Avançado (USA)",
+        "short_name": "SAMU USA",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3034625,
+          -2.5355975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6965814,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "6965814",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "AMBULANCIA SAMU SUPORTE AVANCADO USA II",
+        "addr:street": "Avenida João Pessoa",
+        "addr:housenumber": "402",
+        "addr:suburb": "Filipinho",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65010-000",
+        "phone": "+55 98 99165-0976",
+        "email": "samuslzma@gmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192 - Suporte Avançado (USA)",
+        "short_name": "SAMU USA",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3034196,
+          -2.5358119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 811149,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "811149",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "AMBULANCIA SAMU SUPORTE AVANCADO USA III",
+        "addr:street": "Avenida João Pessoa",
+        "addr:housenumber": "402",
+        "addr:suburb": "Filipinho",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65010-000",
+        "phone": "+55 98 99165-0976",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192 - Suporte Avançado (USA)",
+        "short_name": "SAMU USA",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3031149,
+          -2.53081
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5625238,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "5625238",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "AMBULANCIA SAMU SUPORTE AVANCADO USA IV",
+        "addr:street": "Avenida João Pessoa",
+        "addr:housenumber": "402",
+        "addr:suburb": "Filipinho",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65042-815",
+        "phone": "+55 98 99165-0976",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192 - Suporte Avançado (USA)",
+        "short_name": "SAMU USA",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2619029,
+          -2.5537685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6971288,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "6971288",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "AMBULANCIA SUPORTE BASICO DE VIDA 9030",
+        "addr:street": "Rua Av dos Portugueses",
+        "addr:suburb": "Vila Isabel",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65082-185",
+        "phone": "+55 98 3212-8900",
+        "email": "samuslz@gmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.303697,
+          -2.531288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6974635,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "6974635",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "AMBULANCIA SUPORTE BASICO DE VIDA 9035",
+        "addr:street": "Rua 16 Qd 82",
+        "addr:suburb": "Cidade Olimpica II",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65054-350",
+        "email": "samuslz@gmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3014884,
+          -2.5357047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6975054,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "6975054",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "AMBULANCIA SUPORTE BASICO DE VIDA 9036",
+        "addr:street": "Avenida Tiradentes",
+        "addr:suburb": "São Bernardo",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65056-300",
+        "email": "samuslz@gmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3009949,
+          -2.5358119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6975070,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "6975070",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "AMBULANCIA SUPORTE BASICO DE VIDA 9037",
+        "addr:street": "Avenida Tiradentes",
+        "addr:housenumber": "4864",
+        "addr:suburb": "São Bernardo",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65056-300",
+        "email": "samuslz@gmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.299171,
+          -2.5354904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7509839,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "7509839",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "AMBULANCIA SUPORTE BASICO DE VIDA 9038",
+        "addr:street": "Rua Br 135 Km 07",
+        "addr:suburb": "Distrito Industrial",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65056-300",
+        "email": "samuslz@gmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3039839,
+          -2.5375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7621051,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "7621051",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "AMBULANCIA SUPORTE BASICO DE VIDA 9039",
+        "addr:street": "Rua Av dos Portugueses",
+        "addr:suburb": "Vila Isabel",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65056-300",
+        "email": "samuslz@gmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3005228,
+          -2.5355547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6975062,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "6975062",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "AMBULANCIA SUPORTE BASICO DE VIDA 9040",
+        "addr:street": "Avenida Engenheiro Emiliano Macieira",
+        "addr:suburb": "Estiva",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65095-604",
+        "email": "samuslz@gmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3008661,
+          -2.5355975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7620713,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "7620713",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "AMBULANCIA SUPORTE BASICO DE VIDA 9041",
+        "addr:street": "Avenida João Pessoa",
+        "addr:housenumber": "402",
+        "addr:suburb": "Filipinho",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65042-815",
+        "phone": "+55 98 3212-8915",
+        "email": "samuslz@gmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3025613,
+          -2.5358119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7616252,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "7616252",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "MOTOLANCIA 01 SAMU 192",
+        "addr:street": "Avenida João Pessoa",
+        "addr:housenumber": "402",
+        "addr:suburb": "Filipinho",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65042-815",
+        "phone": "+55 46 93212-8915",
+        "email": "samuslz@gmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.30387,
+          -2.53
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7616392,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "7616392",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "MOTOLANCIA 02 SAMU 192",
+        "addr:street": "Rua Avendida João Pessoa",
+        "addr:housenumber": "402",
+        "addr:suburb": "Filipinho",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65042-815",
+        "phone": "+55 98 3212-8915",
+        "email": "samuslzma@gmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.30377,
+          -2.53
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7592655,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "7592655",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL DE ABASTECIMENTO FARMACEUTICO DO ESTADO DO MARANHAO",
+        "addr:street": "Avenida dos Franceses",
+        "addr:suburb": "Vila Palmeira",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65036-283",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "dispensing": "yes",
+        "name": "Central de Abastecimento Farmaceutico do Estado do Maranhao",
+        "comment": "Farmácia Pública"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2472655,
+          -2.55759
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 148881,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "148881",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "FARMACIA DE MEDICAMENTOS ESTRATEGICOS FME",
+        "addr:street": "Rua Av dos Franceses",
+        "addr:housenumber": "113",
+        "addr:suburb": "Alemanha",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65036-281",
+        "phone": "(98)",
+        "email": "liviacrisalmeida@gmail.com",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "dispensing": "yes",
+        "name": "Farmácia de Medicamentos Estrategicos Fme",
+        "comment": "Farmácia Pública"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2557621,
+          -2.5835076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2531496,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "2531496",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "FARMACIA ESTADUAL DE MEDICAMENTOS ESPECIALIZADOS FEME",
+        "addr:street": "Avenida Senador Vitorino Freire",
+        "addr:housenumber": "26",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65010-000",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "dispensing": "yes",
+        "name": "Farmácia Estadual de Medicamentos Especializados Feme",
+        "comment": "Farmácia Pública"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2863935,
+          -2.5350199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2309459,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2309459",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE CONTROLE DE ZOONOSES",
+        "addr:street": "Estrada de Ribamar",
+        "addr:suburb": "Maiobinha",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65052-380",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.29723,
+          -2.5319459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4302176,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "4302176",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "COORD DE IST AIDS E HEPATITES VIRAIS",
+        "addr:street": "Avenida dos Franceses",
+        "addr:housenumber": "78",
+        "addr:suburb": "Alemanha",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65036-281",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2568681,
+          -2.5451063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7711115,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "7711115",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "LABORATORIO DE ANALISE DE AGUA FUNASAMA",
+        "addr:street": "Rua Apicum",
+        "addr:housenumber": "241",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65025-070",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2591772,
+          -2.5308795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 787191,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "787191",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SVO SERVICO DE VERIFICACAO DE OBITO DE SAO LUIS",
+        "addr:street": "Rua Av dos Portugueses",
+        "addr:housenumber": "1966",
+        "addr:suburb": "Itaqui Bacanga",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65080-805",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.308856,
+          -2.5558635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8376743,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "8376743",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "VIGILANCIA EM SAUDE AMBIENTAL",
+        "addr:street": "Rua Av dos Franceses",
+        "addr:suburb": "Alemanha",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65036-281",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.6743,
+          -2.837
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4190440,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "4190440",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "VIGILANCIA EPIDEMIOLOGICA MUNICIPAL DE SAO LUIS",
+        "addr:street": "Avenida dos Franceses",
+        "addr:suburb": "Alemanha",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65010-000",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2587123,
+          -2.5434101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2308428,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2308428",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "VIGILANCIA SANITARIA",
+        "addr:street": "Rua Av dos Franceses",
+        "addr:suburb": "Alemanha",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65036-281",
+        "phone": "+55 46 98232-0043",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2735505,
+          -2.5368891
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4007905,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "4007905",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE PARTO HUMANIZADO NAZIRA ASSUB",
+        "addr:street": "Rua Engenheiro Emiliano Maciera",
+        "addr:suburb": "Estiva",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65095-604",
+        "email": "naziraassubslz@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Parto Humanizado Nazira Assub",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2977905,
+          -2.534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6064647,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "6064647",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SECRETARIA DE ESTADO DA SAUDE",
+        "addr:street": "Rua Av Carlos Cunha",
+        "addr:suburb": "Calhau",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65076-820",
+        "phone": "+55 98 3198-5500",
+        "email": "informacao.sus.ma@gmail.com",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2874647,
+          -2.51606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6482783,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "6482783",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SECRETARIA MUNICIPAL DE SAUDE",
+        "addr:street": "Rua Deputado Vieira da Silva",
+        "addr:housenumber": "2000",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65025-180",
+        "phone": "+55 98 3214-7300",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3030548,
+          -2.5355975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2697653,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "2697653",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE HEMATOLOGIA E HEMAT DR DARIO ITAPARY NICOLAU",
+        "addr:street": "Rua Cinco de Janeiro",
+        "addr:suburb": "Jordoa",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65040-450",
+        "amenity": "blood_donation",
+        "healthcare": "blood_donation",
+        "name": "Hemonúcleo de Pato Branco (HEMEPAR)",
+        "short_name": "Hemepar Pato Branco",
+        "comment": "Doação de Sangue (HEMEPAR)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2650708,
+          -2.5429525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6981291,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "6981291",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CAPS DR BACELAR VIANA CAPS III",
+        "addr:street": "Rua Av Getulio Vargas",
+        "addr:housenumber": "2738",
+        "addr:suburb": "Monte Castelo",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65040-060",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.297699,
+          -2.5311291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6050247,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "6050247",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ATENCAO PSICOSSOCIAL ALCOOL E DROGAS CAPS AD",
+        "addr:street": "Rua Martins Hoyer",
+        "addr:housenumber": "22",
+        "addr:suburb": "Filipinho",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65010-000",
+        "phone": "+55 98 3212-8462",
+        "email": "capssaudemental@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3030247,
+          -2.53605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6258425,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "6258425",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ATENCAO PSICOSSOCIAL CAPS AD",
+        "addr:street": "Rua Riachuelo",
+        "addr:housenumber": "249",
+        "addr:suburb": "João Paulo",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65040-060",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.297918,
+          -2.5318859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3219712,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "3219712",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ATENCAO PSICOSSOCIAL CAPS III",
+        "addr:street": "Rua das Agulhas Negras",
+        "addr:housenumber": "11",
+        "addr:suburb": "Calhau",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65071-640",
+        "phone": "+55 98 3212-2825",
+        "email": "caps2slzsemus@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3018317,
+          -2.5358548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7082924,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "7082924",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ATENCAO PSICOSSOCIAL INFANTO JUVENIL",
+        "addr:street": "Rua H Qd F",
+        "addr:housenumber": "05",
+        "addr:suburb": "Jardim Atlantico",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65010-000",
+        "phone": "+55 98 3212-8437",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial Infanto-Juvenil (CAPSi)",
+        "short_name": "CAPSi",
+        "comment": "CAPSi (Infanto-Juvenil)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3032924,
+          -2.53708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 976946,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "976946",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CASAI SAO LUIS",
+        "addr:street": "Avenida Paulista",
+        "addr:housenumber": "11",
+        "addr:suburb": "Olho D Agua",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65065-300",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Casai São Luis",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2236183,
+          -2.4845521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7341075,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "7341075",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DSEI MARANHAO",
+        "addr:street": "Rua 05 de Janeiro",
+        "addr:housenumber": "166",
+        "addr:suburb": "Jordoa",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65040-450",
+        "phone": "+55 98 2016-7467",
+        "email": "dseima.sesai@saude.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Dsei Maranhao",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.1075,
+          -2.734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6165397,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "6165397",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PRONTO SOCORRO DO SAO FRANCISCO",
+        "addr:street": "Rua Emeterio Leitao",
+        "addr:housenumber": "01",
+        "addr:suburb": "São Francisco",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65076-460",
+        "phone": "+55 98 3268-8826",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Pronto Socorro do São Francisco",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2975397,
+          -2.531616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6851312,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "6851312",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UPA CIDADE OPERARIA",
+        "addr:street": "Rua Av Pricipal Av Oeste",
+        "addr:suburb": "Cidade Operaria",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65058-217",
+        "phone": "+55 98 3247-4558",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "emergency": "yes",
+        "opening_hours": "24/7",
+        "name": "UPA 24 Horas Maria Itália Freddo",
+        "short_name": "UPA 24h",
+        "comment": "UPA 24h"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2971,
+          -2.531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6568734,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "6568734",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UPA ITAQUI BACANGA",
+        "addr:street": "Avenida dos Portugueses",
+        "addr:suburb": "Itaqui Bacanga",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65076-820",
+        "phone": "+55 98 3272-0346",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "emergency": "yes",
+        "opening_hours": "24/7",
+        "name": "UPA 24 Horas Maria Itália Freddo",
+        "short_name": "UPA 24h",
+        "comment": "UPA 24h"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3006749,
+          -2.5441551
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6826393,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "6826393",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UPA PARQUE VITORIA",
+        "addr:street": "Avenida Jose Santana Quadra 38",
+        "addr:housenumber": "20",
+        "addr:suburb": "Turu",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65010-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "emergency": "yes",
+        "opening_hours": "24/7",
+        "name": "UPA 24 Horas Maria Itália Freddo",
+        "short_name": "UPA 24h",
+        "comment": "UPA 24h"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.297682,
+          -2.5316393
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6851304,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "6851304",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UPA VINHAIS",
+        "addr:street": "Avenida 02",
+        "addr:suburb": "Vinhais",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65071-040",
+        "phone": "+55 46 98236-7535",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "emergency": "yes",
+        "opening_hours": "24/7",
+        "name": "UPA 24 Horas Maria Itália Freddo",
+        "short_name": "UPA 24h",
+        "comment": "UPA 24h"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2971304,
+          -2.53685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 769886,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "769886",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PROJETO MEXA SE",
+        "addr:street": "Rua Deputado Vieira da Silva",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65010-000",
+        "leisure": "fitness_centre",
+        "healthcare": "rehabilitation",
+        "name": "Academia da Saúde Projeto Mexa Se",
+        "comment": "Academia da Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2930193,
+          -2.5342978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4693221,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "4693221",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "NUCLEO DE TELESSAUDE DA UFMA",
+        "addr:street": "Rua Av dos Portugueses",
+        "addr:housenumber": "1966",
+        "addr:suburb": "Vila Bacanga",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65020-240",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Nucleo de Telessaude da Ufma",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3096333,
+          -2.5580103
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2456842,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2456842",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL DE REGULACAO MEDICA DAS URGENCIAS",
+        "addr:street": "Avenida João Pessoa",
+        "addr:housenumber": "402",
+        "addr:suburb": "Filipinho",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65042-815",
+        "phone": "+55 98 99165-0976",
+        "email": "samuslzma@gmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Central de Regulação Médica das Urgências (SAMU 192)",
+        "short_name": "Regulação SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3017888,
+          -2.5354904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2697718,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "2697718",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "INSTITUTO OSVALDO CRUZ",
+        "addr:street": "Rua João Luis",
+        "addr:suburb": "Diamante",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65020-320",
+        "phone": "+55 46 98232-3410",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Instituto Osvaldo Cruz",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2899718,
+          -2.5278266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2458314,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "2458314",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "LABORATORIO CENTRAL DO MUNICIPIO DE SAO LUIS",
+        "addr:street": "Rua Grande",
+        "addr:housenumber": "893",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65020-250",
+        "phone": "+55 98 3212-8264",
+        "email": "lacemslz.diretoriageral@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Laboratorio Central do Municipio de São Luis",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.8314,
+          -2.245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8502897,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "8502897",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL DE AGENDAMENTOS DO ESTADO DO MARANHAO",
+        "addr:street": "Avenida Coronel Colares Moreira",
+        "addr:housenumber": "1003",
+        "addr:suburb": "São Francisco",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65076-135",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Sistema Municipal de Auditoria e Regulação em Saúde",
+        "comment": "Auditoria e Regulação"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.29785,
+          -2.5312897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3973735,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "3973735",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL DE REGULACAO DE SERVICOS DE SAUDE",
+        "addr:street": "Avenida dos Franceses",
+        "addr:housenumber": "01",
+        "addr:suburb": "Alemanha",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65036-281",
+        "phone": "+55 98 3212-4305",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Sistema Municipal de Auditoria e Regulação em Saúde",
+        "comment": "Auditoria e Regulação"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.3013167,
+          -2.5356404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7962053,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "7962053",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL DE REGULACAO DO ACESSO",
+        "addr:street": "Avenida dos Franceses",
+        "addr:housenumber": "01",
+        "addr:suburb": "Alemanha",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65036-281",
+        "phone": "+55 98 32281-3888",
+        "email": "centralderegulacaosemus@gmail.com",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Sistema Municipal de Auditoria e Regulação em Saúde",
+        "comment": "Auditoria e Regulação"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2574143,
+          -2.5505602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7396147,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "7396147",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL ESTADUAL DE REGULACAO",
+        "addr:street": "Rua dos Prazeres",
+        "addr:housenumber": "600",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65020-460",
+        "phone": "98981791926 91136594",
+        "email": "superintendencia.regulacao@saude.ma.gov.br",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Sistema Municipal de Auditoria e Regulação em Saúde",
+        "comment": "Auditoria e Regulação"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2940834,
+          -2.5271503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9671560,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "9671560",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL ESTADUAL DE REGULACAO AMBULATORIAL",
+        "addr:street": "Rua Av Carlos Cunha",
+        "addr:housenumber": "4014",
+        "addr:suburb": "Calhau",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65075-380",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Sistema Municipal de Auditoria e Regulação em Saúde",
+        "comment": "Auditoria e Regulação"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2872014,
+          -2.510518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9421343,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "9421343",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "TRATAMENTO FORA DE DOMICILIO MA INTERESTADUAL",
+        "addr:street": "Rua Cristóvão Colombo",
+        "addr:suburb": "Diamante",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65020-170",
+        "phone": "+55 98 9168-6138",
+        "email": "tfd@saude.ma.gov.br",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Sistema Municipal de Auditoria e Regulação em Saúde",
+        "comment": "Auditoria e Regulação"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2887277,
+          -2.5287886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7746350,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "7746350",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL ESTADUAL DE TRANSPLANTE",
+        "addr:street": "Avenida Jeronimo de Albuquerque",
+        "addr:suburb": "Calhau",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65070-220",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Central Estadual de Transplante",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2464704,
+          -2.5225761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4532023,
+      "properties": {
+        "operator": "Prefeitura Municipal de São Luís",
+        "operator:type": "public",
+        "ref:CNES": "4532023",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL DE ABASTECIMENTO DE IMUNOBIOLOGICOS",
+        "addr:street": "Rua Fonte do Bispo",
+        "addr:housenumber": "200",
+        "addr:suburb": "Belira",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65075-020",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Central de Abastecimento de Imunobiologicos",
+        "comment": "Suprimentos / Logística"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2997731,
+          -2.5395651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 116807,
+      "properties": {
+        "operator": "Governo do Estado (MA)",
+        "operator:type": "public",
+        "ref:CNES": "116807",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL ESTADUAL DE REDE DE FRIO",
+        "addr:street": "Avenida dos Franceses",
+        "addr:suburb": "Vila Palmeira",
+        "addr:city": "São Luís",
+        "addr:state": "MA",
+        "addr:country": "BR",
+        "addr:postcode": "65076-820",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Central Estadual de Rede de Frio",
+        "comment": "Suprimentos / Logística"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2496141,
+          -2.5565242
+        ]
+      }
+    }
+  ]
+}

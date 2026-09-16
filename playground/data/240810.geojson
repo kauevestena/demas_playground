@@ -1,0 +1,4490 @@
+{
+  "type": "FeatureCollection",
+  "name": "Estabelecimentos Públicos de Saúde - DEMAS / CNES",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 2408368,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2408368",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "NUCLEO DE ASSISTENCIA MEDICA",
+        "addr:street": "Rua Av Dr João Medeiros Filho",
+        "addr:suburb": "Potengi",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59120-200",
+        "phone": "+55 46 3232-7804",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Nucleo de Assistencia Medica",
+        "short_name": "UBS Nucleo de Assistencia Medica",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2369436,
+          -5.7517785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 114626,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "114626",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO INTEGRADO DE SERVICOS EM SAUDE UNIDADE DOS PESCADORES",
+        "addr:street": "Rua João de Deus",
+        "addr:housenumber": "80",
+        "addr:suburb": "Rocas",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59010-775",
+        "phone": "+55 46 3232-4596",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro Integrado de Servicos em Saude Unidade dos Pescadores",
+        "short_name": "UBS Centro Integrado de Servicos em Saude Unidade dos Pescadores",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.1961613,
+          -5.7814181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 179442,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "179442",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SERVICO DE TRANSPORTE SANITARIO DE NATAL",
+        "addr:street": "Rua Av Nascimento de Castro",
+        "addr:housenumber": "300",
+        "addr:suburb": "Dixsept Rosado",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59054-280",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Serviço de Transporte Sanitario de Natal",
+        "short_name": "UBS Serviço de Transporte Sanitario de Natal",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2029493,
+          -5.8199496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2408724,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2408724",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UBS ALECRIM",
+        "addr:street": "Rua Av Fonseca e Silva",
+        "addr:housenumber": "1129",
+        "addr:suburb": "Alecrim",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59032-200",
+        "phone": "+55 46 3232-8425",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde UBS Alecrim",
+        "short_name": "UBS UBS Alecrim",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.20895,
+          -5.7949316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3331164,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "3331164",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UBS ALTO DA TORRE",
+        "addr:street": "Rua Alto das Dunas",
+        "addr:suburb": "Redinha",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59122-039",
+        "phone": "+55 46 3232-8214",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde UBS Alto da Torre",
+        "short_name": "UBS UBS Alto da Torre",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2347689,
+          -5.7536108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2408848,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2408848",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UBS CANDELARIA",
+        "addr:street": "Rua Nossa Senhora de Candelaria",
+        "addr:housenumber": "3042",
+        "addr:suburb": "Candelaria",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59065-540",
+        "phone": "+55 46 3232-8295",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde UBS Candelaria",
+        "short_name": "UBS UBS Candelaria",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2201877,
+          -5.837363
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 894087,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "894087",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UBS ESPERANCA",
+        "addr:street": "Rua Av Pernambuco",
+        "addr:suburb": "Cidade da Esperaca",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59070-300",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde UBS Esperança",
+        "short_name": "UBS UBS Esperança",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2386304,
+          -5.8257978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2408856,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2408856",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UBS JIQUI",
+        "addr:street": "Rua Uniao dos Palmares",
+        "addr:housenumber": "11",
+        "addr:suburb": "Neopolis",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59086-300",
+        "phone": "+55 46 3232-8385",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde UBS Jiqui",
+        "short_name": "UBS UBS Jiqui",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2084025,
+          -5.8647239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2408449,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2408449",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UBS LAGOA SECA",
+        "addr:street": "Rua Padre Antonio",
+        "addr:suburb": "Lagoa Seca",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59032-230",
+        "phone": "+55 46 3232-8475",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde UBS Lagoa Seca",
+        "short_name": "UBS UBS Lagoa Seca",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2135588,
+          -5.8090344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2408805,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2408805",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UBS MIRASSOL",
+        "addr:street": "Rua das Violetas",
+        "addr:suburb": "Capim Macio",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59068-170",
+        "phone": "32328291/32328292",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde UBS Mirassol",
+        "short_name": "UBS UBS Mirassol",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2075778,
+          -5.8436043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2408635,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2408635",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UBS NOVA DESCOBERTA",
+        "addr:street": "Rua Xavier da Silveira",
+        "addr:housenumber": "05",
+        "addr:suburb": "Nova Descoberta",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59075-000",
+        "phone": "+55 46 3232-8286",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde UBS Nova Descoberta",
+        "short_name": "UBS UBS Nova Descoberta",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2090037,
+          -5.7949743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2408813,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2408813",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UBS PIRANGI",
+        "addr:street": "Rua Av São Miguel dos Caribes",
+        "addr:suburb": "Neopolis",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59086-500",
+        "phone": "+55 46 3232-8380",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde UBS Pirangi",
+        "short_name": "UBS UBS Pirangi",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2081451,
+          -5.870789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7958021,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "7958021",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UBS QUINTAS",
+        "addr:street": "Rua dos Paiatis",
+        "addr:housenumber": "3",
+        "addr:suburb": "Quintas",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59035-150",
+        "phone": "+55 84 3232-8320",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde UBS Quintas",
+        "short_name": "UBS UBS Quintas",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.228725,
+          -5.801234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2408740,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2408740",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UBS SAO JOAO",
+        "addr:street": "Rua Romualdo Galvao",
+        "addr:housenumber": "891",
+        "addr:suburb": "Tirol",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59056-100",
+        "phone": "+55 46 3232-8570",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde UBS São João",
+        "short_name": "UBS UBS São João",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2064509,
+          -5.8014363
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2408872,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2408872",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE MISTA DE CIDADE SATELITE",
+        "addr:street": "Rua das Carnaubas",
+        "addr:suburb": "Pitimbu",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59067-630",
+        "phone": "+55 46 3232-8390",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Mista de Cidade Satélite",
+        "short_name": "UBS Unidade Mista de Cidade Satélite",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2274462,
+          -5.8695765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2408392,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2408392",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF AFRICA",
+        "addr:street": "Rua Av João Medeiros Filho",
+        "addr:suburb": "Redinha",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59122-200",
+        "phone": "+55 46 3232-8190",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Africa",
+        "short_name": "UBS Usf Africa",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2166775,
+          -5.7450575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2408929,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2408929",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF APARECIDA",
+        "addr:street": "Rua Guanabara",
+        "addr:housenumber": "195",
+        "addr:suburb": "Mae Luiza",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59014-180",
+        "phone": "+55 46 3232-8620",
+        "email": "usfaparecida@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Aparecida",
+        "short_name": "UBS Usf Aparecida",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.1861003,
+          -5.7938502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2409046,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2409046",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF BAIRRO NORDESTE",
+        "addr:street": "Rua Alto da Bela Vista",
+        "addr:suburb": "Nordeste",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59042-250",
+        "phone": "+55 46 3232-8450",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Bairro Nordeste",
+        "short_name": "UBS Usf Bairro Nordeste",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.24231,
+          -5.796814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2408333,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2408333",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF BELA VISTA",
+        "addr:street": "Rua Tv Bela Vista",
+        "addr:suburb": "Igapo",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59104-230",
+        "phone": "+55 46 3232-8255",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Bela Vista",
+        "short_name": "UBS Usf Bela Vista",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.8136723,
+          -6.4615131
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2408457,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2408457",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF BOM PASTOR",
+        "addr:street": "Rua Augusto Calheiros",
+        "addr:suburb": "Bom Pastor",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59052-070",
+        "phone": "+55 46 3232-8455",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Bom Pastor",
+        "short_name": "UBS Usf Bom Pastor",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2345048,
+          -5.8102039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2408775,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2408775",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF BRASILIA TEIMOSA",
+        "addr:street": "Rua Miramar",
+        "addr:suburb": "Praia do Meio",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59010-470",
+        "phone": "+55 46 3232-3131",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Brasilia Teimosa",
+        "short_name": "UBS Usf Brasilia Teimosa",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.19597,
+          -5.774028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2408465,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2408465",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF CIDADE NOVA",
+        "addr:street": "Rua Laranjal",
+        "addr:suburb": "Cidade Nova",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59072-570",
+        "phone": "+55 46 3232-8330",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Cidade Nova",
+        "short_name": "UBS Usf Cidade Nova",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.247056,
+          -5.8344796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2656493,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2656493",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF CIDADE PRAIA",
+        "addr:street": "Rua São Caetano",
+        "addr:housenumber": "520",
+        "addr:suburb": "Lagoa Azul",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59129-810",
+        "phone": "+55 46 3232-9232",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Cidade Praia",
+        "short_name": "UBS Usf Cidade Praia",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2676724,
+          -5.7381328
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2408228,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2408228",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF DA REDINHA",
+        "addr:street": "Rua do Campo",
+        "addr:suburb": "Pajucara",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59122-080",
+        "phone": "+55 46 3232-8185",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf da Redinha",
+        "short_name": "UBS Usf da Redinha",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.4844042,
+          -5.5845475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2409038,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2409038",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF DIX SEPT ROSADO",
+        "addr:street": "Rua Av Nevaldo Rocha",
+        "addr:housenumber": "1348",
+        "addr:suburb": "Dix Pet Rosado",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59054-000",
+        "phone": "32328400/8401",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Serviço de Atenção Domiciliar (SAD)",
+        "short_name": "SAD",
+        "comment": "Serviço de Atenção Domiciliar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2148533,
+          -5.8093259
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9305777,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "9305777",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF ENFERMEIRA ROSANGELA LIMA",
+        "addr:street": "Rua Santa Beatriz",
+        "addr:suburb": "Planalto",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59073-246",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Enfermeira Rosangela Lima",
+        "short_name": "UBS Usf Enfermeira Rosangela Lima",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2535765,
+          -5.8585648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2408236,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2408236",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF FELIPE CAMARAO I",
+        "addr:street": "Rua Av Nossa Sra do Livramento",
+        "addr:housenumber": "261",
+        "addr:suburb": "Felipe Camarao",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59072-200",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Felipe Camarao I",
+        "short_name": "UBS Usf Felipe Camarao I",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2547193,
+          -5.8239215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2653990,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2653990",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF FELIPE CAMARAO II",
+        "addr:street": "Rua Santa Cristina",
+        "addr:housenumber": "882",
+        "addr:suburb": "Felipe Camarao",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59072-150",
+        "phone": "+55 46 3232-8315",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Felipe Camarao II",
+        "short_name": "UBS Usf Felipe Camarao II",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2505631,
+          -5.8266992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3194752,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "3194752",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF FELIPE CAMARAO III",
+        "addr:street": "Rua Arco Iris",
+        "addr:housenumber": "500",
+        "addr:suburb": "Felipe Camarao",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59074-310",
+        "phone": "+55 46 3133-5450",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Felipe Camarao III",
+        "short_name": "UBS Usf Felipe Camarao III",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.261178,
+          -5.8233131
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2408414,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2408414",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF GRAMORE",
+        "addr:street": "Rua Av Guaratingueta",
+        "addr:suburb": "Lagoa Azul",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59135-500",
+        "phone": "+55 46 3232-8245",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Gramore",
+        "short_name": "UBS Usf Gramore",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2563743,
+          -5.7279801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2408430,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2408430",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF GUARAPES",
+        "addr:street": "Rua da Lagoa Seca",
+        "addr:suburb": "Guarapes",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59075-740",
+        "phone": "+55 46 3232-8405",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Guarapes",
+        "short_name": "UBS Usf Guarapes",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.273607,
+          -5.8404793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2408481,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2408481",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF GUARITA",
+        "addr:street": "Rua Presidente Sarmento",
+        "addr:housenumber": "1955",
+        "addr:suburb": "Alecrim",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59040-400",
+        "phone": "+55 46 3232-8438",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Guarita",
+        "short_name": "UBS Usf Guarita",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2166492,
+          -5.8057539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3189104,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "3189104",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF IGAPO",
+        "addr:street": "Rua São Tiago",
+        "addr:suburb": "Igapo",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59104-040",
+        "phone": "+55 46 3232-8267",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Igapo",
+        "short_name": "UBS Usf Igapo",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2511519,
+          -5.774295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9703500,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "9703500",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF JARDIM PROGRESSO",
+        "addr:street": "Rua Antonia Santana",
+        "addr:suburb": "Nossa Senhora da Apr",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59114-266",
+        "phone": "+55 84 3232-5614",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Jardim Progresso",
+        "short_name": "UBS Usf Jardim Progresso",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2827229,
+          -5.7325895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2656914,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2656914",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF JOSE SARNEY",
+        "addr:street": "Rua dos Lirios",
+        "addr:housenumber": "237",
+        "addr:suburb": "Lagoa Azul",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59122-300",
+        "phone": "+55 84 3232-9236",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Jose Sarney",
+        "short_name": "UBS Usf Jose Sarney",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2587909,
+          -5.7368714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2654008,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2654008",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF KM 6",
+        "addr:street": "Avenida Capitao Mor Golveia",
+        "addr:suburb": "Felipe Camarao",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59072-310",
+        "phone": "+55 46 3232-8310",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Km 6",
+        "short_name": "UBS Usf Km 6",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.249397,
+          -5.815462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2408147,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2408147",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF MONTE LIBANO",
+        "addr:street": "Rua Matuzalem",
+        "addr:suburb": "Quintas",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59060-070",
+        "phone": "+55 46 3232-8440",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Monte Libano",
+        "short_name": "UBS Usf Monte Libano",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.24177,
+          -5.80781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2408155,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2408155",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF NAZARE",
+        "addr:street": "Rua Rubens Mariz",
+        "addr:housenumber": "447",
+        "addr:suburb": "Nazare",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59062-180",
+        "phone": "+55 46 3232-8350",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Nazare",
+        "short_name": "UBS Usf Nazare",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2332623,
+          -5.8151838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2656868,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2656868",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF NORDELANDIA",
+        "addr:street": "Rua Jose Franca da Silva",
+        "addr:suburb": "Lagoa Azul",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59139-515",
+        "phone": "+55 46 3232-9234",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Nordelandia",
+        "short_name": "UBS Usf Nordelandia",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2735073,
+          -5.7289549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 207160,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "207160",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF NOVA ALIANCA",
+        "addr:street": "Rua da Consolacao",
+        "addr:suburb": "Nossa Senhora da Apr",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59068-560",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Nova Alianca",
+        "short_name": "UBS Usf Nova Alianca",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2611384,
+          -5.5193997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2679485,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2679485",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF NOVA CIDADE",
+        "addr:street": "Rua Horacio Dantas",
+        "addr:suburb": "Nova Cidade",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59064-040",
+        "phone": "+55 46 3232-8325",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Nova Cidade",
+        "short_name": "UBS Usf Nova Cidade",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.233601,
+          -5.836054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2409089,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2409089",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF NOVA NATAL",
+        "addr:street": "Rua do Pastoril",
+        "addr:suburb": "Lagoa Azul",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59138-680",
+        "phone": "323250",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Nova Natal",
+        "short_name": "UBS Usf Nova Natal",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2618714,
+          -5.7326547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2408163,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2408163",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF NOVO HORIZONTE",
+        "addr:street": "Rua dos Paiatis",
+        "addr:housenumber": "128",
+        "addr:suburb": "Bom Pastor",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59035-150",
+        "phone": "+55 46 3232-8445",
+        "email": "us_bnh1@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Novo Horizonte",
+        "short_name": "UBS Usf Novo Horizonte",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2279819,
+          -5.8009611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2408554,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2408554",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF PAJUCARA",
+        "addr:street": "Rua Barao dos Cocais Pajucara",
+        "addr:suburb": "Pajucara",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59131-190",
+        "phone": "+55 46 3232-8240",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Pajucara",
+        "short_name": "UBS Usf Pajucara",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2499444,
+          -5.7296139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2409097,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2409097",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF PANATIS",
+        "addr:street": "Rua das Pimenteiras",
+        "addr:suburb": "Potengi",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59108-180",
+        "phone": "+55 46 3232-8220",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Panatis",
+        "short_name": "UBS Usf Panatis",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2601541,
+          -5.7584778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3189090,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "3189090",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF PARQUE DAS DUNAS",
+        "addr:street": "Rua Mar do Sul",
+        "addr:suburb": "Pajucara",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59133-010",
+        "phone": "+55 46 3232-4847",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Parque das Dunas",
+        "short_name": "UBS Usf Parque das Dunas",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.233145,
+          -5.731857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3190242,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "3190242",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF PARQUE DOS COQUEIROS",
+        "addr:street": "Rua das Pedrinhas",
+        "addr:housenumber": "1",
+        "addr:suburb": "Nossa Sra da Apresen",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59114-410",
+        "phone": "+55 84 3232-8183",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Parque dos Coqueiros",
+        "short_name": "UBS Usf Parque dos Coqueiros",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2754661,
+          -5.7612274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2408767,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2408767",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF PASSO DA PATRIA",
+        "addr:street": "Travessa Gardenia",
+        "addr:suburb": "Alecrim",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59040-088",
+        "phone": "+55 46 3232-8560",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Passo da Patria",
+        "short_name": "UBS Usf Passo da Patria",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2140177,
+          -5.78799
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55468,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "55468",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF PEDRA DO SINO",
+        "addr:street": "Rua Pedra do Sino",
+        "addr:suburb": "Potengi",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59125-000",
+        "phone": "+55 46 3232-8196",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Pedra do Sino",
+        "short_name": "UBS Usf Pedra do Sino",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2501441,
+          -5.752372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2408791,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2408791",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF PITIMBU",
+        "addr:street": "Rua Serra de Piracambu",
+        "addr:housenumber": "02",
+        "addr:suburb": "Pitimbu",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59068-220",
+        "phone": "+55 46 3232-8395",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Pitimbu",
+        "short_name": "UBS Usf Pitimbu",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2418483,
+          -5.858219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3184595,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "3184595",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF PLANICIE DAS MANGUEIRAS",
+        "addr:street": "Rua Nova Granada",
+        "addr:suburb": "Nossa Sra da Apresen",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59115-490",
+        "phone": "+55 46 3232-4848",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Planicie das Mangueiras",
+        "short_name": "UBS Usf Planicie das Mangueiras",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2703257,
+          -5.7490755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2798743,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2798743",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF POMPEIA",
+        "addr:street": "Rua Oceano Atlantico",
+        "addr:housenumber": "172",
+        "addr:suburb": "Pajucara",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59123-030",
+        "phone": "+55 46 3232-8184",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Pompeia",
+        "short_name": "UBS Usf Pompeia",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2440749,
+          -5.7430055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2408783,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2408783",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF PONTA NEGRA",
+        "addr:street": "Rua Jose Medeiros",
+        "addr:housenumber": "01",
+        "addr:suburb": "Ponta Negra",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59090-660",
+        "phone": "+55 46 3232-8410",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Ponta Negra",
+        "short_name": "UBS Usf Ponta Negra",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.1723475,
+          -5.8842841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2409054,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2409054",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF POTENGI",
+        "addr:street": "Avenida Itapetinga",
+        "addr:suburb": "Potengi",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59124-400",
+        "phone": "+55 46 3232-8205",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Potengi",
+        "short_name": "UBS Usf Potengi",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2408842,
+          -5.755715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2409100,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2409100",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF QUINTAS",
+        "addr:street": "Rua Trv Luiz Sampaio",
+        "addr:suburb": "Quintas",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59042-030",
+        "phone": "+55 46 3232-8435",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Quintas",
+        "short_name": "UBS Usf Quintas",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.23536,
+          -5.796733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2408759,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2408759",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF ROCAS",
+        "addr:street": "Rua Francisco Bicalho",
+        "addr:suburb": "Rocas",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59010-350",
+        "phone": "+55 46 3232-8541",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Rocas",
+        "short_name": "UBS Usf Rocas",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.1984655,
+          -5.7741039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9486461,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "9486461",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF RONALDO MACHADO",
+        "addr:street": "Rua Arthur Veiga",
+        "addr:housenumber": "145",
+        "addr:suburb": "Planalto",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59073-109",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Ronaldo Machado",
+        "short_name": "UBS Usf Ronaldo Machado",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2604845,
+          -5.8535659
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2409216,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2409216",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF SANTAREM",
+        "addr:street": "Rua Av das Fronteiras",
+        "addr:suburb": "Potengi",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59129-200",
+        "phone": "+55 46 3232-8215",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Santarem",
+        "short_name": "UBS Usf Santarem",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2656359,
+          -5.7650992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2679515,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2679515",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF SOLEDADE II",
+        "addr:street": "Rua Pico do Cabugi",
+        "addr:housenumber": "1176",
+        "addr:suburb": "Potengi",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59127-000",
+        "phone": "+55 46 3232-8211",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Soledade II",
+        "short_name": "UBS Usf Soledade II",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2582716,
+          -5.7500768
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2408384,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2408384",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF VALE DOURADO",
+        "addr:street": "Rua Irma Vitoria",
+        "addr:housenumber": "706",
+        "addr:suburb": "Vale Dourado",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59114-066",
+        "phone": "+55 46 3232-8260",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Vale Dourado",
+        "short_name": "UBS Usf Vale Dourado",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2717613,
+          -5.7620193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2408473,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2408473",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF VISTA VERDE",
+        "addr:street": "Rua Linda Batista",
+        "addr:suburb": "Pajucara",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59132-780",
+        "phone": "+55 46 3232-8270",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Vista Verde",
+        "short_name": "UBS Usf Vista Verde",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2445899,
+          -5.7340384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2654105,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2654105",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CASA MENINO JESUS",
+        "addr:street": "Rua Av Presidente Quaresma",
+        "addr:housenumber": "889",
+        "addr:suburb": "Alecrim",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59022-150",
+        "phone": "+55 46 84232-6260",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2140999,
+          -5.8049224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4013468,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "4013468",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO CLINICO DR JOSE CARLOS PASSOS",
+        "addr:street": "Rua Praca Augusto Severo",
+        "addr:housenumber": "281",
+        "addr:suburb": "Ribeira",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59012-380",
+        "phone": "+55 46 3232-9198",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.205405,
+          -5.7799205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2408821,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2408821",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POLICLINICA SUL",
+        "addr:street": "Rua Av Airton Sena",
+        "addr:suburb": "Neopolis",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59080-100",
+        "phone": "3232-8370/8371",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2084345,
+          -5.8584259
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 282715,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "282715",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPESC HOSPITAL DOS PESCADORES",
+        "addr:street": "Rua São João de Deus",
+        "addr:housenumber": "80",
+        "addr:suburb": "Rocas",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59010-775",
+        "phone": "+55 84 3232-4592",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospesc Hospital dos Pescadores",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2029647,
+          -5.7710393
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2679469,
+      "properties": {
+        "operator": "Governo do Estado (RN)",
+        "operator:type": "public",
+        "ref:CNES": "2679469",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL CENTRAL CORONEL PEDRO GERMANO",
+        "addr:street": "Avenida Prudente de Morais",
+        "addr:housenumber": "1381",
+        "addr:suburb": "Tirol",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59020-400",
+        "phone": "+55 84 3232-3658",
+        "email": "faturamentohccpg@rn.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Central Coronel Pedro Germano",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2035373,
+          -5.7950704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2408570,
+      "properties": {
+        "operator": "Governo do Estado (RN)",
+        "operator:type": "public",
+        "ref:CNES": "2408570",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL DR JOSE PEDRO BEZERRA",
+        "addr:street": "Rua Araquari",
+        "addr:suburb": "Potengi",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59110-390",
+        "phone": "+55 84 3232-7713",
+        "email": "faturahjpb@rn.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Dr Jose Pedro Bezerra",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.256352,
+          -5.754406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2408260,
+      "properties": {
+        "operator": "Governo do Estado (RN)",
+        "operator:type": "public",
+        "ref:CNES": "2408260",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL GERAL DR JOAO MACHADO",
+        "addr:street": "Rua Av Alexandrino de Alencar",
+        "addr:housenumber": "1378",
+        "addr:suburb": "Morro Branco",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59015-350",
+        "email": "hgjm.sesap.rn@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Geral Dr João Machado",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2126461,
+          -5.799388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4013484,
+      "properties": {
+        "operator": "Governo do Estado (RN)",
+        "operator:type": "public",
+        "ref:CNES": "4013484",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL GISELDA TRIGUEIRO",
+        "addr:street": "Rua Conego Monte",
+        "addr:housenumber": "110",
+        "addr:suburb": "Quintas",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59037-170",
+        "phone": "+55 84 3232-7915",
+        "email": "direcaogeralhgt@saude.rn.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Giselda Trigueiro",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2090681,
+          -5.7949743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2653923,
+      "properties": {
+        "operator": "Governo do Estado (RN)",
+        "operator:type": "public",
+        "ref:CNES": "2653923",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL MONSENHOR WALFREDO GURGEL",
+        "addr:street": "Rua Av Senador Salgado Filho",
+        "addr:suburb": "Tirol",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59014-555",
+        "phone": "+55 84 3232-7532",
+        "email": "direcaogeralhmwg@rn.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Monsenhor Walfredo Gurgel",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2111504,
+          -5.8379635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3708926,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "3708926",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL MUNICIPAL DE NATAL",
+        "addr:street": "Rua Joaquim Manuel",
+        "addr:housenumber": "655",
+        "addr:suburb": "Petropolis",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59012-330",
+        "phone": "32328540/50/51",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Municipal de Natal",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.1967514,
+          -5.7827097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5295785,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "5295785",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL NAVAL DE NATAL",
+        "addr:street": "Rua Silvio Pelico",
+        "addr:suburb": "Alecrim",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59040-150",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Naval de Natal",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2218968,
+          -5.7925261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2654261,
+      "properties": {
+        "operator": "Governo do Estado (RN)",
+        "operator:type": "public",
+        "ref:CNES": "2654261",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL MARIA ALICE FERNANDES",
+        "addr:street": "Rua Pedro Alvares Cabral",
+        "addr:suburb": "N S Apresentacao",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59115-000",
+        "phone": "+55 84 3232-5409",
+        "email": "hospitalmariaalice2@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Maria Alice Fernandes",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2827215,
+          -5.7637413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 407720,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "407720",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL MUNICIPAL DE PEDIATRIA DR NIVALDO JUNIOR",
+        "addr:street": "Rua Coronel Joaquim Manoel",
+        "addr:housenumber": "654",
+        "addr:suburb": "Petropolis",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59012-320",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Municipal de Pediatria Dr Nivaldo Junior",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.195303,
+          -5.7844069
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2653931,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2653931",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "MATERNIDADE ARAKEN IRERE PINTO",
+        "addr:street": "Rua Coronel Joaquim Manoel",
+        "addr:housenumber": "654",
+        "addr:suburb": "Petropolis",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59012-330",
+        "phone": "+55 46 3232-8431",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Maternidade Araken Irere Pinto",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.196805,
+          -5.7826991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6108547,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "6108547",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "MATERNIDADE PROFESSOR LEIDE MORAIS",
+        "addr:street": "Avenida das Fronteiras",
+        "addr:suburb": "Nossa Senhora da Apr",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59114-275",
+        "phone": "+55 46 3232-5651",
+        "email": "admhospitalardaleide@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Maternidade Professor Leide Morais",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2629483,
+          -5.7541874
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2408627,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2408627",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE MISTA DE MAE LUIZA",
+        "addr:street": "Rua João Xxiii",
+        "addr:suburb": "Mae Luiza",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59014-000",
+        "phone": "+55 46 3232-8625",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Mista de Mae Luiza",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.1914453,
+          -5.7945327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 695734,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "695734",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "APTAD AMBULATORIO DE PREV E TRATAMENTO DE TABAGISTMO ALCO",
+        "addr:street": "Rua Governador Valadares",
+        "addr:suburb": "Neopolis",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59088-010",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Aptad Ambulatorio de Prev e Tratamento de Tabagistmo Alco",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2065318,
+          -5.8695301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4013441,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "4013441",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ESPECIALIDADES INTEGRADAS LESTE II",
+        "addr:street": "Rua Av Fonseca e Silva",
+        "addr:housenumber": "1129",
+        "addr:suburb": "Alecrim",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59030-270",
+        "phone": "3232 6032/6035/6036",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Especialidades Integradas Leste II",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2179799,
+          -5.7938433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4013476,
+      "properties": {
+        "operator": "Governo do Estado (RN)",
+        "operator:type": "public",
+        "ref:CNES": "4013476",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE REABILITACAO E ATENCAO ESPECIALIZADA CERAE RN",
+        "addr:street": "Rua Av Alexandrino de Alencar",
+        "addr:housenumber": "1900",
+        "addr:suburb": "Tirol",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59015-350",
+        "phone": "+55 84 3232-6656",
+        "email": "ceraern.gov.br@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Centro Especializado em Reabilitação (CER)",
+        "short_name": "CER",
+        "comment": "Reabilitação (CER)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.1957965,
+          -5.8111932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2408686,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2408686",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE REF DE ATENCAO AO IDOSO",
+        "addr:street": "Rua Praca Augusto Severo",
+        "addr:housenumber": "281",
+        "addr:suburb": "Ribeira",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59012-380",
+        "phone": "+55 46 3232-8580",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Ref de Atencao Ao Idoso",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2065073,
+          -5.7894474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2653915,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2653915",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO ODONT E PRONTO ATEND DR MORTON DE FARIA",
+        "addr:street": "Rua Praca Capitao Jose da Penha",
+        "addr:housenumber": "155",
+        "addr:suburb": "Ribeira",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59012-080",
+        "phone": "+55 46 3232-8595",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro Odont e Pronto Atend Dr Morton de Faria",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2042179,
+          -5.7775379
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3617327,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "3617327",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CEREST CENTRO DE REFERENCIA EM SAUDE DO TRABALHADOR",
+        "addr:street": "Rua Av Deodoro da Fonseca",
+        "addr:suburb": "Petropolis",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59014-150",
+        "phone": "+55 46 3232-3131",
+        "email": "fernandaoppes19_86@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "occupational_health",
+        "name": "CEREST Macro Centro Sul",
+        "short_name": "CEREST",
+        "comment": "Saúde do Trabalhador (CEREST)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2060172,
+          -5.7856345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7532970,
+      "properties": {
+        "operator": "Governo do Estado (RN)",
+        "operator:type": "public",
+        "ref:CNES": "7532970",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CEREST CENTRO ESTADUAL DE REFERENCIA EM SAUDE DO TRABALHADOR",
+        "addr:street": "Rua Av Deodoro da Fonseca",
+        "addr:housenumber": "730",
+        "addr:suburb": "Cidade Alta",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59025-600",
+        "phone": "+55 84 3232-2886",
+        "amenity": "clinic",
+        "healthcare": "occupational_health",
+        "name": "CEREST Macro Centro Sul",
+        "short_name": "CEREST",
+        "comment": "Saúde do Trabalhador (CEREST)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7221,
+          -5.2847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2653966,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2653966",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CERPIC CENTRO DE REF EM PRATICAS INTEG E COMPLEMENTARES",
+        "addr:street": "Rua Tuiuti",
+        "addr:housenumber": "173",
+        "addr:suburb": "Petropolis",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59014-160",
+        "phone": "+55 84 3202-3566",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Centro Especializado em Reabilitação (CER)",
+        "short_name": "CER",
+        "comment": "Reabilitação (CER)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.1931299,
+          -5.7871951
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2409062,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2409062",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CLINICA ODONTOLOGICA INFANTIL I",
+        "addr:street": "Rua Av Itapetinga",
+        "addr:suburb": "Potengi",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59124-400",
+        "phone": "+55 46 3232-8195",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Centro de Especialidades Odontológicas (CEO)",
+        "short_name": "CEO",
+        "comment": "Odontologia (CEO)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2513399,
+          -5.7471298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2409011,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2409011",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DEPARTAMENTO DE ODONTOLOGIA",
+        "addr:street": "Rua Av Senador Salgado Filho",
+        "addr:housenumber": "1787",
+        "addr:suburb": "Lagoa Nova",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59056-000",
+        "phone": "+55 46 84215-4101",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Centro de Especialidades Odontológicas (CEO)",
+        "short_name": "CEO",
+        "comment": "Odontologia (CEO)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2090173,
+          -5.8439915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9501401,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "9501401",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "LAPICS LABORATORIO DE PRATICAS INTEGRATIVAS E COMPLEMENTARES",
+        "addr:street": "Rua Av Nilo Pecanha",
+        "addr:housenumber": "613",
+        "addr:suburb": "Petropolis",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59012-300",
+        "phone": "+55 84 3342-9726",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Lapics Laboratorio de Praticas Integrativas e Complementares",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.1968519,
+          -5.7811686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2409070,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2409070",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POLICLINICA NORTE II",
+        "addr:street": "Rua Av Dr João Medeiros",
+        "addr:suburb": "Potengi",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59110-000",
+        "phone": "+55 46 3232-8225",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Policlinica Norte II",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2352514,
+          -5.7521906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2409119,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2409119",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POLICLINICA OESTE",
+        "addr:street": "Avenida Pernambuco",
+        "addr:housenumber": "25",
+        "addr:suburb": "Cidade da Esperança",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59070-300",
+        "phone": "3232-8550/3232-1180",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Policlinica Oeste",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2399117,
+          -5.8254655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4013611,
+      "properties": {
+        "operator": "Governo do Estado (RN)",
+        "operator:type": "public",
+        "ref:CNES": "4013611",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "TFD TRATAMENTO FORA DO DOMICILIO",
+        "addr:street": "Rua Av Floriano Peixoto Complexo de Regulacao",
+        "addr:housenumber": "550",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59012-500",
+        "phone": "+55 84 3232-2540",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Tfd Tratamento Fora do Domicilio",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.929,
+          -5.2711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 668737,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "668737",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "TRT 21A REGIAO",
+        "addr:street": "Rua Capitao Mor Gouveia",
+        "addr:housenumber": "1738",
+        "addr:suburb": "Lagoa Nova",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59063-400",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Trt 21a Regiao",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.223725,
+          -5.824758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2679922,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2679922",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CASA DA CRIANCA E DO ADOLESCENTE DEFICIENTE",
+        "addr:street": "Rua Presidente Quaresma",
+        "addr:housenumber": "889",
+        "addr:suburb": "Alecrim",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59031-170",
+        "phone": "+55 46 84232-6261",
+        "amenity": "clinic",
+        "healthcare": "diagnostic_centre",
+        "name": "Casa da Crianca e do Adolescente Deficiente",
+        "comment": "Diagnóstico por Imagem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2141578,
+          -5.8049706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4013549,
+      "properties": {
+        "operator": "Governo do Estado (RN)",
+        "operator:type": "public",
+        "ref:CNES": "4013549",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO INTEGRADO DE CITOPATOLOGIA",
+        "addr:street": "Rua Fonseca e Silva",
+        "addr:housenumber": "1129",
+        "addr:suburb": "Alecrim",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59030-270",
+        "phone": "+55 46 84232-6180",
+        "amenity": "clinic",
+        "healthcare": "diagnostic_centre",
+        "name": "Centro Integrado de Citopatologia",
+        "comment": "Diagnóstico por Imagem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2143871,
+          -5.7930864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9950001,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "9950001",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "IMT INSTITUTO DE MEDICINA TROPICAL DO RN",
+        "addr:street": "Rua Conego Monte",
+        "addr:housenumber": "300",
+        "addr:suburb": "Quintas",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59037-170",
+        "phone": "+55 84 3342-2286",
+        "amenity": "clinic",
+        "healthcare": "diagnostic_centre",
+        "name": "Imt Instituto de Medicina Tropical do Rn",
+        "comment": "Diagnóstico por Imagem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2203427,
+          -5.87289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2693593,
+      "properties": {
+        "operator": "Governo do Estado (RN)",
+        "operator:type": "public",
+        "ref:CNES": "2693593",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "LAB DE ANATOMOHISTOPATOLOGIA DE NATAL",
+        "addr:street": "Rua Av Alexandrino de Alencar",
+        "addr:housenumber": "01",
+        "addr:suburb": "Alecrim",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59030-350",
+        "phone": "+55 84 3232-6168",
+        "amenity": "clinic",
+        "healthcare": "diagnostic_centre",
+        "name": "Lab de Anatomohistopatologia de Natal",
+        "comment": "Diagnóstico por Imagem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2099645,
+          -5.8031507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4062000,
+      "properties": {
+        "operator": "Governo do Estado (RN)",
+        "operator:type": "public",
+        "ref:CNES": "4062000",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "LABORATORIO DE MONITORAMENTO EXTERNO DE QUALIDADE MEQ RN",
+        "addr:street": "Rua Av Capitao Mor Golveia",
+        "addr:housenumber": "866",
+        "addr:suburb": "Felipe Camarao",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59070-100",
+        "phone": "+55 84 3232-0105",
+        "email": "laboratoriosesap@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "diagnostic_centre",
+        "name": "Laboratorio de Monitoramento Externo de Qualidade Meq Rn",
+        "comment": "Diagnóstico por Imagem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.252254,
+          -5.7508985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9791590,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "9791590",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "LABORATORIO MUNICIPAL DE SAUDE",
+        "addr:street": "Rua dos Paiatis",
+        "addr:housenumber": "1846",
+        "addr:suburb": "Quintas",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59035-150",
+        "amenity": "clinic",
+        "healthcare": "diagnostic_centre",
+        "name": "Laboratorio Municipal de Saude",
+        "comment": "Diagnóstico por Imagem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2315222,
+          -5.8014576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9232664,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "9232664",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE ODONTOLOGIA MOVEL",
+        "addr:street": "Rua Irma Vitoria",
+        "addr:suburb": "Vale Dourado",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59115-447",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Odontologia Movel",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.272366,
+          -5.762216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2679930,
+      "properties": {
+        "operator": "Governo do Estado (RN)",
+        "operator:type": "public",
+        "ref:CNES": "2679930",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL DE AMBULANCIA DO CORPO DE BOMBEIROS",
+        "addr:street": "Avenida Alexandrino de Alencar",
+        "addr:housenumber": "908",
+        "addr:suburb": "Lagoa Seca",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59030-350",
+        "phone": "+55 84 3232-6871",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2129819,
+          -5.8031792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7100655,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "7100655",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USA 01",
+        "addr:street": "Rua dos Potiguares",
+        "addr:housenumber": "300",
+        "addr:suburb": "Dix Sept Rosado",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59054-280",
+        "email": "admsamunatal@gmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2230585,
+          -5.8119831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7104138,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "7104138",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USA 02",
+        "addr:street": "Rua dos Potiguares",
+        "addr:housenumber": "300",
+        "addr:suburb": "Dix Sept Rosado",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59054-280",
+        "email": "admsamunatal@gmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2119917,
+          -5.8165461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7105878,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "7105878",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USA 03",
+        "addr:street": "Rua dos Potiguares",
+        "addr:housenumber": "300",
+        "addr:suburb": "Dix Sept Rosado",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59054-280",
+        "email": "admsamunatal@gmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2119917,
+          -5.8165434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7112637,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "7112637",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USB 07",
+        "addr:street": "Rua dos Potiguares",
+        "addr:housenumber": "300",
+        "addr:suburb": "Dix Sept Rosado",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59054-280",
+        "email": "admsamunatal@gmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.211997,
+          -5.8165461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7112645,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "7112645",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USB 08",
+        "addr:street": "Rua dos Potiguares",
+        "addr:housenumber": "300",
+        "addr:suburb": "Dix Sept Rosado",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59054-280",
+        "email": "admsamunatal@gmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2119997,
+          -5.8165434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7112661,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "7112661",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USB 09",
+        "addr:street": "Rua dos Potiguares",
+        "addr:housenumber": "300",
+        "addr:suburb": "Dix Sept Rosado",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59054-280",
+        "email": "admsamunatal@gmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2119697,
+          -5.8165303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7112696,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "7112696",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USB 10",
+        "addr:street": "Rua dos Potiguares",
+        "addr:housenumber": "300",
+        "addr:suburb": "Dix Sept Rosado",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59054-280",
+        "email": "admsamunatal@gmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.211967,
+          -5.816533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7112726,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "7112726",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USB 11",
+        "addr:street": "Rua dos Potiguares",
+        "addr:housenumber": "300",
+        "addr:suburb": "Dix Sept Rosado",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59054-280",
+        "email": "admsamunatal@gmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.211967,
+          -5.8165618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7112734,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "7112734",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USB 12",
+        "addr:street": "Rua dos Potiguares",
+        "addr:housenumber": "300",
+        "addr:suburb": "Dix Sept Rosado",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59054-280",
+        "email": "admsamunatal@gmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2119943,
+          -5.8165855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7112807,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "7112807",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USB 13",
+        "addr:street": "Rua dos Potiguares",
+        "addr:housenumber": "300",
+        "addr:suburb": "Dix Sept Rosado",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59054-280",
+        "email": "admsamunatal@gmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2120217,
+          -5.8165671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7112815,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "7112815",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USB 14",
+        "addr:street": "Rua dos Potiguares",
+        "addr:housenumber": "300",
+        "addr:suburb": "Dix Sept Rosado",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59054-280",
+        "email": "admsamunatal@gmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2119697,
+          -5.8165644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7125577,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "7125577",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USB 15",
+        "addr:street": "Rua dos Potiguares",
+        "addr:housenumber": "300",
+        "addr:suburb": "Dix Sept Rosado",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59054-280",
+        "email": "admsamunatal@gmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.211997,
+          -5.8165775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8113238,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "8113238",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DAF NATAL",
+        "addr:street": "Rua Macilio Dias",
+        "addr:housenumber": "180",
+        "addr:suburb": "Igapo",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59104-260",
+        "phone": "+55 84 3232-4394",
+        "email": "dafsmsnatal4394@gmail.com",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "dispensing": "yes",
+        "name": "Daf Natal",
+        "comment": "Farmácia Pública"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2588547,
+          -5.7698634
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4013581,
+      "properties": {
+        "operator": "Governo do Estado (RN)",
+        "operator:type": "public",
+        "ref:CNES": "4013581",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNICAT NATAL",
+        "addr:street": "Rua Dr Nilo Bezerra Ramalho",
+        "addr:housenumber": "1691",
+        "addr:suburb": "Tirol",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59015-300",
+        "phone": "(84) 3232-6860 6861",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "dispensing": "yes",
+        "name": "Unicat Natal",
+        "comment": "Farmácia Pública"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.20114,
+          -5.81096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2654172,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2654172",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE CONTROLE DE ZOONOSES",
+        "addr:street": "Rua Av das Fronteiras",
+        "addr:suburb": "Potengi",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59115-470",
+        "phone": "32328235/9787/8238",
+        "email": "zoonoses.natal.rn@gmail.com",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2656701,
+          -5.7650421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2408732,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2408732",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DEPARTAMENTO DE VIGILANCIA EM SAUDE",
+        "addr:street": "Rua Avn Rodrigues Alves",
+        "addr:housenumber": "766",
+        "addr:suburb": "Tirol",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59020-200",
+        "phone": "+55 46 3232-8503",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2068257,
+          -5.794953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6532098,
+      "properties": {
+        "operator": "Governo do Estado (RN)",
+        "operator:type": "public",
+        "ref:CNES": "6532098",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SUVISA",
+        "addr:street": "Avenida Junqueira Aires",
+        "addr:housenumber": "488",
+        "addr:suburb": "Cidade Alta",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59020-280",
+        "phone": "+55 46 3232-2562",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.158,
+          -5.453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9147721,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "9147721",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DISTRITO LESTE",
+        "addr:street": "Rua Praca Augusto Severo",
+        "addr:suburb": "Ribeira",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59012-380",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2084681,
+          -5.7801273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2408406,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2408406",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DISTRITO NORTE I",
+        "addr:street": "Rua Ivaipora",
+        "addr:housenumber": "133",
+        "addr:suburb": "Potengi",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59108-200",
+        "phone": "32328189/6298",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2447629,
+          -5.7506968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9187979,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "9187979",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DISTRITO NORTE II",
+        "addr:street": "Avenida Florianopolis",
+        "addr:suburb": "Potengi",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59110-000",
+        "phone": "+55 46 3232-8268",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2525835,
+          -5.7606222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2656485,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2656485",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DISTRITO OESTE",
+        "addr:street": "Rua Rubens Mariz",
+        "addr:housenumber": "734",
+        "addr:suburb": "Nazare",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59072-180",
+        "phone": "+55 46 3232-8300",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2363031,
+          -5.8163832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2408864,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2408864",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DISTRITO SUL",
+        "addr:street": "Rua Francisco Borges de Oliveira",
+        "addr:housenumber": "1317",
+        "addr:suburb": "Lagoa Nova",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59063-370",
+        "phone": "+55 46 3232-8282",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2105139,
+          -5.8194553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5672465,
+      "properties": {
+        "operator": "Governo do Estado (RN)",
+        "operator:type": "public",
+        "ref:CNES": "5672465",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SECRETARIA ESTADUAL DE SAUDE PUBLICA DO RN",
+        "addr:street": "Rua Av Deodoro da Fonseca",
+        "addr:housenumber": "730",
+        "addr:suburb": "Cidade Alta",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59025-600",
+        "phone": "+55 84 3232-2662",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.127,
+          -5.4654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6347223,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "6347223",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SECRETARIA MUNICIPAL DE SAUDE NIVEL CENTRAL",
+        "addr:street": "Rua Fabricio Pedroza",
+        "addr:housenumber": "915",
+        "addr:suburb": "Areia Preta",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59014-030",
+        "phone": "+55 84 3232-8544",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2090144,
+          -5.794953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2381451,
+      "properties": {
+        "operator": "Governo do Estado (RN)",
+        "operator:type": "public",
+        "ref:CNES": "2381451",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HEMOCENTRO DALTON BARBOSA CUNHA HEMONORTE",
+        "addr:street": "Rua Av Alexandrino de Alencar",
+        "addr:housenumber": "1800",
+        "addr:suburb": "Tirol",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59015-350",
+        "phone": "+55 84 3232-6701",
+        "email": "hemodirecaogeral@rn.gov.br",
+        "amenity": "blood_donation",
+        "healthcare": "blood_donation",
+        "name": "Hemonúcleo de Pato Branco (HEMEPAR)",
+        "short_name": "Hemepar Pato Branco",
+        "comment": "Doação de Sangue (HEMEPAR)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.1232,
+          -5.4742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2380447,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2380447",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "NUCLEO HEMATOLOGIA E HEMOTERAPIA",
+        "addr:street": "Rua Av Nilo Pecanha",
+        "addr:housenumber": "619",
+        "addr:suburb": "Petropolis",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59012-300",
+        "phone": "+55 84 3202-3955",
+        "amenity": "blood_donation",
+        "healthcare": "blood_donation",
+        "name": "Hemonúcleo de Pato Branco (HEMEPAR)",
+        "short_name": "Hemepar Pato Branco",
+        "comment": "Doação de Sangue (HEMEPAR)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.198586,
+          -5.782208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2408716,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2408716",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CAPS AD LESTE DR LUIZ GONZAGA MOREIRA",
+        "addr:street": "Rua Pacifico de Medeiros",
+        "addr:housenumber": "55",
+        "addr:suburb": "Barro Vermelho",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59020-080",
+        "phone": "+55 46 3232-8565",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2082792,
+          -5.7990176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2679523,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2679523",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CAPS AD NORTE JOSE JEOVA DOS SANTOS",
+        "addr:street": "Rua Av Rio Doce",
+        "addr:housenumber": "03",
+        "addr:suburb": "Potengi",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59129-340",
+        "phone": "32328232/8233",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2554373,
+          -5.742043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5358329,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "5358329",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CAPS INFANTIL ESPERANCA",
+        "addr:street": "Avenida Capitao Mor Golveia",
+        "addr:suburb": "Cidade da Esperança",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59070-400",
+        "phone": "+55 46 3232-8933",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2443612,
+          -5.8182628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6531288,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "6531288",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UPA 24H DE PAJUCARA",
+        "addr:street": "Avenida Moema Tinoco da Cunha Lima",
+        "addr:housenumber": "3393",
+        "addr:suburb": "Pajucara",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59132-390",
+        "phone": "+55 84 3614-5280",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "emergency": "yes",
+        "opening_hours": "24/7",
+        "name": "UPA 24 Horas Maria Itália Freddo",
+        "short_name": "UPA 24h",
+        "comment": "UPA 24h"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2252244,
+          -5.7420267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7408765,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "7408765",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UPA 24H ESPERANCA",
+        "addr:street": "Avenida Paraiba",
+        "addr:suburb": "Cidade da Esperança",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59070-200",
+        "phone": "+55 84 3232-2378",
+        "email": "upaesperanca@outlook.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "emergency": "yes",
+        "opening_hours": "24/7",
+        "name": "UPA 24 Horas Maria Itália Freddo",
+        "short_name": "UPA 24h",
+        "comment": "UPA 24h"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2376604,
+          -5.8234518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7923287,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "7923287",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UPA 24H POTENGI",
+        "addr:street": "Avenida Senhor do Bomfim",
+        "addr:suburb": "Potengi",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59110-260",
+        "phone": "+55 84 3232-4450",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "emergency": "yes",
+        "opening_hours": "24/7",
+        "name": "UPA 24 Horas Maria Itália Freddo",
+        "short_name": "UPA 24h",
+        "comment": "UPA 24h"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2534983,
+          -5.7566904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9361936,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "9361936",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UPA 24HS CIDADE SATELITE",
+        "addr:street": "Rua Av dos Xavantes",
+        "addr:suburb": "Pitimbu",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59067-600",
+        "phone": "+55 84 3215-1915",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "emergency": "yes",
+        "opening_hours": "24/7",
+        "name": "UPA 24 Horas Maria Itália Freddo",
+        "short_name": "UPA 24h",
+        "comment": "UPA 24h"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2331328,
+          -5.8595483
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 114561,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "114561",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "ACADEMIA DE SAUDE DE FELIPE CAMARAO",
+        "addr:street": "Rua Santas Isabel",
+        "addr:suburb": "Felipe Camarao",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59072-440",
+        "leisure": "fitness_centre",
+        "healthcare": "rehabilitation",
+        "name": "Academia da Saúde Academia de Saude de Felipe Camarao",
+        "comment": "Academia da Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2452396,
+          -5.8320722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 784273,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "784273",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "ACADEMIA DE SAUDE DE PAJUCARA",
+        "addr:street": "Avenida Mar Mediterraneo",
+        "addr:suburb": "Pajucara",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59133-010",
+        "leisure": "fitness_centre",
+        "healthcare": "rehabilitation",
+        "name": "Academia da Saúde Academia de Saude de Pajucara",
+        "comment": "Academia da Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2353443,
+          -5.7348311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5767512,
+      "properties": {
+        "operator": "Governo do Estado (RN)",
+        "operator:type": "public",
+        "ref:CNES": "5767512",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE INFORMACAO E ASSIST TOXICOLOGICA CIATOX RN",
+        "addr:street": "Rua Av Deodoro da Fonseca",
+        "addr:housenumber": "730",
+        "addr:suburb": "Cidade Alta",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59025-400",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Informacao e Assist Toxicologica Ciatox Rn",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.1229,
+          -5.4728
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7305427,
+      "properties": {
+        "operator": "Governo do Estado (RN)",
+        "operator:type": "public",
+        "ref:CNES": "7305427",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "NUCLEO TECNICO CIENTIFICO TELESAUDE DO RN",
+        "addr:street": "Rua Av Deodoro da Fonseca",
+        "addr:housenumber": "730",
+        "addr:suburb": "Cidade Alta",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59025-600",
+        "phone": "+55 84 3232-2590",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Nucleo Tecnico Cientifico Telesaude do Rn",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2080109,
+          -5.7910533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2679531,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "2679531",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU I92 NATAL",
+        "addr:street": "Rua dos Potiguares",
+        "addr:housenumber": "300",
+        "addr:suburb": "Dix Sept Rosado",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59054-280",
+        "phone": "+55 46 3232-9222",
+        "email": "admsamunatal@gmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Central de Regulação Médica das Urgências (SAMU 192)",
+        "short_name": "Regulação SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2120164,
+          -5.816533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2693615,
+      "properties": {
+        "operator": "Governo do Estado (RN)",
+        "operator:type": "public",
+        "ref:CNES": "2693615",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "LABORATORIO CENTRAL",
+        "addr:street": "Rua Conego Monte",
+        "addr:housenumber": "410",
+        "addr:suburb": "Quintas",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59037-170",
+        "phone": "+55 84 3232-6190",
+        "email": "lacenrn@yahoo.com.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Laboratorio Central",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2256865,
+          -5.7976591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2967391,
+      "properties": {
+        "operator": "Governo do Estado (RN)",
+        "operator:type": "public",
+        "ref:CNES": "2967391",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "LABORATORIO DE GENETICA HUMANA DO RN",
+        "addr:street": "Rua Av Alexandrino de Alencar",
+        "addr:housenumber": "1900",
+        "addr:suburb": "Tirol",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59015-350",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Laboratorio de Genetica Humana do Rn",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.724,
+          -5.2827
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6300944,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "6300944",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL DE REGULACAO DE NATAL",
+        "addr:street": "Rua dos Potiguares",
+        "addr:housenumber": "300",
+        "addr:suburb": "Baixo Dix Sept Rosad",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59020-010",
+        "phone": "3232-9201/9203/9204",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Sistema Municipal de Auditoria e Regulação em Saúde",
+        "comment": "Auditoria e Regulação"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2232815,
+          -5.8137791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6615902,
+      "properties": {
+        "operator": "Governo do Estado (RN)",
+        "operator:type": "public",
+        "ref:CNES": "6615902",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL METROPOLITANA DE REGULACAO CMR SESAPRN",
+        "addr:street": "Rua Av Deodoro da Fonseca",
+        "addr:housenumber": "550",
+        "addr:suburb": "Cidade Alta",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59012-500",
+        "phone": "+55 84 3232-9409",
+        "email": "cerrnsesap@gmail.com",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Sistema Municipal de Auditoria e Regulação em Saúde",
+        "comment": "Auditoria e Regulação"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.127,
+          -5.46542
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7550626,
+      "properties": {
+        "operator": "Governo do Estado (RN)",
+        "operator:type": "public",
+        "ref:CNES": "7550626",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL ESTADUAL DE TRANSPLANTES CNCDO RN",
+        "addr:street": "Rua Av Floriano Peixoto",
+        "addr:housenumber": "550",
+        "addr:suburb": "Tirol",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59012-500",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Central Estadual de Transplantes Cncdo Rn",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2021238,
+          -5.7816648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9862595,
+      "properties": {
+        "operator": "Governo do Estado (RN)",
+        "operator:type": "public",
+        "ref:CNES": "9862595",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "NUCLEO DE ATENCAO A SEGURANCA E SAUDE DO TRABALHADOR NASST",
+        "addr:street": "Rua Av Deodoro da Fonseca",
+        "addr:housenumber": "730",
+        "addr:suburb": "Cidade Alta",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59012-600",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Nucleo de Atencao A Seguranca e Saude do Trabalhador Nasst",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2020143,
+          -5.7817281
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 423726,
+      "properties": {
+        "operator": "Governo do Estado (RN)",
+        "operator:type": "public",
+        "ref:CNES": "423726",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL ESTADUAL DE REDE DE FRIO CERF",
+        "addr:street": "Rua Dr Nilo Bezerra Ramalho",
+        "addr:housenumber": "1691",
+        "addr:suburb": "Tirol",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59015-300",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Central Estadual de Rede de Frio Cerf",
+        "comment": "Suprimentos / Logística"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2069476,
+          -5.7907192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 377066,
+      "properties": {
+        "operator": "Prefeitura Municipal de Natal",
+        "operator:type": "public",
+        "ref:CNES": "377066",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CEMADI",
+        "addr:street": "Rua Av Romualdo Galvao",
+        "addr:housenumber": "891",
+        "addr:suburb": "Tirol",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59022-205",
+        "phone": "+55 84 3232-8573",
+        "amenity": "clinic",
+        "healthcare": "vaccination",
+        "name": "Sala Central de Vacinas de Pato Branco",
+        "short_name": "Sala de Vacinas",
+        "comment": "Sala de Vacinas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.206064,
+          -5.8014251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 423734,
+      "properties": {
+        "operator": "Governo do Estado (RN)",
+        "operator:type": "public",
+        "ref:CNES": "423734",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CRIE CENTRO DE REFERENCIA PARA IMUNOBIOLOGICOS ESPECIAIS",
+        "addr:street": "Rua Conego Monte",
+        "addr:housenumber": "110",
+        "addr:suburb": "Quintas",
+        "addr:city": "Natal",
+        "addr:state": "RN",
+        "addr:country": "BR",
+        "addr:postcode": "59040-430",
+        "amenity": "clinic",
+        "healthcare": "vaccination",
+        "name": "Sala Central de Vacinas de Pato Branco",
+        "short_name": "Sala de Vacinas",
+        "comment": "Sala de Vacinas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.128,
+          -5.4654
+        ]
+      }
+    }
+  ]
+}

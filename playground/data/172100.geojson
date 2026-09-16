@@ -1,0 +1,2585 @@
+{
+  "type": "FeatureCollection",
+  "name": "Estabelecimentos Públicos de Saúde - DEMAS / CNES",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 7156316,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "7156316",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "COSAU COORDENADORIA DE SAUDE TRIBUNAL DE CONTAS TO",
+        "addr:street": "Rua Acsu Ne 10 Avenida Teotonio Segurado",
+        "addr:suburb": "Plano Diretor Norte",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77018-524",
+        "phone": "63 32325009 32325974",
+        "email": "geovanecl@tceto.tc.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cosau Coordenadoria de Saude Tribunal de Contas To",
+        "short_name": "UBS Cosau Coordenadoria de Saude Tribunal de Contas To",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3354785,
+          -10.1776841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3581438,
+      "properties": {
+        "operator": "Governo do Estado (TO)",
+        "operator:type": "public",
+        "ref:CNES": "3581438",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "EQUIPE DE ATENCAO A SAUDE NO SISTEMA PENITENCIARIO DE PALMAS",
+        "addr:street": "Rua Plano Diretor Expansao Sul",
+        "addr:housenumber": "77061002",
+        "addr:suburb": "Zona Rural",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77001-246",
+        "phone": "+55 63 3218-1884",
+        "email": "saude.prisional@saude.to.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Equipe de Atencao A Saude No Sistema Penitenciario de Palmas",
+        "short_name": "UBS Equipe de Atencao A Saude No Sistema Penitenciario de Palmas",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3377187,
+          -10.1678882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2594056,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "2594056",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA ALBERTINO SANTOS ARSE 101",
+        "addr:street": "Rua Arse 101 Alameda 11 Ai 09d",
+        "addr:suburb": "Plano Diretor Sul",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77023-512",
+        "phone": "(63) 32127953 / 7954",
+        "email": "usf1004sul@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Albertino Santos Arse 101",
+        "short_name": "UBS Da Familia Albertino Santos Arse 101",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3266258,
+          -10.2482018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2468042,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "2468042",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA ALTO BONITO",
+        "addr:street": "Rua 20 Apm 09",
+        "addr:suburb": "Aureny Iv",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77060-024",
+        "phone": "63 3212-7897/ 7896",
+        "email": "usfaltobonito@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Alto Bonito",
+        "short_name": "UBS Da Familia Alto Bonito",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2958555,
+          -10.3231524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2467895,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "2467895",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA ARNE 53",
+        "addr:street": "Rua Arne 53 Alameda 03 Apm 09",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77006-470",
+        "phone": "63 3212-7980 / 7981",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Arne 53",
+        "short_name": "UBS Da Familia Arne 53",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3511305,
+          -10.1594205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3258017,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "3258017",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA ARNE 64",
+        "addr:street": "Rua Arne 64 Alameda 11 Apm 49",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77006-652",
+        "phone": "063- 3212-7976 /7977",
+        "email": "usf508norte@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Arne 64",
+        "short_name": "UBS Da Familia Arne 64",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3498001,
+          -10.1615115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2467941,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "2467941",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA ARNO 41",
+        "addr:street": "Rua Arno 41 Alameda 01 Apm 40",
+        "addr:suburb": "Plano Diretor Norte",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77001-488",
+        "phone": "(63) 3212-7960/7959",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Arno 41",
+        "short_name": "UBS Da Familia Arno 41",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3521175,
+          -10.1592093
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6276474,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "6276474",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA ARNO 42",
+        "addr:street": "Rua Arno 42 Al 01 Apm 10",
+        "addr:suburb": "Plano Diretor Norte",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77002-021",
+        "phone": "+55 63 3212-7985",
+        "email": "usf405norte@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Arno 42",
+        "short_name": "UBS Da Familia Arno 42",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3517528,
+          -10.1587658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9140301,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "9140301",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA ARNO 44",
+        "addr:street": "Rua Arno 44 Al 14 Apm 08",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77002-021",
+        "phone": "+55 63 3212-7958",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Arno 44",
+        "short_name": "UBS Da Familia Arno 44",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3393288,
+          -10.1701922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2594161,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "2594161",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA ARSE 82",
+        "addr:street": "Rua Arse 82 Alameda 03 Apm 19",
+        "addr:suburb": "Plano Diretor Sul",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77023-076",
+        "phone": "(63) 3212-7968/7969",
+        "email": "usf806sul@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Arse 82",
+        "short_name": "UBS Da Familia Arse 82",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3195448,
+          -10.2323649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2467984,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "2467984",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA AURENY II",
+        "addr:street": "Rua 01",
+        "addr:suburb": "Jardim Aureny II",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77060-192",
+        "phone": "(63)32127876 / 7875",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Aureny II",
+        "short_name": "UBS Da Familia Aureny II",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2729446,
+          -10.3304915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2467879,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "2467879",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA BELA VISTA",
+        "addr:street": "Rua Nc 11",
+        "addr:suburb": "Setor Bela Vista",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77064-692",
+        "phone": "(63)32127966/7967",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Bela Vista",
+        "short_name": "UBS Da Familia Bela Vista",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2964134,
+          -10.351059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6372082,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "6372082",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA DEISE DE FATIMA ARAUJO DE PAULA",
+        "addr:street": "Rua Arse 13 Alameda 02 Lote 05",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77020-102",
+        "phone": "63 32127845 /7862",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Deise de Fatima Araujo de Paula",
+        "short_name": "UBS Da Familia Deise de Fatima Araujo de Paula",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3517313,
+          -10.1593361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3035077,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "3035077",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA EUGENIO PINHEIRO DA SILVA",
+        "addr:street": "Rua Natal Apm Nw 01 G",
+        "addr:suburb": "Jardim Aureny I",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77060-128",
+        "phone": "63 32127986/32127987",
+        "email": "usfeugenio.sms@gmail.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Eugenio Pinheiro da Silva",
+        "short_name": "UBS Da Familia Eugenio Pinheiro da Silva",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3053827,
+          -10.3138637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2468093,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "2468093",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA FRANCISCO JUNIOR ARSO 41",
+        "addr:street": "Rua Arso 41 Alameda 01 Apm 02",
+        "addr:housenumber": "06",
+        "addr:suburb": "Plano Diretor Sul",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77015-568",
+        "phone": "63 3212-7970 /7971",
+        "email": "usf403sul@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Francisco Junior Arso 41",
+        "short_name": "UBS Da Familia Francisco Junior Arso 41",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3471394,
+          -10.1922413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2492717,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "2492717",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA GIANCARLO DE M QUAGLIALRELLO",
+        "addr:street": "Rua Arn0 71 Alameda 14 Apm 11",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77001-864",
+        "phone": "63 32127974 /7975",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Giancarlo de M Quaglialrello",
+        "short_name": "UBS Da Familia Giancarlo de M Quaglialrello",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.339479,
+          -10.1702344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2492490,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "2492490",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA HEDER DE OLIVEIRA SILVA",
+        "addr:street": "Rua Arse 131 Rua 11 Apm 23f e 23g",
+        "addr:suburb": "Plano Diretor Sul",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77024-700",
+        "phone": "(63) 32127964 / 7965",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Heder de Oliveira Silva",
+        "short_name": "UBS Da Familia Heder de Oliveira Silva",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3250648,
+          -10.2659646
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2468034,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "2468034",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA JOSE HERMES RODRIGUES DAMASO",
+        "addr:street": "Rua S 3",
+        "addr:suburb": "Setor Sul",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77064-632",
+        "phone": "63 3212-7945/7944",
+        "email": "usfsetorsul.sms@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Jose Hermes Rodrigues Damaso",
+        "short_name": "UBS Da Familia Jose Hermes Rodrigues Damaso",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.306005,
+          -10.2968901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7138164,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "7138164",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA JOSE LUCIO DE CARVALHO",
+        "addr:street": "Rua Rn 7",
+        "addr:suburb": "Loteamento Lago Sul",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77062-141",
+        "phone": "63 32127881/7882",
+        "email": "usfjoselucio.sms@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Jose Lucio de Carvalho",
+        "short_name": "UBS Da Familia Jose Lucio de Carvalho",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3193005,
+          -10.3297683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2467976,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "2467976",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA JOSE LUIZ OTAVIANI ARNO 33",
+        "addr:street": "Rua Arno 33 Al 09 Apm 12",
+        "addr:suburb": "Plano Diretor Norte",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77001-440",
+        "phone": "+55 63 33212-7957",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Jose Luiz Otaviani Arno 33",
+        "short_name": "UBS Da Familia Jose Luiz Otaviani Arno 33",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3510232,
+          -10.1670452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2468077,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "2468077",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA LAURIDES LIMA MILHOMEM",
+        "addr:street": "Rua 39",
+        "addr:suburb": "Jardim Aureny III",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77062-048",
+        "phone": "(63)32127993 /7983",
+        "email": "csclaurides@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Laurides Lima Milhomem",
+        "short_name": "UBS Da Familia Laurides Lima Milhomem",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2716427,
+          -10.3306961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7154992,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "7154992",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA LOIANE MORENO VIEIRA ARSE 24",
+        "addr:street": "Rua Arse 24 Al 07 Apm 07",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77020-592",
+        "phone": "63 32127963/32185035",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Loiane Moreno Vieira Arse 24",
+        "short_name": "UBS Da Familia Loiane Moreno Vieira Arse 24",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3119917,
+          -10.1945855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2468123,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "2468123",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA MARIAZINHA RODRIGUES DA SILVA",
+        "addr:street": "Rua Benjamim Alves Pinto",
+        "addr:suburb": "Buritirama",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77090-028",
+        "phone": "+55 63 3212-7990",
+        "email": "usfburitirana@gamil.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Mariazinha Rodrigues da Silva",
+        "short_name": "UBS Da Familia Mariazinha Rodrigues da Silva",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.324082,
+          -10.2488904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2467933,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "2467933",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA MORADA DO SOL",
+        "addr:street": "Rua Cerejeiras",
+        "addr:suburb": "Setor Morada do Sol",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77066-128",
+        "phone": "+55 63 3218-5419",
+        "email": "usfmoradadosol.sms@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Morada do Sol",
+        "short_name": "UBS Da Familia Morada do Sol",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2912421,
+          -10.34213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2468085,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "2468085",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA NOVO HORIZONTE",
+        "addr:street": "Rua Apm 07 Lt 01",
+        "addr:suburb": "Novo Horizonte",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77060-016",
+        "phone": "(63) 3212-7894/7895",
+        "email": "usfnhorizonte@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Novo Horizonte",
+        "short_name": "UBS Da Familia Novo Horizonte",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.307507,
+          -10.2999513
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9400435,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "9400435",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA PROF ISABEL AULER ARSO 23",
+        "addr:street": "Rua Arso 23 Alameda 01 Apm 1",
+        "addr:suburb": "Plano Diretor Sul",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77015-314",
+        "phone": "63 3212-7989 /7988",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Prof Isabel Auler Arso 23",
+        "short_name": "UBS Da Familia Prof Isabel Auler Arso 23",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3476114,
+          -10.1922835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2492504,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "2492504",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA RITA APARECIDA ABADE",
+        "addr:street": "Rua Asr Se 65 Alameda 4 Apm 11a",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77022-100",
+        "phone": "63- 32127972 / 7973",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Rita Aparecida Abade",
+        "short_name": "UBS Da Familia Rita Aparecida Abade",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3161116,
+          -10.2275081
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2492725,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "2492725",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA SANTA BARBARA",
+        "addr:street": "Avenida Contorno Rua 10",
+        "addr:suburb": "Santa Barbara",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77060-334",
+        "phone": "(63)3212-7992/7982",
+        "email": "usfsantabarbara.palmas@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Santa Barbara",
+        "short_name": "UBS Da Familia Santa Barbara",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3098752,
+          -10.3403838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2492512,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "2492512",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA SANTA FE",
+        "addr:street": "Rua Raimundo Galvao da Cruz",
+        "addr:suburb": "Setor Santa Fe",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77064-026",
+        "phone": "63 32127948 / 7940",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Santa Fe",
+        "short_name": "UBS Da Familia Santa Fe",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3055544,
+          -10.3347207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2492709,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "2492709",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA SARAH LEYLANE",
+        "addr:street": "Rua Arno 61 Alameda Ns 05 Apm 19",
+        "addr:suburb": "Plano Diretor Norte",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77001-826",
+        "phone": "(63) 32127978 / 7979",
+        "email": "usf503norte@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Sarah Leylane",
+        "short_name": "UBS Da Familia Sarah Leylane",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3474398,
+          -10.1672775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5165210,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "5165210",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA SATILO ALVES DE SOUSA ARSE 111",
+        "addr:street": "Rua Arso 111 Alameda 17",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77019-010",
+        "phone": "63 32127994/ 7991",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Satilo Alves de Sousa Arse 111",
+        "short_name": "UBS Da Familia Satilo Alves de Sousa Arse 111",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3372903,
+          -10.2516225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5314240,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "5314240",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA TAQUARI",
+        "addr:street": "Rua Quadra T 31 Avenida Tlo 5",
+        "addr:suburb": "Jardim Taquari Taqu",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77063-386",
+        "phone": "+55 63 3031-1184",
+        "email": "usftaquari.palmas@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Taquari",
+        "short_name": "UBS Da Familia Taquari",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3327761,
+          -10.3456869
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2594064,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "2594064",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA VALERIA MARTINS PEREIRA",
+        "addr:street": "Rua Arse 122 Alameda 09 Apm 23",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77024-462",
+        "phone": "(06)3212-7852 /7879",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Valeria Martins Pereira",
+        "short_name": "UBS Da Familia Valeria Martins Pereira",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3176565,
+          -10.258337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2492520,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "2492520",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA WALTER PEREIRA MORATO",
+        "addr:street": "Rua 17 B",
+        "addr:suburb": "Taquarussu",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77260-000",
+        "phone": "(63)3212-7884/7883",
+        "email": "usftaquarucu@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Walter Pereira Morato",
+        "short_name": "UBS Da Familia Walter Pereira Morato",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3217854,
+          -10.2582175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2468131,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "2468131",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA WALTERLY WAGNER JOSE RIBEIRO",
+        "addr:street": "Rua To 020 Km 08",
+        "addr:suburb": "Taquarucu Grande",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77260-000",
+        "phone": "+55 63 3212-7908",
+        "email": "psrzonarural@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Walterly Wagner Jose Ribeiro",
+        "short_name": "UBS Da Familia Walterly Wagner Jose Ribeiro",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3236421,
+          -10.2488482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2492695,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "2492695",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF WANDE MARY ALMEIDA DE O SANTOS VANIA DO AURENY III",
+        "addr:street": "Rua 32",
+        "addr:suburb": "Jardim Aureny III",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77062-054",
+        "phone": "(63) 32127878 / 7877",
+        "email": "usfliberdade.to@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Wande Mary Almeida de O Santos Vania do Aureny III",
+        "short_name": "UBS Usf Wande Mary Almeida de O Santos Vania do Aureny III",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3183002,
+          -10.3118371
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5504694,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "5504694",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "AMBULATORIO MUNICIPAL DE ATENCAO A SAUDE DR EDUARDO MEDRADO",
+        "addr:street": "Rua 303 Sul Av Lo 09 Apm 10 D",
+        "addr:housenumber": "10",
+        "addr:suburb": "Plano Diretor Sul",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77015-400",
+        "phone": "3212-7870/7871",
+        "email": "amassaude@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3406857,
+          -10.2043256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2492482,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "2492482",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ATENCAO ESP A SAUDE FRANCISCA ROMANA CHAVES",
+        "addr:street": "Rua Qd 303 Norte Alameda 10 Norte",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77001-272",
+        "phone": "+55 63 3212-7951",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3415162,
+          -10.168536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8470553,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "8470553",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CLINICA ESCOLA DE ESPECIALIDADES DE SAUDE DA UFT TOCANTINS",
+        "addr:street": "Rua Qd 109 Norte Av Ns 15",
+        "addr:suburb": "Campus Palmas Bloco",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77001-090",
+        "phone": "+55 63 3229-4523",
+        "email": "cesau-uftpalmas@uft.edu.br",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3509159,
+          -10.1632646
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2492563,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "2492563",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POLICLINICA DE TAQUARALTO",
+        "addr:street": "Rua So 3 Qd 15 Lt 31",
+        "addr:suburb": "Setor Sul",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77064-598",
+        "phone": "+55 63 3212-7893",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.4004052,
+          -10.2579019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2755157,
+      "properties": {
+        "operator": "Governo do Estado (TO)",
+        "operator:type": "public",
+        "ref:CNES": "2755157",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL E MATERNIDADE D REGINA S CAMPOS DE PALMAS",
+        "addr:street": "Rua Quadra 104 Norte Rua Ne 05",
+        "addr:suburb": "Plano Diretor Norte",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77006-042",
+        "phone": "+55 63 3218-7772",
+        "email": "hrdregina@saude.to.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital e Maternidade D Regina S Campos de Palmas",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3510447,
+          -10.1629689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2786117,
+      "properties": {
+        "operator": "Governo do Estado (TO)",
+        "operator:type": "public",
+        "ref:CNES": "2786117",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL GERAL DE PALMAS DR FRANCISCO AYRES",
+        "addr:street": "Rua 201 Sul Ns 01 Conjunto 02 Lote",
+        "addr:housenumber": "01",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77015-202",
+        "phone": "+55 63 3218-7814",
+        "email": "dephgp@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Geral de Palmas Dr Francisco Ayres",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3509588,
+          -10.1632857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2467925,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "2467925",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ATENCAO ESPECIALIZADA A SAUDE DR EWALDO BORGES RES",
+        "addr:street": "Rua Av Joaquim T Segurado 1102 Sul Conj 01 Lote 14",
+        "addr:suburb": "Plano Diretor Sul",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77024-002",
+        "phone": "+55 63 3212-7869",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Atencao Especializada A Saude Dr Ewaldo Borges Res",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3324176,
+          -10.2512794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9422994,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "9422994",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ATENCAO INCLUSIVA FRANCISCA BRANDAO RAMALHO",
+        "addr:street": "Rua Qd 1204 Sul Av Ns 04 Apm 05",
+        "addr:suburb": "Plano Diretor Sul",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77019-530",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Atencao Inclusiva Francisca Brandao Ramalho",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3552933,
+          -10.2358702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2492547,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "2492547",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ESPECIALIDADES ODONTOLOGICAS",
+        "addr:street": "Rua Av Ciqueira Campos Acseu Se 110 Conj 01 Lt 16",
+        "addr:suburb": "Plano Diretor Sul",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77022-314",
+        "phone": "+55 63 3212-7859",
+        "email": "esp-odonto.saude@palms.to.gov.br",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Centro de Especialidades Odontológicas (CEO)",
+        "short_name": "CEO",
+        "comment": "Odontologia (CEO)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3353646,
+          -10.25519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3218708,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "3218708",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE REFERENCIA EM SAUDE DO TRABALHADOR CEREST",
+        "addr:street": "Rua Av Teotonio Segurado Qd 1302 Sul Acsu Se Conj1",
+        "addr:housenumber": "6",
+        "addr:suburb": "Plano Diretor Norte",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77024-650",
+        "phone": "+55 63 3218-5604",
+        "email": "trabalhadorpalmas2@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "occupational_health",
+        "name": "CEREST Macro Centro Sul",
+        "short_name": "CEREST",
+        "comment": "Saúde do Trabalhador (CEREST)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.4082508,
+          -10.2655793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6653081,
+      "properties": {
+        "operator": "Governo do Estado (TO)",
+        "operator:type": "public",
+        "ref:CNES": "6653081",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO ESTADUAL DE REABILITACAO DE PALMAS",
+        "addr:street": "Rua Quadra 203 Sul Lo 5",
+        "addr:suburb": "Plano Diretor Sul",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77015-212",
+        "phone": "+55 63 3218-1712",
+        "email": "cer3palmas@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Centro Especializado em Reabilitação (CER)",
+        "short_name": "CER",
+        "comment": "Reabilitação (CER)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3510232,
+          -10.1631801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3905276,
+      "properties": {
+        "operator": "Governo do Estado (TO)",
+        "operator:type": "public",
+        "ref:CNES": "3905276",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CEREST ESTADUAL TOCANTINS",
+        "addr:street": "Rua Quadra 104 Norte",
+        "addr:housenumber": "30",
+        "addr:suburb": "Plano Diretor Norte",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77015-010",
+        "phone": "+55 46 3218-3379",
+        "email": "saudetrabalhadorto@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "occupational_health",
+        "name": "CEREST Macro Centro Sul",
+        "short_name": "CEREST",
+        "comment": "Saúde do Trabalhador (CEREST)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3220768,
+          -10.1834556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8025274,
+      "properties": {
+        "operator": "Governo do Estado (TO)",
+        "operator:type": "public",
+        "ref:CNES": "8025274",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CETEA CENTRO ESPECIALIZADO EM TRANSTORNO ESPECTRO AUTISTA",
+        "addr:street": "Rua Acsu Se 100 Av Teotonio Segurado",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77023-484",
+        "phone": "+55 63 98503-4632",
+        "email": "mirele.limea@cetea.indshsaude.org.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Cetea Centro Especializado em Transtorno Espectro Autista",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3510017,
+          -10.1630956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7759290,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "7759290",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CREFISUL CENTRO DE REFERENCIA EM FISIOTERAPIA DA REGIAO SUL",
+        "addr:street": "Avenida I Qd 114 Lote 1 A",
+        "addr:suburb": "Aureny III",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77062-020",
+        "phone": "+55 63 3218-5688",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Crefisul Centro de Referencia em Fisioterapia da Regiao Sul",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3115773,
+          -10.3151514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2467909,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "2467909",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "LABORATORIO DA SEMUS",
+        "addr:street": "Rua Qd 108 Norte Al 12 Lt 10",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77016-524",
+        "phone": "+55 63 3212-7867",
+        "amenity": "clinic",
+        "healthcare": "diagnostic_centre",
+        "name": "Laboratorio da Semus",
+        "comment": "Diagnóstico por Imagem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3644362,
+          -10.2179055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7358318,
+      "properties": {
+        "operator": "Governo do Estado (TO)",
+        "operator:type": "public",
+        "ref:CNES": "7358318",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "LABORATORIO DE MONITORAMENTO EXTERNO LAB MEQ TOCANTINS",
+        "addr:street": "Rua 103 Norte No 05 Conjunto03",
+        "addr:housenumber": "29",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77001-020",
+        "email": "siscan.tocantins@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "diagnostic_centre",
+        "name": "Laboratorio de Monitoramento Externo Lab Meq Tocantins",
+        "comment": "Diagnóstico por Imagem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3328485,
+          -10.1669607
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6425348,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "6425348",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "LABORATORIO REGIONAL DE PROTESE DENTARIA DE PALMAS",
+        "addr:street": "Rua Acsu Se 110 Conj 01 Lote16",
+        "addr:suburb": "Plano Diretor Sul",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77024-002",
+        "phone": "+55 63 3212-7860",
+        "email": "ceo.brasilsorridente@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "diagnostic_centre",
+        "name": "Laboratorio Regional de Protese Dentaria de Palmas",
+        "comment": "Diagnóstico por Imagem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3703955,
+          -10.1811209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6966950,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "6966950",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU USA 01 PALMAS",
+        "addr:street": "Rua Quadra Asrse 95 Rodovia To 134 Qim Lt 03",
+        "addr:housenumber": "03",
+        "addr:suburb": "Plano Diretor Sul",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77023-448",
+        "phone": "+55 63 3212-7997",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3333921,
+          -10.1951525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3708373,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "3708373",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU USA 02 PALMAS",
+        "addr:street": "Rua Quadra Asr Se 95 Rodoviato 134 Qi M Lote 03",
+        "addr:housenumber": "03",
+        "addr:suburb": "Plano Diretor Sul",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77023-448",
+        "phone": "+55 63 3212-7997",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3435206,
+          -10.2042532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6968252,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "6968252",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU USB 03 PALMAS",
+        "addr:street": "Rua Quadra Ars Se 95 Rodovia To 134 Qi M Lote 03",
+        "addr:housenumber": "03",
+        "addr:suburb": "Plano Diretor Sul",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77023-448",
+        "phone": "+55 63 3212-7997",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3435206,
+          -10.2041681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6968392,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "6968392",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU USB 04 PALMAS",
+        "addr:street": "Rua Quadra Ars Se 95 Rodovia To 134 Qi M Lote 03",
+        "addr:housenumber": "03",
+        "addr:suburb": "Plano Diretor Sul",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77023-448",
+        "phone": "+55 63 3212-7997",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3435206,
+          -10.2041255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6968996,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "6968996",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU USB 05 PALMAS",
+        "addr:street": "Rua Quadra Asr Se 95 Rodovia To 134 Qi M Lote 3",
+        "addr:housenumber": "03",
+        "addr:suburb": "Plano Diretor Sul",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77023-448",
+        "phone": "+55 63 3212-7997",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3154034,
+          -10.2370368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6969046,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "6969046",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU USB 06 PALMAS",
+        "addr:street": "Rua Quadra Asr Se 95 Rodovia To 134 Qi M Lote 03",
+        "addr:housenumber": "03",
+        "addr:suburb": "Plano Diretor Sul",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77023-448",
+        "phone": "+55 63 3212-7997",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2776419,
+          -10.276327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2649349,
+      "properties": {
+        "operator": "Governo do Estado (TO)",
+        "operator:type": "public",
+        "ref:CNES": "2649349",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "GERENCIA DE MEDICAMENTOS EXCEPCIONAIS GME PALMAS",
+        "addr:street": "Rua Quadra 104 Norte Avenida Lo 04 Conj 04 Lote 46",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77015-010",
+        "phone": "+55 63 3218-1745",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "dispensing": "yes",
+        "name": "Gerencia de Medicamentos Excepcionais Gme Palmas",
+        "comment": "Farmácia Pública"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3327413,
+          -10.1667918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9123512,
+      "properties": {
+        "operator": "Governo do Estado (TO)",
+        "operator:type": "public",
+        "ref:CNES": "9123512",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "LABORATORIO ESTADUAL DE ENTOMOLOGIA MEDICA DE PALMAS",
+        "addr:street": "Rua Av Lo 02 104 Norte Lote 30",
+        "addr:housenumber": "30",
+        "addr:suburb": "Edificio Louro Knop",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77006-022",
+        "phone": "+55 63 3218-3293",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3509374,
+          -10.1630534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 738808,
+      "properties": {
+        "operator": "Governo do Estado (TO)",
+        "operator:type": "public",
+        "ref:CNES": "738808",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SVO SECRETARIA DA SAUDE VIGILANCIA ESTADUAL",
+        "addr:street": "Rua Praca dos Girassois",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77015-010",
+        "email": "svo.tocantins@gmail.com",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3329129,
+          -10.1668551
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2467860,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "2467860",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE VIGILANCIA E CONTROLE DE ZOONOSES",
+        "addr:street": "Rua 111 Norte Av Jk",
+        "addr:suburb": "Plano Diretor",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77026-110",
+        "phone": "+55 63 3212-7915",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3275962,
+          -10.1844301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9654941,
+      "properties": {
+        "operator": "Governo do Estado (TO)",
+        "operator:type": "public",
+        "ref:CNES": "9654941",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "VIGILANCIA EM SAUDE DO ESTADO DO TOCATINS",
+        "addr:street": "Rua Quadra 104 Norte Av Lo 02",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77006-022",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3509374,
+          -10.1630323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2467852,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "2467852",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "VIGILANCIA SANITARIA",
+        "addr:street": "Rua 504 Sul Av Lo 11 Lote 08",
+        "addr:suburb": "Plano Diretor Sul",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77021-658",
+        "phone": "+55 63 3212-7913",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.330274,
+          -10.2112032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6506895,
+      "properties": {
+        "operator": "Governo do Estado (TO)",
+        "operator:type": "public",
+        "ref:CNES": "6506895",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "VIGILANCIA SANITARIA ESTADUAL DE PALMAS",
+        "addr:street": "Rua 104 Norte Av Lo 02 Cj 01 Lt 30",
+        "addr:housenumber": "13",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77006-022",
+        "phone": "+55 63 3218-3258",
+        "email": "visa@saude.to.gov.br",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3512807,
+          -10.1632435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2494086,
+      "properties": {
+        "operator": "Governo do Estado (TO)",
+        "operator:type": "public",
+        "ref:CNES": "2494086",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "LABORATORIO C DE SAUDE PUBLICA DO TOCANTINS LACEN TO",
+        "addr:street": "Rua 601 Sul Av Lo 15 Conjunto 02 Lote 01",
+        "addr:suburb": "Plano Diretor Sul",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77016-336",
+        "phone": "(06)3218 3220 / 3289",
+        "email": "lacen@saude.to.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Laboratorio C de Saude Publica do Tocantins LACEN To",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3329988,
+          -10.1668551
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6378102,
+      "properties": {
+        "operator": "Governo do Estado (TO)",
+        "operator:type": "public",
+        "ref:CNES": "6378102",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SECRETARIA ESTADUAL DE SAUDE DO TOCANTINS",
+        "addr:street": "Rua Praca dos Girassois Esplanada das Secretarias",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77015-010",
+        "phone": "+55 63 3218-1754",
+        "email": "controlesesau2@gmail.com",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3509803,
+          -10.1630111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2468018,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "2468018",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SECRETARIA MUNICIPAL DE SAUDE DE PALMAS",
+        "addr:street": "Rua 1302 Sul Cj 01 Lote 06",
+        "addr:suburb": "Plano Diretor Sul",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77021-900",
+        "phone": "+55 46 3218-5332",
+        "email": "semus.palmas.to@hotmail.com",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.4045688,
+          -10.262737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2370298,
+      "properties": {
+        "operator": "Governo do Estado (TO)",
+        "operator:type": "public",
+        "ref:CNES": "2370298",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HEMOCENTRO COORDENADOR DE PALMAS",
+        "addr:street": "Rua 301 Norte Conjunto 02 Lote 01",
+        "addr:suburb": "Plano Diretor Norte",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77001-214",
+        "phone": "+55 63 3218-3294",
+        "email": "hemocentro@saude.to.gov.br",
+        "amenity": "blood_donation",
+        "healthcare": "blood_donation",
+        "name": "Hemonúcleo de Pato Branco (HEMEPAR)",
+        "short_name": "Hemepar Pato Branco",
+        "comment": "Doação de Sangue (HEMEPAR)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3328485,
+          -10.1667495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6724760,
+      "properties": {
+        "operator": "Governo do Estado (TO)",
+        "operator:type": "public",
+        "ref:CNES": "6724760",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE COLETA DE PALMAS",
+        "addr:street": "Rua Q 201 Sul Conj 02 Lote 01",
+        "addr:suburb": "Plano Diretor Sul",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77015-202",
+        "phone": "+55 63 3027-5221",
+        "amenity": "blood_donation",
+        "healthcare": "blood_donation",
+        "name": "Hemonúcleo de Pato Branco (HEMEPAR)",
+        "short_name": "Hemepar Pato Branco",
+        "comment": "Doação de Sangue (HEMEPAR)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3511305,
+          -10.1629478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6061478,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "6061478",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CAPS AD CENTRO DE ATENCAO PSICOSSOCIAL ALCOOL E OUTRAS DRO",
+        "addr:street": "Rua 105 Norte Al dos Jatobas Apm 09 Lt 89",
+        "addr:suburb": "Plano Diretor Sul",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77001-054",
+        "phone": "+55 63 3212-7855",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3329988,
+          -10.1670241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2467968,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "2467968",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CAPS II CENTRO DE ATENCAO PSICOSOCIAL",
+        "addr:street": "Rua 804 Sul Alameda 09 Lote 09",
+        "addr:housenumber": "09",
+        "addr:suburb": "Plano Diretor Sul",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77023-012",
+        "phone": "+55 63 3212-7831",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3329988,
+          -10.1669607
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4392388,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "4392388",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ATENCAO PSICOSSOCIAL INF JUVEN DR EMILIO FERNANDES",
+        "addr:street": "Rua Qd Acsu So 130 1301sul Apm 19 Av Nsi Lt 31",
+        "addr:suburb": "Plano Diretor Sul",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77019-648",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3332784,
+          -10.1840808
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2755289,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "2755289",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE PRONTO ATENDIMENTO NORTE",
+        "addr:street": "Rua 203 Norte Alameda Lo 06 Apm 02",
+        "addr:suburb": "Plano Diretor Norte",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77001-144",
+        "phone": "+55 63 3218-5110",
+        "email": "panorte.semus@palmas.to.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade de Pronto Atendimento Norte",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3424799,
+          -10.1759962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2492555,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "2492555",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE PRONTO ATENDIMENTO SUL",
+        "addr:street": "Rua Perimentral 2",
+        "addr:housenumber": "04",
+        "addr:suburb": "Aureny II",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77060-236",
+        "phone": "+55 63 3212-7925",
+        "email": "upasul2014.2@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade de Pronto Atendimento Sul",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2999023,
+          -10.3316328
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7210140,
+      "properties": {
+        "operator": "Governo do Estado (TO)",
+        "operator:type": "public",
+        "ref:CNES": "7210140",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "NUCLEO DE TELESSAUDE DO TOCANTINS",
+        "addr:street": "Rua 109 Norte Avenida Ns 15 Al No 14",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77001-090",
+        "phone": "3232 8243/3229-4523",
+        "email": "telessaude.to@uft.edu.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Nucleo de Telessaude do Tocantins",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3510017,
+          -10.1630323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8038090,
+      "properties": {
+        "operator": "Governo do Estado (TO)",
+        "operator:type": "public",
+        "ref:CNES": "8038090",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "NUCLEO ESTADUAL DE TELESSAUDE DO TOCANTINS",
+        "addr:street": "Rua Praca dos Girassois Esplanada das Secretarias",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77015-010",
+        "phone": "+55 63 3027-4300",
+        "email": "gabsec@saude.to.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Nucleo Estadual de Telessaude do Tocantins",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.351043,
+          -10.163253
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6943624,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "6943624",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL DE REGULACAO SAMU 192 PALMAS",
+        "addr:street": "Rua Quadra Asr Se 95 Rodovia To 134 Qi M Lote 03",
+        "addr:housenumber": "03",
+        "addr:suburb": "Plano Diretor Sul",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77023-448",
+        "phone": "+55 63 3212-7997",
+        "email": "palmas.samu@gmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Central de Regulação Médica das Urgências (SAMU 192)",
+        "short_name": "Regulação SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3290049,
+          -10.2663437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3053237,
+      "properties": {
+        "operator": "Governo do Estado (TO)",
+        "operator:type": "public",
+        "ref:CNES": "3053237",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "COMPLEXO REGULADOR DE PALMAS",
+        "addr:street": "Rua 204 Sul Al 08 Lt 18",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77015-010",
+        "phone": "3218 1775 /3218 3270",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Sistema Municipal de Auditoria e Regulação em Saúde",
+        "comment": "Auditoria e Regulação"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3509588,
+          -10.1631801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6404375,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "6404375",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "COMPLEXO REGULADOR DE SERVICOS DE SAUDE MUNICIPAL",
+        "addr:street": "Rua Av Joaquim T Segurado Qd 1302 Sul",
+        "addr:suburb": "Plano Diretor Sul",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77024-650",
+        "phone": "63 32185109/32185353",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Sistema Municipal de Auditoria e Regulação em Saúde",
+        "comment": "Auditoria e Regulação"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3290049,
+          -10.2661696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9584625,
+      "properties": {
+        "operator": "Governo do Estado (TO)",
+        "operator:type": "public",
+        "ref:CNES": "9584625",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL ESTADUAL DE TRANSPLANTE DO TOCANTINS CETTO",
+        "addr:street": "Rua Quadra 103 Norte Rua No 05",
+        "addr:housenumber": "12",
+        "addr:suburb": "Plano Diretor Norte",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77001-020",
+        "phone": "+55 63 3218-3230",
+        "email": "cncdoto@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Central Estadual de Transplante do Tocantins Cetto",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3511734,
+          -10.1630745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 128252,
+      "properties": {
+        "operator": "Governo do Estado (TO)",
+        "operator:type": "public",
+        "ref:CNES": "128252",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL ESTADUAL CENTRO DE ARMAZENAGEM E DISTRIBUICAO DE IMU",
+        "addr:street": "Rua Quadra 601 Sul",
+        "addr:housenumber": "01",
+        "addr:suburb": "Av Lo 15 Conjunto 02",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77016-336",
+        "phone": "3027-4498 3027 4632",
+        "email": "imunizacao.to@gmail.com",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Central Estadual Centro de Armazenagem e Distribuicao de Imu",
+        "comment": "Suprimentos / Logística"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3504868,
+          -10.1625465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3738965,
+      "properties": {
+        "operator": "Prefeitura Municipal de Palmas",
+        "operator:type": "public",
+        "ref:CNES": "3738965",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL MUNICIPAL DE REDE DE FRIO DE PALMAS",
+        "addr:street": "Rua Arse 22 Alameda 10",
+        "addr:housenumber": "09",
+        "addr:suburb": "Plano Diretor Sul",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77024-650",
+        "phone": "63 32127898 / 7899",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Central Municipal de Rede de Frio de Palmas",
+        "comment": "Suprimentos / Logística"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.4115633,
+          -10.7212938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 433756,
+      "properties": {
+        "operator": "Governo do Estado (TO)",
+        "operator:type": "public",
+        "ref:CNES": "433756",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "ESTOQUE REGULADOR CENTRAL DE DISTRIBUICAO",
+        "addr:street": "Rua Quadra 112 Sul Sr 05",
+        "addr:city": "Palmas",
+        "addr:state": "TO",
+        "addr:country": "BR",
+        "addr:postcode": "77015-010",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Estoque Regulador Central de Distribuicao",
+        "comment": "Suprimentos / Logística"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3510017,
+          -10.163159
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1786 @@
+{
+  "type": "FeatureCollection",
+  "name": "Estabelecimentos Públicos de Saúde - DEMAS / CNES",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 28274,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "28274",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE INDEPENDENCIA",
+        "addr:street": "Rua Independência",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85502-000",
+        "phone": "+55 46 9921-0091",
+        "email": "usinterior@patobranco.pr.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Independência",
+        "short_name": "UBS Independência",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.7496003,
+          -26.2389828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28282,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "28282",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE PASSO DA ILHA",
+        "addr:street": "Localidade Passo da Ilha",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85502-000",
+        "email": "usinterior@patobranco.pr.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Passo da Ilha",
+        "short_name": "UBS Passo da Ilha",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.5941559,
+          -26.2462642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28258,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "28258",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE SEDE DOM CARLOS",
+        "addr:street": "Sede Dom Carlos",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85502-000",
+        "phone": "+55 46 9101-9117",
+        "email": "usinterior@patobranco.pr.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Sede Dom Carlos",
+        "short_name": "UBS Sede Dom Carlos",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.7020274,
+          -26.0621911
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28231,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "28231",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE SEDE GAVIAO",
+        "addr:street": "Sede Gavião",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85502-000",
+        "phone": "+55 46 9102-3851",
+        "email": "usinterior@patobranco.pr.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Sede Gavião",
+        "short_name": "UBS Sede Gavião",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.7305263,
+          -26.0442129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4791061,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "4791061",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SERVICO DE ATENCAO DOMICILIAR SAD",
+        "addr:street": "Rua Marechal Deodoro",
+        "addr:housenumber": "2021",
+        "addr:suburb": "Cristo Rei",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85507-520",
+        "phone": "+55 46 3112-1728",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Serviço de Atenção Domiciliar (SAD)",
+        "short_name": "SAD",
+        "comment": "Serviço de Atenção Domiciliar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6759243,
+          -26.2502185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8013268,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "8013268",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE PRISIONAL",
+        "addr:street": "Rua Xavantes",
+        "addr:housenumber": "279",
+        "addr:suburb": "Centro",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85501-220",
+        "phone": "+55 46 3220-1700",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Prisional",
+        "short_name": "UBS Prisional",
+        "access": "private",
+        "comment": "UBS Prisional"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6790571,
+          -26.2354569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17841,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "17841",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE CENTRAL DE SAUDE",
+        "addr:street": "Rua Paraná",
+        "addr:housenumber": "340",
+        "addr:suburb": "Centro",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85501-074",
+        "phone": "+55 46 3213-1700",
+        "email": "smscoordenf@patobranco.pr.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Central de Saúde",
+        "short_name": "UBS Central",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.675372,
+          -26.2310682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25283,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "25283",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE ALVORADA",
+        "addr:street": "Rua Pedro Lobo",
+        "addr:housenumber": "239",
+        "addr:suburb": "Alvorada",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85508-045",
+        "phone": "+55 46 3213-1711",
+        "email": "usalvorada@patobranco.pr.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Alvorada",
+        "short_name": "UBS Alvorada",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6824072,
+          -26.2687858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25291,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "25291",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE BORTOT",
+        "addr:street": "Rua Olavo Bilac",
+        "addr:housenumber": "377",
+        "addr:suburb": "Bortot",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85504-080",
+        "phone": "+55 46 3213-1705",
+        "email": "usbortot@patobranco.pr.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Bortot",
+        "short_name": "UBS Bortot",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6754764,
+          -26.2123393
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9945385,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "9945385",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE ESF CENTRAL",
+        "addr:street": "Rua Paraná",
+        "addr:housenumber": "340",
+        "addr:suburb": "Centro",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85501-074",
+        "phone": "+55 46 3213-1700",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Central (ESF)",
+        "short_name": "UBS ESF Central",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6753416,
+          -26.2310525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28290,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "28290",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE FAZENDA DA BARRA",
+        "addr:street": "Rua Paraná",
+        "addr:housenumber": "340",
+        "addr:suburb": "Centro",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85501-074",
+        "phone": "+55 46 9117-9960",
+        "email": "usinterior@patobranco.pr.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Fazenda da Barra",
+        "short_name": "UBS Fazenda da Barra",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6044296,
+          -26.2622743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9438505,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "9438505",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE FRARON",
+        "addr:street": "Rua Clevelândia",
+        "addr:suburb": "Fraron",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85503-324",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Fraron",
+        "short_name": "UBS Fraron",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6903987,
+          -26.2096565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9043144,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "9043144",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE INDUSTRIAL",
+        "addr:street": "Rua Maurício Batista Menosso",
+        "addr:suburb": "Industrial",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85506-520",
+        "email": "usindustrial@patobranco.pr.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Industrial",
+        "short_name": "UBS Industrial",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.66708,
+          -26.23881
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17892,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "17892",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE MORUMBI",
+        "addr:street": "Travessa Dourado",
+        "addr:suburb": "Morumbi",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85507-250",
+        "phone": "+55 46 3902-1262",
+        "email": "usmorumbi@patobranco.pr.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Morumbi",
+        "short_name": "UBS Morumbi",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6818531,
+          -26.2563503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17957,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "17957",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE NOVO HORIZONTE",
+        "addr:street": "Rua dos Cravos",
+        "addr:suburb": "Novo Horizonte",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85507-650",
+        "phone": "+55 46 3902-1264",
+        "email": "usnovohorizonte@patobranco.pr.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Novo Horizonte",
+        "short_name": "UBS Novo Horizonte",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6688006,
+          -26.2548709
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4615735,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "4615735",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE PARQUE DO SOM",
+        "addr:street": "Rua Frei Sérgio Hillesheim",
+        "addr:suburb": "Parque do Som",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85505-446",
+        "phone": "+55 46 3112-1740",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Parque do Som",
+        "short_name": "UBS Parque do Som",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6499421,
+          -26.2349977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6960863,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "6960863",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE PINHEIRINHO",
+        "addr:street": "Rua Matias de Albuquerque",
+        "addr:housenumber": "1270",
+        "addr:suburb": "Pinheirinho",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85506-180",
+        "phone": "+55 46 3213-1708",
+        "email": "uspinheirinho@patobranco.pr.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pinheirinho",
+        "short_name": "UBS Pinheirinho",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6801589,
+          -26.2458753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18015,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "18015",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE PLANALTO",
+        "addr:street": "Rua São Francisco de Assis",
+        "addr:suburb": "Planalto",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85509-000",
+        "phone": "+55 46 3902-1259",
+        "email": "usplanalto@patobranco.pr.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Planalto",
+        "short_name": "UBS Planalto",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.7061957,
+          -26.2404298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17965,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "17965",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE SAO CRISTOVAO",
+        "addr:street": "Rua XXI de Abril",
+        "addr:suburb": "São Cristóvão",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85502-000",
+        "phone": "+55 46 3902-1260",
+        "email": "ussaocristovao@patobranco.pr.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde São Cristóvão",
+        "short_name": "UBS São Cristóvão",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6939561,
+          -26.2642167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4615727,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "4615727",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE SAO FRANCISCO",
+        "addr:street": "Rua Pioneiro Victório Lourenço Leonardi",
+        "addr:housenumber": "100",
+        "addr:suburb": "São Francisco",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85504-816",
+        "phone": "+55 43 3213-1716",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde São Francisco",
+        "short_name": "UBS São Francisco",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6658714,
+          -26.1921546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17981,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "17981",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE SAO JOAO",
+        "addr:street": "Rua Sadi Bertol",
+        "addr:housenumber": "54",
+        "addr:suburb": "São João",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85509-562",
+        "phone": "+55 46 3902-1263",
+        "email": "ussaojoao@patobranco.pr.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde São João",
+        "short_name": "UBS São João",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.7159828,
+          -26.2337929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18007,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "18007",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE SAO ROQUE DO CHOPIM",
+        "addr:street": "Rua 14 de Setembro",
+        "addr:suburb": "São Roque do Chopim",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85502-000",
+        "phone": "+55 46 3213-1166",
+        "email": "usaoroquech@patobranco.pr.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde São Roque do Chopim",
+        "short_name": "UBS São Roque do Chopim",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.7672567,
+          -26.1976145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17973,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "17973",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE VILA ESPERANCA",
+        "addr:street": "Rua Marcos Penso",
+        "addr:housenumber": "100",
+        "addr:suburb": "Vila Esperança",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85503-050",
+        "phone": "+55 46 3902-1261",
+        "email": "usvilaesperanca@patobranco.pr.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Vila Esperança",
+        "short_name": "UBS Vila Esperança",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.685876,
+          -26.21738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28606,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "28606",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SERVICO DE REABILITACAO FISICA NIVEL INTERMEDIARIO",
+        "addr:street": "Rua Xingu",
+        "addr:housenumber": "300",
+        "addr:suburb": "Centro",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85501-230",
+        "phone": "+55 46 3213-1741",
+        "email": "smspatobranco@yahoo.com.br",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6782632,
+          -26.2337439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7759967,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "7759967",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UPA 24 HORAS MARIA ITALIA FREDDO",
+        "addr:street": "Rua Marechal Deodoro",
+        "addr:housenumber": "2021",
+        "addr:suburb": "Cristo Rei",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85507-520",
+        "phone": "+55 46 3213-1728",
+        "email": "upa24h@patobranco.pr.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "emergency": "yes",
+        "opening_hours": "24/7",
+        "name": "UPA 24 Horas Maria Itália Freddo",
+        "short_name": "UPA 24h",
+        "comment": "UPA 24h"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6763749,
+          -26.2527781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17930,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "17930",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ESPECIALIDADES ODONTOLOGICAS DE PATO BRANCO",
+        "addr:street": "Rua Paraná",
+        "addr:housenumber": "371",
+        "addr:suburb": "Centro",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85501-074",
+        "phone": "+55 46 3213-1700",
+        "email": "odonto@patobranco.pr.gov.br",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Centro de Especialidades Odontológicas (CEO)",
+        "short_name": "CEO",
+        "comment": "Odontologia (CEO)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6807308,
+          -26.2229648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5888166,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "5888166",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CER CENTRO ESPECIALIZADO EM REABILITACAO",
+        "addr:street": "Rua Ricieri Capellesso",
+        "addr:suburb": "Fraron",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85501-530",
+        "phone": "+55 46 3902-1700",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Centro Especializado em Reabilitação (CER)",
+        "short_name": "CER",
+        "comment": "Reabilitação (CER)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6999569,
+          -26.201134
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7406088,
+      "properties": {
+        "operator": "Governo do Estado do Paraná",
+        "operator:type": "public",
+        "ref:CNES": "7406088",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CEREST MACRO CENTRO SUL",
+        "addr:street": "Rua Tapajós",
+        "addr:housenumber": "470",
+        "addr:suburb": "Centro",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85501-043",
+        "phone": "+55 46 3309-2400",
+        "email": "cerest07rs@sesa.pr.gov.br",
+        "amenity": "clinic",
+        "healthcare": "occupational_health",
+        "name": "CEREST Macro Centro Sul",
+        "short_name": "CEREST",
+        "comment": "Saúde do Trabalhador (CEREST)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6735109,
+          -26.2206826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17876,
+      "properties": {
+        "operator": "CONIMS - Consórcio Intermunicipal de Saúde",
+        "operator:type": "public",
+        "ref:CNES": "17876",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CIS CONIMS",
+        "addr:street": "Rua Afonso Pena",
+        "addr:housenumber": "1902",
+        "addr:suburb": "Anchieta",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85501-530",
+        "phone": "+55 46 3313-3550",
+        "email": "secexecutiva@conims.pr.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Consórcio Intermunicipal de Saúde (CIS CONIMS)",
+        "short_name": "CIS CONIMS",
+        "comment": "Consórcio Intermunicipal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6921105,
+          -26.2300205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6368662,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "6368662",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "COAS CENTRO DE ORIENTACAO E APOIO SOROLOGICO",
+        "addr:street": "Rua Iguaçu",
+        "addr:housenumber": "281",
+        "addr:suburb": "Centro",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85501-062",
+        "phone": "+55 46 3213-1730",
+        "email": "coas@patobranco.pr.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Orientação e Apoio Sorológico (COAS)",
+        "short_name": "COAS",
+        "comment": "Apoio Sorológico (COAS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6734782,
+          -26.2273293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7400462,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "7400462",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE ESPECIALIZADA MAE PATOBRANQUENSE",
+        "addr:street": "Rua Paraná",
+        "addr:housenumber": "1605",
+        "addr:suburb": "Centro",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85501-025",
+        "phone": "+55 46 3902-1276",
+        "email": "ginecologia@patobranco.pr.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "gynaecology;pediatrics",
+        "name": "Unidade Especializada Mãe Patobranquense",
+        "comment": "Saúde da Mulher & Criança"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6790786,
+          -26.2248512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2942380,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "2942380",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO MUNICIPAL DE DIAGNOSTICO POR IMAGEM",
+        "addr:street": "Rua Paraná",
+        "addr:housenumber": "340",
+        "addr:suburb": "Centro",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85501-074",
+        "phone": "46",
+        "amenity": "clinic",
+        "healthcare": "diagnostic_centre",
+        "name": "Centro Municipal de Diagnóstico por Imagem",
+        "comment": "Diagnóstico por Imagem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6753416,
+          -26.2310839
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7401280,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "7401280",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE ESPECIALIZADA DE PATO BRANCO",
+        "addr:street": "Rua Paraná",
+        "addr:housenumber": "340",
+        "addr:suburb": "Baixada Industrial",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85501-074",
+        "phone": "+55 46 3213-1700",
+        "email": "saude@patobranco.pr.gov.br",
+        "amenity": "clinic",
+        "healthcare": "diagnostic_centre",
+        "name": "Unidade Especializada de Pato Branco",
+        "comment": "Diagnóstico por Imagem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.675372,
+          -26.2310996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7260644,
+      "properties": {
+        "operator": "CONIMS - Consórcio Intermunicipal de Saúde",
+        "operator:type": "public",
+        "ref:CNES": "7260644",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU 192 SUPORTE BASICA 1 DE PATO BRANCO",
+        "addr:street": "Travessa Modesto Viganó",
+        "addr:suburb": "Bortot",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85504-090",
+        "phone": "+55 46 3225-2731",
+        "email": "samu@patobranco.pr.gov.br",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192 - Suporte Básico 1",
+        "short_name": "SAMU USB 1",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6764393,
+          -26.21436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7260342,
+      "properties": {
+        "operator": "CONIMS - Consórcio Intermunicipal de Saúde",
+        "operator:type": "public",
+        "ref:CNES": "7260342",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU 192 UNIDADE AVANCADO PATO BRANCO",
+        "addr:street": "Travessa Modesto Viganó",
+        "addr:suburb": "Bortot",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85504-090",
+        "phone": "+55 46 3225-2731",
+        "email": "samu@patobranco.pr.gov.br",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192 - Suporte Avançado (USA)",
+        "short_name": "SAMU USA",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6764089,
+          -26.2143443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9074872,
+      "properties": {
+        "operator": "CONIMS - Consórcio Intermunicipal de Saúde",
+        "operator:type": "public",
+        "ref:CNES": "9074872",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU 192 UNIDADE BASICA 2 PATO BRANCO",
+        "addr:street": "Travessa Modesto Viganó",
+        "addr:suburb": "Bortot",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85504-090",
+        "phone": "+55 46 3225-2731",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192 - Suporte Básico 2",
+        "short_name": "SAMU USB 2",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6763535,
+          -26.214437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9737375,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "9737375",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "FARMACIA CENTRAL DE PATO BRANCO",
+        "addr:street": "Rua Paraná",
+        "addr:housenumber": "340",
+        "addr:suburb": "Centro",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85501-071",
+        "phone": "+55 46 3213-1719",
+        "email": "farmacia@patobranco.pr.gov.br",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "dispensing": "yes",
+        "name": "Farmácia Central de Pato Branco",
+        "comment": "Farmácia Pública"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6754024,
+          -26.2310839
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8019193,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "8019193",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "FARMACIA COAS",
+        "addr:street": "Rua Iguaçu",
+        "addr:housenumber": "281",
+        "addr:suburb": "Centro",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85501-062",
+        "phone": "+55 46 3313-1700",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "dispensing": "yes",
+        "name": "Farmácia COAS",
+        "comment": "Farmácia Pública"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6758814,
+          -26.2283737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9837175,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "9837175",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "FARMACIA MUNICIPAL CIDADE OESTE",
+        "addr:street": "Rua das Garças",
+        "addr:housenumber": "481",
+        "addr:suburb": "Planalto",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85502-000",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "dispensing": "yes",
+        "name": "Farmácia Municipal Cidade Oeste",
+        "comment": "Farmácia Pública"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6937127,
+          -26.2385364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9837191,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "9837191",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "FARMACIA MUNICIPAL CIDADE SUL",
+        "addr:street": "Avenida Tupy",
+        "addr:housenumber": "4225",
+        "addr:suburb": "Centro",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85502-000",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "dispensing": "yes",
+        "name": "Farmácia Municipal Cidade Sul",
+        "comment": "Farmácia Pública"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6719332,
+          -26.2345907
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2888181,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "2888181",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "FARMACIA SATELITE CAPS",
+        "addr:street": "Rua Tocantins",
+        "addr:housenumber": "2615",
+        "addr:suburb": "Centro",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85501-292",
+        "phone": "+55 46 3213-1724",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "dispensing": "yes",
+        "name": "Farmácia Satélite CAPS",
+        "comment": "Farmácia Pública"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6726842,
+          -26.2425781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2888254,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "2888254",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "FARMACIA SATELITE SAO ROQUE DO CHOPIM",
+        "addr:street": "Rua 14 de Setembro",
+        "addr:suburb": "São Roque do Chopim",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85514-650",
+        "phone": "+55 46 3213-1166",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "dispensing": "yes",
+        "name": "Farmácia Satélite São Roque do Chopim",
+        "comment": "Farmácia Pública"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6778555,
+          -26.2092007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2501031,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "2501031",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "VIGILANCIA SANITARIA",
+        "addr:street": "Rua Xavantes",
+        "addr:housenumber": "275",
+        "addr:suburb": "Baixada",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85501-220",
+        "phone": "+55 46 3902-1268",
+        "email": "visa@patobranco.pr.gov.br",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6748514,
+          -26.2336284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8002266,
+      "properties": {
+        "operator": "Governo do Estado do Paraná",
+        "operator:type": "public",
+        "ref:CNES": "8002266",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "07 REGIONAL DE SAUDE DE PATO BRANCO",
+        "addr:street": "Rua Tapajós",
+        "addr:housenumber": "470",
+        "addr:suburb": "Centro",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85501-043",
+        "phone": "+55 46 3309-2400",
+        "email": "scraca07rs@sesa.pr.gov.br",
+        "office": "government",
+        "government": "healthcare",
+        "name": "7ª Regional de Saúde de Pato Branco (SESA-PR)",
+        "short_name": "7ª RS SESA",
+        "comment": "Regional de Saúde (Estadual)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6734805,
+          -26.2206669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7405227,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "7405227",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SECRETARIA MUNICIPAL DE SAUDE DE PATO BRANCO",
+        "addr:street": "Rua Afonso Pena",
+        "addr:housenumber": "1941",
+        "addr:suburb": "Anchieta",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85502-260",
+        "phone": "+55 46 3902-1276",
+        "email": "secsaude@patobranco.pr.gov.br",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6870379,
+          -26.2299537
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6810527,
+      "properties": {
+        "operator": "Governo do Estado do Paraná",
+        "operator:type": "public",
+        "ref:CNES": "6810527",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HEMONUCLEO DE PATO BRANCO",
+        "addr:street": "Rua Paraná",
+        "addr:housenumber": "1633",
+        "addr:suburb": "Sambugaro",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85501-025",
+        "phone": "+55 46 3225-1014",
+        "email": "uctpb@sesa.pr.gov.br",
+        "amenity": "blood_donation",
+        "healthcare": "blood_donation",
+        "name": "Hemonúcleo de Pato Branco (HEMEPAR)",
+        "short_name": "Hemepar Pato Branco",
+        "comment": "Doação de Sangue (HEMEPAR)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.680839,
+          -26.2229661
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28592,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "28592",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CAPS II CENTRO DE ATENCAO PSICOSSOCIAL",
+        "addr:street": "Rua Tocantins",
+        "addr:housenumber": "2615",
+        "addr:suburb": "Centro",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85501-292",
+        "phone": "+55 46 3902-1310",
+        "email": "caps@patobranco.pr.gov.br",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6726538,
+          -26.2425624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4102231,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "4102231",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ATENCAO PSICISSOCIAL INFANTO JUVENIL CAPSI",
+        "addr:street": "Rua Guarani",
+        "addr:housenumber": "725",
+        "addr:suburb": "Centro",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85501-048",
+        "phone": "+55 46 3213-1735",
+        "email": "capsi@patobranco.pr.gov.br",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial Infanto-Juvenil (CAPSi)",
+        "short_name": "CAPSi",
+        "comment": "CAPSi (Infanto-Juvenil)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6717836,
+          -26.2279538
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9461280,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "9461280",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "ACADEMIA DA SAUDE LA SALLE",
+        "addr:street": "Rua Ararigbóia",
+        "addr:suburb": "La Salle",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85505-445",
+        "leisure": "fitness_centre",
+        "healthcare": "rehabilitation",
+        "name": "Academia da Saúde La Salle",
+        "comment": "Academia da Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6491284,
+          -26.2338996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7817789,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "7817789",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "ACADEMIA DA SAUDE PINHEIRINHO",
+        "addr:street": "Rua Ivaí",
+        "addr:suburb": "Pinheirinho",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85506-100",
+        "email": "nasf@patobranco.pr.gov.br",
+        "leisure": "fitness_centre",
+        "healthcare": "rehabilitation",
+        "name": "Academia da Saúde Pinheirinho",
+        "comment": "Academia da Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6844466,
+          -26.2463664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7218133,
+      "properties": {
+        "operator": "CONIMS - Consórcio Intermunicipal de Saúde",
+        "operator:type": "public",
+        "ref:CNES": "7218133",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL DE REGULACAO MEDICA DAS URGENCIAS DO SUDOESTE DO PR",
+        "addr:street": "Travessa Modesto Viganó",
+        "addr:suburb": "Bortot",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85504-090",
+        "phone": "+55 46 3225-2731",
+        "email": "samu@patobranco.pr.gov.br",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Central de Regulação Médica das Urgências (SAMU 192)",
+        "short_name": "Regulação SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6769757,
+          -26.2305102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 102148,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "102148",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SISTEMA MUNICIPAL DE AUDITORIA E REGULACAO",
+        "addr:street": "Rua Afonso Pena",
+        "addr:housenumber": "1941",
+        "addr:suburb": "Anchieta",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85502-260",
+        "phone": "+55 46 3213-1727",
+        "email": "dirauditoria@patobranco.pr.gov.br",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Sistema Municipal de Auditoria e Regulação em Saúde",
+        "comment": "Auditoria e Regulação"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6870075,
+          -26.229938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8393796,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "8393796",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CAF CENTRAL DE ABASTECIMENTO FAMACEUTICO",
+        "addr:street": "Rua Osvaldo Aranha",
+        "addr:housenumber": "605",
+        "addr:suburb": "Centro",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85501-037",
+        "phone": "+55 46 3213-1738",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Central de Abastecimento Farmacêutico (CAF)",
+        "short_name": "CAF",
+        "comment": "Abastecimento Farmacêutico (CAF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.673049,
+          -26.2209436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9837205,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "9837205",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CAS CENTRAL DE ABASTACIMENTO DA SAUDE",
+        "addr:street": "Rua Osvaldo Aranha",
+        "addr:housenumber": "605",
+        "addr:suburb": "Centro",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85501-037",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Central de Abastecimento da Saúde (CAS)",
+        "short_name": "CAS",
+        "comment": "Abastecimento de Saúde (CAS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6772332,
+          -26.2300483
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8436304,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "8436304",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SERVICO DE BIOSSEGURANCA",
+        "addr:street": "Rua Paraná",
+        "addr:housenumber": "340",
+        "addr:suburb": "Centro",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85501-074",
+        "phone": "+55 46 3213-1700",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Serviço de Biossegurança em Saúde",
+        "comment": "Biossegurança em Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6754024,
+          -26.2310525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6681905,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "6681905",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "VIGILANCIA EPIDEMIOLOGICA",
+        "addr:street": "Rua Xavantes",
+        "addr:housenumber": "275",
+        "addr:suburb": "Centro",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85501-220",
+        "phone": "+55 46 3902-1265",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Epidemiológica Municipal",
+        "comment": "Vigilância Epidemiológica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.674551,
+          -26.2335706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3379213,
+      "properties": {
+        "operator": "Prefeitura Municipal de Pato Branco",
+        "operator:type": "public",
+        "ref:CNES": "3379213",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SALA DE VACINAS CENTRAL",
+        "addr:street": "Rua Paraná",
+        "addr:housenumber": "671",
+        "addr:suburb": "Centro",
+        "addr:city": "Pato Branco",
+        "addr:state": "PR",
+        "addr:country": "BR",
+        "addr:postcode": "85501-025",
+        "phone": "+55 46 3213-1714",
+        "email": "vacinacentro@patobranco.pr.gov.br",
+        "amenity": "clinic",
+        "healthcare": "vaccination",
+        "name": "Sala Central de Vacinas de Pato Branco",
+        "short_name": "Sala de Vacinas",
+        "comment": "Sala de Vacinas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6806529,
+          -26.2303758
+        ]
+      }
+    }
+  ]
+}

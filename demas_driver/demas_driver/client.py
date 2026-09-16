@@ -49,31 +49,39 @@ def fetch_all_establishments(
     """
     Fetches all active establishments for the given municipality code using concurrent requests.
     """
-    # 1. Determine first page to check responsiveness and estimate total records
+    # 1. Determine first page to check responsiveness
     first_page = fetch_cnes_page(municipality_code, offset=0, limit=20, status=status, **kwargs)
     if not first_page:
         return []
 
-    # Fast probe to detect upper offset limit
-    probe_offsets = [20, 100, 300, 600, 1000, 1500, 2000]
-    max_active_offset = 0
+    # If first page has fewer than 20 items, we already have all records
+    if len(first_page) < 20:
+        return first_page
 
-    for off in probe_offsets:
-        res = fetch_cnes_page(municipality_code, offset=off, limit=1, status=status, **kwargs)
-        if res:
-            max_active_offset = off
+    # 2. Binary search to accurately find total number of records
+    high = 100
+    while True:
+        if fetch_cnes_page(municipality_code, offset=high, limit=1, status=status, **kwargs):
+            high *= 2
         else:
             break
 
-    # Estimate upper bound
-    scan_limit = max_active_offset + 300
+    low = high // 2
+    while low < high:
+        mid = (low + high) // 2
+        if fetch_cnes_page(municipality_code, offset=mid, limit=1, status=status, **kwargs):
+            low = mid + 1
+        else:
+            high = mid
+
+    total_records = low
 
     all_dict = {}
     for item in first_page:
         all_dict[item["codigo_cnes"]] = item
 
     # Concurrently fetch in chunks of 20
-    offsets = list(range(20, scan_limit, 20))
+    offsets = list(range(20, total_records, 20))
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
         futures = {
             executor.submit(fetch_cnes_page, municipality_code, off, 20, status=status, **kwargs): off

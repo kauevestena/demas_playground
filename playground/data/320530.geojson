@@ -1,0 +1,2262 @@
+{
+  "type": "FeatureCollection",
+  "name": "Estabelecimentos Públicos de Saúde - DEMAS / CNES",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 11754,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "11754",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SERVICO DE ORIENTACAO AO EXERCICIO SOE",
+        "addr:street": "Rua Av Mac Mascarenhas de Moraes",
+        "addr:housenumber": "1185",
+        "addr:suburb": "Forte São João",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29017-010",
+        "phone": "+55 27 3132-5041",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Serviço de Orientacao Ao Exercicio Soe",
+        "short_name": "UBS Serviço de Orientacao Ao Exercicio Soe",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3233755,
+          -20.317343
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12068,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "12068",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE ALAGOANO ARIOVALDO FAVALESSA",
+        "addr:street": "Rua Servidao Ernesto Caliari",
+        "addr:suburb": "Caratoira",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29025-740",
+        "phone": "(27)31325112/5196",
+        "email": "usalagoano@correio1.vitoria.es.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Alagoano Ariovaldo Favalessa",
+        "short_name": "UBS Unidade Básica de Saude Alagoano Ariovaldo Favalessa",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3529119,
+          -20.31521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12114,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "12114",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE BAIRRO DA PENHA GILSON SANTOS",
+        "addr:street": "Rua Padre Luis Koester",
+        "addr:suburb": "Bairro da Penha",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29047-290",
+        "phone": "(27)33826761/6760",
+        "email": "usbpenha@correio1.vitoria.es.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Bairro da Penha Gilson Santos",
+        "short_name": "UBS Unidade Básica de Saude Bairro da Penha Gilson Santos",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3116059,
+          -20.2979234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12122,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "12122",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE BAIRRO REPUBLICA",
+        "addr:street": "Rua R Rosendo Serapiao Souza Filho",
+        "addr:suburb": "Republica",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29070-170",
+        "phone": "(27)31352035/2037",
+        "email": "usbrepublica@correio1.vitoria.es.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Bairro Republica",
+        "short_name": "UBS Unidade Básica de Saude Bairro Republica",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.2920687,
+          -20.2725812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28185,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "28185",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE BONFIM THOMAZ THOMAZI",
+        "addr:street": "Rua Dioscoro Carneiro Filho",
+        "addr:suburb": "Bonfim",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29047-009",
+        "phone": "+55 27 3132-2055",
+        "email": "usbonfim@correio1.vitoria.es.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Bonfim Thomaz Thomazi",
+        "short_name": "UBS Unidade Básica de Saude Bonfim Thomaz Thomazi",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3151518,
+          -20.298849
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12254,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "12254",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE CONQUISTA NOVA PALESTINA",
+        "addr:street": "Rodovia Serafim Derenzi",
+        "addr:housenumber": "6090",
+        "addr:suburb": "Conquista",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29033-020",
+        "phone": "27-33179610/33854304",
+        "email": "ussaopedrov@correio1.vitoria.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Conquista Nova Palestina",
+        "short_name": "UBS Unidade Básica de Saude Conquista Nova Palestina",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3249714,
+          -20.2768761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12165,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "12165",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE CONSOLACAO MARIA RANGEL PASSOS",
+        "addr:street": "Rua Desembargador Otavio de Carvalho Lengruber",
+        "addr:suburb": "Consolacao",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29045-540",
+        "phone": "+55 27 3382-6744",
+        "email": "usconsolacao@correio1.vitoria.es.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Consolacao Maria Rangel Passos",
+        "short_name": "UBS Unidade Básica de Saude Consolacao Maria Rangel Passos",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3042942,
+          -20.3032364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12092,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "12092",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE DE ANDORINHAS",
+        "addr:street": "Rua Emilio Ferreira da Silva",
+        "addr:housenumber": "160",
+        "addr:suburb": "Andorinhas",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29045-055",
+        "phone": "27)33153007/2871",
+        "email": "usandorinhas@correio1.vitoria.es.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude de Andorinhas",
+        "short_name": "UBS Unidade Básica de Saude de Andorinhas",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3068906,
+          -20.290643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12173,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "12173",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE DE FONTE GRANDE DR AFFONSO SCHWAB",
+        "addr:street": "Rua Graciano Neves",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29015-330",
+        "phone": "(27)31325116/5117",
+        "email": "usfgrande@vitoria.es.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude de Fonte Grande Dr Affonso Schwab",
+        "short_name": "UBS Unidade Básica de Saude de Fonte Grande Dr Affonso Schwab",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3369085,
+          -20.316688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11959,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "11959",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE DE MARUIPE MICHEL MINASSA",
+        "addr:street": "Rua Victor Fritoli Navarro",
+        "addr:housenumber": "20",
+        "addr:suburb": "Maruipe",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29043-037",
+        "phone": "+55 27 3382-6742",
+        "email": "ubsmaruipe@correio1.vitoria.es.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude de Maruipe Michel Minassa",
+        "short_name": "UBS Unidade Básica de Saude de Maruipe Michel Minassa",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3164875,
+          -20.2961775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11827,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "11827",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE FORTE SAO JOAO BOLIVAR DE ABREU",
+        "addr:street": "Rua Av Marechal Mascarenhas de Moraes",
+        "addr:housenumber": "1185",
+        "addr:suburb": "Forte São João",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29017-010",
+        "phone": "(27)31325080/5081",
+        "email": "usfsjoao@correio1.vitoria.es.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Forte São João Bolivar de Abreu",
+        "short_name": "UBS Unidade Básica de Saude Forte São João Bolivar de Abreu",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3225601,
+          -20.3182586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11894,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "11894",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE GRANDE VITORIA",
+        "addr:street": "Rodovia Serafim Derenzi",
+        "addr:housenumber": "2285",
+        "addr:suburb": "Estrelinha",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29023-500",
+        "phone": "+55 27 98107-0142",
+        "email": "dusgvitoria@vitoria.es.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Grande Vitoria",
+        "short_name": "UBS Unidade Básica de Saude Grande Vitoria",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.344033,
+          -20.294604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12076,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "12076",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE ILHA DAS CAIEIRAS",
+        "addr:street": "Avenida Beira Mar",
+        "addr:suburb": "São Pedro I",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29030-010",
+        "phone": "31325086/32337832",
+        "email": "usicaieiras@correio1.vitoria.es.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Ilha das Caieiras",
+        "short_name": "UBS Unidade Básica de Saude Ilha das Caieiras",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.337122,
+          -20.279999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12157,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "12157",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE ILHA DE SANTA MARIA",
+        "addr:street": "Rua João Bastos Vieira",
+        "addr:suburb": "Ilha de Santa Maria",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29051-200",
+        "phone": "+55 27 3233-4910",
+        "email": "usismaria@correio1.vitoria.es.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Ilha de Santa Maria",
+        "short_name": "UBS Unidade Básica de Saude Ilha de Santa Maria",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3190732,
+          -20.3127349
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11916,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "11916",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE ILHA DO PRINCIPE",
+        "addr:street": "Rua Fenelon Gomes",
+        "addr:housenumber": "112",
+        "addr:suburb": "Ilha do Principe",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29020-380",
+        "phone": "(27)31325088/2116",
+        "email": "usilhadoprincipe@correio1.vitoria..es.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Ilha do Principe",
+        "short_name": "UBS Unidade Básica de Saude Ilha do Principe",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3495806,
+          -20.322169
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7468466,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "7468466",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE ITARARE",
+        "addr:street": "Rua Doutor Arlindo Sodre",
+        "addr:housenumber": "260",
+        "addr:suburb": "Itarare",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29047-500",
+        "phone": "27-33826413/33816905",
+        "email": "ubsitarare@correio1.vitoria.es.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Itarare",
+        "short_name": "UBS Unidade Básica de Saude Itarare",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3085965,
+          -20.2951512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11924,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "11924",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE JABOUR DR CARLITO VON SCHILGEN",
+        "addr:street": "Rua Engenheiro Cesar Dantas",
+        "addr:suburb": "Jabour",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29072-265",
+        "phone": "+55 27 3135-2030",
+        "email": "usjabour@vitoria.es.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Jabour Dr Carlito Von Schilgen",
+        "short_name": "UBS Unidade Básica de Saude Jabour Dr Carlito Von Schilgen",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.2947617,
+          -20.2602294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12033,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "12033",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE JARDIM CAMBURI RAUL OLIVEIRA NEVES",
+        "addr:street": "Rua Belmiro Teixeira Pimenta",
+        "addr:suburb": "Jardim Camburi",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29090-600",
+        "phone": "(27)31388130/8131",
+        "email": "usjardimcamburi@correio1.vitoria.es.gov",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Jardim Camburi Raul Oliveira Neves",
+        "short_name": "UBS Unidade Básica de Saude Jardim Camburi Raul Oliveira Neves",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.269506,
+          -20.2553327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11878,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "11878",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE JARDIM DA PENHA OTAVIANO R CARVALHO",
+        "addr:street": "Rua Francisco Generoso Fonseca",
+        "addr:suburb": "Jardim da Penha",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29060-140",
+        "phone": "27-33826747/33157921",
+        "email": "usjpenha@correio1.vitoria.es.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Jardim da Penha Otaviano R Carvalho",
+        "short_name": "UBS Unidade Básica de Saude Jardim da Penha Otaviano R Carvalho",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.2976048,
+          -20.2852088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11797,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "11797",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE JESUS DE NAZARETH",
+        "addr:street": "Rua Helena Muller",
+        "addr:housenumber": "168",
+        "addr:suburb": "Jesus de Nazareth",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29052-044",
+        "phone": "(27)33826740/6741",
+        "email": "usjnazareth@correio1.vitoria.es.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Jesus de Nazareth",
+        "short_name": "UBS Unidade Básica de Saude Jesus de Nazareth",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3042728,
+          -20.3197733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11908,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "11908",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE MARIA ORTIZ",
+        "addr:street": "Rua Professor Renato Ribeiro dos Santos",
+        "addr:suburb": "Maria Ortiz",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29070-310",
+        "phone": "27-31352033/33273337",
+        "email": "usmortiz@correios1.vitoria.es.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Maria Ortiz",
+        "short_name": "UBS Unidade Básica de Saude Maria Ortiz",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.2983424,
+          -20.2571646
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28177,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "28177",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE PRAIA DO SUA LUCILO BORGES SANT ANA",
+        "addr:street": "Rua Caetano Tunholi",
+        "addr:suburb": "Praia do Sua",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29050-290",
+        "phone": "(27)33826512/6514",
+        "email": "uspsua@correio1.vitoria.es.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Praia do Sua Lucilo Borges Sant Ana",
+        "short_name": "UBS Unidade Básica de Saude Praia do Sua Lucilo Borges Sant Ana",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.2984363,
+          -20.3151094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2630001,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "2630001",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE RESISTENCIA",
+        "addr:street": "Rua Nosssa Senhora da Conceicao",
+        "addr:housenumber": "270",
+        "addr:suburb": "Resistencia",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29032-690",
+        "phone": "27-33826763/33854314",
+        "email": "usresistencia@correio1.vitoria.es.gov",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Resistencia",
+        "short_name": "UBS Unidade Básica de Saude Resistencia",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.317501,
+          -20.271167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5032644,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "5032644",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE SANTA LUIZA DR JOSE MOYSES",
+        "addr:street": "Rua Doutor João Carlos de Souza",
+        "addr:suburb": "Santa Luiza",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29045-410",
+        "phone": "27 31353001/31353005",
+        "email": "ussluiza@correio1.vitoria.es.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Santa Luiza Dr Jose Moyses",
+        "short_name": "UBS Unidade Básica de Saude Santa Luiza Dr Jose Moyses",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3000107,
+          -20.2927637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3925757,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "3925757",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE SANTA MARTHA",
+        "addr:street": "Rua Getulio Miranda",
+        "addr:suburb": "Bairro Santa Marta",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29046-680",
+        "phone": "+55 27 3324-7414",
+        "email": "usmartha@correio1.vitoria.es.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Santa Martha",
+        "short_name": "UBS Unidade Básica de Saude Santa Martha",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3103721,
+          -20.2864819
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12149,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "12149",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE SANTO ANDRE",
+        "addr:street": "Rua da Coragem",
+        "addr:housenumber": "200",
+        "addr:suburb": "Santo Andre",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29032-260",
+        "phone": "(27)33237222/ 8130",
+        "email": "usandre@correio1.vitoria.es.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Santo Andre",
+        "short_name": "UBS Unidade Básica de Saude Santo Andre",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3323555,
+          -20.2779454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11789,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "11789",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE SANTO ANTONIO",
+        "addr:street": "Rua Ernesto Bassini",
+        "addr:housenumber": "605",
+        "addr:suburb": "Santa Tereza",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29026-841",
+        "phone": "+55 27 3132-5096",
+        "email": "ussantoantonio@vitoria.es.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Santo Antonio",
+        "short_name": "UBS Unidade Básica de Saude Santo Antonio",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3517,
+          -20.31197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7145721,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "7145721",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE SAO CRISTOVAO",
+        "addr:street": "Rua Alcides Lyrio do Nascimento",
+        "addr:suburb": "Tabuazeiro",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29043-350",
+        "phone": "27 - 33458653/8422",
+        "email": "ussc@correio1.vitoria.es.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude São Cristóvão",
+        "short_name": "UBS Unidade Básica de Saude São Cristóvão",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3214765,
+          -20.2925348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12262,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "12262",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE VITORIA",
+        "addr:street": "Rua Cais de São Francisco",
+        "addr:housenumber": "54",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29010-680",
+        "phone": "+55 27 3132-5103",
+        "email": "usvitoria@correio1.vitoria.es.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Vitoria",
+        "short_name": "UBS Unidade Básica de Saude Vitoria",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3404906,
+          -20.320109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11975,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "11975",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DO QUADRO",
+        "addr:street": "Rua Lucidato Vieira Falcao",
+        "addr:suburb": "Morro do Quadro",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29027-160",
+        "phone": "(27)31325092/5093",
+        "email": "usmquadro@correio1.es.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Do Quadro",
+        "short_name": "UBS Do Quadro",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3491515,
+          -20.3163143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9460667,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "9460667",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CAAD CENTRO DE ACOLHIMENTO E ATENCAO INTEGRAL SOBRE DROGAS",
+        "addr:street": "Rua Treze de Maio",
+        "addr:housenumber": "47",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29015-280",
+        "phone": "+55 27 3636-6296",
+        "email": "felipe.tolomei@proviv.es.gov.br",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3386245,
+          -20.3194925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3038467,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "3038467",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO MUNICIPAL DE ESPECIALIDADES DE VITORIA",
+        "addr:street": "Avenida Dario Lourenço de Souza",
+        "addr:housenumber": "120",
+        "addr:suburb": "Mario Cypreste",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29027-215",
+        "phone": "+55 27 3322-1310",
+        "email": "crcme@vitoria.es.gov.br",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3562379,
+          -20.3198785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12017,
+      "properties": {
+        "operator": "Governo do Estado (ES)",
+        "operator:type": "public",
+        "ref:CNES": "12017",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL DA POLICIA MILITAR HPM",
+        "addr:street": "Rua Av Joubert de Barros",
+        "addr:housenumber": "555",
+        "addr:suburb": "Bento Ferreira",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29050-720",
+        "phone": "+55 27 3137-1753",
+        "email": "www.hpm.es@.com.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital da Policia Militar Hpm",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.338,
+          -20.319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6559131,
+      "properties": {
+        "operator": "Governo do Estado (ES)",
+        "operator:type": "public",
+        "ref:CNES": "6559131",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL ESTADUAL CENTRAL HEC",
+        "addr:street": "Rua São Jose",
+        "addr:housenumber": "76",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29010-430",
+        "phone": "+55 27 3137-2429",
+        "email": "contabilidade@saude.es.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Estadual Central Hec",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3428114,
+          -20.3170928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7621442,
+      "properties": {
+        "operator": "Governo do Estado (ES)",
+        "operator:type": "public",
+        "ref:CNES": "7621442",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL ESTADUAL DE URGENCIA E EMERGENCIA",
+        "addr:street": "Rua Desembargador Jose Vicente",
+        "addr:housenumber": "1533",
+        "addr:suburb": "Forte São João",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29010-420",
+        "phone": "+55 27 3198-6350",
+        "email": "calasence@eue.org.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Estadual de Urgencia e Emergencia",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3257852,
+          -20.3178953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11800,
+      "properties": {
+        "operator": "Governo do Estado (ES)",
+        "operator:type": "public",
+        "ref:CNES": "11800",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL INFANTIL NOSSA SENHORA DA GLORIA",
+        "addr:street": "Rua Alameda Mary Ubirajara",
+        "addr:housenumber": "205",
+        "addr:suburb": "Santa Lucia",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29056-030",
+        "phone": "+55 27 3137-1804",
+        "email": "contabilidade@saude.es.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Infantil Nossa Senhora da Gloria",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.2997894,
+          -20.307553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7207301,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "7207301",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CASA ROSA",
+        "addr:street": "Rua Hermes Curry Carneiro",
+        "addr:housenumber": "360",
+        "addr:suburb": "Monte Belo",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29053-202",
+        "phone": "+55 27 3332-3290",
+        "email": "savviolencia@correio1.es.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Casa Rosa",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.31706,
+          -20.31345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11983,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "11983",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE REFERENCIA E ATENDIMENTO AO IDOSO CRAI",
+        "addr:street": "Rua João Bastos Vieira",
+        "addr:housenumber": "281",
+        "addr:suburb": "Ilha de Santa Maria",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29051-200",
+        "phone": "+55 27 3132-5111",
+        "email": "drcrai@vitoria.es.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Referencia e Atendimento Ao Idoso Crai",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.31894,
+          -20.31262
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12084,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "12084",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE REFERENCIA EM INFECCOES SEXUALMENTE TRANSMISSIVEIS",
+        "addr:street": "Rua Cais de São Francisco",
+        "addr:housenumber": "54",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29010-680",
+        "phone": "(27)31325106/5107",
+        "email": "crdst-aids@correio1.vitoria.es.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Referencia em Infeccoes Sexualmente Transmissiveis",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3404033,
+          -20.3200498
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39462,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "39462",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE REFERENCIA MUNICIPAL EM SAUDE DO TRABALHADOR",
+        "addr:street": "Avenida Dario Lourenço de Souza",
+        "addr:housenumber": "120",
+        "addr:suburb": "Mario Cypreste",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29017-010",
+        "phone": "+55 27 3132-2113",
+        "email": "estrabalhador@correio1.vitoria.es.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Referencia Municipal em Saude do Trabalhador",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3536415,
+          -20.3193754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4187318,
+      "properties": {
+        "operator": "Governo do Estado (ES)",
+        "operator:type": "public",
+        "ref:CNES": "4187318",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CEREST CENTRO ESTADUAL DE REFERENCIA EM SAUDE DO TRABALHADOR",
+        "addr:street": "Avenida Marechal Mascarenhas de Moraes",
+        "addr:housenumber": "2025",
+        "addr:suburb": "Bento Ferreira",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29050-625",
+        "phone": "+55 27 3388-1668",
+        "amenity": "clinic",
+        "healthcare": "occupational_health",
+        "name": "CEREST Macro Centro Sul",
+        "short_name": "CEREST",
+        "comment": "Saúde do Trabalhador (CEREST)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3110449,
+          -20.3179544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4423828,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "4423828",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "ESPACO GIRASSOL",
+        "addr:street": "Avenida Dario Lourenço de Souza",
+        "addr:housenumber": "120",
+        "addr:suburb": "Mario Cypreste",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29027-215",
+        "phone": "+55 27 98107-0156",
+        "email": "espacogirassol@vitoria.es.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Espaco Girassol",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.35379,
+          -20.31927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11770,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "11770",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "INSTITUTO DE ODONTOLOGIA IOUFES",
+        "addr:street": "Rua Av Marechal Campos",
+        "addr:housenumber": "1355",
+        "addr:suburb": "Santos Dumont",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29042-715",
+        "phone": "+55 46 3335-7234",
+        "email": "ioufes@bol.com.br",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Centro de Especialidades Odontológicas (CEO)",
+        "short_name": "CEO",
+        "comment": "Odontologia (CEO)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3204231,
+          -20.299942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5522935,
+      "properties": {
+        "operator": "Governo do Estado (ES)",
+        "operator:type": "public",
+        "ref:CNES": "5522935",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SERVICO DE ANATOMIA PATOLOGICA E IMUNOHISTOQUIMICA SESA",
+        "addr:street": "Rua Jourbert de Barros",
+        "addr:housenumber": "555",
+        "addr:suburb": "Bento Ferreira",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29050-720",
+        "phone": "+55 27 3227-7057",
+        "email": "svo@saude.es.gov.br",
+        "amenity": "clinic",
+        "healthcare": "diagnostic_centre",
+        "name": "Serviço de Anatomia Patologica e Imunohistoquimica SESA",
+        "comment": "Diagnóstico por Imagem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3123998,
+          -20.3133763
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22179,
+      "properties": {
+        "operator": "Governo do Estado (ES)",
+        "operator:type": "public",
+        "ref:CNES": "22179",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CORPO DE BOMBEIROS MILITAR DO ESPIRTO SANTO",
+        "addr:street": "Rua Av Tenente Mario Francisco de Brito",
+        "addr:housenumber": "100",
+        "addr:suburb": "Enseada do Sua",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29050-555",
+        "phone": "+55 27 3137-4433",
+        "email": "ciodes.cbmes@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Corpo de Bombeiros Militar do Espirto Santo",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.2939033,
+          -20.3126493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7434286,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "7434286",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL DE TRANSPORTE SANITARIO",
+        "addr:street": "Avenida Marechal Mascarenhas de Moraes",
+        "addr:housenumber": "1185",
+        "addr:suburb": "Forte São João",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29010-330",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3231394,
+          -20.3174939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7090315,
+      "properties": {
+        "operator": "Governo do Estado (ES)",
+        "operator:type": "public",
+        "ref:CNES": "7090315",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU 192 ESPIRITO SANTO A 10 UNIDADE DE APOIO",
+        "addr:street": "Avenida Rio Branco",
+        "addr:housenumber": "80",
+        "addr:suburb": "Santa Lucia",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29055-642",
+        "phone": "+55 27 3233-2946",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.2998774,
+          -20.3002232
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7085095,
+      "properties": {
+        "operator": "Governo do Estado (ES)",
+        "operator:type": "public",
+        "ref:CNES": "7085095",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU 192 ESPIRITO SANTO A 20",
+        "addr:street": "Avenida Carlos de Sa",
+        "addr:suburb": "Mata da Praia",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29066-040",
+        "phone": "+55 27 3382-6800",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.2986062,
+          -20.2742764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6815049,
+      "properties": {
+        "operator": "Governo do Estado (ES)",
+        "operator:type": "public",
+        "ref:CNES": "6815049",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU 192 ESPIRITO SANTO B 22",
+        "addr:street": "Rua Raimundo Nonato",
+        "addr:housenumber": "31",
+        "addr:suburb": "Forte São João",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29017-160",
+        "phone": "+55 27 3233-2946",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.325871,
+          -20.318679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7066309,
+      "properties": {
+        "operator": "Governo do Estado (ES)",
+        "operator:type": "public",
+        "ref:CNES": "7066309",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU 192 ESPIRITO SANTO B 24",
+        "addr:street": "Rua Raimundo Nonato",
+        "addr:housenumber": "31",
+        "addr:suburb": "Forte São João",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29017-160",
+        "phone": "+55 27 3233-2946",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3253156,
+          -20.318727
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7066635,
+      "properties": {
+        "operator": "Governo do Estado (ES)",
+        "operator:type": "public",
+        "ref:CNES": "7066635",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU 192 ESPIRITO SANTO B 26",
+        "addr:street": "Rua Raimundo Nonato",
+        "addr:housenumber": "31",
+        "addr:suburb": "Forte São João",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29017-160",
+        "phone": "+55 27 9869-8780",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.325842,
+          -20.3186633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2930439,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "2930439",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU 192 ESPIRITO SANTO HELICOPTERO PR ESE",
+        "addr:street": "Rua Sete de Setembro",
+        "addr:housenumber": "362",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29015-000",
+        "phone": "+55 27 3636-1364",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3394935,
+          -20.3168931
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7472935,
+      "properties": {
+        "operator": "Governo do Estado (ES)",
+        "operator:type": "public",
+        "ref:CNES": "7472935",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "FARMACIA CIDADA ESTADUAL DE VITORIA",
+        "addr:street": "Avenida Cezar Hilal",
+        "addr:housenumber": "1418",
+        "addr:suburb": "Praia do Sua",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29052-230",
+        "phone": "+55 27 3636-8454",
+        "email": "manuelacruz@saude.es.gov.br",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "dispensing": "yes",
+        "name": "Farmácia Cidada Estadual de Vitoria",
+        "comment": "Farmácia Pública"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.2994059,
+          -20.3107648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12467,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "12467",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE VIGILANCIA EM SAUDE AMBIENTAL",
+        "addr:street": "Rua São Sebastiao",
+        "addr:suburb": "Resistencia",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29032-545",
+        "phone": "+55 27 3324-8347",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3172822,
+          -20.2773541
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2485818,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "2485818",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DIVISAO VIGILANCIA EPIDEMOLOGICA",
+        "addr:street": "Rua Av Marechal Mascarenhas de Moraes",
+        "addr:housenumber": "1185",
+        "addr:suburb": "Forte São João",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29017-010",
+        "phone": "+55 46 27331-2850",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3236839,
+          -20.3171418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9737464,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "9737464",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "IDAF",
+        "addr:street": "Rua Av Jeronimo Monteiro",
+        "addr:housenumber": "1000",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29010-935",
+        "phone": "+55 27 3343-5773",
+        "email": "gedlab@idaf.es.gov.br",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3300531,
+          -20.318642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6565301,
+      "properties": {
+        "operator": "Governo do Estado (ES)",
+        "operator:type": "public",
+        "ref:CNES": "6565301",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SECRETARIA DE ESTADO DA SAUDE",
+        "addr:street": "Rua R Judith Maria Tovar Varejao",
+        "addr:housenumber": "225",
+        "addr:suburb": "Enseada do Sua",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29050-360",
+        "phone": "+55 27 3137-2396",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.2937263,
+          -20.3174676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5299764,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "5299764",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SECRETARIA MUNICIPAL DE SAUDE DE VITORIA",
+        "addr:street": "Rua Vitorio Nunes da Motta",
+        "addr:housenumber": "220",
+        "addr:suburb": "Enseada do Sua",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29050-480",
+        "phone": "+55 27 3132-5058",
+        "email": "mclamborghini@vitoria.es.gov.br",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.29651,
+          -20.31407
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12378,
+      "properties": {
+        "operator": "Governo do Estado (ES)",
+        "operator:type": "public",
+        "ref:CNES": "12378",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HEMOES",
+        "addr:street": "Rua Av Marechal Campos",
+        "addr:housenumber": "1468",
+        "addr:suburb": "Santa Cecilia",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29043-910",
+        "phone": "+55 27 3137-2466",
+        "email": "hemoes@saude.es.gov.br",
+        "amenity": "blood_donation",
+        "healthcare": "blood_donation",
+        "name": "Hemonúcleo de Pato Branco (HEMEPAR)",
+        "short_name": "Hemepar Pato Branco",
+        "comment": "Doação de Sangue (HEMEPAR)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3210569,
+          -20.2988752
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12041,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "12041",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ATENCAO PSICOSSOCIAL AD III",
+        "addr:street": "Rua Alvaro Sarlo",
+        "addr:suburb": "Ilha de Santa Maria",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29051-100",
+        "phone": "(27)31325104/9082",
+        "email": "crcptt@vitoria.es.gov.br",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3174639,
+          -20.3125739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12351,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "12351",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ATENCAO PSICOSSOCIAL CAPS II",
+        "addr:street": "Rua Jose de Carvalho",
+        "addr:housenumber": "404",
+        "addr:suburb": "Ilha de Santa Maria",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29051-220",
+        "phone": "(27)31325110/5111",
+        "email": "crcaps@correio1.vitoria.es.gov.br",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3173163,
+          -20.3140655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5526175,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "5526175",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ATENCAO PSICOSSOCIAL INFANTO JUVENIL",
+        "addr:street": "Rua Amelia da Cunha Ornelas",
+        "addr:housenumber": "431",
+        "addr:suburb": "Bento Ferreira",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29050-620",
+        "phone": "27- 32253698/5497",
+        "email": "crcapsinfantil@vitoria.es.gov.br",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial Infanto-Juvenil (CAPSi)",
+        "short_name": "CAPSi",
+        "comment": "CAPSi (Infanto-Juvenil)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3079796,
+          -20.3136052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7603592,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "7603592",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ATENCAO PSICOSSOCIAL SAO PEDRO",
+        "addr:street": "Rodovia Serafim Derenze",
+        "addr:suburb": "São Pedro",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29026-470",
+        "phone": "+55 27 3332-8132",
+        "email": "capssp@correio1.vitoria.es.gov.br",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3324842,
+          -20.2847811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2675110,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "2675110",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PRONTO ATENDIMENTO PRAIA DO SUA",
+        "addr:street": "Rua Almirante Barroso",
+        "addr:suburb": "Praia do Sua",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29052-190",
+        "phone": "+55 27 3325-3380",
+        "email": "papraiadosua@correio1.vitoria.es.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Pronto Atendimento Praia do Sua",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.29932,
+          -20.31452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11835,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "11835",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PRONTO ATENDIMENTO SAO PEDRO",
+        "addr:street": "Rodovia Serafim Derenze",
+        "addr:housenumber": "4590",
+        "addr:suburb": "São Pedro III",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29031-847",
+        "phone": "+55 27 3132-5100",
+        "email": "pasaopedro@correio1.vitoria.es.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Pronto Atendimento São Pedro",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3324279,
+          -20.284522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7891911,
+      "properties": {
+        "operator": "Governo do Estado (ES)",
+        "operator:type": "public",
+        "ref:CNES": "7891911",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CIATOX CENTRO DE INFORMACAO E ASSISTENCIA TOXICOLOGICA",
+        "addr:street": "Rua Alameda Mary Ubirajara",
+        "addr:housenumber": "205",
+        "addr:suburb": "Santa Lucia",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29056-030",
+        "phone": "+55 46 3636-7575",
+        "email": "toxcen@saude.es.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Ciatox Centro de Informacao e Assistencia Toxicologica",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3063554,
+          -20.307558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11886,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "11886",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "LABORATORIO CENTRAL MUNICIPAL",
+        "addr:street": "Avenida Nossa Senhora da Penha",
+        "addr:housenumber": "1993",
+        "addr:suburb": "Santa Lucia",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29056-075",
+        "phone": "+55 27 3132-5024",
+        "email": "mcsantana@vitoria.es.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Laboratorio Central Municipal",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3017461,
+          -20.2942908
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12424,
+      "properties": {
+        "operator": "Governo do Estado (ES)",
+        "operator:type": "public",
+        "ref:CNES": "12424",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "LACEN ES",
+        "addr:street": "Rua Av Mal Mascarenhas de Moraes",
+        "addr:housenumber": "2025",
+        "addr:suburb": "Bento Ferreira",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29050-625",
+        "phone": "+55 27 3636-8381",
+        "email": "lacen.biologiamedica@saude.es.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "LACEN Es",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3110159,
+          -20.3179387
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7151152,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "7151152",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL DE REGULACAO DE CONSULTAS E EXAMES DE ESPECIALIDADES",
+        "addr:street": "Avenida Marechal Mascarenhas de Moraes",
+        "addr:housenumber": "1285",
+        "addr:suburb": "Forte São João",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29060-160",
+        "phone": "+55 27 3132-5018",
+        "email": "cregulacao@vitoria.es.gov.br",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Sistema Municipal de Auditoria e Regulação em Saúde",
+        "comment": "Auditoria e Regulação"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3225976,
+          -20.3182435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7835558,
+      "properties": {
+        "operator": "Governo do Estado (ES)",
+        "operator:type": "public",
+        "ref:CNES": "7835558",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL ESTADUAL DE TRANSPLANTES DO ESPIRITO SANTO",
+        "addr:street": "Rua Av Joubert de Barros",
+        "addr:housenumber": "555",
+        "addr:suburb": "Bento Ferreira",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29050-720",
+        "phone": "+55 27 3235-1028",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Central Estadual de Transplantes do Espirito Santo",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3123708,
+          -20.3133656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 280739,
+      "properties": {
+        "operator": "Governo do Estado (ES)",
+        "operator:type": "public",
+        "ref:CNES": "280739",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CEADIM",
+        "addr:street": "Avenida Mascarenhas de Moares",
+        "addr:housenumber": "2025",
+        "addr:suburb": "Bento Ferreira",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29052-625",
+        "phone": "+55 27 3636-8426",
+        "email": "imunizacao@saude.es.gov.br",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Ceadim",
+        "comment": "Suprimentos / Logística"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3111572,
+          -20.3179549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 115487,
+      "properties": {
+        "operator": "Prefeitura Municipal de Vitória",
+        "operator:type": "public",
+        "ref:CNES": "115487",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL DE IMUNOBIOLOGICOS MUNICIPAL",
+        "addr:street": "Avenida Marechal Mascarenhas de Moraes",
+        "addr:housenumber": "1185",
+        "addr:suburb": "Forte São João",
+        "addr:city": "Vitória",
+        "addr:state": "ES",
+        "addr:country": "BR",
+        "addr:postcode": "29017-022",
+        "phone": "27 -",
+        "email": "cib@correio1.vitoria.es.gov.br",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Central de Imunobiologicos Municipal",
+        "comment": "Suprimentos / Logística"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3236758,
+          -20.3171317
+        ]
+      }
+    }
+  ]
+}

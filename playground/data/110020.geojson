@@ -1,0 +1,6076 @@
+{
+  "type": "FeatureCollection",
+  "name": "Estabelecimentos Públicos de Saúde - DEMAS / CNES",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 2807483,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "2807483",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "P S AGROVILA NOVA ALIANCA",
+        "addr:street": "Rua Av Calama Itacoa",
+        "addr:housenumber": "4008",
+        "addr:suburb": "Embratel",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76834-899",
+        "phone": "+55 69 99221-9523",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde P S Agrovila Nova Alianca",
+        "short_name": "UBS P S Agrovila Nova Alianca",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9039946,
+          -8.761878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9697756,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "9697756",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POSTO DE SAUDE DA PENITENCIARIA FEDERAL EM PORTO VELHO RO",
+        "addr:street": "Rua Rod Br 364 Sitio Boa Esperança L 13 G13 A Km 44",
+        "addr:housenumber": "0044",
+        "addr:suburb": "Zora Rual",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76801-000",
+        "phone": "+55 69 3533-8628",
+        "email": "depen@mj.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Posto de Saude da Penitenciaria Federal em Porto Velho Ro",
+        "short_name": "UBS Posto de Saude da Penitenciaria Federal em Porto Velho Ro",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.0870929,
+          -9.089045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2806517,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "2806517",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POSTO DE SAUDE DE MORRINHOS",
+        "addr:street": "Rua Br 319 Sentido Humaita Km 24",
+        "addr:housenumber": "4008",
+        "addr:suburb": "Distrito Morrinhos",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76834-899",
+        "email": "ubsmorrinhos.pvh@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Posto de Saude de Morrinhos",
+        "short_name": "UBS Posto de Saude de Morrinhos",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.0212822,
+          -8.7681977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3568075,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "3568075",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POSTO DE SAUDE PALMARES KM12",
+        "addr:street": "Rua Br 319 Sentido Humaita Kmm12",
+        "addr:housenumber": "4008",
+        "addr:suburb": "Distrito Morrinhos",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76820-739",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Posto de Saude Palmares Km12",
+        "short_name": "UBS Posto de Saude Palmares Km12",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9339066,
+          -8.7415609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2807343,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "2807343",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PS CACHOEIRA DO TEOTONIO PORTO VELHO",
+        "addr:street": "Rua Br 364 Sentido Acre Estrada Vicinal",
+        "addr:suburb": "Cachoeira do Teotoni",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76834-899",
+        "phone": "+55 69 9978-4492",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Ps Cachoeira do Teotonio Porto Velho",
+        "short_name": "UBS Ps Cachoeira do Teotonio Porto Velho",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9040375,
+          -8.7619204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2807408,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "2807408",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PS DEMARCACAO",
+        "addr:street": "Rua Demarcacao",
+        "addr:suburb": "Rio Machado Baixo Ma",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76820-739",
+        "phone": "6932351029 93658683",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Ps Demarcacao",
+        "short_name": "UBS Ps Demarcacao",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9038873,
+          -8.7621749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2495155,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "2495155",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PS ENG LUIZ GONZAGA",
+        "addr:street": "Rua Av Calama Distde Terra Caida",
+        "addr:housenumber": "4008",
+        "addr:suburb": "Embratel",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76834-899",
+        "phone": "+55 69 9308-7935",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Ps Eng Luiz Gonzaga",
+        "short_name": "UBS Ps Eng Luiz Gonzaga",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8604784,
+          -8.7318049
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9044310,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "9044310",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PS LAGO DO CUNIA",
+        "addr:street": "Rua Distrito Lago do Cunia",
+        "addr:housenumber": "00001",
+        "addr:suburb": "Baixo Madeira",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76847-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Ps Lago do Cunia",
+        "short_name": "UBS Ps Lago do Cunia",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9039087,
+          -8.7621749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9044345,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "9044345",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PS NOVA ESPERANCA",
+        "addr:street": "Rua Distrito Nova Esperança",
+        "addr:suburb": "Zona Rural",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76834-899",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Ps Nova Esperança",
+        "short_name": "UBS Ps Nova Esperança",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.904016,
+          -8.761878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2808099,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "2808099",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PS PAPAGAIOS",
+        "addr:street": "Rua Papagaios",
+        "addr:suburb": "Baixo Madeira",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76820-739",
+        "phone": "69 32351026 92029237",
+        "email": "pspagaios555@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Ps Papagaios",
+        "short_name": "UBS Ps Papagaios",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9039946,
+          -8.7620689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2369931,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "2369931",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PS SAO JOSE",
+        "addr:street": "Rua Gleba Rio Preto Km 9",
+        "addr:housenumber": "4008",
+        "addr:suburb": "Baixo Madeira Rio Ma",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76834-899",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Ps São Jose",
+        "short_name": "UBS Ps São Jose",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.4688759,
+          -8.5343399
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2808226,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "2808226",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PS SAO MIGUEL",
+        "addr:street": "Rua São Miguel",
+        "addr:housenumber": "4008",
+        "addr:suburb": "São Miguel Baixo Mad",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76834-899",
+        "phone": "69 92998701 92441965",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Ps São Miguel",
+        "short_name": "UBS Ps São Miguel",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.904016,
+          -8.7621961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9044329,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "9044329",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PS TERRA SANTA",
+        "addr:street": "Rua Distrito de Terra Santa",
+        "addr:suburb": "Zona Rural",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76834-899",
+        "phone": "+55 69 9244-1965",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Ps Terra Santa",
+        "short_name": "UBS Ps Terra Santa",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8188076,
+          -8.6642694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2808323,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "2808323",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PS VALE DO JAMARY",
+        "addr:street": "Rua Av Calama Vale do Jamary",
+        "addr:housenumber": "4008",
+        "addr:suburb": "Embratel",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76834-899",
+        "phone": "+55 69 99292-4416",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Ps Vale do Jamary",
+        "short_name": "UBS Ps Vale do Jamary",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9040375,
+          -8.7618992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3604519,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "3604519",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CASA DE DETENCAO DR JOSE MARIO ALVES DA SILVA",
+        "addr:street": "Estrada da Penal",
+        "addr:suburb": "Zona Rural",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76801-974",
+        "phone": "+55 69 3216-5571",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Casa de Detencao Dr Jose Mario Alves da Silva",
+        "short_name": "UBS Casa de Detencao Dr Jose Mario Alves da Silva",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6808379,
+          -8.6368612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2494051,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "2494051",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE AREAL DA FLORESTA PORTO VELHO",
+        "addr:street": "Rua Sepetiba",
+        "addr:housenumber": "100",
+        "addr:suburb": "Areal da Floresta",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76806-320",
+        "phone": "+55 69 3901-3324",
+        "email": "cs.arealdafloresta@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude Areal da Floresta Porto Velho",
+        "short_name": "UBS Centro de Saude Areal da Floresta Porto Velho",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8839182,
+          -8.783477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6670709,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "6670709",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE MANOEL AMORIM DE MATOS",
+        "addr:street": "Rua Angico",
+        "addr:housenumber": "5030",
+        "addr:suburb": "Cohab Floresta",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76808-092",
+        "phone": "+55 69 3901-2805",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude Manoel Amorim de Matos",
+        "short_name": "UBS Centro de Saude Manoel Amorim de Matos",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8809276,
+          -8.7927969
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2806916,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "2806916",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE MAURICIO BUSTANI",
+        "addr:street": "Rua Herbet Deazevedo",
+        "addr:housenumber": "2887",
+        "addr:suburb": "Liberdade",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76803-896",
+        "phone": "69984736062 39012807",
+        "email": "mauricio.bustani@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude Maurício Bustani",
+        "short_name": "UBS Centro de Saude Maurício Bustani",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8877699,
+          -8.7523691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4344316,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "4344316",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "COMISSAO PERMANENTE TOMADA CONTAS ESPECIAL CPTCE",
+        "addr:street": "Rua Av Farquar",
+        "addr:housenumber": "2986",
+        "addr:suburb": "Pedrinhas",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76801-470",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Comissao Permanente Tomada Contas Especial Cptce",
+        "short_name": "UBS Comissao Permanente Tomada Contas Especial Cptce",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9132375,
+          -8.7795167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7289677,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "7289677",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CRIE RONDONIA",
+        "addr:street": "Avenida Jorge Teixeira",
+        "addr:housenumber": "3766",
+        "addr:suburb": "Industrial",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76821-092",
+        "phone": "+55 69 3216-5452",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Crie Rondonia",
+        "short_name": "UBS Crie Rondonia",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8872366,
+          -8.7536667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4573374,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "4573374",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "FUNDACAO ESTADUAL DE ATENDIMENTO SOCIEDUCATIVO FEASE",
+        "addr:street": "Avenida Amazonas",
+        "addr:housenumber": "2375",
+        "addr:suburb": "Nova Porto Velho",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76820-163",
+        "phone": "+55 69 98169-5689",
+        "email": "gab@fease.ro.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Fundacao Estadual de Atendimento Socieducativo Fease",
+        "short_name": "UBS Fundacao Estadual de Atendimento Socieducativo Fease",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8178805,
+          -8.7501349
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 85685,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "85685",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PENITENCIARIA ESTADUAL SUELY MARIA",
+        "addr:street": "Rua Antonio Violao",
+        "addr:housenumber": "4675",
+        "addr:suburb": "Escola de Policia",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76824-749",
+        "phone": "+55 69 3216-5799",
+        "email": "contabilidadesejus@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Penitenciaria Estadual Suely Maria",
+        "short_name": "UBS Penitenciaria Estadual Suely Maria",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9039302,
+          -8.7620689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9975616,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "9975616",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SERVICOS DE PRATICAS INTEGRATIVAS E COMPLEMENTARES EM SAUDE",
+        "addr:street": "Rua Antonio Lourenço Pereira Lima",
+        "addr:housenumber": "2360",
+        "addr:suburb": "Embratel",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76820-788",
+        "phone": "+55 69 99239-4694",
+        "email": "picsportovelho@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Servicos de Praticas Integrativas e Complementares em Saude",
+        "short_name": "UBS Servicos de Praticas Integrativas e Complementares em Saude",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.882333,
+          -8.7514333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2806541,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "2806541",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA ABUNA",
+        "addr:street": "Rua Barao do Rio Branco",
+        "addr:suburb": "Distrito Abuna",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76843-000",
+        "phone": "+55 69 3236-1351",
+        "email": "saudefamiliar.va@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Abuna",
+        "short_name": "UBS Da Familia Abuna",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9013928,
+          -8.7649159
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2806568,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "2806568",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA AGENOR DE CARVALHO PORTO VELHO",
+        "addr:street": "Rua Victo Ferreira Manahiba",
+        "addr:housenumber": "1209",
+        "addr:suburb": "Agenor de Carvalho",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76820-254",
+        "phone": "+55 69 3901-2829",
+        "email": "usfagenordecarvalho@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Agenor de Carvalho Porto Velho",
+        "short_name": "UBS Da Familia Agenor de Carvalho Porto Velho",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8640243,
+          -8.7615652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5695880,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "5695880",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA APONIA",
+        "addr:street": "Rua Andreia",
+        "addr:housenumber": "5383",
+        "addr:suburb": "Aponia",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76824-178",
+        "phone": "+55 69 3901-2901",
+        "email": "usfaponia@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Aponia",
+        "short_name": "UBS Da Familia Aponia",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8563311,
+          -8.7417388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2806576,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "2806576",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA BENJAMIM SILVA",
+        "addr:street": "Rua Calama",
+        "addr:suburb": "Distrito Calama",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76834-899",
+        "phone": "6932351092 32351005",
+        "email": "ubsbenjaminsilva@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Benjamim Silva",
+        "short_name": "UBS Da Familia Benjamim Silva",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.1799912,
+          -8.2392258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2806592,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "2806592",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA CALADINHO",
+        "addr:street": "Rua Tancredo Neves",
+        "addr:housenumber": "4752",
+        "addr:suburb": "Caladinho",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76801-180",
+        "phone": "+55 69 3901-2828",
+        "email": "usfcaladinho@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Caladinho",
+        "short_name": "UBS Da Familia Caladinho",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8776445,
+          -8.8053079
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9577866,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "9577866",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA CASTANHEIRAS",
+        "addr:street": "Rua Pau Ferro",
+        "addr:housenumber": "878",
+        "addr:suburb": "Castanheira",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76811-525",
+        "phone": "+55 69 3227-7042",
+        "email": "usfcastanheira@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Castanheiras",
+        "short_name": "UBS Da Familia Castanheiras",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8682461,
+          -8.7890011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6582915,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "6582915",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA DE ALIANCA",
+        "addr:street": "Estrada da Penal Ao Lado da Esc Chiquilito Erse",
+        "addr:suburb": "Estrada da Penal",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76834-899",
+        "phone": "+55 69 9285-8547",
+        "email": "sirlene_23@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia de Alianca",
+        "short_name": "UBS Da Familia de Alianca",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9039087,
+          -8.7620052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2806649,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "2806649",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA DE EXTREMA",
+        "addr:street": "Rua Extrema Sentido Br 364 Sentido Acre",
+        "addr:suburb": "Distrito Extrema",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76834-899",
+        "phone": "6932531802 32521174",
+        "email": "ubsextrema10@outlook.com.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia de Extrema",
+        "short_name": "UBS Da Familia de Extrema",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9015055,
+          -8.7649106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5822793,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "5822793",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA DE SAO SEBASTIAO",
+        "addr:street": "Rua Castro Alves A0 Lado da Escola Semente do Araca",
+        "addr:housenumber": "5899",
+        "addr:suburb": "São Sebastiao 1",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76810-308",
+        "phone": "+55 69 3901-2816",
+        "email": "saoseb_astiao@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia de São Sebastiao",
+        "short_name": "UBS Da Familia de São Sebastiao",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9082432,
+          -8.7387189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2802716,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "2802716",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA DR RENATO MEDEIROS",
+        "addr:street": "Rua Magno Assolino",
+        "addr:housenumber": "1456",
+        "addr:suburb": "Cidade do Lobo",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76808-344",
+        "phone": "+55 69 3901-2824",
+        "email": "centrodesauderenatomedeiros@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Dr Renato Medeiros",
+        "short_name": "UBS Da Familia Dr Renato Medeiros",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8878047,
+          -8.8056154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2806789,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "2806789",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA ERNANDE C COUTINHO",
+        "addr:street": "Rua Av Mamore Ao Lado das Esc Mae Esperança e Dacy Rib",
+        "addr:housenumber": "5002",
+        "addr:suburb": "Esp da Comunidade",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76824-291",
+        "phone": "+55 69 3901-3266",
+        "email": "usf.ernadescindio@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Ernande C Coutinho",
+        "short_name": "UBS Da Familia Ernande C Coutinho",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8465953,
+          -8.7498745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2806797,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "2806797",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA FORTALEZA DO ABUNA",
+        "addr:street": "Rua Fortaleza do Abuna Br 364 Sentido Acre",
+        "addr:suburb": "Dist Fortaleza do Ab",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76834-899",
+        "phone": "6999735223 32361195",
+        "email": "topmaster660@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Fortaleza do Abuna",
+        "short_name": "UBS Da Familia Fortaleza do Abuna",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9039731,
+          -8.7621325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6670547,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "6670547",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA HAMILTON RAULINO GONDIN",
+        "addr:street": "Rua Jose Amador dos Reis",
+        "addr:housenumber": "3514",
+        "addr:suburb": "Tancredo Neves",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76829-498",
+        "phone": "69 39013219 3902873",
+        "email": "polihamiltongondim@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Hamilton Raulino Gondin",
+        "short_name": "UBS Da Familia Hamilton Raulino Gondin",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8385433,
+          -8.7590892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2806886,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "2806886",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA JACY PARANA",
+        "addr:street": "Rua Sebastiao Gomes Nova Jacy Sentido Acre",
+        "addr:housenumber": "753",
+        "addr:suburb": "Distrito Jacy Paraná",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76820-739",
+        "phone": "6932366449 32366788",
+        "email": "usfjaciparana1@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Jacy Paraná",
+        "short_name": "UBS Da Familia Jacy Paraná",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9038873,
+          -8.7620264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7270860,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "7270860",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA JOANA DARC",
+        "addr:street": "Rua Assentamento Joana Darc Br 319 Vila Franciscana",
+        "addr:suburb": "Zona Rural",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76834-899",
+        "phone": "+55 69 9904-4963",
+        "email": "ubsmorrinhos.pvh@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Joana Darc",
+        "short_name": "UBS Da Familia Joana Darc",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9613724,
+          -8.7568306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6670814,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "6670814",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA JOSE ADELINO DA SILVA",
+        "addr:street": "Rua Orion Ao Lado do Comando de Policia",
+        "addr:housenumber": "56",
+        "addr:suburb": "Ulisses Guimaraes",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76820-739",
+        "phone": "+55 69 3901-2801",
+        "email": "usf.joseadelino@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Jose Adelino da Silva",
+        "short_name": "UBS Da Familia Jose Adelino da Silva",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8022208,
+          -8.7788646
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2806622,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "2806622",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA JOSE GOMES FERREIRA",
+        "addr:street": "Rua Cujubim Grande",
+        "addr:suburb": "Distrito Cujubim Gra",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76834-899",
+        "phone": "6992941578 92098377",
+        "email": "usfcujubimgrande@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Jose Gomes Ferreira",
+        "short_name": "UBS Da Familia Jose Gomes Ferreira",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9790964,
+          -8.7603935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2807424,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "2807424",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA MARIA CAMELO DE OLIVEIRA",
+        "addr:street": "Estrada da Penal Linha 28 Ao Lado da Associacao",
+        "addr:suburb": "Zona Rural",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76834-899",
+        "phone": "6992210436 92435532",
+        "email": "usfmariacamelo@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Maria Camelo de Oliveira",
+        "short_name": "UBS Da Familia Maria Camelo de Oliveira",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.7639618,
+          -8.6533235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2806908,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "2806908",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA MARIA N DA SILVA",
+        "addr:street": "Rua Paulista Baixo Madeira",
+        "addr:housenumber": "70",
+        "addr:suburb": "Distrito Nazare",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76834-899",
+        "phone": "69 32375046 92509195",
+        "email": "ubsmarianobre@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Maria N da Silva",
+        "short_name": "UBS Da Familia Maria N da Silva",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9039946,
+          -8.7618568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6386512,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "6386512",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA MARIANA",
+        "addr:street": "Rua Rosalina Gomes",
+        "addr:housenumber": "9900",
+        "addr:suburb": "Mariana",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76813-574",
+        "phone": "6932142354 39012888",
+        "email": "usfmpvh@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Mariana",
+        "short_name": "UBS Da Familia Mariana",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8207603,
+          -8.7714689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2802961,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "2802961",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA NOVA CALIFORNIA",
+        "addr:street": "Rua Itapora Entre Ruas Guarani e Altaneira",
+        "addr:suburb": "Dist Nova Califonia",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76834-899",
+        "phone": "69 32531008 32531183",
+        "email": "usfnovacalifornia@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Nova California",
+        "short_name": "UBS Da Familia Nova California",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9014626,
+          -8.7649954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2494531,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "2494531",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA NOVA FLORESTA",
+        "addr:street": "Rua João Paulo I Com Campos Sales",
+        "addr:suburb": "Nova Horizonte",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76808-302",
+        "phone": "+55 69 3901-2957",
+        "email": "usf.novafloresta@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Nova Floresta",
+        "short_name": "UBS Da Familia Nova Floresta",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8937163,
+          -8.8014698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2806673,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "2806673",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA NOVA MUTUM",
+        "addr:street": "Rua Av Girau Com Abuna Br 364 Sentido Acre",
+        "addr:suburb": "Dist Mutum Paraná",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76834-899",
+        "phone": "69 32373042 99595186",
+        "email": "usfnovamutumparana@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Nova Mutum",
+        "short_name": "UBS Da Familia Nova Mutum",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9039946,
+          -8.7621113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7928769,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "7928769",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA NOVO ENGENHO VELHO",
+        "addr:street": "Rua Br 319 Sentido Humaita Com São Sebastiao",
+        "addr:suburb": "Dist São Sebastiao",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76834-899",
+        "phone": "6992930727 99047878",
+        "email": "novoengenhovelho@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Novo Engenho Velho",
+        "short_name": "UBS Da Familia Novo Engenho Velho",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9041448,
+          -8.7618356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2493942,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "2493942",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA OSVALDO PIANA",
+        "addr:street": "Rua Av Campos Sales Ao Lado da Escola Pad Chiquinho",
+        "addr:housenumber": "858",
+        "addr:suburb": "Areal",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76804-358",
+        "phone": "+55 69 3901-3636",
+        "email": "andreafreitas_pvh@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Osvaldo Piana",
+        "short_name": "UBS Da Familia Osvaldo Piana",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8987482,
+          -8.7774385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2496577,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "2496577",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA PEDACINHO DE CHAO",
+        "addr:street": "Rua Av Tiradentes Ao Lado Co Comando Geral Pm",
+        "addr:housenumber": "3420",
+        "addr:suburb": "Padacinho de Chao",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76820-882",
+        "phone": "+55 69 3901-2921",
+        "email": "pedchao@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Pedacinho de Chao",
+        "short_name": "UBS Da Familia Pedacinho de Chao",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8829017,
+          -8.7435439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2808153,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "2808153",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA RIO DAS GARCAS",
+        "addr:street": "Rua Rio das Garças Br 364 Km Sentido Acre Estrada Vicinal",
+        "addr:suburb": "Distrito Rio das Gar",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76834-899",
+        "phone": "69999016947 93517797",
+        "email": "usfriodasgracas@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Rio das Garças",
+        "short_name": "UBS Da Familia Rio das Garças",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9039516,
+          -8.7622809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7280408,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "7280408",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA RIO PARDO",
+        "addr:street": "Rua Vila Rio Pardo",
+        "addr:suburb": "Assent Rio Pardo",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76834-899",
+        "phone": "6992074004 99406019",
+        "email": "usfriopardo@outlook.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Rio Pardo",
+        "short_name": "UBS Da Familia Rio Pardo",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9663156,
+          -9.6305867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2494558,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "2494558",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA RONALDO ARAGAO",
+        "addr:street": "Estrada do Belmont",
+        "addr:housenumber": "2044",
+        "addr:suburb": "Nacional",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76802-000",
+        "phone": "+55 69 3901-2832",
+        "email": "usfronaldoaragao@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Ronaldo Aragao",
+        "short_name": "UBS Da Familia Ronaldo Aragao",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9077067,
+          -8.7325472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7287305,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "7287305",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA SANTA RITA",
+        "addr:street": "Rua Reasentamento Santa Rita",
+        "addr:housenumber": "101",
+        "addr:suburb": "Zona Rural",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76834-899",
+        "phone": "69 32210528 32224848",
+        "email": "nona618@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Santa Rita",
+        "short_name": "UBS Da Familia Santa Rita",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9038658,
+          -8.7620052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6246524,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "6246524",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA SANTO ANTONIO",
+        "addr:street": "Estrada Santo Antonio",
+        "addr:housenumber": "61",
+        "addr:suburb": "Triangulo",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76805-900",
+        "phone": "+55 69 3901-3382",
+        "email": "usfsantoantonio10@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Santo Antonio",
+        "short_name": "UBS Da Familia Santo Antonio",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9272322,
+          -8.8040133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2806967,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "2806967",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA SAO CARLOS",
+        "addr:street": "Rua Baixo Madeira",
+        "addr:suburb": "Distrito São Carlos",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76834-899",
+        "phone": "69 32341209 32341061",
+        "email": "usfsaocarlos2806967@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia São Carlos",
+        "short_name": "UBS Da Familia São Carlos",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.4991956,
+          -8.4361951
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5695899,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "5695899",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA SOCIALISTA",
+        "addr:street": "Rua Mane Garrincha Ao Lado da Esc Elenilson Negreiros",
+        "addr:suburb": "Socialista",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76829-230",
+        "phone": "69 39012859 92487295",
+        "email": "ubssocialista@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Socialista",
+        "short_name": "UBS Da Familia Socialista",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.827455,
+          -8.7617083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4930363,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "4930363",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA TRES MARIAS",
+        "addr:street": "Rua Daniela",
+        "addr:housenumber": "1515",
+        "addr:suburb": "Igarape",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76824-329",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Tres Marias",
+        "short_name": "UBS Da Familia Tres Marias",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8500929,
+          -8.7695974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3521532,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "3521532",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA UNIAO BANDEIRANTES",
+        "addr:street": "Rua Av Marildo Cordeiro Com Airton Senna",
+        "addr:housenumber": "101",
+        "addr:suburb": "Dist Uniao Bandeiran",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76834-899",
+        "phone": "6999854079 32368438",
+        "email": "uniaobandeirantespvh@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Uniao Bandeirantes",
+        "short_name": "UBS Da Familia Uniao Bandeirantes",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9041877,
+          -8.7620052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6021999,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "6021999",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA VILA PRINCESA",
+        "addr:street": "Rua Br 364 Sentido Acre Vila Princesa",
+        "addr:suburb": "Vila Princesa",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76816-800",
+        "phone": "69992227883/93223429",
+        "email": "usfvilaprincesa@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Vila Princesa",
+        "short_name": "UBS Da Familia Vila Princesa",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8909912,
+          -8.7765107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2806991,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "2806991",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA VISTA ALEGRE DO ABUNA",
+        "addr:street": "Rua João Leandro Barbosa Com João Bartoloso",
+        "addr:suburb": "Dist Vista Alegre do",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76846-000",
+        "phone": "+55 69 3251-1510",
+        "email": "saudefamiliar.va@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Vista Alegre do Abuna",
+        "short_name": "UBS Da Familia Vista Alegre do Abuna",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9014089,
+          -8.764953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2493918,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "2493918",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POC PORTO VELHO",
+        "addr:street": "Rua Av Governador Jorge Teixeira",
+        "addr:housenumber": "3862",
+        "addr:suburb": "Industrial",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76821-096",
+        "phone": "+55 69 99955-4020",
+        "email": "cnespocro@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.885407,
+          -8.733016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6228968,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "6228968",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HGUPV",
+        "addr:street": "Rua Rui Barbosa",
+        "addr:housenumber": "409",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76801-010",
+        "phone": "+55 69 3218-4800",
+        "email": "diretor@hgupv.eb.mil.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hgupv",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9090498,
+          -8.7625731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2493853,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "2493853",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL CEMETRON",
+        "addr:street": "Rua Av Guapore",
+        "addr:housenumber": "215",
+        "addr:suburb": "Lagoa",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76812-329",
+        "phone": "+55 69 98482-1468",
+        "email": "samecemetron@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Cemetron",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8586979,
+          -8.7718787
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4001303,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "4001303",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL DE BASE PORTO VELHO",
+        "addr:street": "Rua Av Jorge Teixeira",
+        "addr:housenumber": "3766",
+        "addr:suburb": "Industrial",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76821-092",
+        "phone": "+55 69 3216-5724",
+        "email": "faturamento-hbap2@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital de Base Porto Velho",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.89009,
+          -8.7361103
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4086015,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "4086015",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL DE RETAGUARDA DE RONDONIA",
+        "addr:street": "Rua Joaquim Nabuco",
+        "addr:housenumber": "2718",
+        "addr:suburb": "Olaria",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76804-074",
+        "email": "hospitalcampanharodirecao@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital de Retaguarda de Rondonia",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8990593,
+          -8.7574881
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2493888,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "2493888",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL JOAO PAULO II PORTO VELHO",
+        "addr:street": "Avenida Campos Sales",
+        "addr:housenumber": "4295",
+        "addr:suburb": "Floresta",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76807-005",
+        "phone": "+55 69 3216-5492",
+        "email": "fat@psjp.ro.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital João Paulo II Porto Velho",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8957602,
+          -8.7895736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8385025,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "8385025",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL MUNICIPAL UNIVERSITARIO",
+        "addr:street": "Rua João Goulart",
+        "addr:housenumber": "2164",
+        "addr:suburb": "São Cristóvão",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76804-034",
+        "phone": "+55 69 3901-3176",
+        "email": "gabinete.semusa.pvh@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Municipal Universitario",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8937002,
+          -8.7562527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5618347,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "5618347",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL REGIONAL DE EXTREMA",
+        "addr:street": "Rua Abuna",
+        "addr:housenumber": "308",
+        "addr:suburb": "Vila Extrema",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76847-000",
+        "phone": "+55 69 3252-1502",
+        "email": "regional.extrema@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Regional de Extrema",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.902986,
+          -8.7618144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2493896,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "2493896",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL INFANTIL COSME E DAMIAO PORTO VELHO",
+        "addr:street": "Rua Benedito de Souza Brito",
+        "addr:housenumber": "4045",
+        "addr:suburb": "Industrial",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76821-080",
+        "phone": "+55 46 69216-5886",
+        "email": "same.hicd@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Infantil Cosme e Damiao Porto Velho",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.888073,
+          -8.7369798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3970442,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "3970442",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL MATERNIDADE MAE ESPERANCA",
+        "addr:street": "Rua Antonio Lourenço Pereira Lima",
+        "addr:housenumber": "2350",
+        "addr:suburb": "Embratel",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76820-810",
+        "phone": "69 39012838 32252819",
+        "email": "mmmedirecao@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Maternidade Mae Esperança",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8818797,
+          -8.754063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2986655,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "2986655",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "BASE AEREA DE PORTO VELHO BAPV",
+        "addr:street": "Rua Av Lauro Sodre",
+        "addr:suburb": "Aeroporto",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76803-260",
+        "phone": "+55 69 3211-9700",
+        "email": "bapv_scmt@bapv.aer.mil.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Base Aerea de Porto Velho Bapv",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8972971,
+          -8.7047943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8317941,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "8317941",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE CONVIVENCIA E CULTURA EM SAUDE MENTAL",
+        "addr:street": "Avenida Guapore",
+        "addr:housenumber": "3929",
+        "addr:suburb": "Flodoaldo Pontes Pin",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76820-277",
+        "phone": "+55 69 98473-2898",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Convivencia e Cultura em Saude Mental",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8627744,
+          -8.7538669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8137323,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "8137323",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE ACOLHIMENTO CASA DA JUVENTUDE",
+        "addr:street": "Avenida Jose Vieira Caula",
+        "addr:housenumber": "5192",
+        "addr:suburb": "Cunia",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76824-390",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade de Acolhimento Casa da Juventude",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8607842,
+          -8.7530053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2975866,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "2975866",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE ACOLHIMENTO LAR DO BEBE",
+        "addr:street": "Rua Elias Gorayeb",
+        "addr:housenumber": "2501",
+        "addr:suburb": "São Cristóvão",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76801-000",
+        "phone": "+55 69 3211-9700",
+        "email": "lardobebepvh1@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade de Acolhimento Lar do Bebe",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8898057,
+          -8.7500203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3326292,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "3326292",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNID DE SAUDE DR FLORIANO RIVA FILHO",
+        "addr:street": "Estrada de Ferro Cai Nagua",
+        "addr:housenumber": "00001",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76805-892",
+        "email": "esusdabsemusa@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unid de Saude Dr Floriano Riva Filho",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.910346,
+          -8.7650167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7131933,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "7131933",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "AMBULATORIO DE TRANSPLANTE RENAL",
+        "addr:street": "Rua Av Governador Jorge Teixeira",
+        "addr:housenumber": "3766",
+        "addr:suburb": "Setor Industrial",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76821-092",
+        "phone": "+55 69 3216-5747",
+        "email": "gcetro@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Ambulatorio de Transplante Renal",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8932034,
+          -8.7245588
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4904125,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "4904125",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "AMBULATORIO PALACIO RIO MADEIRA",
+        "addr:street": "Rua Farquar",
+        "addr:housenumber": "2986",
+        "addr:suburb": "Pedrinhas",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76801-470",
+        "phone": "+55 69 3216-5211",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Ambulatorio Palacio Rio Madeira",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9130319,
+          -8.7791641
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5496594,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "5496594",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE DIALISE MADEIRA MAMORE CDMM",
+        "addr:street": "Rua Av Governador Jorge Teixeira",
+        "addr:housenumber": "3766",
+        "addr:suburb": "Industrial",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76821-092",
+        "email": "ncof.sesau@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Dialise Madeira Mamore Cdmm",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.892856,
+          -8.7262527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2552914,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "2552914",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ESPECIALIDADES MEDICAS DR ALFREDO SILVA",
+        "addr:street": "Avenida 7 de Setembro Com Rio Madeira",
+        "addr:housenumber": "2010",
+        "addr:suburb": "Nova Porto Velho",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76820-161",
+        "phone": "69 39011376 39013375",
+        "email": "cemsemusa@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Especialidades Medicas Dr Alfredo Silva",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8745332,
+          -8.7588878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7016557,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "7016557",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ESPECIALIDADES MEDICAS DR RAFAEL VAZ E SILVA",
+        "addr:street": "Rua Jacy Paraná",
+        "addr:suburb": "Nossa Sha das Gracas",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76820-788",
+        "phone": "+55 69 3901-3267",
+        "email": "policlinicarvs@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Especialidades Medicas Dr Rafael Vaz e Silva",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8848543,
+          -8.765971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7606699,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "7606699",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE REABILITACAO DO ESTADO DE RONDONIA CERO",
+        "addr:street": "Rua Barao do Amazonas Esq Com Rua Petrolina",
+        "addr:housenumber": "9960",
+        "addr:suburb": "Mariana",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76813-604",
+        "phone": "+55 69 98482-1038",
+        "email": "cerogab.gov.ro@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Centro Especializado em Reabilitação (CER)",
+        "short_name": "CER",
+        "comment": "Reabilitação (CER)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.819411,
+          -8.773741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5460360,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "5460360",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO ESPECIALIZADO EM ODONTOLOGIA",
+        "addr:street": "Rua Av Jorge Teixeira",
+        "addr:housenumber": "3862",
+        "addr:suburb": "Setor Industrial",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76821-096",
+        "phone": "+55 69 3216-2216",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Centro de Especialidades Odontológicas (CEO)",
+        "short_name": "CEO",
+        "comment": "Odontologia (CEO)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.89029,
+          -8.73434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2802708,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "2802708",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO ESPECIALIZADO EM REABILITACAO CER",
+        "addr:street": "Rua Jamary",
+        "addr:housenumber": "1880",
+        "addr:suburb": "Pedrinhas",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76801-314",
+        "phone": "+55 69 3901-2833",
+        "email": "cersemusa@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Centro Especializado em Reabilitação (CER)",
+        "short_name": "CER",
+        "comment": "Reabilitação (CER)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9064193,
+          -8.7478226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5599334,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "5599334",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO MUNICIPAL DE ESPECIALIDADES ODONTOLOGICAS ZONA LESTE1",
+        "addr:street": "Rua Jose Amador dos Reis",
+        "addr:suburb": "Tancredo Neves",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76820-739",
+        "phone": "+55 69 3901-2873",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Centro de Especialidades Odontológicas (CEO)",
+        "short_name": "CEO",
+        "comment": "Odontologia (CEO)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8373846,
+          -8.7625672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5599253,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "5599253",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO MUNICIPAL DE ESPECIALIDADES ODONTOLOGICAS ZONA LESTE2",
+        "addr:street": "Rua Mane Garrincha",
+        "addr:suburb": "Socialista",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76820-739",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Centro de Especialidades Odontológicas (CEO)",
+        "short_name": "CEO",
+        "comment": "Odontologia (CEO)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8273907,
+          -8.7610827
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5599245,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "5599245",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO MUNICIPAL DE ESPECIALIDADES ODONTOLOGICAS ZONA SUL",
+        "addr:street": "Rua Angico C Aroeira",
+        "addr:housenumber": "585",
+        "addr:suburb": "Jardim Eldorado",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76820-739",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Centro de Especialidades Odontológicas (CEO)",
+        "short_name": "CEO",
+        "comment": "Odontologia (CEO)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8810456,
+          -8.7927333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7336551,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "7336551",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CEPEM",
+        "addr:street": "Avenida Guapore",
+        "addr:housenumber": "415",
+        "addr:suburb": "Lagoa",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76812-329",
+        "phone": "+55 69 3216-5442",
+        "email": "cepemsesauro@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Cepem",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8566375,
+          -8.7844418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3431320,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "3431320",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CEREST CENTRO DE REFERENCIA EM SAUDE DO TRABALHADOR",
+        "addr:street": "Rua Av Rafael Vaz e Silva",
+        "addr:housenumber": "3041",
+        "addr:suburb": "Liberdade",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76803-876",
+        "phone": "+55 69 99297-6646",
+        "amenity": "clinic",
+        "healthcare": "occupational_health",
+        "name": "CEREST Macro Centro Sul",
+        "short_name": "CEREST",
+        "comment": "Saúde do Trabalhador (CEREST)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8921009,
+          -8.7481324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4169859,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "4169859",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CEREST PORTO VELHO",
+        "addr:street": "Rua Av Dom Pedro II",
+        "addr:housenumber": "2687",
+        "addr:suburb": "São Cristóvão",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76804-027",
+        "phone": "+55 69 98473-8282",
+        "amenity": "clinic",
+        "healthcare": "occupational_health",
+        "name": "CEREST Macro Centro Sul",
+        "short_name": "CEREST",
+        "comment": "Saúde do Trabalhador (CEREST)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.885498,
+          -8.7439362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4483359,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "4483359",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SERVICO DE ASSISTENCIA MULTIDISCIPLINAR DOMICILIAR",
+        "addr:street": "Rua Aparicio de Moraes",
+        "addr:housenumber": "1067",
+        "addr:suburb": "Setor Industrial",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76821-094",
+        "phone": "+55 69 98482-1337",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Serviço de Assistencia Multidisciplinar Domiciliar",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8900363,
+          -8.7352778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6863868,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "6863868",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SERVICO DE ATENDIMENTO ESPECIALIZADA SAE",
+        "addr:street": "Rua Duque de Caxias",
+        "addr:housenumber": "1960",
+        "addr:suburb": "São Cristóvão",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76804-042",
+        "phone": "+55 69 3901-2970",
+        "email": "saepvhsemusa@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Serviço de Atendimento Especializada Sae",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8948536,
+          -8.7586121
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4905229,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "4905229",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UATTI CASA BEM VIVER SAUDE",
+        "addr:street": "Rua Av Guapore Com Vieira Caula",
+        "addr:housenumber": "3929",
+        "addr:suburb": "Agenor de Carvalho",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76824-396",
+        "phone": "+55 69 3901-2877",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Uatti Casa Bem Viver Saude",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8628709,
+          -8.7536919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 814822,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "814822",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE ALTA COMPLEXIDADE EM ONCOLOGIA UNACON",
+        "addr:street": "Rua Av Governador Jorge Teixeira",
+        "addr:housenumber": "3796",
+        "addr:suburb": "Setor Industrial",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76821-092",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade de Alta Complexidade em Oncologia Unacon",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8982506,
+          -8.7144595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9682279,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "9682279",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE DIAGNOSTICO POR IMAGEM DE RONDONIA",
+        "addr:street": "Avenida Governador Jorge Teixeira",
+        "addr:housenumber": "3776",
+        "addr:suburb": "Setor Industrial",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76821-092",
+        "phone": "+55 69 98482-0983",
+        "email": "sesaucdi@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "diagnostic_centre",
+        "name": "Centro de Diagnóstico por Imagem de Rondonia",
+        "comment": "Diagnóstico por Imagem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8908035,
+          -8.7355642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7935609,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "7935609",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE REFERENCIA DA SAUDE DA CRIANCA",
+        "addr:street": "Rua Jacy Paraná",
+        "addr:suburb": "Nossa Senhora das Gr",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76820-788",
+        "phone": "69 39013267 93013267",
+        "email": "prvc.ro@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "diagnostic_centre",
+        "name": "Centro de Referencia da Saude da Crianca",
+        "comment": "Diagnóstico por Imagem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8904965,
+          -8.767303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3521567,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "3521567",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE REFERENCIA DA SAUDE DA MULHER",
+        "addr:street": "Rua Dom Pedro II",
+        "addr:housenumber": "2687",
+        "addr:suburb": "São Cristóvão",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76804-027",
+        "phone": "6939012955 39017994",
+        "email": "creferenciasdmulher@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "diagnostic_centre",
+        "name": "Centro de Referencia da Saude da Mulher",
+        "comment": "Diagnóstico por Imagem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8871878,
+          -8.7586439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 37494,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "37494",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CREAMI",
+        "addr:street": "Rua Engenheiro Paulo Pinheiro",
+        "addr:housenumber": "3514",
+        "addr:suburb": "Tancredo Neves",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76820-739",
+        "phone": "+55 69 98423-3345",
+        "amenity": "clinic",
+        "healthcare": "diagnostic_centre",
+        "name": "Creami",
+        "comment": "Diagnóstico por Imagem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.837449,
+          -8.7621113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9029168,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "9029168",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "OFICINA ORTOPEDICA MOVEL RONDONIA",
+        "addr:street": "Rua Pio Xii",
+        "addr:housenumber": "2986",
+        "addr:suburb": "Pedrinhas",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76820-470",
+        "email": "yargoalexandre@gmaill.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Oficina Ortopedica Movel Rondonia",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8904926,
+          -8.7463069
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8395365,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "8395365",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "VACIMOVEL DE PORTO VELHO",
+        "addr:street": "Rua Av Campo Sales",
+        "addr:housenumber": "2228",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76801-000",
+        "phone": "+55 69 3901-6127",
+        "email": "imunisasms@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Vacimovel de Porto Velho",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9016691,
+          -8.7649795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8511748,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "8511748",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU MT 01",
+        "addr:street": "Rua Venezuela",
+        "addr:housenumber": "2276",
+        "addr:suburb": "Embratel",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76820-810",
+        "phone": "+55 69 3222-2088",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8815176,
+          -8.7542725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8511993,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "8511993",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU MT 02",
+        "addr:street": "Rua Venezuela",
+        "addr:housenumber": "2276",
+        "addr:suburb": "Embratel",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76820-810",
+        "phone": "+55 69 3222-2088",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8815928,
+          -8.7542433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8512078,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "8512078",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU MT 03",
+        "addr:street": "Rua Venezuela",
+        "addr:housenumber": "2276",
+        "addr:suburb": "Embratel",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76820-810",
+        "phone": "+55 69 3222-2088",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8816732,
+          -8.7541426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8512094,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "8512094",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU MT 04",
+        "addr:street": "Rua Venezuela",
+        "addr:housenumber": "2276",
+        "addr:suburb": "Embratel",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76820-810",
+        "phone": "+55 69 3222-2088",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.881743,
+          -8.7543493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2808439,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "2808439",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU USA UNIDADE DE SUPORTE AVANCADO PORTO VELHO",
+        "addr:street": "Rua Venezuela",
+        "addr:housenumber": "2276",
+        "addr:suburb": "Embratel",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76820-810",
+        "phone": "6932178400 992295694",
+        "email": "192samupvh@gmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192 - Suporte Avançado (USA)",
+        "short_name": "SAMU USA",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8816652,
+          -8.7543626
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6950450,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "6950450",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU USB 1 UNIDADE DE SUPORTE BASICO PORTO VELHO",
+        "addr:street": "Rua Venezuela",
+        "addr:housenumber": "2276",
+        "addr:suburb": "Embratel",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76820-810",
+        "phone": "+55 69 9929-5694",
+        "email": "192samupvh@gmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8817537,
+          -8.7544501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6950469,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "6950469",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU USB 2 UNIDADE DE SUPORTO BASICO PORTO VELHO",
+        "addr:street": "Rua Venezuela",
+        "addr:housenumber": "2276",
+        "addr:suburb": "Embratel",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76820-810",
+        "phone": "+55 69 9229-5694",
+        "email": "192samupvh@gmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8817939,
+          -8.7542407
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6950477,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "6950477",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU USB 3 UNIDADE DE SUPORTE BASICO PORTO VELHO",
+        "addr:street": "Rua Venezuela",
+        "addr:housenumber": "2276",
+        "addr:suburb": "Embratel",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76820-810",
+        "phone": "+55 69 9929-5694",
+        "email": "192samupvh@gmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8816571,
+          -8.754185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6950485,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "6950485",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU USB 4 UNIDADE DE SUPORTE BASICO PORTO VELHO",
+        "addr:street": "Rua Venezuela",
+        "addr:housenumber": "2276",
+        "addr:suburb": "Embratel",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76820-810",
+        "phone": "+55 69 9929-5694",
+        "email": "192samupvh@gmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6938239,
+          -8.7901836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7122128,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "7122128",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU USB 5 UNIDADE DE SUPORTE BASICO PORTO VELHO",
+        "addr:street": "Rua Venezuela",
+        "addr:housenumber": "2276",
+        "addr:suburb": "Embratel",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76820-810",
+        "phone": "6932178400 992295694",
+        "email": "192samupvh@gmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6937963,
+          -8.7901679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7124244,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "7124244",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU USB 6 UNIDADE DE SUPORTE BASICO PORTO VELHO",
+        "addr:street": "Rua Venezuela",
+        "addr:housenumber": "2276",
+        "addr:suburb": "Embratel",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76820-810",
+        "phone": "69 192 99295694",
+        "email": "192samupvh@gamil.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.881236,
+          -8.7542407
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4068351,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "4068351",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU USB 7 UNIDADE DE SUPORTE BASICO JACY PARANA",
+        "addr:street": "Rua Jose Sale",
+        "addr:suburb": "Zona Rural",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76840-000",
+        "phone": "+55 69 98473-4810",
+        "email": "192samupvh2021@gmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.3359375,
+          -9.1997153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7890761,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "7890761",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL DE ABASTECIMENTO FARMACEUTICO CAF SEMUSA",
+        "addr:street": "Rua Monteiro Lobato",
+        "addr:housenumber": "5053",
+        "addr:suburb": "Jardim Eldorado",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76811-776",
+        "phone": "+55 69 98473-5013",
+        "email": "dafpvh@hotmail.com",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "dispensing": "yes",
+        "name": "Central de Abastecimento Farmaceutico CAF Semusa",
+        "comment": "Farmácia Pública"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8715291,
+          -8.7806141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 112003,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "112003",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE INFOMACOES ESTRATEGICAS EM VIGILANCIA EM SAUDE",
+        "addr:street": "Rua Padre Chiquiho",
+        "addr:housenumber": "1060",
+        "addr:suburb": "Pedrinhas",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76801-490",
+        "phone": "069 08006471010",
+        "email": "cievs.semusa.portovelho@gmail.com",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9047456,
+          -8.7480718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5792495,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "5792495",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DIVISAO DE CONTROLE DE VETORES DCV",
+        "addr:street": "Rua Av Mamore",
+        "addr:housenumber": "1120",
+        "addr:suburb": "Cascalheiras",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76820-739",
+        "phone": "+55 69 3901-2878",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8387632,
+          -8.7845055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4455134,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "4455134",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DIVISAO DE CONTROLE DE ZOONOSES DE PORTO VELHO",
+        "addr:street": "Avenida Mamore",
+        "addr:housenumber": "1120",
+        "addr:suburb": "Cascalheiras",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76801-045",
+        "phone": "+55 69 3901-3634",
+        "email": "centrodezoonosespvh@gmail.com",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8382322,
+          -8.7848872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4450434,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "4450434",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DIVISAO DE PESQUISA E DIAGNOSTICO E ZOONOSES E ENTOMOLOGIA",
+        "addr:street": "Rua Av Mamore",
+        "addr:housenumber": "1120",
+        "addr:suburb": "Cascalheira",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76813-000",
+        "phone": "+55 69 3901-2878",
+        "email": "dpdzesemusa@gmail.com",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8395143,
+          -8.7803279
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4477650,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "4477650",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DIVISAO DE VIGILANCIA EPIDEMIOLOGICA DVE",
+        "addr:street": "Rua Av Campos Sales",
+        "addr:housenumber": "2283",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76801-081",
+        "phone": "+55 69 3901-3377",
+        "email": "vigepidemiologicapvhgerencia@gmail.com",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8983469,
+          -8.7788339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2807041,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "2807041",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DIVISAO DE VIGILANCIA LICENCIAMENTO E RISCO SANITARIO DVISA",
+        "addr:street": "Avenida Campos Sales",
+        "addr:housenumber": "2283",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76804-264",
+        "phone": "69 39012906 2836",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9015403,
+          -8.7649689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9547282,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "9547282",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SERVICO DE INSPECAO MUNICIPAL SIM",
+        "addr:street": "Rua Mario Andreazza",
+        "addr:housenumber": "8072",
+        "addr:suburb": "Jk II",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76829-374",
+        "phone": "+55 46 3901-2809",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.837406,
+          -8.773563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6462995,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "6462995",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "LABORATORIO CENTRAL MUNICIPAL LAM",
+        "addr:street": "Rua Venezuela",
+        "addr:housenumber": "2600",
+        "addr:suburb": "Embratel",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76820-810",
+        "phone": "+55 69 3901-6133",
+        "email": "lacen_ro@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Laboratorio Central Municipal Lam",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8823545,
+          -8.7511682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6565433,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "6565433",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "AGEVISA RO",
+        "addr:street": "Rua Farquar",
+        "addr:housenumber": "2986",
+        "addr:suburb": "Pedrinhas",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76801-470",
+        "phone": "+55 69 3216-5351",
+        "email": "agevisaro@gmail.com",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.91094,
+          -8.749271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9757589,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "9757589",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CCI COORDENADORIA DE CONTROLE INTERNO",
+        "addr:street": "Rua Av Farquar Palacio Rio Madeira",
+        "addr:housenumber": "2986",
+        "addr:suburb": "Pedrinhas",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76801-870",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9039516,
+          -8.7621325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 939722,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "939722",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE INFORMACOES ESTRATEGICAS EM VIGILANCIA EM SAUDE CI",
+        "addr:street": "Rua Av Farquar",
+        "addr:housenumber": "2986",
+        "addr:suburb": "Pedrinhas",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76801-470",
+        "phone": "+55 69 3216-5398",
+        "email": "cievsro@gmail.com",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9128965,
+          -8.7431058
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4366328,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "4366328",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CETAS",
+        "addr:street": "Rua Rafael Vaz e Silva",
+        "addr:housenumber": "3047",
+        "addr:suburb": "Liberdade",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76803-876",
+        "phone": "+55 69 3216-7304",
+        "email": "cetas@ibest.com.br",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8963094,
+          -8.7411592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2494892,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "2494892",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CGAF",
+        "addr:street": "Avenida Farquar",
+        "addr:housenumber": "2986",
+        "addr:suburb": "Pedrinhas",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76801-470",
+        "phone": "+55 69 3216-5263",
+        "email": "cgaf.sesau.ro@gmail.com",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9099156,
+          -8.7572653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8156956,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "8156956",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CGAF COORDENADORIA DE GESTAO ADMINISTRATIVA E FINANCEIRA",
+        "addr:street": "Avenida Campos Sales",
+        "addr:housenumber": "2283",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76801-081",
+        "phone": "+55 69 3901-3176",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9012185,
+          -8.7649451
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9742948,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "9742948",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CO COORDENADORIA TECNICA DE OBRAS DA SESAU",
+        "addr:street": "Rua Av Farquar",
+        "addr:housenumber": "2986",
+        "addr:suburb": "Pedrinhas",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76801-470",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9081144,
+          -8.76591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9761683,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "9761683",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CONSELHO ESTADUAL DE SAUDE CES RO",
+        "addr:street": "Rua Elias Gorayeb",
+        "addr:housenumber": "2576",
+        "addr:suburb": "Liberdade",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76803-894",
+        "phone": "+55 69 98415-8235",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8887382,
+          -8.7542221
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8157367,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "8157367",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "COORDENADORIA JURIDICA DE SAUDE",
+        "addr:street": "Rua Campos Sales",
+        "addr:housenumber": "2283",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76801-081",
+        "phone": "+55 69 3901-3176",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9013955,
+          -8.7649451
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9757554,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "9757554",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CORAD COORDENADORIA DE REGIONALIZACAO E APOIO A DESCENTRALIZ",
+        "addr:street": "Rua Av Farquar Palacio Rio Madeira",
+        "addr:housenumber": "2986",
+        "addr:suburb": "Pedrinhas",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76801-470",
+        "phone": "+55 69 3216-7336",
+        "office": "government",
+        "government": "healthcare",
+        "name": "7ª Regional de Saúde de Pato Branco (SESA-PR)",
+        "short_name": "7ª RS SESA",
+        "comment": "Regional de Saúde (Estadual)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9040589,
+          -8.7621113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9757538,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "9757538",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CPOP COORDENADORIA DE PLANEJAMENTO ORCAMENTO E PROJETO",
+        "addr:street": "Rua Av Farquar",
+        "addr:housenumber": "2986",
+        "addr:suburb": "Pedrinhas",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76801-470",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9080868,
+          -8.7658943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9765727,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "9765727",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CRH COORDENADORIA DE RECURSOS HUMANOS",
+        "addr:street": "Rua Av Farquar Palacio Rio Madeira",
+        "addr:housenumber": "2986",
+        "addr:suburb": "Pedrinhas",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76801-470",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9039946,
+          -8.7621537
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9757562,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "9757562",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CTI COORDENADORIA DE TECNOLOGIA DA INFORMACAO",
+        "addr:street": "Rua Av Farquar",
+        "addr:housenumber": "2986",
+        "addr:suburb": "Pedrinhas",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76801-870",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9080501,
+          -8.7657377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8154961,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "8154961",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DAPARTAMENTO DE TRANSITO DEPTRAN",
+        "addr:street": "Rua Campos Sales",
+        "addr:housenumber": "2283",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76801-081",
+        "phone": "+55 69 3901-3176",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9015082,
+          -8.7651996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8148376,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "8148376",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DEPARTAMENTO ADMINISTRATIVO DA",
+        "addr:street": "Rua Campos Sales",
+        "addr:housenumber": "2283",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76801-081",
+        "phone": "+55 69 3901-3176",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9014116,
+          -8.7649186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8148651,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "8148651",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DEPARTAMENTO DE ASSESSRIA TECNICA ASTEC",
+        "addr:street": "Rua Av Campos Sales",
+        "addr:housenumber": "2283",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76801-081",
+        "phone": "+55 69 3901-3176",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9014733,
+          -8.7650962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8148406,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "8148406",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DEPARTAMENTO DE ATENCAO BASICA DAB",
+        "addr:street": "Rua Av Campos Sales",
+        "addr:housenumber": "2283",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76801-081",
+        "phone": "+55 69 3901-3176",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9014491,
+          -8.764786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8161593,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "8161593",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DEPARTAMENTO DE CONTABILIDADE E FINANCAS DCF",
+        "addr:street": "Avenida Campos Sales",
+        "addr:housenumber": "2283",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76801-081",
+        "phone": "+55 69 3901-3176",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9014304,
+          -8.7649398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8138044,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "8138044",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DEPARTAMENTO DE GESTAO DE PESSOAS DGP",
+        "addr:street": "Avenida Campos Sales",
+        "addr:housenumber": "2283",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76801-081",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9015752,
+          -8.764961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8146055,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "8146055",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DEPARTAMENTO DE MEDIA E ALTA COMPLEXIDADE DMAC",
+        "addr:street": "Rua Av Campos Sales",
+        "addr:housenumber": "2283",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76801-081",
+        "phone": "+55 69 3901-3176",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9016664,
+          -8.7649371
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8173834,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "8173834",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DEPARTAMENTO DE PLANEJAMENTO E GESTAO DPG",
+        "addr:street": "Rua Av Camposa Sales",
+        "addr:housenumber": "2283",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76801-081",
+        "phone": "+55 69 3901-3176",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9016476,
+          -8.7649451
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8146225,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "8146225",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DEPARTAMENTO DE REGULACAO AVALIACAO E CONTROLE DRAC",
+        "addr:street": "Rua Av Campos Sales",
+        "addr:housenumber": "2283",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76801-081",
+        "phone": "+55 69 3901-3176",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.901771,
+          -8.7650697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8159726,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "8159726",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DIVISAO DE CONVENIOS E CONTRATOS DICON",
+        "addr:street": "Avenida Campos Sales",
+        "addr:housenumber": "2283",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76801-081",
+        "phone": "+55 69 3901-3176",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9015967,
+          -8.765022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9757597,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "9757597",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "GAT GERENCIA DE ABASTECIMENTO E TRANSPORTE",
+        "addr:street": "Rua Av Farquar",
+        "addr:housenumber": "2986",
+        "addr:suburb": "Pedrinhas",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76801-470",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9080868,
+          -8.7659257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9718923,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "9718923",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "GECOMP GERENCIA DE COMPRAS",
+        "addr:street": "Rua Av Farquar",
+        "addr:housenumber": "2986",
+        "addr:suburb": "Pedrinhas",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76801-470",
+        "phone": "+55 46 3216-7203",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9081144,
+          -8.7659414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9757546,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "9757546",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "GPES GERENCIA DE PROGRAMAS ESTRATEGICOS DE SAUDE",
+        "addr:street": "Rua Av Farquar",
+        "addr:housenumber": "2986",
+        "addr:suburb": "Pedrinhas",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76801-470",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9080501,
+          -8.7659498
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7585225,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "7585225",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "RO SEC DE EST DA SAUDE GABINETE DO SECRETARIO",
+        "addr:street": "Rua Av Farquar Palacio Rio Madeira",
+        "addr:housenumber": "2986",
+        "addr:suburb": "Pedrinhas",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76801-470",
+        "phone": "69 3216 5263/5209",
+        "email": "contabilidadesesauro@gmail.com",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.910644,
+          -8.75041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6482732,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "6482732",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SECRETARIA MUNICIPAL DE SAUDE",
+        "addr:street": "Avenida Campos Sales",
+        "addr:housenumber": "2283",
+        "addr:suburb": "Areal",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76804-358",
+        "phone": "+55 69 3901-1367",
+        "email": "dac_semusa_pvh@hotmail.com",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.901484,
+          -8.7648894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4432843,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "4432843",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "VI GERENCIA REGIONAL DE SAUDE DE PORTO VELHO GRS6",
+        "addr:street": "Rua Pio Xii",
+        "addr:suburb": "Pedrinhas",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76801-470",
+        "office": "government",
+        "government": "healthcare",
+        "name": "7ª Regional de Saúde de Pato Branco (SESA-PR)",
+        "short_name": "7ª RS SESA",
+        "comment": "Regional de Saúde (Estadual)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8968316,
+          -8.7476724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 199184,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "199184",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "AGENCIA TRANSFUSIONAL DE EXTREMA",
+        "addr:street": "Rua Abuna",
+        "addr:housenumber": "308",
+        "addr:suburb": "Vila Extrema",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76847-000",
+        "phone": "+55 69 3252-1502",
+        "amenity": "blood_donation",
+        "healthcare": "blood_donation",
+        "name": "Hemonúcleo de Pato Branco (HEMEPAR)",
+        "short_name": "Hemepar Pato Branco",
+        "comment": "Doação de Sangue (HEMEPAR)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9115798,
+          -8.7553461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 198625,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "198625",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "AGENCIA TRANSFUSIONAL DO HEMOCENTRO COORDENADOR",
+        "addr:street": "Rua Av Governador Jorge Teixeira",
+        "addr:suburb": "Industrial",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76821-092",
+        "phone": "+55 69 3216-5489",
+        "amenity": "blood_donation",
+        "healthcare": "blood_donation",
+        "name": "Hemonúcleo de Pato Branco (HEMEPAR)",
+        "short_name": "Hemepar Pato Branco",
+        "comment": "Doação de Sangue (HEMEPAR)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8901624,
+          -8.7374729
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 213853,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "213853",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "AGENCIA TRANSFUSIONAL DO HOSPITAL DE BASE",
+        "addr:street": "Rua Av Governador Jorge Teixeira",
+        "addr:housenumber": "3766",
+        "addr:suburb": "Industrial",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76821-092",
+        "phone": "+55 69 3216-2243",
+        "amenity": "blood_donation",
+        "healthcare": "blood_donation",
+        "name": "Hemonúcleo de Pato Branco (HEMEPAR)",
+        "short_name": "Hemepar Pato Branco",
+        "comment": "Doação de Sangue (HEMEPAR)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8901597,
+          -8.7369321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 213861,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "213861",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "AGENCIA TRANSFUSIONAL DO HPS JOAO PAULO II",
+        "addr:street": "Rua Av Campos Sales",
+        "addr:housenumber": "4295",
+        "addr:suburb": "Nova Floresta",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76807-005",
+        "phone": "+55 69 3216-5418",
+        "amenity": "blood_donation",
+        "healthcare": "blood_donation",
+        "name": "Hemonúcleo de Pato Branco (HEMEPAR)",
+        "short_name": "Hemepar Pato Branco",
+        "comment": "Doação de Sangue (HEMEPAR)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8949823,
+          -8.7932846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4001338,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "4001338",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "FUNDACAO HEMERON",
+        "addr:street": "Rua Av Governador Jorge Teixeira",
+        "addr:suburb": "Industrial",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76821-092",
+        "phone": "+55 69 99387-2804",
+        "amenity": "blood_donation",
+        "healthcare": "blood_donation",
+        "name": "Hemonúcleo de Pato Branco (HEMEPAR)",
+        "short_name": "Hemepar Pato Branco",
+        "comment": "Doação de Sangue (HEMEPAR)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8903823,
+          -8.7375366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6365469,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "6365469",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CAPS AD",
+        "addr:street": "Rua Av Guapore Com Vieira Caula",
+        "addr:housenumber": "3929",
+        "addr:suburb": "Agenor de Carvalho",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76824-396",
+        "phone": "+55 69 3901-2877",
+        "email": "capsadpvh@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8628817,
+          -8.7536389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2806495,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "2806495",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CAPS DO MUNICIPIO DE PORTO VELHO TRES MARIAS",
+        "addr:street": "Rua Dom Pedroii",
+        "addr:housenumber": "2687",
+        "addr:suburb": "São Cristóvão",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76804-027",
+        "phone": "+55 69 3901-2815",
+        "email": "capsii3marias@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8751508,
+          -8.7664701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3431290,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "3431290",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CAPS II ESTADUAL MADEIRA MAMORE",
+        "addr:street": "Rua Elias Gorayeb",
+        "addr:housenumber": "2576",
+        "addr:suburb": "São Cristóvão",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76803-894",
+        "phone": "+55 69 99954-9485",
+        "email": "caps.mm@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8896179,
+          -8.7500442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7089937,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "7089937",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CAPS INFANTO JUVENIL",
+        "addr:street": "Rua Av Dom Pedro II",
+        "addr:housenumber": "2687",
+        "addr:suburb": "São Cristóvão",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76804-027",
+        "phone": "+55 69 98473-6436",
+        "email": "capsipvh@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial Infanto-Juvenil (CAPSi)",
+        "short_name": "CAPSi",
+        "comment": "CAPSi (Infanto-Juvenil)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9038658,
+          -8.7625142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7260792,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "7260792",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CASA DE APOIO A SAUDE INDIGENA CASAI PORTO VELHO",
+        "addr:street": "Rua Andrea",
+        "addr:housenumber": "4197",
+        "addr:suburb": "Igarape",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76824-324",
+        "phone": "+55 69 3216-6100",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Casa de Apoio A Saude Indigena Casai Porto Velho",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8467723,
+          -8.7497704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6960294,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "6960294",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DSEI PORTO VELHO",
+        "addr:street": "Rua Av Rafael Vaz e Silva",
+        "addr:housenumber": "2646",
+        "addr:suburb": "Liberdade",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76804-444",
+        "phone": "+55 46 69201-8101",
+        "email": "dseipvh.sesai@saude.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Dsei Porto Velho",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.890569,
+          -8.751616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7532962,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "7532962",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POLO BASE DE EXTREMA",
+        "addr:street": "Rua da Amizade",
+        "addr:housenumber": "1181",
+        "addr:suburb": "Distrito Extrema",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76847-000",
+        "phone": "+55 69 3252-2113",
+        "email": "polobasedeextrema@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Polo Base de Extrema",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.984375,
+          -8.667918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7633238,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "7633238",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POLO BASE PORTO VELHO",
+        "addr:street": "Rua Andreia",
+        "addr:housenumber": "4197",
+        "addr:suburb": "Igarape",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76824-324",
+        "phone": "+55 69 3227-0565",
+        "email": "dsei.pvh@saude.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Polo Base Porto Velho",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8544381,
+          -8.7508819
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7899122,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "7899122",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POSTO DE SAUDE INDIGENA ALDEIA KARIPUNA",
+        "addr:street": "Rua Aldeia Karipuna",
+        "addr:housenumber": "00001",
+        "addr:suburb": "Zona Rural",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76848-000",
+        "phone": "+55 69 3216-6100",
+        "email": "dsei.pvh@saude.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Posto de Saude Indigena Aldeia Karipuna",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9039731,
+          -8.7620689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7892705,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "7892705",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POSTO DE SAUDE INDIGENA ALDEIA KARITIANA",
+        "addr:street": "Rua Aldeia Karitiana Central II",
+        "addr:housenumber": "0001",
+        "addr:suburb": "Zona Rural",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76848-000",
+        "phone": "+55 69 3216-6100",
+        "email": "dsei.pvh@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Posto de Saude Indigena Aldeia Karitiana",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9040804,
+          -8.761878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8165890,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "8165890",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE INDIGENA BARRINHA",
+        "addr:street": "Rua Aldeia Barrinha",
+        "addr:suburb": "Extrema",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76834-899",
+        "phone": "+55 68 99972-8546",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saude Indigena Barrinha",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.890841,
+          -8.7516241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8374554,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "8374554",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE INDIGENA BEIJARANA",
+        "addr:street": "Rua Andreia",
+        "addr:housenumber": "4197",
+        "addr:suburb": "Igarape",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76824-324",
+        "phone": "+55 69 3227-0565",
+        "email": "dsei.pvh@saude.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saude Indigena Beijarana",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8545239,
+          -8.7510409
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8166056,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "8166056",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE INDIGENA MARMELINHO",
+        "addr:street": "Rua Extrema",
+        "addr:suburb": "Extrema",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76834-899",
+        "phone": "+55 68 9972-8546",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saude Indigena Marmelinho",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.890841,
+          -8.7516772
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8165645,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "8165645",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE INDIGENA PAXIUBA",
+        "addr:street": "Rua Aldeia Paxiuba",
+        "addr:suburb": "Extrema",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76834-899",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saude Indigena Paxiuba",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8909188,
+          -8.751656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4844661,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "4844661",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE INDIGENA PEDREIRA",
+        "addr:street": "Rua Aldeia Pedreira",
+        "addr:housenumber": "00",
+        "addr:suburb": "Zona Rural",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76847-000",
+        "email": "polobaseextrema2023@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saude Indigena Pedreira",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9013928,
+          -8.7649954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4001028,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "4001028",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PRONTO ATENDIMENTO ANA ADELAIDE",
+        "addr:street": "Rua Padre Chiquinho",
+        "addr:housenumber": "1060",
+        "addr:suburb": "Pedrinhas",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76801-490",
+        "phone": "69 39013268 39012961",
+        "email": "polanaadelaide@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Pronto Atendimento Ana Adelaide",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9060009,
+          -8.7480771
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2494078,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "2494078",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PRONTO ATENDIMENTO JOSE ADELINO DA SILVA",
+        "addr:street": "Rua Colatina",
+        "addr:housenumber": "2031",
+        "addr:suburb": "Marcos Freire",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76814-118",
+        "phone": "+55 69 3901-2801",
+        "email": "pajoseadelino@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Pronto Atendimento Jose Adelino da Silva",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.831445,
+          -8.7688917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4954017,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "4954017",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SALA DE ESTABILIZACAO DE UNIAO BANDEIRANTES",
+        "addr:street": "Rua Av Marildo Cordeiro Com Airton Senna",
+        "addr:housenumber": "101",
+        "addr:suburb": "Dist Uniao Bandeiran",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76834-899",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Sala de Estabilizacao de Uniao Bandeirantes",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.5312452,
+          -9.7072804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8291462,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "8291462",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SALA DE ESTABILIZACAO DE VISTA ALEGRE DO ABUNA",
+        "addr:street": "Rua João Leandro Barbosa",
+        "addr:suburb": "Vista Alegre do Abun",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76840-000",
+        "phone": "+55 69 3251-1510",
+        "email": "dmac.semusa@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Sala de Estabilizacao de Vista Alegre do Abuna",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9016905,
+          -8.7649557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9743081,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "9743081",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UPA JACY PARANA",
+        "addr:street": "Rua Jose Saleh",
+        "addr:suburb": "Zona Rural",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76840-000",
+        "phone": "69 32366849 96008784",
+        "email": "prontoatendimentojaci@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "emergency": "yes",
+        "opening_hours": "24/7",
+        "name": "UPA 24 Horas Maria Itália Freddo",
+        "short_name": "UPA 24h",
+        "comment": "UPA 24h"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.4030035,
+          -9.2507382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2496461,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "2496461",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UPA ZONA LESTE",
+        "addr:street": "Rua Av Mamore Com Rio de Janeiro",
+        "addr:housenumber": "3585",
+        "addr:suburb": "Tancredo Neves",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76829-462",
+        "phone": "69 39013349 99365725",
+        "email": "upazonaleste@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "emergency": "yes",
+        "opening_hours": "24/7",
+        "name": "UPA 24 Horas Maria Itália Freddo",
+        "short_name": "UPA 24h",
+        "comment": "UPA 24h"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8440418,
+          -8.763108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2680017,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "2680017",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UPA ZONA SUL",
+        "addr:street": "Rua Urtiga Vermelha Com Jatuarana",
+        "addr:housenumber": "5407",
+        "addr:suburb": "Cohab Floresta",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76807-520",
+        "phone": "+55 69 3901-6428",
+        "email": "upazonasulpvh@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "emergency": "yes",
+        "opening_hours": "24/7",
+        "name": "UPA 24 Horas Maria Itália Freddo",
+        "short_name": "UPA 24h",
+        "comment": "UPA 24h"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8780308,
+          -8.7876015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6944655,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "6944655",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU CENTRAL DE REGULACAO MEDICAS DAS URGENCIA DE P VELHO",
+        "addr:street": "Rua Antonio Lourenço Pereira Lima",
+        "addr:housenumber": "2276",
+        "addr:suburb": "Embratel",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76820-810",
+        "phone": "192",
+        "email": "192samupvh@gmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Central de Regulação Médica das Urgências (SAMU 192)",
+        "short_name": "Regulação SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8816786,
+          -8.7541797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8241678,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "8241678",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DIL DIVISAO DE LABORATORIO",
+        "addr:street": "Rua Venezuela",
+        "addr:housenumber": "2600",
+        "addr:suburb": "Embratel",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76820-810",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Dil Divisao de Laboratorio",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8820863,
+          -8.7521543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9913173,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "9913173",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "FUNDACAO OSWALDO CRUZ NOROESTE",
+        "addr:street": "Rua da Beira",
+        "addr:housenumber": "7671",
+        "addr:suburb": "Lagoa",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76812-245",
+        "phone": "+55 69 3219-6010",
+        "email": "cleo@ipepatro.org.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Fundacao Oswaldo Cruz Noroeste",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8595128,
+          -8.7843146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2496860,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "2496860",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "LABORATORIO CENTRAL PORTO VELHO LACEN",
+        "addr:street": "Rua Anita Garibaldi Clibero Badaro",
+        "addr:housenumber": "4130",
+        "addr:suburb": "Costa e Silva",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76803-620",
+        "phone": "+55 69 3216-5305",
+        "email": "lacenrondonia@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Laboratorio Central Porto Velho LACEN",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.904,
+          -8.762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7919131,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "7919131",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "LABORATORIO ESTADUAL DE PATOLOGIA E ANALISES CLINICAS LEPAC",
+        "addr:street": "Avenida Governador Jorge Teixeira",
+        "addr:housenumber": "3862",
+        "addr:suburb": "Industrial",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76821-096",
+        "phone": "+55 69 3216-2218",
+        "email": "lepac.ro@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Laboratorio Estadual de Patologia e Analises Clinicas Lepac",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8894486,
+          -8.7345887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38105,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "38105",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "LABORATORIO MUNICIPAL DE CITOLOGIA",
+        "addr:street": "Rua Antonio Lourenço Lima",
+        "addr:housenumber": "2360",
+        "addr:suburb": "Embratel",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76820-810",
+        "phone": "+55 46 3901-2955",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Laboratorio Municipal de Citologia",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8821721,
+          -8.7520165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7120540,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "7120540",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL ESTADUAL DE REGULACAO DE RONDONIA",
+        "addr:street": "Rua Av Farquar Edificio Rio Machado",
+        "addr:housenumber": "2986",
+        "addr:suburb": "Perdrinhas",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76801-470",
+        "phone": "+55 69 3216-2252",
+        "email": "regulacaosesau.ro@gmail.com",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Sistema Municipal de Auditoria e Regulação em Saúde",
+        "comment": "Auditoria e Regulação"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8314174,
+          -8.768876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6060048,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "6060048",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL MUNICIPAL DE REGULACAO DO ACESSO",
+        "addr:street": "Rua Av Campos Sales",
+        "addr:housenumber": "2382",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76801-086",
+        "phone": "+55 69 3901-1367",
+        "email": "drac.semusa.ro@gmail.com",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Sistema Municipal de Auditoria e Regulação em Saúde",
+        "comment": "Auditoria e Regulação"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9012909,
+          -8.7652287
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2808412,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "2808412",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE AUTORIZADORA DE TRATAMENTO FORA DOMICILIO",
+        "addr:street": "Rua Pio Xii Complexo Rio Madeira Ed Rio Machado",
+        "addr:housenumber": "2986",
+        "addr:suburb": "Pedrinhas",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76801-480",
+        "phone": "+55 69 3216-5380",
+        "email": "tfdportovelho@gmail.com",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Sistema Municipal de Auditoria e Regulação em Saúde",
+        "comment": "Auditoria e Regulação"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9039724,
+          -8.7619843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7970943,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "7970943",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL DE TRANSPLANTE DE RONDONIA",
+        "addr:street": "Rua Rafael Vaz e Silva",
+        "addr:housenumber": "3041",
+        "addr:suburb": "Liberdade",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76810-620",
+        "email": "gcetro@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Central de Transplante de Rondonia",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9040804,
+          -8.7621113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9765743,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "9765743",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "GAD GERENCIA ADMINISTRATIVA",
+        "addr:street": "Rua Av Farquar Palacio Rio Madeira",
+        "addr:housenumber": "2986",
+        "addr:suburb": "Pedrinhas",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76801-470",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Gad Gerencia Administrativa",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8314174,
+          -8.7689074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7056087,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "7056087",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CASA DE APOIO DO MUNICIPIO DE VILHENA",
+        "addr:street": "Rua Tales Benevides",
+        "addr:housenumber": "5434",
+        "addr:suburb": "Rio Madeira",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76821-348",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Casa de Apoio do Municipio de Vilhena",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8742837,
+          -8.7375313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 213241,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "213241",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL DE REDE DE FRIO PORTO VELHO",
+        "addr:street": "Rua Monteiro Lobato",
+        "addr:housenumber": "5350",
+        "addr:suburb": "Eldorado",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76811-776",
+        "email": "semusavacina@gmail.com",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Central de Rede de Frio Porto Velho",
+        "comment": "Suprimentos / Logística"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8686752,
+          -8.7846539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 213950,
+      "properties": {
+        "operator": "Prefeitura Municipal de Porto Velho",
+        "operator:type": "public",
+        "ref:CNES": "213950",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL ESTADUAL DE REDE DE FRIO DE RONDONIA",
+        "addr:street": "Rua Aparicio de Morais",
+        "addr:housenumber": "4429",
+        "addr:suburb": "Industrial",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76821-240",
+        "phone": "+55 69 3225-2560",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Central Estadual de Rede de Frio de Rondonia",
+        "comment": "Suprimentos / Logística"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9039241,
+          -8.7622652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9728244,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "9728244",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "COORDENADORIA DA GESTAO DE PRODUTOS MEDICOS CGPM",
+        "addr:street": "Rua Santa Barbara",
+        "addr:housenumber": "4710",
+        "addr:suburb": "Setor Industrial",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76821-220",
+        "phone": "+55 46 3216-5759",
+        "email": "cafii.requisicao@gmail.com",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Coordenadoria da Gestao de Produtos Medicos Cgpm",
+        "comment": "Suprimentos / Logística"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8815811,
+          -8.7346367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8068755,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "8068755",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "COORDENADORIA DE SAUDE DA POLICIA MILITAR DE RONDONIA",
+        "addr:street": "Avenida Sete de Setembro",
+        "addr:housenumber": "4412",
+        "addr:suburb": "Agenor de Carvalho",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76820-322",
+        "email": "csaudeadm@gmail.com",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Coordenadoria de Saude da Policia Militar de Rondonia",
+        "comment": "Suprimentos / Logística"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.89594,
+          -8.7632449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9757619,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "9757619",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CRECSS COORD DE REGULACAO E CONTROLE DOS SERVICOS DE SAUDE",
+        "addr:street": "Rua Av Farquar",
+        "addr:housenumber": "2986",
+        "addr:suburb": "Pedrinhas",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76801-470",
+        "phone": "+55 46 3216-7303",
+        "email": "coordenacao.crecss@sesau.ro.gov.br",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Crecss Coord de Regulacao e Controle dos Servicos de Saude",
+        "comment": "Suprimentos / Logística"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9117461,
+          -8.7487918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8068763,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "8068763",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DIRETORIA DE SAUDE DA POLICIA MILITAR DE RONDONIA",
+        "addr:street": "Avenida Sete de Setembro",
+        "addr:housenumber": "4412",
+        "addr:suburb": "Agenor de Carvalho",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76820-322",
+        "email": "dir.saude@pm.ro.gov.br",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Diretoria de Saude da Policia Militar de Rondonia",
+        "comment": "Suprimentos / Logística"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8960364,
+          -8.7632637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8068771,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "8068771",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DIRETORIA DE SERVICO SOCIAL DISS",
+        "addr:street": "Avenida Sete de Sembro",
+        "addr:housenumber": "4412",
+        "addr:suburb": "Agenor de Carvalho",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76820-322",
+        "email": "cs.diss.adm@pm.ro.gov.br",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Diretoria de Serviço Social Diss",
+        "comment": "Suprimentos / Logística"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8314891,
+          -8.7690248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4851013,
+      "properties": {
+        "operator": "Governo do Estado (RO)",
+        "operator:type": "public",
+        "ref:CNES": "4851013",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SEAS",
+        "addr:street": "Avenida Farquar",
+        "addr:housenumber": "2986",
+        "addr:suburb": "Pedrinhas",
+        "addr:city": "Porto Velho",
+        "addr:state": "RO",
+        "addr:country": "BR",
+        "addr:postcode": "76801-470",
+        "phone": "+55 69 98491-4478",
+        "email": "seasrondonia@gmail.com",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Seas",
+        "comment": "Suprimentos / Logística"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9098881,
+          -8.7572496
+        ]
+      }
+    }
+  ]
+}

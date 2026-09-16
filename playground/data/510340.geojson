@@ -1,0 +1,5138 @@
+{
+  "type": "FeatureCollection",
+  "name": "Estabelecimentos Públicos de Saúde - DEMAS / CNES",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 3520609,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "3520609",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "AMBULATORIO CENTRAL DA POLICIA MILITAR",
+        "addr:street": "Rua Av Helio Ribeiro",
+        "addr:housenumber": "1400",
+        "addr:suburb": "Paiaguas Ao Lado do",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78048-250",
+        "phone": "+55 46 65621-7573",
+        "email": "dsaude@pm.mt.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Ambulatorio Central da Policia Militar",
+        "short_name": "UBS Ambulatorio Central da Policia Militar",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.099433,
+          -15.581482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8002495,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "8002495",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE CONV P IDOSOS DR MARIA INES FRANCA AUAD",
+        "addr:street": "Rua Av Curio",
+        "addr:housenumber": "250",
+        "addr:suburb": "Cpa III",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78058-300",
+        "phone": "+55 65 3646-0022",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Conv P Idosos Dr Maria Ines Franca Auad",
+        "short_name": "UBS Centro de Conv P Idosos Dr Maria Ines Franca Auad",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0382706,
+          -15.5660236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2793768,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2793768",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE CONV PARA IDOSOS PADRE FIRMO DUARTE",
+        "addr:street": "Rua Av Beira Rio",
+        "addr:housenumber": "5100",
+        "addr:suburb": "Dom Aquino",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78015-000",
+        "phone": "+55 65 3616-6737",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Conv para Idosos Padre Firmo Duarte",
+        "short_name": "UBS Centro de Conv para Idosos Padre Firmo Duarte",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.1018752,
+          -15.6142679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5043131,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "5043131",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE CONVIVENCIA IDOSOS AIDEE PEREIRA DO NASCIMENTO",
+        "addr:street": "Rua Flamengo",
+        "addr:suburb": "Novo Horizonte",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78058-673",
+        "phone": "+55 65 3646-9299",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Convivencia Idosos Aidee Pereira do Nascimento",
+        "short_name": "UBS Centro de Convivencia Idosos Aidee Pereira do Nascimento",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0339128,
+          -15.5771686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3897265,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "3897265",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO SOCIO EDUCATIVO POMERI",
+        "addr:street": "Avenida dos Trabalhadores",
+        "addr:suburb": "Carumbe",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78050-700",
+        "phone": "+55 65 3648-3225",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro Socio Educativo Pomeri",
+        "short_name": "UBS Centro Socio Educativo Pomeri",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.043427,
+          -15.5813101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6420125,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "6420125",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CIAPS ADAUTO BOTELHO UNIDADE II",
+        "addr:street": "Rua Br 364 Km 12",
+        "addr:suburb": "Pascoal Ramos",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78098-280",
+        "phone": "+55 65 3667-0337",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Ciaps Adauto Botelho Unidade II",
+        "short_name": "UBS Ciaps Adauto Botelho Unidade II",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.9600639,
+          -15.6638666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9016643,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "9016643",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CLINICA DA FAMILIA CPA I",
+        "addr:street": "Rua Obidos",
+        "addr:housenumber": "292",
+        "addr:suburb": "Cpa I",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78055-205",
+        "phone": "+55 65 3617-1617",
+        "email": "clinicafamilia.saude@cuiaba.mt.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Clinica da Familia Cpa I",
+        "short_name": "UBS Clinica da Familia Cpa I",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0535071,
+          -15.5547016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 460877,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "460877",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CONSULTORIO NA RUA LUZ",
+        "addr:street": "Rua Av Carmindo de Campos",
+        "addr:suburb": "Dom Aquino",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78060-000",
+        "phone": "+55 65 99213-3772",
+        "email": "veralucia@cuiaba.mt.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Consultorio Na Rua Luz",
+        "short_name": "UBS Consultorio Na Rua Luz",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0985462,
+          -15.6135847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9323813,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "9323813",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CONSULTORIO NA RUA NOVO AMANHECER",
+        "addr:street": "Rua Av Carmindo de Campos",
+        "addr:suburb": "Dom Aquino",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78060-000",
+        "phone": "+55 65 99237-9769",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Consultorio Na Rua Novo Amanhecer",
+        "short_name": "UBS Consultorio Na Rua Novo Amanhecer",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0985478,
+          -15.6135877
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3148319,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "3148319",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PENITENCIARIA CENTRAL DO ESTADO",
+        "addr:street": "Rua Alameda B",
+        "addr:housenumber": "400",
+        "addr:suburb": "Jardim Industriario",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78098-698",
+        "phone": "+55 65 0667-0665",
+        "email": "saude_penitenciario@justica.mt.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Penitenciaria Central do Estado",
+        "short_name": "UBS Penitenciaria Central do Estado",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.9839249,
+          -15.6518004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3269272,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "3269272",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PENITENCIARIA FEMININA ANA MARIA DO COUTO MAY",
+        "addr:street": "Rua Br 364",
+        "addr:suburb": "Jardim Industriario",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78005-500",
+        "phone": "+55 65 0667-3154",
+        "email": "saude_penitenciario@justica.mt.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Penitenciaria Feminina Ana Maria do Couto May",
+        "short_name": "UBS Penitenciaria Feminina Ana Maria do Couto May",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.9806418,
+          -15.6554058
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5184223,
+      "properties": {
+        "operator": "Governo do Estado (MT)",
+        "operator:type": "public",
+        "ref:CNES": "5184223",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SERVICO DE VERIFICACAO DE OBITO SVO SES MT",
+        "addr:street": "Rua Luiz Philipe Pereira Leite",
+        "addr:suburb": "Alvorada",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78048-602",
+        "email": "svo@ses.mt.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Serviço de Verificacao de Obito Svo Ses Mt",
+        "short_name": "UBS Serviço de Verificacao de Obito Svo Ses Mt",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.073252,
+          -15.569989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3529401,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "3529401",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE AMBULATORIAL SALGADEIRA",
+        "addr:street": "Rodovia Emanuel Pinheiro",
+        "addr:housenumber": "100",
+        "addr:suburb": "Estrada da Chapada",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78048-000",
+        "phone": "+55 46 65617-1432",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Ambulatorial Salgadeira",
+        "short_name": "UBS Unidade Ambulatorial Salgadeira",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.8299377,
+          -15.3577063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4817257,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "4817257",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE CAPAO",
+        "addr:street": "Rua Alameda B",
+        "addr:suburb": "Jardim Industriario",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78098-678",
+        "email": "cpvarzeagrande@sesp.mt.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Capao",
+        "short_name": "UBS Unidade Capao",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.9841824,
+          -15.6509326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3009289,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "3009289",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF 1 DE MARCO",
+        "addr:street": "Rua Av Principal",
+        "addr:suburb": "1 de Marco",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78058-000",
+        "phone": "+55 65 3649-1541",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf 1 de Marco",
+        "short_name": "UBS Usf 1 de Marco",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.031976,
+          -15.5492644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2534290,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2534290",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF AGUACU",
+        "addr:street": "Rua Km 55 Estrada da Guia",
+        "addr:suburb": "Aguacu",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78090-000",
+        "phone": "+55 65 99694-4849",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Aguacu",
+        "short_name": "UBS Usf Aguacu",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.1296808,
+          -15.2811023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3094901,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "3094901",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF ALTOS DA SERRA I",
+        "addr:street": "Rua Rui Barbosa",
+        "addr:housenumber": "34",
+        "addr:suburb": "Altos da Serra",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78052-316",
+        "phone": "+55 65 3617-1339",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Altos da Serra I",
+        "short_name": "UBS Usf Altos da Serra I",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0207635,
+          -15.5764361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3959430,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "3959430",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF ALTOS DA SERRA II",
+        "addr:street": "Avenida Rui Barbosa",
+        "addr:housenumber": "34",
+        "addr:suburb": "Altos da Serra",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78052-316",
+        "phone": "+55 65 3617-1710",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Altos da Serra II",
+        "short_name": "UBS Usf Altos da Serra II",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0332802,
+          -15.6116282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2534355,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2534355",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF ALVORADA",
+        "addr:street": "Rua Piratininga",
+        "addr:suburb": "Alvorada",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78060-000",
+        "phone": "+55 65 3617-1700",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Alvorada",
+        "short_name": "UBS Usf Alvorada",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0813883,
+          -15.5794467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2604302,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2604302",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF ANA POUPINA",
+        "addr:street": "Rua Av Carmindo de Campos",
+        "addr:suburb": "Dom Aquino",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78005-000",
+        "phone": "+55 65 3617-1253",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Ana Poupina",
+        "short_name": "UBS Usf Ana Poupina",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0985802,
+          -15.6133644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2470985,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2470985",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF AREAO",
+        "addr:street": "Rua Av Desembargador Antonio Quirino de Araujo",
+        "addr:housenumber": "00001",
+        "addr:suburb": "Areao",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78010-000",
+        "phone": "+55 65 3617-1760",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Areao",
+        "short_name": "UBS Usf Areao",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0835253,
+          -15.6022825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2655144,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2655144",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF BELA VISTA",
+        "addr:street": "Avenida Oatomo Canavarros",
+        "addr:suburb": "Bela Vista",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78050-568",
+        "phone": "+55 65 3617-1338",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Bela Vista",
+        "short_name": "UBS Usf Bela Vista",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0591339,
+          -15.576538
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2655039,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2655039",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF CAIC",
+        "addr:street": "Rua Av Nilton Rabelo de Castro",
+        "addr:suburb": "Pedra 90 I Caic",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78099-005",
+        "phone": "(65) 3617-1431/1430",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Caic",
+        "short_name": "UBS Usf Caic",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0478666,
+          -15.5892145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2604248,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2604248",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF CAMPO VELHO",
+        "addr:street": "Rua Presidenti Medici",
+        "addr:housenumber": "515",
+        "addr:suburb": "Campo Velho",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78065-370",
+        "phone": "+55 65 3617-1601",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Campo Velho",
+        "short_name": "UBS Usf Campo Velho",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0822056,
+          -15.6181954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2534282,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2534282",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF CIDADE ALTA",
+        "addr:street": "Rua Av Jornalista Alves de Oliveira",
+        "addr:suburb": "Cidade Alta",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78090-000",
+        "phone": "+55 65 3617-1404",
+        "email": "sms.dab@cuiaba.mt.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Cidade Alta",
+        "short_name": "UBS Usf Cidade Alta",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.1245628,
+          -15.6097746
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2494817,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2494817",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF CIDADE VERDE",
+        "addr:street": "Rua Santa Luzia",
+        "addr:suburb": "Cidade Verde",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78025-750",
+        "phone": "+55 65 3617-1470",
+        "email": "sms.dab@cuiaba.mt.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Cidade Verde",
+        "short_name": "UBS Usf Cidade Verde",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.1319432,
+          -15.6108742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6225845,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "6225845",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF CINTURAO VERDE",
+        "addr:street": "Rua Av Nilton Rabelo de Castro",
+        "addr:suburb": "Pedra 90",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78099-000",
+        "phone": "(65) 3617-1951/1952",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Cinturao Verde",
+        "short_name": "UBS Usf Cinturao Verde",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.9470615,
+          -15.6362137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2470969,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2470969",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF COHAB SAO GONCALO",
+        "addr:street": "Rua Av B",
+        "addr:suburb": "São Goncalo",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78090-000",
+        "phone": "+55 65 3617-1445",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Cohab São Goncalo",
+        "short_name": "UBS Usf Cohab São Goncalo",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.045058,
+          -15.6473269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4712072,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "4712072",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF COXIPO DO OURO",
+        "addr:street": "Rua Benedito Demeciano",
+        "addr:suburb": "Distrito Coxipo do O",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78102-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Coxipo do Ouro",
+        "short_name": "UBS Usf Coxipo do Ouro",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.9816665,
+          -15.4585862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2494825,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2494825",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF CPA III",
+        "addr:street": "Rua 39 Qd 2",
+        "addr:suburb": "Cpiii Setor 2",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78050-000",
+        "phone": "+55 65 3646-5161",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Cpa III",
+        "short_name": "UBS Usf Cpa III",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0396887,
+          -15.564544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2659093,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2659093",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF CPA IV",
+        "addr:street": "Avenida Curio",
+        "addr:suburb": "Cpa Iv",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78058-100",
+        "phone": "+55 65 3649-7271",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Cpa Iv",
+        "short_name": "UBS Usf Cpa Iv",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0311579,
+          -15.5574845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2393441,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2393441",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF DA GUIA",
+        "addr:street": "Rua Vicente Figueiredo",
+        "addr:suburb": "Nossa Sra Guia",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78050-000",
+        "phone": "+55 65 3353-4013",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf da Guia",
+        "short_name": "UBS Usf da Guia",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.1359449,
+          -15.6658246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2494868,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2494868",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF DOM AQUINO",
+        "addr:street": "Rua Irma Elvira Paris",
+        "addr:housenumber": "0001",
+        "addr:suburb": "Dom Aquino",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78015-000",
+        "phone": "+55 65 3617-1256",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Dom Aquino",
+        "short_name": "UBS Usf Dom Aquino",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0934012,
+          -15.608412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3078167,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "3078167",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF DR FABIO I",
+        "addr:street": "Rua Rondonopolis",
+        "addr:housenumber": "14",
+        "addr:suburb": "Doutor Fabio",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78052-065",
+        "phone": "+55 65 3649-2150",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Dr Fabio I",
+        "short_name": "UBS Usf Dr Fabio I",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.002831,
+          -15.6351092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3078183,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "3078183",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF DR FABIO II",
+        "addr:street": "Rua Rondonopolis",
+        "addr:housenumber": "14",
+        "addr:suburb": "Dr Fabio",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78052-065",
+        "phone": "+55 65 3649-5725",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Dr Fabio II",
+        "short_name": "UBS Usf Dr Fabio II",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.1573885,
+          -15.6385011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2470977,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2470977",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF DR JOSE EDUARDO FARIA",
+        "addr:street": "Rua Orivaldo de Souza",
+        "addr:housenumber": "0001",
+        "addr:suburb": "Ribeirao do Lipa",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78040-060",
+        "phone": "+55 65 3617-1687",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Dr Jose Eduardo Faria",
+        "short_name": "UBS Usf Dr Jose Eduardo Faria",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.1067834,
+          -15.5677372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2471078,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2471078",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF ELDORADO",
+        "addr:street": "Rua R1",
+        "addr:housenumber": "0001",
+        "addr:suburb": "Jd Eldorado",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78045-110",
+        "phone": "+55 46 65653-1503",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Eldorado",
+        "short_name": "UBS Usf Eldorado",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0408509,
+          -15.6643539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2655489,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2655489",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF GRANDE TERCEIRO",
+        "addr:street": "Rua Teles Pires",
+        "addr:suburb": "Grande Terceiro",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78060-000",
+        "phone": "+55 65 3617-1328",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Grande Terceiro",
+        "short_name": "UBS Usf Grande Terceiro",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0879758,
+          -15.6115046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 311537,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "311537",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF ILZA TEREZINHA PICOLLI",
+        "addr:street": "Rua K",
+        "addr:suburb": "Resid Ilza Terezinh",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78056-712",
+        "phone": "+55 65 3617-7364",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Ilza Terezinha Picolli",
+        "short_name": "UBS Usf Ilza Terezinha Picolli",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0479382,
+          -15.5845984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2655098,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2655098",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF JARDIM ARACA",
+        "addr:street": "Rua Av Tangara",
+        "addr:suburb": "Jd Santa Amalia",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78035-750",
+        "phone": "+55 65 3617-1451",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Jardim Araca",
+        "short_name": "UBS Usf Jardim Araca",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.9799622,
+          -15.6123858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2655152,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2655152",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF JARDIM FLORIANOPOLIS",
+        "addr:street": "Rua 19 Quadra 52 Lote11",
+        "addr:housenumber": "11",
+        "addr:suburb": "Jd Florianopolis",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78060-000",
+        "phone": "+55 65 3617-1671",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Jardim Florianopolis",
+        "short_name": "UBS Usf Jardim Florianopolis",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0804787,
+          -15.5458829
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6225861,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "6225861",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF JARDIM FORTALEZA",
+        "addr:street": "Rua F12",
+        "addr:suburb": "Jardim Fortaleza",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78093-500",
+        "phone": "+55 65 3617-1638",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Jardim Fortaleza",
+        "short_name": "UBS Usf Jardim Fortaleza",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.9959628,
+          -15.6174881
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2534320,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2534320",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF JARDIM IMPERIAL",
+        "addr:street": "Rua Goiaba",
+        "addr:housenumber": "01",
+        "addr:suburb": "Jd Imperial",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78076-025",
+        "phone": "+55 65 3617-1661",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Jardim Imperial",
+        "short_name": "UBS Usf Jardim Imperial",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0256474,
+          -15.6165694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2534304,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2534304",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF JARDIM INDEPENDENCIA",
+        "addr:street": "Rua Av São Sebastiao",
+        "addr:housenumber": "1772",
+        "addr:suburb": "Jd Independência",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78020-000",
+        "phone": "+55 65 3617-1221",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Jardim Independência",
+        "short_name": "UBS Usf Jardim Independência",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.1200537,
+          -15.6094039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6226159,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "6226159",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF JARDIM INDUSTRIARIO",
+        "addr:street": "Rua 20",
+        "addr:housenumber": "281",
+        "addr:suburb": "Jardim Industriario",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78098-250",
+        "phone": "(65) 3617-1308/1309",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Jardim Industriario",
+        "short_name": "UBS Usf Jardim Industriario",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.9803231,
+          -15.6504178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2655497,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2655497",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF JARDIM LEBLON",
+        "addr:street": "Rua Projetada",
+        "addr:suburb": "Jardim Leblon",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78020-000",
+        "phone": "+55 65 3617-1661",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Jardim Leblon",
+        "short_name": "UBS Usf Jardim Leblon",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0911811,
+          -15.565671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7792123,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "7792123",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF JARDIM PASSAREDO",
+        "addr:street": "Rua Av Fernando Correa da Costa",
+        "addr:housenumber": "10220",
+        "addr:suburb": "São Francisco",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78088-800",
+        "phone": "+55 65 3617-7339",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Jardim Passaredo",
+        "short_name": "UBS Usf Jardim Passaredo",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0153717,
+          -15.6439412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5520096,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "5520096",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF JARDIM SANTA AMALIA",
+        "addr:street": "Avenida Tangara",
+        "addr:suburb": "Jardim Santa Amalia",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78035-750",
+        "phone": "+55 65 3617-1690",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Jardim Santa Amalia",
+        "short_name": "UBS Usf Jardim Santa Amalia",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.1390208,
+          -15.5955588
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3023087,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "3023087",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF JARDIM UMUARAMA ALTOS DA GLORIA",
+        "addr:street": "Rua 29",
+        "addr:suburb": "Tres Barras",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78030-000",
+        "phone": "+55 65 3649-1450",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Jardim Umuarama Altos da Gloria",
+        "short_name": "UBS Usf Jardim Umuarama Altos da Gloria",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0250105,
+          -15.5572578
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5520088,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "5520088",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF JARDIM UNIAO",
+        "addr:street": "Rua 19 Qdr 52 Lote 11",
+        "addr:housenumber": "11",
+        "addr:suburb": "Jardim Florianopolis",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78060-000",
+        "phone": "+55 65 3617-1672",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Jardim Uniao",
+        "short_name": "UBS Usf Jardim Uniao",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0805451,
+          -15.5460609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2655500,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2655500",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF JARDIM VITORIA I",
+        "addr:street": "Rua Av B",
+        "addr:suburb": "Jd Vitoria",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78030-000",
+        "phone": "+55 65 3617-1616",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Jardim Vitoria I",
+        "short_name": "UBS Usf Jardim Vitoria I",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0710945,
+          -15.5382055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2655462,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2655462",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF JARDIM VITORIA II",
+        "addr:street": "Rua Av B",
+        "addr:suburb": "Jardim Vitoria",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78030-000",
+        "phone": "+55 65 3617-1461",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Jardim Vitoria II",
+        "short_name": "UBS Usf Jardim Vitoria II",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0351074,
+          -15.6111146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2393484,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2393484",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF JARDIM VITORIA III",
+        "addr:street": "Rua Av B",
+        "addr:suburb": "Jd Vitoria",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78040-000",
+        "phone": "+55 65 3617-1466",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Jardim Vitoria III",
+        "short_name": "UBS Usf Jardim Vitoria III",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0711606,
+          -15.5574845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3393909,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "3393909",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF JOAO BORRALHO",
+        "addr:street": "Rua Presidente Afonso Pena",
+        "addr:housenumber": "1840",
+        "addr:suburb": "Dispraiado",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78040-000",
+        "phone": "+55 65 3617-1203",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf João Borralho",
+        "short_name": "UBS Usf João Borralho",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.1000699,
+          -15.5860356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3012816,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "3012816",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF JOAO BOSCO PINHEIRO",
+        "addr:street": "Avenida Principal",
+        "addr:suburb": "1 de Marco",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78058-602",
+        "phone": "+55 65 3649-3310",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf João Bosco Pinheiro",
+        "short_name": "UBS Usf João Bosco Pinheiro",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0319238,
+          -15.5494141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9903046,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "9903046",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF JOCKEY CLUB",
+        "addr:street": "Rua Britney San",
+        "addr:suburb": "Jardim Jockey Club",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78094-726",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Jockey Club",
+        "short_name": "UBS Usf Jockey Club",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0469211,
+          -15.6542908
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2655128,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2655128",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF LIXEIRA",
+        "addr:street": "Rua Av Prof João Felix",
+        "addr:suburb": "Lixeira",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78008-435",
+        "phone": "(65) 3617-1276/1277",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Lixeira",
+        "short_name": "UBS Usf Lixeira",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0830831,
+          -15.5921549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2820978,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2820978",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF NICO BARACAT ENF MIRIAM PINHEIRO",
+        "addr:street": "Rua Av Principal",
+        "addr:suburb": "Osmar Cabral",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78091-576",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Nico Baracat Enf Miriam Pinheiro",
+        "short_name": "UBS Usf Nico Baracat Enf Miriam Pinheiro",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0333609,
+          -15.6426186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6225888,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "6225888",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF NOVA ESPERANCA",
+        "addr:street": "Travessa J",
+        "addr:housenumber": "131",
+        "addr:suburb": "Nova Esperança",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78098-340",
+        "phone": "(65) 3617-1301/1300",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Nova Esperança",
+        "short_name": "UBS Usf Nova Esperança",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.9734564,
+          -15.6461014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3244938,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "3244938",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF NOVO COLORADO I",
+        "addr:street": "Avenida Tres Cruzes",
+        "addr:suburb": "Novo Colorado",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78020-000",
+        "phone": "+55 65 3617-1390",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Novo Colorado I",
+        "short_name": "UBS Usf Novo Colorado I",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.1119954,
+          -15.5812345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3901076,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "3901076",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF NOVO COLORADO II",
+        "addr:street": "Avenida Joaquim Louzada",
+        "addr:suburb": "Novo Colorado",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78042-515",
+        "phone": "+55 65 3617-1391",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Novo Colorado II",
+        "short_name": "UBS Usf Novo Colorado II",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.11717,
+          -15.56456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3313220,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "3313220",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF NOVO HORIZONTE",
+        "addr:street": "Rua Brasilia",
+        "addr:housenumber": "220",
+        "addr:suburb": "Novo Horizonte",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78058-695",
+        "phone": "+55 65 3646-2066",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Novo Horizonte",
+        "short_name": "UBS Usf Novo Horizonte",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0269658,
+          -15.5769478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3310094,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "3310094",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF NOVO MATO GROSSO",
+        "addr:street": "Rua Androdina",
+        "addr:suburb": "Novo Mato Grosso",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78058-737",
+        "phone": "+55 65 3617-1330",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Novo Mato Grosso",
+        "short_name": "UBS Usf Novo Mato Grosso",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0830734,
+          -15.5921447
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6225659,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "6225659",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF NOVO MILLENIUM",
+        "addr:street": "Rua 02 Qdr 05",
+        "addr:suburb": "Novo Millenium",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78092-052",
+        "phone": "(65) 3617-1862/1869",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Novo Millenium",
+        "short_name": "UBS Usf Novo Millenium",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0079864,
+          -15.6161629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2534371,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2534371",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF NOVO PARAISO I",
+        "addr:street": "Rua D",
+        "addr:housenumber": "46",
+        "addr:suburb": "Novo Paraiso",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78055-715",
+        "phone": "+55 65 3617-1190",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Novo Paraiso I",
+        "short_name": "UBS Usf Novo Paraiso I",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0550717,
+          -15.5479836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2471043,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2471043",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF NOVO PARAISO II",
+        "addr:street": "Rua Dante de Oliveira",
+        "addr:housenumber": "0001",
+        "addr:suburb": "Novo Paraiso",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78042-655",
+        "phone": "+55 65 3617-1191",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Novo Paraiso II",
+        "short_name": "UBS Usf Novo Paraiso II",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0534853,
+          -15.5447975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2494884,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2494884",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF NOVO TERCEIRO",
+        "addr:street": "Rua Professor Floriano Siqueira de Carvalho",
+        "addr:suburb": "Novo Terceiro",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78028-301",
+        "phone": "+55 65 99219-0765",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Novo Terceiro",
+        "short_name": "UBS Usf Novo Terceiro",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.1282535,
+          -15.6138206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2604345,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2604345",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF OURO FINO",
+        "addr:street": "Avenida A1",
+        "addr:housenumber": "609",
+        "addr:suburb": "Jardim das Aroeiras",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78056-402",
+        "phone": "+55 65 3617-1464",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Ouro Fino",
+        "short_name": "UBS Usf Ouro Fino",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0456854,
+          -15.5479448
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2604310,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2604310",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF PAIAGUAS",
+        "addr:street": "Avenida A Esquina Com A Rua C",
+        "addr:suburb": "Residencial Paiaguas",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78030-000",
+        "phone": "+55 65 3617-1670",
+        "email": "sms.dab@cuiaba.mt.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Paiaguas",
+        "short_name": "UBS Usf Paiaguas",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0553434,
+          -15.6603773
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6226124,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "6226124",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF PARQUE ATALAIA",
+        "addr:street": "Rua D",
+        "addr:suburb": "Parque Atalaia",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78095-110",
+        "phone": "+55 46 3617-7339",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Parque Atalaia",
+        "short_name": "UBS Usf Parque Atalaia",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0553375,
+          -15.6603858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2393476,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2393476",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF PARQUE CUIABA",
+        "addr:street": "Rua D 4",
+        "addr:suburb": "Parque Cuiaba",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78095-300",
+        "phone": "+55 65 3617-1640",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Parque Cuiaba",
+        "short_name": "UBS Usf Parque Cuiaba",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.04891,
+          -15.6600186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 179655,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "179655",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF PARQUE OHARA",
+        "addr:street": "Rua João de Barroa",
+        "addr:suburb": "Parque Ohara",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78075-865",
+        "phone": "+55 65 3617-7364",
+        "email": "sms.dab@cuiaba.mt.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Parque Ohara",
+        "short_name": "UBS Usf Parque Ohara",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0481419,
+          -15.628669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2655047,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2655047",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF PEDRA 90",
+        "addr:street": "Rua Av Integracao III",
+        "addr:suburb": "Pedra 90",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78090-000",
+        "phone": "+55 65 3617-1431",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Pedra 90",
+        "short_name": "UBS Usf Pedra 90",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.9621289,
+          -15.630481
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6225926,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "6225926",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF PEDREGAL",
+        "addr:street": "Rua Taiama",
+        "addr:suburb": "Pedregal",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78060-185",
+        "phone": "+55 65 3617-1711",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Pedregal",
+        "short_name": "UBS Usf Pedregal",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0675816,
+          -15.6000068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2471051,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2471051",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF PICO DO AMOR",
+        "addr:street": "Rua R Capitao Ipora",
+        "addr:suburb": "Pico do Amor",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78060-000",
+        "phone": "+55 65 99222-8546",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Pico do Amor",
+        "short_name": "UBS Usf Pico do Amor",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0818342,
+          -15.6111991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2494841,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2494841",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF PLANALTO",
+        "addr:street": "Rua Monte Azul",
+        "addr:housenumber": "18",
+        "addr:suburb": "Planalto",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78058-000",
+        "phone": "+55 65 99219-2076",
+        "email": "sms.csplanalto@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Planalto",
+        "short_name": "UBS Usf Planalto",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0381569,
+          -15.5821045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2659131,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2659131",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF PRAEIRO",
+        "addr:street": "Rua Av General Mello",
+        "addr:suburb": "Praeiro",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78030-000",
+        "phone": "+55 65 3617-1605",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Praeiro",
+        "short_name": "UBS Usf Praeiro",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0809072,
+          -15.6219768
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2604337,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2604337",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF QUILOMBO",
+        "addr:street": "Rua Americo Salgado",
+        "addr:suburb": "Quilombo",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78070-000",
+        "phone": "+55 65 3617-1489",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Quilombo",
+        "short_name": "UBS Usf Quilombo",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0861468,
+          -15.5961384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6226132,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "6226132",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF RENASCER ADELAIDE ALVES DA SILVA",
+        "addr:street": "Rua Rosario Oeste",
+        "addr:suburb": "Pedregal",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78068-600",
+        "phone": "+55 65 3617-1717",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Renascer Adelaide Alves da Silva",
+        "short_name": "UBS Usf Renascer Adelaide Alves da Silva",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0671881,
+          -15.5993339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8002487,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "8002487",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF RESIDENCIAL COXIPO I",
+        "addr:street": "Avenida B",
+        "addr:suburb": "Res Coxipo",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78095-040",
+        "phone": "+55 65 3617-1449",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Residencial Coxipo I",
+        "short_name": "UBS Usf Residencial Coxipo I",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0305631,
+          -15.6479761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2659158,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2659158",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF RESIDENCIAL COXIPO II",
+        "addr:street": "Avenida Principal D",
+        "addr:suburb": "Res Coxipo",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78095-040",
+        "phone": "+55 65 3617-1380",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Residencial Coxipo II",
+        "short_name": "UBS Usf Residencial Coxipo II",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0304717,
+          -15.6480412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2654296,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2654296",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF RESIDENCIAL COXIPO III",
+        "addr:street": "Avenida Bacai",
+        "addr:housenumber": "14",
+        "addr:suburb": "Itapaje",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78090-474",
+        "phone": "+55 65 3617-1381",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Residencial Coxipo III",
+        "short_name": "UBS Usf Residencial Coxipo III",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0267215,
+          -15.6561187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2674920,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2674920",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF RIBEIRAO DA PONTE",
+        "addr:street": "Rua Epitacio Amancio da Fonseca",
+        "addr:housenumber": "117",
+        "addr:suburb": "Ribeirao da Ponte",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78040-430",
+        "phone": "+55 65 3617-1692",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Ribeirao da Ponte",
+        "short_name": "UBS Usf Ribeirao da Ponte",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.1165728,
+          -15.5818001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3040240,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "3040240",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF RIO DOS PEIXES",
+        "addr:street": "Rodovia Emanual Pinheiro",
+        "addr:suburb": "Rio dos Peixes",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78099-899",
+        "phone": "+55 46 3318-6987",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Rio dos Peixes",
+        "short_name": "UBS Usf Rio dos Peixes",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.9909479,
+          -15.3955204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2604256,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2604256",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF ROLAND GERALD TRECHAUD E CURVO",
+        "addr:street": "Rua Um Qd 01",
+        "addr:housenumber": "0001",
+        "addr:suburb": "Osmar Cabral",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78050-000",
+        "phone": "(65) 3617-1861/1860",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Roland Gerald Trechaud e Curvo",
+        "short_name": "UBS Usf Roland Gerald Trechaud e Curvo",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.9528488,
+          -15.6732748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2393492,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2393492",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF SANTA ISABEL",
+        "addr:street": "Avenida Agricola Paes de Barros",
+        "addr:suburb": "Santa Isabel",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78028-350",
+        "phone": "+55 65 3617-1450",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Santa Isabel",
+        "short_name": "UBS Usf Santa Isabel",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.1328638,
+          -15.6039302
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9998063,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "9998063",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF SANTA TEREZINHA",
+        "addr:street": "Rua 38",
+        "addr:suburb": "Santa Terezinha",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78089-714",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Santa Terezinha",
+        "short_name": "UBS Usf Santa Terezinha",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0518732,
+          -15.6476075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6225853,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "6225853",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF SERRA DOURADA",
+        "addr:street": "Rua Av Brasil",
+        "addr:housenumber": "1668",
+        "addr:suburb": "Ouro Fino",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78053-540",
+        "phone": "+55 65 3617-1464",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Serra Dourada",
+        "short_name": "UBS Usf Serra Dourada",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.9801154,
+          -15.6374759
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2471027,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2471027",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF SUCURI",
+        "addr:street": "Estrada Velha da Guia Km 08",
+        "addr:suburb": "Sucuri",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78070-000",
+        "phone": "+55 65 3617-1490",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Sucuri",
+        "short_name": "UBS Usf Sucuri",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.1585925,
+          -15.5480192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6225896,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "6225896",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF TERRA NOVA",
+        "addr:street": "Rua Av Senegal",
+        "addr:suburb": "Terra Nova",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78010-325",
+        "phone": "(65) 3617-1879/1870",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Terra Nova",
+        "short_name": "UBS Usf Terra Nova",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0737061,
+          -15.5820785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2534398,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2534398",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF TIJUCAL",
+        "addr:street": "Avenida Espigao",
+        "addr:suburb": "Tijucal",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78030-000",
+        "phone": "+55 65 3617-1341",
+        "email": "sms.dab@cuiaba.mt.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Tijucal",
+        "short_name": "UBS Usf Tijucal",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.013425,
+          -15.6357604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3019853,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "3019853",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF TRES BARRAS",
+        "addr:street": "Rua 29",
+        "addr:suburb": "Tres Barras",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78058-567",
+        "phone": "+55 65 3649-2913",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Tres Barras",
+        "short_name": "UBS Usf Tres Barras",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0597532,
+          -15.5738447
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2473054,
+      "properties": {
+        "operator": "Governo do Estado (MT)",
+        "operator:type": "public",
+        "ref:CNES": "2473054",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CERMAC CENTRO ESTADUAL DE REF DE MEDIA E ALTA COMPLEXIDAD",
+        "addr:street": "Rua Thogo da Silva Pereira",
+        "addr:housenumber": "63",
+        "addr:suburb": "Centro Sul",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78020-500",
+        "phone": "+55 65 3613-5376",
+        "email": "cermac@ses.mt.gov.br",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.1002254,
+          -15.6055949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6296858,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "6296858",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POLICLINICA DO PEDRA 90",
+        "addr:street": "Avenida Newton Rabello de Castro",
+        "addr:suburb": "Pedra 90",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78099-005",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.9474254,
+          -15.635642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5558638,
+      "properties": {
+        "operator": "Governo do Estado (MT)",
+        "operator:type": "public",
+        "ref:CNES": "5558638",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL CENTRAL DE ALTA COMPLEXIDADE DE MATO GROSSO",
+        "addr:street": "Rua G",
+        "addr:suburb": "Centro Politico Admi",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78049-030",
+        "email": "alessandra.bokor@einstein.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Central de Alta Complexidade de Mato Grosso",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.9889053,
+          -15.6364429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2495015,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2495015",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL E PRONTO SOCORRO MUNICIPAL DE CUIABA",
+        "addr:street": "Rua Av General Vale",
+        "addr:housenumber": "192",
+        "addr:suburb": "Bandeirantes",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78010-100",
+        "phone": "+55 65 3617-7876",
+        "email": "ca.hpsmc@cuiaba.mt.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital e Pronto Socorro Municipal de Cuiaba",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.055676,
+          -15.355532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9841903,
+      "properties": {
+        "operator": "Governo do Estado (MT)",
+        "operator:type": "public",
+        "ref:CNES": "9841903",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL ESTADUAL SANTA CASA",
+        "addr:street": "Rua Coronel Peixoto",
+        "addr:housenumber": "141",
+        "addr:suburb": "Bandeirantes",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78010-100",
+        "phone": "+55 65 3618-8800",
+        "email": "uhe@ses.mt.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Estadual Santa Casa",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0953116,
+          -15.6024045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9209352,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "9209352",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL MUNICIPAL DE CUIABA E P S DR LEONY PALMA CARVALHO",
+        "addr:street": "Rua Orivaldo de Souza",
+        "addr:suburb": "Ribeirao do Lipa",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78048-178",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Municipal de Cuiaba e P S Dr Leony Palma Carvalho",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.1067553,
+          -15.5618092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2604396,
+      "properties": {
+        "operator": "Governo do Estado (MT)",
+        "operator:type": "public",
+        "ref:CNES": "2604396",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CIAPS HOSPITAL ADAUTO BOTELHO",
+        "addr:street": "Rua Adauto Botelho",
+        "addr:suburb": "Coophema",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78085-200",
+        "phone": "+55 65 3661-4350",
+        "email": "dgciaps@ses.mt.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Ciaps Hospital Adauto Botelho",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0561299,
+          -15.6335963
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2471086,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2471086",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CEM COXIPO",
+        "addr:street": "Rua 24 de Agosto",
+        "addr:housenumber": "0001",
+        "addr:suburb": "Coxipo",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78040-000",
+        "phone": "+55 65 3617-1444",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Cem Coxipo",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0970283,
+          -15.5960054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2534339,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2534339",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ESPECIALIDADES MEDICAS",
+        "addr:street": "Rua Baltazar Navarros",
+        "addr:suburb": "Bandeirantes",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78010-020",
+        "phone": "+55 65 3617-1312",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Especialidades Medicas",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0899469,
+          -15.6017066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2470993,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2470993",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ESPECIALIDADES MEDICAS DO PLANALTO",
+        "addr:street": "Rua Av dos Trabalhadores",
+        "addr:suburb": "Carumbe",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78035-070",
+        "phone": "63171415/361714",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Especialidades Medicas do Planalto",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.1300689,
+          -15.6026784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2393417,
+      "properties": {
+        "operator": "Governo do Estado (MT)",
+        "operator:type": "public",
+        "ref:CNES": "2393417",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE REABILITACAO INTEGRAL DOM AQUINO CORREA CUIABA",
+        "addr:street": "Rua G",
+        "addr:suburb": "Centro Politico Admi",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78049-030",
+        "phone": "+55 65 3613-1928",
+        "email": "dgcridac@ses.mt.gov.br",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Centro Especializado em Reabilitação (CER)",
+        "short_name": "CER",
+        "comment": "Reabilitação (CER)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0723893,
+          -15.5634655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3929469,
+      "properties": {
+        "operator": "Governo do Estado (MT)",
+        "operator:type": "public",
+        "ref:CNES": "3929469",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO ESTADUAL DE ODONTOLOGIA PARA PACIENTES ESPECIAIS",
+        "addr:street": "Rua Primavera",
+        "addr:housenumber": "14",
+        "addr:suburb": "Bosque da Saude",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78050-030",
+        "phone": "+55 65 3641-1405",
+        "email": "ceope@ses.mt.gov.br",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Centro de Especialidades Odontológicas (CEO)",
+        "short_name": "CEO",
+        "comment": "Odontologia (CEO)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.1248803,
+          -15.5678748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5019621,
+      "properties": {
+        "operator": "Governo do Estado (MT)",
+        "operator:type": "public",
+        "ref:CNES": "5019621",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO ESTADUAL DE REFERENCIA EM SAUDE DO TRABALHADOR",
+        "addr:street": "Rua Nova Iguaçu",
+        "addr:housenumber": "1327",
+        "addr:suburb": "Cophema",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78085-118",
+        "phone": "+55 65 3613-5481",
+        "email": "costra@ses.mt.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro Estadual de Referencia em Saude do Trabalhador",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0566771,
+          -15.6333277
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5413095,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "5413095",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO REGIONAL DE REFERENCIA EM SAUDE DO TRABALHADOR",
+        "addr:street": "Rua Rui Barbosa",
+        "addr:housenumber": "560",
+        "addr:suburb": "Goiabeiras",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78032-040",
+        "phone": "3318-6080/3318-6081",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro Regional de Referencia em Saude do Trabalhador",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.1083948,
+          -15.6009881
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2900661,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2900661",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CER II CENTRO ESPECIALIZADO EM REABILITACAO DA REGIAO SUL",
+        "addr:street": "Rua Benedito Antonio",
+        "addr:suburb": "Pascoal Ramos",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78020-000",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Centro Especializado em Reabilitação (CER)",
+        "short_name": "CER",
+        "comment": "Reabilitação (CER)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.9795317,
+          -15.6391498
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4111893,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "4111893",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CER II PLANALTO",
+        "addr:street": "Rua Doutor Antonio Maciel Epaminondas",
+        "addr:housenumber": "607",
+        "addr:suburb": "Campo Verde Carumbe",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78050-710",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Centro Especializado em Reabilitação (CER)",
+        "short_name": "CER",
+        "comment": "Reabilitação (CER)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0587521,
+          -15.585639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2655020,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2655020",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CLINICA ODONTOLOGICA CPA III",
+        "addr:street": "Rua D",
+        "addr:suburb": "Cpa III",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78050-000",
+        "phone": "+55 65 3646-4574",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Centro de Especialidades Odontológicas (CEO)",
+        "short_name": "CEO",
+        "comment": "Odontologia (CEO)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0600482,
+          -15.5684943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2393468,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2393468",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CLINICA ODONTOLOGICA DO PASCOAL RAMOS",
+        "addr:street": "Rua Benedito Antonio",
+        "addr:housenumber": "300",
+        "addr:suburb": "Pascoal Ramos",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78098-020",
+        "phone": "+55 65 3617-1653",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Centro de Especialidades Odontológicas (CEO)",
+        "short_name": "CEO",
+        "comment": "Odontologia (CEO)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.9806558,
+          -15.6398742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3388158,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "3388158",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CLINICA ODONTOLOGICA DO TIJUCAL",
+        "addr:street": "Rua Av Espigao",
+        "addr:suburb": "Tijucal",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78030-000",
+        "phone": "+55 65 3617-1340",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Centro de Especialidades Odontológicas (CEO)",
+        "short_name": "CEO",
+        "comment": "Odontologia (CEO)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0175997,
+          -15.6353565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2604299,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2604299",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CLINICA ODONTOLOGICA DOM AQUINO",
+        "addr:street": "Rua Av Carmindo de Campos",
+        "addr:suburb": "Dom Aquino",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78020-000",
+        "phone": "+55 65 3617-1329",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Centro de Especialidades Odontológicas (CEO)",
+        "short_name": "CEO",
+        "comment": "Odontologia (CEO)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.1021473,
+          -15.612178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2655012,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2655012",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CLINICA ODONTOLOGICA JARDIM LEBLON",
+        "addr:street": "Rua Projetada",
+        "addr:suburb": "Jardim Leblon",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78060-000",
+        "phone": "+55 65 3617-1413",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Centro de Especialidades Odontológicas (CEO)",
+        "short_name": "CEO",
+        "comment": "Odontologia (CEO)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0736838,
+          -15.6008533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3391922,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "3391922",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CLINICA ODONTOLOGICA JARDIM VITORIA",
+        "addr:street": "Rua 19",
+        "addr:suburb": "Jardim Vitoria",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78058-000",
+        "phone": "+55 65 3617-1460",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Centro de Especialidades Odontológicas (CEO)",
+        "short_name": "CEO",
+        "comment": "Odontologia (CEO)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0462643,
+          -15.647087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3225267,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "3225267",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CLINICA ODONTOLOGICA OSMAR CABRAL",
+        "addr:street": "Rua F 12",
+        "addr:suburb": "Jardim Fortaleza",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78010-000",
+        "phone": "+55 65 3617-1635",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Centro de Especialidades Odontológicas (CEO)",
+        "short_name": "CEO",
+        "comment": "Odontologia (CEO)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.9968877,
+          -15.6196568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2655055,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2655055",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CLINICA ODONTOLOGICA VERDAO",
+        "addr:street": "Rua Av Agricola Paes de Barros",
+        "addr:suburb": "Verdao",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78070-000",
+        "phone": "+55 65 3617-1401",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Centro de Especialidades Odontológicas (CEO)",
+        "short_name": "CEO",
+        "comment": "Odontologia (CEO)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.1339931,
+          -15.6041633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 673099,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "673099",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "GABINETE DA PRESIDENCIA",
+        "addr:street": "Rua Barao de Melgaco",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78020-010",
+        "phone": "+55 65 3617-1500",
+        "email": "cmcbamt@terra.com.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Gabinete da Presidencia",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.1014723,
+          -15.6001027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6019005,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "6019005",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "INSTITUTO MEDICO LEGAL",
+        "addr:street": "Rua Sete Esquina Com A Parecis",
+        "addr:suburb": "Carumbe",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78058-420",
+        "phone": "36131205/1212/1202",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Instituto Medico Legal",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.045959,
+          -15.5807366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 281514,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "281514",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAE CTA REGIONAL NORTE",
+        "addr:street": "Rua Abidos",
+        "addr:suburb": "Cpa I",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78055-205",
+        "email": "sms.dstaidscuiaba@cuiaba.mt.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Sae Cta Regional Norte",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0546452,
+          -15.5546894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2534266,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2534266",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAE LIXEIRA",
+        "addr:street": "Avenida João Gomes Monteiro Sobrinho",
+        "addr:housenumber": "575",
+        "addr:suburb": "Lixeira",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78008-800",
+        "phone": "+55 46 65996-4963",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Sae Lixeira",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0341823,
+          -15.5789287
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4273443,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "4273443",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UDR COXIPO",
+        "addr:street": "Rua 24 de Agosto",
+        "addr:suburb": "Coxipo",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78040-000",
+        "phone": "+55 65 3617-1617",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Udr Coxipo",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0969719,
+          -15.5960054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4273265,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "4273265",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UDR CPA",
+        "addr:street": "Rua Obidos",
+        "addr:suburb": "Cpa I",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78055-205",
+        "phone": "+55 65 3617-1617",
+        "email": "reabilitacaort@gmil.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Udr Cpa",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.052643,
+          -15.555471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4273427,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "4273427",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UDR OESTE",
+        "addr:street": "Rua Av Carmindo de Campos",
+        "addr:suburb": "Dom Aquino",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78005-000",
+        "phone": "+55 65 3617-1253",
+        "email": "reabilitacaort@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Udr Oeste",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0970068,
+          -15.5960183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9112383,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "9112383",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "URPICS",
+        "addr:street": "Rua Ivan Rodrigues Arras",
+        "addr:suburb": "Coxipo da Ponte",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78085-055",
+        "phone": "+55 65 3617-7362",
+        "email": "unidadepics@cuiaba.mt.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Urpics",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0615463,
+          -15.6292242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 127221,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "127221",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "IFMT CAMPUS BELA VISTA",
+        "addr:street": "Avenida Juliano Costa Marques",
+        "addr:suburb": "Bela Vista",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78051-015",
+        "phone": "+55 65 3318-5100",
+        "email": "gabinete@blv.ifmt.edu.br",
+        "amenity": "clinic",
+        "healthcare": "diagnostic_centre",
+        "name": "Ifmt Campus Bela Vista",
+        "comment": "Diagnóstico por Imagem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0615138,
+          -15.5801926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5313937,
+      "properties": {
+        "operator": "Governo do Estado (MT)",
+        "operator:type": "public",
+        "ref:CNES": "5313937",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "MT HEMOCENTRO UNIDADE MOVEL I",
+        "addr:street": "Rua 13 de Junho",
+        "addr:housenumber": "1055",
+        "addr:suburb": "Centro Sul",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78020-000",
+        "phone": "+55 65 3623-0044",
+        "email": "hemo@ses.mt.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Mt Hemocentro Unidade Movel I",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.1100131,
+          -15.6151807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5313961,
+      "properties": {
+        "operator": "Governo do Estado (MT)",
+        "operator:type": "public",
+        "ref:CNES": "5313961",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "MT HEMOCENTRO UNIDADE MOVEL II",
+        "addr:street": "Rua 13 de Junho",
+        "addr:housenumber": "1055",
+        "addr:suburb": "Centro Sul",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78020-000",
+        "phone": "+55 65 3623-0044",
+        "email": "hemo@ses.mt.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Mt Hemocentro Unidade Movel II",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.1098252,
+          -15.6149841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5313988,
+      "properties": {
+        "operator": "Governo do Estado (MT)",
+        "operator:type": "public",
+        "ref:CNES": "5313988",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "MT HEMOCENTRO UNIDADE MOVEL III",
+        "addr:street": "Rua 13 de Junho",
+        "addr:housenumber": "1055",
+        "addr:suburb": "Centro Sul",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78020-000",
+        "phone": "+55 65 3623-0044",
+        "email": "hemo@ses.mt.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Mt Hemocentro Unidade Movel III",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.1097969,
+          -15.6149684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9040110,
+      "properties": {
+        "operator": "Governo do Estado (MT)",
+        "operator:type": "public",
+        "ref:CNES": "9040110",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "OFICINA ORTOPEDICA ITINERANTE",
+        "addr:street": "Rua G",
+        "addr:suburb": "Centro Policito Admi",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78049-030",
+        "phone": "65 3613-1900/1951",
+        "email": "dgcridac@ses.mt.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Oficina Ortopedica Itinerante",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.072361,
+          -15.5634498
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 968161,
+      "properties": {
+        "operator": "Governo do Estado (MT)",
+        "operator:type": "public",
+        "ref:CNES": "968161",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UMEX UNIDADE MOVEL DE EXAMES",
+        "addr:street": "Rua D",
+        "addr:suburb": "Centro Politico Admi",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78049-902",
+        "phone": "+55 65 3613-5310",
+        "email": "gbses@ses.mt.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Umex Unidade Movel de Exames",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0731244,
+          -15.5673994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7102976,
+      "properties": {
+        "operator": "Governo do Estado (MT)",
+        "operator:type": "public",
+        "ref:CNES": "7102976",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU 192 CUIABA USA A1",
+        "addr:street": "Rua Oriente Tenuta",
+        "addr:housenumber": "676",
+        "addr:suburb": "Alvorada",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78048-730",
+        "phone": "+55 65 3317-3200",
+        "email": "mssamu@ses.mt.gov.br",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0856342,
+          -15.5836871
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7620063,
+      "properties": {
+        "operator": "Governo do Estado (MT)",
+        "operator:type": "public",
+        "ref:CNES": "7620063",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU 192 CUIABA USA A3",
+        "addr:street": "Avenida Adauto Botelho",
+        "addr:suburb": "Coophema",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78085-200",
+        "phone": "+55 65 3317-3200",
+        "email": "mssamu@ses.mt.gov.br",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0585332,
+          -15.6341026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4257162,
+      "properties": {
+        "operator": "Governo do Estado (MT)",
+        "operator:type": "public",
+        "ref:CNES": "4257162",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU 192 CUIABA USA A4",
+        "addr:street": "Avenida Prainha",
+        "addr:housenumber": "1070",
+        "addr:suburb": "Centro Sul",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78048-450",
+        "phone": "+55 46 3317-3239",
+        "email": "equipetecnica-samu@ses.mt.gov.br",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0844541,
+          -15.5825916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4673921,
+      "properties": {
+        "operator": "Governo do Estado (MT)",
+        "operator:type": "public",
+        "ref:CNES": "4673921",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU 192 CUIABA USA VIR VEICULO DE INTERVENCAO RAPIDA",
+        "addr:street": "Avenida Agricola Paes de Barros",
+        "addr:suburb": "Verdao",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78048-450",
+        "phone": "+55 46 3317-3239",
+        "email": "equipetecnica-samu@ses.mt.gov.br",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.1262764,
+          -15.6042812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7102984,
+      "properties": {
+        "operator": "Governo do Estado (MT)",
+        "operator:type": "public",
+        "ref:CNES": "7102984",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU 192 CUIABA USB B1",
+        "addr:street": "Avenida Agricola Paes de Barros",
+        "addr:suburb": "Verdao",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78020-450",
+        "phone": "+55 65 3317-3200",
+        "email": "mssamu@ses.mt.gov.br",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0945231,
+          -15.5983666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7103050,
+      "properties": {
+        "operator": "Governo do Estado (MT)",
+        "operator:type": "public",
+        "ref:CNES": "7103050",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU 192 CUIABA USB B2",
+        "addr:street": "Avenida Adauto Botelho",
+        "addr:suburb": "Coophema",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78085-200",
+        "phone": "+55 65 3317-3200",
+        "email": "mssamu@ses.mt.gov.br",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.9809637,
+          -15.6391135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7103069,
+      "properties": {
+        "operator": "Governo do Estado (MT)",
+        "operator:type": "public",
+        "ref:CNES": "7103069",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU 192 CUIABA USB B3",
+        "addr:street": "Rua 17 Quadra 26",
+        "addr:suburb": "Morada do Ouro",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78053-600",
+        "phone": "+55 65 3317-3200",
+        "email": "mssamu@ses.mt.gov.br",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0545045,
+          -15.5703759
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9839739,
+      "properties": {
+        "operator": "Governo do Estado (MT)",
+        "operator:type": "public",
+        "ref:CNES": "9839739",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU 192 CUIABA USB B8",
+        "addr:street": "Rua Raimundo Pinheiro",
+        "addr:housenumber": "77",
+        "addr:suburb": "Pascoal Ramos",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78098-110",
+        "phone": "+55 65 3317-3200",
+        "email": "gerenciaenfsamu@gmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.9799767,
+          -15.6400743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7103077,
+      "properties": {
+        "operator": "Governo do Estado (MT)",
+        "operator:type": "public",
+        "ref:CNES": "7103077",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU 192 CUIABA USB MOTO NJT2723",
+        "addr:street": "Avenida Prainha",
+        "addr:housenumber": "1070",
+        "addr:suburb": "Centro Sul",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78048-730",
+        "phone": "+55 65 3317-3200",
+        "email": "mssamu@ses.mt.gov.br",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0825604,
+          -15.5823694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7103085,
+      "properties": {
+        "operator": "Governo do Estado (MT)",
+        "operator:type": "public",
+        "ref:CNES": "7103085",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU 192 CUIABA USB MOTO NJT2773",
+        "addr:street": "Avenida Prainha",
+        "addr:housenumber": "1070",
+        "addr:suburb": "Centro Sul",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78048-730",
+        "phone": "+55 65 3317-3200",
+        "email": "mssamu@ses.mt.gov.br",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0826731,
+          -15.5823643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7103093,
+      "properties": {
+        "operator": "Governo do Estado (MT)",
+        "operator:type": "public",
+        "ref:CNES": "7103093",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU 192 CUIABA USB MOTO NJT2823",
+        "addr:street": "Avenida Prainha",
+        "addr:housenumber": "1070",
+        "addr:suburb": "Centro Sul",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78048-730",
+        "phone": "+55 65 3317-3200",
+        "email": "mssamu@ses.mt.gov.br",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0826302,
+          -15.5823023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5359759,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "5359759",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "FARMACIA POPULAR DO BRASIL CUIABA",
+        "addr:street": "Rua Anu Branco",
+        "addr:housenumber": "001",
+        "addr:suburb": "Morada da Serra",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78058-000",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "dispensing": "yes",
+        "name": "Farmácia Popular do Brasil Cuiaba",
+        "comment": "Farmácia Pública"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0377547,
+          -15.5626643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 724017,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "724017",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CISVARC",
+        "addr:street": "Rua Historiador Rubens de Mendonca",
+        "addr:housenumber": "3920",
+        "addr:suburb": "Morada do Ouro",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78055-000",
+        "phone": "+55 66 8422-1435",
+        "email": "jeolli_cerutti@hotmail.com",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0691492,
+          -15.57037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6121853,
+      "properties": {
+        "operator": "Governo do Estado (MT)",
+        "operator:type": "public",
+        "ref:CNES": "6121853",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "ESCRITORIO REGIONAL DE SAUDE DA BAIXADA CUIABANA",
+        "addr:street": "Rua Guadalajara",
+        "addr:housenumber": "272",
+        "addr:suburb": "Jd das Americas",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78060-624",
+        "phone": "(065) 3324-1081-1082",
+        "office": "government",
+        "government": "healthcare",
+        "name": "7ª Regional de Saúde de Pato Branco (SESA-PR)",
+        "short_name": "7ª RS SESA",
+        "comment": "Regional de Saúde (Estadual)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0729259,
+          -15.6126525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4069463,
+      "properties": {
+        "operator": "Governo do Estado (MT)",
+        "operator:type": "public",
+        "ref:CNES": "4069463",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SECRETARIA DE ESTADO DE SAUDE DE MATO GROSSO",
+        "addr:street": "Rua Julio Domingos de Campos",
+        "addr:suburb": "Cpa",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78049-902",
+        "phone": "+55 65 3613-5300",
+        "email": "gbses@ses.mt.gov.br",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0728294,
+          -15.5676267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2393735,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2393735",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SECRETARIA MUNICIPAL DE SAUDE DE CUIABA",
+        "addr:street": "Rua General Anibal da Mata",
+        "addr:housenumber": "139",
+        "addr:suburb": "Duque de Caxias I",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78043-268",
+        "phone": "+55 65 3617-7355",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.1181642,
+          -15.5892016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2534258,
+      "properties": {
+        "operator": "Governo do Estado (MT)",
+        "operator:type": "public",
+        "ref:CNES": "2534258",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "MT HEMOCENTRO",
+        "addr:street": "Rua 13 de Junho",
+        "addr:housenumber": "1055",
+        "addr:suburb": "Centro Sul",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78020-000",
+        "phone": "+55 65 3623-0044",
+        "email": "hemo@ses.mt.gov.br",
+        "amenity": "blood_donation",
+        "healthcare": "blood_donation",
+        "name": "Hemonúcleo de Pato Branco (HEMEPAR)",
+        "short_name": "Hemepar Pato Branco",
+        "comment": "Doação de Sangue (HEMEPAR)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.097,
+          -15.596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3785122,
+      "properties": {
+        "operator": "Governo do Estado (MT)",
+        "operator:type": "public",
+        "ref:CNES": "3785122",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CAPS AD ADAUTO BOTELHO",
+        "addr:street": "Avenida Edgar Vieira",
+        "addr:housenumber": "728",
+        "addr:suburb": "Boa Esperança",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78068-401",
+        "phone": "+55 65 3613-5468",
+        "email": "capsciaps@ses.mt.gov.br",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0657893,
+          -15.6119259
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3276635,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "3276635",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CAPS AD ADOLESCER",
+        "addr:street": "Rua Romenia",
+        "addr:suburb": "Jardim Europa",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78065-395",
+        "phone": "+55 65 3617-1835",
+        "email": "caps.ad3@cuiaba.mt.gov.br",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.089046,
+          -15.6209842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2659123,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2659123",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CAPS CPA IV",
+        "addr:street": "Rua 82",
+        "addr:suburb": "Cpa Iv",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78058-492",
+        "phone": "+55 65 3318-6057",
+        "email": "caps.cpaiv@cuiaba.mt.gov.br",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0420094,
+          -15.5664498
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5449758,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "5449758",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CAPS II VERDAO",
+        "addr:street": "Rua Maurício Cardoso",
+        "addr:housenumber": "735",
+        "addr:suburb": "Cidade Alta",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78030-425",
+        "phone": "+55 65 3318-6057",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.1227989,
+          -15.6088486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4069668,
+      "properties": {
+        "operator": "Governo do Estado (MT)",
+        "operator:type": "public",
+        "ref:CNES": "4069668",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ATENCAO PSICOSSOCIAL INFANTO JUVENIL CURUMIM",
+        "addr:street": "Rua Antonio Dorileo",
+        "addr:suburb": "Jardim Lucianopolis",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78085-230",
+        "phone": "+55 65 3613-5419",
+        "email": "capsicuiaba@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial Infanto-Juvenil (CAPSi)",
+        "short_name": "CAPSi",
+        "comment": "CAPSi (Infanto-Juvenil)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0620013,
+          -15.6340225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7017650,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "7017650",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DSEI CUIABA",
+        "addr:street": "Rua Rui Barbosa",
+        "addr:housenumber": "282",
+        "addr:suburb": "Goiabeiras",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78032-040",
+        "phone": "+55 65 4042-9947",
+        "email": "dseicgb@sesai.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Dsei Cuiaba",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0618377,
+          -15.3549421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7427018,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "7427018",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POLO BASE CUIABA",
+        "addr:street": "Rua Rui Barbosa",
+        "addr:housenumber": "282",
+        "addr:suburb": "Goiabeiras",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78032-040",
+        "email": "joselly.ferraz@saude.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Polo Base Cuiaba",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.061801,
+          -15.354941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7926804,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "7926804",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE PRONTO ATENDIMENTO JARDIM LEBLON",
+        "addr:street": "Estrada do Moinho",
+        "addr:housenumber": "01",
+        "addr:suburb": "Jardim Leblon",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78060-055",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade de Pronto Atendimento Jardim Leblon",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.9804438,
+          -15.6389469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7263813,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "7263813",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE PRONTO ATENDIMENTO MORADA DO OURO",
+        "addr:street": "Rua Av Tancredo Neves",
+        "addr:suburb": "Morada do Ouro",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78053-600",
+        "phone": "+55 46 3645-5700",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade de Pronto Atendimento Morada do Ouro",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.043811,
+          -15.5541883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7869312,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "7869312",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE PRONTO ATENDIMENTO PASCOAL RAMOS",
+        "addr:street": "Avenida Brasil",
+        "addr:housenumber": "100",
+        "addr:suburb": "Pascoal Ramos",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78098-110",
+        "phone": "+55 65 3617-7352",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade de Pronto Atendimento Pascoal Ramos",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.1144519,
+          -15.6018129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7861826,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "7861826",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE PRONTO ATENDIMENTO VERDAO",
+        "addr:street": "Avenida Agricola Paes de Barros",
+        "addr:suburb": "Verdao",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78030-210",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade de Pronto Atendimento Verdao",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.1271173,
+          -15.6048147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7212445,
+      "properties": {
+        "operator": "Governo do Estado (MT)",
+        "operator:type": "public",
+        "ref:CNES": "7212445",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAUDE DIGITAL MATO GROSSO",
+        "addr:street": "Rua Estevao de Mendonca",
+        "addr:housenumber": "891",
+        "addr:suburb": "Quilombo",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78045-420",
+        "phone": "+55 65 3613-2310",
+        "email": "nucleodesaudedigitalmt@ses.mt.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Saude Digital Mato Grosso",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0710645,
+          -15.5689703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7068042,
+      "properties": {
+        "operator": "Governo do Estado (MT)",
+        "operator:type": "public",
+        "ref:CNES": "7068042",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL DE REGULACAO DAS URGENCIAS SAMU 192 SUS MT",
+        "addr:street": "Avenida Comandante Costa",
+        "addr:housenumber": "1262",
+        "addr:suburb": "Centro Sul",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78020-400",
+        "phone": "+55 65 3317-3200",
+        "email": "cosamu@ses.mt.gov.br",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Central de Regulação Médica das Urgências (SAMU 192)",
+        "short_name": "Regulação SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.1023605,
+          -15.5997048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 901873,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "901873",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "EMAD EMAP EQUIPES MULTIPROFISSIONAIS",
+        "addr:street": "Rua 2300",
+        "addr:housenumber": "100",
+        "addr:suburb": "Jardim Imperial",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78020-000",
+        "phone": "+55 65 3617-1661",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Emad Emap Equipes Multiprofissionais",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0252644,
+          -15.6122159
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2655454,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "2655454",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "LACEC",
+        "addr:street": "Rua Rio Pirain",
+        "addr:housenumber": "383",
+        "addr:suburb": "Grande Terceiro",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78065-470",
+        "phone": "+55 65 3617-1607",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Lacec",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0810773,
+          -15.6238548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2604175,
+      "properties": {
+        "operator": "Governo do Estado (MT)",
+        "operator:type": "public",
+        "ref:CNES": "2604175",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "LACEN MT",
+        "addr:street": "Rua R G",
+        "addr:housenumber": "79",
+        "addr:suburb": "Centro Politico Admi",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78060-628",
+        "phone": "+55 65 3624-6095",
+        "email": "dirlacen@ses.mt.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "LACEN Mt",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.068201,
+          -15.564989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7299516,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "7299516",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "COMPLEXO REGULADOR DE CUIABA",
+        "addr:street": "Avenida Ten Coronel Duarte",
+        "addr:housenumber": "1070",
+        "addr:suburb": "Centro Sul",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78020-450",
+        "phone": "+55 46 3616-9101",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Sistema Municipal de Auditoria e Regulação em Saúde",
+        "comment": "Auditoria e Regulação"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0988928,
+          -15.6033457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9132155,
+      "properties": {
+        "operator": "Governo do Estado (MT)",
+        "operator:type": "public",
+        "ref:CNES": "9132155",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "COMPLEXO REGULADOR ESTADUAL",
+        "addr:street": "Avenida Comandante Costa",
+        "addr:housenumber": "1262",
+        "addr:suburb": "Centro Sul",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78020-400",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Sistema Municipal de Auditoria e Regulação em Saúde",
+        "comment": "Auditoria e Regulação"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.1023498,
+          -15.5996635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7554974,
+      "properties": {
+        "operator": "Governo do Estado (MT)",
+        "operator:type": "public",
+        "ref:CNES": "7554974",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL ESTADUAL DE TRANSPLANTES",
+        "addr:street": "Rua Comandante Costa",
+        "addr:housenumber": "1262",
+        "addr:suburb": "Centro Sul",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78020-400",
+        "phone": "+55 65 3317-3215",
+        "email": "transplantemt@ses.mt.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Central Estadual de Transplantes",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.1020386,
+          -15.5996635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8163618,
+      "properties": {
+        "operator": "Governo do Estado (MT)",
+        "operator:type": "public",
+        "ref:CNES": "8163618",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL ESTADUAL DE REDE DE FRIO DE MATO GROSSO",
+        "addr:street": "Avenida Antonio Dorileo",
+        "addr:housenumber": "470",
+        "addr:suburb": "Coophema",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78085-230",
+        "email": "cpei@ses.mt.gov.br",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Central Estadual de Rede de Frio de Mato Grosso",
+        "comment": "Suprimentos / Logística"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0618055,
+          -15.6340406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8512140,
+      "properties": {
+        "operator": "Prefeitura Municipal de Cuiabá",
+        "operator:type": "public",
+        "ref:CNES": "8512140",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE DISTRIBUICAO DE MEDICAMENTOS E INSUMOS DE CUIABA",
+        "addr:street": "Avenida Fernando Correa da Costa",
+        "addr:housenumber": "9650",
+        "addr:suburb": "São Francisco",
+        "addr:city": "Cuiabá",
+        "addr:state": "MT",
+        "addr:country": "BR",
+        "addr:postcode": "78088-800",
+        "phone": "+55 65 3617-7305",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Centro de Distribuicao de Medicamentos e Insumos de Cuiaba",
+        "comment": "Suprimentos / Logística"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0097035,
+          -15.6512348
+        ]
+      }
+    }
+  ]
+}

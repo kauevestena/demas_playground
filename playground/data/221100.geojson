@@ -1,0 +1,5768 @@
+{
+  "type": "FeatureCollection",
+  "name": "Estabelecimentos Públicos de Saúde - DEMAS / CNES",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 5115930,
+      "properties": {
+        "operator": "Governo do Estado (PI)",
+        "operator:type": "public",
+        "ref:CNES": "5115930",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO EDUCACIONAL MASCULINO",
+        "addr:street": "Rua 19 de Novembro",
+        "addr:housenumber": "4790",
+        "addr:suburb": "Itaperu",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64002-540",
+        "phone": "86)32234666/88512057",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro Educacional Masculino",
+        "short_name": "UBS Centro Educacional Masculino",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8075194,
+          -5.0747005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2588811,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2588811",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE A BENICIO FREIRE E SILVA POTY VELHO",
+        "addr:street": "Rua Mario Augusto Freitas",
+        "addr:housenumber": "1469",
+        "addr:suburb": "Poty Velho",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64005-830",
+        "phone": "+55 86 3215-9170",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude A Benicio Freire e Silva Poty Velho",
+        "short_name": "UBS Unidade Básica de Saude A Benicio Freire e Silva Poty Velho",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8223028,
+          -5.035564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2405873,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2405873",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE ADELINO MATOS",
+        "addr:street": "Rua Nova Esperança",
+        "addr:suburb": "Vila São Francisco",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64009-770",
+        "phone": "+55 86 3215-9189",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Adelino Matos",
+        "short_name": "UBS Unidade Básica de Saude Adelino Matos",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7907607,
+          -5.1187893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6414303,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "6414303",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE ADRIANA M F DE C V BUENOS AIRES",
+        "addr:street": "Avenida Duque de Caxias",
+        "addr:housenumber": "4696",
+        "addr:suburb": "Buenos Aires",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64013-100",
+        "phone": "+55 86 3216-6271",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Adriana M F de C V Buenos Aires",
+        "short_name": "UBS Unidade Básica de Saude Adriana M F de C V Buenos Aires",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.807938,
+          -5.0417102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2406810,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2406810",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE ALTO DA RESSURREICAO",
+        "addr:street": "Rua Alto Bonito",
+        "addr:housenumber": "7013",
+        "addr:suburb": "Gurupi",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64090-365",
+        "phone": "+55 86 3231-3559",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Alto da Ressurreicao",
+        "short_name": "UBS Unidade Básica de Saude Alto da Ressurreicao",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7366877,
+          -5.0884435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6003591,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "6003591",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE AMERICO DE MELO C BRANCO STA ISABEL",
+        "addr:street": "Rua Jesus da Cunha Araujo",
+        "addr:housenumber": "4859",
+        "addr:suburb": "Morada do Sol",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64053-170",
+        "phone": "+55 86 3215-7702",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Americo de Melo C Branco Sta Isabel",
+        "short_name": "UBS Unidade Básica de Saude Americo de Melo C Branco Sta Isabel",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.758832,
+          -5.0703509
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7390718,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "7390718",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE ANDRE L OLIVEIRA JACINTA I",
+        "addr:street": "Rua Res Jacinta Andrade I Qd75 Cs05",
+        "addr:housenumber": "05",
+        "addr:suburb": "Jacinta Andrade I",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64013-528",
+        "phone": "+55 86 3213-3467",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Andre L Oliveira Jacinta I",
+        "short_name": "UBS Unidade Básica de Saude Andre L Oliveira Jacinta I",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8170795,
+          -4.9829621
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2406888,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2406888",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE ANITA FERRAZ",
+        "addr:street": "Rua Lajeiro",
+        "addr:suburb": "Pedra Mole",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64066-030",
+        "phone": "+55 86 3215-9220",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Anita Ferraz",
+        "short_name": "UBS Unidade Básica de Saude Anita Ferraz",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7750647,
+          -5.0098605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3810852,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "3810852",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE ANTONIO CARLOS COSTA CRISTO REI",
+        "addr:street": "Rua Padre Aureo de Oliveira",
+        "addr:housenumber": "1966",
+        "addr:suburb": "Cristo Rei",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64015-470",
+        "phone": "+55 86 3215-7712",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Antonio Carlos Costa Cristo Rei",
+        "short_name": "UBS Unidade Básica de Saude Antonio Carlos Costa Cristo Rei",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7852035,
+          -5.0997712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5337763,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "5337763",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE ANTONIO J M D JUNIOR CHAPADINHA SUL",
+        "addr:street": "Rua Sem Nome Altura do Km 24 Br 316 Zona Rural",
+        "addr:suburb": "Povoado Chapadinha S",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64022-990",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Antonio J M D Junior Chapadinha Sul",
+        "short_name": "UBS Unidade Básica de Saude Antonio J M D Junior Chapadinha Sul",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7105951,
+          -5.3001088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9318623,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "9318623",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE ANTONIO NORONHA DE P FILHO PQ BRASIL",
+        "addr:street": "Rua Francisca Trindade",
+        "addr:suburb": "Parque Brasil Cida",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64012-840",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Antonio Noronha de P Filho Pq Brasil",
+        "short_name": "UBS Unidade Básica de Saude Antonio Noronha de P Filho Pq Brasil",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8320944,
+          -4.9981457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5307503,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "5307503",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE ANTONIO P D SANTOS VAMOS VER O SOL",
+        "addr:street": "Rua Sargento Batista",
+        "addr:suburb": "Parque Sul",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64036-435",
+        "phone": "+55 86 3215-5422",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Antonio P D Santos Vamos Ver O Sol",
+        "short_name": "UBS Unidade Básica de Saude Antonio P D Santos Vamos Ver O Sol",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7579294,
+          -5.1502909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2593572,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2593572",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE BELA VISTA RURAL",
+        "addr:street": "Rua Pi 112 Estrada do Tipi",
+        "addr:suburb": "Zona Rural",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64001-970",
+        "phone": "+55 86 3211-1222",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Bela Vista Rural",
+        "short_name": "UBS Unidade Básica de Saude Bela Vista Rural",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8556597,
+          -4.9292692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2444151,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2444151",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE BOQUINHA",
+        "addr:street": "Rua Povoado Boquiha",
+        "addr:suburb": "Zona Rural",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64001-970",
+        "phone": "+55 86 3222-1255",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Boquinha",
+        "short_name": "UBS Unidade Básica de Saude Boquinha",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.669096,
+          -5.250367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5225884,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "5225884",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE BRUNO RAFAEL R DE SOUSA ESPLANADA",
+        "addr:street": "Rua São Valentino",
+        "addr:housenumber": "7720",
+        "addr:suburb": "Esplanada",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64003-810",
+        "phone": "+55 86 3215-9150",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Bruno Rafael R de Sousa Esplanada",
+        "short_name": "UBS Unidade Básica de Saude Bruno Rafael R de Sousa Esplanada",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7643037,
+          -5.1932914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2444011,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2444011",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE CACIMBA VELHA",
+        "addr:street": "Estrada Povoado Soinho Altura do Km 09",
+        "addr:suburb": "Zona Rural",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64001-970",
+        "phone": "+55 86 3231-7045",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Cacimba Velha",
+        "short_name": "UBS Unidade Básica de Saude Cacimba Velha",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7475452,
+          -4.9799018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2406500,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2406500",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE CAMPESTRE NORTE",
+        "addr:street": "Rua Povoado Campestre Norte",
+        "addr:suburb": "Zona Rural",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64041-990",
+        "phone": "+55 86 99991-0044",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Campestre Norte",
+        "short_name": "UBS Unidade Básica de Saude Campestre Norte",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7495193,
+          -4.8944537
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2407043,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2407043",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE CECY FORTES",
+        "addr:street": "Rua Av Jacob Almendra",
+        "addr:housenumber": "630",
+        "addr:suburb": "Porenquanto",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64003-000",
+        "phone": "+55 86 3215-9122",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Cecy Fortes",
+        "short_name": "UBS Unidade Básica de Saude Cecy Fortes",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8049941,
+          -5.0747897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6524923,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "6524923",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE CHICO RAMOS SATELITE",
+        "addr:street": "Rua Plutao",
+        "addr:suburb": "Satélite",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64059-020",
+        "phone": "+55 86 3222-0409",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Chico Ramos Satélite",
+        "short_name": "UBS Unidade Básica de Saude Chico Ramos Satélite",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7571658,
+          -5.0522605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2443953,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2443953",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE COROATA",
+        "addr:street": "Rua Pi 113 Altura Km 16 Povoado Coroata",
+        "addr:suburb": "Zona Rural",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64001-970",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Coroata",
+        "short_name": "UBS Unidade Básica de Saude Coroata",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.6403427,
+          -4.9502089
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2444003,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2444003",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE DEP ALBERTO MONTEIRO SOINHO",
+        "addr:street": "Estrada Rural Jose de Freitas Teresina",
+        "addr:suburb": "Zona Rural Estrada",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64001-970",
+        "phone": "+55 86 3237-0688",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Dep Alberto Monteiro Soinho",
+        "short_name": "UBS Unidade Básica de Saude Dep Alberto Monteiro Soinho",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7326965,
+          -4.9973556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2406853,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2406853",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE DEP FRANCISCA TRINDADE AGUA MINERAL",
+        "addr:street": "Rua Tenente Luiz Simplicio",
+        "addr:suburb": "Agua Mineral",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64006-270",
+        "phone": "+55 86 3215-9173",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Dep Francisca Trindade Agua Mineral",
+        "short_name": "UBS Unidade Básica de Saude Dep Francisca Trindade Agua Mineral",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8108454,
+          -5.0481112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9382356,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "9382356",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE DIOCINA DE S LIMA NETA PARQUE PIAUI",
+        "addr:street": "Rua Qd 26",
+        "addr:suburb": "Parque Piaui",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64025-090",
+        "phone": "+55 86 3215-7703",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Diocina de S Lima Neta Parque Piaui",
+        "short_name": "UBS Unidade Básica de Saude Diocina de S Lima Neta Parque Piaui",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7885723,
+          -5.141297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6640362,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "6640362",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE DIRCEU I QUADRA 77",
+        "addr:street": "Rua Conj Dirceu Arcoverde I Qd77 Cs12",
+        "addr:suburb": "Itarare",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64077-240",
+        "phone": "+55 86 3236-8883",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Dirceu I Quadra 77",
+        "short_name": "UBS Unidade Básica de Saude Dirceu I Quadra 77",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7559643,
+          -5.0947431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2444216,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2444216",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE DOIS IRMAOS",
+        "addr:street": "Rua Pi 112 Altura Km 13",
+        "addr:suburb": "Zona Rural",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64000-270",
+        "phone": "+55 86 3215-7927",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Dois Irmaos",
+        "short_name": "UBS Unidade Básica de Saude Dois Irmaos",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7920914,
+          -4.8624693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3367096,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "3367096",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE DR ADONIAS R DE CARVALHO MEMORARE",
+        "addr:street": "Rua Sotero Vaz da Silveira",
+        "addr:housenumber": "4511",
+        "addr:suburb": "Memorare",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64008-177",
+        "phone": "+55 86 3215-9177",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Dr Adonias R de Carvalho Memorare",
+        "short_name": "UBS Unidade Básica de Saude Dr Adonias R de Carvalho Memorare",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8211988,
+          -5.0458978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2727013,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2727013",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE DR ANTONIO WAGNER SETUBAL MAMA MIA",
+        "addr:street": "Rua Rod Antonio Medeiros Filho Pi 112 Altura Km 09",
+        "addr:suburb": "Socopo",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64065-990",
+        "phone": "+55 86 3215-9226",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Dr Antonio Wagner Setubal Mama Mia",
+        "short_name": "UBS Unidade Básica de Saude Dr Antonio Wagner Setubal Mama Mia",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7594215,
+          -4.9991497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2593564,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2593564",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE DR AUGUSTO DE CASTRO KM 7",
+        "addr:street": "Rua Inacio Costa Filho",
+        "addr:suburb": "Santo Antonio",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64029-330",
+        "phone": "+55 86 3215-9156",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Dr Augusto de Castro Km 7",
+        "short_name": "UBS Unidade Básica de Saude Dr Augusto de Castro Km 7",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7746865,
+          -5.1581425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6404057,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "6404057",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE DR CARLOS ALBERTO CORDEIRO",
+        "addr:street": "Rua Edmilson Paixao",
+        "addr:suburb": "Dirceuii",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64078-271",
+        "phone": "+55 86 3235-4260",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Dr Carlos Alberto Cordeiro",
+        "short_name": "UBS Unidade Básica de Saude Dr Carlos Alberto Cordeiro",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7588427,
+          -5.1092339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6906427,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "6906427",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE DR CHAGAS MARTINS ESTACA ZERO",
+        "addr:street": "Rua Povoado Lagoinha",
+        "addr:suburb": "Estaca Zero",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64000-120",
+        "phone": "+55 86 3215-7734",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Dr Chagas Martins Estaca Zero",
+        "short_name": "UBS Unidade Básica de Saude Dr Chagas Martins Estaca Zero",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7906859,
+          -4.8957739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2443813,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2443813",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE DR D ARCOVERDE SANTA TERESA",
+        "addr:street": "Rua da Capela Povoado Santa Teresa",
+        "addr:suburb": "Zona Rural",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64058-990",
+        "phone": "+55 86 3215-9212",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Dr D Arcoverde Santa Teresa",
+        "short_name": "UBS Unidade Básica de Saude Dr D Arcoverde Santa Teresa",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.6411474,
+          -4.9868919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2406624,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2406624",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE DR DURVALINO COUTO",
+        "addr:street": "Rua Av Ercinio Fortes",
+        "addr:suburb": "Bela Vista",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64031-090",
+        "phone": "+55 86 3215-9158",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Dr Durvalino Couto",
+        "short_name": "UBS Unidade Básica de Saude Dr Durvalino Couto",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7765131,
+          -5.1352489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2406845,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2406845",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE DR EVALDO CARVALHO NOVA BRASILIA",
+        "addr:street": "Rua Anisio Pires",
+        "addr:suburb": "Nova Brasilia",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64004-550",
+        "phone": "+55 86 3215-9146",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Dr Evaldo Carvalho Nova Brasilia",
+        "short_name": "UBS Unidade Básica de Saude Dr Evaldo Carvalho Nova Brasilia",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8259261,
+          -5.0484919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6901468,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "6901468",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE DR FELIPE EULALIO DE PADUA PROMORAR",
+        "addr:street": "Rua Raimundo Portela Qd61 S N",
+        "addr:housenumber": "61",
+        "addr:suburb": "Promorar",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64027-140",
+        "phone": "+55 86 3220-3188",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Dr Felipe Eulalio de Padua Promorar",
+        "short_name": "UBS Unidade Básica de Saude Dr Felipe Eulalio de Padua Promorar",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7821655,
+          -5.1474247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6652638,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "6652638",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE DR FELIX FRANCISCO PEREIRA BATISTA",
+        "addr:street": "Rua Tio Bentes",
+        "addr:suburb": "Picarreira II",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64055-520",
+        "phone": "+55 86 3234-5993",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Dr Felix Francisco Pereira Batista",
+        "short_name": "UBS Unidade Básica de Saude Dr Felix Francisco Pereira Batista",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7593472,
+          -5.0586652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2444178,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2444178",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE DR FRANCISCO JOSE C SOUSA ININGA",
+        "addr:street": "Rua Esperantina",
+        "addr:suburb": "Planalto Ininga",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64052-415",
+        "phone": "+55 86 3215-9217",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Dr Francisco Jose C Sousa Ininga",
+        "short_name": "UBS Unidade Básica de Saude Dr Francisco Jose C Sousa Ininga",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7785516,
+          -5.0635647
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2444208,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2444208",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE DR FRANCISCO SOARES FILHO SAO PEDRO",
+        "addr:street": "Rua Ministro Pedro Borges",
+        "addr:suburb": "Tabuleta",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64019-650",
+        "phone": "+55 86 3215-9194",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Dr Francisco Soares Filho São Pedro",
+        "short_name": "UBS Unidade Básica de Saude Dr Francisco Soares Filho São Pedro",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7998678,
+          -5.1200144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2443937,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2443937",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE DR HELVIDIO FERRAZ TODOS OS SANTOS",
+        "addr:street": "Rua Av Professor Camilo Filho",
+        "addr:housenumber": "6133",
+        "addr:suburb": "Todos Os Santos",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64089-040",
+        "phone": "+55 86 3215-9207",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Dr Helvidio Ferraz Todos Os Santos",
+        "short_name": "UBS Unidade Básica de Saude Dr Helvidio Ferraz Todos Os Santos",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.715641,
+          -5.1088539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9868054,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "9868054",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE DR JOAQUIM U NETO TERESINA SUL",
+        "addr:street": "Rua 05 Residencial Teresina Sul II",
+        "addr:suburb": "Esplanada",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64040-750",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Dr Joaquim U Neto Teresina Sul",
+        "short_name": "UBS Unidade Básica de Saude Dr Joaquim U Neto Teresina Sul",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7597064,
+          -5.2097671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7117566,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "7117566",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE DR JOSE IVALDO DE OLIVEIRA GURUPI",
+        "addr:street": "Rua Coracao de Maria",
+        "addr:housenumber": "6171",
+        "addr:suburb": "Gurupi",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64091-140",
+        "phone": "+55 86 99438-5833",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Dr Jose Ivaldo de Oliveira Gurupi",
+        "short_name": "UBS Unidade Básica de Saude Dr Jose Ivaldo de Oliveira Gurupi",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7344402,
+          -5.0842745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3549801,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "3549801",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE DR JOSE R DE CARVALHO CIDADE VERDE",
+        "addr:street": "Rua Lucidio Freitas",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64000-440",
+        "phone": "+55 86 3221-0342",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Dr Jose R de Carvalho Cidade Verde",
+        "short_name": "UBS Unidade Básica de Saude Dr Jose R de Carvalho Cidade Verde",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.821187,
+          -5.0828489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5274117,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "5274117",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE DR JOSE WILSON BATISTA VERMELHA",
+        "addr:street": "Rua Doutor João Bastos",
+        "addr:housenumber": "1414",
+        "addr:suburb": "Vermelha",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64018-710",
+        "phone": "+55 86 3215-7755",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Dr Jose Wilson Batista Vermelha",
+        "short_name": "UBS Unidade Básica de Saude Dr Jose Wilson Batista Vermelha",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8082139,
+          -5.1047451
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2407019,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2407019",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE DR LEONIDAS DEOLINDO SACI",
+        "addr:street": "Rua Luiz Rodrigues da Costa",
+        "addr:suburb": "Saci",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64020-397",
+        "phone": "+55 86 3215-9155",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Dr Leonidas Deolindo Saci",
+        "short_name": "UBS Unidade Básica de Saude Dr Leonidas Deolindo Saci",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8012002,
+          -5.1371563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2406519,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2406519",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE DR LEONIDAS MELO CERAMICA CIL",
+        "addr:street": "Rua 20 Povoado Ceramica Cil",
+        "addr:housenumber": "618",
+        "addr:suburb": "Zona Rural",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64041-340",
+        "phone": "+55 86 3215-5190",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Dr Leonidas Melo Ceramica Cil",
+        "short_name": "UBS Unidade Básica de Saude Dr Leonidas Melo Ceramica Cil",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7995801,
+          -5.2770546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2443821,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2443821",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE DR MARIANO MENDES MONTE ALEGRE",
+        "addr:street": "Rua Amadeus Paulo",
+        "addr:housenumber": "3556",
+        "addr:suburb": "Monte Alegre",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64012-235",
+        "phone": "+55 86 3215-9172",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Dr Mariano Mendes Monte Alegre",
+        "short_name": "UBS Unidade Básica de Saude Dr Mariano Mendes Monte Alegre",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8229475,
+          -5.004741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 448958,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "448958",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE DR PEDRO M SOBRINHO PARQUE POTI",
+        "addr:street": "Rua Egidio Mota",
+        "addr:suburb": "Renascenca",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64082-068",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Dr Pedro M Sobrinho Parque Poti",
+        "short_name": "UBS Unidade Básica de Saude Dr Pedro M Sobrinho Parque Poti",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7365294,
+          -5.104669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5352495,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "5352495",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE DRA ONESIMA NASCIMENTO SANTA BARBARA",
+        "addr:street": "Rua Promotor Jose Meton Filho",
+        "addr:suburb": "Arvores Verdes",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64057-600",
+        "phone": "+55 86 3234-2069",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Dra Onesima Nascimento Santa Barbara",
+        "short_name": "UBS Unidade Básica de Saude Dra Onesima Nascimento Santa Barbara",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7289079,
+          -5.0370446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6428010,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "6428010",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE DRA VIRGINIA C BRANCO SANTA CLARA",
+        "addr:street": "Rua Manoel Victor Cordeiro",
+        "addr:housenumber": "6039",
+        "addr:suburb": "Brasilar",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64039-695",
+        "phone": "+55 86 3234-7227",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Dra Virginia C Branco Santa Clara",
+        "short_name": "UBS Unidade Básica de Saude Dra Virginia C Branco Santa Clara",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7624439,
+          -5.1769055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2444089,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2444089",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE ELON CONSTANTINO DE AGUIAR ALEGRIA",
+        "addr:street": "Rua Povoado Alegria",
+        "addr:suburb": "Povoado Alegria",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64039-990",
+        "phone": "+55 86 3215-9159",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Elon Constantino de Aguiar Alegria",
+        "short_name": "UBS Unidade Básica de Saude Elon Constantino de Aguiar Alegria",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7313018,
+          -5.1402605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7832222,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "7832222",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE FERNANDO G C LIMA JACINTA ANDRADE II",
+        "addr:street": "Rua Resid Jacinta Andrade II Qd145",
+        "addr:suburb": "Jacinta Andrade II",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64013-598",
+        "phone": "+55 86 3213-6407",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Fernando G C Lima Jacinta Andrade II",
+        "short_name": "UBS Unidade Básica de Saude Fernando G C Lima Jacinta Andrade II",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.812848,
+          -4.993166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5343054,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "5343054",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE FERNANDO G C LIMA PORTAL DA ALEGRIA",
+        "addr:street": "Rua Jose Miguel Adad",
+        "addr:suburb": "Portal da Alegria II",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64037-445",
+        "phone": "+55 86 3215-7719",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Fernando G C Lima Portal da Alegria",
+        "short_name": "UBS Unidade Básica de Saude Fernando G C Lima Portal da Alegria",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7443789,
+          -5.18896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2444135,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2444135",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE FRANCILIO RIBEIRO DE ALMEIDA ANGELIM",
+        "addr:street": "Rua B",
+        "addr:suburb": "Angelim",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64034-360",
+        "phone": "+55 86 3214-3240",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Francilio Ribeiro de Almeida Angelim",
+        "short_name": "UBS Unidade Básica de Saude Francilio Ribeiro de Almeida Angelim",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8366026,
+          -5.0540079
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2650622,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2650622",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE FRANCIMAR B M MELO CIDADE JARDIM",
+        "addr:street": "Rua Pedra Branca",
+        "addr:suburb": "Bairro Cidade Jardim",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64066-100",
+        "phone": "+55 86 3215-7713",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Francimar B M Melo Cidade Jardim",
+        "short_name": "UBS Unidade Básica de Saude Francimar B M Melo Cidade Jardim",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7745582,
+          -5.015173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2444127,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2444127",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE GIL MARTINS USINA SANTANA",
+        "addr:street": "Estrada da Usina Santana Altura Km 12",
+        "addr:suburb": "Usina Santana",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64095-080",
+        "phone": "+55 86 3235-9540",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Gil Martins Usina Santana",
+        "short_name": "UBS Unidade Básica de Saude Gil Martins Usina Santana",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.72892,
+          -5.1051785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2444224,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2444224",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE GUIOMAR CARVALHO SANTA LUZ",
+        "addr:street": "Rua Povoado Santa Luz",
+        "addr:suburb": "Santa Luz",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64001-970",
+        "phone": "+55 86 3215-7873",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Guiomar Carvalho Santa Luz",
+        "short_name": "UBS Unidade Básica de Saude Guiomar Carvalho Santa Luz",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.75527,
+          -4.9452065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7778163,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "7778163",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE HENRIQUE M C BRANCO VALE DO GAVIAO",
+        "addr:street": "Rua Luiz Antonio Sousa",
+        "addr:suburb": "Vale do Gavião",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64069-205",
+        "phone": "+55 86 3231-5564",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Henrique M C Branco Vale do Gavião",
+        "short_name": "UBS Unidade Básica de Saude Henrique M C Branco Vale do Gavião",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.739754,
+          -5.0301042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2444062,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2444062",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE IRMA DULCE",
+        "addr:street": "Rua Santa Francisca Cabrini",
+        "addr:suburb": "Angelim",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64040-315",
+        "phone": "+55 86 3219-3850",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Irma Dulce",
+        "short_name": "UBS Unidade Básica de Saude Irma Dulce",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7737692,
+          -5.1909001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2407051,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2407051",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE IVAN SOBRAL V A FILHO NOVO HORIZONTE",
+        "addr:street": "Rua Santo Estevao",
+        "addr:suburb": "Novo Horizonte",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64079-115",
+        "phone": "+55 86 3215-9209",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Ivan Sobral V A Filho Novo Horizonte",
+        "short_name": "UBS Unidade Básica de Saude Ivan Sobral V A Filho Novo Horizonte",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7513513,
+          -5.1140303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2444186,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2444186",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE JOAO CIRILO BOA HORA",
+        "addr:street": "Rua Povoado Boa Hora",
+        "addr:suburb": "Zona Rural",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64001-970",
+        "phone": "+55 86 3238-1066",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude João Cirilo Boa Hora",
+        "short_name": "UBS Unidade Básica de Saude João Cirilo Boa Hora",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8737485,
+          -4.893652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5346150,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "5346150",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE JOSE ADAIL FONSECA DE CASTRO TAQUARI",
+        "addr:street": "Rua Engenheiro Ribamar Machado",
+        "addr:suburb": "Vale Quem Tem",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64057-144",
+        "phone": "+55 86 3231-4879",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Jose Adail Fonseca de Castro Taquari",
+        "short_name": "UBS Unidade Básica de Saude Jose Adail Fonseca de Castro Taquari",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7463027,
+          -5.0426705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6428045,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "6428045",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE JOSE CANDIDO DE M JUNIOR C SILVA",
+        "addr:street": "Rua Av Governador Eduardo Campos Rua 11 de Junho",
+        "addr:suburb": "Areias",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64028-605",
+        "phone": "+55 86 3220-1366",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Jose Candido de M Junior C Silva",
+        "short_name": "UBS Unidade Básica de Saude Jose Candido de M Junior C Silva",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7905436,
+          -5.1590321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3722090,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "3722090",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE JOSE DE ARIMATEA DOS SANTOS BETINHO",
+        "addr:street": "Rua Acesita",
+        "addr:housenumber": "3642",
+        "addr:suburb": "Alto Bonito",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64034-440",
+        "phone": "+55 86 3227-0900",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Jose de Arimatea dos Santos Betinho",
+        "short_name": "UBS Unidade Básica de Saude Jose de Arimatea dos Santos Betinho",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7819811,
+          -5.1603878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5358248,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "5358248",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE JOSE ERCULES DA CUNHA DEUS QUER",
+        "addr:street": "Rua Cecy Nepomuceno Pires",
+        "addr:suburb": "Bom Principio",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64095-050",
+        "phone": "+55 86 3235-9262",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Jose Ercules da Cunha Deus Quer",
+        "short_name": "UBS Unidade Básica de Saude Jose Ercules da Cunha Deus Quer",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7015212,
+          -5.1192958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7577222,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "7577222",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE KARLA IVANA DE MELO CAMPOS MATADOURO",
+        "addr:street": "Rua Riachuelo",
+        "addr:housenumber": "3024",
+        "addr:suburb": "Matadouro",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64002-160",
+        "phone": "+55 86 3217-3941",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Karla Ivana de Melo Campos Matadouro",
+        "short_name": "UBS Unidade Básica de Saude Karla Ivana de Melo Campos Matadouro",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8286724,
+          -5.0678717
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5286239,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "5286239",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE LINDALMA C SOARES DAGMAR MAZZA",
+        "addr:street": "Rua Av Agricolandia",
+        "addr:suburb": "Santo Antonio",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64032-435",
+        "phone": "+55 86 3215-9240",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Lindalma C Soares Dagmar Mazza",
+        "short_name": "UBS Unidade Básica de Saude Lindalma C Soares Dagmar Mazza",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7616858,
+          -5.1571116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7380208,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "7380208",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE LUIZ G PIRES TABOCA DO PAU FERRADO",
+        "addr:street": "Rua Povoado Taboca do Pau Ferrado",
+        "addr:suburb": "Povoado Tabocas",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64090-990",
+        "phone": "+55 86 3216-1517",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Luiz G Pires Taboca do Pau Ferrado",
+        "short_name": "UBS Unidade Básica de Saude Luiz G Pires Taboca do Pau Ferrado",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.6822281,
+          -5.0589266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2588846,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2588846",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE MANOEL AYRES NETO PARQUE WALL FERRAZ",
+        "addr:street": "Rua Av Ministro Sérgio Mota",
+        "addr:suburb": "Santa Maria",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64012-780",
+        "phone": "+55 86 3225-6363",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Manoel Ayres Neto Parque Wall Ferraz",
+        "short_name": "UBS Unidade Básica de Saude Manoel Ayres Neto Parque Wall Ferraz",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8309298,
+          -4.9869133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3520676,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "3520676",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE MARCOS G DA SILVEIRA NOVA TERESINA",
+        "addr:street": "Rua Av Caio Lustosa Filho Av Jango",
+        "addr:suburb": "Aroeiras",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64011-770",
+        "phone": "+55 86 3231-6746",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Marcos G da Silveira Nova Teresina",
+        "short_name": "UBS Unidade Básica de Saude Marcos G da Silveira Nova Teresina",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7956096,
+          -5.0124517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2588862,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2588862",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE MARIA DE JESUS CARVALHO PORTO ALEGRE",
+        "addr:street": "Rua Antonio Lisboa Pereira",
+        "addr:suburb": "Conjunto Porto Alegr",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64039-695",
+        "phone": "+55 86 3215-9197",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Maria de Jesus Carvalho Porto Alegre",
+        "short_name": "UBS Unidade Básica de Saude Maria de Jesus Carvalho Porto Alegre",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7568914,
+          -5.1942961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5347351,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "5347351",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE MARIA DULCE CUNHA SAO JOAO",
+        "addr:street": "Rua Agripino Maranhao Praca do Quinto Dp",
+        "addr:suburb": "Noivos",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64046-230",
+        "phone": "+55 86 3234-7843",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Maria Dulce Cunha São João",
+        "short_name": "UBS Unidade Básica de Saude Maria Dulce Cunha São João",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7786008,
+          -5.0870802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2444097,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2444097",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE MARIA TERESA DE MELO COSTA MAFRENSE",
+        "addr:street": "Rua Rui Barbosa",
+        "addr:suburb": "Mafrense",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64002-180",
+        "phone": "+55 86 3215-9171",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Maria Teresa de Melo Costa Mafrense",
+        "short_name": "UBS Unidade Básica de Saude Maria Teresa de Melo Costa Mafrense",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8313053,
+          -5.0475555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5352444,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "5352444",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE MARLENE D DE MOURA FE REDONDA",
+        "addr:street": "Rua Tijuca",
+        "addr:suburb": "Renascenca",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64082-530",
+        "phone": "+55 86 3231-1438",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Marlene D de Moura Fe Redonda",
+        "short_name": "UBS Unidade Básica de Saude Marlene D de Moura Fe Redonda",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7421758,
+          -5.0930586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9990224,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "9990224",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE MIRTES DAS NEVES MOURA HUGO PRADO",
+        "addr:street": "Avenida Mestre Dezinho",
+        "addr:housenumber": "2850",
+        "addr:suburb": "Morada Nova",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64023-265",
+        "phone": "+55 86 99490-8868",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Mirtes das Neves Moura Hugo Prado",
+        "short_name": "UBS Unidade Básica de Saude Mirtes das Neves Moura Hugo Prado",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7817615,
+          -5.1208294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2406780,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2406780",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE NOSSA SENHORA DA GUIA",
+        "addr:street": "Rua Vereador Emilio Ommati",
+        "addr:suburb": "Beira Rio",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64075-520",
+        "phone": "+55 86 3215-9219",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Nossa Senhora da Guia",
+        "short_name": "UBS Unidade Básica de Saude Nossa Senhora da Guia",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7737343,
+          -5.108566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2443848,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2443848",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE NOSSA SENHORA DA PAZ",
+        "addr:street": "Rua Santa Maria Gorete",
+        "addr:suburb": "Vila da Paz",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64016-540",
+        "phone": "+55 86 3218-1779",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Nossa Senhora da Paz",
+        "short_name": "UBS Unidade Básica de Saude Nossa Senhora da Paz",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7887415,
+          -5.1167626
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7160232,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "7160232",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE PADRE MARIO ROCCHI PARQUE ESPERANCA",
+        "addr:street": "Rua Ceara",
+        "addr:suburb": "Extrema",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64076-438",
+        "phone": "+55 86 3235-4599",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Padre Mario Rocchi Parque Esperança",
+        "short_name": "UBS Unidade Básica de Saude Padre Mario Rocchi Parque Esperança",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7549811,
+          -5.1202938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5509904,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "5509904",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE PARQUE FLAMBOYANT",
+        "addr:street": "Rua Jornalista Ral Qd 102",
+        "addr:housenumber": "07",
+        "addr:suburb": "Itarare",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64077-775",
+        "phone": "+55 86 3235-4171",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Parque Flamboyant",
+        "short_name": "UBS Unidade Básica de Saude Parque Flamboyant",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7587419,
+          -5.0969513
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5221005,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "5221005",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE PARQUE PIONEIRO SANTO ANTONIO",
+        "addr:street": "Rua Delma Basilio",
+        "addr:housenumber": "2396",
+        "addr:suburb": "Santo Antonio",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64028-398",
+        "phone": "+55 86 3215-9241",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Parque Pioneiro Santo Antonio",
+        "short_name": "UBS Unidade Básica de Saude Parque Pioneiro Santo Antonio",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7752337,
+          -5.1502168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2443988,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2443988",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE PICARREIRA",
+        "addr:street": "Rua Av João Antonio Leitao",
+        "addr:housenumber": "4577",
+        "addr:suburb": "Picarreira I",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64025-530",
+        "phone": "+55 86 3215-9216",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Picarreira",
+        "short_name": "UBS Unidade Básica de Saude Picarreira",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7596474,
+          -5.0642167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2406063,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2406063",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE PLANALTO URUGUAI",
+        "addr:street": "Rua Volta Redonda",
+        "addr:housenumber": "6955",
+        "addr:suburb": "Vale Quem Tem",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64057-293",
+        "phone": "+55 46 86215-9202",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Planalto Uruguai",
+        "short_name": "UBS Unidade Básica de Saude Planalto Uruguai",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7382272,
+          -5.0506922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5408040,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "5408040",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE RAIMUNDO MENDES VIEIRA ATALAIA",
+        "addr:street": "Rua Pi 368 Km 28 Povoado Atalaia",
+        "addr:suburb": "Zona Rural",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64000-120",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Raimundo Mendes Vieira Atalaia",
+        "short_name": "UBS Unidade Básica de Saude Raimundo Mendes Vieira Atalaia",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.6232624,
+          -5.0773508
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7190549,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "7190549",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE RAIMUNDO N D R MEDEIROS REAL COPAGRE",
+        "addr:street": "Rua Sotero Vaz da Silveira",
+        "addr:suburb": "Real Copagre",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64006-195",
+        "phone": "+55 86 3214-1980",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Raimundo N D R Medeiros Real Copagre",
+        "short_name": "UBS Unidade Básica de Saude Raimundo N D R Medeiros Real Copagre",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8166855,
+          -5.0549087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2443996,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2443996",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE REGINALDO M CASTRO RENASCENCA",
+        "addr:street": "Rua Dr Pedro Teixeira",
+        "addr:suburb": "Parque Itarare",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64077-785",
+        "phone": "+55 86 3236-1021",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Reginaldo M Castro Renascenca",
+        "short_name": "UBS Unidade Básica de Saude Reginaldo M Castro Renascenca",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7541146,
+          -5.1076872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2406039,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2406039",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE SANTA MARIA DA CODIPI",
+        "addr:street": "Rua Conceicao Vieira",
+        "addr:suburb": "Santa Maria da Codip",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64012-460",
+        "phone": "+55 86 3215-9196",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Santa Maria da Codipi",
+        "short_name": "UBS Unidade Básica de Saude Santa Maria da Codipi",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8429085,
+          -4.9836053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2406632,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2406632",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE SAO CAMILO LOURIVAL PARENTE",
+        "addr:street": "Rua Epitacio Pessoa",
+        "addr:housenumber": "2085",
+        "addr:suburb": "Lourival Parente",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64023-400",
+        "phone": "+55 86 3215-9160",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude São Camilo Lourival Parente",
+        "short_name": "UBS Unidade Básica de Saude São Camilo Lourival Parente",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.792595,
+          -5.133805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2406985,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2406985",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE SERGIO L CHANTAL NUNES TRES ANDARES",
+        "addr:street": "Rua Fr Cassiane de Brito Esq Com Orgmar Monteiro",
+        "addr:suburb": "Tres Andares",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64016-620",
+        "phone": "+55 86 3215-9193",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Sérgio L Chantal Nunes Tres Andares",
+        "short_name": "UBS Unidade Básica de Saude Sérgio L Chantal Nunes Tres Andares",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7842808,
+          -5.110949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6924603,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "6924603",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE TANIA M MELO RODRIGUES MONTE CASTELO",
+        "addr:street": "Rua Zito Batista",
+        "addr:housenumber": "420",
+        "addr:suburb": "Monte Castelo",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64017-350",
+        "phone": "+55 86 3215-7792",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Tania M Melo Rodrigues Monte Castelo",
+        "short_name": "UBS Unidade Básica de Saude Tania M Melo Rodrigues Monte Castelo",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7946229,
+          -5.103767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7249322,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "7249322",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE VER VALDINAR PEREIRA MOCAMBINHO",
+        "addr:street": "Rua Coronel Angelo Paz",
+        "addr:suburb": "Loteamento Mocambinh",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64010-510",
+        "phone": "+55 86 3224-3691",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Ver Valdinar Pereira Mocambinho",
+        "short_name": "UBS Unidade Básica de Saude Ver Valdinar Pereira Mocambinho",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8147657,
+          -5.0212194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2444038,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2444038",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE VILA BANDEIRANTE",
+        "addr:street": "Rua Dom Bosco em Frente A Praca",
+        "addr:suburb": "Vila Bandeirante II",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64059-370",
+        "phone": "+55 86 3215-9201",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Vila Bandeirante",
+        "short_name": "UBS Unidade Básica de Saude Vila Bandeirante",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7515364,
+          -5.0504196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5312450,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "5312450",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE VILA CONFIANCA",
+        "addr:street": "Rua Pedro II",
+        "addr:housenumber": "1700",
+        "addr:suburb": "Macauba",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64016-084",
+        "phone": "+55 86 3215-1616",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Vila Confianca",
+        "short_name": "UBS Unidade Básica de Saude Vila Confianca",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7982122,
+          -5.1147666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2360675,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2360675",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE VILA DO AVIAO",
+        "addr:street": "Rua Mestre Santos",
+        "addr:housenumber": "1382",
+        "addr:suburb": "Tabajaras Vila do",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64067-560",
+        "phone": "+55 86 3230-3493",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Vila do Aviao",
+        "short_name": "UBS Unidade Básica de Saude Vila do Aviao",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7822423,
+          -5.0074023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7298323,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "7298323",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE XAVIER NETO MARIO COVAS",
+        "addr:street": "Rua Jornalista Humberto Leal",
+        "addr:suburb": "Angelim",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64034-622",
+        "phone": "+55 86 3219-5524",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Xavier Neto Mario Covas",
+        "short_name": "UBS Unidade Básica de Saude Xavier Neto Mario Covas",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7733481,
+          -5.1723916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8518726,
+      "properties": {
+        "operator": "Governo do Estado (PI)",
+        "operator:type": "public",
+        "ref:CNES": "8518726",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL DE EXAMES TERESINA",
+        "addr:street": "Avenida Higino Cunha",
+        "addr:housenumber": "1552",
+        "addr:suburb": "Ilhotas",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64014-220",
+        "email": "arnaldofernandes@uol.com.br",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7881002,
+          -5.0954432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2323494,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2323494",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO INTEGRADO DE SAUDE LINEU ARAUJO",
+        "addr:street": "Rua Magalhaes Filho",
+        "addr:housenumber": "152",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64001-350",
+        "phone": "+55 86 3215-9131",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.809613,
+          -5.0832837
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2323451,
+      "properties": {
+        "operator": "Governo do Estado (PI)",
+        "operator:type": "public",
+        "ref:CNES": "2323451",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL DA POLICIA MILITAR DIRCEU ARCOVERDE",
+        "addr:street": "Rua Higino Cunha",
+        "addr:housenumber": "1642",
+        "addr:suburb": "Ilhotas",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64014-220",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital da Policia Militar Dirceu Arcoverde",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7961382,
+          -5.0956238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2323524,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2323524",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL GERAL DO MONTE CASTELO",
+        "addr:street": "Rua Antonio Cavour de Miranda",
+        "addr:housenumber": "357",
+        "addr:suburb": "Monte Castelo",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64017-310",
+        "phone": "+55 86 3219-9123",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Geral do Monte Castelo",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7960891,
+          -5.1043853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2726971,
+      "properties": {
+        "operator": "Governo do Estado (PI)",
+        "operator:type": "public",
+        "ref:CNES": "2726971",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL GETULIO VARGAS",
+        "addr:street": "Rua Frei Serafim",
+        "addr:housenumber": "2352",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64001-020",
+        "email": "celso.carlos@saude.pi.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Getulio Vargas",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.802,
+          -5.089
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2727064,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2727064",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "MATERNIDADE MUNICIPAL PROF WALL FERRAZ",
+        "addr:street": "Rua Q211",
+        "addr:suburb": "Itarare",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64078-160",
+        "phone": "+55 86 9496-0275",
+        "email": "diretorawall@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Maternidade Municipal Prof Wall Ferraz",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8049571,
+          -5.0874608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2323443,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2323443",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE ALBERTO NETO PRONTO SOCORRO DIRCEU II",
+        "addr:street": "Rua Quadra 250 Casa 50",
+        "addr:housenumber": "50",
+        "addr:suburb": "Dirceu II",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64078-250",
+        "phone": "+55 86 3236-1660",
+        "email": "u.s.albertonetodirceu2@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade de Saude Alberto Neto Pronto Socorro Dirceu II",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.75391,
+          -5.10174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2679647,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2679647",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE BUENOS AIRES",
+        "addr:street": "Rua Castelo do Piaui",
+        "addr:housenumber": "3292",
+        "addr:suburb": "Buenos Aires",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64008-540",
+        "phone": "+55 86 3225-7124",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade de Saude Buenos Aires",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8161222,
+          -5.0386996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9131922,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "9131922",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE PROMORAR",
+        "addr:street": "Rua Deputado Ulisses Guimaraes",
+        "addr:suburb": "Promorar",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64027-330",
+        "phone": "+55 86 3220-3536",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade de Saude Promorar",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.785699,
+          -5.1508055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2679639,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2679639",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE SATELITE",
+        "addr:street": "Rua Aveida Rotary Club",
+        "addr:suburb": "Satélite",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64059-490",
+        "phone": "+55 86 3231-5843",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade de Saude Satélite",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8068,
+          -5.0646
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2679671,
+      "properties": {
+        "operator": "Governo do Estado (PI)",
+        "operator:type": "public",
+        "ref:CNES": "2679671",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE INTEGRADA DO MOCAMBINHO",
+        "addr:street": "Rua Av Pref Freitas Neto",
+        "addr:suburb": "Mocambinho 1",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64010-100",
+        "phone": "+55 86 3216-3681",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Integrada do Mocambinho",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8157345,
+          -5.0298016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5973457,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "5973457",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE MISTA DE SAUDE MARIANO GAYOSO CASTELO BRANCO",
+        "addr:street": "Avenida Francisco Nogueira",
+        "addr:suburb": "Francisca Trindade",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64012-336",
+        "phone": "+55 86 3198-3711",
+        "email": "dgmarianogayoso@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Mista de Saude Mariano Gayoso Castelo Branco",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8329744,
+          -4.9963353
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2323346,
+      "properties": {
+        "operator": "Governo do Estado (PI)",
+        "operator:type": "public",
+        "ref:CNES": "2323346",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL AREOLINO DE ABREU",
+        "addr:street": "Rua Joe Soares Ferry",
+        "addr:housenumber": "2420",
+        "addr:suburb": "Primavera",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64002-520",
+        "phone": "+55 46 86226-2399",
+        "email": "haapsiquiatria@ig.com.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Areolino de Abreu",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.81192,
+          -5.04974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2323249,
+      "properties": {
+        "operator": "Governo do Estado (PI)",
+        "operator:type": "public",
+        "ref:CNES": "2323249",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL INFANTIL LUCIDIO PORTELLA",
+        "addr:street": "Rua Gov Artur de Vasconcelos",
+        "addr:housenumber": "220",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64001-450",
+        "phone": "+55 86 3226-1811",
+        "email": "hilpdta@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Infantil Lucidio Portella",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8033781,
+          -5.0890847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2323338,
+      "properties": {
+        "operator": "Governo do Estado (PI)",
+        "operator:type": "public",
+        "ref:CNES": "2323338",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "INSTITUTO DE DOENCAS TROPICAIS NATAN PORTELLA",
+        "addr:street": "Rua Gov Raimundo Artur de Vasconcelos",
+        "addr:housenumber": "151",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64001-450",
+        "phone": "+55 86 3221-3413",
+        "email": "secretariaidtnp@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Instituto de Doencas Tropicais Natan Portella",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8035605,
+          -5.0882512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2323397,
+      "properties": {
+        "operator": "Governo do Estado (PI)",
+        "operator:type": "public",
+        "ref:CNES": "2323397",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "MATERNIDADE DONA EVANGELINA ROSA",
+        "addr:street": "Rua Av Presidente Kennedy",
+        "addr:housenumber": "1160",
+        "addr:suburb": "Morada do Sol",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64056-375",
+        "phone": "+55 86 3142-0574",
+        "email": "mderosa@bol.com.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Maternidade Dona Evangelina Rosa",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7709523,
+          -5.071701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2727056,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2727056",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE PARQUE PIAUI",
+        "addr:street": "Rua Marechal Rondon",
+        "addr:housenumber": "6262",
+        "addr:suburb": "Parque Piaui",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64025-100",
+        "phone": "+55 86 3215-7727",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade de Saude Parque Piaui",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7914771,
+          -5.1411581
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2323427,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2323427",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE MATADOURO",
+        "addr:street": "Rua Rui Barbosa",
+        "addr:suburb": "Matadouro",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64002-180",
+        "phone": "+55 86 3215-9147",
+        "email": "rh.ozeassampaio@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade de Saude Matadouro",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.81473,
+          -5.09408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2323354,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2323354",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE PRIMAVERA",
+        "addr:street": "Avenida Duque de Caxias",
+        "addr:housenumber": "2661",
+        "addr:suburb": "Primavera",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64002-600",
+        "phone": "+55 86 3214-3321",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade de Saude Primavera",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.81097,
+          -5.04526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5828856,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "5828856",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE URGENCIA DE TERESINA PROF ZENON ROCHA HUT",
+        "addr:street": "Rua Doutor Otto Tito",
+        "addr:housenumber": "1820",
+        "addr:suburb": "Redencao",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64017-775",
+        "phone": "+55 86 3218-5199",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade de Urgencia de Teresina Prof Zenon Rocha Hut",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.79383,
+          -5.11912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3985563,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "3985563",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ESPECIALIDADES ODONT MARIA JULIA CHAVES CEO II",
+        "addr:street": "Avenida Barao de Gurgueia",
+        "addr:housenumber": "1327",
+        "addr:suburb": "Centro Sul",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64000-110",
+        "phone": "+55 86 99454-4472",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Centro de Especialidades Odontológicas (CEO)",
+        "short_name": "CEO",
+        "comment": "Odontologia (CEO)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.810428,
+          -5.1030748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3363899,
+      "properties": {
+        "operator": "Governo do Estado (PI)",
+        "operator:type": "public",
+        "ref:CNES": "3363899",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE REFERENCIA EM SAUDE DO TRABALHADOR CEREST",
+        "addr:street": "Rua Av Pernambuco",
+        "addr:housenumber": "2464",
+        "addr:suburb": "Primavera",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64003-665",
+        "phone": "+55 86 3216-3661",
+        "email": "visa@saude.pi.gov.br",
+        "amenity": "clinic",
+        "healthcare": "occupational_health",
+        "name": "CEREST Macro Centro Sul",
+        "short_name": "CEREST",
+        "comment": "Saúde do Trabalhador (CEREST)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8224754,
+          -5.0740165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9608575,
+      "properties": {
+        "operator": "Governo do Estado (PI)",
+        "operator:type": "public",
+        "ref:CNES": "9608575",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE TEST E ACONSELHAMENTO EM DSTAIDS CTA ESTADUA",
+        "addr:street": "Rua Vinte e Quatro de Janeiro",
+        "addr:housenumber": "124",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64018-650",
+        "phone": "+55 86 3216-2046",
+        "email": "cta.pi.the@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Test e Aconselhamento em Dstaids Cta Estadua",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8117895,
+          -5.0895336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9216138,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "9216138",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO MUNICIPAL DE ATENDIMENTO MULTIDISCIPLINAR",
+        "addr:street": "Rua Desembargador Freitas",
+        "addr:housenumber": "1599",
+        "addr:suburb": "Cenro Norte",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64000-240",
+        "phone": "+55 86 3194-6756",
+        "email": "cmamteresina@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro Municipal de Atendimento Multidisciplinar",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8137839,
+          -5.0859763
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4823389,
+      "properties": {
+        "operator": "Governo do Estado (PI)",
+        "operator:type": "public",
+        "ref:CNES": "4823389",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CEREST ENTRE RIOS",
+        "addr:street": "Rua 24 de Janeiro",
+        "addr:housenumber": "124",
+        "addr:suburb": "Centro Norte",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64016-903",
+        "phone": "+55 86 98862-3734",
+        "email": "cerestentreruis@saude.pi.gov.br",
+        "amenity": "clinic",
+        "healthcare": "occupational_health",
+        "name": "CEREST Macro Centro Sul",
+        "short_name": "CEREST",
+        "comment": "Saúde do Trabalhador (CEREST)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8119137,
+          -5.0895546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4269772,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "4269772",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PRO VIDA",
+        "addr:street": "Rua Alvaro Mendes",
+        "addr:housenumber": "1557",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64000-070",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Pro Vida",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8171522,
+          -5.0924224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2679876,
+      "properties": {
+        "operator": "Governo do Estado (PI)",
+        "operator:type": "public",
+        "ref:CNES": "2679876",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "LABORATORIO DE CITOPATOLOGIA SESAPI",
+        "addr:street": "Rua Coelho Rodrigues",
+        "addr:housenumber": "1510",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64000-120",
+        "phone": "+55 46 86221-2952",
+        "email": "citopatologia@lacen.pi.gov.br",
+        "amenity": "clinic",
+        "healthcare": "diagnostic_centre",
+        "name": "Laboratorio de Citopatologia Sesapi",
+        "comment": "Diagnóstico por Imagem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.4528079,
+          -5.0495774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7783663,
+      "properties": {
+        "operator": "Governo do Estado (PI)",
+        "operator:type": "public",
+        "ref:CNES": "7783663",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CARRETA DA MAMA 01",
+        "addr:street": "Rua Av Pedro Freitas",
+        "addr:suburb": "São Pedro",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64018-900",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Carreta da Mama 01",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8115153,
+          -5.1115007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7783671,
+      "properties": {
+        "operator": "Governo do Estado (PI)",
+        "operator:type": "public",
+        "ref:CNES": "7783671",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CARRETA DA MAMA 02",
+        "addr:street": "Rua Av Pedro Freitas",
+        "addr:suburb": "São Pedro",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64018-900",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Carreta da Mama 02",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8114542,
+          -5.1116276
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4324315,
+      "properties": {
+        "operator": "Governo do Estado (PI)",
+        "operator:type": "public",
+        "ref:CNES": "4324315",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CARRETINHA DA SAUDE I",
+        "addr:street": "Rua Av Prdro Freitas",
+        "addr:suburb": "São Pedro",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64018-900",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Carretinha da Saude I",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8130233,
+          -5.1128405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4324366,
+      "properties": {
+        "operator": "Governo do Estado (PI)",
+        "operator:type": "public",
+        "ref:CNES": "4324366",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CARRETINHA DA SAUDE II",
+        "addr:street": "Avenida Pedro Freitas",
+        "addr:suburb": "São Pedro",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64018-900",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Carretinha da Saude II",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8130984,
+          -5.1126802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7957211,
+      "properties": {
+        "operator": "Governo do Estado (PI)",
+        "operator:type": "public",
+        "ref:CNES": "7957211",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "OFICINA ORTOPEDICA ITINERANTE TERRESTRE",
+        "addr:street": "Rua Av Higinho Cunha",
+        "addr:housenumber": "1515",
+        "addr:suburb": "Ilhotas",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64014-220",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Oficina Ortopedica Itinerante Terrestre",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.78795,
+          -5.0944707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4537939,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "4537939",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "MOTOLANCIA 2914",
+        "addr:street": "Rua Castelo do Piaui",
+        "addr:housenumber": "3292",
+        "addr:suburb": "Buenos Aires",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64008-540",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.81002,
+          -5.03826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4526023,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "4526023",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "MOTOLANCIA PRO 2913",
+        "addr:street": "Rua Castelo do Piaui",
+        "addr:housenumber": "3292",
+        "addr:suburb": "Buenos Aires",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64008-540",
+        "phone": "+55 86 3225-7124",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8099927,
+          -5.0382443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8514879,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "8514879",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PRO 2906",
+        "addr:street": "Rua Luis Ferraz",
+        "addr:housenumber": "3390",
+        "addr:suburb": "Macauba",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64016-860",
+        "phone": "+55 46 3218-9300",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7981325,
+          -5.1164546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7224613,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "7224613",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU TERESINA MOTOLANCIA 2909",
+        "addr:street": "Rua Rui Barbosa",
+        "addr:suburb": "Matadouro",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64000-090",
+        "phone": "+55 86 3215-9147",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.81656,
+          -5.09072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7224621,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "7224621",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU TERESINA MOTOLANCIA 2910",
+        "addr:street": "Rua Rotary Club",
+        "addr:housenumber": "4265",
+        "addr:suburb": "Satélite",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64059-490",
+        "phone": "+55 86 3215-9203",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7599483,
+          -5.050012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7222424,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "7222424",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU TERESINA USA 2897 OZEAS SAMPAIO",
+        "addr:street": "Rua Rui Barbosa",
+        "addr:suburb": "Matadouro",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64000-090",
+        "phone": "+55 86 3215-9147",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8249911,
+          -5.0738584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7222300,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "7222300",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU TERESINA USA 2903 CENTRAL",
+        "addr:street": "Rua Luiz Ferraz",
+        "addr:housenumber": "3390",
+        "addr:suburb": "Macauba",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64016-860",
+        "phone": "+55 86 3229-3537",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7959161,
+          -5.1200645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9695567,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "9695567",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU TERESINA USA 2908 UPA SATELITE",
+        "addr:street": "Rua Saturno",
+        "addr:housenumber": "4281",
+        "addr:suburb": "Satélite",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64059-130",
+        "phone": "+55 86 3218-2880",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "emergency": "yes",
+        "opening_hours": "24/7",
+        "name": "UPA 24 Horas Maria Itália Freddo",
+        "short_name": "UPA 24h",
+        "comment": "UPA 24h"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.75968,
+          -5.04924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7222157,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "7222157",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU TERESINA USB 2896 UPA PROMORAR",
+        "addr:street": "Avenida Ulisses Guimaraes",
+        "addr:suburb": "Promorar",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64027-330",
+        "phone": "+55 86 3215-7862",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "emergency": "yes",
+        "opening_hours": "24/7",
+        "name": "UPA 24 Horas Maria Itália Freddo",
+        "short_name": "UPA 24h",
+        "comment": "UPA 24h"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.78345,
+          -5.1496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7222246,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "7222246",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU TERESINA USB 2898 BUENOS AIRES",
+        "addr:street": "Rua Miguel Alves",
+        "addr:suburb": "Buenos Aires",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64009-330",
+        "phone": "+55 86 3215-9176",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8152767,
+          -5.0430703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7222254,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "7222254",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU TERESINA USB 2899 SATELITE",
+        "addr:street": "Rua Rotary Club",
+        "addr:housenumber": "4265",
+        "addr:suburb": "Satélite",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64059-490",
+        "phone": "+55 86 3215-9203",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.759921,
+          -5.0499963
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7222262,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "7222262",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU TERESINA USB 2900 MONTE CASTELO",
+        "addr:street": "Rua Vitor Batista",
+        "addr:suburb": "Monte Castelo",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64017-350",
+        "phone": "+55 86 3215-9123",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.79542,
+          -5.10494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7222270,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "7222270",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU TERESINA USB 2901 PROMORAR",
+        "addr:street": "Avenida Ulisses Guimaraes",
+        "addr:suburb": "Promorar",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64027-330",
+        "phone": "+55 86 3215-9153",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7834227,
+          -5.1495843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7276249,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "7276249",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU TERESINA USB 2902 HOSPITAL DO MONTE CASTELO",
+        "addr:street": "Rua Antonio Cavour de Miranda",
+        "addr:housenumber": "357",
+        "addr:suburb": "Monte Castelo",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64017-310",
+        "phone": "+55 86 3236-4656",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.79563,
+          -5.10375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7276257,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "7276257",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU TERESINA USB 2904 MARIANO CASTELO BRANCO",
+        "addr:street": "Rua Alameda Francisco Nogueira",
+        "addr:suburb": "Santa Rosa",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64012-000",
+        "phone": "+55 83 3215-1151",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.74739,
+          -5.13925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7222327,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "7222327",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU TERESINA USB 2905 UPA RENASCENCA",
+        "addr:street": "Avenida Noe Mendes",
+        "addr:suburb": "Renascenca",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64083-015",
+        "phone": "+55 86 3234-7074",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "emergency": "yes",
+        "opening_hours": "24/7",
+        "name": "UPA 24 Horas Maria Itália Freddo",
+        "short_name": "UPA 24h",
+        "comment": "UPA 24h"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7319876,
+          -5.0987672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9038612,
+      "properties": {
+        "operator": "Governo do Estado (PI)",
+        "operator:type": "public",
+        "ref:CNES": "9038612",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SERVICO DE TRANSPORTE AEROMEDICO DO ESTADO DO PIAUI",
+        "addr:street": "Rua Av Senador Petronio Portela",
+        "addr:suburb": "Aeroporto",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64006-700",
+        "phone": "+55 86 3233-8206",
+        "email": "coordenacao.samu@saude.pi.gov.br",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.822116,
+          -5.0595438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8303673,
+      "properties": {
+        "operator": "Governo do Estado (PI)",
+        "operator:type": "public",
+        "ref:CNES": "8303673",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SUPORTE AVANCADO USA 01",
+        "addr:street": "Rua Jilo",
+        "addr:housenumber": "3317",
+        "addr:suburb": "Itarare",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64078-005",
+        "email": "coordenacao@samu.pi.gov.br",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192 - Suporte Avançado (USA)",
+        "short_name": "SAMU USA",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7640998,
+          -5.0968805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8303703,
+      "properties": {
+        "operator": "Governo do Estado (PI)",
+        "operator:type": "public",
+        "ref:CNES": "8303703",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SUPORTE AVANCADO USA 02",
+        "addr:street": "Rua Jilo",
+        "addr:housenumber": "3317",
+        "addr:suburb": "Itarare",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64078-005",
+        "phone": "+55 86 98851-3034",
+        "email": "coordenacaosamu@samu.pi.gov.br",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192 - Suporte Avançado (USA)",
+        "short_name": "SAMU USA",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7643895,
+          -5.0971423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2777606,
+      "properties": {
+        "operator": "Governo do Estado (PI)",
+        "operator:type": "public",
+        "ref:CNES": "2777606",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "FARMACIA DO POVO MEDICAMENTOS ESPECIALIZADOS",
+        "addr:street": "Rua David Caldas",
+        "addr:housenumber": "398",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64002-250",
+        "phone": "+55 86 3216-3654",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "dispensing": "yes",
+        "name": "Farmácia do Povo Medicamentos Especializados",
+        "comment": "Farmácia Pública"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8119075,
+          -5.0895336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7566794,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "7566794",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "GERENCIA DE ASSISTENCIA FARMACEUTICA",
+        "addr:street": "Rua Magalhaes Filho",
+        "addr:housenumber": "1711",
+        "addr:suburb": "Marques",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64002-450",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "dispensing": "yes",
+        "name": "Gerencia de Assistencia Farmaceutica",
+        "comment": "Farmácia Pública"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8143215,
+          -5.0743157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7176368,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "7176368",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DIRETORIA DE VIGILANCIA EM SAUDE FMS TERESINA",
+        "addr:street": "Rua Governador Artur de Vasconcelos",
+        "addr:housenumber": "3015",
+        "addr:suburb": "Aeroporto",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64001-200",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.73439,
+          -5.08069
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2444194,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2444194",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "GEVISA",
+        "addr:street": "Rua Firmino Pires",
+        "addr:housenumber": "3241",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64000-070",
+        "phone": "+55 46 86221-9648",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.80407,
+          -5.00868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7494394,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "7494394",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "GEZOON",
+        "addr:street": "Rua Minas Gerais",
+        "addr:housenumber": "909",
+        "addr:suburb": "Matadouro",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64003-850",
+        "phone": "+55 86 3213-2444",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8268094,
+          -5.0682418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9839119,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "9839119",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "COORDENADORIA REGIONAL DE SAUDE LESTE",
+        "addr:street": "Rua Av João Antonio Leitao",
+        "addr:housenumber": "4577",
+        "addr:suburb": "Picarreira",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64055-365",
+        "phone": "+55 86 99424-1183",
+        "office": "government",
+        "government": "healthcare",
+        "name": "7ª Regional de Saúde de Pato Branco (SESA-PR)",
+        "short_name": "7ª RS SESA",
+        "comment": "Regional de Saúde (Estadual)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7597439,
+          -5.0641205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9839135,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "9839135",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "COORDENADORIA REGIONAL DE SAUDE NORTE",
+        "addr:street": "Rua Governador Artur de Vasconcelos Zona Norte",
+        "addr:housenumber": "3015",
+        "addr:suburb": "Primavera",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64002-595",
+        "office": "government",
+        "government": "healthcare",
+        "name": "7ª Regional de Saúde de Pato Branco (SESA-PR)",
+        "short_name": "7ª RS SESA",
+        "comment": "Regional de Saúde (Estadual)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.816124,
+          -5.0623251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9839070,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "9839070",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "COORDENADORIA REGIONAL DE SAUDE SUDESTE",
+        "addr:street": "Rua Coracao de Maria",
+        "addr:housenumber": "6171",
+        "addr:suburb": "Gurupi",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64091-140",
+        "office": "government",
+        "government": "healthcare",
+        "name": "7ª Regional de Saúde de Pato Branco (SESA-PR)",
+        "short_name": "7ª RS SESA",
+        "comment": "Regional de Saúde (Estadual)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7380227,
+          -5.0843733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9839097,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "9839097",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "COORDENADORIA REGIONAL DE SAUDE SUL",
+        "addr:street": "Avenida Barao de Gurgueia",
+        "addr:housenumber": "1315",
+        "addr:suburb": "Centro Sul",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64000-110",
+        "office": "government",
+        "government": "healthcare",
+        "name": "7ª Regional de Saúde de Pato Branco (SESA-PR)",
+        "short_name": "7ª RS SESA",
+        "comment": "Regional de Saúde (Estadual)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8117126,
+          -5.100087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9638202,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "9638202",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DIRETORIA DE ASSISTENCIA ESPECIALIZADA",
+        "addr:street": "Rua Governador Arthur de Vasconcelos",
+        "addr:housenumber": "3015",
+        "addr:suburb": "Aeroporto",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64002-595",
+        "phone": "+55 86 3228-8752",
+        "email": "dae.fms@gmail.com",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8149255,
+          -5.0627864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9156887,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "9156887",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DIRETORIA DE ATENCAO BASICA",
+        "addr:street": "Rua Governador Artur de Vasconcelos",
+        "addr:housenumber": "3015",
+        "addr:suburb": "Primavera",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64002-595",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8156948,
+          -5.0622823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6300049,
+      "properties": {
+        "operator": "Governo do Estado (PI)",
+        "operator:type": "public",
+        "ref:CNES": "6300049",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SECRETARIA ESTADUAL DA SAUDE DO PIAUI SEDE",
+        "addr:street": "Rua Av Pedro Freitas",
+        "addr:suburb": "São Pedro",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64018-900",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8124118,
+          -5.1207161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2406071,
+      "properties": {
+        "operator": "Governo do Estado (PI)",
+        "operator:type": "public",
+        "ref:CNES": "2406071",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE HEMATOLOGIA E HEMOTERAPIA DO PIAUI HEMOPI",
+        "addr:street": "Rua Primeiro de Maio",
+        "addr:housenumber": "235",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64001-430",
+        "phone": "+55 86 3221-8319",
+        "email": "hemopi@wpoint.com.br",
+        "amenity": "blood_donation",
+        "healthcare": "blood_donation",
+        "name": "Hemonúcleo de Pato Branco (HEMEPAR)",
+        "short_name": "Hemepar Pato Branco",
+        "comment": "Doação de Sangue (HEMEPAR)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8258014,
+          -5.6204916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3876411,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "3876411",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CAPS II CENTRO NORTE",
+        "addr:street": "Rua Presidente Lincoln",
+        "addr:housenumber": "4727",
+        "addr:suburb": "São Joaquim",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64004-270",
+        "phone": "+55 86 3213-2080",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8332472,
+          -5.0521238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3866246,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "3866246",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CAPS II LESTE SUDESTE",
+        "addr:street": "Rua Visconde da Parnaiba",
+        "addr:housenumber": "2435",
+        "addr:suburb": "Horto Florestal",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64049-570",
+        "phone": "+55 46 3216-3967",
+        "email": "capslesteii@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8211,
+          -5.0967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 754994,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "754994",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CAPS INFANTO JUVENIL CAPS I",
+        "addr:street": "Rua Coronel Cesar",
+        "addr:housenumber": "1566",
+        "addr:suburb": "Morada do Sol",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64056-475",
+        "phone": "+55 86 3198-3755",
+        "email": "capsithe2017@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial Infanto-Juvenil (CAPSi)",
+        "short_name": "CAPSi",
+        "comment": "CAPSi (Infanto-Juvenil)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7677189,
+          -5.0677027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3660796,
+      "properties": {
+        "operator": "Governo do Estado (PI)",
+        "operator:type": "public",
+        "ref:CNES": "3660796",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CAPS INFANTO JUVENIL DR MARTINELLI CAVALCA",
+        "addr:street": "Rua Jose Soares Ferry",
+        "addr:housenumber": "2420",
+        "addr:suburb": "Primavera",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64002-520",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial Infanto-Juvenil (CAPSi)",
+        "short_name": "CAPSi",
+        "comment": "CAPSi (Infanto-Juvenil)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8118927,
+          -5.0497243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3788032,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "3788032",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ATENCAO PSICOSSOCIAL ALCOOL E DROGA DR CLIDENOR",
+        "addr:street": "Rua Quintino Bocaiuva",
+        "addr:housenumber": "2978",
+        "addr:suburb": "Macauba",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64016-060",
+        "phone": "+55 86 3215-7762",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8047739,
+          -5.1005883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6472869,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "6472869",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ATENCAO PSICOSSOCIAL CAPS II SUDESTE",
+        "addr:street": "Rua Poncion Caldas",
+        "addr:housenumber": "5602",
+        "addr:suburb": "Renascenca",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64077-830",
+        "phone": "+55 86 3198-3752",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.76841,
+          -5.0849623
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6617212,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "6617212",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ATENCAO PSICOSSOCIAL CAPS III SUL",
+        "addr:street": "Rua Costa Rica",
+        "addr:housenumber": "466",
+        "addr:suburb": "Cidade Nova",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64016-380",
+        "phone": "+55 86 3221-6422",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.79028,
+          -5.10952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6427219,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "6427219",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ATENCAO PSICOSSOCIAL SUL",
+        "addr:street": "Rua Barao de Gurgueia",
+        "addr:housenumber": "2913",
+        "addr:suburb": "Pio Xii",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64018-500",
+        "phone": "+55 86 9934-5933",
+        "email": "nuconta.fms@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.79993,
+          -5.12405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2679663,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2679663",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE PRONTO ATENDIMENTO 24 HORAS UPA PROMORAR",
+        "addr:street": "Rua Av Transversal",
+        "addr:suburb": "Promorar",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64027-330",
+        "phone": "+55 46 86215-9163",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "emergency": "yes",
+        "opening_hours": "24/7",
+        "name": "UPA 24 Horas Maria Itália Freddo",
+        "short_name": "UPA 24h",
+        "comment": "UPA 24h"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7820766,
+          -5.1471848
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7823169,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "7823169",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE PRONTO ATENDIMENTO 24 HORAS UPA RENASCENCA",
+        "addr:street": "Rua Av Noe Mendes",
+        "addr:suburb": "Renascenca III",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64082-110",
+        "phone": "+55 86 3234-7074",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "emergency": "yes",
+        "opening_hours": "24/7",
+        "name": "UPA 24 Horas Maria Itália Freddo",
+        "short_name": "UPA 24h",
+        "comment": "UPA 24h"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.74078,
+          -5.10001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9939571,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "9939571",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE PRONTO ATENDIMENTO DR ANTONIO DIB TAJRA",
+        "addr:street": "Rua Saturno",
+        "addr:housenumber": "4281",
+        "addr:suburb": "Satélite",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64059-130",
+        "phone": "+55 86 3231-5755",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade de Pronto Atendimento Dr Antonio Dib Tajra",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7591893,
+          -5.0534301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9726586,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "9726586",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POLO DE ACADEMIA DA SAUDE ALTO DA RESSURREICAO PR RAIMUNDO",
+        "addr:street": "Rua Alto Piaui",
+        "addr:housenumber": "7013",
+        "addr:suburb": "V Alto da Ressurrei",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64090-195",
+        "leisure": "fitness_centre",
+        "healthcare": "rehabilitation",
+        "name": "Academia da Saúde Polo de Alto da Ressurreicao PR Raimundo",
+        "comment": "Academia da Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7368104,
+          -5.0885269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9726594,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "9726594",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POLO DE ACADEMIA DA SAUDE ANGELIM MARCOS VINICIUS",
+        "addr:street": "Rua B",
+        "addr:suburb": "Angelim",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64034-360",
+        "leisure": "fitness_centre",
+        "healthcare": "rehabilitation",
+        "name": "Academia da Saúde Polo de Angelim Marcos Vinicius",
+        "comment": "Academia da Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7903707,
+          -5.1756178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9726543,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "9726543",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POLO DE ACADEMIA DA SAUDE MONTE ALEGRE MARIA BEIKE WAQUIM",
+        "addr:street": "Rua Amadeus Paulo",
+        "addr:housenumber": "3556",
+        "addr:suburb": "Monte Alegre",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64013-000",
+        "leisure": "fitness_centre",
+        "healthcare": "rehabilitation",
+        "name": "Academia da Saúde Polo de Monte Alegre Maria Beike Waquim",
+        "comment": "Academia da Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.822678,
+          -5.0048686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9717994,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "9717994",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POLO DE ACADEMIA DA SAUDE MONTE CASTELO LUCIA DE FATIMA",
+        "addr:street": "Rua Zito Batista",
+        "addr:suburb": "Monte Castelo",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64017-350",
+        "leisure": "fitness_centre",
+        "healthcare": "rehabilitation",
+        "name": "Academia da Saúde Polo de Monte Castelo Lucia de Fatima",
+        "comment": "Academia da Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7946381,
+          -5.1039838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9726675,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "9726675",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POLO DE ACADEMIA DA SAUDE P URUGUAI PEDRO DE SOUSA ROCHA",
+        "addr:street": "Rua Volta Redonda",
+        "addr:housenumber": "6955",
+        "addr:suburb": "P Uruguai",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64057-293",
+        "leisure": "fitness_centre",
+        "healthcare": "rehabilitation",
+        "name": "Academia da Saúde Polo de P Uruguai Pedro de Sousa Rocha",
+        "comment": "Academia da Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7381999,
+          -5.0506765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9726659,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "9726659",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POLO DE ACADEMIA DA SAUDE PARQUE W FERRAZ RENAN GOMES",
+        "addr:street": "Rua Av Ministro Sérgio Mota",
+        "addr:suburb": "Parque Wall Ferraz",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64012-780",
+        "leisure": "fitness_centre",
+        "healthcare": "rehabilitation",
+        "name": "Academia da Saúde Polo de Parque W Ferraz Renan Gomes",
+        "comment": "Academia da Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8310142,
+          -4.9868369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9726640,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "9726640",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POLO DE ACADEMIA DA SAUDE SANTA ISABEL EMERECIANO WAQUIM",
+        "addr:street": "Rua Jesus da Cunha Araujo",
+        "addr:housenumber": "4859",
+        "addr:suburb": "Santa Isabel",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64053-170",
+        "phone": "+55 86 3215-7702",
+        "leisure": "fitness_centre",
+        "healthcare": "rehabilitation",
+        "name": "Academia da Saúde Polo de Santa Isabel Emereciano Waquim",
+        "comment": "Academia da Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7588046,
+          -5.0703352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9726616,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "9726616",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POLO DE ACADEMIA DA SAUDE VAMOS VER O SOL",
+        "addr:street": "Rua Sargento Batista",
+        "addr:suburb": "Lot Parque Sul",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64036-435",
+        "leisure": "fitness_centre",
+        "healthcare": "rehabilitation",
+        "name": "Academia da Saúde Polo de Vamos Ver O Sol",
+        "comment": "Academia da Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7580772,
+          -5.150495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4422414,
+      "properties": {
+        "operator": "Governo do Estado (PI)",
+        "operator:type": "public",
+        "ref:CNES": "4422414",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "NUCLEO DE TELESSAUDE DO PIAUI",
+        "addr:street": "Avenida Pedro Freitas",
+        "addr:suburb": "São Pedro",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64018-900",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Nucleo de Telessaude do Piaui",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8119826,
+          -5.1122314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7012675,
+      "properties": {
+        "operator": "Governo do Estado (PI)",
+        "operator:type": "public",
+        "ref:CNES": "7012675",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL DE REGULACAO MEDICA DO SAMU ESTADUAL PI",
+        "addr:street": "Rua Jilo",
+        "addr:housenumber": "3317",
+        "addr:suburb": "Itarare",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64045-750",
+        "phone": "+55 86 3216-6371",
+        "email": "samuestadopi@hotmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Central de Regulação Médica das Urgências (SAMU 192)",
+        "short_name": "Regulação SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7643037,
+          -5.0973881
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3859827,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "3859827",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU 192 TERESINA CENTRAL DE REGULACAO",
+        "addr:street": "Rua Luiz Ferraz",
+        "addr:housenumber": "3390",
+        "addr:suburb": "Macauba",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64016-860",
+        "phone": "+55 86 3229-3799",
+        "email": "samuteresina@hotmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Central de Regulação Médica das Urgências (SAMU 192)",
+        "short_name": "Regulação SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7958888,
+          -5.1200488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2551888,
+      "properties": {
+        "operator": "Governo do Estado (PI)",
+        "operator:type": "public",
+        "ref:CNES": "2551888",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "LABORATORIO CENTRAL DE SAUDE PUBLICA DR COSTA ALVARENGA",
+        "addr:street": "Rua 19 de Novembro",
+        "addr:housenumber": "1945",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64001-470",
+        "phone": "+55 86 3216-3657",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Laboratorio Central de Saude Publica Dr Costa Alvarenga",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8102446,
+          -5.0751279
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7438354,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "7438354",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "LABORATORIO DE ANALISE DE AGUAS DR KLEBERT PASSOS",
+        "addr:street": "Rua Riachuelo",
+        "addr:housenumber": "2988",
+        "addr:suburb": "Matadouro",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64001-050",
+        "phone": "+55 46 3221-1466",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Laboratorio de Analise de Aguas Dr Klebert Passos",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8195552,
+          -5.0878581
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2323532,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2323532",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "LABORATORIO RAUL BACELAR",
+        "addr:street": "Rua Professor Joaquim Gomes",
+        "addr:suburb": "Saci",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64020-291",
+        "phone": "+55 86 3215-9190",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Laboratorio Raul Bacelar",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8101251,
+          -5.1218223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7607938,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "7607938",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL DE REGULACAO DE TERESINA",
+        "addr:street": "Rua Av Miguel Rosa",
+        "addr:housenumber": "3948",
+        "addr:suburb": "Centro Sul",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64001-490",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Sistema Municipal de Auditoria e Regulação em Saúde",
+        "comment": "Auditoria e Regulação"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8030445,
+          -5.086598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7569963,
+      "properties": {
+        "operator": "Governo do Estado (PI)",
+        "operator:type": "public",
+        "ref:CNES": "7569963",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL DE REGULACAO DO ESTADO DO PIAUI",
+        "addr:street": "Rua Jilo",
+        "addr:housenumber": "3317",
+        "addr:suburb": "Itarare",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64078-005",
+        "phone": "+55 86 3233-9049",
+        "email": "regulacaopi@saude.pi.gov.br",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Sistema Municipal de Auditoria e Regulação em Saúde",
+        "comment": "Auditoria e Regulação"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7646631,
+          -5.0967229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8002819,
+      "properties": {
+        "operator": "Governo do Estado (PI)",
+        "operator:type": "public",
+        "ref:CNES": "8002819",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "COORDENACAO DE REGULACAO DO TFD",
+        "addr:street": "Rua Eliseu Martins",
+        "addr:housenumber": "1533",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64001-260",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Sistema Municipal de Auditoria e Regulação em Saúde",
+        "comment": "Auditoria e Regulação"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8086996,
+          -5.086007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3886301,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "3886301",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DRCAA",
+        "addr:street": "Rua Av Miguel Rosa",
+        "addr:housenumber": "3948",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64001-450",
+        "phone": "+55 86 3221-9053",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Sistema Municipal de Auditoria e Regulação em Saúde",
+        "comment": "Auditoria e Regulação"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8139545,
+          -5.0809542
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7608071,
+      "properties": {
+        "operator": "Governo do Estado (PI)",
+        "operator:type": "public",
+        "ref:CNES": "7608071",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL ESTADUAL DE TRANSPLANTE CNCDO PI",
+        "addr:street": "Rua Primeiro de Maio",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64001-430",
+        "phone": "+55 86 3221-7553",
+        "email": "cncdopi@saudepi.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Central Estadual de Transplante Cncdo Pi",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8045315,
+          -5.0883447
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7608381,
+      "properties": {
+        "operator": "Governo do Estado (PI)",
+        "operator:type": "public",
+        "ref:CNES": "7608381",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "ORGANIZACAO DE PROCURA DE ORGAOS E TECIDOS",
+        "addr:street": "Rua Primeiro de Maio",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64001-430",
+        "phone": "+55 86 3221-7553",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Organizacao de Procura de Orgaos e Tecidos",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8045046,
+          -5.088334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2406055,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "2406055",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PONTO DE APOIO A SAUDE DA FAMILIA ALTAMIRA",
+        "addr:street": "Rua Povoado Altamira",
+        "addr:suburb": "Zona Rural",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64000-270",
+        "phone": "+55 86 3219-0152",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Ponto de Apoio A Saude da Familia Altamira",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7161312,
+          -5.3431811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 421820,
+      "properties": {
+        "operator": "Governo do Estado (PI)",
+        "operator:type": "public",
+        "ref:CNES": "421820",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "REDE DE FRIO COORDENACAO ESTADUAL DE IMUNIZACAO",
+        "addr:street": "Rua Av Pernambuco",
+        "addr:housenumber": "2464",
+        "addr:suburb": "Primavera",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64003-500",
+        "phone": "+55 86 3216-2052",
+        "email": "imunizacaopiaui@hotmail.com",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Rede de Frio Coordenacao Estadual de Imunizacao",
+        "comment": "Suprimentos / Logística"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8133345,
+          -5.0697418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7696493,
+      "properties": {
+        "operator": "Prefeitura Municipal de Teresina",
+        "operator:type": "public",
+        "ref:CNES": "7696493",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "REDE DE FRIO FMS",
+        "addr:street": "Rua Abib Salin Tajra",
+        "addr:suburb": "Marque",
+        "addr:city": "Teresina",
+        "addr:state": "PI",
+        "addr:country": "BR",
+        "addr:postcode": "64003-260",
+        "email": "redefrioteresina@gmail.com",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Rede de Frio Fms",
+        "comment": "Suprimentos / Logística"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.81459,
+          -5.07466
+        ]
+      }
+    }
+  ]
+}

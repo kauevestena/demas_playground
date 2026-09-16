@@ -76,10 +76,22 @@ def retrieve_facilities(
             if str(r.get("descricao_natureza_juridica_estabelecimento") or "").startswith("1")
         ]
 
+    muni_name = kwargs.pop("municipality_name", None)
+    uf_sigla = kwargs.pop("uf_sigla", None)
+    if not muni_name and isinstance(municipality, str) and not str(municipality).isdigit():
+        muni_name = municipality.split(",")[0].strip()
+        if "," in municipality:
+            uf_sigla = municipality.split(",")[1].strip()
+
     # Convert to requested format
     fmt = (output_format or "osm").lower()
     if fmt in ("osm", "geojson"):
-        result = convert_to_osm_geojson(records, apply_micro_offsets=apply_offsets)
+        result = convert_to_osm_geojson(
+            records,
+            apply_micro_offsets=apply_offsets,
+            municipality_name=muni_name,
+            uf_sigla=uf_sigla,
+        )
     elif fmt == "raw":
         result = records
     else:

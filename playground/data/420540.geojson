@@ -1,0 +1,4197 @@
+{
+  "type": "FeatureCollection",
+  "name": "Estabelecimentos Públicos de Saúde - DEMAS / CNES",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 7276702,
+      "properties": {
+        "operator": "Governo do Estado (SC)",
+        "operator:type": "public",
+        "ref:CNES": "7276702",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CIATOX SC CENTRO DE INFORMACAO E ASSISTENCIA TOXICOLOGICA",
+        "addr:street": "Rua Professora Maria Flora Pausewang",
+        "addr:suburb": "Trindade",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88040-900",
+        "phone": "+55 48 3721-9083",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Ciatox Sc Centro de Informacao e Assistencia Toxicologica",
+        "short_name": "UBS Ciatox Sc Centro de Informacao e Assistencia Toxicologica",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5153041,
+          -27.5932241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19542,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "19542",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS ABRAAO",
+        "addr:street": "Rua João Meireles",
+        "addr:suburb": "Abraao",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88085-200",
+        "phone": "+55 48 3249-5844",
+        "email": "csabraaopmf@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Abraao",
+        "short_name": "UBS Cs Abraao",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.595979,
+          -27.603661
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19275,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "19275",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS AGRONOMICA",
+        "addr:street": "Rua Rui Barbosa",
+        "addr:suburb": "Agronomica",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88025-300",
+        "phone": "+55 48 3228-1310",
+        "email": "centrosaudeagronomica@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Agronomica",
+        "short_name": "UBS Cs Agronomica",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5366336,
+          -27.5742676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19763,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "19763",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS ALTO RIBEIRAO",
+        "addr:street": "Rua Inga Mirim",
+        "addr:suburb": "Ribeirao da Ilha",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88064-400",
+        "phone": "+55 48 3269-9917",
+        "email": "csaltoribeirao@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Alto Ribeirao",
+        "short_name": "UBS Cs Alto Ribeirao",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5184835,
+          -27.7011887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19771,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "19771",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS ARMACAO",
+        "addr:street": "Rodovia Sc 406",
+        "addr:housenumber": "6074",
+        "addr:suburb": "Armacao",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88066-000",
+        "phone": "+55 48 3389-5014",
+        "email": "csarmacao@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Armacao",
+        "short_name": "UBS Cs Armacao",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5097903,
+          -27.7523685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19453,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "19453",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS BALNEARIO",
+        "addr:street": "Avenida Santa Catarina",
+        "addr:housenumber": "1570",
+        "addr:suburb": "Balneario",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88070-740",
+        "phone": "+55 48 3244-4904",
+        "email": "csbalneario@pmf.sc.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Balneario",
+        "short_name": "UBS Cs Balneario",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5832831,
+          -27.5795892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2692473,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "2692473",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS BARRA DA LAGOA",
+        "addr:street": "Rua Altamiro Barcelo Dutra",
+        "addr:housenumber": "659",
+        "addr:suburb": "Barra da Lagoa",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88061-300",
+        "phone": "+55 48 3226-7281",
+        "email": "coordenacaocsbarradalagoa@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Barra da Lagoa",
+        "short_name": "UBS Cs Barra da Lagoa",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.433458,
+          -27.578828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2692481,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "2692481",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS CACHOEIRA DO BOM JESUS",
+        "addr:street": "Rua Leonel Pereira",
+        "addr:housenumber": "273",
+        "addr:suburb": "Cachoeira do Bom Jes",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88056-300",
+        "phone": "+55 48 3284-6045",
+        "email": "cscachoeira@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Cachoeira do Bom Jesus",
+        "short_name": "UBS Cs Cachoeira do Bom Jesus",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.431094,
+          -27.42196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19747,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "19747",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS CAEIRA DA BARRA DO SUL",
+        "addr:street": "Rodovia Baldicero Filomeno",
+        "addr:housenumber": "19795",
+        "addr:suburb": "Caeria da Barra do S",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88064-002",
+        "phone": "+55 48 3237-6239",
+        "email": "cscaieirabsul@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Caeira da Barra do Sul",
+        "short_name": "UBS Cs Caeira da Barra do Sul",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.558795,
+          -27.811578
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19615,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "19615",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS CAMPECHE",
+        "addr:street": "Rua da Capela",
+        "addr:suburb": "Campeche",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88063-000",
+        "phone": "+55 48 3237-4074",
+        "email": "cscampeche@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Campeche",
+        "short_name": "UBS Cs Campeche",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.493632,
+          -27.68118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2622726,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "2622726",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS CANASVIEIRAS",
+        "addr:street": "Rua Rod Francisco Fausto Martins",
+        "addr:suburb": "Canasvieiras",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88052-810",
+        "phone": "+55 48 3269-6902",
+        "email": "cscanasvieiras@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Canasvieiras",
+        "short_name": "UBS Cs Canasvieiras",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.456532,
+          -27.451499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2692503,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "2692503",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS CANTO DA LAGOA",
+        "addr:street": "Rua Laurindo Januario da Silveira",
+        "addr:housenumber": "2570",
+        "addr:suburb": "Canto da Lagoa",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88062-200",
+        "phone": "+55 48 3232-6121",
+        "email": "cscantodalagoa@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Canto da Lagoa",
+        "short_name": "UBS Cs Canto da Lagoa",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.484084,
+          -27.616677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2997460,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "2997460",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS CAPIVARI",
+        "addr:street": "Rodovia João Gualberto Soares",
+        "addr:housenumber": "2097",
+        "addr:suburb": "Ingleses",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88058-300",
+        "phone": "+55 48 3369-9261",
+        "email": "centrodesaudecapivari@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Capivari",
+        "short_name": "UBS Cs Capivari",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.406973,
+          -27.4581141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19488,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "19488",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS CAPOEIRAS",
+        "addr:street": "Rua Irma Bonavita",
+        "addr:housenumber": "286",
+        "addr:suburb": "Capoeiras",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88090-150",
+        "phone": "+55 48 3248-1740",
+        "email": "cscapoeiras@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Capoeiras",
+        "short_name": "UBS Cs Capoeiras",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.597229,
+          -27.597048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19585,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "19585",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS CARIANOS",
+        "addr:street": "Rua R Vereador Osvaldo Bittencourt",
+        "addr:suburb": "Carianos",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88047-700",
+        "phone": "+55 48 3338-1125",
+        "email": "carianos.pmf@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Carianos",
+        "short_name": "UBS Cs Carianos",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.535848,
+          -27.668634
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6359981,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "6359981",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS CENTRO",
+        "addr:street": "Rua Santos Dumont",
+        "addr:housenumber": "52",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88015-200",
+        "phone": "+55 48 3952-0123",
+        "email": "cscentropmf@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Centro",
+        "short_name": "UBS Cs Centro",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5486428,
+          -27.5951759
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20028,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "20028",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS COLONINHA",
+        "addr:street": "Rua Aracy Vaz Callado",
+        "addr:housenumber": "1830",
+        "addr:suburb": "Coloninha",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88070-750",
+        "phone": "+55 48 3244-2891",
+        "email": "cscoloninha@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Coloninha",
+        "short_name": "UBS Cs Coloninha",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5891819,
+          -27.5899254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6935257,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "6935257",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS COQUEIROS",
+        "addr:street": "Rua Engenheiro Max de Souza",
+        "addr:housenumber": "01",
+        "addr:suburb": "Coqueiros",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88080-000",
+        "phone": "+55 48 3248-0451",
+        "email": "cscoqueiros@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Coqueiros",
+        "short_name": "UBS Cs Coqueiros",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5756528,
+          -27.603061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20087,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "20087",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS CORREGO GRANDE",
+        "addr:street": "Rua R João Pio Duarte da Silva",
+        "addr:housenumber": "1415",
+        "addr:suburb": "Corrego Grande",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88037-001",
+        "phone": "+55 48 3234-1328",
+        "email": "cscorregogrande@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Corrego Grande",
+        "short_name": "UBS Cs Corrego Grande",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.503628,
+          -27.600902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19976,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "19976",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS COSTA DA LAGOA",
+        "addr:street": "Rua Geral Costa da Lagoa",
+        "addr:suburb": "Costa da Lagoa",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88062-370",
+        "phone": "+55 48 3335-3119",
+        "email": "cscostadalagoa@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Costa da Lagoa",
+        "short_name": "UBS Cs Costa da Lagoa",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.460731,
+          -27.568964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19364,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "19364",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS COSTEIRA DO PIRAJUBAE",
+        "addr:street": "Rua João Cancio Jacques",
+        "addr:housenumber": "1461",
+        "addr:suburb": "Cost do Pirajubae",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88047-010",
+        "phone": "+55 48 3226-7267",
+        "email": "cscosteira@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Costeira do Pirajubae",
+        "short_name": "UBS Cs Costeira do Pirajubae",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.52271,
+          -27.633534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2692511,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "2692511",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS ESTREITO",
+        "addr:street": "Avenida Aracy Vaz Callado",
+        "addr:housenumber": "742",
+        "addr:suburb": "Estreito",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88070-750",
+        "phone": "+55 48 3244-1200",
+        "email": "csestreito@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Estreito",
+        "short_name": "UBS Cs Estreito",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.582779,
+          -27.585418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19348,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "19348",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS FAZENDA DO RIO TAVARES",
+        "addr:street": "Rodovia Sc 405",
+        "addr:housenumber": "000",
+        "addr:suburb": "Fazenda do Rio Tavar",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88063-700",
+        "phone": "+55 48 3233-4347",
+        "email": "csfazenda@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Fazenda do Rio Tavares",
+        "short_name": "UBS Cs Fazenda do Rio Tavares",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.502845,
+          -27.665024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2692538,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "2692538",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS INGLESES",
+        "addr:street": "Travessa dos Imigrantes",
+        "addr:housenumber": "135",
+        "addr:suburb": "Ingleses",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88058-418",
+        "phone": "+55 48 3369-3229",
+        "email": "csinglesescord@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Ingleses",
+        "short_name": "UBS Cs Ingleses",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.399048,
+          -27.440588
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2692546,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "2692546",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS ITACORUBI",
+        "addr:street": "Rodovia Amaro Antonio Vieira",
+        "addr:housenumber": "2260",
+        "addr:suburb": "Itacorubi",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88034-100",
+        "phone": "+55 48 3334-5555",
+        "email": "csitacorubi@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Itacorubi",
+        "short_name": "UBS Cs Itacorubi",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.498282,
+          -27.584634
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19712,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "19712",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS JARDIM ATLANTICO",
+        "addr:street": "Rua Aleixo Alves de Souza",
+        "addr:suburb": "Jardim Atlantico",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88095-410",
+        "phone": "+55 48 3348-9595",
+        "email": "csjardimatlantico@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Jardim Atlantico",
+        "short_name": "UBS Cs Jardim Atlantico",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.598197,
+          -27.579587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2692554,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "2692554",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS JOAO PAULO",
+        "addr:street": "Rodovia João Paulo",
+        "addr:housenumber": "1268",
+        "addr:suburb": "João Paulo",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88030-300",
+        "phone": "+55 48 3238-0606",
+        "email": "csjoaopaulo.pmf@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs João Paulo",
+        "short_name": "UBS Cs João Paulo",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.511909,
+          -27.56103
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2692562,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "2692562",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS JURERE",
+        "addr:street": "Rua Jurere Tradicional",
+        "addr:housenumber": "242",
+        "addr:suburb": "Jurere",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88053-750",
+        "phone": "+55 48 3282-1670",
+        "email": "csjurere@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Jurere",
+        "short_name": "UBS Cs Jurere",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.483718,
+          -27.442283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2692570,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "2692570",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS LAGOA DA CONCEICAO",
+        "addr:street": "Rua João Pacheco da Costa",
+        "addr:housenumber": "155",
+        "addr:suburb": "Lagoa da Conceicao",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88062-100",
+        "phone": "+55 48 3232-0639",
+        "email": "cslagoadaconceicao@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Lagoa da Conceicao",
+        "short_name": "UBS Cs Lagoa da Conceicao",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.471628,
+          -27.600345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19801,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "19801",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS MONTE CRISTO",
+        "addr:street": "Rua Joaquim Nabuco",
+        "addr:housenumber": "2390",
+        "addr:suburb": "Monte Cristo",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88090-062",
+        "phone": "+55 48 3348-7467",
+        "email": "csmontecristo.pmf@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Monte Cristo",
+        "short_name": "UBS Cs Monte Cristo",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5950672,
+          -27.5921364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20036,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "20036",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS MONTE SERRAT",
+        "addr:street": "Avenida Mauro Ramos",
+        "addr:housenumber": "722",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88020-302",
+        "phone": "+55 48 3223-7816",
+        "email": "csmonteserrat01@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Monte Serrat",
+        "short_name": "UBS Cs Monte Serrat",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5432383,
+          -27.5948463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19852,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "19852",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS MORRO DAS PEDRAS",
+        "addr:street": "Rodovia Sc 406",
+        "addr:housenumber": "1685",
+        "addr:suburb": "Morro das Pedras",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88066-000",
+        "phone": "+55 48 3338-7627",
+        "email": "csmorrodaspedras@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Morro das Pedras",
+        "short_name": "UBS Cs Morro das Pedras",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.404679,
+          -27.454737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19550,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "19550",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS NOVO CONTINENTE",
+        "addr:street": "Rua Professor Clementino de Brito",
+        "addr:housenumber": "01",
+        "addr:suburb": "Capoeiras",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88070-150",
+        "phone": "+55 48 3244-8488",
+        "email": "csnovocontinente.pmf@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Novo Continente",
+        "short_name": "UBS Cs Novo Continente",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5806653,
+          -27.5972317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19690,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "19690",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS PANTANAL",
+        "addr:street": "Rua Deputado Antonio Edu Vieira",
+        "addr:housenumber": "855",
+        "addr:suburb": "Pantanal",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88040-000",
+        "phone": "+55 48 3238-2232",
+        "email": "cspantanal.coord@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Pantanal",
+        "short_name": "UBS Cs Pantanal",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.520108,
+          -27.607919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19666,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "19666",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS PANTANO DO SUL",
+        "addr:street": "Rua Abelardo Otacilio Gomes",
+        "addr:housenumber": "01",
+        "addr:suburb": "Pantano do Sul",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88067-102",
+        "phone": "+55 48 3237-7032",
+        "email": "cspantanodosul@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Pantano do Sul",
+        "short_name": "UBS Cs Pantano do Sul",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.507365,
+          -27.780147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2692082,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "2692082",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS PONTA DAS CANAS",
+        "addr:street": "Rua Alcides Bonatelli",
+        "addr:housenumber": "462",
+        "addr:suburb": "Ponta das Canas",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88056-720",
+        "phone": "+55 48 3284-1337",
+        "email": "cspontadascanas@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Ponta das Canas",
+        "short_name": "UBS Cs Ponta das Canas",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.427902,
+          -27.396373
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19739,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "19739",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS PRAINHA",
+        "addr:street": "Rua Silva Jardim",
+        "addr:housenumber": "621",
+        "addr:suburb": "Jose Mendes",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88020-200",
+        "phone": "+55 48 3225-8134",
+        "email": "prainhacentrodesaude@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Prainha",
+        "short_name": "UBS Cs Prainha",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.546805,
+          -27.606644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2692090,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "2692090",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS RATONES",
+        "addr:street": "Rua João Januario da Silva",
+        "addr:suburb": "Ratones",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88052-200",
+        "phone": "+55 48 3266-8090",
+        "email": "centrodesauderatones@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Ratones",
+        "short_name": "UBS Cs Ratones",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.471094,
+          -27.505579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19577,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "19577",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS RIBEIRAO DA ILHA",
+        "addr:street": "Rua João Jose Davila",
+        "addr:suburb": "Ribeirao da Ilha",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88064-643",
+        "phone": "+55 48 3337-5997",
+        "email": "csribeiraodailha@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Ribeirao da Ilha",
+        "short_name": "UBS Cs Ribeirao da Ilha",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.549965,
+          -27.596433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2692104,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "2692104",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS RIO TAVARES",
+        "addr:street": "Rua Silvio Lopes Araujo",
+        "addr:housenumber": "41",
+        "addr:suburb": "Rio Tavares",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88048-391",
+        "phone": "+55 48 3232-6118",
+        "email": "coordenacao.riotavares@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Rio Tavares",
+        "short_name": "UBS Cs Rio Tavares",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.4758021,
+          -27.651534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2692112,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "2692112",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS RIO VERMELHO",
+        "addr:street": "Rodovia João Gualberto Soares",
+        "addr:housenumber": "6471",
+        "addr:suburb": "Rio Vermelho",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88058-300",
+        "phone": "+55 48 3269-7100",
+        "email": "saude.csriovermelho@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Rio Vermelho",
+        "short_name": "UBS Cs Rio Vermelho",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.419566,
+          -27.490586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19496,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "19496",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS SACO DOS LIMOES",
+        "addr:street": "Rua Aldo Alves",
+        "addr:suburb": "Saco dos Limoes",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88045-600",
+        "phone": "+55 48 3223-4563",
+        "email": "cssacodoslimoes@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Saco dos Limoes",
+        "short_name": "UBS Cs Saco dos Limoes",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.527029,
+          -27.615406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2692120,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "2692120",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS SACO GRANDE",
+        "addr:street": "Rodovia Virgilio Varzea",
+        "addr:suburb": "Saco Grande",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88032-001",
+        "phone": "+55 48 3234-6995",
+        "email": "coordsacogrande@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Saco Grande",
+        "short_name": "UBS Cs Saco Grande",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.496206,
+          -27.552628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6477267,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "6477267",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS SANTINHO",
+        "addr:street": "Rua Dom João Becker",
+        "addr:housenumber": "862",
+        "addr:suburb": "Ingleses",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88058-600",
+        "phone": "+55 48 3369-5514",
+        "email": "ulssantinho@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Santinho",
+        "short_name": "UBS Cs Santinho",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.388498,
+          -27.439818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2692139,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "2692139",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS SANTO ANTONIO DE LISBOA",
+        "addr:street": "Rua Rod Padre Lourenço Rodrigues de Andrade",
+        "addr:housenumber": "01",
+        "addr:suburb": "Santo Antonio de Lis",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88050-452",
+        "phone": "+55 48 3235-3294",
+        "email": "cssantoantoniocoord@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Santo Antonio de Lisboa",
+        "short_name": "UBS Cs Santo Antonio de Lisboa",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.514007,
+          -27.498269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19518,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "19518",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS SAPE",
+        "addr:street": "Rua Trav Valdemar Osmar Hermann",
+        "addr:housenumber": "82",
+        "addr:suburb": "Sape",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88095-685",
+        "phone": "+55 48 3240-6602",
+        "email": "cssape@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Sape",
+        "short_name": "UBS Cs Sape",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.599186,
+          -27.586698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19658,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "19658",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS TAPERA",
+        "addr:street": "Rua das Areias",
+        "addr:housenumber": "000",
+        "addr:suburb": "Tapera",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88049-300",
+        "phone": "+55 48 3338-4531",
+        "email": "cooedenacaocstapera@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Tapera",
+        "short_name": "UBS Cs Tapera",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.564414,
+          -27.687085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3186717,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "3186717",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS TRINDADE",
+        "addr:street": "Rua Av Henrique Silva Fontes",
+        "addr:housenumber": "6000",
+        "addr:suburb": "Trindade",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88036-700",
+        "phone": "+55 48 3234-9577",
+        "email": "cstrindade.pmf@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Trindade",
+        "short_name": "UBS Cs Trindade",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.522473,
+          -27.585673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2692147,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "2692147",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS VARGEM GRANDE",
+        "addr:street": "Estrada Cristóvão Machado de Campos",
+        "addr:suburb": "Vargem Grande",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88052-632",
+        "phone": "+55 48 3269-5034",
+        "email": "csvargemgrande@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Vargem Grande",
+        "short_name": "UBS Cs Vargem Grande",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.444292,
+          -27.472176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2692155,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "2692155",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS VARGEM PEQUENA",
+        "addr:street": "Estrada Manoel Leoncio de Souza Brito",
+        "addr:housenumber": "1325",
+        "addr:suburb": "Vargem Pequena",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88052-400",
+        "phone": "+55 48 3269-5898",
+        "email": "csvargempeque@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Vargem Pequena",
+        "short_name": "UBS Cs Vargem Pequena",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.460305,
+          -27.475218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19399,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "19399",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CS VILA APARECIDA",
+        "addr:street": "Rua Fermino Costa",
+        "addr:housenumber": "284",
+        "addr:suburb": "Coqueiros",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88080-420",
+        "phone": "+55 48 3244-6724",
+        "email": "csvilaaparecida090.pmf@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cs Vila Aparecida",
+        "short_name": "UBS Cs Vila Aparecida",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.585286,
+          -27.605808
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4362284,
+      "properties": {
+        "operator": "Governo do Estado (SC)",
+        "operator:type": "public",
+        "ref:CNES": "4362284",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PRESIDIO FEMININO DE FLORIANOPOLIS",
+        "addr:street": "Rua Lauro Linhares",
+        "addr:suburb": "Trindade",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88036-001",
+        "phone": "+55 48 3665-9107",
+        "email": "pr02clsep@pp.sc.sc.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Presidio Feminino de Florianopolis",
+        "short_name": "UBS Presidio Feminino de Florianopolis",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5262667,
+          -27.5798242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4309383,
+      "properties": {
+        "operator": "Governo do Estado (SC)",
+        "operator:type": "public",
+        "ref:CNES": "4309383",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PRESIDIO MASCULINO REGIONAL DE FLORIANOPOLIS",
+        "addr:street": "Rua Delminda Silveira",
+        "addr:housenumber": "900",
+        "addr:suburb": "Agronomica",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88025-500",
+        "phone": "+55 48 3665-9262",
+        "email": "pr01csad@pp.sc.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Presidio Masculino Regional de Florianopolis",
+        "short_name": "UBS Presidio Masculino Regional de Florianopolis",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5260486,
+          -27.5791397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9544127,
+      "properties": {
+        "operator": "Governo do Estado (SC)",
+        "operator:type": "public",
+        "ref:CNES": "9544127",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UBS COMPLEXO PENITENCIARIO DE FLORIANOPOLIS",
+        "addr:street": "Rua Delminda da Silveira",
+        "addr:housenumber": "960",
+        "addr:suburb": "Agronomica",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88025-500",
+        "phone": "+55 48 3665-4700",
+        "email": "pe01csad@pp.sc.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde UBS Complexo Penitenciario de Florianopolis",
+        "short_name": "UBS UBS Complexo Penitenciario de Florianopolis",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.527107,
+          -27.577571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 684945,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "684945",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "AMBULATORIO TCE SC",
+        "addr:street": "Rua Bulcao Viana",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88020-160",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5492032,
+          -27.6004486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5566843,
+      "properties": {
+        "operator": "Consórcio Intermunicipal de Saúde",
+        "operator:type": "public",
+        "ref:CNES": "5566843",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CIS GRANFPOLIS",
+        "addr:street": "Rua Candido Ramos",
+        "addr:housenumber": "250",
+        "addr:suburb": "Capoeiras",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88090-800",
+        "phone": "+55 48 3224-3668",
+        "email": "gerardi@granfpolis.org.br",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6027929,
+          -27.5981223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7531729,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "7531729",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "GRUPO DE SAUDE DE FLORIANOPOLIS BASE AEREA DE FLORIANOPOLIS",
+        "addr:street": "Avenida Santos Dumont",
+        "addr:housenumber": "01",
+        "addr:suburb": "Tapera",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88049-000",
+        "phone": "+55 48 3229-5000",
+        "email": "esfl@fab.mil.br",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.568576,
+          -27.675787
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4108272,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "4108272",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POLICLINICA DA MULHER E DA CRIANCA DE FLORIANOPOLIS",
+        "addr:street": "Rua Esteves Junior",
+        "addr:housenumber": "89",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88015-130",
+        "phone": "+55 48 3240-5525",
+        "email": "policlinicamulherecrianca@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5528623,
+          -27.593792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19313,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "19313",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POLICLINICA MUNICIPAL CENTRO",
+        "addr:street": "Avenida Rio Branco",
+        "addr:housenumber": "90",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88015-200",
+        "phone": "+55 48 3952-0100",
+        "email": "policentropmf@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.557311,
+          -27.592778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19259,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "19259",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POLICLINICA MUNICIPAL CONTINENTE",
+        "addr:street": "Rua Heitor Blum",
+        "addr:housenumber": "521",
+        "addr:suburb": "Estreito",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88070-450",
+        "phone": "+55 48 3271-1720",
+        "email": "policlinicacontinente@pmf.sc.gov.br",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.579855,
+          -27.590766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5697212,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "5697212",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POLICLINICA MUNICIPAL NORTE",
+        "addr:street": "Rua Francisco Faustino Martins",
+        "addr:suburb": "Vargem Grande",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88052-810",
+        "phone": "+55 48 3284-2124",
+        "email": "policlinicanorte@pmf.sc.gov.br",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.456295,
+          -27.451625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3374548,
+      "properties": {
+        "operator": "Governo do Estado (SC)",
+        "operator:type": "public",
+        "ref:CNES": "3374548",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL DA POLICIA MILITAR COMANDANTE LARAS HPM",
+        "addr:street": "Rua Major Costa",
+        "addr:housenumber": "221",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88020-400",
+        "phone": "+55 48 3229-6515",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital da Policia Militar Comandante Laras Hpm",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.542388,
+          -27.5952823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9299122,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "9299122",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL DE GUARNICAO DE FLORIANOPOLIS",
+        "addr:street": "Rua Silva Jardim",
+        "addr:housenumber": "441",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88010-290",
+        "phone": "+55 48 3025-4814",
+        "email": "nsphgufl@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital de Guarnicao de Florianopolis",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.545869,
+          -27.604823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19305,
+      "properties": {
+        "operator": "Governo do Estado (SC)",
+        "operator:type": "public",
+        "ref:CNES": "19305",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL FLORIANOPOLIS",
+        "addr:street": "Rua Santa Rita de Cassia Rua",
+        "addr:housenumber": "1665",
+        "addr:suburb": "Coloninha",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88090-350",
+        "phone": "+55 48 3281-7800",
+        "email": "adm.hf@imas.net.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Florianopolis",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.587251,
+          -27.589586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2691841,
+      "properties": {
+        "operator": "Governo do Estado (SC)",
+        "operator:type": "public",
+        "ref:CNES": "2691841",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL GOVERNADOR CELSO RAMOS",
+        "addr:street": "Rua Irma Benwarda",
+        "addr:housenumber": "297",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88015-270",
+        "phone": "+55 48 3664-3600",
+        "email": "hcr@saude.sc.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Governador Celso Ramos",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5506573,
+          -27.588373
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2691868,
+      "properties": {
+        "operator": "Governo do Estado (SC)",
+        "operator:type": "public",
+        "ref:CNES": "2691868",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL INFANTIL JOANA DE GUSMAO",
+        "addr:street": "Rua Rui Barbosa",
+        "addr:housenumber": "152",
+        "addr:suburb": "Agronomica",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88025-301",
+        "phone": "+55 48 3664-3200",
+        "email": "hijg@saude.sc.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Infantil Joana de Gusmao",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.535409,
+          -27.5764411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2664879,
+      "properties": {
+        "operator": "Governo do Estado (SC)",
+        "operator:type": "public",
+        "ref:CNES": "2664879",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL NEREU RAMOS",
+        "addr:street": "Rua Rui Barbosa",
+        "addr:housenumber": "800",
+        "addr:suburb": "Agronomica",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88025-301",
+        "phone": "+55 48 3665-9401",
+        "email": "supervisaohnr@saude.sc.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Nereu Ramos",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5354661,
+          -27.5740705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19283,
+      "properties": {
+        "operator": "Governo do Estado (SC)",
+        "operator:type": "public",
+        "ref:CNES": "19283",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "MATERNIDADE CARMELA DUTRA",
+        "addr:street": "Rua Irma Benwarda",
+        "addr:housenumber": "208",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88015-270",
+        "phone": "+55 48 3664-3900",
+        "email": "mcd@saude.sc.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Maternidade Carmela Dutra",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5504508,
+          -27.5892788
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19445,
+      "properties": {
+        "operator": "Governo do Estado (SC)",
+        "operator:type": "public",
+        "ref:CNES": "19445",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CEPONSC",
+        "addr:street": "Rua Admar Gonzaga",
+        "addr:housenumber": "655",
+        "addr:suburb": "Itacorubi",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88034-000",
+        "phone": "+55 48 3331-1480",
+        "email": "secretaria@cepon.org.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Ceponsc",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5090391,
+          -27.577329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7403410,
+      "properties": {
+        "operator": "Governo do Estado (SC)",
+        "operator:type": "public",
+        "ref:CNES": "7403410",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL DE CUSTODIA E TRATAMENTO PSIQUIATRICO",
+        "addr:street": "Rua Delminda Silveira",
+        "addr:housenumber": "960",
+        "addr:suburb": "Agronomica",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88025-500",
+        "phone": "+55 48 3665-9187",
+        "email": "hctp@pp.sc.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital de Custodia e Tratamento Psiquiatrico",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.527103,
+          -27.577571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8034680,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "8034680",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "ASSEMBLEIA LEGISLATIVA DO ESTADO DE SANTA CATARINA",
+        "addr:street": "Avenida Mauro Ramos",
+        "addr:housenumber": "300",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88020-300",
+        "phone": "+55 48 3222-1251",
+        "email": "ordsaude@alesc.sc.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Assembleia Legislativa do Estado de Santa Catarina",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5434999,
+          -27.5947427
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4126319,
+      "properties": {
+        "operator": "Governo do Estado (SC)",
+        "operator:type": "public",
+        "ref:CNES": "4126319",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CASA DO ALBERGADO DE FLORIANOPOLIS IRMA MARIA ULIANO",
+        "addr:street": "Rua Lauro Linhares",
+        "addr:housenumber": "208",
+        "addr:suburb": "Trindade",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88036-000",
+        "phone": "+55 48 3566-9123",
+        "email": "pe01@pp.sc.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Casa do Albergado de Florianopolis Irma Maria Uliano",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5268132,
+          -27.5815839
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 702293,
+      "properties": {
+        "operator": "Governo do Estado (SC)",
+        "operator:type": "public",
+        "ref:CNES": "702293",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE DO SERVIDOR CA",
+        "addr:street": "Rodovia Sc 401 Km 5",
+        "addr:housenumber": "4600",
+        "addr:suburb": "Saco Grande",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88032-088",
+        "phone": "+55 48 3665-1709",
+        "email": "taianasilveira.consultorio@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Saude do Servidor Ca",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5562901,
+          -27.5780893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4225333,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "4225333",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "ESCOLA DE APRENDIZES MARINHEIROS DE SANTA CATARINA",
+        "addr:street": "Rua Av Marinheiro Max Schramm",
+        "addr:housenumber": "3028",
+        "addr:suburb": "Jardim Atlantico",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88095-900",
+        "phone": "+55 48 3298-5050",
+        "email": "eamsc.secom@marinha.mil.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Escola de Aprendizes Marinheiros de Santa Catarina",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5900531,
+          -27.5771058
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4785207,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "4785207",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SIASS UFSC",
+        "addr:street": "Rua Campus Universitario Reitor João David Ferreira Li",
+        "addr:suburb": "Trindade",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88035-972",
+        "phone": "+55 48 3721-4295",
+        "email": "das.prodegesp@contato.ufsc.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Siass Ufsc",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5224425,
+          -27.6034134
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 751332,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "751332",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "TRIBUNAL JUSTICA SANTA CATARINA",
+        "addr:street": "Rua Doutor Alvaro Millen da Silveira",
+        "addr:housenumber": "208",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88020-901",
+        "phone": "+55 48 3287-2125",
+        "email": "divcont@tjsc.jus.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Tribunal Justica Santa Catarina",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5500198,
+          -27.6026501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9910999,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "9910999",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CEDRA",
+        "addr:street": "Rua Esteves Junior",
+        "addr:housenumber": "280",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88015-130",
+        "phone": "+55 48 3212-0909",
+        "email": "cedrapmf@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Cedra",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5552634,
+          -27.591915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4059727,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "4059727",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ESPECIALIDADES ODONTOLOGICAS CEO UFSC",
+        "addr:street": "Rua Campus Universitario",
+        "addr:suburb": "Trindade",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88040-900",
+        "phone": "+55 48 3233-5699",
+        "email": "ceoufsc@contato.ufsc.br",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Centro de Especialidades Odontológicas (CEO)",
+        "short_name": "CEO",
+        "comment": "Odontologia (CEO)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.517288,
+          -27.5991675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7541600,
+      "properties": {
+        "operator": "Governo do Estado (SC)",
+        "operator:type": "public",
+        "ref:CNES": "7541600",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE REFERENCIA EM SAUDE DO TRABALHADOR CEREST",
+        "addr:street": "Rua Av Rio Branco",
+        "addr:housenumber": "152",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88015-200",
+        "phone": "+55 48 3665-9744",
+        "email": "antoniosa@saude.sc.gov.br",
+        "amenity": "clinic",
+        "healthcare": "occupational_health",
+        "name": "CEREST Macro Centro Sul",
+        "short_name": "CEREST",
+        "comment": "Saúde do Trabalhador (CEREST)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5540995,
+          -27.5919256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 489948,
+      "properties": {
+        "operator": "Governo do Estado (SC)",
+        "operator:type": "public",
+        "ref:CNES": "489948",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CEREST REGIONAL DE FLORIANOPOLIS",
+        "addr:street": "Rua Av Rio Branco",
+        "addr:housenumber": "152",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88015-200",
+        "email": "visatsc@saude.sc.gov.br",
+        "amenity": "clinic",
+        "healthcare": "occupational_health",
+        "name": "CEREST Macro Centro Sul",
+        "short_name": "CEREST",
+        "comment": "Saúde do Trabalhador (CEREST)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5461109,
+          -27.5921767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7822308,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "7822308",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CLINICA DO DEPARTAMENTO DE ODONTOLOGIA DA UFSC",
+        "addr:street": "Rua Campus Universitario",
+        "addr:housenumber": "01",
+        "addr:suburb": "Trindade",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88040-900",
+        "phone": "+55 48 3721-9631",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Centro de Especialidades Odontológicas (CEO)",
+        "short_name": "CEO",
+        "comment": "Odontologia (CEO)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.517711,
+          -27.598978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20265,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "20265",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CLINICA ESCOLA DE FISIOTERAPIA CEFID UDESC",
+        "addr:street": "Rua Paschoal Simone",
+        "addr:housenumber": "358",
+        "addr:suburb": "Coqueiros",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88080-350",
+        "phone": "+55 48 3664-8610",
+        "email": "ccef.cefid@udesc.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Clinica Escola de Fisioterapia Cefid Udesc",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.580992,
+          -27.60853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2920166,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "2920166",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CLINIFONO UFSC",
+        "addr:street": "Rua Desembargador Vitor Lima",
+        "addr:housenumber": "222",
+        "addr:suburb": "Trindade",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88040-400",
+        "phone": "+55 48 3721-6111",
+        "email": "clinica.fonoaudiologia@contato.ufsc.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Clinifono Ufsc",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5246998,
+          -27.5969651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 674281,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "674281",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "COORDENADORIA DE SAUDE TRIBUNAL REGIONAL DO TRABALHO DA 12 R",
+        "addr:street": "Rua Esteves Junior",
+        "addr:housenumber": "395",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88015-905",
+        "phone": "+55 48 3216-4000",
+        "email": "dige@trt12.jus.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Coordenadoria de Saude Tribunal Regional do Trabalho da 12 R",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5558937,
+          -27.5911521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4588118,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "4588118",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "ESPACO ACOLHER FLORIPA",
+        "addr:street": "Rua Av Deputado Diomicio Freitas",
+        "addr:housenumber": "3374",
+        "addr:suburb": "Carianos",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88047-710",
+        "phone": "+55 48 3239-1564",
+        "email": "gia.sms.pmf@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Espaco Acolher Floripa",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.544678,
+          -27.6634115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19437,
+      "properties": {
+        "operator": "Governo do Estado (SC)",
+        "operator:type": "public",
+        "ref:CNES": "19437",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "REABILITACAO",
+        "addr:street": "Rua Rui Barbosa",
+        "addr:housenumber": "780",
+        "addr:suburb": "Agronomica",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88025-301",
+        "phone": "+55 48 3665-9640",
+        "email": "ccr@saude.sc.gov.br",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Centro Especializado em Reabilitação (CER)",
+        "short_name": "CER",
+        "comment": "Reabilitação (CER)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5353231,
+          -27.5755471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2691582,
+      "properties": {
+        "operator": "Governo do Estado (SC)",
+        "operator:type": "public",
+        "ref:CNES": "2691582",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "IAP",
+        "addr:street": "Rua Rui Barbosa",
+        "addr:suburb": "Agronomica",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88025-301",
+        "email": "iap@saude.sc.gov.br",
+        "amenity": "clinic",
+        "healthcare": "diagnostic_centre",
+        "name": "Iap",
+        "comment": "Diagnóstico por Imagem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5353018,
+          -27.5760042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9314512,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "9314512",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "LABORATORIO DE BIOLOGIA MOLECULAR MICROBIOLOGIA E SOROLOGIA",
+        "addr:street": "Rua Professora Maria Flora Pausewang",
+        "addr:housenumber": "00",
+        "addr:suburb": "Trindade",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88036-800",
+        "phone": "+55 48 3721-4562",
+        "email": "m.l.bazzo@ufsc.br",
+        "amenity": "clinic",
+        "healthcare": "diagnostic_centre",
+        "name": "Laboratorio de Biologia Molecular Microbiologia e Sorologia",
+        "comment": "Diagnóstico por Imagem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.517987,
+          -27.597302
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2778882,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "2778882",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "LABORATORIO DE PROTOZOOLOGIA",
+        "addr:street": "Rua Campus Universitario",
+        "addr:suburb": "Trindade",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88010-000",
+        "phone": "+55 48 3331-9512",
+        "email": "grisard@ccb.ufsc.br",
+        "amenity": "clinic",
+        "healthcare": "diagnostic_centre",
+        "name": "Laboratorio de Protozoologia",
+        "comment": "Diagnóstico por Imagem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5178056,
+          -27.5968927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2622718,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "2622718",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "ODONTO MOVEL K1",
+        "addr:street": "Rua Av Henrique da Silva Fontes",
+        "addr:housenumber": "6100",
+        "addr:suburb": "Trindade",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88036-700",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Odonto Movel K1",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.517949,
+          -27.589409
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4059999,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "4059999",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PROGRAMA AUTO SOCORRO URGENCIA",
+        "addr:street": "Rua Santos Saraiva",
+        "addr:housenumber": "296",
+        "addr:suburb": "Estreito",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88070-100",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Programa Auto Socorro Urgencia",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.577191,
+          -27.590087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7229747,
+      "properties": {
+        "operator": "Governo do Estado (SC)",
+        "operator:type": "public",
+        "ref:CNES": "7229747",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "ARCANJO 01 SAMU AEROMEDICO FPOLIS",
+        "addr:street": "Rua Diomicio Freitas",
+        "addr:suburb": "Carianos",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88049-000",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5575423,
+          -27.6680507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9722211,
+      "properties": {
+        "operator": "Governo do Estado (SC)",
+        "operator:type": "public",
+        "ref:CNES": "9722211",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "ARCANJO 02 SAMU AEROMEDICO FPOLIS",
+        "addr:street": "Rua Deputado Diomicio Freitas",
+        "addr:suburb": "Carianos",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88049-000",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5494423,
+          -27.5968095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6933726,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "6933726",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "BRAVO 01",
+        "addr:street": "Rua Francisco Faustino Martins",
+        "addr:housenumber": "00",
+        "addr:suburb": "Vargem Grande",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88052-810",
+        "phone": "+55 48 3239-1546",
+        "email": "samu.sms.fpolis@gmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.4543633,
+          -27.4511994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6933734,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "6933734",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "BRAVO 02",
+        "addr:street": "Rodovia Francisco Magno Vieira",
+        "addr:housenumber": "1318",
+        "addr:suburb": "Rio Tavares",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88063-700",
+        "phone": "+55 48 3271-1717",
+        "email": "samu.sms.fpolis@gmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5285211,
+          -27.660325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6933777,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "6933777",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "BRAVO 03",
+        "addr:street": "Rua Santos Saraiva",
+        "addr:housenumber": "296",
+        "addr:suburb": "Estreito",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88070-100",
+        "phone": "+55 48 3271-1717",
+        "email": "samu.sms.fpolis@gmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5797942,
+          -27.5907526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6933793,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "6933793",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "BRAVO 13",
+        "addr:street": "Rua Av Professor Herique Silva Fontes",
+        "addr:housenumber": "6100",
+        "addr:suburb": "Trindade",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88036-700",
+        "phone": "+55 48 3271-1717",
+        "email": "samu.sms.fpolis@gmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5206608,
+          -27.5894113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5953529,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "5953529",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "MOTOLANCIA 01 DO SAMU",
+        "addr:street": "Rua Av Jornalista Rubens de Arruda Ramos",
+        "addr:housenumber": "595",
+        "addr:suburb": "Trindade",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88015-700",
+        "email": "samu.sms.fpolis@gmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5633264,
+          -27.5922309
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5953545,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "5953545",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "MOTOLANCIA 02 DO SAMU",
+        "addr:street": "Rua V Jornalista Rubens de Arruda Ramos",
+        "addr:housenumber": "595",
+        "addr:suburb": "Trindade",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88015-700",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5631091,
+          -27.5920823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7214790,
+      "properties": {
+        "operator": "Governo do Estado (SC)",
+        "operator:type": "public",
+        "ref:CNES": "7214790",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU USA 01 FLORIANOPOLIS",
+        "addr:street": "Rua Av Max de Souza",
+        "addr:housenumber": "952",
+        "addr:suburb": "Coqueiros",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88080-000",
+        "email": "renata.pires@fahece.org.br",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.576628,
+          -27.603867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7229690,
+      "properties": {
+        "operator": "Governo do Estado (SC)",
+        "operator:type": "public",
+        "ref:CNES": "7229690",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU USA 02 FLORIANOPOLIS",
+        "addr:street": "Rua Rod Jose Carlos Daux Sc 401",
+        "addr:housenumber": "4400",
+        "addr:suburb": "Saco Grande",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88032-088",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.503384,
+          -27.542904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2946203,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "2946203",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "FARMACIA ESCOLA UFSC",
+        "addr:street": "Rua Delfino Conti",
+        "addr:suburb": "Trindade",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88040-370",
+        "phone": "+55 48 3721-4455",
+        "email": "farmaciaescola@contato.ufsc.br",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "dispensing": "yes",
+        "name": "Farmácia Escola Ufsc",
+        "comment": "Farmácia Pública"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5169353,
+          -27.5999552
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5687748,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "5687748",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "FARMACIA ESPECIALIZADA",
+        "addr:street": "Rua Doutor Heitor Blum",
+        "addr:housenumber": "521",
+        "addr:suburb": "Estreito",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88075-110",
+        "phone": "(48) 9988078734",
+        "email": "farmaciaespecializada.sms@pmf.sc.gov.br",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "dispensing": "yes",
+        "name": "Farmácia Especializada",
+        "comment": "Farmácia Pública"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5820959,
+          -27.5906932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7204752,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "7204752",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE CONTROLE DE ZOONOSES",
+        "addr:street": "Rua Jose Candido da Silva",
+        "addr:housenumber": "125",
+        "addr:suburb": "Balneario",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88075-250",
+        "phone": "+55 48 3338-9004",
+        "email": "zoonosespmf@gmail.com",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.513869,
+          -27.575094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5380359,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "5380359",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DIRETORIA DE BEM ESTAR ANIMAL",
+        "addr:street": "Rua Sc 401",
+        "addr:housenumber": "114",
+        "addr:suburb": "Itacorubi",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88030-010",
+        "phone": "+55 48 3237-6890",
+        "email": "diretoriadibea.sms@pmf.sc.gov.br",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.4913309,
+          -27.4814047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3193209,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "3193209",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SERVICO DE VIGILANCIA EPIDEMIOLOGICA",
+        "addr:street": "Rua Av Professor Henrique da Silva Fontes",
+        "addr:housenumber": "6100",
+        "addr:suburb": "Trindade",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88036-700",
+        "phone": "+55 48 3212-3907",
+        "email": "vigilanciaepidemiologica@pfm.sc.gov.br",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5203308,
+          -27.5894169
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2622696,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "2622696",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SERVICO DE VIGILANCIA SANITARIA",
+        "addr:street": "Rua Av Henrique da Silva Fontes",
+        "addr:housenumber": "6100",
+        "addr:suburb": "Trindade",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88036-700",
+        "phone": "+55 48 3239-1500",
+        "email": "gervisa.sms@floripa.sc.gov.br",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.545841,
+          -27.592371
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7381123,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "7381123",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "VIGILANCIA EM SAUDE DO TRABALHADOR VISAT FLORIANOPOLIS",
+        "addr:street": "Rua Av Prof Henrique da Silva Fontes",
+        "addr:housenumber": "6100",
+        "addr:suburb": "Trindade",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88036-700",
+        "phone": "+55 48 3239-1589",
+        "email": "visatfloripa@gmail.com",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.517898,
+          -27.589307
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4564812,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "4564812",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "MULTI HOSPITAL",
+        "addr:street": "Rua Av Deputado Diomicio Freitas",
+        "addr:housenumber": "3393",
+        "addr:suburb": "Carianos",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88047-000",
+        "phone": "+55 48 3251-1500",
+        "email": "gerenteadministrativo@hmf.santacasasbc.org.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Multi Hospital",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5470846,
+          -27.6661016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4698827,
+      "properties": {
+        "operator": "Consórcio Intermunicipal de Saúde",
+        "operator:type": "public",
+        "ref:CNES": "4698827",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CONSORCIO INTERFEDERATIVO SANTA CATARINA CINCATARINA",
+        "addr:street": "Rua General Liberato Bittencourt",
+        "addr:housenumber": "1885",
+        "addr:suburb": "Canto",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88070-800",
+        "phone": "+55 48 3380-1620",
+        "email": "cincatarina@cincatarina.sc.gov.br",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5849832,
+          -27.5823654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2407418,
+      "properties": {
+        "operator": "Governo do Estado (SC)",
+        "operator:type": "public",
+        "ref:CNES": "2407418",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SECRETARIA DE ESTADO DA SAUDE DE SANTA CATARINA",
+        "addr:street": "Rua Esteves Junior",
+        "addr:housenumber": "160",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88015-130",
+        "phone": "+55 48 3665-4508",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5529736,
+          -27.5891521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6364403,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "6364403",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SECRETARIA MUNICIPAL DE SAUDE DE FLORIANOPOLIS",
+        "addr:street": "Avenida Henrique da Silva Fontes",
+        "addr:housenumber": "6100",
+        "addr:suburb": "Trindade",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88036-700",
+        "phone": "+55 48 3239-1500",
+        "email": "gabinete.sms@pmf.sc.gov.br",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5178673,
+          -27.5892913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4059956,
+      "properties": {
+        "operator": "Governo do Estado (SC)",
+        "operator:type": "public",
+        "ref:CNES": "4059956",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HEMOSC",
+        "addr:street": "Rua Av Othon Gama Deca",
+        "addr:housenumber": "756",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88015-240",
+        "phone": "+55 48 3251-9774",
+        "email": "financeiro.fns@hemosc.org.br",
+        "amenity": "blood_donation",
+        "healthcare": "blood_donation",
+        "name": "Hemonúcleo de Pato Branco (HEMEPAR)",
+        "short_name": "Hemepar Pato Branco",
+        "comment": "Doação de Sangue (HEMEPAR)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.55102,
+          -27.589178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4651219,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "4651219",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CAPS 24 HORAS",
+        "addr:street": "Rua Av Deputado Diomicio Freitas",
+        "addr:housenumber": "3393",
+        "addr:suburb": "Carianos",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88047-900",
+        "email": "gia.sms.pmf@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5451927,
+          -27.6646485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2663082,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "2663082",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CAPS PONTA DO CORAL",
+        "addr:street": "Rua Delminda da Silveira",
+        "addr:housenumber": "811",
+        "addr:suburb": "Agronomica",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88025-500",
+        "phone": "+55 48 3228-5074",
+        "email": "capspontadocoral.pmf@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5379483,
+          -27.5727057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5018048,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "5018048",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CAPSAD CONTINENTE",
+        "addr:street": "Rua Gualberto Senna",
+        "addr:suburb": "Jardim Atlantico",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88095-390",
+        "phone": "+55 48 3240-5472",
+        "email": "capsadcontinente@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5806149,
+          -27.5828268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6423914,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "6423914",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CAPSAD ILHA",
+        "addr:street": "Rua Vereador Frederico Veras",
+        "addr:housenumber": "60",
+        "addr:suburb": "Pantanal",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88040-200",
+        "phone": "+55 48 3269-8799",
+        "email": "capsadilhapmf@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5186183,
+          -27.6071112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3519007,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "3519007",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CAPSI CENTRO DE ATENCAO PSICOSSOCIAL CRIANCAS E ADOLESCENTES",
+        "addr:street": "Rua Santos Dumont",
+        "addr:housenumber": "124",
+        "addr:suburb": "Agronomica",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88015-020",
+        "phone": "+55 48 3324-1399",
+        "email": "capsi.coordenacao.floripa@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial Infanto-Juvenil (CAPSi)",
+        "short_name": "CAPSi",
+        "comment": "CAPSi (Infanto-Juvenil)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5426295,
+          -27.5829172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9717552,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "9717552",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE PRONTO ATENDIMENTO UPA CONTINENTE",
+        "addr:street": "Rua Gualberto Senna",
+        "addr:housenumber": "300",
+        "addr:suburb": "Jardim Atlantico",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88095-256",
+        "phone": "+55 48 3039-7535",
+        "email": "upacontinente@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "emergency": "yes",
+        "opening_hours": "24/7",
+        "name": "UPA 24 Horas Maria Itália Freddo",
+        "short_name": "UPA 24h",
+        "comment": "UPA 24h"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.598533,
+          -27.5790143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3340821,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "3340821",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE PRONTO ATENDIMENTO UPA NORTE DA ILHA",
+        "addr:street": "Rua Rod Francisco Faustino Martins",
+        "addr:suburb": "Canasvieiras",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88052-810",
+        "phone": "+55 48 3261-0623",
+        "email": "coordenador.upanorte@ibsaude.org.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "emergency": "yes",
+        "opening_hours": "24/7",
+        "name": "UPA 24 Horas Maria Itália Freddo",
+        "short_name": "UPA 24h",
+        "comment": "UPA 24h"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.456535,
+          -27.451516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5989442,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "5989442",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE PRONTO ATENDIMENTO UPA SUL DA ILHA",
+        "addr:street": "Avenida Deputado Diomicio Freitas",
+        "addr:housenumber": "3393",
+        "addr:suburb": "Carianos",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88065-000",
+        "phone": "+55 48 3239-1701",
+        "email": "gerenteadministrativo@hmfsbc.com.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "emergency": "yes",
+        "opening_hours": "24/7",
+        "name": "UPA 24 Horas Maria Itália Freddo",
+        "short_name": "UPA 24h",
+        "comment": "UPA 24h"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5467212,
+          -27.6636765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7061749,
+      "properties": {
+        "operator": "Governo do Estado (SC)",
+        "operator:type": "public",
+        "ref:CNES": "7061749",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL ESTADUAL DE TELEMEDICINA",
+        "addr:street": "Rua Esteves Junior",
+        "addr:housenumber": "390",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88015-130",
+        "phone": "+55 48 3212-1655",
+        "email": "telessaude@saude.sc.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Central Estadual de Telemedicina",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5533613,
+          -27.5890409
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5412536,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "5412536",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "NUCLEO DE SAUDE DIGITAL UFSC",
+        "addr:street": "Rua Delfino Conti",
+        "addr:suburb": "Trindade",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88040-370",
+        "email": "telessaude@contato.ufsc.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Nucleo de Saude Digital Ufsc",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5193064,
+          -27.5988328
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6939392,
+      "properties": {
+        "operator": "Governo do Estado (SC)",
+        "operator:type": "public",
+        "ref:CNES": "6939392",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL DE REGULACAO MEDICA DAS URGENCIAS FLORIANOPOLIS",
+        "addr:street": "Rua Av Governador Ivo Silveira",
+        "addr:housenumber": "2320",
+        "addr:suburb": "Capoeiras",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88085-001",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Central de Regulação Médica das Urgências (SAMU 192)",
+        "short_name": "Regulação SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5895259,
+          -27.5996351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3157237,
+      "properties": {
+        "operator": "Governo do Estado (SC)",
+        "operator:type": "public",
+        "ref:CNES": "3157237",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "LABORATORIO CENTRAL DE SAUDE PUBLICA DE S C LACEN",
+        "addr:street": "Rua Felipe Schmidt",
+        "addr:housenumber": "788",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88010-002",
+        "phone": "+55 48 3664-8885",
+        "email": "lacen@saude.sc.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Laboratorio Central de Saude Publica de S C LACEN",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5569672,
+          -27.5933039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5215269,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "5215269",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "LABORATORIO MUNICIPAL ARACY VAZ CALLADO",
+        "addr:street": "Avenida Aracy Vaz Callado",
+        "addr:housenumber": "742",
+        "addr:suburb": "Estreito",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88070-750",
+        "phone": "+55 48 3248-2401",
+        "email": "coordenacao.lamuf@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Laboratorio Municipal Aracy Vaz Callado",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.582765,
+          -27.585543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9376283,
+      "properties": {
+        "operator": "Governo do Estado (SC)",
+        "operator:type": "public",
+        "ref:CNES": "9376283",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CERAC CENTRAL ESTADUAL DE REGULACAO DE ALTA COMPLEXIDADE",
+        "addr:street": "Rua Esteves Junior",
+        "addr:housenumber": "390",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88015-130",
+        "phone": "+55 48 3664-7318",
+        "email": "tfd@saude.sc.gov.br",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Sistema Municipal de Auditoria e Regulação em Saúde",
+        "comment": "Auditoria e Regulação"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5533538,
+          -27.5890399
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9495061,
+      "properties": {
+        "operator": "Governo do Estado (SC)",
+        "operator:type": "public",
+        "ref:CNES": "9495061",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "COMPLEXO REG AMBULATORIAL E HOSP DA MACRORREGIAO DE FPOLIS",
+        "addr:street": "Rua Esteves Junior",
+        "addr:housenumber": "390",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88015-130",
+        "phone": "+55 48 3664-7235",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Sistema Municipal de Auditoria e Regulação em Saúde",
+        "comment": "Auditoria e Regulação"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5528541,
+          -27.5914563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5089778,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "5089778",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "COMPLEXO REGULADOR DA GRANDE FLORIANOPOLIS",
+        "addr:street": "Avenida Prof Henrique da Silva Fontes",
+        "addr:housenumber": "6100",
+        "addr:suburb": "Trindade",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88036-700",
+        "phone": "+55 48 3239-1595",
+        "email": "regulacaofpolis@gmail.com",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Sistema Municipal de Auditoria e Regulação em Saúde",
+        "comment": "Auditoria e Regulação"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5178673,
+          -27.5893227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2692260,
+      "properties": {
+        "operator": "Governo do Estado (SC)",
+        "operator:type": "public",
+        "ref:CNES": "2692260",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "COMPLEXO REGULADOR MACRO GFPOLIS",
+        "addr:street": "Rua Esteves Junior",
+        "addr:housenumber": "390",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88015-530",
+        "phone": "+55 48 3212-1641",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Sistema Municipal de Auditoria e Regulação em Saúde",
+        "comment": "Auditoria e Regulação"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5529721,
+          -27.591114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9724737,
+      "properties": {
+        "operator": "Governo do Estado (SC)",
+        "operator:type": "public",
+        "ref:CNES": "9724737",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL ESTADUAL DE TRANSPLANTES DE SANTA CATARINA",
+        "addr:street": "Rua Esteves Junior",
+        "addr:housenumber": "390",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88015-130",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Central Estadual de Transplantes de Santa Catarina",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5533231,
+          -27.5890242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 116815,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "116815",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL MUNICIPAL DE REDE DE FRIO DE FLORIANOPOLIS",
+        "addr:street": "Rua Dr Heitor Blum",
+        "addr:housenumber": "521",
+        "addr:suburb": "Estrito",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88075-110",
+        "phone": "+55 48 3271-1710",
+        "email": "contatoimunizacao@gmail.com",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Central Municipal de Rede de Frio de Florianopolis",
+        "comment": "Suprimentos / Logística"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5820643,
+          -27.5906727
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9947167,
+      "properties": {
+        "operator": "Governo do Estado (SC)",
+        "operator:type": "public",
+        "ref:CNES": "9947167",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CRIE CENTRO DE REFERENCIA PARA IMUNOBIOLOGICOS ESPECIAIS",
+        "addr:street": "Rua Rui Barbosa",
+        "addr:housenumber": "152",
+        "addr:suburb": "Agronomica",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88025-301",
+        "phone": "+55 48 3251-9066",
+        "email": "crie@saude.sc.gov.br",
+        "amenity": "clinic",
+        "healthcare": "vaccination",
+        "name": "Sala Central de Vacinas de Pato Branco",
+        "short_name": "Sala de Vacinas",
+        "comment": "Sala de Vacinas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5352254,
+          -27.5741307
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4126416,
+      "properties": {
+        "operator": "Prefeitura Municipal de Florianópolis",
+        "operator:type": "public",
+        "ref:CNES": "4126416",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "ESPACO IMUNIZA FLORIPA",
+        "addr:street": "Rua Esteves Junior",
+        "addr:housenumber": "89",
+        "addr:city": "Florianópolis",
+        "addr:state": "SC",
+        "addr:country": "BR",
+        "addr:postcode": "88015-130",
+        "email": "policlinicadamulherecrianca@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "vaccination",
+        "name": "Sala Central de Vacinas de Pato Branco",
+        "short_name": "Sala de Vacinas",
+        "comment": "Sala de Vacinas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5528315,
+          -27.5937763
+        ]
+      }
+    }
+  ]
+}

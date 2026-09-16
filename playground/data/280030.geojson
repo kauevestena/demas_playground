@@ -1,0 +1,3849 @@
+{
+  "type": "FeatureCollection",
+  "name": "Estabelecimentos Públicos de Saúde - DEMAS / CNES",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 6599559,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "6599559",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "COMPAJAF",
+        "addr:street": "Rua 37",
+        "addr:housenumber": "1501",
+        "addr:suburb": "Santa Maria",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49096-100",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Compajaf",
+        "short_name": "UBS Compajaf",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.10922,
+          -10.977215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6597548,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "6597548",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE CUSTODIA PSIQUIATRICA",
+        "addr:street": "Rua Argentina",
+        "addr:housenumber": "421",
+        "addr:suburb": "America",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49080-080",
+        "email": "hctp.sejuc@sejuc.se.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade de Custodia Psiquiatrica",
+        "short_name": "UBS Unidade de Custodia Psiquiatrica",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.08028,
+          -10.91955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2305,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "2305",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "US ADEL NUNES BAIRRO AMERICA",
+        "addr:street": "Rua R Haiti",
+        "addr:suburb": "America",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49080-300",
+        "phone": "+55 79 3179-6888",
+        "email": "saude@aracaju.se.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Us Adel Nunes Bairro America",
+        "short_name": "UBS Us Adel Nunes Bairro America",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0870502,
+          -10.9141226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25674,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "25674",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "US AMELIA LEITE",
+        "addr:street": "Rua Tenente Wendel Quaranta",
+        "addr:housenumber": "1863",
+        "addr:suburb": "Suissa",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49052-260",
+        "phone": "+55 79 3179-1376",
+        "email": "saude@aracaju.se.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Us Amelia Leite",
+        "short_name": "UBS Us Amelia Leite",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0628651,
+          -10.9207558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3210634,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "3210634",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "US ANALIA PINA DE ASSIS ALM TAMANDARE",
+        "addr:street": "Rua Ayrton Senna",
+        "addr:suburb": "Santos Dumont",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49087-740",
+        "phone": "+55 46 3179-2835",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Us Analia Pina de Assis Alm Tamandare",
+        "short_name": "UBS Us Analia Pina de Assis Alm Tamandare",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.1465728,
+          -11.1030878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2453,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "2453",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "US ANTONIO ALVES ATALAIA",
+        "addr:street": "Rua Firmino Fontes",
+        "addr:suburb": "Atalaia",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49037-220",
+        "phone": "+55 79 3179-2700",
+        "email": "saude@aracaju.se.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Us Antonio Alves Atalaia",
+        "short_name": "UBS Us Antonio Alves Atalaia",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0535561,
+          -10.9808805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2607,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "2607",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "US AUGUSTO CESAR LEITE SANTA TEREZA",
+        "addr:street": "Rua Elenita Nery Gomes",
+        "addr:suburb": "Aeroporto",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49037-190",
+        "phone": "+55 79 3179-2701",
+        "email": "saude@aracaju.se.gov.be",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Us Augusto Cesar Leite Santa Tereza",
+        "short_name": "UBS Us Augusto Cesar Leite Santa Tereza",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0780662,
+          -10.9918472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2600366,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "2600366",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "US AUGUSTO FRANCO",
+        "addr:street": "Rua H 5",
+        "addr:suburb": "Farolandia",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49035-440",
+        "phone": "+55 46 3179-3021",
+        "email": "saude@aracaju.se.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Us Augusto Franco",
+        "short_name": "UBS Us Augusto Franco",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0713286,
+          -10.9288062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3115,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "3115",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "US AVILA NABUCO MEDICI",
+        "addr:street": "Rua O",
+        "addr:suburb": "Luzia",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49048-100",
+        "phone": "+55 79 3179-7077",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Us Avila Nabuco Medici",
+        "short_name": "UBS Us Avila Nabuco Medici",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.072683,
+          -10.9412076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2364,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "2364",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "US CANDIDA ALVES SANTO ANTONIO",
+        "addr:street": "Rua São João",
+        "addr:suburb": "Santo Antonio",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49061-100",
+        "phone": "+55 79 3179-2413",
+        "email": "saude@aracaju.se.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Us Candida Alves Santo Antonio",
+        "short_name": "UBS Us Candida Alves Santo Antonio",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0807068,
+          -10.7399223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3506,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "3506",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "US CARLOS FERNANDES DE MELO LAMARAO",
+        "addr:street": "Rua Av Lamarao",
+        "addr:suburb": "Lamarao",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49088-000",
+        "phone": "3179-3905/3906",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Us Carlos Fernandes de Melo Lamarao",
+        "short_name": "UBS Us Carlos Fernandes de Melo Lamarao",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0761985,
+          -10.8729097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3395,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "3395",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "US CARLOS HARDMAN CORTES SOLEDADE",
+        "addr:street": "Avenida Carlos Marques",
+        "addr:suburb": "Soledade",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49089-005",
+        "phone": "+55 79 3179-2805",
+        "email": "saude@aracaju.se.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Us Carlos Hardman Cortes Soledade",
+        "short_name": "UBS Us Carlos Hardman Cortes Soledade",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0873238,
+          -10.8802613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2658488,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "2658488",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "US CELSO DANIEL SANTA MARIA",
+        "addr:street": "Travessa 5",
+        "addr:suburb": "Santa Maria",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49044-000",
+        "phone": "+55 46 98134-9654",
+        "email": "saude@aracaju.se.gov.be",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Us Celso Daniel Santa Maria",
+        "short_name": "UBS Us Celso Daniel Santa Maria",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0474998,
+          -10.9730021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2763,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "2763",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "US DONA JOVEM AZEVEDO INDUSTRIAL",
+        "addr:street": "Rua Altamira",
+        "addr:suburb": "Industrial",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49050-050",
+        "phone": "+55 79 3179-5400",
+        "email": "saude@aracaju.se.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Us Dona Jovem Azevedo Industrial",
+        "short_name": "UBS Us Dona Jovem Azevedo Industrial",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0573087,
+          -10.8686259
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2410,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "2410",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "US DONA SINHAZINHA GRAGERU",
+        "addr:street": "Rua Av Hermes Fontes",
+        "addr:suburb": "Grageru",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49026-020",
+        "phone": "+55 79 3179-1540",
+        "email": "saude@aracaju.se.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Us Dona Sinhazinha Grageru",
+        "short_name": "UBS Us Dona Sinhazinha Grageru",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0572925,
+          -10.92518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9141588,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "9141588",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "US DR JOSE CALUMBY FILHO",
+        "addr:street": "Rua Terezinha Macedo da Silva",
+        "addr:housenumber": "1",
+        "addr:suburb": "Jardim Centenario",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49090-129",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Us Dr Jose Calumby Filho",
+        "short_name": "UBS Us Dr Jose Calumby Filho",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0965329,
+          -10.8944657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9759956,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "9759956",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "US DR ROBERTO PAIXAO",
+        "addr:street": "Rua Laudelino de Oliveira Freire",
+        "addr:housenumber": "45",
+        "addr:suburb": "17 de Marco",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49015-150",
+        "phone": "+55 46 3711-5000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Us Dr Roberto Paixao",
+        "short_name": "UBS Us Dr Roberto Paixao",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.1024965,
+          -11.005299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2577,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "2577",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "US EDEZIO VIEIRA DE MELO SIQUEIRA CAMPOS",
+        "addr:street": "Rua Paraiba",
+        "addr:suburb": "Siqueira Campos",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49075-420",
+        "phone": "+55 46 3179-2214",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Us Edezio Vieira de Melo Siqueira Campos",
+        "short_name": "UBS Us Edezio Vieira de Melo Siqueira Campos",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0740509,
+          -10.9083455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2550,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "2550",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "US ELIZABETE PITA TERRA DURA",
+        "addr:street": "Rua B",
+        "addr:housenumber": "14",
+        "addr:suburb": "Terra Dura",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49044-340",
+        "phone": "+55 46 3179-2708",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Us Elizabete Pita Terra Dura",
+        "short_name": "UBS Us Elizabete Pita Terra Dura",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0957875,
+          -10.9863784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3603,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "3603",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "US EUNICE BARBOSA DE OLIVEIRA",
+        "addr:street": "Rua Beira Rio",
+        "addr:housenumber": "92",
+        "addr:suburb": "Coqueiral",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49069-030",
+        "phone": "+55 79 3179-3415",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Us Eunice Barbosa de Oliveira",
+        "short_name": "UBS Us Eunice Barbosa de Oliveira",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0575701,
+          -10.8688196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2461,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "2461",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "US FERNANDO SAMPAIO CASTELO BRANCO",
+        "addr:street": "Rua Av São João Batista",
+        "addr:housenumber": "986",
+        "addr:suburb": "Ponto Novo",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49097-000",
+        "phone": "+55 79 3179-1095",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Us Fernando Sampaio Castelo Branco",
+        "short_name": "UBS Us Fernando Sampaio Castelo Branco",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0792278,
+          -10.9319045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2526,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "2526",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "US FRANCISCO FONSECA DEZOITO DO FORTE",
+        "addr:street": "Rua Av Alvaro Marciel",
+        "addr:housenumber": "296",
+        "addr:suburb": "Dezoite de Forte",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49060-020",
+        "phone": "31792434 981386426",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Us Francisco Fonseca Dezoito do Forte",
+        "short_name": "UBS Us Francisco Fonseca Dezoito do Forte",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0657253,
+          -10.882618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2291,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "2291",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "US GERALDO MAGELA DE MENEZES SAO CONRADO",
+        "addr:street": "Rua Central Iv",
+        "addr:suburb": "São Conrado",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49042-256",
+        "phone": "+55 46 3179-1704",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Us Geraldo Magela de Menezes São Conrado",
+        "short_name": "UBS Us Geraldo Magela de Menezes São Conrado",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0901871,
+          -10.970348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2380,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "2380",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "US HUGO GURGEL COROA DO MEIO",
+        "addr:street": "Rua Renato Fonseca Oliveira",
+        "addr:suburb": "Coroa do Meio",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49035-710",
+        "phone": "+55 79 3179-3300",
+        "email": "saude@aracju.se.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Us Hugo Gurgel Coroa do Meio",
+        "short_name": "UBS Us Hugo Gurgel Coroa do Meio",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0551682,
+          -10.9647866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2445,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "2445",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "US HUMBERTO MOURAO GUIMARAES SAO CONRADO",
+        "addr:street": "Rua A",
+        "addr:suburb": "São Conrado",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49042-163",
+        "phone": "37111708 981364575",
+        "email": "saude@aracaju.se.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Us Humberto Mourao Guimaraes São Conrado",
+        "short_name": "UBS Us Humberto Mourao Guimaraes São Conrado",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.1146442,
+          -10.9250398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3123,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "3123",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "US IRMA CARIDADE ALOQUE",
+        "addr:street": "Rua Principal",
+        "addr:housenumber": "101",
+        "addr:suburb": "Jabotiana",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49095-000",
+        "phone": "3179-2941/2940",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Us Irma Caridade Aloque",
+        "short_name": "UBS Us Irma Caridade Aloque",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0946536,
+          -10.8780783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3469182,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "3469182",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "US JOALDO BARBOSA",
+        "addr:street": "Rua Av Guanabara",
+        "addr:suburb": "America",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49080-260",
+        "phone": "+55 79 3179-3581",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Us Joaldo Barbosa",
+        "short_name": "UBS Us Joaldo Barbosa",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.077527,
+          -10.9214929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3425,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "3425",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "US JOAO BEZERRA AREIA BRANCA",
+        "addr:street": "Rua Rod João Alves Bezerra",
+        "addr:suburb": "Areia Branca",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49044-000",
+        "phone": "+55 79 3179-2508",
+        "email": "saude@aracaju.se.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Us João Bezerra Areia Branca",
+        "short_name": "UBS Us João Bezerra Areia Branca",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.1380591,
+          -11.0637799
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2542,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "2542",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "US JOAO CARDOSO NASCIMENTO JUNIOR JOSE CONRADO DE ARAUJO",
+        "addr:street": "Rua Alagoas",
+        "addr:housenumber": "2051",
+        "addr:suburb": "Jose Conrado de Arau",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49075-030",
+        "phone": "+55 79 3179-2261",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Us João Cardoso Nascimento Junior Jose Conrado de Araujo",
+        "short_name": "UBS Us João Cardoso Nascimento Junior Jose Conrado de Araujo",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0850791,
+          -10.9050158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3409,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "3409",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "US JOAO DE OLIVEIRA SOBRAL SANTOS DUMONT",
+        "addr:street": "Rua Senhor do Bomfim",
+        "addr:suburb": "Santos Dumont",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49087-600",
+        "phone": "+55 79 3179-2806",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Us João de Oliveira Sobral Santos Dumont",
+        "short_name": "UBS Us João de Oliveira Sobral Santos Dumont",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.1681213,
+          -10.9037733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2798,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "2798",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "US JOSE AUGUSTO BARRETO JAPAOZINHO",
+        "addr:street": "Rua Av Euclides Figueiredo",
+        "addr:suburb": "Japaozinho",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49015-150",
+        "phone": "+55 79 3179-5405",
+        "email": "saude@aracaju.se.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Us Jose Augusto Barreto Japaozinho",
+        "short_name": "UBS Us Jose Augusto Barreto Japaozinho",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0775693,
+          -10.8774202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2429,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "2429",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "US JOSE MACHADO DE SOUZA SANTOS DUMONT",
+        "addr:street": "Rua Major Aureliano",
+        "addr:housenumber": "100",
+        "addr:suburb": "Santos Dumont",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49087-400",
+        "phone": "+55 79 3245-1578",
+        "email": "saude@aracaju.se.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Us Jose Machado de Souza Santos Dumont",
+        "short_name": "UBS Us Jose Machado de Souza Santos Dumont",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0801886,
+          -10.8948896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2771,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "2771",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "US JOSE QUINTILIANO DA FONSECA SOBRAL CIDADE NOVA",
+        "addr:street": "Rua Santa Terezinha",
+        "addr:suburb": "Cidade Nova",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49015-250",
+        "phone": "+55 79 3179-3498",
+        "email": "saude@aracaju.se.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Us Jose Quintiliano da Fonseca Sobral Cidade Nova",
+        "short_name": "UBS Us Jose Quintiliano da Fonseca Sobral Cidade Nova",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.067729,
+          -10.889136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2836,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "2836",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "US LAURO DANTAS HORA BUGIO",
+        "addr:street": "Rua Projetada",
+        "addr:suburb": "Bugio",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49090-506",
+        "phone": "+55 79 3179-3254",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Us Lauro Dantas Hora Bugio",
+        "short_name": "UBS Us Lauro Dantas Hora Bugio",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0869684,
+          -10.9945519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2631,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "2631",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "US MADRE TEREZA DE CALCUTA JABOTIANA",
+        "addr:street": "Rua Largo da Aparecida",
+        "addr:suburb": "Jabotiana",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49095-000",
+        "phone": "+55 79 3179-3590",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Us Madre Tereza de Calcuta Jabotiana",
+        "short_name": "UBS Us Madre Tereza de Calcuta Jabotiana",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0847379,
+          -10.9347682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2399,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "2399",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "US MANOEL DE SOUZA PEREIRA SOL NASCENTE",
+        "addr:street": "Rua Maria do Carmo Costa",
+        "addr:suburb": "Jabotiana",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49095-240",
+        "phone": "+55 79 3179-2902",
+        "email": "saude@aracaju.se.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Us Manoel de Souza Pereira Sol Nascente",
+        "short_name": "UBS Us Manoel de Souza Pereira Sol Nascente",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0854451,
+          -10.9416671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2259,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "2259",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "US MARIA DO CEU SANTOS PEREIRA",
+        "addr:street": "Rua Maruim",
+        "addr:housenumber": "198",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49010-160",
+        "phone": "+55 46 3179-1374",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Us Maria do Ceu Santos Pereira",
+        "short_name": "UBS Us Maria do Ceu Santos Pereira",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0496873,
+          -10.9145956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25690,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "25690",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "US MAX DE CARVALHO ROCHA LUZIA",
+        "addr:street": "Rua Filemon Freire",
+        "addr:suburb": "Ponto Novo",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49047-180",
+        "phone": "+55 79 3179-1556",
+        "email": "saude@aracaju.se.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Us Max de Carvalho Rocha Luzia",
+        "short_name": "UBS Us Max de Carvalho Rocha Luzia",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0725489,
+          -10.9107054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2615,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "2615",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "US MINISTRO COSTA CAVALVANTE INACIO BARBOSA",
+        "addr:street": "Rua Av Trancredo Neves",
+        "addr:suburb": "Inacio Barbosa",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49040-490",
+        "phone": "+55 46 3179-1443",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Us Ministro Costa Cavalvante Inacio Barbosa",
+        "short_name": "UBS Us Ministro Costa Cavalvante Inacio Barbosa",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0754242,
+          -10.9438884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3093,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "3093",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "US NICEU DANTAS MOSQUEIRO",
+        "addr:street": "Rua dos Naufragos",
+        "addr:suburb": "Mosqueiro",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49015-150",
+        "phone": "+55 79 3179-2504",
+        "email": "saude@aracaju.se.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Us Niceu Dantas Mosqueiro",
+        "short_name": "UBS Us Niceu Dantas Mosqueiro",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.1063887,
+          -11.0488019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2844,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "2844",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "US ONESIMO PINTO FILHO JARDIM CENTENARIO",
+        "addr:street": "Rua Av Radialista Jose da Silva Lima",
+        "addr:suburb": "Jardim Centenario",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49090-250",
+        "phone": "+55 79 3179-3200",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Us Onesimo Pinto Filho Jardim Centenario",
+        "short_name": "UBS Us Onesimo Pinto Filho Jardim Centenario",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0557261,
+          -10.9040262
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2216,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "2216",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "US OSVALDO LEITE TERRA DURA",
+        "addr:street": "Rua Av Azul",
+        "addr:suburb": "Santa Maria",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49043-800",
+        "phone": "+55 46 3179-3008",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Us Osvaldo Leite Terra Dura",
+        "short_name": "UBS Us Osvaldo Leite Terra Dura",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.1071635,
+          -11.0047145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3492,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "3492",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "US OSWALDO DE SOUZA",
+        "addr:street": "Rua Tv Adalto Botelho",
+        "addr:suburb": "Getulio Vargas",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49055-020",
+        "phone": "+55 79 3179-1326",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Us Oswaldo de Souza",
+        "short_name": "UBS Us Oswaldo de Souza",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0536447,
+          -10.9080084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3344,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "3344",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "US PORTO DANTAS",
+        "addr:street": "Rua Antonio dos Santos",
+        "addr:housenumber": "468",
+        "addr:suburb": "Porto Dantas",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49067-020",
+        "phone": "+55 79 3179-2419",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Us Porto Dantas",
+        "short_name": "UBS Us Porto Dantas",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0518574,
+          -10.8764237
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3387,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "3387",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "US RENATO MAZZE LUCAS LAMARAO",
+        "addr:street": "Rua Capitao Manoel Gomes",
+        "addr:housenumber": "590",
+        "addr:suburb": "Santos Dumont",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49087-040",
+        "phone": "(79)2452252/32458592",
+        "email": "saude@aracaju.se.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Us Renato Mazze Lucas Lamarao",
+        "short_name": "UBS Us Renato Mazze Lucas Lamarao",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.084767,
+          -10.8994914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25682,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "25682",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "US SANTA TEREZINHA ROBALO",
+        "addr:street": "Rodovia dos Naufragos Km 05",
+        "addr:suburb": "Robalo",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49035-190",
+        "phone": "+55 79 3179-2507",
+        "email": "saude@aracaju.se.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Us Santa Terezinha Robalo",
+        "short_name": "UBS Us Santa Terezinha Robalo",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0884061,
+          -11.0255345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2623,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "2623",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "US WALTER CARDOSO VENEZA",
+        "addr:street": "Rua B",
+        "addr:housenumber": "372",
+        "addr:suburb": "Veneza",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49092-520",
+        "phone": "31793210 9981382087",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Us Walter Cardoso Veneza",
+        "short_name": "UBS Us Walter Cardoso Veneza",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0972267,
+          -10.8999368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4966279,
+      "properties": {
+        "operator": "Governo do Estado (SE)",
+        "operator:type": "public",
+        "ref:CNES": "4966279",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL DO CANCER DE SERGIPE GOVERNADOR MARCELO DEDA CHAGAS",
+        "addr:street": "Rua Quinze",
+        "addr:suburb": "Capucho",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49095-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital do Cancer de Sergipe Governador Marcelo Deda Chagas",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0916,
+          -10.9136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2816210,
+      "properties": {
+        "operator": "Governo do Estado (SE)",
+        "operator:type": "public",
+        "ref:CNES": "2816210",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL GOVERNADOR JOAO ALVES FILHO",
+        "addr:street": "Avenida Tancredo Neves",
+        "addr:housenumber": "7501",
+        "addr:suburb": "Capucho",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49095-000",
+        "phone": "+55 79 3216-2600",
+        "email": "cadiweb.huse@saude.se.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Governador João Alves Filho",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.090511,
+          -10.913823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3841375,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "3841375",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL MUNICIPAL ZONA NORTE DR NESTOR PIVA",
+        "addr:street": "Rua Av Maranhao",
+        "addr:suburb": "18 do Forte",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49072-000",
+        "phone": "+55 79 3212-0401",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Municipal Zona Norte Dr Nestor Piva",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0672474,
+          -10.9045232
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2372,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "2372",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL MUNICIPAL ZONA SUL DES FERNANDO FRANCO",
+        "addr:street": "Rua Av Tarcisio Daniel",
+        "addr:housenumber": "1",
+        "addr:suburb": "Farolandia",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49030-290",
+        "phone": "+55 79 3212-0503",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Municipal Zona Sul Des Fernando Franco",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.074532,
+          -10.9748118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4099206,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "4099206",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSP DA MULHER E MATER DE ARACAJU LOURDES NOGUEIRA HAMA",
+        "addr:street": "Rua Prc Jose Costa Cavalcante",
+        "addr:suburb": "17 de Marco",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49003-247",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hosp da Mulher e Mater de Aracaju Lourdes Nogueira Hama",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0999718,
+          -11.0000068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2477955,
+      "properties": {
+        "operator": "Governo do Estado (SE)",
+        "operator:type": "public",
+        "ref:CNES": "2477955",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL DA CRIANCA DR JOSE MACHADO DE SOUZA",
+        "addr:street": "Rua Recife",
+        "addr:housenumber": "271",
+        "addr:suburb": "Jose Conrado de Arau",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49085-310",
+        "phone": "+55 79 3226-6340",
+        "email": "hospitaldacrianca@saude.se.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital da Crianca Dr Jose Machado de Souza",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.07959,
+          -10.90759
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5714397,
+      "properties": {
+        "operator": "Governo do Estado (SE)",
+        "operator:type": "public",
+        "ref:CNES": "5714397",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "MATERNIDADE NOSSA SENHORA DE LOURDES",
+        "addr:street": "Rua Av Presidente Tancredo Neves",
+        "addr:housenumber": "5700",
+        "addr:suburb": "America",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49080-350",
+        "phone": "+55 46 3225-8650",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Maternidade Nossa Senhora de Lourdes",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.072,
+          -10.911
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4375084,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "4375084",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "28 BATALHAO DE CACADORES",
+        "addr:street": "Rua Ten Jansen Melo",
+        "addr:suburb": "18 do Forte",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49072-350",
+        "phone": "+55 79 4009-1201",
+        "email": "setfin28bc@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "28 Batalhao de Cacadores",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0664442,
+          -10.9011711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9679006,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "9679006",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CASA DE PASSAGEM MUNICIPAL ACOLHER",
+        "addr:street": "Rua Frei Luiz Canolo de Noronha",
+        "addr:housenumber": "42",
+        "addr:suburb": "Ponto Novo",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49097-270",
+        "phone": "+55 79 3218-7870",
+        "email": "paulo.santana@aracaju.se.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Casa de Passagem Municipal Acolher",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.07727,
+          -10.9275802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 276693,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "276693",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DETRAN SE CONSULTORIO MEDICO",
+        "addr:street": "Rua Tancredo Neves",
+        "addr:suburb": "Ponto Novo",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49097-510",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Detran Se Consultorio Medico",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0862389,
+          -10.9174266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2569,
+      "properties": {
+        "operator": "Governo do Estado (SE)",
+        "operator:type": "public",
+        "ref:CNES": "2569",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "BANCO DE LEITE HUMANO MARLY SARNEY",
+        "addr:street": "Rua Mato Grosso",
+        "addr:suburb": "Jose Conrado de Arau",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49085-220",
+        "phone": "+55 79 3226-6301",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Banco de Leite Humano Marly Sarney",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.07967,
+          -10.90613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2240,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "2240",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CEMAR OFTALMOLOGIA",
+        "addr:street": "Rua Bahia",
+        "addr:suburb": "Siqueira Campos",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49031-190",
+        "phone": "(79)37110920/0942",
+        "email": "saude@aracaju.se.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Cemar Oftalmologia",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0708775,
+          -10.9150973
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2186,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "2186",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CEMAR SIQUEIRA CAMPOS",
+        "addr:street": "Rua Bahia",
+        "addr:suburb": "Siqueira Campos",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49075-000",
+        "phone": "+55 79 3711-0900",
+        "email": "saude@aracaju.se.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Cemar Siqueira Campos",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0708752,
+          -10.916036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28142,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "28142",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CEMCA CENT DE ESP MED DA CRIANCA E DO ADOLESCENTE",
+        "addr:street": "Rua Sergipe Fundo do Cemar Siqueira",
+        "addr:suburb": "Siqueira Campos",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49075-540",
+        "phone": "+55 79 3711-0936",
+        "email": "saude@aracaju.se.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Cemca Cent de Esp Med da Crianca e do Adolescente",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0709375,
+          -10.915201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2208,
+      "properties": {
+        "operator": "Governo do Estado (SE)",
+        "operator:type": "public",
+        "ref:CNES": "2208",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ATENCAO INTEGRAL A SAUDE DA MULHER CAISM",
+        "addr:street": "Rua Variante 2",
+        "addr:suburb": "Capucho",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49035-190",
+        "phone": "+55 46 3218-9400",
+        "email": "caism.saude@saude.se.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Atencao Integral A Saude da Mulher Caism",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.09251,
+          -10.91224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9302522,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "9302522",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ESPECIALIDADES ODONTOLOGICAS DE ARACAJU CEO",
+        "addr:street": "Rua Carlos Pereira de Melo",
+        "addr:housenumber": "450",
+        "addr:suburb": "Farolandia",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49030-150",
+        "phone": "+55 46 3711-6990",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Centro de Especialidades Odontológicas (CEO)",
+        "short_name": "CEO",
+        "comment": "Odontologia (CEO)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0701065,
+          -10.9674574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3824977,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "3824977",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CER II CENTRO ESPECIALIDADE EM REABILITACAO II",
+        "addr:street": "Rua Porto Alegre",
+        "addr:suburb": "Siqueira Campos",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49075-000",
+        "phone": "+55 79 3234-0933",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Centro Especializado em Reabilitação (CER)",
+        "short_name": "CER",
+        "comment": "Reabilitação (CER)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.075464,
+          -10.9149965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 553921,
+      "properties": {
+        "operator": "Governo do Estado (SE)",
+        "operator:type": "public",
+        "ref:CNES": "553921",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CER IV JOSE LEONEL FERREIRA AQUINO",
+        "addr:street": "Avenida Dr Carlos Rodrigues da Cruz",
+        "addr:suburb": "Capucho",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49081-015",
+        "email": "reabilitacao.ses@saude.se.gov.br",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Centro Especializado em Reabilitação (CER)",
+        "short_name": "CER",
+        "comment": "Reabilitação (CER)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.09526,
+          -10.91411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5841399,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "5841399",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CEREST ANIZIO DARIO",
+        "addr:street": "Travessa Baltasar de Gois 19 Andar",
+        "addr:housenumber": "86",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49015-150",
+        "email": "saude.crst@aracaju.se.gov.br",
+        "amenity": "clinic",
+        "healthcare": "occupational_health",
+        "name": "CEREST Macro Centro Sul",
+        "short_name": "CEREST",
+        "comment": "Saúde do Trabalhador (CEREST)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.050013,
+          -10.9088273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9882995,
+      "properties": {
+        "operator": "Governo do Estado (SE)",
+        "operator:type": "public",
+        "ref:CNES": "9882995",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CEREST CENTRO DE REFERENCIA EM SAUDE DO TRABALHADOR",
+        "addr:street": "Travessa Baltazar Gois 24 Andar",
+        "addr:housenumber": "86",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49065-310",
+        "email": "diretoria.cerest@saude.se.gov.br",
+        "amenity": "clinic",
+        "healthcare": "occupational_health",
+        "name": "CEREST Macro Centro Sul",
+        "short_name": "CEREST",
+        "comment": "Saúde do Trabalhador (CEREST)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.05002,
+          -10.90893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3256944,
+      "properties": {
+        "operator": "Governo do Estado (SE)",
+        "operator:type": "public",
+        "ref:CNES": "3256944",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CIATOX SE",
+        "addr:street": "Rua Av Augusto Franco",
+        "addr:housenumber": "3150",
+        "addr:suburb": "Ponto Novo",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49097-670",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Ciatox Se",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.09036,
+          -10.91375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3077,
+      "properties": {
+        "operator": "Governo do Estado (SE)",
+        "operator:type": "public",
+        "ref:CNES": "3077",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL DA POLICIA MILITAR",
+        "addr:street": "Rua Av Minas Gerais",
+        "addr:housenumber": "330",
+        "addr:suburb": "Dezoito do Forte",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49072-470",
+        "phone": "+55 46 79236-1885",
+        "email": "diradm@hpm.se.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital da Policia Militar",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.06343,
+          -10.90366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7104286,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "7104286",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SERVICO DE VERIFICACAO DE OBITO DE SERGIPE SVO",
+        "addr:street": "Rua Campo do Brito",
+        "addr:housenumber": "551",
+        "addr:suburb": "São Jose",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49048-100",
+        "phone": "79 3234 6037 / 6038",
+        "email": "aline.marinho@fsph.se.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Serviço de Verificacao de Obito de Sergipe Svo",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.04938,
+          -10.92533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8223149,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "8223149",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "TRIBUNAL DE JUSTICA DO ESTADO DE SERGIPE",
+        "addr:street": "Rua Fausto Cardoso",
+        "addr:housenumber": "94",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49010-080",
+        "email": "angelica@tjse.jus.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Tribunal de Justica do Estado de Sergipe",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0493628,
+          -10.9136389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3824985,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "3824985",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE MUNICIPAL DE CIRURGIA AMBULATORIAL",
+        "addr:street": "Rua Sergipe",
+        "addr:suburb": "Siqueira Campos",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49075-540",
+        "phone": "+55 79 3179-0938",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Municipal de Cirurgia Ambulatorial",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0718589,
+          -10.9152796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6403190,
+      "properties": {
+        "operator": "Governo do Estado (SE)",
+        "operator:type": "public",
+        "ref:CNES": "6403190",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "BANCO DE OLHOS DE SERGIPE",
+        "addr:street": "Avenida Tancredo Neves",
+        "addr:suburb": "Capucho",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49080-470",
+        "phone": "+55 79 3259-2899",
+        "email": "transplante@saude.se.gov.br",
+        "amenity": "clinic",
+        "healthcare": "diagnostic_centre",
+        "name": "Banco de Olhos de Sergipe",
+        "comment": "Diagnóstico por Imagem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0906,
+          -10.91472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7321678,
+      "properties": {
+        "operator": "Governo do Estado (SE)",
+        "operator:type": "public",
+        "ref:CNES": "7321678",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ACOLHIMENTO E DIAGNOSTICO POR IMAGEM CADI",
+        "addr:street": "Rua Quinze",
+        "addr:housenumber": "2162",
+        "addr:suburb": "Capucho",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49095-000",
+        "amenity": "clinic",
+        "healthcare": "diagnostic_centre",
+        "name": "Centro de Acolhimento e Diagnóstico por Imagem Cadi",
+        "comment": "Diagnóstico por Imagem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0932,
+          -10.91311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5839106,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "5839106",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SIM SAUDE INTEGRAL DA MULHER",
+        "addr:street": "Rua Av Maranhao Estacionamento do Hos Nestor Piva",
+        "addr:suburb": "18 do Forte",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49072-000",
+        "phone": "+55 79 3212-0401",
+        "amenity": "clinic",
+        "healthcare": "diagnostic_centre",
+        "name": "Sim Saude Integral da Mulher",
+        "comment": "Diagnóstico por Imagem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0666695,
+          -10.904869
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4134702,
+      "properties": {
+        "operator": "Governo do Estado (SE)",
+        "operator:type": "public",
+        "ref:CNES": "4134702",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CAMISILDO",
+        "addr:street": "Rua Av Augusto Franco",
+        "addr:housenumber": "3150",
+        "addr:suburb": "Ponto Novo",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49047-040",
+        "phone": "+55 79 3234-9517",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Camisildo",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.07089,
+          -10.92588
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4132904,
+      "properties": {
+        "operator": "Governo do Estado (SE)",
+        "operator:type": "public",
+        "ref:CNES": "4132904",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE MOVEL",
+        "addr:street": "Rua Av Augusto Franco",
+        "addr:housenumber": "3150",
+        "addr:suburb": "Ponto Novo",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49047-040",
+        "phone": "+55 79 3234-9517",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Movel",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0654,
+          -10.96484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8411549,
+      "properties": {
+        "operator": "Governo do Estado (SE)",
+        "operator:type": "public",
+        "ref:CNES": "8411549",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADES MOVEIS DE SAUDE DO HOMEM E DA MULHER",
+        "addr:street": "Rua Av Augusto Franco",
+        "addr:housenumber": "3120",
+        "addr:suburb": "Ponto Novo",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49010-520",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidades Moveis de Saude do Homem e da Mulher",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.048211,
+          -10.907216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2423510,
+      "properties": {
+        "operator": "Governo do Estado (SE)",
+        "operator:type": "public",
+        "ref:CNES": "2423510",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CBMSE UNIDADE MOVEL",
+        "addr:street": "Rua Siriri",
+        "addr:housenumber": "762",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49010-450",
+        "phone": "+55 46 79214-2609",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.05637,
+          -10.9130442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9025936,
+      "properties": {
+        "operator": "Governo do Estado (SE)",
+        "operator:type": "public",
+        "ref:CNES": "9025936",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HELICOPTERO AEROMEDICO SERGIPE",
+        "addr:street": "Rua Av Senador Julio Cesar Leite",
+        "addr:housenumber": "1440",
+        "addr:suburb": "Aeroporto",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49037-580",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0738004,
+          -10.9869695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7308043,
+      "properties": {
+        "operator": "Governo do Estado (SE)",
+        "operator:type": "public",
+        "ref:CNES": "7308043",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "VIATURA MOTOLANCIA I",
+        "addr:street": "Rua Siriri",
+        "addr:housenumber": "762",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49010-450",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.094,
+          -10.914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7308086,
+      "properties": {
+        "operator": "Governo do Estado (SE)",
+        "operator:type": "public",
+        "ref:CNES": "7308086",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "VIATURA MOTOLANCIA II",
+        "addr:street": "Rua Siriri",
+        "addr:housenumber": "762",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49010-450",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0939723,
+          -10.9139843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7308094,
+      "properties": {
+        "operator": "Governo do Estado (SE)",
+        "operator:type": "public",
+        "ref:CNES": "7308094",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "VIATURA MOTOLANCIA III",
+        "addr:street": "Rua Av Dr Jose Tomaz Davila Nabuco",
+        "addr:housenumber": "9995",
+        "addr:suburb": "Farolandia",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49030-270",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.063,
+          -10.969
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7308108,
+      "properties": {
+        "operator": "Governo do Estado (SE)",
+        "operator:type": "public",
+        "ref:CNES": "7308108",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "VIATURA MOTOLANCIA IV",
+        "addr:street": "Rua Av Dr Jose Tomaz Davila Nabuco",
+        "addr:housenumber": "9995",
+        "addr:suburb": "Farolandia",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49030-270",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0629723,
+          -10.9689843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7308116,
+      "properties": {
+        "operator": "Governo do Estado (SE)",
+        "operator:type": "public",
+        "ref:CNES": "7308116",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "VIATURA USA ARACAJU I",
+        "addr:street": "Rua Av Tancredo Neves",
+        "addr:suburb": "Capucho",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49095-000",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.093,
+          -10.914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7308124,
+      "properties": {
+        "operator": "Governo do Estado (SE)",
+        "operator:type": "public",
+        "ref:CNES": "7308124",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "VIATURA USA ARACAJU II",
+        "addr:street": "Rua Av Tancredo Neves",
+        "addr:suburb": "Capucho",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49095-000",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0929723,
+          -10.9139843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7308132,
+      "properties": {
+        "operator": "Governo do Estado (SE)",
+        "operator:type": "public",
+        "ref:CNES": "7308132",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "VIATURA USA ARACAJU III",
+        "addr:street": "Rua Av Dr Jose Tomaz Davila",
+        "addr:housenumber": "9995",
+        "addr:suburb": "Farolandia",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49030-270",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0629723,
+          -10.9690157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7308140,
+      "properties": {
+        "operator": "Governo do Estado (SE)",
+        "operator:type": "public",
+        "ref:CNES": "7308140",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "VIATURA USB ARACAJU I",
+        "addr:street": "Rua Porto Alegre",
+        "addr:suburb": "Siqueira Campos",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49075-490",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.076,
+          -10.914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7308159,
+      "properties": {
+        "operator": "Governo do Estado (SE)",
+        "operator:type": "public",
+        "ref:CNES": "7308159",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "VIATURA USB ARACAJU II",
+        "addr:street": "Rua Porto Alegre",
+        "addr:suburb": "Siqueira Campos",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49075-490",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0759723,
+          -10.9139843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7308167,
+      "properties": {
+        "operator": "Governo do Estado (SE)",
+        "operator:type": "public",
+        "ref:CNES": "7308167",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "VIATURA USB ARACAJU III",
+        "addr:street": "Rua Porto Alegre",
+        "addr:suburb": "Siqueira Campos",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49075-490",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0759723,
+          -10.9140157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7308175,
+      "properties": {
+        "operator": "Governo do Estado (SE)",
+        "operator:type": "public",
+        "ref:CNES": "7308175",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "VIATURA USB ARACAJU IV",
+        "addr:street": "Rua Porto Alegre",
+        "addr:suburb": "Siqueira Campos",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49075-490",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.076,
+          -10.9140314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7308183,
+      "properties": {
+        "operator": "Governo do Estado (SE)",
+        "operator:type": "public",
+        "ref:CNES": "7308183",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "VIATURA USB ARACAJU V",
+        "addr:street": "Rua R Porto Alegre",
+        "addr:suburb": "Siqueira Campos",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49075-490",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0760277,
+          -10.9140157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7308191,
+      "properties": {
+        "operator": "Governo do Estado (SE)",
+        "operator:type": "public",
+        "ref:CNES": "7308191",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "VIATURA USB ARACAJU VI",
+        "addr:street": "Rua Porto Alegre",
+        "addr:suburb": "Siqueira Campos",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49075-490",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0760277,
+          -10.9139843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7308205,
+      "properties": {
+        "operator": "Governo do Estado (SE)",
+        "operator:type": "public",
+        "ref:CNES": "7308205",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "VIATURA USB ARACAJU VII",
+        "addr:street": "Rua Av Dr Jose Tomaz Davila Nabuco",
+        "addr:housenumber": "9995",
+        "addr:suburb": "Farolandia",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49030-270",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.063,
+          -10.9690314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7815166,
+      "properties": {
+        "operator": "Governo do Estado (SE)",
+        "operator:type": "public",
+        "ref:CNES": "7815166",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "VIATURA USB ARACAJU VIII",
+        "addr:street": "Rua Av Dr Jose Tomaz Davila Nabuco",
+        "addr:housenumber": "9995",
+        "addr:suburb": "Farolandia",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49030-270",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0630277,
+          -10.9690157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3441,
+      "properties": {
+        "operator": "Governo do Estado (SE)",
+        "operator:type": "public",
+        "ref:CNES": "3441",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ATENCAO A SAUDE DE SERGIPE CASE",
+        "addr:street": "Rua Av Tancredo Neves",
+        "addr:suburb": "Capucho",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49081-000",
+        "phone": "+55 79 3211-9565",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "dispensing": "yes",
+        "name": "Centro de Atencao A Saude de Sergipe Case",
+        "comment": "Farmácia Pública"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.09154,
+          -10.91261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7845693,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "7845693",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE CONTROLE DE ZOONOSES",
+        "addr:street": "Rua Av Carlos Rodrigues da Cruz",
+        "addr:housenumber": "190",
+        "addr:suburb": "Capucho",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49015-150",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.1003151,
+          -10.9068074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 300411,
+      "properties": {
+        "operator": "Governo do Estado (SE)",
+        "operator:type": "public",
+        "ref:CNES": "300411",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "VIGILANCIA SAUDE SES EMDAGRO",
+        "addr:street": "Rua Av Carlos Rodrigues",
+        "addr:suburb": "Capucho",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49081-015",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.07229,
+          -10.93384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7993978,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "7993978",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "IPESAUDE",
+        "addr:street": "Rua Campos",
+        "addr:housenumber": "177",
+        "addr:suburb": "São Jose",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49015-220",
+        "phone": "+55 79 3226-2828",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Ipesaude",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0465052,
+          -10.9223887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2880016,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "2880016",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE NOVO OLHAR",
+        "addr:street": "Rua Av João Rodrigues",
+        "addr:housenumber": "42",
+        "addr:suburb": "Industrial",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49065-450",
+        "phone": "+55 79 99653-2323",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Novo Olhar",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0502007,
+          -10.9003178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5589711,
+      "properties": {
+        "operator": "Governo do Estado (SE)",
+        "operator:type": "public",
+        "ref:CNES": "5589711",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SECRETARIA DE ESTADO DA SAUDE SEDE",
+        "addr:street": "Rua Av Augusto Franco",
+        "addr:housenumber": "3150",
+        "addr:suburb": "Ponto Novo",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49097-670",
+        "phone": "+55 79 3234-9500",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.07355,
+          -10.93335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5451604,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "5451604",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SECRETARIA MUNICIPAL DE SAUDE DE ARACAJU SEDE",
+        "addr:street": "Rua Nely Correia de Andrade",
+        "addr:housenumber": "50",
+        "addr:suburb": "Coroa do Meio",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49036-245",
+        "phone": "+55 79 3711-5000",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0650172,
+          -10.9174266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3532240,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "3532240",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HEMOSE CENTRO DE HEMOTERAPIA DE SERGIPE",
+        "addr:street": "Rua Variante",
+        "addr:housenumber": "01",
+        "addr:suburb": "Capucho",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49020-380",
+        "phone": "+55 79 3259-3191",
+        "email": "fernanda.fraga@fsph.se.gov.br",
+        "amenity": "blood_donation",
+        "healthcare": "blood_donation",
+        "name": "Hemonúcleo de Pato Branco (HEMEPAR)",
+        "short_name": "Hemepar Pato Branco",
+        "comment": "Doação de Sangue (HEMEPAR)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0917,
+          -10.91357
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3295281,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "3295281",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CAPS AD IIIINFANTOJUVENIL VIDA",
+        "addr:street": "Rua Haiti",
+        "addr:housenumber": "665",
+        "addr:suburb": "America",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49052-270",
+        "phone": "+55 46 79317-9377",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial Infanto-Juvenil (CAPSi)",
+        "short_name": "CAPSi",
+        "comment": "CAPSi (Infanto-Juvenil)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0835039,
+          -10.9148327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2745186,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "2745186",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CAPS ALC E DRG PRIMAVERA",
+        "addr:street": "Rua Guarapari",
+        "addr:suburb": "Atalaia",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49037-220",
+        "phone": "(79)31794620/4621",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0545419,
+          -10.9813018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28320,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "28320",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CAPS DAVID CAPISTRANO FILHO",
+        "addr:street": "Rua R Laudelino de Oliveira Freire",
+        "addr:suburb": "17 de Marco",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49044-000",
+        "phone": "+55 46 2140-1000",
+        "email": "ciras.aracaju@yahoo.com.br",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.1030128,
+          -11.0064548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5970660,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "5970660",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CAPS III JAEL PATRICIO DE LIMA",
+        "addr:street": "Rua J",
+        "addr:suburb": "Cidade Nova",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49010-000",
+        "phone": "+55 46 3245-9683",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.1413004,
+          -11.0806405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3158,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "3158",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CAPS III LIBERDADE",
+        "addr:street": "Rua Distrito Federal",
+        "addr:housenumber": "1012",
+        "addr:suburb": "Siqueira Campos",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49075-190",
+        "phone": "79 31793873/3872",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0729995,
+          -10.9153644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7786646,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "7786646",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POLO ACADEMIA DA SAUDE 17 DE MARCO",
+        "addr:street": "Rua Laudelino de Oliveira Freire",
+        "addr:housenumber": "1",
+        "addr:suburb": "17 de Marco",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49087-245",
+        "leisure": "fitness_centre",
+        "healthcare": "rehabilitation",
+        "name": "Academia da Saúde Polo 17 de Marco",
+        "comment": "Academia da Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.1023818,
+          -11.0055382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6885985,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "6885985",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POLO ACADEMIA DA SAUDE ANALIA PINA",
+        "addr:street": "Rua Maranhao",
+        "addr:suburb": "18 do Forte",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49035-190",
+        "leisure": "fitness_centre",
+        "healthcare": "rehabilitation",
+        "name": "Academia da Saúde Polo Analia Pina",
+        "comment": "Academia da Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0785228,
+          -10.9033487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6885977,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "6885977",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POLO ACADEMIA DA SAUDE GERALDO MAGELA",
+        "addr:street": "Rua Maria do Carmo Batista Santos",
+        "addr:suburb": "Sol Nascente",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49025-240",
+        "leisure": "fitness_centre",
+        "healthcare": "rehabilitation",
+        "name": "Academia da Saúde Polo Geraldo Magela",
+        "comment": "Academia da Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0833421,
+          -10.9428351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7786638,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "7786638",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POLO ACADEMIA DA SAUDE JOSE MACHADO DE SOUZA",
+        "addr:street": "Rua Valdomiro Jose de Ouza",
+        "addr:suburb": "Cidade Nova",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49015-150",
+        "leisure": "fitness_centre",
+        "healthcare": "rehabilitation",
+        "name": "Academia da Saúde Polo Jose Machado de Souza",
+        "comment": "Academia da Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.2921884,
+          -11.0522221
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7786670,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "7786670",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POLO ACADEMIA DA SAUDE RENATO MAZZE",
+        "addr:street": "Rua Central Iv",
+        "addr:housenumber": "01",
+        "addr:suburb": "São Conrado",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49030-530",
+        "leisure": "fitness_centre",
+        "healthcare": "rehabilitation",
+        "name": "Academia da Saúde Polo Renato Mazze",
+        "comment": "Academia da Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0831977,
+          -10.9670118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7786662,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "7786662",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POLO ACADEMIA DE SAUDE ONESIMO PINTO",
+        "addr:street": "Rua Maria Pastora",
+        "addr:suburb": "Farolandia",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49035-620",
+        "leisure": "fitness_centre",
+        "healthcare": "rehabilitation",
+        "name": "Academia da Saúde Polo Academia de Saude Onesimo Pinto",
+        "comment": "Academia da Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0628607,
+          -10.9748296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7311478,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "7311478",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "NUCLEO DE TELESSAUDE SERGIPE",
+        "addr:street": "Rua Basilio Rocha",
+        "addr:housenumber": "33",
+        "addr:suburb": "Getulio Vargas",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49055-100",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Nucleo de Telessaude Sergipe",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.048313,
+          -10.907316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5445515,
+      "properties": {
+        "operator": "Governo do Estado (SE)",
+        "operator:type": "public",
+        "ref:CNES": "5445515",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU 192 SERGIPE",
+        "addr:street": "Rua Praca General Valadao",
+        "addr:housenumber": "32",
+        "addr:suburb": "São Jose",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49010-520",
+        "phone": "+55 79 3212-8403",
+        "email": "samu192@fhs.saude.se.gov.br",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Central de Regulação Médica das Urgências (SAMU 192)",
+        "short_name": "Regulação SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0490508,
+          -10.9091044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 741175,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "741175",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SERVICO DE ATENCAO DOMICILIAR ARACAJU",
+        "addr:street": "Rua Av Etelvino Alves de Lima",
+        "addr:housenumber": "1294",
+        "addr:suburb": "Inacio Barbosa",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49040-696",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Serviço de Atencao Domiciliar Aracaju",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0770594,
+          -10.9429102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3532259,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "3532259",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "LACEN LABORATORIO CENTRAL DE SAUDE PUBLICA DE SERGIPE",
+        "addr:street": "Rua Campo do Brito",
+        "addr:housenumber": "551",
+        "addr:suburb": "São Jose",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49020-380",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "LACEN Laboratorio Central de Saude Publica de Sergipe",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.04962,
+          -10.92551
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8137331,
+      "properties": {
+        "operator": "Governo do Estado (SE)",
+        "operator:type": "public",
+        "ref:CNES": "8137331",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "COMPLEXO REGULATORIO ESTADUAL",
+        "addr:street": "Rua Praca General Valadao",
+        "addr:housenumber": "32",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49010-520",
+        "phone": "+55 46 3198-4200",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Sistema Municipal de Auditoria e Regulação em Saúde",
+        "comment": "Auditoria e Regulação"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0514939,
+          -10.9087498
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3001121,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "3001121",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "NUCAR NUCLEO DE CONTROLE AVALIACAO E REGULACAO",
+        "addr:street": "Rua Nely Correia",
+        "addr:housenumber": "50",
+        "addr:suburb": "Coroa do Meio",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49036-245",
+        "phone": "+55 79 3179-5000",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Sistema Municipal de Auditoria e Regulação em Saúde",
+        "comment": "Auditoria e Regulação"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0462997,
+          -10.9479969
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3378829,
+      "properties": {
+        "operator": "Governo do Estado (SE)",
+        "operator:type": "public",
+        "ref:CNES": "3378829",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "TFD SERGIPE",
+        "addr:street": "Rua Praca General Valadao 1 Andar",
+        "addr:housenumber": "32",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49010-520",
+        "phone": "+55 79 3234-9735",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Sistema Municipal de Auditoria e Regulação em Saúde",
+        "comment": "Auditoria e Regulação"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.048881,
+          -10.90846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6403204,
+      "properties": {
+        "operator": "Governo do Estado (SE)",
+        "operator:type": "public",
+        "ref:CNES": "6403204",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL ESTADUAL DE TRANSPLANTES DE SERGIPE",
+        "addr:street": "Rua Av Tancredo Neves",
+        "addr:suburb": "Capucho",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49080-470",
+        "phone": "+55 79 3259-3491",
+        "email": "transplante@saude.se.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Central Estadual de Transplantes de Sergipe",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.04895,
+          -10.90846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9962905,
+      "properties": {
+        "operator": "Governo do Estado (SE)",
+        "operator:type": "public",
+        "ref:CNES": "9962905",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "ORGANIZACAO DE PROCURA DE ORGAOS E TECIDOS DE SERGIPE",
+        "addr:street": "Rua Av Tancredo Neves",
+        "addr:suburb": "Capucho",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49080-470",
+        "email": "opa@fhs.saude.se.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Organizacao de Procura de Orgaos e Tecidos de Sergipe",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.04911,
+          -10.90605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9961518,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "9961518",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CEPS CENTRO DE EDUCACAO PERMANENTE DA SAUDE",
+        "addr:street": "Rua Sergipe",
+        "addr:housenumber": "101",
+        "addr:suburb": "Siqueira Campos",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49075-540",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Ceps Centro de Educacao Permanente da Saude",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0710754,
+          -10.910908
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8203997,
+      "properties": {
+        "operator": "Governo do Estado (SE)",
+        "operator:type": "public",
+        "ref:CNES": "8203997",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CADIM",
+        "addr:street": "Rua Av Augusto Franco",
+        "addr:housenumber": "3150",
+        "addr:suburb": "Ponto Novo",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49095-000",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Cadim",
+        "comment": "Suprimentos / Logística"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.07488,
+          -10.93312
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 80764,
+      "properties": {
+        "operator": "Governo do Estado (SE)",
+        "operator:type": "public",
+        "ref:CNES": "80764",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL ESTADUAL DE REDE DE FRIO",
+        "addr:street": "Rua Av Augustro Franco",
+        "addr:housenumber": "3150",
+        "addr:suburb": "Ponto Novo",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49095-000",
+        "phone": "+55 79 99976-7691",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Central Estadual de Rede de Frio",
+        "comment": "Suprimentos / Logística"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.04761,
+          -10.9089
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9777016,
+      "properties": {
+        "operator": "Prefeitura Municipal de Aracaju",
+        "operator:type": "public",
+        "ref:CNES": "9777016",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL MUNICIPAL DE REDE DE FRIO MUNICIPIO DE ARACAJU",
+        "addr:street": "Rua Av Mario Jorge",
+        "addr:suburb": "Coroa do Meio",
+        "addr:city": "Aracaju",
+        "addr:state": "SE",
+        "addr:country": "BR",
+        "addr:postcode": "49015-150",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Central Municipal de Rede de Frio Municipio de Aracaju",
+        "comment": "Suprimentos / Logística"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.0428944,
+          -10.9594779
+        ]
+      }
+    }
+  ]
+}

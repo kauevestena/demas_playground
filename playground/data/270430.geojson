@@ -1,0 +1,6316 @@
+{
+  "type": "FeatureCollection",
+  "name": "Estabelecimentos Públicos de Saúde - DEMAS / CNES",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 2009757,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2009757",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "C S ROLAND SIMON PAM VERGEL 2 DS",
+        "addr:street": "Rua Cabo Reis",
+        "addr:suburb": "Vergel",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57014-740",
+        "phone": "+55 82 3312-5503",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde C S Roland Simon Pam Vergel 2 Ds",
+        "short_name": "UBS C S Roland Simon Pam Vergel 2 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.754364,
+          -9.6626705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2009838,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2009838",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "C S TARCISIO PALMEIRA PSF PONTAL 2 DS",
+        "addr:street": "Rua Av Alipio Barbosa",
+        "addr:suburb": "Pontal da Barra",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57010-000",
+        "phone": "+55 82 3312-5507",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde C S Tarcisio Palmeira Psf Pontal 2 Ds",
+        "short_name": "UBS C S Tarcisio Palmeira Psf Pontal 2 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7591248,
+          -9.6894204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2005611,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2005611",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "C S WALDOMIRO ALENCAR CENTRO DE PUERICULT 5 DS",
+        "addr:street": "Rua Julio Alto",
+        "addr:housenumber": "4316",
+        "addr:suburb": "Jacintinho",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57040-340",
+        "phone": "+55 82 3312-5537",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde C S Waldomiro Alencar Centro de Puericult 5 Ds",
+        "short_name": "UBS C S Waldomiro Alencar Centro de Puericult 5 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.719986,
+          -9.6501861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8426783,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "8426783",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CADEIA PUBLICA DE MACEIO MANOEL MESSIAS DE SOUZA CPMMMS",
+        "addr:street": "Rodovia Br 104 Km 14",
+        "addr:suburb": "Tabuleiro dos Martin",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57083-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Cadeia Publica de Maceio Manoel Messias de Souza Cpmmms",
+        "short_name": "UBS Cadeia Publica de Maceio Manoel Messias de Souza Cpmmms",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.803077,
+          -9.5194963
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2005875,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2005875",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CAIC DR JOSE MARIA DE MELO CAIC BENEDITO BENTES II 6 DS",
+        "addr:street": "Rua Av Benedito Bentes II",
+        "addr:housenumber": "01",
+        "addr:suburb": "B Bentes II",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57080-000",
+        "phone": "+55 82 3312-5544",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Caic Dr Jose Maria de Melo Caic Benedito Bentes II 6 Ds",
+        "short_name": "UBS Caic Dr Jose Maria de Melo Caic Benedito Bentes II 6 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.894106,
+          -9.6661393
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2009854,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2009854",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CAIC VIRGEM DOS POBRES 2 DS",
+        "addr:street": "Rua Av Sen Rui Palmeira",
+        "addr:suburb": "Trapiche",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57010-000",
+        "phone": "+55 82 3312-5506",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Caic Virgem dos Pobres 2 Ds",
+        "short_name": "UBS Caic Virgem dos Pobres 2 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7666922,
+          -9.6460214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8182213,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "8182213",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE CONVIVENCIA III",
+        "addr:street": "Rua Jose Maia Gomes",
+        "addr:housenumber": "23",
+        "addr:suburb": "Jatiuca",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57036-240",
+        "phone": "+55 82 3312-5500",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Convivencia III",
+        "short_name": "UBS Centro de Convivencia III",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.705994,
+          -9.6523411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2009676,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2009676",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE DA ETFAL",
+        "addr:street": "Rua Barao de Atalaia",
+        "addr:suburb": "Poco",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57020-510",
+        "phone": "+55 82 2126-7062",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude da Etfal",
+        "short_name": "UBS Centro de Saude da Etfal",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7344929,
+          -9.6639936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2009897,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2009897",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE DAVID NASSER IPIOCA 8 DS",
+        "addr:street": "Rua da Igreja",
+        "addr:housenumber": "163",
+        "addr:suburb": "Ipioca",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57030-000",
+        "phone": "+55 82 3312-5571",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude David Nasser Ipioca 8 Ds",
+        "short_name": "UBS Centro de Saude David Nasser Ipioca 8 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.6083538,
+          -9.5768499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2005565,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2005565",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE DJALMA LOUREIRO 7 DS",
+        "addr:street": "Rua Muniz Falcao",
+        "addr:suburb": "Clima Bom",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57071-130",
+        "phone": "+55 82 3312-5553",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude Djalma Loureiro 7 Ds",
+        "short_name": "UBS Centro de Saude Djalma Loureiro 7 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7809778,
+          -9.6452338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2005654,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2005654",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE DO FEITOSA CS PAULO LEAL 5 DS",
+        "addr:street": "Rua Acre",
+        "addr:housenumber": "96",
+        "addr:suburb": "Feitosa",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57043-230",
+        "phone": "+55 82 3312-5536",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude do Feitosa Cs Paulo Leal 5 Ds",
+        "short_name": "UBS Centro de Saude do Feitosa Cs Paulo Leal 5 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7300879,
+          -9.6447678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2009706,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2009706",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE DO REGINALDO 1 DS",
+        "addr:street": "Rua Diegues Junior",
+        "addr:housenumber": "220",
+        "addr:suburb": "Poco",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57025-650",
+        "phone": "+55 82 3312-5497",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude do Reginaldo 1 Ds",
+        "short_name": "UBS Centro de Saude do Reginaldo 1 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.728426,
+          -9.6521757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2005530,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2005530",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE DR HAMILTON FALCAO 6 DS",
+        "addr:street": "Rua Av Norma Pimentel da Costa",
+        "addr:suburb": "Benedito Bentes I",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57084-040",
+        "phone": "+55 82 3315-5422",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude Dr Hamilton Falcao 6 Ds",
+        "short_name": "UBS Centro de Saude Dr Hamilton Falcao 6 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7262068,
+          -9.5504379
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2005670,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2005670",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE FELICIO NAPOLEAO 5 DS",
+        "addr:street": "Rua R Luiz Rego Barros",
+        "addr:housenumber": "55",
+        "addr:suburb": "Jacintinho",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57040-660",
+        "phone": "+55 82 3312-5535",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude Felicio Napoleao 5 Ds",
+        "short_name": "UBS Centro de Saude Felicio Napoleao 5 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7270241,
+          -9.6396621
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2009722,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2009722",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE OSWALDO B VILELA 1 DS",
+        "addr:street": "Rua Lafaete Pacheco",
+        "addr:housenumber": "325",
+        "addr:suburb": "Ponta da Terra",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57080-000",
+        "phone": "+55 82 3312-5498",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude Oswaldo B Vilela 1 Ds",
+        "short_name": "UBS Centro de Saude Oswaldo B Vilela 1 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7186368,
+          -9.6622989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2005638,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2005638",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE SAO JOSE CANAA 3 DS",
+        "addr:street": "Rua Maragogi",
+        "addr:suburb": "Canaa",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57080-110",
+        "phone": "+55 82 3312-5513",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude São Jose Canaa 3 Ds",
+        "short_name": "UBS Centro de Saude São Jose Canaa 3 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.73912,
+          -9.6207999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2005557,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2005557",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE TEREZA BARBOSA 7 DS",
+        "addr:street": "Rua Conj Eustaquio Gomes",
+        "addr:suburb": "Cidade Universitaria",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57072-452",
+        "phone": "+55 82 3312-5561",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude Tereza Barbosa 7 Ds",
+        "short_name": "UBS Centro de Saude Tereza Barbosa 7 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.882932,
+          -9.5409621
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4456793,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "4456793",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CLINICA DA FAMILIA VILLAGE CAMPESTRE II",
+        "addr:street": "Rua Av Francisco Holanda",
+        "addr:suburb": "Cid Universitaria",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57072-190",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Clinica da Familia Village Campestre II",
+        "short_name": "UBS Clinica da Familia Village Campestre II",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7592803,
+          -9.536625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9219943,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "9219943",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "COLONIA AGRO INDUSTRIAL SAO LEONARDO CAI SL",
+        "addr:street": "Rua Br 101 Norte Km14",
+        "addr:suburb": "Tabuleiro dos Martin",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57020-565",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Colonia Agro Industrial São Leonardo Cai Sl",
+        "short_name": "UBS Colonia Agro Industrial São Leonardo Cai Sl",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7339334,
+          -9.6653576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9284818,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "9284818",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "GERENCIA DE SAUDE DO SISTEMA PRISIONAL",
+        "addr:street": "Rua Br 101 Norte Km 14",
+        "addr:suburb": "Tabuleiro dos Martin",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57080-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Prisional",
+        "short_name": "UBS Prisional",
+        "access": "private",
+        "comment": "UBS Prisional"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7341266,
+          -9.666098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 652164,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "652164",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "MODULO ODONTOLOGICO CORINTO CAMPELO DA PAZ",
+        "addr:street": "Rua Conj Henrique Equelman",
+        "addr:suburb": "Antares",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57083-024",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Modulo Odontologico Corinto Campelo da Paz",
+        "short_name": "UBS Modulo Odontologico Corinto Campelo da Paz",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7453253,
+          -9.5642218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2009781,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2009781",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "MODULO ODONTOLOGICO RUI PALMEIRA",
+        "addr:street": "Rua Av Monte Castelo",
+        "addr:suburb": "Vergel do Lago",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57015-130",
+        "phone": "+55 82 3312-5509",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Modulo Odontologico Rui Palmeira",
+        "short_name": "UBS Modulo Odontologico Rui Palmeira",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7582383,
+          -9.6542493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7256019,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "7256019",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "NUCLEO DE ATENCAO SAUDE SERVIDOR NASS",
+        "addr:street": "Rua Av da Paz",
+        "addr:housenumber": "11",
+        "addr:suburb": "Jaragua",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57025-050",
+        "phone": "+55 46 3315-6199",
+        "email": "nasscsgp@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Nucleo de Atencao Saude Servidor Nass",
+        "short_name": "UBS Nucleo de Atencao Saude Servidor Nass",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7295346,
+          -9.6701382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7130716,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "7130716",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "NUCLEO RESSOCIALIZADOR DA CAPITAL",
+        "addr:street": "Rodovia Br 104 Km 14",
+        "addr:suburb": "Tabuleiro dos Martin",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57083-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Nucleo Ressocializador da Capital",
+        "short_name": "UBS Nucleo Ressocializador da Capital",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7341051,
+          -9.6656115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2009811,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2009811",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PAM DIQUE ESTRADA 2 DS",
+        "addr:street": "Rua das Flores",
+        "addr:suburb": "Ponta Grossa",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57014-600",
+        "phone": "+55 82 3312-5502",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pam Dique Estrada 2 Ds",
+        "short_name": "UBS Pam Dique Estrada 2 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7398621,
+          -9.611337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9284788,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "9284788",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PENITENCIARIA DE SEGURANCA MAXIMA",
+        "addr:street": "Rua Km 15",
+        "addr:suburb": "Tabuleiro do Pinto",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57020-565",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Penitenciaria de Seguranca Maxima",
+        "short_name": "UBS Penitenciaria de Seguranca Maxima",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7339764,
+          -9.6654211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7130783,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "7130783",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PENITENCIARIA MASCULINO BALDOMERO CAVALCANTI DE OLIVEIRA",
+        "addr:street": "Rodovia Br 104 Km 14",
+        "addr:suburb": "Tabuleiro dos Martin",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57083-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Penitenciaria Masculino Baldomero Cavalcanti de Oliveira",
+        "short_name": "UBS Penitenciaria Masculino Baldomero Cavalcanti de Oliveira",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7336116,
+          -9.6657384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2005743,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2005743",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POSTO DE SAUDE DA COMURB",
+        "addr:street": "Rua do Imperador",
+        "addr:housenumber": "307",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57020-000",
+        "phone": "+55 82 3315-5008",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Posto de Saude da Comurb",
+        "short_name": "UBS Posto de Saude da Comurb",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7369952,
+          -9.6673564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2009692,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2009692",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POSTO DE SAUDE S FRANCISCO DE PAULAGROTA DO ARROZ 8 DS",
+        "addr:street": "Rua Ricardo Cardoso de Moraes",
+        "addr:housenumber": "155",
+        "addr:suburb": "Grota do Arroz",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57038-011",
+        "phone": "+55 82 3312-5572",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Posto de Saude S Francisco de Paulagrota do Arroz 8 Ds",
+        "short_name": "UBS Posto de Saude S Francisco de Paulagrota do Arroz 8 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7288265,
+          -9.6315993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7286724,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "7286724",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PRESIDIO DE SEGURANCA MAXIMA",
+        "addr:street": "Rodovia Br 104 Km 14",
+        "addr:suburb": "Tabuleiro dos Martin",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57083-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Presidio de Seguranca Maxima",
+        "short_name": "UBS Presidio de Seguranca Maxima",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7335687,
+          -9.6655903
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4448138,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "4448138",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PRESIDIO DE SEGURANCA MAXIMA DE MACEIO",
+        "addr:street": "Rua Br 101 Norte Km 14",
+        "addr:suburb": "Tabuleiro dos Martin",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57080-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Presidio de Seguranca Maxima de Maceio",
+        "short_name": "UBS Presidio de Seguranca Maxima de Maceio",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7333326,
+          -9.6657384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7130767,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "7130767",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PRESIDIO FEMININO SANTA LUZIA",
+        "addr:street": "Rodovia Br 104 Km 14",
+        "addr:suburb": "Tabuleiro dos Martin",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57083-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Presidio Feminino Santa Luzia",
+        "short_name": "UBS Presidio Feminino Santa Luzia",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7328391,
+          -9.6658442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7130740,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "7130740",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PRESIDIO MASCULINO DE SEGURANCA MEDIA PROFESSOR CYRIDIAO DUR",
+        "addr:street": "Rodovia Br 104 Km 14",
+        "addr:suburb": "Tabuleiro dos Martin",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57083-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Presidio Masculino de Seguranca Media Professor Cyridiao Dur",
+        "short_name": "UBS Presidio Masculino de Seguranca Media Professor Cyridiao Dur",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7340193,
+          -9.665823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2009714,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2009714",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PSF PESCARIA 8 DS",
+        "addr:street": "Rua Irene Cavalcante da Silva",
+        "addr:housenumber": "13",
+        "addr:suburb": "Pescaria",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57039-640",
+        "phone": "+55 82 3312-5568",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Psf Pescaria 8 Ds",
+        "short_name": "UBS Psf Pescaria 8 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7276729,
+          -9.5865924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2009889,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2009889",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PSF VILA BREJAL JARDIM SAO FRANCISCO 2 DS",
+        "addr:street": "Rua São Francisco de Assis",
+        "addr:housenumber": "02",
+        "addr:suburb": "Levada",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57080-000",
+        "phone": "+55 82 3312-5504",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Psf Vila Brejal Jardim São Francisco 2 Ds",
+        "short_name": "UBS Psf Vila Brejal Jardim São Francisco 2 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -36.1819301,
+          -9.6550788
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7320035,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "7320035",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAD MACEIO",
+        "addr:street": "Rua Mizael Domingues",
+        "addr:housenumber": "73",
+        "addr:suburb": "Poco",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57080-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Serviço de Atenção Domiciliar (SAD)",
+        "short_name": "SAD",
+        "comment": "Serviço de Atenção Domiciliar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7330137,
+          -9.6678258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3411141,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "3411141",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SG SAUDE DA GENTE",
+        "addr:street": "Rua Dr Jose Maria Correa das Neves",
+        "addr:housenumber": "146",
+        "addr:suburb": "Farol",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57080-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Sg Saude da Gente",
+        "short_name": "UBS Sg Saude da Gente",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.731957,
+          -9.649541
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9940499,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "9940499",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UBS DR ANTONIO DE PADUA CAVALCANTE 4 DS",
+        "addr:street": "Rua Alameda Carmelita Omena de Farias",
+        "addr:suburb": "Petropolis",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57062-180",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde UBS Dr Antonio de Padua Cavalcante 4 Ds",
+        "short_name": "UBS UBS Dr Antonio de Padua Cavalcante 4 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.735,
+          -9.6075415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9114807,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "9114807",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UBS DR WALTER DE MOURA LIMA 7 DS",
+        "addr:street": "Rua Lot Santa Amelia",
+        "addr:housenumber": "09",
+        "addr:suburb": "Santa Amelia",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57063-310",
+        "phone": "+55 46 3312-5560",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde UBS Dr Walter de Moura Lima 7 Ds",
+        "short_name": "UBS UBS Dr Walter de Moura Lima 7 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7761885,
+          -9.5958138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9979271,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "9979271",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UBS FAM FUNDO DE AMPARO AOS MORADORES DO PINHEIRO",
+        "addr:street": "Rua Av Antonio Lisboa de Amorim",
+        "addr:suburb": "Benedito Bentes",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57080-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde UBS Fam Fundo de Amparo Aos Moradores do Pinheiro",
+        "short_name": "UBS UBS Fam Fundo de Amparo Aos Moradores do Pinheiro",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7378544,
+          -9.5463623
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5961947,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "5961947",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UBS JOAO PAULO II",
+        "addr:street": "Rua Manoel Viana de Oliveira",
+        "addr:suburb": "Jacintinho",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57040-490",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde UBS João Paulo II",
+        "short_name": "UBS UBS João Paulo II",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7189053,
+          -9.6432435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9000755,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "9000755",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UBS JORGE DUARTE QUINTELA CAVALCANTE 7 DS",
+        "addr:street": "Rua Praca São Vicente",
+        "addr:suburb": "Cid Universitaria",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57080-000",
+        "phone": "+55 46 3312-5559",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde UBS Jorge Duarte Quintela Cavalcante 7 Ds",
+        "short_name": "UBS UBS Jorge Duarte Quintela Cavalcante 7 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7244492,
+          -9.6669218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 466972,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "466972",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UBS MARLENE FERNANDES LANVERLY DE MELO 7 DS",
+        "addr:street": "Rua Padre Cicero",
+        "addr:housenumber": "386",
+        "addr:suburb": "Santa Lucia",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57080-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde UBS Marlene Fernandes Lanverly de Melo 7 Ds",
+        "short_name": "UBS UBS Marlene Fernandes Lanverly de Melo 7 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7442654,
+          -9.6384761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9022465,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "9022465",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UDA DIVALDO SURUAGY 5 DS",
+        "addr:street": "Rua Lucilo Simoes Souza",
+        "addr:housenumber": "109",
+        "addr:suburb": "Barro Duro",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57045-280",
+        "phone": "+55 46 3312-5542",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Uda Divaldo Suruagy 5 Ds",
+        "short_name": "UBS Uda Divaldo Suruagy 5 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7117596,
+          -9.6165897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9306471,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "9306471",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNID BASICA DE SAUDE MARIA TEREZA HOLANDA COSTA 3 DS",
+        "addr:street": "Rua Padre Cicero",
+        "addr:housenumber": "224",
+        "addr:suburb": "Ouro Preo",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57045-815",
+        "phone": "+55 46 3312-5580",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unid Básica de Saude Maria Tereza Holanda Costa 3 Ds",
+        "short_name": "UBS Unid Básica de Saude Maria Tereza Holanda Costa 3 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -36.0617557,
+          -9.6005719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3413659,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "3413659",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNID DE SAUDE DA FAMILIA PAULO OLIVEIRA COSTA UDA 3 DS",
+        "addr:street": "Rua Radialista Odete Pacheco",
+        "addr:suburb": "Farol",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57051-560",
+        "phone": "+55 82 3312-5515",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unid de Saude da Familia Paulo Oliveira Costa Uda 3 Ds",
+        "short_name": "UBS Unid de Saude da Familia Paulo Oliveira Costa Uda 3 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7332897,
+          -9.655963
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9307338,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "9307338",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNID DE SAUDE DA FAMILIA SAO VICENTE DE PAULA 3 DS",
+        "addr:street": "Rua Dr Jose Maria Correa das Neves",
+        "addr:housenumber": "146",
+        "addr:suburb": "Farol",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57051-270",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unid de Saude da Familia São Vicente de Paula 3 Ds",
+        "short_name": "UBS Unid de Saude da Familia São Vicente de Paula 3 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7338905,
+          -9.6364744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9027092,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "9027092",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNID DE SAUDE DOCENTE ASSIST JOSE LAJES FILHO UNIT 8 DS",
+        "addr:street": "Rua João Canuto da Silva",
+        "addr:housenumber": "63",
+        "addr:suburb": "Cruz das Almas",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57038-300",
+        "phone": "+55 46 3312-5574",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unid de Saude Docente Assist Jose Lajes Filho Unit 8 Ds",
+        "short_name": "UBS Unid de Saude Docente Assist Jose Lajes Filho Unit 8 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.6972963,
+          -9.6305592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3821994,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "3821994",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE BEBEDOURO",
+        "addr:street": "Rua Dr Oswaldo Cruz",
+        "addr:housenumber": "170",
+        "addr:suburb": "Cha de Bebedouro",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57080-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Bebedouro",
+        "short_name": "UBS Unidade Básica de Saude Bebedouro",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7582681,
+          -9.6212972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4621999,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "4621999",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE DR IB GATTO FALCAO",
+        "addr:street": "Rua da Floresta",
+        "addr:housenumber": "135",
+        "addr:suburb": "Tabuleiro dos Martin",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57080-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Dr Ib Gatto Falcao",
+        "short_name": "UBS Unidade Básica de Saude Dr Ib Gatto Falcao",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7702408,
+          -9.5953418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6782329,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "6782329",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE DR JOSE GONCALVES SOBRINHO",
+        "addr:street": "Rua Av Durval de Goes Monteiro",
+        "addr:suburb": "Tabuleiro dos Martin",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57080-530",
+        "phone": "(082)",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Dr Jose Goncalves Sobrinho",
+        "short_name": "UBS Unidade Básica de Saude Dr Jose Goncalves Sobrinho",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.751727,
+          -9.5953517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2006189,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2006189",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE DR JOSE PIMENTEL AMORIM 7 DS",
+        "addr:street": "Rua Av Alberto Alves da Camara",
+        "addr:housenumber": "158",
+        "addr:suburb": "Tabuleiro dos Martin",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57081-185",
+        "phone": "+55 82 3312-5554",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Dr Jose Pimentel Amorim 7 Ds",
+        "short_name": "UBS Unidade Básica de Saude Dr Jose Pimentel Amorim 7 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7563135,
+          -9.5615749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4442024,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "4442024",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE FLEXAL",
+        "addr:street": "Rua Ladeira Professor Benedito da Silva",
+        "addr:housenumber": "253",
+        "addr:suburb": "Cha de Bebedouro",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57017-690",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Flexal",
+        "short_name": "UBS Unidade Básica de Saude Flexal",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7433345,
+          -9.6598323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2005735,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2005735",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE GRACILIANO RAMOS 7 DS",
+        "addr:street": "Rua Cj Graciliano Ramos Creche 1",
+        "addr:suburb": "Cid Universitaria",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57080-000",
+        "phone": "+55 82 3312-5562",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Graciliano Ramos 7 Ds",
+        "short_name": "UBS Unidade Básica de Saude Graciliano Ramos 7 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.8067707,
+          -9.5521511
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7512392,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "7512392",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE PARAISO DO HORTO 4 DS",
+        "addr:street": "Rua do Pau",
+        "addr:suburb": "Cha da Jaqueira",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57018-542",
+        "phone": "+55 82 3312-5527",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Paraiso do Horto 4 Ds",
+        "short_name": "UBS Unidade Básica de Saude Paraiso do Horto 4 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7349634,
+          -9.3097841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2009684,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2009684",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE VANDERLI MARIA DE ANDRADE 8 DS",
+        "addr:street": "Rua Americo Vasco Com Av Luiz de F Albuquerque",
+        "addr:suburb": "Riacho Doce",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57030-000",
+        "phone": "+55 82 3315-5383",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Vanderli Maria de Andrade 8 Ds",
+        "short_name": "UBS Unidade Básica de Saude Vanderli Maria de Andrade 8 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.6708908,
+          -9.6184323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4955706,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "4955706",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DESAUDE DR DIOGENES JUCA BERNARDES",
+        "addr:street": "Rua Praca da Maravilha",
+        "addr:housenumber": "32",
+        "addr:suburb": "Poco",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57025-860",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica Desaude Dr Diogenes Juca Bernardes",
+        "short_name": "UBS Unidade Básica Desaude Dr Diogenes Juca Bernardes",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7254281,
+          -9.6666043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2005832,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2005832",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE S JOSE TENORIO DE A LINS 5 DS",
+        "addr:street": "Rua Conjunto Jose Tenorio de A Lins",
+        "addr:suburb": "Serraria",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57043-000",
+        "phone": "+55 82 3312-5533",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade de S Jose Tenorio de A Lins 5 Ds",
+        "short_name": "UBS Unidade de S Jose Tenorio de A Lins 5 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7350063,
+          -9.6026952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2003325,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2003325",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE ALIOMAR ALMEIDA LINS 6 DS",
+        "addr:street": "Rua Lot Bela Vista II",
+        "addr:suburb": "Benedito Bentes II",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57084-040",
+        "phone": "+55 82 3312-5549",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Aliomar Almeida Lins 6 Ds",
+        "short_name": "UBS Aliomar Almeida Lins 6 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.8591955,
+          -9.5598645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2009870,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2009870",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA DURVAL CORTEZ 2 DS",
+        "addr:street": "Rua João Lucio Marques",
+        "addr:housenumber": "64",
+        "addr:suburb": "Prado",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57010-150",
+        "phone": "+55 82 3312-5505",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Durval Cortez 2 Ds",
+        "short_name": "UBS Da Familia Durval Cortez 2 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.8455102,
+          -9.6556732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2005697,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2005697",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA GALBA NOVAES 7 DS",
+        "addr:street": "Rua Betel",
+        "addr:suburb": "Santa Lucia",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57070-000",
+        "phone": "+55 82 3312-5563",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Galba Novaes 7 Ds",
+        "short_name": "UBS Da Familia Galba Novaes 7 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7101738,
+          -9.5726571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2009749,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2009749",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA GUAXUMA 8 DS",
+        "addr:street": "Rua Conj Elias Pontes Bonfim",
+        "addr:housenumber": "01",
+        "addr:suburb": "Guaxuma",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57030-000",
+        "phone": "+55 82 3312-5569",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Guaxuma 8 Ds",
+        "short_name": "UBS Da Familia Guaxuma 8 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.6767273,
+          -9.5954971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2005689,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2005689",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA JOSE ARAUJO SILVA 5 DS",
+        "addr:street": "Rua Pastor Eurico Calheiros",
+        "addr:suburb": "Jacintinho",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57041-620",
+        "phone": "+55 82 3312-5530",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Jose Araujo Silva 5 Ds",
+        "short_name": "UBS Da Familia Jose Araujo Silva 5 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7206454,
+          -9.6362184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3413683,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "3413683",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA JOSE BERNARDES NETO ABC 4 DS",
+        "addr:street": "Rua do Cravo",
+        "addr:housenumber": "01",
+        "addr:suburb": "Rio Novo",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57061-040",
+        "phone": "+55 82 3312-5526",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Jose Bernardes Neto Abc 4 Ds",
+        "short_name": "UBS Da Familia Jose Bernardes Neto Abc 4 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7409073,
+          -9.5807004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2005751,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2005751",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA NOVO MUNDO 5 DS",
+        "addr:street": "Rua Boa Sorte",
+        "addr:suburb": "Barro Duro",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57045-750",
+        "phone": "+55 82 3312-5539",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Novo Mundo 5 Ds",
+        "short_name": "UBS Da Familia Novo Mundo 5 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.719986,
+          -9.6519722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2005778,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2005778",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA OURO PRETO 3 DS",
+        "addr:street": "Rua São Paulo",
+        "addr:housenumber": "06",
+        "addr:suburb": "Ouro Preto",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57046-000",
+        "phone": "+55 82 3312-5514",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Ouro Preto 3 Ds",
+        "short_name": "UBS Da Familia Ouro Preto 3 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.8558626,
+          -9.4761407
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2005786,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2005786",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA ROSANE COLLOR 7 DS",
+        "addr:street": "Rua Waldemar Pedro da Silva",
+        "addr:housenumber": "28",
+        "addr:suburb": "Clima Bom",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57071-180",
+        "phone": "+55 82 3312-5555",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Rosane Collor 7 Ds",
+        "short_name": "UBS Da Familia Rosane Collor 7 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7344913,
+          -9.580532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3413667,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "3413667",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA VEREADOR SERGIO QUINTELLA 7 DS",
+        "addr:street": "Rua Manoel Omena de Farias",
+        "addr:housenumber": "23",
+        "addr:suburb": "Tabuleiro do Martins",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57081-259",
+        "phone": "+55 82 3312-5558",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Vereador Sérgio Quintella 7 Ds",
+        "short_name": "UBS Da Familia Vereador Sérgio Quintella 7 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7540669,
+          -9.5707074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2005816,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2005816",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA FAMILIA VILLAGE CAMPESTRE II 7 DS",
+        "addr:street": "Rua Av Alice Carolina",
+        "addr:suburb": "Cidade Universitaria",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57070-630",
+        "phone": "+55 82 3312-5565",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Da Familia Village Campestre II 7 Ds",
+        "short_name": "UBS Da Familia Village Campestre II 7 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7365727,
+          -9.5459538
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2003317,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2003317",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DENISSON MENEZES 7 DS",
+        "addr:street": "Rua Conj Denisson Menezes",
+        "addr:suburb": "Tabuleiro",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57020-480",
+        "phone": "+55 82 3312-5557",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Denisson Menezes 7 Ds",
+        "short_name": "UBS Denisson Menezes 7 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7284832,
+          -9.5441295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2005913,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2005913",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DO PROGRAMA DA FAMILIA JOAO SAMPAIO 4 DS",
+        "addr:street": "Rua Conj João Sampaio Qa01",
+        "addr:suburb": "Tabuleiro",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57080-000",
+        "phone": "+55 82 3312-5520",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Do Programa da Familia João Sampaio 4 Ds",
+        "short_name": "UBS Do Programa da Familia João Sampaio 4 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7348347,
+          -9.6574826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2816873,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2816873",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DR ARTHUR RAMOS 6 DS",
+        "addr:street": "Rua J Quadra II Conj Equelman",
+        "addr:suburb": "Tabuleiro",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57080-000",
+        "phone": "+55 82 3312-5548",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Dr Arthur Ramos 6 Ds",
+        "short_name": "UBS Dr Arthur Ramos 6 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7340837,
+          -9.5971242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2005549,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2005549",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DR CLAUDIO MEDEIROSRIO NOVO 4 DS",
+        "addr:street": "Rua São Luis",
+        "addr:suburb": "Rio Novo",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57070-630",
+        "phone": "+55 82 3312-5523",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Dr Claudio Medeirosrio Novo 4 Ds",
+        "short_name": "UBS Dr Claudio Medeirosrio Novo 4 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.8088844,
+          -9.6110363
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3652734,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "3652734",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DR DIDIMO OTTO KUMMER 6 DS",
+        "addr:street": "Rua Conj Benedito Bentes II",
+        "addr:housenumber": "01",
+        "addr:suburb": "Tabuleiro",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57080-000",
+        "phone": "+55 82 3312-5551",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Dr Didimo Otto Kummer 6 Ds",
+        "short_name": "UBS Dr Didimo Otto Kummer 6 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7570648,
+          -9.576944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3741141,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "3741141",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DR HELVIO AUTO 2 DS",
+        "addr:street": "Rua Av Assis Chateaubriand",
+        "addr:suburb": "Trapiche de Barra",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57010-440",
+        "phone": "+55 82 3312-5508",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Dr Helvio Auto 2 Ds",
+        "short_name": "UBS Dr Helvio Auto 2 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7654178,
+          -9.683218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6481132,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "6481132",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DR JOAO MACARIO DE OMENA FILHO 7 DS",
+        "addr:street": "Rua Av Corintho Campelo da Paz",
+        "addr:suburb": "Santos Dumont",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57080-000",
+        "phone": "+55 46 3312-5556",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Dr João Macario de Omena Filho 7 Ds",
+        "short_name": "UBS Dr João Macario de Omena Filho 7 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7351351,
+          -9.5484216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3742482,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "3742482",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DR ROBSON CAVALCANTE 6 DS",
+        "addr:street": "Rua Conjunto Freitas Neto",
+        "addr:housenumber": "025",
+        "addr:suburb": "Benedito Bentes",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57080-030",
+        "phone": "+55 82 3312-5550",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Dr Robson Cavalcante 6 Ds",
+        "short_name": "UBS Dr Robson Cavalcante 6 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7144152,
+          -9.5190495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2005646,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2005646",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE EDVALDO SILVA 4 DS",
+        "addr:street": "Rua Cel Othon Bezerra de Melo",
+        "addr:housenumber": "01",
+        "addr:suburb": "Fernao Velho",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57070-110",
+        "phone": "+55 82 3312-5522",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Edvaldo Silva 4 Ds",
+        "short_name": "UBS Edvaldo Silva 4 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7769775,
+          -9.5909329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3020738,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "3020738",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE GERALDO MELO 4 DS",
+        "addr:street": "Rua do Campo",
+        "addr:suburb": "Bom Parto",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57017-235",
+        "phone": "+55 82 3312-5525",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Geraldo Melo 4 Ds",
+        "short_name": "UBS Geraldo Melo 4 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.5535229,
+          -9.4656804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3231658,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "3231658",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE GROTA DO MOREIRA 5 DS",
+        "addr:street": "Rua R Padre Cicero",
+        "addr:suburb": "Jacintinho",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57040-350",
+        "phone": "+55 82 3312-5541",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Grota do Moreira 5 Ds",
+        "short_name": "UBS Grota do Moreira 5 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.9215416,
+          -9.584642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7008023,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "7008023",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE JOSE GUEDES FARIAS 4 DS",
+        "addr:street": "Rua Conj Medeiros Neto",
+        "addr:housenumber": "003",
+        "addr:suburb": "Santa Amelia",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57063-640",
+        "phone": "+55 46 3312-5528",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Jose Guedes Farias 4 Ds",
+        "short_name": "UBS Jose Guedes Farias 4 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7350063,
+          -9.591684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6898521,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "6898521",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE MARIA CONCEICAO FONSECA PARANHOS 8 DS",
+        "addr:street": "Rua Conj Alfredo Gaspar de Mendonca",
+        "addr:housenumber": "01",
+        "addr:suburb": "Jacarecica",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57080-000",
+        "phone": "+55 46 3312-5573",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Maria Conceicao Fonseca Paranhos 8 Ds",
+        "short_name": "UBS Maria Conceicao Fonseca Paranhos 8 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.6933784,
+          -9.6137327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2005824,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2005824",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE VILAGE CAMPESTRE 7 DS",
+        "addr:street": "Rua Celina Sacramento Silva",
+        "addr:suburb": "Cid Universitaria",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57073-200",
+        "phone": "+55 82 3312-5566",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Vilage Campestre 7 Ds",
+        "short_name": "UBS Vilage Campestre 7 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7557012,
+          -9.5520187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4180879,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "4180879",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE TELESSAUDE CAETES",
+        "addr:street": "Rua Geovanio Constantino",
+        "addr:suburb": "Benedito Bentes II",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57086-478",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade de Telessaude Caetes",
+        "short_name": "UBS Unidade de Telessaude Caetes",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7059089,
+          -9.569487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2005808,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2005808",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DO PSF VALE DO PITANGUINHA 3 DS",
+        "addr:street": "Rua Antonio Nogueira",
+        "addr:suburb": "Pitanguinha",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57052-020",
+        "phone": "+55 82 3312-5516",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade do Psf Vale do Pitanguinha 3 Ds",
+        "short_name": "UBS Unidade do Psf Vale do Pitanguinha 3 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7340622,
+          -9.6415791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4954769,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "4954769",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DOCENTE ASSISTENCIAL PROF EVA FARIAS",
+        "addr:street": "Rua Dr Jorge de Lima",
+        "addr:housenumber": "113",
+        "addr:suburb": "Trapiche",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57080-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Docente Assistencial Prof Eva Farias",
+        "short_name": "UBS Unidade Docente Assistencial Prof Eva Farias",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7600061,
+          -9.675134
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2005794,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2005794",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "US DA FAMILIA SELMA BANDEIRA 6 DS",
+        "addr:street": "Rua Av do Futuro",
+        "addr:housenumber": "01",
+        "addr:suburb": "Benedito Bentes",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57080-000",
+        "phone": "+55 82 3312-5547",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Us da Familia Selma Bandeira 6 Ds",
+        "short_name": "UBS Us da Familia Selma Bandeira 6 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7618713,
+          -9.5769759
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2005883,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2005883",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "US FREI DAMIAO 6 DS",
+        "addr:street": "Rua Av Mundau Cj Frei Damiao",
+        "addr:housenumber": "01",
+        "addr:suburb": "Benedito Bentes II",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57080-000",
+        "phone": "+55 82 3312-5545",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Us Frei Damiao 6 Ds",
+        "short_name": "UBS Us Frei Damiao 6 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7587814,
+          -9.5629075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2005891,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2005891",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF JOSE MARIA DE VASCONCELOS NETO 5 DS",
+        "addr:street": "Rua Santa Madalena",
+        "addr:housenumber": "45",
+        "addr:suburb": "São Jorge",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57041-170",
+        "phone": "+55 82 3312-5538",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Jose Maria de Vasconcelos Neto 5 Ds",
+        "short_name": "UBS Usf Jose Maria de Vasconcelos Neto 5 Ds",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7172861,
+          -9.6318462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2005603,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2005603",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE DA PITANGUINHA 3 DS",
+        "addr:street": "Rua Antonio Nogueira",
+        "addr:suburb": "Pitanguinha",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57052-020",
+        "phone": "+55 82 3315-5370",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7262019,
+          -9.6415844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2719576,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2719576",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE DR DIOGENES JUCA BERNARDES II CENTRO",
+        "addr:street": "Rua Praca da Maravilha",
+        "addr:suburb": "Poco",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57025-860",
+        "phone": "+55 82 3312-5499",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7229511,
+          -9.6666096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2876582,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "2876582",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CLINICA DA FAMILIA APRIGIO VILELA",
+        "addr:street": "Rua Genilda da Silva Porto",
+        "addr:suburb": "Benedito Bentes",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57032-032",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.706009,
+          -9.5827765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2876604,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "2876604",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CLINICA DA FAMILIA DR JOAO FIREMAN",
+        "addr:street": "Rua Feicao",
+        "addr:suburb": "Jacintinho",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57040-300",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7196775,
+          -9.6458672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2005573,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2005573",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PAM BEBEDOURO 4 DS",
+        "addr:street": "Rua R Alameda Carmelita Omena de Farias",
+        "addr:housenumber": "33",
+        "addr:suburb": "Jardim Petropolis",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57062-180",
+        "phone": "+55 82 3312-5519",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.741272,
+          -9.6075362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9158251,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "9158251",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PAM SALGADINHO SEDE",
+        "addr:street": "Rua Mizael Domingues",
+        "addr:housenumber": "241",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57020-600",
+        "phone": "+55 82 3315-1979",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7313965,
+          -9.6656136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5788420,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "5788420",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAUDE DA GENTE ESPECIALIDADES",
+        "addr:street": "Rua Av Antonio Lisboa de Amorim",
+        "addr:suburb": "Benedito Bentes",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57085-160",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7453612,
+          -9.5590021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4879244,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "4879244",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE REFERENCIA ROLLAND SIMON",
+        "addr:street": "Rua Cabo Reis",
+        "addr:suburb": "Vergel do Lago",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57014-260",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7599001,
+          -9.6626705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5690323,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "5690323",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE JOAO PAULO II 5 DS",
+        "addr:street": "Rua Manoel Viana de Oliveira",
+        "addr:suburb": "Jacintinho",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57040-490",
+        "phone": "+55 82 3312-5534",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7350492,
+          -9.6430397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2005727,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2005727",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "URS DR IB GATTO FALCAO 7 DS",
+        "addr:street": "Rua da Floresta",
+        "addr:housenumber": "135",
+        "addr:suburb": "Tabuleiro dos Martin",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57080-000",
+        "phone": "+55 82 3312-5564",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.8493383,
+          -9.5953471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2006510,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "2006510",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL GERAL DO ESTADO DR OSVALDO BRANDAO VILELA",
+        "addr:street": "Rua Siqueira Campos",
+        "addr:housenumber": "2095",
+        "addr:suburb": "Trapiche da Barra",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57010-000",
+        "phone": "+55 82 3315-3183",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Geral do Estado Dr Osvaldo Brandao Vilela",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7340193,
+          -9.6697151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 136581,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "136581",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL METROPOLITANO DE ALAGOAS",
+        "addr:street": "Avenida Menino Marcelo",
+        "addr:suburb": "Cidade Universitaria",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57083-410",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Metropolitano de Alagoas",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7173192,
+          -9.6154029
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2006197,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2006197",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL UNIVERSITARIO PROF ALBERTO ANTUNES",
+        "addr:street": "Rua Av Lourival Melo Mota",
+        "addr:suburb": "Tabuleiro dos Martin",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57072-900",
+        "phone": "+55 46 3202-3714",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Universitario Prof Alberto Antunes",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7776847,
+          -9.5389075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2868628,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "2868628",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL DA CRIANCA DE ALAGOAS",
+        "addr:street": "Avenida Juca Sampaio",
+        "addr:suburb": "Jacintinho",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57040-600",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital da Crianca de Alagoas",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7150099,
+          -9.6207914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9923837,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "9923837",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL DA MULHER DRA NISE DA SILVEIRA",
+        "addr:street": "Avenida Comendador Leao",
+        "addr:housenumber": "1213",
+        "addr:suburb": "Poco",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57025-200",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital da Mulher Dra Nise da Silveira",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7231456,
+          -9.657006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3397874,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "3397874",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL DO CORACAO ALAGOANO PROF ADIB JATENE",
+        "addr:street": "Avenida Menino Marcelo",
+        "addr:housenumber": "9526",
+        "addr:suburb": "Cidade Universitaria",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57083-410",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital do Coracao Alagoano Prof Adib Jatene",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7487015,
+          -9.5561935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2720035,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2720035",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL ESCOLA DR HELVIO AUTO",
+        "addr:street": "Rua Conego Fernando Lyra",
+        "addr:suburb": "Trapiche",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57010-430",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Escola Dr Helvio Auto",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7009745,
+          -9.6607462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2003368,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2003368",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL PORTUGAL RAMALHO",
+        "addr:street": "Rua Oldemburgo da Silva Paranhos",
+        "addr:suburb": "Farol",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57055-320",
+        "phone": "+55 82 3315-3201",
+        "email": "faturamento-hepr@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Portugal Ramalho",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7403299,
+          -9.6457902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2009250,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2009250",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "MATERNIDADE ESCOLA SANTA MONICA",
+        "addr:street": "Rua Av Comendador Leao",
+        "addr:suburb": "Poco",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57025-200",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Maternidade Escola Santa Monica",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7250541,
+          -9.6671824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2009765,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2009765",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DISTRITO SANITARIO",
+        "addr:street": "Rua Av Assis Chateaubriand",
+        "addr:housenumber": "2932",
+        "addr:suburb": "Prado",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57010-070",
+        "phone": "+55 82 3315-5453",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Distrito Sanitario",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7513998,
+          -9.683218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6489699,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "6489699",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "AMBULATORIO DE ESPECIALIDADES DA UNCISAL",
+        "addr:street": "Rua Pedro Monteiro",
+        "addr:housenumber": "347",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57025-890",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Ambulatorio de Especialidades da Uncisal",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.5477962,
+          -9.4668704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9984445,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "9984445",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "AMBULATORIO ESPECIALIZADO A SAUDE DA POPULACAO TRANS",
+        "addr:street": "Rua Feicao",
+        "addr:suburb": "Jacintino",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57040-300",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Ambulatorio Especializado A Saude da Populacao Trans",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7340837,
+          -9.6659922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5674255,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "5674255",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CASA FECHA FERIDAS PROFESSOR ISAAC SOARES DE LIMA",
+        "addr:street": "Rua Aminadab Valente",
+        "addr:housenumber": "165",
+        "addr:suburb": "Trapiche da Barra",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57010-374",
+        "phone": "+55 82 3315-6751",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Casa Fecha Feridas Professor Isaac Soares de Lima",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7615258,
+          -9.6763105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 261017,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "261017",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ESPECIALIDADES ELIANE MACHADO",
+        "addr:street": "Rua Mizael Domingos",
+        "addr:housenumber": "241",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57020-600",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Especialidades Eliane Machado",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7328468,
+          -9.6653393
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3439208,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "3439208",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ESPECIALIZACAO EM REABILITACAO CER III",
+        "addr:street": "Rua Conego Fernando Lyra",
+        "addr:suburb": "Trapiche da Barra",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57010-430",
+        "phone": "+55 82 3315-8260",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Centro Especializado em Reabilitação (CER)",
+        "short_name": "CER",
+        "comment": "Reabilitação (CER)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7341266,
+          -9.6658442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2009730,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "2009730",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE REFERENCIA ESTADUAL EM SAUDE DO TRABALHADOR",
+        "addr:street": "Rua Josefa Cavalcante Suruagi",
+        "addr:suburb": "Poco",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57030-160",
+        "phone": "+55 46 82315-2759",
+        "email": "cerestal@ig.com.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Referencia Estadual em Saude do Trabalhador",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7329679,
+          -9.666098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8060940,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "8060940",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CEO DR LUIZ DE FRANCA CANUTO",
+        "addr:street": "Rua Mizael Domingos",
+        "addr:housenumber": "241",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57020-600",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Centro de Especialidades Odontológicas (CEO)",
+        "short_name": "CEO",
+        "comment": "Odontologia (CEO)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7341085,
+          -9.6651994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5704111,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "5704111",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CEO II RAFAEL DE MATOS SILVA",
+        "addr:street": "Rua Conj Henrique Equelman",
+        "addr:housenumber": "1",
+        "addr:suburb": "Antares",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57083-024",
+        "phone": "+55 82 3312-5579",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Centro de Especialidades Odontológicas (CEO)",
+        "short_name": "CEO",
+        "comment": "Odontologia (CEO)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7348776,
+          -9.5629556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6287913,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "6287913",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CEREST REGIONAL MACEIO",
+        "addr:street": "Rua Alexandre Passos",
+        "addr:suburb": "Jaragua",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57022-190",
+        "phone": "+55 46 3327-5146",
+        "email": "cerest@sms.maceio.al.gov.br",
+        "amenity": "clinic",
+        "healthcare": "occupational_health",
+        "name": "CEREST Macro Centro Sul",
+        "short_name": "CEREST",
+        "comment": "Saúde do Trabalhador (CEREST)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7230366,
+          -9.6705138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2009617,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2009617",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "FOUFAL FACULDADE DE ODONTOLOGIA",
+        "addr:street": "Rua Av Lorival Melo Mota",
+        "addr:suburb": "Tabuleiro",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57072-900",
+        "phone": "+55 82 3214-1161",
+        "email": "odonto@csau.ufal",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Centro de Especialidades Odontológicas (CEO)",
+        "short_name": "CEO",
+        "comment": "Odontologia (CEO)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7334614,
+          -9.5389022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2007134,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "2007134",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL DA POLICIA MILITAR",
+        "addr:street": "Rua Praca da Independência",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57020-000",
+        "phone": "+55 82 3315-7480",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital da Policia Militar",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7405441,
+          -9.6665583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5251990,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "5251990",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "LABORATORIO DE DIAGNOSTICO PESQUISAS E CONTROLE",
+        "addr:street": "Rua Lot Palmares",
+        "addr:housenumber": "1",
+        "addr:suburb": "Cid Universitaria",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57036-540",
+        "phone": "+55 82 5251-1990",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Laboratorio de Diagnóstico Pesquisas e Controle",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7907613,
+          -9.5335125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2720094,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "2720094",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "MODULO ODONTOLOGICO RAIMUNDO MARINHO",
+        "addr:street": "Rua R Apolonio Rocha Santos",
+        "addr:housenumber": "133",
+        "addr:suburb": "Jacintinho",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57042-040",
+        "phone": "+55 46 82320-1227",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Centro de Especialidades Odontológicas (CEO)",
+        "short_name": "CEO",
+        "comment": "Odontologia (CEO)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7340837,
+          -9.6660557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2009803,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2009803",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PAM SALGADINHO",
+        "addr:street": "Rua Mizael Domingos",
+        "addr:housenumber": "241",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57020-600",
+        "phone": "+55 82 3312-5460",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Pam Salgadinho",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7326256,
+          -9.6657584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9787925,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "9787925",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CEDIM CENTRO DE DIAGNOSTICO E IMAGEM",
+        "addr:street": "Rua Dr Jorge de Lima",
+        "addr:housenumber": "113",
+        "addr:suburb": "Trapiche da Barra",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57010-001",
+        "amenity": "clinic",
+        "healthcare": "diagnostic_centre",
+        "name": "Cedim Centro de Diagnóstico e Imagem",
+        "comment": "Diagnóstico por Imagem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7309723,
+          -9.6659711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5335426,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "5335426",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE PATOLOGIA E MEDICINA LABORATORIAL",
+        "addr:street": "Rua Conego Lyra",
+        "addr:suburb": "Trapiche da Barra",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57010-001",
+        "phone": "+55 82 3221-4922",
+        "email": "cpml@uncisal.com.br",
+        "amenity": "clinic",
+        "healthcare": "diagnostic_centre",
+        "name": "Centro de Patologia e Medicina Laboratorial",
+        "comment": "Diagnóstico por Imagem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7606846,
+          -9.6740438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5509572,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "5509572",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "LACLIM",
+        "addr:street": "Rua Mizael Domingues",
+        "addr:housenumber": "241",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57020-250",
+        "phone": "+55 46 3315-5306",
+        "amenity": "clinic",
+        "healthcare": "diagnostic_centre",
+        "name": "Laclim",
+        "comment": "Diagnóstico por Imagem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7349849,
+          -9.6656083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9614478,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "9614478",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE ODONTOLOGICA MOVEL",
+        "addr:street": "Rua Dias Cabral",
+        "addr:housenumber": "569",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57020-250",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Odontologica Movel",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7417378,
+          -9.6672777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7301367,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "7301367",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "MOTOLANCIA 01 SAMU MACEIO",
+        "addr:street": "Rua Industrial Luiz Calheiros Junior",
+        "addr:housenumber": "177",
+        "addr:suburb": "Farol",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57055-230",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7372876,
+          -9.6455835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7301499,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "7301499",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "MOTOLANCIA 02 SAMU MACEIO",
+        "addr:street": "Rua Industrial Luiz Calheiros Junior",
+        "addr:housenumber": "177",
+        "addr:suburb": "Farol",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57055-230",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.73726,
+          -9.6455678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9090142,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "9090142",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "MOTOLANCIA 03 SAMU MACEIO",
+        "addr:street": "Rua Industrial Luiz Calheiros Junior",
+        "addr:housenumber": "177",
+        "addr:suburb": "Farol",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57055-230",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7372679,
+          -9.6455465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9090150,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "9090150",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "MOTOLANCIA 04 SAMU MACEIO",
+        "addr:street": "Rua Industrial Luiz Calheiros Junior",
+        "addr:housenumber": "177",
+        "addr:suburb": "Farol",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57055-230",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7372403,
+          -9.6455308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9899340,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "9899340",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "MOTOLANCIA 06 MACEIO",
+        "addr:street": "Rua Industrial Luiz Calheiros Junior",
+        "addr:housenumber": "177",
+        "addr:suburb": "Farol",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57055-230",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7372876,
+          -9.6455465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9899332,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "9899332",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "MOTOLANCIA 08 MACEIO",
+        "addr:street": "Rua Industrial Luiz Calheiros Junior",
+        "addr:housenumber": "177",
+        "addr:suburb": "Farol",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57055-320",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7164,
+          -9.6497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8133476,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "8133476",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "MOTOLANCIA 09 MACEIO",
+        "addr:street": "Rua Rual Oldemburgo da Silvaparanho",
+        "addr:housenumber": "800",
+        "addr:suburb": "Farol",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57055-320",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.746008,
+          -9.6520888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8134316,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "8134316",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "MOTOLANCIA 10 MACEIO",
+        "addr:street": "Rua Oldemburgo da Silvaparanhos",
+        "addr:housenumber": "800",
+        "addr:suburb": "Farol",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57055-320",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7402372,
+          -9.6446524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8134324,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "8134324",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "MOTOLANCIA 11 MACEIO",
+        "addr:street": "Rua Oldemburgo da Silva Paranhos",
+        "addr:housenumber": "800",
+        "addr:suburb": "Farol",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57055-320",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7402096,
+          -9.6446367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8134332,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "8134332",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "MOTOLANCIA 12 MACEIO",
+        "addr:street": "Rua Oldemburgo da Silva Paranhos",
+        "addr:housenumber": "800",
+        "addr:suburb": "Farol",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57055-320",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7402096,
+          -9.6446681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8134340,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "8134340",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "MOTOLANCIA 13 MACEIO",
+        "addr:street": "Rua Oldemburgo da Silva Paranhos",
+        "addr:housenumber": "800",
+        "addr:suburb": "Farol",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57055-320",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7402372,
+          -9.6446838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9899308,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "9899308",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "MOTOLANCIA 5 MACEIO",
+        "addr:street": "Rua Industrial Luiz Calheiros Junior",
+        "addr:housenumber": "177",
+        "addr:suburb": "Farol",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57055-230",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.73726,
+          -9.6455992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9899294,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "9899294",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "MOTOLANCIA 7 MACEIO",
+        "addr:street": "Rua Industrial Luiz Calheiros Junior",
+        "addr:housenumber": "177",
+        "addr:suburb": "Farol",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57055-230",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7160378,
+          -9.6835276
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2009641,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "2009641",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE RESGATE ALFA",
+        "addr:street": "Rua Av Siqueira Campos",
+        "addr:suburb": "T da Barra",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57080-000",
+        "phone": "+55 46 82315-2833",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7457821,
+          -9.6673748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2005840,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "2005840",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE RESGATE BRAVO",
+        "addr:street": "Rua Conjunto Rui Palmeira Rua 01",
+        "addr:suburb": "Serraria",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57080-000",
+        "phone": "+55 82 3315-2400",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7271789,
+          -9.6093978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2009633,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "2009633",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE RESGATE CHARLIE",
+        "addr:street": "Rua Av Siqueira Campos",
+        "addr:suburb": "T da Barra",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57080-000",
+        "phone": "+55 46 82315-2833",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7229464,
+          -9.6467648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2009668,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "2009668",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE RESGATE DELTA",
+        "addr:street": "Rua Av Siqueira Campos",
+        "addr:suburb": "Trapiche da Barra",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57080-000",
+        "phone": "+55 46 82315-2833",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7457545,
+          -9.6673591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2005999,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "2005999",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE RESGATE ECHO",
+        "addr:street": "Rua Conjunto Rui Palmeira Rua 01",
+        "addr:suburb": "Serraria",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57080-000",
+        "phone": "+55 82 3315-2400",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.724983,
+          -9.6088836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7060815,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "7060815",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USA 01 MACEIO",
+        "addr:street": "Rua Industrial Luiz Calheiros Junior",
+        "addr:housenumber": "177",
+        "addr:suburb": "Farol",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57055-320",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.715673,
+          -9.68357
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7060823,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "7060823",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USA 02 MACEIO",
+        "addr:street": "Rua Industrial Luiz Calheiros Junior",
+        "addr:housenumber": "177",
+        "addr:suburb": "Farol",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57055-230",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7372679,
+          -9.6455835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7610564,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "7610564",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USA 04 MACEIO",
+        "addr:street": "Rua Industrial Luiz Calheiros Junior",
+        "addr:housenumber": "177",
+        "addr:suburb": "Farol",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57055-230",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7154155,
+          -9.6835065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7060858,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "7060858",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USA 05 MACEIO",
+        "addr:street": "Rua Industrial Luiz Calheiros Junior",
+        "addr:housenumber": "177",
+        "addr:suburb": "Farol",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57055-230",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7359508,
+          -9.6450058
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7060769,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "7060769",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USA 06 MACEIO",
+        "addr:street": "Rua Goiais",
+        "addr:suburb": "Farol",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57055-320",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.735,
+          -9.666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 671797,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "671797",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USA 07 MACEIO",
+        "addr:street": "Rua Goias",
+        "addr:suburb": "Farol",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57055-320",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7349724,
+          -9.6659843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 671800,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "671800",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USA 10 MACEIO",
+        "addr:street": "Rua Goias",
+        "addr:suburb": "Farol",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57055-320",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -36.1750659,
+          -10.1321523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7475233,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "7475233",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USB 01 MACEIO",
+        "addr:street": "Rua Industrial Luiz Calheiros Junior",
+        "addr:housenumber": "177",
+        "addr:suburb": "Farol",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57055-230",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7359232,
+          -9.6449901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7392141,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "7392141",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USB 02 MACEIO",
+        "addr:street": "Rua Goais",
+        "addr:suburb": "Farol",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57055-320",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7349724,
+          -9.6660157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7061129,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "7061129",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USB 03 MACEIO",
+        "addr:street": "Rua Industrial Luiz Calheiros Junior",
+        "addr:housenumber": "177",
+        "addr:suburb": "Farol",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57055-230",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7372876,
+          -9.6456149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7361815,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "7361815",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USB 04 MACEIO",
+        "addr:street": "Rua Goais",
+        "addr:suburb": "Farol",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57055-320",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7351,
+          -9.66625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7361831,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "7361831",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USB 06 MACEIO",
+        "addr:street": "Rua Industrial Luiz Calheiros Junior",
+        "addr:housenumber": "177",
+        "addr:suburb": "Farol",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57055-230",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7372403,
+          -9.6455678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7361963,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "7361963",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USB 07 MACEIO",
+        "addr:street": "Rua Industrial Luiz Calheiros Junior",
+        "addr:housenumber": "177",
+        "addr:suburb": "Farol",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57055-230",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7359232,
+          -9.6450215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7362951,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "7362951",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USB 08 MACEIO",
+        "addr:street": "Rua Goiais",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57055-320",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.735,
+          -9.6660314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7361874,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "7361874",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USB 09 MACEIO",
+        "addr:street": "Rua Industrial Luiz Calheiros Junior",
+        "addr:housenumber": "177",
+        "addr:suburb": "Farol",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57055-230",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7359508,
+          -9.6450372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 671819,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "671819",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USB 25 MACEIO",
+        "addr:street": "Rua Goiais",
+        "addr:suburb": "Farol",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57055-320",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7350276,
+          -9.6660157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 671827,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "671827",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USB 34 MACEIO",
+        "addr:street": "Rua Goias",
+        "addr:suburb": "Farol",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57055-320",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -36.1750382,
+          -10.1321366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7475209,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "7475209",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USB MACEIO 05",
+        "addr:street": "Rua Industrial Luiz Calheiros Junior",
+        "addr:housenumber": "177",
+        "addr:suburb": "Farol",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57055-230",
+        "phone": "+55 46 3315-1173",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7359784,
+          -9.6450215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7961537,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "7961537",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL DE ABASTECIMENTO FARMACEUTICO DO ESTADO DE ALAGOAS",
+        "addr:street": "Rua Goias",
+        "addr:housenumber": "12",
+        "addr:suburb": "Farol",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57055-320",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "dispensing": "yes",
+        "name": "Central de Abastecimento Farmaceutico do Estado de Alagoas",
+        "comment": "Farmácia Pública"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.733791,
+          -9.642992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7652372,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "7652372",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "FARMACIA DE ACOLHIMENTO HORUS ESPECIALIZADO",
+        "addr:street": "Rua Oldemburgo da Silva Paranhos",
+        "addr:housenumber": "830",
+        "addr:suburb": "Farol",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57055-320",
+        "email": "daf@saude.al.gov.br",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "dispensing": "yes",
+        "name": "Farmácia de Acolhimento Horus Especializado",
+        "comment": "Farmácia Pública"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7305002,
+          -9.6429346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 809020,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "809020",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "FARMACIA DE MACEIO FARMAC",
+        "addr:street": "Rua Av Jose Bandeira",
+        "addr:suburb": "Tabuleiro",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57081-040",
+        "phone": "+55 82 3312-5461",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "dispensing": "yes",
+        "name": "Farmácia de Maceio Farmac",
+        "comment": "Farmácia Pública"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7809509,
+          -9.6034354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2719991,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "2719991",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "FARMACIA DE MEDICAMENTOS EXCEPCIONAIS",
+        "addr:street": "Rua Goias",
+        "addr:housenumber": "800",
+        "addr:suburb": "Farol",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57055-320",
+        "phone": "+55 46 82315-1140",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "dispensing": "yes",
+        "name": "Farmácia de Medicamentos Excepcionais",
+        "comment": "Farmácia Pública"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7406872,
+          -9.6457649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5372259,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "5372259",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "FARMACIA POPULAR DO BRASIL",
+        "addr:street": "Rua Av Benedito Bentes",
+        "addr:housenumber": "136",
+        "addr:suburb": "Benedito Bentes II",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57080-000",
+        "phone": "+55 46 3315-3525",
+        "email": "cpbmaceio@hotmail.com",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "dispensing": "yes",
+        "name": "Farmácia Popular do Brasil",
+        "comment": "Farmácia Pública"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7298841,
+          -9.5552054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5795419,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "5795419",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "GERENCIA DE VIGILANCIA SANITARIA DE ALAGOAS",
+        "addr:street": "Rua Sete de Setembro",
+        "addr:housenumber": "50",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57020-700",
+        "phone": "+55 82 3315-3779",
+        "email": "visa.alagoas@gmail.com",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.772732,
+          -9.5795995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3416410,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "3416410",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SERVICO DE VERIFICACAO DE OBITO SVO",
+        "addr:street": "Rua Conego Fernando Lyra",
+        "addr:suburb": "Trapiche da Barra",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57010-382",
+        "phone": "+55 82 3315-6113",
+        "email": "svo@uncisal.edu.br",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.734148,
+          -9.6656961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5582016,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "5582016",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SECRETARIA DE ESTADO DE SAUDE DE ALAGOAS",
+        "addr:street": "Rua Av da Paz",
+        "addr:housenumber": "978",
+        "addr:suburb": "Jaragua",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57025-050",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7279959,
+          -9.6700624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2009773,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2009773",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SECRETARIA MUNICIPAL DE SAUDE DE MACEIO",
+        "addr:street": "Rua Dias Cabral",
+        "addr:housenumber": "569",
+        "addr:suburb": "Prado",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57010-070",
+        "phone": "+55 82 3315-5242",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7421387,
+          -9.664604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2003899,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "2003899",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HEMOCENTRO DE ALAGOAS HEMOAL",
+        "addr:street": "Avenida Menino Marcelo",
+        "addr:housenumber": "9974",
+        "addr:suburb": "Cidade Universitaria",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57073-417",
+        "amenity": "blood_donation",
+        "healthcare": "blood_donation",
+        "name": "Hemonúcleo de Pato Branco (HEMEPAR)",
+        "short_name": "Hemepar Pato Branco",
+        "comment": "Doação de Sangue (HEMEPAR)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.6178474,
+          -9.5304375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8436932,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "8436932",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CAPS AD III NOVO JARDIM",
+        "addr:street": "Rua Professor Benedito Olegario dos Santos",
+        "addr:suburb": "Cid Universitaria",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57072-812",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7747996,
+          -9.5385801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5123143,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "5123143",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CAPS AD INFANTO JUVENIL DR EVERALDO MOREIRA",
+        "addr:street": "Rua Barao Jose Miguel",
+        "addr:housenumber": "378",
+        "addr:suburb": "Farol",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57055-160",
+        "phone": "+55 82 3312-5517",
+        "email": "capsaderaldomoreira@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial Infanto-Juvenil (CAPSi)",
+        "short_name": "CAPSi",
+        "comment": "CAPSi (Infanto-Juvenil)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7349849,
+          -9.6432261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2005662,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2005662",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CAPS DR SADI FEITOSA DE CARVALHO",
+        "addr:street": "Rua Doutor Osvaldo Cruz",
+        "addr:housenumber": "1",
+        "addr:suburb": "Bebedouro",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57018-630",
+        "phone": "+55 46 3312-5521",
+        "email": "sorayapraxedes@gmail.com.br",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7525513,
+          -9.6212972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5194830,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "5194830",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CAPS II DR ROSTAND SILVESTRE",
+        "addr:street": "Rua Jose Maia Gomes",
+        "addr:suburb": "Jatiuca",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57036-110",
+        "phone": "+55 82 3312-5500",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7033392,
+          -9.650863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2006170,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2006170",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CAPS NORACI PEDROSACENTO DE ATENCAO PSICOSSOCIAL",
+        "addr:street": "Rua Conj Jose da Silva Peixoto",
+        "addr:suburb": "Jacintinho",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57080-000",
+        "phone": "+55 82 3312-5532",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7201576,
+          -9.6335396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2005867,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "2005867",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CAPSI LUIZ DA ROCHA CERQUEIRA",
+        "addr:street": "Rua Av Presidente Jetulio Vargas",
+        "addr:suburb": "Serraria",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57046-350",
+        "phone": "+55 46 82312-5540",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial Infanto-Juvenil (CAPSi)",
+        "short_name": "CAPSi",
+        "comment": "CAPSi (Infanto-Juvenil)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7276999,
+          -9.6103163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7696124,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "7696124",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ATENCAO PSICOSSOCIAL ALCOOL E DROGAS CAPSAD",
+        "addr:street": "Rua Conego Costa",
+        "addr:housenumber": "3851",
+        "addr:suburb": "Bebedouro",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57055-320",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7514333,
+          -9.626802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7676824,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "7676824",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ATENCAO PSICOSSOCIAL CAPS CASA VERDE",
+        "addr:street": "Rua Clementino do Monte",
+        "addr:suburb": "Farol",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57055-320",
+        "phone": "+55 82 3315-2491",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7354127,
+          -9.64107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7748396,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "7748396",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DISTRITO SANITARIO ESPECIAL INDIGINA ALSE",
+        "addr:street": "Avenida Durval de Goes Monteiro",
+        "addr:housenumber": "6001",
+        "addr:suburb": "Petropolis",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57062-280",
+        "phone": "+55 82 3325-7179",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Distrito Sanitario Especial Indigina Alse",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.751727,
+          -9.5898091
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4156722,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "4156722",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UPA 24 HORAS CLAUDIO COSTA CHA DA JAQUEIRA",
+        "addr:street": "Rua do Campo",
+        "addr:suburb": "Cha da Jaqueira",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57080-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "emergency": "yes",
+        "opening_hours": "24/7",
+        "name": "UPA 24 Horas Maria Itália Freddo",
+        "short_name": "UPA 24h",
+        "comment": "UPA 24h"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7622835,
+          -9.6748054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4156714,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "4156714",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UPA 24 HS GALBA NOVAES TABULEIRO",
+        "addr:street": "Avenida Durval de Goes Monteiro",
+        "addr:suburb": "Tabuleiro",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57080-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "emergency": "yes",
+        "opening_hours": "24/7",
+        "name": "UPA 24 Horas Maria Itália Freddo",
+        "short_name": "UPA 24h",
+        "comment": "UPA 24h"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.748585,
+          -9.6006322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4463129,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "4463129",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UPA 24H SANTA LUCIA",
+        "addr:street": "Rua Av Aquidauna",
+        "addr:housenumber": "175",
+        "addr:suburb": "Santa Lucia",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57082-890",
+        "phone": "+55 82 2140-9531",
+        "email": "walma.lira@isac.org.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "emergency": "yes",
+        "opening_hours": "24/7",
+        "name": "UPA 24 Horas Maria Itália Freddo",
+        "short_name": "UPA 24h",
+        "comment": "UPA 24h"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.762065,
+          -9.5871839
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4156730,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "4156730",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UPA 24HS DR ISMAR GATTO JACINTINHO",
+        "addr:street": "Avenida Juca Sampaio",
+        "addr:suburb": "Jacintinho",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57042-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "emergency": "yes",
+        "opening_hours": "24/7",
+        "name": "UPA 24 Horas Maria Itália Freddo",
+        "short_name": "UPA 24h",
+        "comment": "UPA 24h"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7156475,
+          -9.6337268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9056971,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "9056971",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UPA BENEDITO BENTES",
+        "addr:street": "Avenida Antonio Lisboa de Amorim",
+        "addr:suburb": "Benedito Bentes",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57085-160",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "emergency": "yes",
+        "opening_hours": "24/7",
+        "name": "UPA 24 Horas Maria Itália Freddo",
+        "short_name": "UPA 24h",
+        "comment": "UPA 24h"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7453336,
+          -9.5589811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 902179,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "902179",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UPA CIDADE UNIVERSITARIA",
+        "addr:street": "Rua G Conjunto Santa Maria",
+        "addr:suburb": "Cidade Universitaria",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57072-081",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "emergency": "yes",
+        "opening_hours": "24/7",
+        "name": "UPA 24 Horas Maria Itália Freddo",
+        "short_name": "UPA 24h",
+        "comment": "UPA 24h"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7345343,
+          -9.6655903
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 937495,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "937495",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UPA JARAGUA",
+        "addr:street": "Rua Avanida Walter Ananias",
+        "addr:suburb": "Jaragua",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57022-063",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "emergency": "yes",
+        "opening_hours": "24/7",
+        "name": "UPA 24 Horas Maria Itália Freddo",
+        "short_name": "UPA 24h",
+        "comment": "UPA 24h"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7336974,
+          -9.6655269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7911238,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "7911238",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UPA TRAPICHE DA BARRA",
+        "addr:street": "Rua Cabo Reis",
+        "addr:suburb": "Ponta Grossa",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57014-260",
+        "phone": "+55 46 3022-0033",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "emergency": "yes",
+        "opening_hours": "24/7",
+        "name": "UPA 24 Horas Maria Itália Freddo",
+        "short_name": "UPA 24h",
+        "comment": "UPA 24h"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.756464,
+          -9.6626705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6887031,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "6887031",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "NUCLEO DE ATIVIDADES FISICAS DO FEITOZA",
+        "addr:street": "Rua Praca Nossa Senhora de Fatima",
+        "addr:housenumber": "10",
+        "addr:suburb": "Feitoza",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57043-600",
+        "phone": "+55 82 3315-5224",
+        "email": "ces.sms@gmail.com",
+        "leisure": "fitness_centre",
+        "healthcare": "rehabilitation",
+        "name": "Academia da Saúde Nucleo de Atividades Fisicas do Feitoza",
+        "comment": "Academia da Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.718304,
+          -9.6297025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6887058,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "6887058",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "NUCLEO DE ATIVIDADES FISICAS DO OSMAN LOUREIRO",
+        "addr:street": "Rua Praca Osman Loureiro",
+        "addr:housenumber": "10",
+        "addr:suburb": "Clima Bom",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57080-000",
+        "phone": "+55 82 3315-5224",
+        "email": "ces.sms@gmail.com",
+        "leisure": "fitness_centre",
+        "healthcare": "rehabilitation",
+        "name": "Academia da Saúde Nucleo de Atividades Fisicas do Osman Loureiro",
+        "comment": "Academia da Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.734899,
+          -9.6659922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6883400,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "6883400",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "NUCLEO DE ATIVIDADES FISICAS DO VERGEL DO LAGO",
+        "addr:street": "Rua Av Theobaldo Barbosa",
+        "addr:housenumber": "10",
+        "addr:suburb": "Vergel do Lago",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57080-000",
+        "phone": "+55 82 3315-5224",
+        "email": "ces.sms@gmail.com",
+        "leisure": "fitness_centre",
+        "healthcare": "rehabilitation",
+        "name": "Academia da Saúde Nucleo de Atividades Fisicas do Vergel do Lago",
+        "comment": "Academia da Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7584806,
+          -9.5725265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7685777,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "7685777",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "NUCLEO DE TELESSAUDE DE ALAGOAS",
+        "addr:street": "Avenida da Paz",
+        "addr:housenumber": "1008",
+        "addr:suburb": "Jaragua",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57025-050",
+        "email": "telessaude@saude.al.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Nucleo de Telessaude de Alagoas",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7290804,
+          -9.6699437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5445817,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "5445817",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "NUCLEO DE TELESSAUDE DE ALAGOAS UFAL",
+        "addr:street": "Rua Av Lourival Melo Mota Campus A C Simoes",
+        "addr:suburb": "Tabuleiro dos Martin",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57072-900",
+        "phone": "+55 82 3214-1401",
+        "email": "telessaude@ic.ufal.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Nucleo de Telessaude de Alagoas Ufal",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7008672,
+          -9.6606828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7837941,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "7837941",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "NUCLEO TELESSAUDE MACEIO",
+        "addr:street": "Rua Barao de Alagoas",
+        "addr:housenumber": "311",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57020-210",
+        "phone": "+55 82 3312-5446",
+        "email": "telessaude@sms.maceio.al.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Nucleo Telessaude Maceio",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7444669,
+          -9.6613406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7031599,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "7031599",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL DE REGULACAO DAS URGENCIAS DE ALAGOAS",
+        "addr:street": "Rua Industrial Luiz Calheiros Junior",
+        "addr:housenumber": "177",
+        "addr:suburb": "Farol",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57055-230",
+        "email": "samu192@saude.al.gov.br",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Central de Regulação Médica das Urgências (SAMU 192)",
+        "short_name": "Regulação SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7373152,
+          -9.6455992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2976870,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "2976870",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PROGRAMA SAUDE EM CASA SESAU",
+        "addr:street": "Rua Silverio Jorge",
+        "addr:suburb": "Jaragua",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57020-050",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Programa Saude em Casa Sesau",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7285657,
+          -9.6693365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2009129,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "2009129",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "LABORATORIO DE SAUDE PUBLICA LACEN",
+        "addr:street": "Rua Ernesto Gomes Maranhao",
+        "addr:housenumber": "1773",
+        "addr:suburb": "Jatiuca",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57036-860",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Laboratorio de Saude Publica LACEN",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7083163,
+          -9.6528148
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9685537,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "9685537",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL DE SOLICITACAO DE MACEIO",
+        "addr:street": "Rua Mizael Domingues",
+        "addr:housenumber": "73",
+        "addr:suburb": "Poco",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57020-600",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Sistema Municipal de Auditoria e Regulação em Saúde",
+        "comment": "Auditoria e Regulação"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7313965,
+          -9.6650997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7296703,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "7296703",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "COMPLEXO REGULADOR ESTADUAL DE ALAGOAS",
+        "addr:street": "Rua Av da Paz",
+        "addr:housenumber": "1024",
+        "addr:suburb": "Jaragua",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57022-050",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Sistema Municipal de Auditoria e Regulação em Saúde",
+        "comment": "Auditoria e Regulação"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7309301,
+          -9.669758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7266707,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "7266707",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "NIR NUCLEO INTERNO DE REGULACAO",
+        "addr:street": "Rua Av Jorge de Lima",
+        "addr:housenumber": "2095",
+        "addr:suburb": "Trapiche",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57010-001",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Sistema Municipal de Auditoria e Regulação em Saúde",
+        "comment": "Auditoria e Regulação"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7349634,
+          -9.6660028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5408989,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "5408989",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PRONTO MARCACAO E REGULACAO DE MACEIO",
+        "addr:street": "Rua Barao de Alagoas",
+        "addr:housenumber": "311",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57020-210",
+        "phone": "+55 82 3312-5446",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Sistema Municipal de Auditoria e Regulação em Saúde",
+        "comment": "Auditoria e Regulação"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7313965,
+          -9.6606969
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7553382,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "7553382",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL ESTADUAL DE TRANSPLANTES DE ALAGOAS",
+        "addr:street": "Avenida Siqueira Campos",
+        "addr:housenumber": "2095",
+        "addr:suburb": "Trapiche",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57010-645",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Central Estadual de Transplantes de Alagoas",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7525587,
+          -9.6708997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7553390,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "7553390",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "ORGANIZACAO DE PROCURA DE ORGAOS E TECIDOS OPO",
+        "addr:street": "Avenida Siqueira Campos",
+        "addr:suburb": "Trapiche",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57010-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Organizacao de Procura de Orgaos e Tecidos Opo",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7517004,
+          -9.6709209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 107867,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "107867",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL DE ARMAZENAMENTO E DISTRIBUICAO DE IMONOBIOLOGICOS D",
+        "addr:street": "Rua Goiais",
+        "addr:suburb": "Farol",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57055-320",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Central de Armazenamento e Distribuicao de Imonobiologicos D",
+        "comment": "Suprimentos / Logística"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7334185,
+          -9.6656961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 44237,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "44237",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL MUNICIPAL DE REDE DE FRIO DE MACEIO",
+        "addr:street": "Rua Lot Durville",
+        "addr:housenumber": "10",
+        "addr:suburb": "Clima Bom",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57071-612",
+        "phone": "+55 82 3312-5468",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Central Municipal de Rede de Frio de Maceio",
+        "comment": "Suprimentos / Logística"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7351351,
+          -9.5843279
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 834858,
+      "properties": {
+        "operator": "Prefeitura Municipal de Maceió",
+        "operator:type": "public",
+        "ref:CNES": "834858",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "COORDENACAO TEC DE SUPRIMENTOS DE MEDICAMENTOS E CORRELATOS",
+        "addr:street": "Rua Av Juca Sampaio",
+        "addr:housenumber": "620",
+        "addr:suburb": "Barro Duro",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57045-365",
+        "phone": "+55 82 3312-5447",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Coordenacao Tec de Suprimentos de Medicamentos e Correlatos",
+        "comment": "Suprimentos / Logística"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7187999,
+          -9.6243912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 128147,
+      "properties": {
+        "operator": "Governo do Estado (AL)",
+        "operator:type": "public",
+        "ref:CNES": "128147",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL DE REFERENCIA DE IMUNOBIOLOGICOS ESPECIAIS CRIE",
+        "addr:street": "Rua Conego Fernando Mlyra",
+        "addr:suburb": "Trapiche",
+        "addr:city": "Maceió",
+        "addr:state": "AL",
+        "addr:country": "BR",
+        "addr:postcode": "57017-420",
+        "amenity": "clinic",
+        "healthcare": "vaccination",
+        "name": "Sala Central de Vacinas de Pato Branco",
+        "short_name": "Sala de Vacinas",
+        "comment": "Sala de Vacinas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7338905,
+          -9.6657595
+        ]
+      }
+    }
+  ]
+}

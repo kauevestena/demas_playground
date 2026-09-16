@@ -1,0 +1,3621 @@
+{
+  "type": "FeatureCollection",
+  "name": "Estabelecimentos Públicos de Saúde - DEMAS / CNES",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 2020009,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "2020009",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM P S AMBE",
+        "addr:street": "Rua Pedreira",
+        "addr:housenumber": "01",
+        "addr:suburb": "Distrito da Pedreira",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68912-350",
+        "phone": "+55 46 96213-1109",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm P S Ambe",
+        "short_name": "UBS Pmm P S Ambe",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.912919,
+          0.2709879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2019833,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "2019833",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM P S ARIRI",
+        "addr:street": "Rua Br 156 Km 33",
+        "addr:housenumber": "01",
+        "addr:suburb": "Distrito do Maruanum",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68906-970",
+        "phone": "+55 46 96213-1109",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm P S Ariri",
+        "short_name": "UBS Pmm P S Ariri",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.2779983,
+          0.186305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2019760,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "2019760",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM P S ARRAIOL DO BAILIQUE",
+        "addr:street": "Rua Bailique",
+        "addr:housenumber": "01",
+        "addr:suburb": "Bailique",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68913-000",
+        "phone": "+55 46 96213-1109",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm P S Arraiol do Bailique",
+        "short_name": "UBS Pmm P S Arraiol do Bailique",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.1153588,
+          0.9614517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2019884,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "2019884",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM P S BACABA",
+        "addr:street": "Rua Bailique",
+        "addr:housenumber": "01",
+        "addr:suburb": "Bailique",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68913-000",
+        "phone": "+55 46 96213-1109",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm P S Bacaba",
+        "short_name": "UBS Pmm P S Bacaba",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.115509,
+          0.9615161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2019922,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "2019922",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM P S CORRE AGUA DO PIRIRIM",
+        "addr:street": "Rua São Joaquim do Pacui",
+        "addr:housenumber": "01",
+        "addr:suburb": "Pacui",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68912-500",
+        "phone": "+55 46 96213-1109",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm P S Corre Agua do Piririm",
+        "short_name": "UBS Pmm P S Corre Agua do Piririm",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.5958876,
+          0.773509
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2019787,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "2019787",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM P S DO CANTAZAL",
+        "addr:street": "Rua Cantazal do Pacui",
+        "addr:housenumber": "01",
+        "addr:suburb": "Cantazal do Pacui",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68912-500",
+        "phone": "+55 46 96213-1109",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm P S do Cantazal",
+        "short_name": "UBS Pmm P S do Cantazal",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.065805,
+          0.0389886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5564492,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "5564492",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM P S DO LONTRA",
+        "addr:street": "Rua Lontra da Pedreira",
+        "addr:suburb": "Pedreira",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68906-970",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm P S do Lontra",
+        "short_name": "UBS Pmm P S do Lontra",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.912919,
+          0.2712454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2019965,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "2019965",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM P S DO MARUANUM II",
+        "addr:street": "Rua Distrito do Maruanum",
+        "addr:housenumber": "01",
+        "addr:suburb": "Maruanum",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68912-350",
+        "phone": "+55 46 96213-1109",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm P S do Maruanum II",
+        "short_name": "UBS Pmm P S do Maruanum II",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0659766,
+          0.0389671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2021978,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "2021978",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM P S FOZ DO MACACOARI II",
+        "addr:street": "Rua Macacoaribailique",
+        "addr:suburb": "Area Rural",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68912-350",
+        "phone": "+55 46 96213-1109",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm P S Foz do Macacoari II",
+        "short_name": "UBS Pmm P S Foz do Macacoari II",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0659552,
+          0.03901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2019892,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "2019892",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM P S FREGUESIA DO BAILIQUE",
+        "addr:street": "Rua Bailique",
+        "addr:housenumber": "01",
+        "addr:suburb": "Bailique",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68906-790",
+        "phone": "+55 46 96213-1109",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm P S Freguesia do Bailique",
+        "short_name": "UBS Pmm P S Freguesia do Bailique",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.1176548,
+          0.9706986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6223826,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "6223826",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM P S IPIXUNA MIRANDA",
+        "addr:street": "Rua Ipixuna Miranda",
+        "addr:housenumber": "56",
+        "addr:suburb": "Ipixuna",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68912-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm P S Ipixuna Miranda",
+        "short_name": "UBS Pmm P S Ipixuna Miranda",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.6259864,
+          0.3814697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2019752,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "2019752",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM P S LIMAO DO CURUA",
+        "addr:street": "Rua Limao do Curua Bailique",
+        "addr:housenumber": "01",
+        "addr:suburb": "Limao do Curua",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68913-000",
+        "phone": "+55 46 96213-1109",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm P S Limao do Curua",
+        "short_name": "UBS Pmm P S Limao do Curua",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.162084,
+          0.760497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5509009,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "5509009",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM P S RESSACA DA PEDREIRA",
+        "addr:street": "Rua Ressaca da Pedreira",
+        "addr:suburb": "Distrito da Pedreira",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68905-160",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm P S Ressaca da Pedreira",
+        "short_name": "UBS Pmm P S Ressaca da Pedreira",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0575867,
+          0.0389242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2019744,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "2019744",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM P S SANTO ANTONIO DA PEDREIRA",
+        "addr:street": "Rua Santo Antonio da Pedreira",
+        "addr:housenumber": "01",
+        "addr:suburb": "Santo Antonio da Ped",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68906-970",
+        "phone": "+55 46 96213-1109",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm P S Santo Antonio da Pedreira",
+        "short_name": "UBS Pmm P S Santo Antonio da Pedreira",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.8727371,
+          0.3387763
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2019795,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "2019795",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM P S SAO BENEDITO DO PACUI",
+        "addr:street": "Rua Pacui",
+        "addr:housenumber": "01",
+        "addr:suburb": "Pacui",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68912-500",
+        "phone": "+55 46 96213-1109",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm P S São Benedito do Pacui",
+        "short_name": "UBS Pmm P S São Benedito do Pacui",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.6288838,
+          0.8268427
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2019779,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "2019779",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM P S SAO FRANCISCO DO ALTO",
+        "addr:street": "Rua Pacui",
+        "addr:suburb": "Pacui",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68912-500",
+        "phone": "+55 46 96213-1109",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm P S São Francisco do Alto",
+        "short_name": "UBS Pmm P S São Francisco do Alto",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.6283259,
+          0.8270572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2019841,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "2019841",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM P S SAO PEDRO DOS BOIS",
+        "addr:street": "Rua Pedreira",
+        "addr:suburb": "Distrito da Pedreira",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68906-970",
+        "phone": "+55 46 96213-1109",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm P S São Pedro dos Bois",
+        "short_name": "UBS Pmm P S São Pedro dos Bois",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.8729863,
+          0.3390292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2019930,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "2019930",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM P S SAO TOME",
+        "addr:street": "Rua São Tome do Pacui",
+        "addr:housenumber": "01",
+        "addr:suburb": "Pacui",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68909-023",
+        "phone": "+55 46 96213-1109",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm P S São Tome",
+        "short_name": "UBS Pmm P S São Tome",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.62868,
+          0.8268723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2019981,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "2019981",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM P S TORRAO DO MATAPI",
+        "addr:street": "Rua Matapi",
+        "addr:housenumber": "01",
+        "addr:suburb": "Matapi",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68906-970",
+        "phone": "+55 46 96213-1109",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm P S Torrao do Matapi",
+        "short_name": "UBS Pmm P S Torrao do Matapi",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.180149,
+          0.231758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2020017,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "2020017",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM U B S ABACATE DA PEDREIRA",
+        "addr:street": "Rua Pedreira",
+        "addr:housenumber": "01",
+        "addr:suburb": "Pedreira",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68912-000",
+        "phone": "+55 46 96213-1109",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm U B S Abacate da Pedreira",
+        "short_name": "UBS Pmm U B S Abacate da Pedreira",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.9132838,
+          0.2704944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 454826,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "454826",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM U B S BR 210",
+        "addr:street": "Rodovia Br 210",
+        "addr:housenumber": "4521",
+        "addr:suburb": "Amazonas",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68909-788",
+        "phone": "+55 96 99130-0877",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm U B S Br 210",
+        "short_name": "UBS Pmm U B S Br 210",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0975409,
+          0.0874185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6223850,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "6223850",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM U B S CARAPANATUBA",
+        "addr:street": "Rua Carapanantuba",
+        "addr:suburb": "Carapanatuba",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68913-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm U B S Carapanatuba",
+        "short_name": "UBS Pmm U B S Carapanatuba",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.8167028,
+          0.1893851
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2019973,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "2019973",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM U B S CARMO DO MARUANUM",
+        "addr:street": "Rua Maruanum",
+        "addr:housenumber": "01",
+        "addr:suburb": "Distrito do Maruanum",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68913-970",
+        "phone": "+55 46 96213-1109",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm U B S Carmo do Maruanum",
+        "short_name": "UBS Pmm U B S Carmo do Maruanum",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.2786222,
+          0.1872393
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2021005,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "2021005",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM U B S CIDADE NOVA",
+        "addr:street": "Rua Beira Rio",
+        "addr:housenumber": "518",
+        "addr:suburb": "Cidade Nova I",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68905-780",
+        "phone": "+55 46 96223-6183",
+        "email": "ubscidadenova.ap@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm U B S Cidade Nova",
+        "short_name": "UBS Pmm U B S Cidade Nova",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0562462,
+          0.021143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2021366,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "2021366",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM U B S CONCEICAO ROSA MOITA",
+        "addr:street": "Avenida Raimundo Pequilo Goes de Almeida",
+        "addr:housenumber": "0294",
+        "addr:suburb": "Nova Esperança",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68901-610",
+        "phone": "+55 46 96212-6162",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm U B S Conceicao Rosa Moita",
+        "short_name": "UBS Pmm U B S Conceicao Rosa Moita",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0822442,
+          0.031587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2021358,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "2021358",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM U B S CONGOS",
+        "addr:street": "Rua Benedito Lino do Carmo",
+        "addr:housenumber": "1648",
+        "addr:suburb": "Congos",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68904-366",
+        "phone": "+55 46 96212-6212",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm U B S Congos",
+        "short_name": "UBS Pmm U B S Congos",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0984823,
+          0.008569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3011240,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "3011240",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM U B S CORACAO",
+        "addr:street": "Rua Neuza Amaral",
+        "addr:housenumber": "1163",
+        "addr:suburb": "Coracao",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68900-101",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm U B S Coracao",
+        "short_name": "UBS Pmm U B S Coracao",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.1259079,
+          0.0717544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2020718,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "2020718",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM U B S DR ALVARO PEREIRA CORREA",
+        "addr:street": "Avenida Armando Tupa de Abreu",
+        "addr:housenumber": "110",
+        "addr:suburb": "São Lazaro",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68908-560",
+        "phone": "+55 46 96212-6164",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm U B S Dr Alvaro Pereira Correa",
+        "short_name": "UBS Pmm U B S Dr Alvaro Pereira Correa",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0574876,
+          0.0750611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2020602,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "2020602",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM U B S DR LELIO SILVA",
+        "addr:street": "Rua Jose Valente dos Santos",
+        "addr:housenumber": "126",
+        "addr:suburb": "Novo Buritizal",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68904-250",
+        "phone": "+55 46 96242-3110",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm U B S Dr Lelio Silva",
+        "short_name": "UBS Pmm U B S Dr Lelio Silva",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0795986,
+          0.0229301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2020599,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "2020599",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM U B S DR MARCELO CANDIA",
+        "addr:street": "Rua Vereador Julio Maria Pinto Pereira",
+        "addr:housenumber": "1329",
+        "addr:suburb": "Jardim Felicidade I",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68909-000",
+        "phone": "+55 46 96213-1115",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm U B S Dr Marcelo Candia",
+        "short_name": "UBS Pmm U B S Dr Marcelo Candia",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0642088,
+          0.0824155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2020580,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "2020580",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM U B S DR RUBIM BRITO ARONOVITCH",
+        "addr:street": "Avenida Seis de Setembro",
+        "addr:housenumber": "212",
+        "addr:suburb": "Santa Ines",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68901-520",
+        "phone": "+55 46 96213-1227",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm U B S Dr Rubim Brito Aronovitch",
+        "short_name": "UBS Pmm U B S Dr Rubim Brito Aronovitch",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0564508,
+          0.0225338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2020025,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "2020025",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM U B S HILDA ILEIA SANTANNA RAMOS",
+        "addr:street": "Rodovia Ap 070",
+        "addr:housenumber": "01",
+        "addr:suburb": "Curiau",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68912-300",
+        "phone": "+55 46 96213-1109",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm U B S Hilda Ileia Santanna Ramos",
+        "short_name": "UBS Pmm U B S Hilda Ileia Santanna Ramos",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0547945,
+          0.1061309
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7640013,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "7640013",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM U B S ILHA REDONDA",
+        "addr:street": "Rua Ilha Redonda",
+        "addr:suburb": "Comunidade Ilha Redo",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68909-789",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm U B S Ilha Redonda",
+        "short_name": "UBS Pmm U B S Ilha Redonda",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.1470222,
+          0.1434873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 985503,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "985503",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM U B S INFRAERO I",
+        "addr:street": "Rua Jonatha Bezerra",
+        "addr:housenumber": "1495",
+        "addr:suburb": "Infraero I",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68908-862",
+        "email": "karen_lacerda@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm U B S Infraero I",
+        "short_name": "UBS Pmm U B S Infraero I",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0684558,
+          0.0743345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2021188,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "2021188",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM U B S INFRAERO II",
+        "addr:street": "Avenida Carlos Lins Cortes",
+        "addr:housenumber": "161",
+        "addr:suburb": "Infraero II",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68906-970",
+        "phone": "+55 46 96251-2670",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm U B S Infraero II",
+        "short_name": "UBS Pmm U B S Infraero II",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0713997,
+          0.0786611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 942081,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "942081",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM U B S MACAPABA",
+        "addr:street": "Rodovia Br 210",
+        "addr:suburb": "Infraero",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68908-878",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm U B S Macapaba",
+        "short_name": "UBS Pmm U B S Macapaba",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0975072,
+          0.0880551
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2019876,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "2019876",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM U B S MANOELZINHO",
+        "addr:street": "Rua Bailique",
+        "addr:suburb": "Vila Progresso",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68913-000",
+        "phone": "+55 46 96213-1109",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm U B S Manoelzinho",
+        "short_name": "UBS Pmm U B S Manoelzinho",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.1153987,
+          0.9611059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6585604,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "6585604",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM U B S MARABAIXO",
+        "addr:street": "Rua Quatro",
+        "addr:suburb": "Marabaixo II",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68909-870",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm U B S Marabaixo",
+        "short_name": "UBS Pmm U B S Marabaixo",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.1295901,
+          0.0445527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3014614,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "3014614",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM U B S MARIA DAS GRACAS FLEXA DE ALMEIDA",
+        "addr:street": "Avenida Abacatal",
+        "addr:housenumber": "177",
+        "addr:suburb": "Brasil Novo",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68909-301",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm U B S Maria das Gracas Flexa de Almeida",
+        "short_name": "UBS Pmm U B S Maria das Gracas Flexa de Almeida",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0859993,
+          0.093137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2022044,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "2022044",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM U B S NOVO HORIZONTE",
+        "addr:street": "Rua Av Glicerio Souza Figueiredo",
+        "addr:housenumber": "1952",
+        "addr:suburb": "Novo Horizonte",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68909-821",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm U B S Novo Horizonte",
+        "short_name": "UBS Pmm U B S Novo Horizonte",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.048408,
+          0.0992445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2021161,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "2021161",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM U B S PACOVAL",
+        "addr:street": "Rua General Rondon",
+        "addr:housenumber": "01",
+        "addr:suburb": "Juliao Ramos",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68908-181",
+        "phone": "+55 46 96213-1157",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm U B S Pacoval",
+        "short_name": "UBS Pmm U B S Pacoval",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0557682,
+          0.0271662
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 765171,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "765171",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM U B S PADRE RAUL MATTE",
+        "addr:street": "Rua Inspetor Miguel Amorim",
+        "addr:suburb": "Zerao",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68911-145",
+        "phone": "+55 96 99117-7363",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm U B S Padre Raul Matte",
+        "short_name": "UBS Pmm U B S Padre Raul Matte",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0997709,
+          -0.0030824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 870617,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "870617",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM U B S PANTANAL",
+        "addr:street": "Rua João Almeida do Nascimento",
+        "addr:housenumber": "1004",
+        "addr:suburb": "Pantanal",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68907-317",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm U B S Pantanal",
+        "short_name": "UBS Pmm U B S Pantanal",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0476082,
+          0.0697468
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2020696,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "2020696",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM U B S PEDRINHAS",
+        "addr:street": "Rua João Castro Sussuarana",
+        "addr:housenumber": "01",
+        "addr:suburb": "Jardim Equatorial",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68903-006",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm U B S Pedrinhas",
+        "short_name": "UBS Pmm U B S Pedrinhas",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0693365,
+          0.0076353
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2021196,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "2021196",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM U B S PEDRO BARROS MONTEIRO",
+        "addr:street": "Rua Passagem Dona Marcia",
+        "addr:housenumber": "445",
+        "addr:suburb": "Distrito de Fazendin",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68903-197",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm U B S Pedro Barros Monteiro",
+        "short_name": "UBS Pmm U B S Pedro Barros Monteiro",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.1142524,
+          -0.0525921
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9421955,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "9421955",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM U B S PERPETUO SOCORRO",
+        "addr:street": "Rua Rio Xingu",
+        "addr:housenumber": "01",
+        "addr:suburb": "Perpetuo Socorro",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68905-560",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm U B S Perpetuo Socorro",
+        "short_name": "UBS Pmm U B S Perpetuo Socorro",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0487568,
+          0.0448956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2021056,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "2021056",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM U B S RAIMUNDO HOZANAN DE SOUZA",
+        "addr:street": "Rua Hildemar Maia",
+        "addr:housenumber": "3710",
+        "addr:suburb": "Muca",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68902-335",
+        "phone": "+55 46 96241-2510",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm U B S Raimundo Hozanan de Souza",
+        "short_name": "UBS Pmm U B S Raimundo Hozanan de Souza",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0704616,
+          0.036442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2019825,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "2019825",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM U B S SANTA LUZIA DO PACUI",
+        "addr:street": "Rua Santa Luzia do Pacui",
+        "addr:housenumber": "01",
+        "addr:suburb": "Distrito de Pacui",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68900-909",
+        "phone": "+55 46 96213-1109",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm U B S Santa Luzia do Pacui",
+        "short_name": "UBS Pmm U B S Santa Luzia do Pacui",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.6623118,
+          0.8483062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2019914,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "2019914",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM U B S SAO JOAQUIM DO PACUI",
+        "addr:street": "Rua São Joaquim do Pacui",
+        "addr:housenumber": "01",
+        "addr:suburb": "Distrito do Pacui",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68900-909",
+        "phone": "+55 96 98106-7619",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm U B S São Joaquim do Pacui",
+        "short_name": "UBS Pmm U B S São Joaquim do Pacui",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.5958929,
+          0.7756527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2020637,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "2020637",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM U B S SAO PEDRO",
+        "addr:street": "Rua Jovino Dinoa",
+        "addr:housenumber": "158",
+        "addr:suburb": "Beirol",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68902-030",
+        "phone": "+55 96 98131-0038",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm U B S São Pedro",
+        "short_name": "UBS Pmm U B S São Pedro",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0596521,
+          0.0543097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2020033,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "2020033",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM U B S TESSALONICA",
+        "addr:street": "Rua Maruanum",
+        "addr:suburb": "Distrito do Maruanum",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68913-000",
+        "phone": "+55 96 98406-4443",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm U B S Tessalonica",
+        "short_name": "UBS Pmm U B S Tessalonica",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.2779784,
+          0.1861235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2019906,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "2019906",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM U B S TRACAJATUBA I",
+        "addr:street": "Rua Tracajatuba I Pacui",
+        "addr:housenumber": "01",
+        "addr:suburb": "Pacui",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68912-500",
+        "phone": "+55 46 96213-1109",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Pmm U B S Tracajatuba I",
+        "short_name": "UBS Pmm U B S Tracajatuba I",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.7088995,
+          0.7222676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6722679,
+      "properties": {
+        "operator": "Governo do Estado (AP)",
+        "operator:type": "public",
+        "ref:CNES": "6722679",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SES AP INSTITUTO DE ADMINISTRACAO PENITENCIARIA",
+        "addr:street": "Rodovia Duca Serra",
+        "addr:housenumber": "22",
+        "addr:suburb": "Cabralzinho",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68906-801",
+        "phone": "+55 96 98113-7783",
+        "email": "cotrap@iapen.ap.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Ses Ap Instituto de Administracao Penitenciaria",
+        "short_name": "UBS Ses Ap Instituto de Administracao Penitenciaria",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.1333296,
+          0.0782856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3458946,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "3458946",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "U B S DA UNIFAP",
+        "addr:street": "Rua Amadeu Gama",
+        "addr:housenumber": "1373",
+        "addr:suburb": "Jardim Marco Zero",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68903-230",
+        "phone": "+55 46 96217-5606",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde U B S da Unifap",
+        "short_name": "UBS U B S da Unifap",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0890252,
+          -0.0065716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5288231,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "5288231",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM CENTRO MUNICIPAL DE DIAGNOSTICO",
+        "addr:street": "Rua Av Fab",
+        "addr:housenumber": "480",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68902-280",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0515141,
+          0.0401688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2020645,
+      "properties": {
+        "operator": "Governo do Estado (AP)",
+        "operator:type": "public",
+        "ref:CNES": "2020645",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SES AP HOSPITAL DE CLINICAS DOUTOR ALBERTO LIMA",
+        "addr:street": "Rua Av Fab",
+        "addr:housenumber": "70",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68900-073",
+        "phone": "+55 96 3131-2439",
+        "email": "direcao.hcal@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Ses Ap Hospital de Clinicas Doutor Alberto Lima",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0588527,
+          0.0404048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2020653,
+      "properties": {
+        "operator": "Governo do Estado (AP)",
+        "operator:type": "public",
+        "ref:CNES": "2020653",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SES AP HOSPITAL DE EMERGENCIA",
+        "addr:street": "Rua Hamilton Silva",
+        "addr:housenumber": "0139",
+        "addr:suburb": "Santa Rita",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68902-010",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Ses Ap Hospital de Emergencia",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0637955,
+          0.0436361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4510607,
+      "properties": {
+        "operator": "Governo do Estado (AP)",
+        "operator:type": "public",
+        "ref:CNES": "4510607",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SES UNIDADE ESTADUAL DE INTERNACAO",
+        "addr:street": "Rua General Osorio",
+        "addr:housenumber": "365",
+        "addr:suburb": "Laguinho",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68908-127",
+        "phone": "+55 96 3344-1910",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Ses Unidade Estadual de Internacao",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0537887,
+          0.0477433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2019647,
+      "properties": {
+        "operator": "Governo do Estado (AP)",
+        "operator:type": "public",
+        "ref:CNES": "2019647",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SES AP HOSPITAL DA CRIANCA E DO ADOLESCENTE",
+        "addr:street": "Rua Fab",
+        "addr:housenumber": "080",
+        "addr:suburb": "Central",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68900-453",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Ses Ap Hospital da Crianca e do Adolescente",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0603413,
+          0.0404879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2020068,
+      "properties": {
+        "operator": "Governo do Estado (AP)",
+        "operator:type": "public",
+        "ref:CNES": "2020068",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SES AP HOSPITAL DA MULHER MAE LUZIA",
+        "addr:street": "Rua Av Fab",
+        "addr:housenumber": "0081",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68900-073",
+        "phone": "+55 46 96212-6151",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Ses Ap Hospital da Mulher Mae Luzia",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0594428,
+          0.0404692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2906635,
+      "properties": {
+        "operator": "Governo do Estado (AP)",
+        "operator:type": "public",
+        "ref:CNES": "2906635",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SES AP MATERNIDADE ZONA NORTE DRA EUCLELIA AMERICO",
+        "addr:street": "Rua Liberdade",
+        "addr:suburb": "Renascer",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68907-030",
+        "phone": "+55 96 3082-2990",
+        "email": "adm.mznap@institutoovidiomachado.org",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Ses Ap Maternidade Zona Norte Dra Euclelia Americo",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.1046514,
+          0.0572652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8278555,
+      "properties": {
+        "operator": "Governo do Estado (AP)",
+        "operator:type": "public",
+        "ref:CNES": "8278555",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SES AP AMBULATORIO DE NEFROLOGIA",
+        "addr:street": "Rua Av Fab",
+        "addr:housenumber": "70",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68900-073",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Ses Ap Ambulatorio de Nefrologia",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0587052,
+          0.0400507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8278458,
+      "properties": {
+        "operator": "Governo do Estado (AP)",
+        "operator:type": "public",
+        "ref:CNES": "8278458",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SES AP AMBULATORIO DE ONCOLOGIA UNACON",
+        "addr:street": "Rua Av Fab",
+        "addr:housenumber": "70",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68900-073",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Ses Ap Ambulatorio de Oncologia Unacon",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0587132,
+          0.0400346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8530769,
+      "properties": {
+        "operator": "Governo do Estado (AP)",
+        "operator:type": "public",
+        "ref:CNES": "8530769",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SES AP AMBULATORIO DO PROGRAMA ZERA FILA",
+        "addr:street": "Rua Av Fab",
+        "addr:housenumber": "70",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68900-073",
+        "phone": "+55 96 3131-2439",
+        "email": "daniel.milan@saudelink.org",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Ses Ap Ambulatorio do Programa Zera Fila",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0789353,
+          0.042446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8278393,
+      "properties": {
+        "operator": "Governo do Estado (AP)",
+        "operator:type": "public",
+        "ref:CNES": "8278393",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SES AP CENTRO AMBULATORIAL ESPECIALIZADO CAE",
+        "addr:street": "Rua Av Fab",
+        "addr:housenumber": "70",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68900-073",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Ses Ap Centro Ambulatorial Especializado Cae",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.058901,
+          0.0399274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 875902,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "875902",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM U B S FLUVIAL DRA CELIA TRASEL",
+        "addr:street": "Rua Beira Rio",
+        "addr:housenumber": "113",
+        "addr:suburb": "Santa Ines",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68901-470",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Pmm U B S Fluvial Dra Celia Trasel",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0559987,
+          0.0214075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4971523,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "4971523",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM AMBULATORIO TRANSFORMAR",
+        "addr:street": "Rua Adilson Jose Pinto Pereira",
+        "addr:housenumber": "3104",
+        "addr:suburb": "Renascer",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68908-782",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Pmm Ambulatorio Transformar",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0705082,
+          0.0782199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2945754,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "2945754",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM CECA CLINICA ESCOLA CORACAO AZUL",
+        "addr:street": "Avenida Procopio Rola",
+        "addr:housenumber": "1176",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68900-081",
+        "phone": "960991440036",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Pmm Ceca Clinica Escola Coracao Azul",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0788512,
+          0.0429904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5034884,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "5034884",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM CECAZN CLINICA ESCOLA CORACAO AZUL ZONA NORTE",
+        "addr:street": "Rua Socrates",
+        "addr:suburb": "Renascer",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68907-630",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Pmm Cecazn Clinica Escola Coracao Azul Zona Norte",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0542243,
+          0.0706447
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 470449,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "470449",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM CENTRO DE ESPECIALIDADES DR PAPALEO PAES",
+        "addr:street": "Rua Adilson Jose Pinto Pereira",
+        "addr:housenumber": "3104",
+        "addr:suburb": "Renascer",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68908-782",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Pmm Centro de Especialidades Dr Papaleo Paes",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.070481,
+          0.0782356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39624,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "39624",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM CEO CENTRO DE ESPECIALIDADES ODONTOLOGICAS DE MACAPA",
+        "addr:street": "Rua Adilson Jose Pinto Pereira",
+        "addr:housenumber": "3104",
+        "addr:suburb": "Renascer",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68908-782",
+        "phone": "+55 96 9971-3850",
+        "email": "centroodontologicopmm153@gmail.com",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Centro de Especialidades Odontológicas (CEO)",
+        "short_name": "CEO",
+        "comment": "Odontologia (CEO)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0556018,
+          0.0732565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9437525,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "9437525",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM CER CENTRO ESPECIALIZADO EM REABILITACAO DE MACAPA",
+        "addr:street": "Rua das Pupunhas",
+        "addr:housenumber": "650",
+        "addr:suburb": "Infreaero II",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68908-897",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Centro Especializado em Reabilitação (CER)",
+        "short_name": "CER",
+        "comment": "Reabilitação (CER)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0741172,
+          0.0787899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2980711,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "2980711",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM CEREST CENTRO DE REFERENCIA EM SAUDE DO TRABALHADOR",
+        "addr:street": "Rua Adilson Jose Pinto Pereira",
+        "addr:housenumber": "3104",
+        "addr:suburb": "Renascer",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68908-782",
+        "amenity": "clinic",
+        "healthcare": "occupational_health",
+        "name": "CEREST Macro Centro Sul",
+        "short_name": "CEREST",
+        "comment": "Saúde do Trabalhador (CEREST)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.070481,
+          0.0782042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2020459,
+      "properties": {
+        "operator": "Governo do Estado (AP)",
+        "operator:type": "public",
+        "ref:CNES": "2020459",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SES AP CENTRO DE ESPECIALIDADE ODONTOLOGICA CEO 1",
+        "addr:street": "Rua Av Duque de Caxias",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68900-071",
+        "phone": "+55 96 98409-4334",
+        "email": "ceo.sesa2020459@gmail.com",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Centro de Especialidades Odontológicas (CEO)",
+        "short_name": "CEO",
+        "comment": "Odontologia (CEO)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0588098,
+          0.0391817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6709001,
+      "properties": {
+        "operator": "Governo do Estado (AP)",
+        "operator:type": "public",
+        "ref:CNES": "6709001",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SES AP CENTRO DE ESPECIALIDADE ODONTOLOGICA CEO 2",
+        "addr:street": "Rua Av Procopio Rola",
+        "addr:housenumber": "1332",
+        "addr:suburb": "Central",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68900-081",
+        "phone": "+55 96 98432-0888",
+        "email": "ceo2direcao@gmail.com",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Centro de Especialidades Odontológicas (CEO)",
+        "short_name": "CEO",
+        "comment": "Odontologia (CEO)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0649708,
+          0.0421455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2019655,
+      "properties": {
+        "operator": "Governo do Estado (AP)",
+        "operator:type": "public",
+        "ref:CNES": "2019655",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SES AP CENTRO DE REABILITACAO DO AMAPA",
+        "addr:street": "Rua Tiradentes",
+        "addr:housenumber": "973",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68900-098",
+        "phone": "+55 46 96212-6146",
+        "email": "creap@saude.ap.gov.br",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Centro Especializado em Reabilitação (CER)",
+        "short_name": "CER",
+        "comment": "Reabilitação (CER)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.1765319,
+          0.8615789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3379582,
+      "properties": {
+        "operator": "Governo do Estado (AP)",
+        "operator:type": "public",
+        "ref:CNES": "3379582",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SES AP CENTRO DE REABILITACAO POSCOVID",
+        "addr:street": "Rua Odilardo Silva",
+        "addr:housenumber": "1303",
+        "addr:suburb": "Central",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68900-151",
+        "email": "poscovid@saude.ap.gov.br",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Centro Especializado em Reabilitação (CER)",
+        "short_name": "CER",
+        "comment": "Reabilitação (CER)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0593794,
+          0.0230731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2022192,
+      "properties": {
+        "operator": "Governo do Estado (AP)",
+        "operator:type": "public",
+        "ref:CNES": "2022192",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SES AP CENTRO DE REFERENCIA DE DOENCAS TROPICAIS",
+        "addr:street": "Rua Professor Tostes",
+        "addr:housenumber": "2200",
+        "addr:suburb": "Santa Rita",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68900-010",
+        "phone": "+55 96 3212-6173",
+        "email": "doencastropicais2016@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Ses Ap Centro de Referencia de Doencas Tropicais",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0685945,
+          0.0319719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3297284,
+      "properties": {
+        "operator": "Governo do Estado (AP)",
+        "operator:type": "public",
+        "ref:CNES": "3297284",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SES AP CENTRO DE REFERENCIA EM SAUDE DO TRABALHADOR",
+        "addr:street": "Rua Av Ernestino Borges",
+        "addr:housenumber": "380",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68900-010",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Ses Ap Centro de Referencia em Saude do Trabalhador",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.053896,
+          0.0431514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3425002,
+      "properties": {
+        "operator": "Governo do Estado (AP)",
+        "operator:type": "public",
+        "ref:CNES": "3425002",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SES AP CERPIS CENTRO DE REFERENCIA EM PRATICAS INTEGRATIVAS",
+        "addr:street": "Rua Av Fab",
+        "addr:housenumber": "849",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68900-073",
+        "phone": "+55 96 99112-5459",
+        "email": "cerpisap@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Ses Ap Cerpis Centro de Referencia em Praticas Integrativas",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0678864,
+          0.0412309
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2021072,
+      "properties": {
+        "operator": "Governo do Estado (AP)",
+        "operator:type": "public",
+        "ref:CNES": "2021072",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CORPO DE BOMBEIRO MILITAR DO AMAPA",
+        "addr:street": "Rua Hamilton Silva",
+        "addr:housenumber": "1647",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68900-068",
+        "phone": "+55 96 2101-2150",
+        "email": "din_diop@cbm.ap.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Corpo de Bombeiro Militar do Amapa",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0640025,
+          0.0345683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9185089,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "9185089",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM CMSM CARRETA MOVEL SAUDE DA MULHER",
+        "addr:street": "Avenida General Osorio",
+        "addr:housenumber": "365",
+        "addr:suburb": "Laguinho",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68906-030",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Pmm Cmsm Carreta Movel Saude da Mulher",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0573706,
+          0.0480653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2969629,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "2969629",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM UOM ODONTO MOVEL I",
+        "addr:street": "Rua Adilson Jose Pinto Pereira",
+        "addr:suburb": "São Lazaro",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68908-571",
+        "phone": "+55 96 98124-2851",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Pmm Uom Odonto Movel I",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0570543,
+          0.0635925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2969637,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "2969637",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM UOM ODONTO MOVEL II",
+        "addr:street": "Rua Adilson Jose Pinto Pereira",
+        "addr:suburb": "São Lazaro",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68908-571",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Pmm Uom Odonto Movel II",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0570271,
+          0.0636082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6943306,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "6943306",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM U S B 212 SAMU 192",
+        "addr:street": "Rua Av João de Castro Sucuarana",
+        "addr:suburb": "Jardim Equatorial",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68902-280",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0575652,
+          0.0390744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6943314,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "6943314",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM U S B 213 SAMU 192",
+        "addr:street": "Rua Av João de Castro Sucuarana",
+        "addr:suburb": "Jardim Equatorial",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68902-280",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.066041,
+          0.0391817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6943330,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "6943330",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM U S B 214 SAMU 192",
+        "addr:street": "Rua Av Alexandre Ferreira da Silva",
+        "addr:suburb": "Jardim Felicidade I",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68902-280",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0664031,
+          0.0917127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6943349,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "6943349",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM U S B 215 SAMU 192",
+        "addr:street": "Rua Av Alexandre Ferreira da Silva",
+        "addr:suburb": "Jardim Felicidade I",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68902-280",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0663759,
+          0.0917284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6942040,
+      "properties": {
+        "operator": "Governo do Estado (AP)",
+        "operator:type": "public",
+        "ref:CNES": "6942040",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SES AP USA 201 SAMU 192",
+        "addr:street": "Rua Av Ceara",
+        "addr:housenumber": "984",
+        "addr:suburb": "Pacoval",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68902-030",
+        "email": "samu192amapa@hotmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0599564,
+          0.0548644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6942067,
+      "properties": {
+        "operator": "Governo do Estado (AP)",
+        "operator:type": "public",
+        "ref:CNES": "6942067",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SES AP USA 202 SAMU 192",
+        "addr:street": "Avenida Ceara",
+        "addr:housenumber": "984",
+        "addr:suburb": "Pacoval",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68908-260",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0608053,
+          0.0172305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7025645,
+      "properties": {
+        "operator": "Governo do Estado (AP)",
+        "operator:type": "public",
+        "ref:CNES": "7025645",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SES AP USA AMBULANCHA 203 SAMU 192",
+        "addr:street": "Rua da Fazendinha",
+        "addr:housenumber": "0001",
+        "addr:suburb": "Fazendinha",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68900-010",
+        "email": "samu192amapa@hotmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.1102348,
+          -0.0559375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7738552,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "7738552",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM SEMSA CAF COORDENACAO DE ASSISTENCIA FARMACEUTICA",
+        "addr:street": "Rua Matadouro",
+        "addr:housenumber": "640",
+        "addr:suburb": "Fazendinha",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68911-080",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "dispensing": "yes",
+        "name": "Pmm Semsa CAF Coordenacao de Assistencia Farmaceutica",
+        "comment": "Farmácia Pública"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0659981,
+          0.0388813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6911927,
+      "properties": {
+        "operator": "Governo do Estado (AP)",
+        "operator:type": "public",
+        "ref:CNES": "6911927",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SES AP COORDENADORIA DE ASSISTENCIA FARMACEUTICA",
+        "addr:street": "Rodovia Tancredo Neves",
+        "addr:suburb": "São Lazaro",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68908-530",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "dispensing": "yes",
+        "name": "Ses Ap Coordenadoria de Assistencia Farmaceutica",
+        "comment": "Farmácia Pública"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0556769,
+          0.069952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2980789,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "2980789",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM SMVS SECRETARIA MUNICIPAL DE VIGILANCIA EM SAUDE",
+        "addr:street": "Rua Av Henrique Galucio",
+        "addr:housenumber": "1991",
+        "addr:suburb": "Central",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68900-115",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0604661,
+          0.031302
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3043088,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "3043088",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM SMVS UVZ UNIDADE DE VIGILANCIA DE ZOONOSES",
+        "addr:street": "Rua Eliezer Levy",
+        "addr:housenumber": "513",
+        "addr:suburb": "Juliao Ramos",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68908-183",
+        "phone": "+55 46 96213-1137",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0567498,
+          0.030942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6561691,
+      "properties": {
+        "operator": "Governo do Estado (AP)",
+        "operator:type": "public",
+        "ref:CNES": "6561691",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SVS",
+        "addr:street": "Rua Treze de Setembro",
+        "addr:housenumber": "1899",
+        "addr:suburb": "Buritizal",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68902-865",
+        "phone": "+55 96 3198-9252",
+        "email": "gabinete@svs.ap.gov.br",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0591451,
+          0.0220663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6671047,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "6671047",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM SEMSA SECRETARIA MUNICIPAL DE SAUDE DE MACAPA",
+        "addr:street": "Rua Av Henrique Galucio",
+        "addr:housenumber": "1249",
+        "addr:suburb": "Central",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68900-115",
+        "phone": "+55 96 98112-0336",
+        "email": "ericaaymore@gmail.com",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.052226,
+          0.0307062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7150296,
+      "properties": {
+        "operator": "Governo do Estado (AP)",
+        "operator:type": "public",
+        "ref:CNES": "7150296",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SES AP SECRETARIA DE ESTADO DA SAUDE DO AMAPA",
+        "addr:street": "Rua Av Anhanguera",
+        "addr:housenumber": "265",
+        "addr:suburb": "Beirol",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68902-860",
+        "phone": "+55 46 3312-1500",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0612043,
+          0.0206712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2020904,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "2020904",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SES AP HEMOAP",
+        "addr:street": "Rua Raimundo Alvares da Costa",
+        "addr:housenumber": "1093",
+        "addr:suburb": "Central",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68900-074",
+        "phone": "+55 96 98811-0200",
+        "email": "hemogab@hemoap.ap.gov.br",
+        "amenity": "blood_donation",
+        "healthcare": "blood_donation",
+        "name": "Hemonúcleo de Pato Branco (HEMEPAR)",
+        "short_name": "Hemepar Pato Branco",
+        "comment": "Doação de Sangue (HEMEPAR)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0596681,
+          0.0425506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8078416,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "8078416",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM CAPS II CENTRO DE ATENCAO PSICOSSOCIAL ESPERANCA",
+        "addr:street": "Rua Av Carlos Lins Cortes",
+        "addr:suburb": "Infraero II",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68906-970",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0891216,
+          0.0670933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5880165,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "5880165",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM CAPSI CENTRO DE ATENCAO PSICOSSOCIAL ACOLHER",
+        "addr:street": "Rua Socrates",
+        "addr:suburb": "Renascer",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68907-630",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial Infanto-Juvenil (CAPSi)",
+        "short_name": "CAPSi",
+        "comment": "CAPSi (Infanto-Juvenil)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0542273,
+          0.0705996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5169984,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "5169984",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM CAPSI CENTRO DE ATENCAO PSICOSSOCIAL CONVIVER",
+        "addr:street": "Rua Redencao",
+        "addr:suburb": "Pedrinhas",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68900-020",
+        "phone": "+55 96 3213-1061",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial Infanto-Juvenil (CAPSi)",
+        "short_name": "CAPSi",
+        "comment": "CAPSi (Infanto-Juvenil)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0732186,
+          -0.0049272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 902721,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "902721",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM UAIR UNIDADE DE ACOLHIMENTO INFANTO JUVENIL RECOMECO",
+        "addr:street": "Rua Redencao Cjt Redencao",
+        "addr:housenumber": "20",
+        "addr:suburb": "Pedrinhas",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68903-204",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial Infanto-Juvenil (CAPSi)",
+        "short_name": "CAPSi",
+        "comment": "CAPSi (Infanto-Juvenil)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0659981,
+          0.039053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7790287,
+      "properties": {
+        "operator": "Governo do Estado (AP)",
+        "operator:type": "public",
+        "ref:CNES": "7790287",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SES AP CENTRO DE ATENCAO PSICOSSOCIAL CASA GENTILEZA",
+        "addr:street": "Rua Av Marcilio Dias",
+        "addr:housenumber": "1395",
+        "addr:suburb": "Juliao Ramos",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68908-160",
+        "phone": "+55 96 99131-8007",
+        "email": "capscasagentileza@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0562013,
+          0.050573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3041859,
+      "properties": {
+        "operator": "Governo do Estado (AP)",
+        "operator:type": "public",
+        "ref:CNES": "3041859",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SES AP CENTRO DE ATENCAO PSICOSSOCIAL ESPACO ACOLHER",
+        "addr:street": "Rua Av Cora de Cavalho",
+        "addr:housenumber": "1731",
+        "addr:suburb": "Santa Rita",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68903-003",
+        "phone": "+55 96 98116-5218",
+        "email": "capsad.espacoacolher@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0644639,
+          0.0359738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2021404,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "2021404",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CASAI CASA DE APOIO SAUDE INDIGENA MACAPA",
+        "addr:street": "Rua Tv Joaquim Goveia",
+        "addr:housenumber": "106",
+        "addr:suburb": "Alvorada",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68906-620",
+        "phone": "+55 96 3214-2019",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Casai Casa de Apoio Saude Indigena Macapa",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0571146,
+          0.0389671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3577902,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "3577902",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DSEI DISTRITO SANITARIO ESP INDIGENA AMAPA NORTE PARA",
+        "addr:street": "Rua Av Pedro Baiao",
+        "addr:housenumber": "1071",
+        "addr:suburb": "Central",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68900-116",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Dsei Distrito Sanitario Esp Indigena Amapa Norte para",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0721135,
+          0.0306201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4095170,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "4095170",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM IMPE INSTITUTO MACAPAENSE DE PEDIATRIA",
+        "addr:street": "Rua Santo Expedito",
+        "addr:suburb": "Bone Azul",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68909-539",
+        "phone": "+55 96 9812-8805",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Pmm Impe Instituto Macapaense de Pediatria",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.131621,
+          0.0225547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4142098,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "4142098",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM U P A BURITIZAL",
+        "addr:street": "Rua Jose Valente dos Santos",
+        "addr:housenumber": "126",
+        "addr:suburb": "Novo Buritizal",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68904-250",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Pmm U P A Buritizal",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0795714,
+          0.0229459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7709196,
+      "properties": {
+        "operator": "Governo do Estado (AP)",
+        "operator:type": "public",
+        "ref:CNES": "7709196",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SES AP UPA ZONA NORTE",
+        "addr:street": "Avenida Francisco Alves Correa",
+        "addr:suburb": "Novo Horizonte",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68909-806",
+        "email": "upaflorenciasouzazn@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "emergency": "yes",
+        "opening_hours": "24/7",
+        "name": "UPA 24 Horas Maria Itália Freddo",
+        "short_name": "UPA 24h",
+        "comment": "UPA 24h"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0666,
+          0.0344566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9550291,
+      "properties": {
+        "operator": "Governo do Estado (AP)",
+        "operator:type": "public",
+        "ref:CNES": "9550291",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SES AP UPA ZONA SUL",
+        "addr:street": "Rua Av Ivaldo Alves Veras",
+        "addr:suburb": "Jardim Marco Zero",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68903-183",
+        "email": "auditoria.hospitalar@mediallbrasil.med.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "emergency": "yes",
+        "opening_hours": "24/7",
+        "name": "UPA 24 Horas Maria Itália Freddo",
+        "short_name": "UPA 24h",
+        "comment": "UPA 24h"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.00815,
+          0.00356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6931693,
+      "properties": {
+        "operator": "Governo do Estado (AP)",
+        "operator:type": "public",
+        "ref:CNES": "6931693",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SES AP CENTRAL DE REGULACAO MEDICA DAS URGENCIAS SAMU 192",
+        "addr:street": "Avenida Ceara",
+        "addr:housenumber": "984",
+        "addr:suburb": "Pacoval",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68908-260",
+        "phone": "+55 46 3217-2886",
+        "email": "samu192amapa@hotmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Central de Regulação Médica das Urgências (SAMU 192)",
+        "short_name": "Regulação SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0607781,
+          0.0172462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2019639,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "2019639",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SES AP LABORATORIO CENTRAL DE SAUDE PUBLICA LACEN",
+        "addr:street": "Rodovia Tancredo Neves",
+        "addr:housenumber": "1118",
+        "addr:suburb": "São Lazaro",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68908-530",
+        "phone": "+55 46 96212-6175",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Ses Ap Laboratorio Central de Saude Publica LACEN",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.056723,
+          0.0784546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4038037,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "4038037",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM CREGM CENTRAL DE REGULACAO MUNICIPAL DE MACAPA",
+        "addr:street": "Rua Adilson Jose Pinto Pereira",
+        "addr:housenumber": "3104",
+        "addr:suburb": "Renascer",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68908-782",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Sistema Municipal de Auditoria e Regulação em Saúde",
+        "comment": "Auditoria e Regulação"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0572546,
+          0.0646862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7150318,
+      "properties": {
+        "operator": "Governo do Estado (AP)",
+        "operator:type": "public",
+        "ref:CNES": "7150318",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SES AP CENTRAL DE REGULACAO ADEMAR RODRIGUES DOS ANJOS",
+        "addr:street": "Rua Av Ceara",
+        "addr:housenumber": "984",
+        "addr:suburb": "Pacoval",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68908-260",
+        "phone": "+55 96 98121-7120",
+        "email": "dacr.sistema@saude.ap.gov.br",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Sistema Municipal de Auditoria e Regulação em Saúde",
+        "comment": "Auditoria e Regulação"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0581446,
+          0.0401258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3004368,
+      "properties": {
+        "operator": "Governo do Estado (AP)",
+        "operator:type": "public",
+        "ref:CNES": "3004368",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SES AP CENTRAL DE REGULACAO AMBULATORIAL TFD",
+        "addr:street": "Rua Av Ceara",
+        "addr:housenumber": "984",
+        "addr:suburb": "Pacoval",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68908-260",
+        "phone": "+55 46 96212-6189",
+        "email": "ptfdamapa@hotmail.com",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Sistema Municipal de Auditoria e Regulação em Saúde",
+        "comment": "Auditoria e Regulação"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.050055,
+          0.0376368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7932103,
+      "properties": {
+        "operator": "Governo do Estado (AP)",
+        "operator:type": "public",
+        "ref:CNES": "7932103",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SES AP CENTRAL DE NOTIFICACAO CAPTACAO E DISTRIB DE ORGAOS",
+        "addr:street": "Rua Odilardo Silva",
+        "addr:housenumber": "1303",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68900-073",
+        "phone": "+55 96 3212-6281",
+        "email": "cncdo@saude.ap.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Ses Ap Central de Notificacao Captacao e Distrib de Orgaos",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0576725,
+          0.0403404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 962538,
+      "properties": {
+        "operator": "Prefeitura Municipal de Macapá",
+        "operator:type": "public",
+        "ref:CNES": "962538",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PMM SMVS CIMM CENTRAL DE IMUNIZACAO MUNICIPAL DE MACAPA",
+        "addr:street": "Rua Av Fab",
+        "addr:housenumber": "349",
+        "addr:suburb": "Santa Rita",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68901-259",
+        "phone": "+55 96 98807-3652",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Pmm Smvs Cimm Central de Imunizacao Municipal de Macapa",
+        "comment": "Suprimentos / Logística"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0742178,
+          0.0418383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 297992,
+      "properties": {
+        "operator": "Governo do Estado (AP)",
+        "operator:type": "public",
+        "ref:CNES": "297992",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SES AP CENTRAL ESTADUAL DE REDE DE FRIOS CERF",
+        "addr:street": "Rua Socrates",
+        "addr:housenumber": "688",
+        "addr:suburb": "Renascer",
+        "addr:city": "Macapá",
+        "addr:state": "AP",
+        "addr:country": "BR",
+        "addr:postcode": "68907-630",
+        "email": "andreamarvao@hotmail.com",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Ses Ap Central Estadual de Rede de Frios Cerf",
+        "comment": "Suprimentos / Logística"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0541971,
+          0.0706604
+        ]
+      }
+    }
+  ]
+}

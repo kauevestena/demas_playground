@@ -1,0 +1,4774 @@
+{
+  "type": "FeatureCollection",
+  "name": "Estabelecimentos Públicos de Saúde - DEMAS / CNES",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 892092,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "892092",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE CONVIVENCIA E CULTURA ARTE DE SER",
+        "addr:street": "Travessa Cabanelas",
+        "addr:suburb": "06 de Agosto",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-970",
+        "phone": "+55 68 99229-5889",
+        "email": "cecco.artedeser@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Convivencia e Cultura Arte de Ser",
+        "short_name": "UBS Centro de Convivencia e Cultura Arte de Ser",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.804141,
+          -9.9844892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4747135,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "4747135",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE PRATICAS INTEGRATIVAS E COMPLEMENTARES PICS",
+        "addr:street": "Rua Ipase",
+        "addr:housenumber": "77",
+        "addr:suburb": "Ipase",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-342",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Praticas Integrativas e Complementares Pics",
+        "short_name": "UBS Centro de Praticas Integrativas e Complementares Pics",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.8096354,
+          -9.9703289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2000466,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "2000466",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "COMPLEXO PENITENCIARIO DE RIO BRANCO",
+        "addr:street": "Estrada do Barro Vermelho",
+        "addr:housenumber": "3",
+        "addr:suburb": "Distrito Industrial",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-970",
+        "phone": "+55 68 3229-1156",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Complexo Penitenciario de Rio Branco",
+        "short_name": "UBS Complexo Penitenciario de Rio Branco",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.8095913,
+          -9.9742608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3642445,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "3642445",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "ESCOLA MUNICIPAL ISMAEL GOMES DE CARVALHO",
+        "addr:street": "Rua Francisco Marinheiro",
+        "addr:housenumber": "46",
+        "addr:suburb": "Tancredo Neves",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69914-381",
+        "phone": "+55 68 3228-4005",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Escola Municipal Ismael Gomes de Carvalho",
+        "short_name": "UBS Escola Municipal Ismael Gomes de Carvalho",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.83214,
+          -9.93326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2002817,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "2002817",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "ESCOLA PADRE ANTONIO DIOGO FEIJO",
+        "addr:street": "Rua Dr Ary Rodrigues",
+        "addr:housenumber": "699",
+        "addr:suburb": "Abrahao Alab",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69918-046",
+        "phone": "+55 68 3227-8893",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Escola Padre Antonio Diogo Feijo",
+        "short_name": "UBS Escola Padre Antonio Diogo Feijo",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.82755,
+          -9.97255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5036275,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "5036275",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "MODULO DE SAUDE ACRE CSE",
+        "addr:street": "Rua Manite",
+        "addr:suburb": "Apolonio Sales",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69903-370",
+        "phone": "+55 68 3228-7799",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Modulo de Saude Acre Cse",
+        "short_name": "UBS Modulo de Saude Acre Cse",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.81642,
+          -9.92392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9899243,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "9899243",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "O MUNDO AZUL",
+        "addr:street": "Rua Ipase",
+        "addr:housenumber": "77",
+        "addr:suburb": "Ipase",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-342",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde O Mundo Azul",
+        "short_name": "UBS O Mundo Azul",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.8103,
+          -9.97044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5807441,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "5807441",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE PRISIONAL DE RIO BRANCO",
+        "addr:street": "Estrada do Barro Vermelho",
+        "addr:housenumber": "3",
+        "addr:suburb": "Distrito Industrial",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-970",
+        "phone": "+55 68 3229-1156",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Prisional",
+        "short_name": "UBS Prisional",
+        "access": "private",
+        "comment": "UBS Prisional"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.89313,
+          -9.9812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2000741,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "2000741",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "URAP ARY RODRIGUES",
+        "addr:street": "Rua 06 de Agosto",
+        "addr:housenumber": "1095",
+        "addr:suburb": "Seis de Agosto",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-460",
+        "phone": "+55 68 3224-9529",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Urap Ary Rodrigues",
+        "short_name": "UBS Urap Ary Rodrigues",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.8047,
+          -9.97854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2000830,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "2000830",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "URAP AUGUSTO HIDALGO DE LIMA",
+        "addr:street": "Rua Tiao Natureza",
+        "addr:housenumber": "271",
+        "addr:suburb": "Bahia",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69911-204",
+        "phone": "+55 68 3225-6495",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Urap Augusto Hidalgo de Lima",
+        "short_name": "UBS Urap Augusto Hidalgo de Lima",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.82667,
+          -9.9835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2001306,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "2001306",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "URAP DRA CLAUDIA VITORINO",
+        "addr:street": "Rua Baguari",
+        "addr:housenumber": "40",
+        "addr:suburb": "Taquari",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69906-390",
+        "phone": "+55 68 3221-4717",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Urap Dra Claudia Vitorino",
+        "short_name": "UBS Urap Dra Claudia Vitorino",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.80783,
+          -9.999627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2000512,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "2000512",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "URAP EDUARDO ASSMAR",
+        "addr:street": "Rua Salim M Faraht",
+        "addr:suburb": "Quinze",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-970",
+        "phone": "+55 68 3221-0925",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Urap Eduardo Assmar",
+        "short_name": "UBS Urap Eduardo Assmar",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.81157,
+          -9.98568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2000520,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "2000520",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "URAP FRANCISCO BACURAU VIEIRA NUNES",
+        "addr:street": "Rua America Mateus",
+        "addr:suburb": "Vila Albert Sampaio",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69908-232",
+        "phone": "+55 68 3248-6259",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Urap Francisco Bacurau Vieira Nunes",
+        "short_name": "UBS Urap Francisco Bacurau Vieira Nunes",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.69834,
+          -10.01744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2000490,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "2000490",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "URAP FRANCISCO RONEY RODRIGUES MEIRELES",
+        "addr:street": "Rua Mara",
+        "addr:housenumber": "132",
+        "addr:suburb": "Adalberto Sena",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69921-150",
+        "phone": "+55 68 3228-2329",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Urap Francisco Roney Rodrigues Meireles",
+        "short_name": "UBS Urap Francisco Roney Rodrigues Meireles",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.82568,
+          -9.93349
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2003198,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "2003198",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "URAP MARIA BARROSO DA SILVA",
+        "addr:street": "Estrada da Sobral",
+        "addr:housenumber": "1547",
+        "addr:suburb": "Sobral",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69911-114",
+        "phone": "+55 68 3225-3318",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Urap Maria Barroso da Silva",
+        "short_name": "UBS Urap Maria Barroso da Silva",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.82456,
+          -9.99636
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6119697,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "6119697",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "URAP ROZANGELA PIMENTEL FIGUEIRA",
+        "addr:street": "Estrada do Calafate",
+        "addr:suburb": "Calafate",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69914-310",
+        "phone": "+55 68 3225-6585",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Urap Rozangela Pimentel Figueira",
+        "short_name": "UBS Urap Rozangela Pimentel Figueira",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.88493,
+          -9.97698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2000415,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "2000415",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "URAP SAO FRANCISCO",
+        "addr:street": "Rua do Divisor",
+        "addr:housenumber": "487",
+        "addr:suburb": "Vitoria",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69901-887",
+        "phone": "+55 68 3223-9480",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Urap São Francisco",
+        "short_name": "UBS Urap São Francisco",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.7963,
+          -9.94646
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7799632,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "7799632",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "URAP VALDEISA VALDEZ",
+        "addr:street": "Rua Antonio Ribeiro",
+        "addr:housenumber": "571",
+        "addr:suburb": "Belo Jardim",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-460",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Urap Valdeisa Valdez",
+        "short_name": "UBS Urap Valdeisa Valdez",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.78127,
+          -10.01788
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2000482,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "2000482",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "URAP VILA IVONETE",
+        "addr:street": "Avenida Antonio da Rocha Viana",
+        "addr:suburb": "Vila Ivonete",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-970",
+        "phone": "+55 68 3228-0554",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Urap Vila Ivonete",
+        "short_name": "UBS Urap Vila Ivonete",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.825142,
+          -9.94724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9908382,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "9908382",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF AEROPORTO VELHO",
+        "addr:street": "Rua Beco da Lucinda",
+        "addr:suburb": "Aeroporto Velho",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69911-102",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Aeroporto Velho",
+        "short_name": "UBS Usf Aeroporto Velho",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.8218356,
+          -9.9887183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7060394,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "7060394",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF AGRIPINA LINDOSO",
+        "addr:street": "Rua Ramal da Picarreira Km 08",
+        "addr:suburb": "Zona Rural",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-460",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Agripina Lindoso",
+        "short_name": "UBS Usf Agripina Lindoso",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.81963,
+          -10.08957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3331911,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "3331911",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF ANA ROSA ZONA RURAL",
+        "addr:street": "Rua Ramal do Gurgel",
+        "addr:suburb": "Amapa",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69906-640",
+        "phone": "+55 68 3221-4532",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Ana Rosa Zona Rural",
+        "short_name": "UBS Usf Ana Rosa Zona Rural",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.83399,
+          -10.04078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2003228,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "2003228",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF ANTENOR RAMOS I",
+        "addr:street": "Rua Av Amadeo Barbosa Trav Antonieta",
+        "addr:housenumber": "001",
+        "addr:suburb": "06 de Agosto",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-970",
+        "phone": "+55 68 9997-6375",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Antenor Ramos I",
+        "short_name": "UBS Usf Antenor Ramos I",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.79594,
+          -9.98038
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2003279,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "2003279",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF ANTONIA LIRA FONTINELE DA SILVA BELO JARDIM III",
+        "addr:street": "Rua Br 364 Ramal Belo Jardim",
+        "addr:suburb": "Zona Rural",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-970",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Antonia Lira Fontinele da Silva Belo Jardim III",
+        "short_name": "UBS Usf Antonia Lira Fontinele da Silva Belo Jardim III",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.7318,
+          -9.96796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 755605,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "755605",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF BARRO VERMELHO",
+        "addr:street": "Estrada do Barro Vermelho",
+        "addr:suburb": "Vila Jorge Kalume",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69917-766",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Barro Vermelho",
+        "short_name": "UBS Usf Barro Vermelho",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.9170111,
+          -9.9392225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2001845,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "2001845",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF BELO JARDIM I",
+        "addr:street": "Rua Princesinha",
+        "addr:housenumber": "391",
+        "addr:suburb": "Belo Jardim I",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-970",
+        "phone": "+55 68 3221-4037",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Belo Jardim I",
+        "short_name": "UBS Usf Belo Jardim I",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.7815,
+          -10.01088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2001829,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "2001829",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF BENFICA",
+        "addr:street": "Rodovia Ac 40 Km 09",
+        "addr:suburb": "Benfica",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-970",
+        "phone": "+55 68 3221-6693",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Benfica",
+        "short_name": "UBS Usf Benfica",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.77742,
+          -10.054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8203423,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "8203423",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF DALVA FERREIRA DE SALES",
+        "addr:street": "Estrada do Calafate",
+        "addr:suburb": "Conj Habitacional V",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69915-271",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Dalva Ferreira de Sales",
+        "short_name": "UBS Usf Dalva Ferreira de Sales",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.83791,
+          -9.97871
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2001713,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "2001713",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF DEUSIMAR PINHEIRO DA SILVA",
+        "addr:street": "Estrada das Placas",
+        "addr:housenumber": "912",
+        "addr:suburb": "Placas",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69902-770",
+        "phone": "+55 68 3228-9336",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Deusimar Pinheiro da Silva",
+        "short_name": "UBS Usf Deusimar Pinheiro da Silva",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.81718,
+          -9.94463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2000806,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "2000806",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF DOUTOR MARIO MAIA",
+        "addr:street": "Rua Novo Andira",
+        "addr:housenumber": "381",
+        "addr:suburb": "Cidade Nova",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69905-412",
+        "phone": "+55 68 3227-7915",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Doutor Mario Maia",
+        "short_name": "UBS Usf Doutor Mario Maia",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.81672,
+          -9.98172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3331776,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "3331776",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF DR RAIMUNDO MOREIRA",
+        "addr:street": "Rua Jaco",
+        "addr:housenumber": "176",
+        "addr:suburb": "Floresta Sul",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69901-230",
+        "phone": "68",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Dr Raimundo Moreira",
+        "short_name": "UBS Usf Dr Raimundo Moreira",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.83674,
+          -9.98258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7120680,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "7120680",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF ELPIDIO MOREIRA SOUZA",
+        "addr:street": "Rua da Praca",
+        "addr:suburb": "Defesa Civil",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69921-869",
+        "phone": "+55 68 3228-0173",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Elpidio Moreira Souza",
+        "short_name": "UBS Usf Elpidio Moreira Souza",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.83368,
+          -9.93823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3015513,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "3015513",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF FRANCISCA BARBOSA GUERRA",
+        "addr:street": "Rua Trav Comara",
+        "addr:housenumber": "008",
+        "addr:suburb": "Comara",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-970",
+        "phone": "+55 68 3221-8939",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Francisca Barbosa Guerra",
+        "short_name": "UBS Usf Francisca Barbosa Guerra",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.80601,
+          -9.99758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3331881,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "3331881",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF FRANCISCO CAETANO DA SILVA",
+        "addr:street": "Rua Mauri Sérgio",
+        "addr:housenumber": "198",
+        "addr:suburb": "Adalberto Aragao",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69901-162",
+        "phone": "+55 68 3223-1310",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Francisco Caetano da Silva",
+        "short_name": "UBS Usf Francisco Caetano da Silva",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.78976,
+          -9.96128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9463208,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "9463208",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF FRANCISCO CARNEIRO TIO CHICO",
+        "addr:street": "Estrada do Quixada Rua Flamengo",
+        "addr:suburb": "Eldourado",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69902-405",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Francisco Carneiro Tio Chico",
+        "short_name": "UBS Usf Francisco Carneiro Tio Chico",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.79419,
+          -9.93777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2306379,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "2306379",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF FRANCISCO CONSTANCIO DA SILVA",
+        "addr:street": "Estrada da Sobral Rua da Sanacre",
+        "addr:housenumber": "2595",
+        "addr:suburb": "Boa Vista Sobral",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-460",
+        "phone": "+55 68 3225-5480",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Francisco Constancio da Silva",
+        "short_name": "UBS Usf Francisco Constancio da Silva",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.83382,
+          -10.00422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2000814,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "2000814",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF FRANCISCO EDUARDO DE PAIVA",
+        "addr:street": "Rua Amoty Pascoal",
+        "addr:housenumber": "722",
+        "addr:suburb": "Rui Lino 3",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69919-862",
+        "phone": "+55 68 3229-6463",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Francisco Eduardo de Paiva",
+        "short_name": "UBS Usf Francisco Eduardo de Paiva",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.85921,
+          -9.94619
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7120710,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "7120710",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF GENILSON PINTO DE SOUZA",
+        "addr:street": "Rua Trav Maria de Lourdes",
+        "addr:housenumber": "154",
+        "addr:suburb": "Triangulo Novo",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-460",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Genilson Pinto de Souza",
+        "short_name": "UBS Usf Genilson Pinto de Souza",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.80972,
+          -9.992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7110065,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "7110065",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF GENTIL PERDOMO DA ROCHA",
+        "addr:street": "Rua Euclides da Cunha",
+        "addr:housenumber": "139",
+        "addr:suburb": "Conjunto Esperança",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69915-168",
+        "phone": "+55 68 3227-8982",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Gentil Perdomo da Rocha",
+        "short_name": "UBS Usf Gentil Perdomo da Rocha",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.83494,
+          -9.97214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4662296,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "4662296",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF IVACIRENE LOURENCO DO CARMO",
+        "addr:street": "Rua Rio Negro",
+        "addr:housenumber": "40",
+        "addr:suburb": "Portal da Amazonia",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69915-838",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Ivacirene Lourenço do Carmo",
+        "short_name": "UBS Usf Ivacirene Lourenço do Carmo",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.8337237,
+          -9.9455683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3054926,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "3054926",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF JOSE ADRIANO",
+        "addr:street": "Travessa Francisca Coelho",
+        "addr:housenumber": "22",
+        "addr:suburb": "Triangulo Velho",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-970",
+        "phone": "+55 68 3221-3148",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Jose Adriano",
+        "short_name": "UBS Usf Jose Adriano",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.80924,
+          -9.98888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2003015,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "2003015",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF JOSE GOMES DE OLIVEIRA",
+        "addr:street": "Rua Jose do Vale",
+        "addr:housenumber": "24",
+        "addr:suburb": "Sobral",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-970",
+        "phone": "+55 68 3242-0607",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Jose Gomes de Oliveira",
+        "short_name": "UBS Usf Jose Gomes de Oliveira",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.84036,
+          -10.00235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 117382,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "117382",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF LIDIA RODRIGUES",
+        "addr:street": "Estrada Transacreana Km 14",
+        "addr:suburb": "Vila Manoel Marques",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69923-899",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Lidia Rodrigues",
+        "short_name": "UBS Usf Lidia Rodrigues",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.804419,
+          -9.986369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7565534,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "7565534",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF LUANA FREITAS",
+        "addr:street": "Rua Dourado",
+        "addr:housenumber": "300",
+        "addr:suburb": "Conquista",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69918-844",
+        "phone": "+55 68 3228-4479",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Luana Freitas",
+        "short_name": "UBS Usf Luana Freitas",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.809698,
+          -9.980621
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2003058,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "2003058",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF LUIZ GONZAGA I",
+        "addr:street": "Rua Altamira",
+        "addr:housenumber": "567",
+        "addr:suburb": "Altamira",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-970",
+        "phone": "+55 68 3228-7917",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Luiz Gonzaga I",
+        "short_name": "UBS Usf Luiz Gonzaga I",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.809441,
+          -9.980748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7818092,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "7818092",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF MANOEL BEZERRA",
+        "addr:street": "Rua Padre João Martins",
+        "addr:housenumber": "132",
+        "addr:suburb": "Cidade do Povo",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69909-280",
+        "phone": "+55 68 3213-2500",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Manoel Bezerra",
+        "short_name": "UBS Usf Manoel Bezerra",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.75941,
+          -10.02379
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2003171,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "2003171",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF MARIA AUREA VILELA",
+        "addr:street": "Rua Av Epaminondas Jacome",
+        "addr:housenumber": "1878",
+        "addr:suburb": "Cadeia Velha",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69905-232",
+        "phone": "+55 68 3224-2200",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Maria Aurea Vilela",
+        "short_name": "UBS Usf Maria Aurea Vilela",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.79936,
+          -9.97377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3015556,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "3015556",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF MARIA DA CONCEICAO",
+        "addr:street": "Rua Primavera",
+        "addr:housenumber": "36",
+        "addr:suburb": "Belo Jardim I",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69907-854",
+        "phone": "+55 68 3221-1104",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Maria da Conceicao",
+        "short_name": "UBS Usf Maria da Conceicao",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.7842,
+          -10.00817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2000458,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "2000458",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF MARIA DE FATIMA",
+        "addr:street": "Rua Santa Rita",
+        "addr:suburb": "Bahia Nova",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69911-650",
+        "phone": "+55 68 3225-1586",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Maria de Fatima",
+        "short_name": "UBS Usf Maria de Fatima",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.82763,
+          -9.99035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2001810,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "2001810",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF MARIA DE JESUS",
+        "addr:street": "Rua Baguari",
+        "addr:housenumber": "2381",
+        "addr:suburb": "Taquari",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69906-426",
+        "phone": "+55 68 3221-3487",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Maria de Jesus",
+        "short_name": "UBS Usf Maria de Jesus",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.82566,
+          -10.00807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3331946,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "3331946",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF MARIA SEBASTIANA",
+        "addr:street": "Rua Machado de Assis Ramal Bom Jesus",
+        "addr:housenumber": "174",
+        "addr:suburb": "Vila Acre",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-460",
+        "phone": "+55 68 3221-3874",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Maria Sebastiana",
+        "short_name": "UBS Usf Maria Sebastiana",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.483566,
+          -9.95902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2002701,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "2002701",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF MARIA SOFIA",
+        "addr:street": "Rua Flaviano Melo",
+        "addr:housenumber": "78",
+        "addr:suburb": "Santa Cecilia",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69901-325",
+        "phone": "+55 68 3248-6372",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Maria Sofia",
+        "short_name": "UBS Usf Maria Sofia",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.80675,
+          -9.980748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3331792,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "3331792",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF MARIA VERONICA",
+        "addr:street": "Rua Rio Grande do Sul",
+        "addr:housenumber": "1444",
+        "addr:suburb": "Preventorio",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69903-420",
+        "phone": "+55 68 3223-1193",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Maria Veronica",
+        "short_name": "UBS Usf Maria Veronica",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.82309,
+          -9.9767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2003287,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "2003287",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF MARIANO GONZAGA",
+        "addr:street": "Rua Placido de Castro",
+        "addr:housenumber": "16",
+        "addr:suburb": "Conj Laelia Alcantar",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69914-474",
+        "phone": "+55 68 3225-1060",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Mariano Gonzaga",
+        "short_name": "UBS Usf Mariano Gonzaga",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.88307,
+          -9.98406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7547153,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "7547153",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF MAXIMO DIOGO",
+        "addr:street": "Rua Paulo Lemos de Moura Leite",
+        "addr:housenumber": "1943",
+        "addr:suburb": "Portal da Amazonia",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69915-777",
+        "phone": "+55 68 3225-0828",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Maximo Diogo",
+        "short_name": "UBS Usf Maximo Diogo",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.87175,
+          -9.9696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2001012,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "2001012",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF MOCINHA MAGALHAES",
+        "addr:street": "Rua da Banana",
+        "addr:housenumber": "168",
+        "addr:suburb": "Mocinha Magalhaes",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69908-650",
+        "phone": "+55 68 3229-5317",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Mocinha Magalhaes",
+        "short_name": "UBS Usf Mocinha Magalhaes",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.85943,
+          -9.94099
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2001853,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "2001853",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF NADEZIR DA SILVA DE LIMA",
+        "addr:street": "Rua Monte Sinai",
+        "addr:housenumber": "324",
+        "addr:suburb": "Santa Helena",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-970",
+        "phone": "+55 68 3221-4620",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Nadezir da Silva de Lima",
+        "short_name": "UBS Usf Nadezir da Silva de Lima",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.79751,
+          -10.0269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3752259,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "3752259",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF NIMIO INSFRAN MARTINEZ",
+        "addr:street": "Rua Av Maria Jose de Oliveira",
+        "addr:housenumber": "1061",
+        "addr:suburb": "Distrito Industrial",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69917-680",
+        "phone": "+55 68 3229-6425",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Nimio Insfran Martinez",
+        "short_name": "UBS Usf Nimio Insfran Martinez",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.88102,
+          -9.94554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3015548,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "3015548",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF PLATILDE OLIVEIRA",
+        "addr:street": "Rua Rio de Janeiro",
+        "addr:suburb": "Tancredo Neves",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69921-728",
+        "phone": "+55 68 3228-6064",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Platilde Oliveira",
+        "short_name": "UBS Usf Platilde Oliveira",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.83202,
+          -9.9291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3331806,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "3331806",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF RAIMUNDA DIONIZIO",
+        "addr:street": "Rua Juricaba",
+        "addr:housenumber": "571",
+        "addr:suburb": "João Paulo",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69912-060",
+        "phone": "+55 68 3242-2774",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Raimunda Dionizio",
+        "short_name": "UBS Usf Raimunda Dionizio",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.8388515,
+          -9.9964448
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2003252,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "2003252",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF RECANTO DOS BURITIS",
+        "addr:street": "Rua Queiroz",
+        "addr:housenumber": "001",
+        "addr:suburb": "Recanto dos Buritis",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-460",
+        "phone": "+55 68 3221-7521",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Recanto dos Buritis",
+        "short_name": "UBS Usf Recanto dos Buritis",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.79482,
+          -10.00018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2002809,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "2002809",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF ROSA MARIA",
+        "addr:street": "Rua das Rosas",
+        "addr:suburb": "Jardim Primavera",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69919-260",
+        "phone": "+55 68 3226-4171",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Rosa Maria",
+        "short_name": "UBS Usf Rosa Maria",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.8544539,
+          -9.9575333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2001837,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "2001837",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF SANTA INES",
+        "addr:street": "Rua Edmundo Pinto",
+        "addr:housenumber": "314",
+        "addr:suburb": "Santa Ines",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69907-725",
+        "phone": "+55 68 3221-8947",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Santa Ines",
+        "short_name": "UBS Usf Santa Ines",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.7932325,
+          -10.0070924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4646770,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "4646770",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF SAO FRANCISCO",
+        "addr:street": "Rua Joaquim Macedo",
+        "addr:housenumber": "26",
+        "addr:suburb": "São Francisco",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69901-510",
+        "phone": "+55 68 32126-2400",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf São Francisco",
+        "short_name": "UBS Usf São Francisco",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.7980799,
+          -9.9533926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2002779,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "2002779",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF SEBASTIANA PRADO ZONA RURAL",
+        "addr:street": "Rodovia Ac 90 Km 58",
+        "addr:suburb": "Zona Rural",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69923-899",
+        "phone": "+55 68 9906-1212",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Sebastiana Prado Zona Rural",
+        "short_name": "UBS Usf Sebastiana Prado Zona Rural",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.30491,
+          -9.93566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7120729,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "7120729",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF TEREZA ROSAS",
+        "addr:street": "Rua da Paz",
+        "addr:suburb": "Belo Jardim II",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-460",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Tereza Rosas",
+        "short_name": "UBS Usf Tereza Rosas",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.77192,
+          -10.01053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8194831,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "8194831",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF VILA BELA",
+        "addr:street": "Avenida dos Ipes",
+        "addr:suburb": "Loteamento Santa Luz",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69903-343",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Vila Bela",
+        "short_name": "UBS Usf Vila Bela",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.81523,
+          -9.92924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2003031,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "2003031",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "USF VITORIA",
+        "addr:street": "Travessa Campo Verde",
+        "addr:housenumber": "2",
+        "addr:suburb": "São Francisco",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69901-875",
+        "phone": "+55 68 3223-9934",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Usf Vitoria",
+        "short_name": "UBS Usf Vitoria",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.79958,
+          -9.95199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9708642,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "9708642",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "AMBULATORIO INTEGRADO DE ENSINO",
+        "addr:street": "Rua Alvorada",
+        "addr:housenumber": "806",
+        "addr:suburb": "Bosque",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-664",
+        "phone": "+55 68 2102-8291",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.81493,
+          -9.95528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5429382,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "5429382",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ATENDIMENTO A SAUDE DO SERVIDOR CASS",
+        "addr:street": "Avenida Antonio da Rocha Viana",
+        "addr:housenumber": "2248",
+        "addr:suburb": "Vila Ivonete",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-526",
+        "email": "centrodeatencaoasaudedoservido@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.822785,
+          -9.9556976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2001942,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "2001942",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "FUNSAU PMAC",
+        "addr:street": "Rua Omar Sabino",
+        "addr:housenumber": "283",
+        "addr:suburb": "Conjunto Mascarenhas",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69918-000",
+        "phone": "+55 68 2102-8088",
+        "email": "policlinica.pmac@ac.gov.br",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.8315844,
+          -9.9702425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2001527,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "2001527",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POLICLINICA TUCUMA",
+        "addr:street": "Avenida Noroeste",
+        "addr:housenumber": "486",
+        "addr:suburb": "Tucuma",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69919-778",
+        "phone": "+55 68 3229-4499",
+        "email": "policlinica.tucuma@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.8581512,
+          -9.950755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2001586,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "2001586",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "FUNDHACRE",
+        "addr:street": "Rua Br 364 Km 2",
+        "addr:housenumber": "02",
+        "addr:suburb": "Distrito Industrial",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69920-193",
+        "phone": "+55 68 3226-4336",
+        "email": "cnes-acre@ac.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Fundhacre",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.85465,
+          -9.966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2001578,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "2001578",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL GERAL DE CLINICAS DE RIO BRANCO",
+        "addr:street": "Rua Av Nacoes Unidas",
+        "addr:housenumber": "700",
+        "addr:suburb": "Bosque",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-478",
+        "phone": "+55 68 3223-3080",
+        "email": "gerenciageralps@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Geral de Clinicas de Rio Branco",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.8152152,
+          -9.9649435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2000857,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "2000857",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL DE SAUDE MENTAL DO ACRE",
+        "addr:street": "Estrada da Sobral",
+        "addr:housenumber": "663",
+        "addr:suburb": "Sobral",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69911-108",
+        "phone": "68 3225-2356/2282",
+        "email": "aihosmac@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital de Saude Mental do Acre",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.8215683,
+          -9.9909949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2000385,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "2000385",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL INFANTIL IOLANDA COSTA E SILVA",
+        "addr:street": "Rua Alameda Magnolia",
+        "addr:housenumber": "740",
+        "addr:suburb": "Chacara Ipe",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69917-524",
+        "phone": "+55 68 3215-4800",
+        "email": "gerencia.hc2025@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Infantil Iolanda Costa e Silva",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.8097844,
+          -9.9859896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2000733,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "2000733",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "MATERNIDADE E CLINICAS DE MULHERES BARBARA HELIODORA",
+        "addr:street": "Rua Getulio Vargas",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-900",
+        "phone": "+55 68 3215-4800",
+        "email": "sasmc.ac@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Maternidade e Clinicas de Mulheres Barbara Heliodora",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.812496,
+          -9.969711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9652140,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "9652140",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CORPO DE BOMBEIROS MILITAR DO ESTADO DO ACRE",
+        "addr:street": "Rua Emilio Falcao",
+        "addr:housenumber": "200",
+        "addr:suburb": "Morada do Sol",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69918-340",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Corpo de Bombeiros Militar do Estado do Acre",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.807037,
+          -9.976049
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4498739,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "4498739",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DETRAN DIVISAO DE JUNTA MEDICA",
+        "addr:street": "Avenida Nacoes Unidas",
+        "addr:housenumber": "170",
+        "addr:suburb": "7 Bec",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69918-093",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Detran Divisao de Junta Medica",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.8122343,
+          -9.9647658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2001624,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "2001624",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "ESCOLA ALCIMAR NUNES LEITAO",
+        "addr:street": "Avenida Maria Jose de Oliveira",
+        "addr:housenumber": "1072",
+        "addr:suburb": "Conj Universitario",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69917-742",
+        "phone": "+55 68 3225-5326",
+        "email": "saudenaescoladabs@ac.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Escola Alcimar Nunes Leitao",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.88174,
+          -9.94565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7278500,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "7278500",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "ESCOLA BELO JARDIM",
+        "addr:street": "Rua Br 364 Km 02",
+        "addr:suburb": "Belo Jardim",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-970",
+        "phone": "+55 68 3225-5326",
+        "email": "saudenaescoladabs@ac.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Escola Belo Jardim",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.763466,
+          -10.012076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7218761,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "7218761",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "ESCOLA ESTADUAL ENSINO JOVEM DO BOA UNIAO",
+        "addr:street": "Rua 03 de Agosto",
+        "addr:housenumber": "38",
+        "addr:suburb": "Sobral",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69908-000",
+        "phone": "+55 68 3225-5326",
+        "email": "saudenaescoladabs@ac.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Escola Estadual Ensino Jovem do Boa Uniao",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.832077,
+          -9.997521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7834136,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "7834136",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "ESCOLA ESTADUAL NATALINO DA SILVEIRA BRITO",
+        "addr:street": "Rua Coronel Fontenele de Castro",
+        "addr:housenumber": "176",
+        "addr:suburb": "Estacao Experimental",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-970",
+        "phone": "+55 68 3225-5326",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Escola Estadual Natalino da Silveira Brito",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.89339,
+          -9.98116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2001705,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "2001705",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "ESCOLA FREI THIAGO MARIA MATIOLE",
+        "addr:street": "Rua Mendes de Sa",
+        "addr:housenumber": "471",
+        "addr:suburb": "Bahia Velha",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69911-564",
+        "phone": "+55 68 3225-5326",
+        "email": "saudenaescoladabs@ac.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Escola Frei Thiago Maria Matiole",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.82814,
+          -9.98802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6212948,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "6212948",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "ESCOLA HUMBERTO DE ALENCAR CASTELO BRANCO",
+        "addr:street": "Estrada do Aviario",
+        "addr:housenumber": "233",
+        "addr:suburb": "Aviario",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-830",
+        "phone": "+55 68 3225-5326",
+        "email": "saudenaescoladabs@ac.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Escola Humberto de Alencar Castelo Branco",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.80492,
+          -9.96586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2001691,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "2001691",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "ESCOLA JOAO AGUIAR",
+        "addr:street": "Rua Aderbal da Silva",
+        "addr:housenumber": "310",
+        "addr:suburb": "Estacao Experimental",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69918-430",
+        "phone": "+55 68 3225-5326",
+        "email": "saudenaescoladabs@ac.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Escola João Aguiar",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.833527,
+          -9.95583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2001659,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "2001659",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "ESCOLA JOAO MARIANO DA SILVA",
+        "addr:street": "Rua Baguari",
+        "addr:housenumber": "1883",
+        "addr:suburb": "Taquari",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69906-426",
+        "phone": "+55 68 3225-5326",
+        "email": "saudenaesoladabs@ac.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Escola João Mariano da Silva",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.81114,
+          -9.96538
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2001675,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "2001675",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "ESCOLA MARIA ANGELICA DE CASTRO",
+        "addr:street": "Rua 24 de Janeiro",
+        "addr:housenumber": "125",
+        "addr:suburb": "Seis de Agosto",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69905-596",
+        "phone": "+55 68 3225-5326",
+        "email": "saudenaescoladabs@ac.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Escola Maria Angelica de Castro",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.8071,
+          -9.97996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5057558,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "5057558",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "ESCOLA MUNICIPAL MONTEIRO LOBATO",
+        "addr:street": "Rua Alfredo Zaire",
+        "addr:housenumber": "102",
+        "addr:suburb": "Floresta",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-970",
+        "phone": "+55 68 3225-5326",
+        "email": "saudenaescoladabs@ac.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Escola Municipal Monteiro Lobato",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.89321,
+          -9.98132
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2001683,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "2001683",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "ESCOLA SAMUEL BARREIRA",
+        "addr:street": "Rua Senador Guiomard Santos",
+        "addr:housenumber": "268",
+        "addr:suburb": "Bosque",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69915-278",
+        "phone": "+55 68 3225-5326",
+        "email": "saudenaescoladabs@ac.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Escola Samuel Barreira",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.84134,
+          -9.97966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5514290,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "5514290",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "ESCOLA TECNICA MARIA MOREIRA DA ROCHA",
+        "addr:street": "Rua Br 364",
+        "addr:suburb": "Distrito Industrial",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69920-223",
+        "phone": "+55 68 3226-7330",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Escola Tecnica Maria Moreira da Rocha",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.867783,
+          -9.948326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2000431,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "2000431",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "GRUPO ESCOLAR JOAO PAULO I",
+        "addr:street": "Rua São Francisco",
+        "addr:housenumber": "177",
+        "addr:suburb": "João Eduardo I",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69911-446",
+        "phone": "+55 68 3225-5326",
+        "email": "saudenaescoladabs@ac.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Grupo Escolar João Paulo I",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.83374,
+          -9.983044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7743637,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "7743637",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "MINISTERIO PUBLICO DO ESTADO DO ACRE",
+        "addr:street": "Rua Marechal Deodoro",
+        "addr:housenumber": "472",
+        "addr:suburb": "Ipase",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-333",
+        "phone": "+55 68 3212-2002",
+        "email": "procuradoriageral@mpac.mp.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Ministerio Publico do Estado do Acre",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.80717,
+          -9.97481
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4728777,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "4728777",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "AMBULATORIO ESPECIALIZADO DE ATENCAO A SAUDE DA PESSOA IDOSA",
+        "addr:street": "Rua São Lazaro",
+        "addr:suburb": "Conj Tangara",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-460",
+        "phone": "+55 68 3226-6402",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Ambulatorio Especializado de Atencao A Saude da Pessoa Idosa",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.8371565,
+          -9.9644215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2001063,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "2001063",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE CONTROLE DE ONCOLOGIA DO ACRE",
+        "addr:street": "Travessa do Hemoacre",
+        "addr:housenumber": "67",
+        "addr:suburb": "Bosque",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-604",
+        "phone": "+55 68 3224-4276",
+        "email": "ceconesaude@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Controle de Oncologia do Acre",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.8199232,
+          -9.9547119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7005105,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "7005105",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ESPECIALIDADES ODONTOLOGICAS DE RIO BRANCO CEORB",
+        "addr:street": "Rua São Lazaro",
+        "addr:suburb": "Estacao Experimental",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-460",
+        "phone": "+55 68 3226-4202",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Centro de Especialidades Odontológicas (CEO)",
+        "short_name": "CEO",
+        "comment": "Odontologia (CEO)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.83786,
+          -9.96568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2000075,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "2000075",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE REFERENCIA DA SAUDE DA MULHER E DA CRIANCA BYB",
+        "addr:street": "Rua São Lazaro",
+        "addr:suburb": "Estacao Experimental",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69915-006",
+        "phone": "+55 68 3226-6402",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Referencia da Saude da Mulher e da Crianca Byb",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.8372294,
+          -9.9645501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 128619,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "128619",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CER III FREI PAOLINO BALDASSARI",
+        "addr:street": "Rua Alameda Magnolia",
+        "addr:housenumber": "524",
+        "addr:suburb": "Pedro Roseno",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69917-524",
+        "phone": "+55 68 3244-1667",
+        "email": "cerii.acre@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Centro Especializado em Reabilitação (CER)",
+        "short_name": "CER",
+        "comment": "Reabilitação (CER)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.859126,
+          -9.962053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9805168,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "9805168",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "LABORATORIO DE PROTESES CUIDANDO DO SEU SORRISO",
+        "addr:street": "Rua Baguari",
+        "addr:housenumber": "40",
+        "addr:suburb": "Taquari",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69906-390",
+        "phone": "+55 68 3222-8664",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Laboratorio de Proteses Cuidando do Seu Sorriso",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.83179,
+          -9.96956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 145645,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "145645",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SERVICO DE ATENCAO DOMICILIAR SAD PROGRAMA MELHOR EM CASA",
+        "addr:street": "Rua Santa Ines",
+        "addr:housenumber": "140",
+        "addr:suburb": "Aviario",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-878",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Serviço de Atencao Domiciliar SAD Programa Melhor em Casa",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.80222,
+          -9.96605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6910335,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "6910335",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CAD IMAGEM",
+        "addr:street": "Rua Boulevard Augusto Monteiro",
+        "addr:housenumber": "140",
+        "addr:suburb": "Quinze",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69908-000",
+        "phone": "+55 68 3244-2440",
+        "amenity": "clinic",
+        "healthcare": "diagnostic_centre",
+        "name": "Cad Imagem",
+        "comment": "Diagnóstico por Imagem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.81672,
+          -9.98732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3449300,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "3449300",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE APOIO DIAGNOSTICO ANALISES CLINICAS CAD",
+        "addr:street": "Travessa Hemoacre",
+        "addr:suburb": "Vila Ivonete",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-460",
+        "phone": "+55 68 3222-8664",
+        "amenity": "clinic",
+        "healthcare": "diagnostic_centre",
+        "name": "Centro de Apoio Diagnóstico Analises Clinicas Cad",
+        "comment": "Diagnóstico por Imagem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.819733,
+          -9.954655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9035362,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "9035362",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "OFICINA ORTOPEDICA ITINERANTE TERRESTRE DO ACRE",
+        "addr:street": "Rua Guiomard Santos",
+        "addr:housenumber": "335",
+        "addr:suburb": "Bosque",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-724",
+        "phone": "+55 68 3224-0335",
+        "email": "oficina.ortopedica@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Oficina Ortopedica Itinerante Terrestre do Acre",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.8325081,
+          -9.964497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6969259,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "6969259",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "AMBULANCIA USA RIO BRANCO 01",
+        "addr:street": "Rua Jose de Melo",
+        "addr:housenumber": "92",
+        "addr:suburb": "Bosque",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-403",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.8100848,
+          -9.9750216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7132921,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "7132921",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "AMBULANCIA USA RIO BRANCO 02",
+        "addr:street": "Rua Jose de Melo",
+        "addr:housenumber": "92",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-970",
+        "phone": "+55 46 3244-1437",
+        "email": "samu@ac.gov.br",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.818111,
+          -9.969612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7197675,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "7197675",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "AMBULANCIA USB RIO BRANCO 04",
+        "addr:street": "Rua Jose de Melo",
+        "addr:housenumber": "92",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-970",
+        "email": "samu@ac.gov.br",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.811217,
+          -9.976641
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7197225,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "7197225",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "AMBULANCIA USB RIO BRANCO 05",
+        "addr:street": "Rua Jose de Melo",
+        "addr:housenumber": "92",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-403",
+        "phone": "+55 46 3244-1437",
+        "email": "samu@ac.gov.br",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.81111,
+          -9.974444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7197233,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "7197233",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "AMBULANCIA USB RIO BRANCO 06",
+        "addr:street": "Rodovia Br 364 Km 125",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69908-768",
+        "email": "samu@ac.gov.br",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.80011,
+          -9.975555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7149700,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "7149700",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "AMBULANCIA USB RIO BRANCO 07",
+        "addr:street": "Avenida Sobral",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69911-114",
+        "email": "samu@ac.gov.br",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.815432,
+          -9.964321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7132948,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "7132948",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "AMBULANCIA USB RIO BRANCO 08",
+        "addr:street": "Avenida Noroeste",
+        "addr:housenumber": "486",
+        "addr:suburb": "Tucuma",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69919-778",
+        "email": "samu@ac.gov.br",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.890123,
+          -9.97321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8293325,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "8293325",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CBMAC AEROMEDICO",
+        "addr:street": "Rua Beijamim Constant",
+        "addr:housenumber": "830",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-062",
+        "phone": "+55 68 3216-1300",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.8041624,
+          -9.9732699
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6965334,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "6965334",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "MOTOLANCIA SAMU I",
+        "addr:street": "Rua Jose de Melo",
+        "addr:housenumber": "92",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-904",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.82,
+          -9.975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6965342,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "6965342",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "MOTOLANCIA SAMU II",
+        "addr:street": "Rua Jose de Melo",
+        "addr:housenumber": "92",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-904",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.83,
+          -9.975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5497469,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "5497469",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PSGA AEROMEDICO",
+        "addr:street": "Rua Beijamaim Constant",
+        "addr:housenumber": "830",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-062",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.81052,
+          -9.97822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5553504,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "5553504",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "PT LZW BARON",
+        "addr:street": "Rua Benjamin Constant",
+        "addr:housenumber": "830",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69909-650",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.82,
+          -9.976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7219318,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "7219318",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU EQUIPE AEROMEDICO",
+        "addr:street": "Rua Benjamin Constant",
+        "addr:housenumber": "830",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-062",
+        "phone": "+55 68 3244-1437",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.8041348,
+          -9.9732542
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7594763,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "7594763",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL ESTADUAL DE ABASTECIMENTO FARMACEUTICO CAF",
+        "addr:street": "Travessa do Hemoacre",
+        "addr:housenumber": "132",
+        "addr:suburb": "Bosque",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-604",
+        "phone": "(68)32238898 2285831",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "dispensing": "yes",
+        "name": "Central Estadual de Abastecimento Farmaceutico CAF",
+        "comment": "Farmácia Pública"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.819518,
+          -9.953904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3542734,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "3542734",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE REF PARA O PROG DE MEDICAMENTOS EXCEPCIONAIS",
+        "addr:street": "Travessa do Hemoacre",
+        "addr:housenumber": "160",
+        "addr:suburb": "Bosque",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-604",
+        "phone": "+55 68 3227-3227",
+        "email": "creme.saude@ac.gov.br",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "dispensing": "yes",
+        "name": "Centro de Ref para O Prog de Medicamentos Excepcionais",
+        "comment": "Farmácia Pública"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.8129816,
+          -9.9807275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7111096,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "7111096",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "COFAM COMPLEXO FARMACEUTICO MUNICIPAL",
+        "addr:street": "Rua Trav São Lazaro",
+        "addr:suburb": "Tangara",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69915-006",
+        "phone": "+55 68 3213-2576",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "dispensing": "yes",
+        "name": "Cofam Complexo Farmaceutico Municipal",
+        "comment": "Farmácia Pública"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.83848,
+          -9.96577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7111118,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "7111118",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DIVISAO DE ASSISTENCIA FARMACEUTICA DAF SEMSA",
+        "addr:street": "Rua Projetada",
+        "addr:housenumber": "001",
+        "addr:suburb": "Abraao Alab",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-460",
+        "phone": "+55 68 3213-2549",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "dispensing": "yes",
+        "name": "Divisao de Assistencia Farmaceutica Daf Semsa",
+        "comment": "Farmácia Pública"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.81915,
+          -9.96675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4083865,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "4083865",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CEREST REGIONAL DO BAIXO ACRE PURUS",
+        "addr:street": "Avenida Getulio Vargas",
+        "addr:housenumber": "789",
+        "addr:suburb": "Bosque",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-373",
+        "phone": "+55 68 3223-4266",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.811627,
+          -9.970082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6925170,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "6925170",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DEPARTAMENTO DE CONTROLE DE ZOONOSES",
+        "addr:street": "Rodovia Ac 40 Km 09",
+        "addr:housenumber": "00",
+        "addr:suburb": "Santa Maria",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69908-000",
+        "phone": "+55 68 3221-3561",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.196047,
+          -10.313451
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6917291,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "6917291",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DEPARTAMENTO DE VIGILANCIA EPIDEMIOLOGICA E AMBIENTAL",
+        "addr:street": "Rua Av Ceara",
+        "addr:housenumber": "3188",
+        "addr:suburb": "Abrahao Alab",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-973",
+        "phone": "+55 68 3227-2553",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.82543,
+          -9.968715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2002051,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "2002051",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DEPARTAMENTO DE VIGILANCIA SANITARIA",
+        "addr:street": "Rua Av Ceara",
+        "addr:housenumber": "3188",
+        "addr:suburb": "Abrahao Alab",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-973",
+        "phone": "+55 68 3226-2113",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.8254024,
+          -9.9686993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5643171,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "5643171",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DIVISAO DE VIGILANCIA SANITARIA DVISA",
+        "addr:street": "Rua Benjamim Constant",
+        "addr:housenumber": "830",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-064",
+        "email": "vgsanitaria.saude@ac.gov.br",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.8800872,
+          -9.979932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3344797,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "3344797",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAUDE DO TRABALHADOR CEREST",
+        "addr:street": "Avenida Getulio Vargas",
+        "addr:housenumber": "789",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-060",
+        "phone": "+55 68 3223-4266",
+        "email": "cerest.saude@ac.gov.br",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.8123,
+          -9.97567
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5786592,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "5786592",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SECRETARIA DE ESTADO DE SAUDE",
+        "addr:street": "Rua Benjamin Constant",
+        "addr:housenumber": "830",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-064",
+        "email": "drra.sesacre@gmail.com",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.8076601,
+          -9.9746412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6477380,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "6477380",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SECRETARIA MUNICIPAL DE SAUDE DE RIO BRANCO",
+        "addr:street": "Avenida Brasil",
+        "addr:housenumber": "475",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-078",
+        "phone": "+55 68 3213-2525",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.807442,
+          -9.973057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2306387,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "2306387",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE HEMATOLOGIA E HEMOTERAPIA DO ACRE",
+        "addr:street": "Rua Av Getulio Vargas",
+        "addr:housenumber": "2787",
+        "addr:suburb": "Bosque",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-607",
+        "phone": "+55 68 3248-1380",
+        "amenity": "blood_donation",
+        "healthcare": "blood_donation",
+        "name": "Hemonúcleo de Pato Branco (HEMEPAR)",
+        "short_name": "Hemepar Pato Branco",
+        "comment": "Doação de Sangue (HEMEPAR)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.8190446,
+          -9.9537241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2002094,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "2002094",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ATENCAO PSICOSSOCIAL ALCOOL E OUTRAS DROGAS III",
+        "addr:street": "Rua Luiz Z da Silva",
+        "addr:housenumber": "364",
+        "addr:suburb": "Estacao Experimental",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69918-452",
+        "phone": "+55 68 3227-5134",
+        "email": "caps.saude@ac.gov.br",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.832021,
+          -9.955212
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9187847,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "9187847",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ATENCAO PSICOSSOCIAL CAPS II SAMAUMA",
+        "addr:street": "Estrada do Calafate Rua São Jose",
+        "addr:housenumber": "20",
+        "addr:suburb": "Nova Esperança",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69915-196",
+        "phone": "+55 68 3213-2513",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.8103638,
+          -9.9770609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8067406,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "8067406",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ATENCAO PSICOSSOCIAL CAPSI DAMIAO NUNES DA COSTA",
+        "addr:street": "Estrada da Sobral",
+        "addr:housenumber": "1547",
+        "addr:suburb": "Sobral",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69911-114",
+        "phone": "+55 68 3225-3318",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial Infanto-Juvenil (CAPSi)",
+        "short_name": "CAPSi",
+        "comment": "CAPSi (Infanto-Juvenil)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.82452,
+          -9.99626
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5591228,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "5591228",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CASAI RIO BRANCO",
+        "addr:street": "Estrada da Sobral",
+        "addr:housenumber": "02",
+        "addr:suburb": "Aeroporto Velho",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-460",
+        "phone": "+55 68 3223-6118",
+        "email": "enfermagem.casai@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Casai Rio Branco",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.81818,
+          -9.96681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6971016,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "6971016",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DISTRITO SANITARIO ESPECIAL INDIGENA ALTO RIO PURUS DSEI",
+        "addr:street": "Rua Rio de Janeiro",
+        "addr:housenumber": "1214",
+        "addr:suburb": "Abraao Alab",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69918-048",
+        "phone": "+55 68 3223-0519",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Distrito Sanitario Especial Indigena Alto Rio Purus Dsei",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.8266,
+          -9.97283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6439837,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "6439837",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UPA 24 HORAS DO 2 DISTRITO",
+        "addr:street": "Rua Br 364 Km 125 Via Verde",
+        "addr:housenumber": "0020",
+        "addr:suburb": "Corrente",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69908-768",
+        "phone": "+55 68 3221-6775",
+        "email": "upasegundodistrito@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "emergency": "yes",
+        "opening_hours": "24/7",
+        "name": "UPA 24 Horas Maria Itália Freddo",
+        "short_name": "UPA 24h",
+        "comment": "UPA 24h"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.804599,
+          -10.012677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7540868,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "7540868",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UPA DA CIDADE DO POVO DR EDILBERTO PARIGOT DE SOUZA FILHO",
+        "addr:street": "Rua Afif Arao",
+        "addr:housenumber": "1595",
+        "addr:suburb": "Cidade do Povo",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-970",
+        "email": "upacidadedopovo@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "emergency": "yes",
+        "opening_hours": "24/7",
+        "name": "UPA 24 Horas Maria Itália Freddo",
+        "short_name": "UPA 24h",
+        "comment": "UPA 24h"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.75294,
+          -10.02518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7530684,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "7530684",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UPA DA SOBRAL FRANCO SILVA",
+        "addr:street": "Estrada da Sobral",
+        "addr:suburb": "Sobral",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69911-114",
+        "phone": "+55 68 99245-7359",
+        "email": "upa24horas.sobral@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "emergency": "yes",
+        "opening_hours": "24/7",
+        "name": "UPA 24 Horas Maria Itália Freddo",
+        "short_name": "UPA 24h",
+        "comment": "UPA 24h"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.8246439,
+          -9.9830838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7583818,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "7583818",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "ACADEMIA DA SAUDE PARQUE DO TUCUMA",
+        "addr:street": "Rua Padre Paulino",
+        "addr:housenumber": "001",
+        "addr:suburb": "Tucuma",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-460",
+        "phone": "+55 68 3229-4499",
+        "leisure": "fitness_centre",
+        "healthcare": "rehabilitation",
+        "name": "Academia da Saúde Parque do Tucuma",
+        "comment": "Academia da Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.81915,
+          -9.96678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2987376,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "2987376",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POLO ACADEMIA DA SAUDE ALBERT SAMPAIO",
+        "addr:street": "Rua Francisca Luzia",
+        "addr:suburb": "Vila Albert Sampaio",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69908-256",
+        "leisure": "fitness_centre",
+        "healthcare": "rehabilitation",
+        "name": "Academia da Saúde Polo Albert Sampaio",
+        "comment": "Academia da Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.79769,
+          -9.94183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2987309,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "2987309",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POLO ACADEMIA DA SAUDE INTERMEDIARIA ALTAMIRA",
+        "addr:street": "Avenida Altamira",
+        "addr:housenumber": "567",
+        "addr:suburb": "Placas",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69902-672",
+        "leisure": "fitness_centre",
+        "healthcare": "rehabilitation",
+        "name": "Academia da Saúde Polo Intermediaria Altamira",
+        "comment": "Academia da Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.8089542,
+          -9.9439333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2986787,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "2986787",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POLO ACADEMIA DA SAUDE INTERMEDIARIA BOA VISTA SOBRAL",
+        "addr:street": "Rua da Sanacre",
+        "addr:housenumber": "2595",
+        "addr:suburb": "Boa Vista Sobral",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-460",
+        "leisure": "fitness_centre",
+        "healthcare": "rehabilitation",
+        "name": "Academia da Saúde Polo Intermediaria Boa Vista Sobral",
+        "comment": "Academia da Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.7907273,
+          -10.0062802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2987287,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "2987287",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POLO ACADEMIA DA SAUDE INTERMEDIARIA CIDADE DO POVO",
+        "addr:street": "Rua Padre João Martins",
+        "addr:housenumber": "132",
+        "addr:suburb": "Cidade do Povo",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69909-280",
+        "leisure": "fitness_centre",
+        "healthcare": "rehabilitation",
+        "name": "Academia da Saúde Polo Intermediaria Cidade do Povo",
+        "comment": "Academia da Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.7594259,
+          -10.0240207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2987260,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "2987260",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POLO ACADEMIA DA SAUDE INTERMEDIARIA VILA ACRE",
+        "addr:street": "Rua Machado de Assis",
+        "addr:housenumber": "174",
+        "addr:suburb": "Vila Acre",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69909-756",
+        "leisure": "fitness_centre",
+        "healthcare": "rehabilitation",
+        "name": "Academia da Saúde Polo Intermediaria Vila Acre",
+        "comment": "Academia da Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.8282953,
+          -9.9770988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7577451,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "7577451",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POLO SIMILAR ACADEMIA DA SAUDE FRANCISCO RONEY MEIRELES",
+        "addr:street": "Rua Arara",
+        "addr:housenumber": "132",
+        "addr:suburb": "Adalberto Sena",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69903-312",
+        "phone": "+55 68 3228-2329",
+        "leisure": "fitness_centre",
+        "healthcare": "rehabilitation",
+        "name": "Academia da Saúde Polo Similar Francisco Roney Meireles",
+        "comment": "Academia da Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.826172,
+          -9.934649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7577540,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "7577540",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POLO SIMILAR ACADEMIA DA SAUDE ROZANGELA PIMENTEL",
+        "addr:street": "Estrada do Calafate",
+        "addr:housenumber": "001",
+        "addr:suburb": "Calafate",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69914-310",
+        "phone": "+55 68 3225-6585",
+        "leisure": "fitness_centre",
+        "healthcare": "rehabilitation",
+        "name": "Academia da Saúde Polo Similar Rozangela Pimentel",
+        "comment": "Academia da Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.874164,
+          -9.977027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7598688,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "7598688",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "NUCLEO TELESSAUDE ACRE",
+        "addr:street": "Rua Br 364 Km 04 Campus Ufac",
+        "addr:suburb": "Distrito Industrial",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69919-670",
+        "email": "telessaude@ufac.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Nucleo Telessaude Acre",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.8650165,
+          -9.9546484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3556271,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "3556271",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL DE REGULACAO MEDICA DAS URGENCIAS RIO BRANCO",
+        "addr:street": "Rua Jose de Melo",
+        "addr:housenumber": "92",
+        "addr:suburb": "Bosque",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-403",
+        "phone": "+55 68 3244-1437",
+        "email": "samu@ac.gov.br",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Central de Regulação Médica das Urgências (SAMU 192)",
+        "short_name": "Regulação SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.8065474,
+          -9.9716876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2306352,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "2306352",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SESACRE LABORATORIO CENTRAL DE SAUDE PUBLICA",
+        "addr:street": "Travessa do Hemoacre",
+        "addr:housenumber": "165",
+        "addr:suburb": "Bosque",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-604",
+        "phone": "+55 68 3228-5355",
+        "email": "lacen.acre@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Sesacre Laboratorio Central de Saude Publica",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.8201914,
+          -9.95477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7094760,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "7094760",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL DE REGULACAO DE CONSULTAS E EXAMES DE RIO BRANCO",
+        "addr:street": "Avenida Brasil",
+        "addr:housenumber": "475",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-078",
+        "phone": "+55 68 3227-3095",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Sistema Municipal de Auditoria e Regulação em Saúde",
+        "comment": "Auditoria e Regulação"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.815241,
+          -9.936466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7176503,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "7176503",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL ESTADUAL DE REGULACAO AMBULATORIAL",
+        "addr:street": "Rua Av Nacoes Unidas",
+        "addr:housenumber": "2527",
+        "addr:suburb": "Estacao Experimental",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69918-093",
+        "email": "gerenciacomplexo01@gmail.com",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Sistema Municipal de Auditoria e Regulação em Saúde",
+        "comment": "Auditoria e Regulação"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.83062,
+          -9.96674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7177305,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "7177305",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL ESTADUAL DE REGULACAO DE LEITOS",
+        "addr:street": "Rua Av Nacoes Unidas",
+        "addr:housenumber": "2527",
+        "addr:suburb": "Estacao Experimental",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69918-093",
+        "email": "regulacao.internacao@gmail.com",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Sistema Municipal de Auditoria e Regulação em Saúde",
+        "comment": "Auditoria e Regulação"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.8305924,
+          -9.9667243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9258957,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "9258957",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL DE NOTIFICACAO DIST E CAPTACAO DE ORGAOS ESTADUAL",
+        "addr:street": "Rua Br364 Km 2",
+        "addr:housenumber": "02",
+        "addr:suburb": "Distrito Industrial",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69920-193",
+        "phone": "683226 2045 32276399",
+        "email": "cncdoacre@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Central de Notificacao Dist e Captacao de Orgaos Estadual",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.856451,
+          -9.96563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9941541,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "9941541",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "ORGANIZACAO DE PROCURA DE ORGAOS OPOACRE",
+        "addr:street": "Avenida Nacoes Unidas",
+        "addr:housenumber": "700",
+        "addr:suburb": "Bosque",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-463",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Organizacao de Procura de Orgaos Opoacre",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.812187,
+          -9.9806007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 62553,
+      "properties": {
+        "operator": "Prefeitura Municipal de Rio Branco",
+        "operator:type": "public",
+        "ref:CNES": "62553",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL MUNICIPAL DE REDE DE FRIO",
+        "addr:street": "Avenida Ceara",
+        "addr:housenumber": "3188",
+        "addr:suburb": "Abrao Alab",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69918-111",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Central Municipal de Rede de Frio",
+        "comment": "Suprimentos / Logística"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.82525,
+          -9.96875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 110418,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "110418",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DIVISAO DE IMUNIZACAO E REDE DE FRIO",
+        "addr:street": "Rua Travesa do Hemoacre",
+        "addr:housenumber": "160",
+        "addr:suburb": "Bosque",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-604",
+        "email": "acreimunizacao@gmail.com",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Divisao de Imunizacao e Rede de Frio",
+        "comment": "Suprimentos / Logística"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.818941,
+          -9.95359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7147422,
+      "properties": {
+        "operator": "Governo do Estado (AC)",
+        "operator:type": "public",
+        "ref:CNES": "7147422",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE REFERENCIA PARA IMUNOBIOLOGICOS ESPECIAIS CRIE",
+        "addr:street": "Avenida Getulio Vargas",
+        "addr:housenumber": "595",
+        "addr:suburb": "Bosque",
+        "addr:city": "Rio Branco",
+        "addr:state": "AC",
+        "addr:country": "BR",
+        "addr:postcode": "69900-060",
+        "phone": "+55 68 3224-7546",
+        "email": "crie.pni@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "vaccination",
+        "name": "Sala Central de Vacinas de Pato Branco",
+        "short_name": "Sala de Vacinas",
+        "comment": "Sala de Vacinas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.810834,
+          -9.971804
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,3875 @@
+{
+  "type": "FeatureCollection",
+  "name": "Estabelecimentos Públicos de Saúde - DEMAS / CNES",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 7769350,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "7769350",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "AGENCIA DEFESA AGROPECUARIA DO ESTADO DE RORAIMA ADERR",
+        "addr:street": "Rua Coronel Mota",
+        "addr:housenumber": "1142",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69301-120",
+        "phone": "+55 95 3198-8600",
+        "email": "gpoa@aderr.rr.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Agencia Defesa Agropecuaria do Estado de Roraima Aderr",
+        "short_name": "UBS Agencia Defesa Agropecuaria do Estado de Roraima Aderr",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6729412,
+          2.8197296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7728646,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "7728646",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE DO CORPO DE BOMBEIROS M DE RORAIMA CBMRR",
+        "addr:street": "Rua Av Venezuela",
+        "addr:housenumber": "1271",
+        "addr:suburb": "Pricuma",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69309-690",
+        "email": "ceph@bombeiros.rrgov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro de Saude do Corpo de Bombeiros M de Roraima Cbmrr",
+        "short_name": "UBS Centro de Saude do Corpo de Bombeiros M de Roraima Cbmrr",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6934964,
+          2.8169548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 176222,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "176222",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE PRISIONAL DA CADEIA FEMININA",
+        "addr:street": "Rua Amancio Ferreira de Lucena",
+        "addr:housenumber": "950",
+        "addr:suburb": "Asa Branca",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69312-245",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Prisional",
+        "short_name": "UBS Prisional",
+        "access": "private",
+        "comment": "UBS Prisional"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7162959,
+          2.8172597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 176192,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "176192",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE PRISIONAL DA CADEIA MASCULINA",
+        "addr:street": "Rua Av Benjamin Constant",
+        "addr:suburb": "São Vicente",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69303-472",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Prisional",
+        "short_name": "UBS Prisional",
+        "access": "private",
+        "comment": "UBS Prisional"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6725966,
+          2.8175698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6758444,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "6758444",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE SAUDE PRISIONAL RR",
+        "addr:street": "Rua Br 174",
+        "addr:suburb": "Monte Cristo",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69310-070",
+        "phone": "+55 95 98411-4730",
+        "email": "csprr.cgab@saude.rr.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Prisional",
+        "short_name": "UBS Prisional",
+        "access": "private",
+        "comment": "UBS Prisional"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6903083,
+          2.8064298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7819110,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "7819110",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO INTEGRADO DE ATENCAO A PESSOA IDOSA CIAPI",
+        "addr:street": "Rua Cabo Pm Laurence de Melo",
+        "addr:housenumber": "259",
+        "addr:suburb": "Carana",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69313-640",
+        "email": "sortudommn@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro Integrado de Atencao A Pessoa Idosa Ciapi",
+        "short_name": "UBS Centro Integrado de Atencao A Pessoa Idosa Ciapi",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.71439,
+          2.84284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6966829,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "6966829",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO SOCIOEDUCATIVO CSE HOMERO DE SOUZA CRUZ FILHO",
+        "addr:street": "Rua Rr 321",
+        "addr:suburb": "Vicinal do Bom Inten",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69310-100",
+        "email": "roraima.cse@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Centro Socioeducativo Cse Homero de Souza Cruz Filho",
+        "short_name": "UBS Centro Socioeducativo Cse Homero de Souza Cruz Filho",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6731,
+          2.821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6235476,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "6235476",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAUDE ITINERANTE",
+        "addr:street": "Rua Madri",
+        "addr:housenumber": "180",
+        "addr:suburb": "Aeroporto",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69310-043",
+        "email": "dpsirr@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Saude Itinerante",
+        "short_name": "UBS Saude Itinerante",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6906735,
+          2.8310516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9362649,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "9362649",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE ARMINDA GOMES",
+        "addr:street": "Rua Jose Airton de Almeida",
+        "addr:housenumber": "422",
+        "addr:suburb": "Joquei Clube",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69313-189",
+        "phone": "+55 46 3627-7687",
+        "email": "ubs.armindagomes.saudebv@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Arminda Gomes",
+        "short_name": "UBS Unidade Básica de Saude Arminda Gomes",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7316923,
+          2.8038272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2744465,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "2744465",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE ASA BRANCA",
+        "addr:street": "Rua Francisco Custodio de Andrade",
+        "addr:housenumber": "505",
+        "addr:suburb": "Asa Branca",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69312-258",
+        "phone": "+55 95 3626-1754",
+        "email": "ubs.asabranca.saudebv@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Asa Branca",
+        "short_name": "UBS Unidade Básica de Saude Asa Branca",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7218528,
+          2.8128427
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6571999,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "6571999",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE AYGARA MOTTA PEREIRA",
+        "addr:street": "Rua J",
+        "addr:housenumber": "256",
+        "addr:suburb": "Cidade Satélite",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69317-510",
+        "phone": "+55 46 3628-6943",
+        "email": "ubs.aygara.saudebv@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Aygara Motta Pereira",
+        "short_name": "UBS Unidade Básica de Saude Aygara Motta Pereira",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7485956,
+          2.8494112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2744473,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "2744473",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE BURITIS",
+        "addr:street": "Rua Raimundo Figueiras",
+        "addr:housenumber": "661",
+        "addr:suburb": "Buritis",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69309-182",
+        "phone": "+55 95 3625-7454",
+        "email": "ubs.buritis.saudebv@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Buritis",
+        "short_name": "UBS Unidade Básica de Saude Buritis",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.709548,
+          2.8130429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2566540,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "2566540",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE CAMBARA",
+        "addr:street": "Rua Raimundo Mendes de Oliveira",
+        "addr:housenumber": "16",
+        "addr:suburb": "Cambara",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69313-405",
+        "phone": "+55 95 3626-2361",
+        "email": "ubs.cambara.saudebv@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Cambara",
+        "short_name": "UBS Unidade Básica de Saude Cambara",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.67008,
+          2.83691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2566648,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "2566648",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE CINTURAO VERDE",
+        "addr:street": "Rua Santa Clara",
+        "addr:housenumber": "1081",
+        "addr:suburb": "Cinturao Verde",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69301-970",
+        "phone": "+55 95 3623-2652",
+        "email": "ubs.cinturaoverde.saudebv@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Cinturao Verde",
+        "short_name": "UBS Unidade Básica de Saude Cinturao Verde",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.71249,
+          2.79448
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2744481,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "2744481",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE DELIO TUPINAMBA",
+        "addr:street": "Avenida Belo Horizonte",
+        "addr:housenumber": "178",
+        "addr:suburb": "Nova Cidade",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69316-214",
+        "phone": "+55 95 3626-7138",
+        "email": "ubs.delio.saudebv@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Delio Tupinamba",
+        "short_name": "UBS Unidade Básica de Saude Delio Tupinamba",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7331,
+          2.7592599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2566303,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "2566303",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE DOUTOR DALMO SILVA FEITOSA",
+        "addr:street": "Rua Australia",
+        "addr:housenumber": "700",
+        "addr:suburb": "Cauame",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69311-011",
+        "phone": "+55 95 3628-5670",
+        "email": "ubs.cauame.saudebv@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Doutor Dalmo Silva Feitosa",
+        "short_name": "UBS Unidade Básica de Saude Doutor Dalmo Silva Feitosa",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7104631,
+          2.8447265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4714091,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "4714091",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE DR ALCESTE MADEIRA DE ALMEIDA",
+        "addr:street": "Rua Macau",
+        "addr:housenumber": "950",
+        "addr:suburb": "Said Salomao",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69310-761",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Dr Alceste Madeira de Almeida",
+        "short_name": "UBS Unidade Básica de Saude Dr Alceste Madeira de Almeida",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6958349,
+          2.8828822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2566524,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "2566524",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE DR DIMITRI RAMOS GRANDEZ DE ARAUJO",
+        "addr:street": "Rua Av dos Corretore de Imoveis",
+        "addr:housenumber": "764",
+        "addr:suburb": "Alvorada",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69317-180",
+        "phone": "+55 95 3627-4233",
+        "email": "ubs.alvorada.saudebv@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Dr Dimitri Ramos Grandez de Araujo",
+        "short_name": "UBS Unidade Básica de Saude Dr Dimitri Ramos Grandez de Araujo",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7498572,
+          2.8202561
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2550261,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "2550261",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE DR HELIO MACEDO",
+        "addr:street": "Rua Joca Farias",
+        "addr:housenumber": "2199",
+        "addr:suburb": "Jardim Carana",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69313-612",
+        "phone": "+55 95 3625-9550",
+        "email": "ubs.uniao.saude@boavistarr.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Dr Helio Macedo",
+        "short_name": "UBS Unidade Básica de Saude Dr Helio Macedo",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7260704,
+          2.8509766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4539486,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "4539486",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE DR JAN ROMAN WILT",
+        "addr:street": "Rua São Silvestre",
+        "addr:housenumber": "410",
+        "addr:suburb": "Airton Rocha",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69316-277",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Dr Jan Roman Wilt",
+        "short_name": "UBS Unidade Básica de Saude Dr Jan Roman Wilt",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7076231,
+          2.8031108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2566451,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "2566451",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE DR ROBERIO RIBEIRO",
+        "addr:street": "Rua Sardinha",
+        "addr:housenumber": "872",
+        "addr:suburb": "Santa Tereza",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69301-970",
+        "phone": "+55 95 3628-7114",
+        "email": "ubs.santatereza.saudebv@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Dr Roberio Ribeiro",
+        "short_name": "UBS Unidade Básica de Saude Dr Roberio Ribeiro",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7308423,
+          2.8276179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2744562,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "2744562",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE DR ROMULO FERREIRA DA SILVA",
+        "addr:street": "Rua Av Presidente Castelo Branco",
+        "addr:housenumber": "1875",
+        "addr:suburb": "São Vicente",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69301-000",
+        "phone": "+55 95 3623-1556",
+        "email": "ubs.saovicente.saudebv@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Dr Romulo Ferreira da Silva",
+        "short_name": "UBS Unidade Básica de Saude Dr Romulo Ferreira da Silva",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6795933,
+          2.8104563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9430016,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "9430016",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE DR RUBELDIMAR MAIA DE AZEVEDO CRUZ",
+        "addr:street": "Rua Via de Circulacao",
+        "addr:housenumber": "197",
+        "addr:suburb": "São Bento",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69315-218",
+        "email": "ubs.rubeldimar.saudebv@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Dr Rubeldimar Maia de Azevedo Cruz",
+        "short_name": "UBS Unidade Básica de Saude Dr Rubeldimar Maia de Azevedo Cruz",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.708678,
+          2.773788
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2744457,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "2744457",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE DR SANDRA MARIA LACERDA FERNANDES",
+        "addr:street": "Rua Major Carlos Mardel",
+        "addr:housenumber": "466",
+        "addr:suburb": "31 de Marco",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69301-970",
+        "phone": "+55 95 3623-1822",
+        "email": "ubs.31demarco.saudebv@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Dr Sandra Maria Lacerda Fernandes",
+        "short_name": "UBS Unidade Básica de Saude Dr Sandra Maria Lacerda Fernandes",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6711139,
+          2.8389199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2566508,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "2566508",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE DR SILVIO LEITE",
+        "addr:street": "Rua Vicentetavares de Melo",
+        "addr:housenumber": "600",
+        "addr:suburb": "Silvio Leite",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69301-000",
+        "phone": "+55 95 3628-7128",
+        "email": "ubs.silvioleite.saudebv@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Dr Silvio Leite",
+        "short_name": "UBS Unidade Básica de Saude Dr Silvio Leite",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.73738,
+          2.8222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2744570,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "2744570",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE DR SILVIO LOFEGO BOTELHO",
+        "addr:street": "Rua Av Minas Gerais",
+        "addr:housenumber": "512",
+        "addr:suburb": "Dos Estados",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69301-000",
+        "phone": "+55 95 3623-8714",
+        "email": "ubs.silviobotelho.saudebv@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Dr Silvio Lofego Botelho",
+        "short_name": "UBS Unidade Básica de Saude Dr Silvio Lofego Botelho",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.665248,
+          2.8509291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2566265,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "2566265",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE DRA FANIR OLIVEIRA SILVA",
+        "addr:street": "Rua Ana Cecilia Mota da Silva",
+        "addr:suburb": "Jardim Floresta",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69312-058",
+        "phone": "+55 95 3627-7973",
+        "email": "ubsjdfloresta.saude@boavista.rr.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Dra Fanir Oliveira Silva",
+        "short_name": "UBS Unidade Básica de Saude Dra Fanir Oliveira Silva",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7008933,
+          2.8325649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9430032,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "9430032",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE EDNA BEZERRA DINIZ",
+        "addr:street": "Rua Francisco Candido",
+        "addr:housenumber": "177",
+        "addr:suburb": "Aeroporto",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69310-055",
+        "email": "ubs.ednadiniz.saudebv@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Edna Bezerra Diniz",
+        "short_name": "UBS Unidade Básica de Saude Edna Bezerra Diniz",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7079928,
+          2.8363652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2744449,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "2744449",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE ENF VANDERLY NASCIMENTO DE SOUZA",
+        "addr:street": "Rua Av Eldorado",
+        "addr:housenumber": "19",
+        "addr:suburb": "13 de Setembro",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69308-000",
+        "phone": "+55 95 3623-1776",
+        "email": "ubs.13desetembro.saudebv@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Enf Vanderly Nascimento de Souza",
+        "short_name": "UBS Unidade Básica de Saude Enf Vanderly Nascimento de Souza",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.682874,
+          2.7978803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5812305,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "5812305",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE ENFERMEIRO BERNARDO ALEM",
+        "addr:street": "Rua Josemar Batista de Souza",
+        "addr:housenumber": "1200",
+        "addr:suburb": "Cidade Satélite",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69317-544",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Enfermeiro Bernardo Alem",
+        "short_name": "UBS Unidade Básica de Saude Enfermeiro Bernardo Alem",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7492608,
+          2.8435828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2744554,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "2744554",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE IONE SANTIAGO",
+        "addr:street": "Rua Av Sebastiao Diniz",
+        "addr:housenumber": "115",
+        "addr:suburb": "São Pedro",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69301-970",
+        "phone": "+55 95 3623-2200",
+        "email": "ubs.ionesantiago.saudebv@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Ione Santiago",
+        "short_name": "UBS Unidade Básica de Saude Ione Santiago",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6723979,
+          2.8138627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7013337,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "7013337",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE JORGE ANDRE GURJAO VIEIRA",
+        "addr:street": "Rua Cc 24",
+        "addr:suburb": "Conjunto Cidadao",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69301-970",
+        "phone": "+55 46 3625-2700",
+        "email": "ubs.jorgegurjao.saudebv@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Jorge Andre Gurjao Vieira",
+        "short_name": "UBS Unidade Básica de Saude Jorge Andre Gurjao Vieira",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7693463,
+          2.7945281
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7576420,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "7576420",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE LIBERDADE",
+        "addr:street": "Avenida General Ataide Teive",
+        "addr:housenumber": "2493",
+        "addr:suburb": "Liberdade",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69309-000",
+        "phone": "+55 46 3621-3778",
+        "email": "ubs.liberdade.saudebv@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Liberdade",
+        "short_name": "UBS Unidade Básica de Saude Liberdade",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7435349,
+          2.8166951
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5446627,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "5446627",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE LUPERCIO LIMA FERREIRA",
+        "addr:street": "Rua Nazare Figueira C Laura Pinheiro Maia",
+        "addr:suburb": "Pintolandia",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69301-970",
+        "phone": "+55 95 3625-4564",
+        "email": "ubs.lupercio.saudebv@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Lupercio Lima Ferreira",
+        "short_name": "UBS Unidade Básica de Saude Lupercio Lima Ferreira",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.74463,
+          2.79336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2566737,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "2566737",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE MARIA DAS DORES PEREIRA DA SILVA",
+        "addr:street": "Rua Setentrional",
+        "addr:housenumber": "109",
+        "addr:suburb": "Equatorial",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69317-378",
+        "phone": "+55 95 3628-7287",
+        "email": "ubs.equatorial.saudebv@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Maria das Dores Pereira da Silva",
+        "short_name": "UBS Unidade Básica de Saude Maria das Dores Pereira da Silva",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7703336,
+          2.8167117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2566400,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "2566400",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE MECEJANA",
+        "addr:street": "Rua Pavao",
+        "addr:housenumber": "932",
+        "addr:suburb": "Meceana",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69304-500",
+        "phone": "+55 95 3624-2564",
+        "email": "ubs.mecejana.saudebv@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Mecejana",
+        "short_name": "UBS Unidade Básica de Saude Mecejana",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6931718,
+          2.823519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2744511,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "2744511",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE OLENKA MACELLARO THOME VIEIRA",
+        "addr:street": "Rua Av Mario Homem de Melo",
+        "addr:housenumber": "5075",
+        "addr:suburb": "Caimbe",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69312-155",
+        "phone": "+55 95 3626-8689",
+        "email": "ubs.olenka.saudebv@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Olenka Macellaro Thome Vieira",
+        "short_name": "UBS Unidade Básica de Saude Olenka Macellaro Thome Vieira",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.67513,
+          2.82103
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6006396,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "6006396",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE PASTOR LUCIANO GALDINO RABELO",
+        "addr:street": "Rua Brescia C Bolonia",
+        "addr:suburb": "Centenario",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69301-970",
+        "phone": "+55 95 3623-2652",
+        "email": "ubs.lucianorabelo.saudebv@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Pastor Luciano Galdino Rabelo",
+        "short_name": "UBS Unidade Básica de Saude Pastor Luciano Galdino Rabelo",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.71776,
+          2.79871
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2744538,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "2744538",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE PRICUMA",
+        "addr:street": "Rua Av Via das Flores",
+        "addr:housenumber": "2347",
+        "addr:suburb": "Pricuma",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69301-970",
+        "phone": "+55 95 3625-1007",
+        "email": "ubs.pricuma.saudebv@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Pricuma",
+        "short_name": "UBS Unidade Básica de Saude Pricuma",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6961756,
+          2.8075853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2744546,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "2744546",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE PROF MARIANO DE ANDRADE",
+        "addr:street": "Avenida Deco Fontelis",
+        "addr:housenumber": "264",
+        "addr:suburb": "Carana",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69301-970",
+        "phone": "+55 95 3627-1327",
+        "email": "ubs.mariano.saudebv@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Prof Mariano de Andrade",
+        "short_name": "UBS Unidade Básica de Saude Prof Mariano de Andrade",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6764817,
+          3.8210155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2566729,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "2566729",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE RAIAR DO SOL",
+        "addr:street": "Rua das Estrelas",
+        "addr:housenumber": "672",
+        "addr:suburb": "Rair do Sol",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69301-970",
+        "phone": "+55 95 3628-6552",
+        "email": "ubs.raiardosol.saudebv@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Raiar do Sol",
+        "short_name": "UBS Unidade Básica de Saude Raiar do Sol",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.71942,
+          2.77385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2566583,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "2566583",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE SANTA LUZIA",
+        "addr:street": "Rua Jose Casimiro da Silva",
+        "addr:housenumber": "676",
+        "addr:suburb": "Santa Luzia",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69317-102",
+        "phone": "+55 95 3621-6057",
+        "email": "ubs.santaluzia.saudebv@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Santa Luzia",
+        "short_name": "UBS Unidade Básica de Saude Santa Luzia",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6753,
+          2.82384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2566591,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "2566591",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE SAYONARA MARIA DANTAS LICARIAO MATOS",
+        "addr:street": "Avenida Raimundo Rodrigues Coelho",
+        "addr:housenumber": "2280",
+        "addr:suburb": "Senador Helio Campos",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69316-392",
+        "phone": "+55 95 3224-8452",
+        "email": "ubs.sayonara.saudebv@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Sayonara Maria Dantas Licariao Matos",
+        "short_name": "UBS Unidade Básica de Saude Sayonara Maria Dantas Licariao Matos",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7418753,
+          2.8009917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2566605,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "2566605",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE SENADOR HELIO CAMPOS",
+        "addr:street": "Rua Thereza Magalhaes Brasil",
+        "addr:housenumber": "28",
+        "addr:suburb": "Senador Helio Campos",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69301-970",
+        "phone": "+55 95 3621-6056",
+        "email": "ubs.shc.saudebv@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Senador Helio Campos",
+        "short_name": "UBS Unidade Básica de Saude Senador Helio Campos",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7456789,
+          2.7923658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2566478,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "2566478",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE BASICA DE SAUDE TANCREDO NEVES",
+        "addr:street": "Rua Av São Sebastiao Com Rut Pinheiro",
+        "addr:suburb": "Tancredo Neves",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69301-970",
+        "phone": "+55 95 3628-7121",
+        "email": "ubs.tancredoneves.saudebv@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde Unidade Básica de Saude Tancredo Neves",
+        "short_name": "UBS Unidade Básica de Saude Tancredo Neves",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7280277,
+          2.8262491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9513973,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "9513973",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DE REFERENCIA DO PFQA",
+        "addr:street": "Rua Solon Rodrigues Pessoa",
+        "addr:housenumber": "615",
+        "addr:suburb": "Pintolandia",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69301-000",
+        "phone": "+55 95 3621-6055",
+        "email": "projrtosespeciais.smsa@boavista.rr.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Básica de Saúde De Referencia do Pfqa",
+        "short_name": "UBS De Referencia do Pfqa",
+        "comment": "UBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7496175,
+          2.8103523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2589915,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "2589915",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POLICLINICA CORONEL MOTA",
+        "addr:street": "Rua Coronel Pinto",
+        "addr:housenumber": "636",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69301-150",
+        "phone": "+55 95 98413-1764",
+        "email": "dg.cmecm@saude.rr.gov.br",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Serviço de Reabilitação Física Nível Intermediário",
+        "comment": "Reabilitação Física"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.67145,
+          2.82395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2319659,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "2319659",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL GERAL DE RORAIMA HGR",
+        "addr:street": "Rua Av Brigadeiro Eduardo Gomes",
+        "addr:housenumber": "3308",
+        "addr:suburb": "Aeroporto",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69310-005",
+        "phone": "(95)98400-4217/7029",
+        "email": "direcaogeral.hgr@saude.rr.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Geral de Roraima Hgr",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6886005,
+          2.8333487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2320681,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "2320681",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL DA CRIANCA SANTO ANTONIO",
+        "addr:street": "Rua Av das Guianas",
+        "addr:housenumber": "1645",
+        "addr:suburb": "13 de Setembro",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69308-160",
+        "phone": "+55 95 3198-3000",
+        "email": "hcsa.saude@boavista.rr.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital da Crianca Santo Antonio",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6889057,
+          2.8047702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2566168,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "2566168",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "HOSPITAL MATERNO INFANTIL N SRA DE NAZARETH",
+        "addr:street": "Rua Presidente Costa e Silva",
+        "addr:housenumber": "1100",
+        "addr:suburb": "São Francisco",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69305-115",
+        "phone": "+55 95 98412-7740",
+        "email": "direcaogeralhmirr@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Materno Infantil N Sra de Nazareth",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.670532,
+          2.8166819
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5906687,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "5906687",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAUDE NAS FRONTEIRAS 1",
+        "addr:street": "Avenida General Sampaio",
+        "addr:suburb": "13 de Setembro",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69308-150",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Saude Nas Fronteiras 1",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6904641,
+          2.7973815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6836658,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "6836658",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "TJR",
+        "addr:street": "Rua Centro Civico",
+        "addr:housenumber": "296",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69301-380",
+        "phone": "+55 95 4124-2811",
+        "email": "presidencia@tjrr.jus.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Tjr",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6727481,
+          2.8221514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7545738,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "7545738",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "ABRIGO DE IDOSOS MARIA LINDALVA TEIXEIRA DE OLIVEIRA",
+        "addr:street": "Rua Cabo Pm Laurence de Melo",
+        "addr:housenumber": "259",
+        "addr:suburb": "Carana",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69313-640",
+        "email": "abrigodeidososmlto@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Abrigo de Idosos Maria Lindalva Teixeira de Oliveira",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.71434,
+          2.84265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 928194,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "928194",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "BASE AEREA DE BOA VISTA BABV",
+        "addr:street": "Rua Waldemar Bastos de Oliveira",
+        "addr:housenumber": "2990",
+        "addr:suburb": "Aeroporto",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69310-108",
+        "phone": "+55 95 4009-1020",
+        "email": "scmdo@babv.aer.mil.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Base Aerea de Boa Vista Babv",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6977677,
+          2.8464975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9156836,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "9156836",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENT DE TRATAMENTO E PREV DE CANCER DE COLO E MAMA CPCOM",
+        "addr:street": "Rua Av Olimpica",
+        "addr:housenumber": "219",
+        "addr:suburb": "Jardim Tropical",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69301-000",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Centro Especializado em Reabilitação (CER)",
+        "short_name": "CER",
+        "comment": "Reabilitação (CER)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7330871,
+          2.7974618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3914763,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "3914763",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ESPECIALIDADES ODONTOLOGICAS CEO",
+        "addr:street": "Rua Raimundo Filgueiras",
+        "addr:housenumber": "661",
+        "addr:suburb": "Buritis",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69309-182",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Centro de Especialidades Odontológicas (CEO)",
+        "short_name": "CEO",
+        "comment": "Odontologia (CEO)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7104128,
+          2.8212754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7417799,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "7417799",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ESPECIALIDADES ODONTOLOGICAS CEO SESAU RR",
+        "addr:street": "Rua Uraricoera",
+        "addr:housenumber": "1346",
+        "addr:suburb": "São Vicente",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69303-453",
+        "phone": "+55 95 98400-5916",
+        "email": "ceo-rr@outlook.com",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "name": "Centro de Especialidades Odontológicas (CEO)",
+        "short_name": "CEO",
+        "comment": "Odontologia (CEO)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6901815,
+          2.8133409
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2320657,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "2320657",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE RECUPERACAO NUTRICIONAL INFANTIL CERNUTRI",
+        "addr:street": "Rua Av Ataide Teive",
+        "addr:housenumber": "2493",
+        "addr:suburb": "Liberdade",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69309-000",
+        "phone": "+55 95 3625-5474",
+        "email": "cernutri@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Recuperacao Nutricional Infantil Cernutri",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7024884,
+          2.8193331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3221172,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "3221172",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE REF DA SAUDE DA MULHER MARIA LUIZA CASTRO PERIN",
+        "addr:street": "Rua Av Capitao Julio Bezerra",
+        "addr:housenumber": "1632",
+        "addr:suburb": "Aparecida",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69306-025",
+        "phone": "+55 95 98405-4912",
+        "email": "crsm_sesau.rr@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Ref da Saude da Mulher Maria Luiza Castro Perin",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.672304,
+          2.8224438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7597886,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "7597886",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE REFERENCIA EM SAUDE DO TRABALHADOR",
+        "addr:street": "Rua Eurides Vasconcelos Rodrigues",
+        "addr:housenumber": "562",
+        "addr:suburb": "Fardim Floresta",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69312-022",
+        "phone": "+55 95 98413-2427",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Referencia em Saude do Trabalhador",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7048488,
+          2.8302846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7339194,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "7339194",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO ESPECEALIZADO EM REABILITACAO FISICA E INTELECTUAL CE",
+        "addr:street": "Rua Av São Sebastiao",
+        "addr:housenumber": "1195",
+        "addr:suburb": "Santa Tereza",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69314-152",
+        "email": "ceriibv@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Centro Especializado em Reabilitação (CER)",
+        "short_name": "CER",
+        "comment": "Reabilitação (CER)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7276288,
+          2.8307465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2320673,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "2320673",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO MUNICIPAL INTEGRADO DE EDUCACAO ESPECIAL",
+        "addr:street": "Rua Paraiba",
+        "addr:housenumber": "444",
+        "addr:suburb": "Dos Estados",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69305-430",
+        "phone": "+55 46 95623-2113",
+        "email": "cmiee_smec@outlook.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro Municipal Integrado de Educacao Especial",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6698298,
+          2.8445258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7807643,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "7807643",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CERAC RR",
+        "addr:street": "Rua Av Brigadeiro Eduardo Gomes",
+        "addr:housenumber": "1364",
+        "addr:suburb": "Dos Estados",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69305-455",
+        "phone": "+55 95 98406-0681",
+        "email": "cerac.tfd@saude.rr.gov.br",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Centro Especializado em Reabilitação (CER)",
+        "short_name": "CER",
+        "comment": "Reabilitação (CER)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6728339,
+          2.8196867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5138167,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "5138167",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CEREST RR",
+        "addr:street": "Rua Arnaldo Brandao",
+        "addr:housenumber": "823",
+        "addr:suburb": "São Francisco",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69305-080",
+        "phone": "+55 95 98404-5309",
+        "email": "cerestroraima@yahoo.com.br",
+        "amenity": "clinic",
+        "healthcare": "occupational_health",
+        "name": "CEREST Macro Centro Sul",
+        "short_name": "CEREST",
+        "comment": "Saúde do Trabalhador (CEREST)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6685853,
+          2.8289475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2984474,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "2984474",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DPMST DIVISAO DE PERICIA MEDICA E SAUDE DO TRABALHO",
+        "addr:street": "Rua Francisco Paulino da Silva Aguiar",
+        "addr:housenumber": "215",
+        "addr:suburb": "Cacari",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69307-670",
+        "email": "dpmst.rr.segad@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Dpmst Divisao de Pericia Medica e Saude do Trabalho",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.64669,
+          2.85032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9363211,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "9363211",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "GERENCIA ESTADUAL DE TRATAMENTO FORA DE DOMICILIO GTFD RR",
+        "addr:street": "Rua Av Brigadeiro Eduardo Gomes",
+        "addr:housenumber": "1364",
+        "addr:suburb": "Dos Estados",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69305-455",
+        "phone": "+55 95 98406-0681",
+        "email": "cerac.tfd@saude.rr.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Gerencia Estadual de Tratamento Fora de Domicilio Gtfd Rr",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6899142,
+          2.8313669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5545501,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "5545501",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "NUCLEO ESTADUAL DE REABILITACAO FISICA 05 DE OUTUBRO",
+        "addr:street": "Rua Av General Ataide Teive",
+        "addr:housenumber": "6459",
+        "addr:suburb": "Nova Canaa",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69314-382",
+        "phone": "+55 95 98404-9631",
+        "email": "nerf.cgae@saude.rr.gov.br",
+        "amenity": "clinic",
+        "healthcare": "rehabilitation",
+        "name": "Centro Especializado em Reabilitação (CER)",
+        "short_name": "CER",
+        "comment": "Reabilitação (CER)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7676366,
+          2.8152691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3406032,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "3406032",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UFRR",
+        "addr:street": "Rua Capitao Ene Garcez",
+        "addr:housenumber": "2413",
+        "addr:suburb": "Aeroporto",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69310-000",
+        "phone": "+55 95 3621-3123",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Ufrr",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6921244,
+          2.8335101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 112828,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "112828",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE SAUDE DA 1 BRIGADA DE SELVA RR",
+        "addr:street": "Rua Marques de Pombal",
+        "addr:suburb": "13 de Setembro",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69308-300",
+        "phone": "+55 95 3623-8212",
+        "email": "setfin1bdainfsl@click21.com.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade de Saude da 1 Brigada de Selva Rr",
+        "comment": "Centro de Especialidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6920385,
+          2.7938827
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 109320,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "109320",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE MOVEL DE ATENCAO BASICA PRIMARIA 01",
+        "addr:street": "Rua Coronel Mota",
+        "addr:housenumber": "418",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69301-120",
+        "phone": "+55 95 3623-2210",
+        "email": "saesmsa@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Movel de Atencao Básica Primaria 01",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6658173,
+          2.8232229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 109339,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "109339",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE MOVEL DE ATENCAO PRIMARIA 02",
+        "addr:street": "Rua Coronel Mota",
+        "addr:housenumber": "418",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69301-120",
+        "phone": "+55 95 3623-2210",
+        "email": "saesmsa@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidade Movel de Atencao Primaria 02",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6654954,
+          2.8231479
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 406449,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "406449",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UOM DSEI LESTE DE RORAIMA 01",
+        "addr:street": "Avenida Brasil",
+        "addr:suburb": "Raiar do Sol",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69316-072",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Uom Dsei Leste de Roraima 01",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7133675,
+          2.776694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2744635,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "2744635",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CORPO DE BOMBEIRO MILITAR",
+        "addr:street": "Rua Av Venezuela",
+        "addr:housenumber": "1271",
+        "addr:suburb": "Pricuma",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69309-690",
+        "phone": "+55 95 2121-7601",
+        "email": "comandocrmrr@hotmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6934691,
+          2.8169705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7011385,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "7011385",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU 192 BRAVO 1",
+        "addr:street": "Rua Oito",
+        "addr:housenumber": "138",
+        "addr:suburb": "Jardim Tropical",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69314-615",
+        "phone": "+55 95 3621-3217",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7329798,
+          2.7943113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7011415,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "7011415",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU 192 BRAVO 2",
+        "addr:street": "Rua Oito",
+        "addr:housenumber": "138",
+        "addr:suburb": "Jardim Tropical",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69314-615",
+        "phone": "+55 95 3621-3217",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7343102,
+          2.7950829
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7011431,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "7011431",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU 192 BRAVO 3",
+        "addr:street": "Rua Deco Fonteles",
+        "addr:housenumber": "593",
+        "addr:suburb": "Jardim Floresta",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69312-072",
+        "phone": "+55 95 3621-3217",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7159205,
+          2.8355321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7011474,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "7011474",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU 192 SAV",
+        "addr:street": "Rua Sorocaima",
+        "addr:housenumber": "123",
+        "addr:suburb": "São Vicente",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69305-660",
+        "phone": "+55 95 3621-3217",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6858373,
+          2.8091423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4470265,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "4470265",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU 192 USA 02",
+        "addr:street": "Rua Av Sorocaima",
+        "addr:housenumber": "123",
+        "addr:suburb": "São Vicente",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69314-615",
+        "phone": "+55 95 3623-2210",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6871676,
+          2.8077278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4544838,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "4544838",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAMU 192 USB 04",
+        "addr:street": "Rua Av Sorocaima",
+        "addr:housenumber": "123",
+        "addr:suburb": "São Francisco",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69303-400",
+        "phone": "+55 95 03623-2210",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Base SAMU 192",
+        "short_name": "SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6869133,
+          2.8080493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2589885,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "2589885",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "COORDENADORIA GERAL DE ASSISTENCIA FARMACEUTICA CGAF",
+        "addr:street": "Rua Av São Sebastiao",
+        "addr:housenumber": "1485",
+        "addr:suburb": "Santa Tereza",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69314-152",
+        "phone": "+55 95 98406-1026",
+        "email": "coordenacao.cgaf@saude.rr.gov.br",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "dispensing": "yes",
+        "name": "Coordenadoria Geral de Assistencia Farmaceutica Cgaf",
+        "comment": "Farmácia Pública"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6847814,
+          2.8217658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5788013,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "5788013",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DIVISAO DE VIGILANCIA EPIDEMIOLOGICA",
+        "addr:street": "Rua Coronel Mota",
+        "addr:housenumber": "418",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69301-970",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6655169,
+          2.8230086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2566184,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "2566184",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UNIDADE DE VIGILANCIA E CONTROLE DE ZOONOSES",
+        "addr:street": "Rua Av Centenario",
+        "addr:housenumber": "469",
+        "addr:suburb": "Centenario",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69301-970",
+        "phone": "+55 95 3623-1585",
+        "email": "zoonoses.saude@pmbv.rr.gov.br",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.708003,
+          2.7986406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2566176,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "2566176",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "VIGILANCIA SANITARIA",
+        "addr:street": "Rua Av Getulio Vargas",
+        "addr:housenumber": "678",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69301-970",
+        "phone": "+55 46 95623-1314",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Vigilância Sanitária Municipal",
+        "short_name": "VISA",
+        "comment": "Vigilância Sanitária"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6657878,
+          2.8232524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2476835,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "2476835",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "LABORAT CENTRAL DE SAUDE PUBL DO EST DE RORAIMA LACEN RR",
+        "addr:street": "Rua Av Brigadeiro Eduardo Gomes",
+        "addr:housenumber": "3510",
+        "addr:suburb": "Aeroporto",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69310-005",
+        "phone": "+55 95 98406-3191",
+        "email": "lecen.cgvs@saude.rr.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Laborat Central de Saude Publ do Est de Roraima LACEN Rr",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.69049,
+          2.83195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3573141,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "3573141",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SECRETARIA DE ESTADO DA SAUDE",
+        "addr:street": "Rua Madri",
+        "addr:housenumber": "180",
+        "addr:suburb": "Aeroporto",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69310-043",
+        "email": "gabinete@saude.rr.gov.br",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6906462,
+          2.8310673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6615066,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "6615066",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SMSA SECRETARIA MUNICIPAL DE SAUDE DE BOA VISTA",
+        "addr:street": "Rua Coronel Mota",
+        "addr:housenumber": "418",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69301-120",
+        "phone": "+55 95 3621-1002",
+        "email": "fatsmsabv@hotmail.com",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Secretaria Municipal de Saúde de Pato Branco",
+        "short_name": "SMS Pato Branco",
+        "comment": "Secretaria Municipal de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6667238,
+          2.8239925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2566214,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "2566214",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE HEMOTERAPIA E HEMATOLOGIA DE RORAIMA",
+        "addr:street": "Rua Av Brigadeiro Eduardo Gomes",
+        "addr:housenumber": "3418",
+        "addr:suburb": "Aeroporto",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69304-015",
+        "phone": "+55 95 98414-0726",
+        "email": "direcao.hemoraima@saude.rr.gov.br",
+        "amenity": "blood_donation",
+        "healthcare": "blood_donation",
+        "name": "Hemonúcleo de Pato Branco (HEMEPAR)",
+        "short_name": "Hemepar Pato Branco",
+        "comment": "Doação de Sangue (HEMEPAR)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6972653,
+          2.8271622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6902669,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "6902669",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENT DE ATEN PSICOSSOCIAL CAPS II DONA ANT DE MATOS CAMPOS",
+        "addr:street": "Rua Pavao",
+        "addr:housenumber": "195",
+        "addr:suburb": "Mecejana",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69301-000",
+        "phone": "+55 95 3624-2384",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6933796,
+          2.8234989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6259170,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "6259170",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE AT PSICOSSOCIAL ALCOOL E OUTRA DROGAS CAPS AD III",
+        "addr:street": "Rua Jose Bonifacio",
+        "addr:housenumber": "630",
+        "addr:suburb": "Nossa Senhora Aparec",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69306-275",
+        "phone": "+55 95 98407-2238",
+        "email": "capsad.cgae@saude.rr.gov.br",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.662384,
+          2.8340887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3068692,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "3068692",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE ATEN PSICOSSOCIAL EDNA MACELLARO M SOUZA CAPS III",
+        "addr:street": "Rua Av Cap Ene Garcez",
+        "addr:housenumber": "497",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69301-160",
+        "phone": "+55 95 98404-4219",
+        "email": "caps3.cgae@saude.rr.gov.br",
+        "amenity": "clinic",
+        "healthcare": "psychiatry",
+        "healthcare:speciality": "psychiatry",
+        "name": "Centro de Atenção Psicossocial (CAPS II)",
+        "short_name": "CAPS II",
+        "comment": "CAPS II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6732416,
+          2.8206726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9406190,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "9406190",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CASA DE SAUDE INDIGENA LESTE DE RORAIMA",
+        "addr:street": "Avenida Brasil",
+        "addr:suburb": "Raiar do Sol",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69316-072",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Casa de Saude Indigena Leste de Roraima",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7135177,
+          2.7768654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2320665,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "2320665",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CASA DE SAUDE INDIGENA YANOMAMI E YEKWANA",
+        "addr:street": "Rua Colonia Monte Cristo",
+        "addr:suburb": "Monte Cristo",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69301-970",
+        "phone": "+55 95 3627-2440",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Casa de Saude Indigena Yanomami e Yekwana",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.707,
+          2.86
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7511582,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "7511582",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DISTRITO SANITARIO ESPECIAL INDIGENA LESTE DE RORAIMA",
+        "addr:street": "Avenida Ville Roy",
+        "addr:housenumber": "8282",
+        "addr:suburb": "São Vicente",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69303-445",
+        "phone": "+55 95 3621-1101",
+        "email": "dseileste.sesai@saude.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Distrito Sanitario Especial Indigena Leste de Roraima",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6852686,
+          2.8071813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7893787,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "7893787",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "DISTRITO SANITARIO ESPECIAL INDIGENA YANOMAMI E YEKWANA",
+        "addr:street": "Rua Cecilia Brasil",
+        "addr:housenumber": "1043",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69301-080",
+        "phone": "+55 95 3621-8650",
+        "email": "dseiyano.sesai@saude.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Distrito Sanitario Especial Indigena Yanomami e Yekwana",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.670369,
+          2.8137769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2319829,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "2319829",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POLO BASE INDIGENA MILHO",
+        "addr:street": "Rua Comunidade Indigena Milho",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69301-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Polo Base Indigena Milho",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.501709,
+          3.2022196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6985564,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "6985564",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POLO BASE INDIGENA SERRA DO TRUARU",
+        "addr:street": "Rua Comunidade Indigena Serra do Truaru",
+        "addr:suburb": "Rural",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69308-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Polo Base Indigena Serra do Truaru",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6733291,
+          3.2715268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2319802,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "2319802",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POLO BASE INDIGENA VISTA ALEGRE",
+        "addr:street": "Rua Comunidade Indigena Vista Alegre",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69301-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Polo Base Indigena Vista Alegre",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.4412842,
+          3.1130912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9561757,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "9561757",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POSTO DE SAUDE INDIGENA AAKAN",
+        "addr:street": "Rua Comunidade Indigena Aakan",
+        "addr:suburb": "Rural",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69308-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Posto de Saude Indigena Aakan",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.4527166,
+          3.330975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9561668,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "9561668",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POSTO DE SAUDE INDIGENA BOM JESUS",
+        "addr:street": "Rua Comunidade Indigena Bom Jesus",
+        "addr:suburb": "Rural",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69308-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Posto de Saude Indigena Bom Jesus",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.3133864,
+          3.4600339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9561773,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "9561773",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POSTO DE SAUDE INDIGENA CAMPO ALEGRE",
+        "addr:street": "Rua Comunidade Indigena Campo Alegre",
+        "addr:suburb": "Rural",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69308-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Posto de Saude Indigena Campo Alegre",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.5436318,
+          3.227523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9561781,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "9561781",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POSTO DE SAUDE INDIGENA DARORA",
+        "addr:street": "Rua Comunidade Indigena Darora",
+        "addr:suburb": "Rural",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69308-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Posto de Saude Indigena Darora",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.3930952,
+          3.1776986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9561811,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "9561811",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POSTO DE SAUDE INDIGENA ILHA",
+        "addr:street": "Rua Comunidade Indigena Ilha",
+        "addr:suburb": "Rural",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69308-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Posto de Saude Indigena Ilha",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.5648003,
+          3.2469166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9561684,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "9561684",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POSTO DE SAUDE INDIGENA LAGO GRANDE",
+        "addr:street": "Rua Comunidade Indigena Lago Grande",
+        "addr:suburb": "Rural",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69308-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Posto de Saude Indigena Lago Grande",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.3542781,
+          3.4418097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9561846,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "9561846",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POSTO DE SAUDE INDIGENA MAUIXE",
+        "addr:street": "Rua Comunidade Indigena Mauixe",
+        "addr:suburb": "Rural",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69308-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Posto de Saude Indigena Mauixe",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.5816392,
+          3.3902966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9561706,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "9561706",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POSTO DE SAUDE INDIGENA MORCEGO",
+        "addr:street": "Rua Comunidade Indigena Morcego",
+        "addr:suburb": "Rural",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69308-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Posto de Saude Indigena Morcego",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6322164,
+          3.2321053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9561854,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "9561854",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POSTO DE SAUDE INDIGENA SAO MARCOS",
+        "addr:street": "Rua Comunidade Indigena São Marcos",
+        "addr:suburb": "Rural",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69308-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Posto de Saude Indigena São Marcos",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.4855829,
+          3.0431456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9561730,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "9561730",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POSTO DE SAUDE INDIGENA SERRA DA MOCA",
+        "addr:street": "Rua Comunidade Indigena Serra da Moca",
+        "addr:suburb": "Rural",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69308-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Posto de Saude Indigena Serra da Moca",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6938003,
+          3.2291606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9561692,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "9561692",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POSTO DE SAUDE INDIGENA TRES IRMAOS",
+        "addr:street": "Rua Comunidade Indigena Tres Irmaos",
+        "addr:suburb": "Rural",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69308-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Posto de Saude Indigena Tres Irmaos",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.5623443,
+          3.4762343
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9561749,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "9561749",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POSTO DE SAUDE INDIGENA TRUARU DA CABECEIRA",
+        "addr:street": "Rua Comunidade Indigena Truaru da Cabeceira",
+        "addr:suburb": "Rural",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69308-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Posto de Saude Indigena Truaru da Cabeceira",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.9848894,
+          3.2248795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9561862,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "9561862",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POSTO DE SAUDE INDIGENA VISTA NOVA",
+        "addr:street": "Rua Comunidade Indigena Vista Nova",
+        "addr:suburb": "Rural",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69308-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Posto de Saude Indigena Vista Nova",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.5665944,
+          3.3218412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2566206,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "2566206",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "UPA 24H COSME E SILVA",
+        "addr:street": "Rua Delman Veras",
+        "addr:suburb": "Pintolandia I",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69316-702",
+        "phone": "+55 95 98403-0948",
+        "email": "ngp.pcs@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "emergency": "yes",
+        "opening_hours": "24/7",
+        "name": "UPA 24 Horas Maria Itália Freddo",
+        "short_name": "UPA 24h",
+        "comment": "UPA 24h"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.673027,
+          2.8200296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6887805,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "6887805",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "POLO ACADEMIA DA SAUDE",
+        "addr:street": "Rua Raimundo Pena Forte",
+        "addr:suburb": "Buritis",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69309-182",
+        "phone": "+55 95 3623-7396",
+        "email": "dant.smsa.bv@gmail.com",
+        "leisure": "fitness_centre",
+        "healthcare": "rehabilitation",
+        "name": "Academia da Saúde Polo",
+        "comment": "Academia da Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7204056,
+          2.8181436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4468414,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "4468414",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRO DE TELEASSISTENCIA DRA ERIKA PRISCILLA NASCIMENTO VA",
+        "addr:street": "Rua Armando Nogueira",
+        "addr:housenumber": "661",
+        "addr:suburb": "Burits",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69309-182",
+        "phone": "+55 95 99134-1180",
+        "email": "telesaudebv.rr@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Teleassistencia Dra Erika Priscilla Nascimento Va",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7196203,
+          2.8141566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4724488,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "4724488",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "NUCLEO DE TELESSAUDE DA UFRR",
+        "addr:street": "Rua Av Capitao Ene Garcez",
+        "addr:housenumber": "2413",
+        "addr:suburb": "Aeroporto",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69310-000",
+        "phone": "+55 95 03621-3123",
+        "email": "telessaude.ufrr@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Nucleo de Telessaude da Ufrr",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6951556,
+          2.8329953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7729952,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "7729952",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "NUCLEO TELESSAUDE DO ESTADO DE RORAIMA",
+        "addr:street": "Rua Madri",
+        "addr:housenumber": "180",
+        "addr:suburb": "Aeroporto",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69310-043",
+        "phone": "+55 95 99124-1477",
+        "email": "cgab@saude.rr.gov.br",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Nucleo Telessaude do Estado de Roraima",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6910086,
+          2.8316884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7162405,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "7162405",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL DE REGUL DAS URGENCIAS DO ESTADO DE RORAIMA SAMU 192",
+        "addr:street": "Rua Madri",
+        "addr:housenumber": "180",
+        "addr:suburb": "Aeroporto",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69310-043",
+        "phone": "+55 95 98406-0354",
+        "email": "crumsamurr@gmail.com",
+        "emergency": "ambulance_station",
+        "emergency_service": "technical_rescue",
+        "opening_hours": "24/7",
+        "name": "Central de Regulação Médica das Urgências (SAMU 192)",
+        "short_name": "Regulação SAMU 192",
+        "comment": "SAMU 192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6840605,
+          2.8078941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6327974,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "6327974",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "LABORATORIO DE ANALISE DE AGUA",
+        "addr:street": "Rua Av Avenida Centenario",
+        "addr:suburb": "Centenario",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69301-000",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Laboratorio de Analise de Agua",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7050124,
+          2.7981423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7322879,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "7322879",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "LABORATORIO DE ANATOMOCITOPATOLOGIA DO E DE RORAIMA LAPER",
+        "addr:street": "Rua Amsterdan",
+        "addr:suburb": "Aeroporto",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69310-005",
+        "email": "lablaper.sesau@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Laboratorio de Anatomocitopatologia do e de Roraima Laper",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.68958,
+          2.83288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7033109,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "7033109",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "LABORATORIO DE CITOLOGIA MUNICIPAL",
+        "addr:street": "Rua Av Olimpica",
+        "addr:suburb": "Jardim Tropical",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69304-500",
+        "phone": "+55 95 3625-2239",
+        "email": "jhonekitty@hotmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Laboratorio de Citologia Municipal",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7337093,
+          2.7974833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6160697,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "6160697",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "LABORATORIO DE REFERENCIA MUNICIPAL",
+        "addr:street": "Rua Monte Roraima",
+        "addr:housenumber": "83",
+        "addr:suburb": "São Vicente",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69303-370",
+        "email": "laboratoriodereferenciapmbv@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Laboratorio de Referencia Municipal",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6872101,
+          2.8115932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7132883,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "7132883",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "COMPLEXO REGULADOR",
+        "addr:street": "Rua Av Brigadeiro Eduardo Gomes",
+        "addr:housenumber": "1364",
+        "addr:suburb": "Dos Estados",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69305-455",
+        "email": "cgracsesau@gmail.com",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Sistema Municipal de Auditoria e Regulação em Saúde",
+        "comment": "Auditoria e Regulação"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6728768,
+          2.8199225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7653131,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "7653131",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "CENTRAL DE NOTIF CAPIT DIST DE ORGAOS DE RORAIMA CNCDO",
+        "addr:street": "Rua Av Brigadeiro Eduardo Gomes",
+        "addr:suburb": "Dos Estados",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69305-455",
+        "phone": "+55 95 98122-9482",
+        "email": "transplantesrr@gmail.com",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Central de Notif Capit Dist de Orgaos de Roraima Cncdo",
+        "comment": "Outros Serviços de Saúde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.67312,
+          2.84131
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9193235,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "9193235",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "COORDENACAO MUNICIPAL DE IMUNIZACAO",
+        "addr:street": "Rua Eurides Vasconcelos Rodrigues",
+        "addr:housenumber": "562",
+        "addr:suburb": "Jardim Floresta",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69312-022",
+        "email": "cmiboavista@gmail.com",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Coordenacao Municipal de Imunizacao",
+        "comment": "Suprimentos / Logística"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7048329,
+          2.830048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7563280,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "7563280",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "NUCLEO ESTADUAL DO PROGRAMA NACIONAL DE IMUNIZACAO NEPNI",
+        "addr:street": "Rua Almerio Mota Pereira",
+        "addr:suburb": "Jardim Floresta",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69312-095",
+        "phone": "+55 95 98412-6471",
+        "email": "nepni.cgvs@saude.rr.gov.br",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Nucleo Estadual do Programa Nacional de Imunizacao Nepni",
+        "comment": "Suprimentos / Logística"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.698669,
+          2.8293524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4378229,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "4378229",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "REDE DE FRIO DSEI LESTE DE RORAIMA",
+        "addr:street": "Rua Av Ville Roy",
+        "addr:housenumber": "8282",
+        "addr:suburb": "São Vicente",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69303-445",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Rede de Frio Dsei Leste de Roraima",
+        "comment": "Suprimentos / Logística"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.4106,
+          2.4826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6615082,
+      "properties": {
+        "operator": "Prefeitura Municipal de Boa Vista",
+        "operator:type": "public",
+        "ref:CNES": "6615082",
+        "source": "cnes;datasus;dados_abertos_saude",
+        "official_name": "SAF SUPERINTENDENCIA DE ASSISTENCIA FARMACEUTICA",
+        "addr:street": "Rua Av Capitao Julio Bezerra",
+        "addr:housenumber": "1150",
+        "addr:suburb": "São Francisco",
+        "addr:city": "Boa Vista",
+        "addr:state": "RR",
+        "addr:country": "BR",
+        "addr:postcode": "69305-025",
+        "phone": "+55 95 3224-8988",
+        "email": "saf.saude@boavista.rr.gov.br",
+        "office": "government",
+        "government": "healthcare",
+        "name": "Saf Superintendencia de Assistencia Farmaceutica",
+        "comment": "Suprimentos / Logística"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6700176,
+          2.8319724
+        ]
+      }
+    }
+  ]
+}
