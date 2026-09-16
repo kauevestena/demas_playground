@@ -30,7 +30,8 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   // 2. State & Driver Initialization
-  const savedProxy = localStorage.getItem('demas_proxy_url') || '';
+  const DEFAULT_PROXY = 'https://demas-cors-proxy.kauemv2.workers.dev';
+  const savedProxy = localStorage.getItem('demas_proxy_url') || DEFAULT_PROXY;
   const driver = new DEMASDriver({ proxyUrl: savedProxy });
 
   let map = null;
