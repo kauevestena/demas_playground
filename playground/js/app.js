@@ -68,24 +68,40 @@ document.addEventListener('DOMContentLoaded', () => {
   if (proxyInput) proxyInput.value = savedProxy;
 
   // 3. Initialize MapLibre GL
-  map = new maplibregl.Map({
-    container: 'map',
-    style: BASEMAPS.liberty,
-    center: [-52.6799, -26.2252], // Default: Pato Branco
-    zoom: 13,
-    minZoom: 4,
-    maxZoom: 19,
-  });
+  let popup = null;
+  try {
+    map = new maplibregl.Map({
+      container: 'map',
+      style: BASEMAPS.liberty,
+      center: [-52.6799, -26.2252], // Default: Pato Branco
+      zoom: 13,
+      minZoom: 4,
+      maxZoom: 19,
+    });
 
-  map.addControl(new maplibregl.NavigationControl({ showCompass: true, visualizePitch: true }), 'top-right');
-  map.addControl(new maplibregl.ScaleControl({ unit: 'metric' }), 'bottom-left');
+    map.addControl(new maplibregl.NavigationControl({ showCompass: true, visualizePitch: true }), 'top-right');
+    map.addControl(new maplibregl.ScaleControl({ unit: 'metric' }), 'bottom-left');
 
-  const popup = new maplibregl.Popup({
-    closeButton: true,
-    closeOnClick: false,
-    offset: 14,
-    maxWidth: '320px',
-  });
+    popup = new maplibregl.Popup({
+      closeButton: true,
+      closeOnClick: false,
+      offset: 14,
+      maxWidth: '320px',
+    });
+  } catch (webglErr) {
+    console.warn('MapLibre GL failed to initialize (WebGL unavailable or disabled):', webglErr);
+    const mapEl = document.getElementById('map');
+    if (mapEl) {
+      mapEl.innerHTML = `
+        <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;padding:24px;text-align:center;color:#64748b;background:#f8fafc;">
+          <div style="font-size:36px;margin-bottom:12px;">🗺️</div>
+          <div style="font-weight:600;font-size:16px;color:#334155;margin-bottom:6px;">Aceleração Gráfica / WebGL Indisponível</div>
+          <p style="font-size:13px;max-width:380px;line-height:1.5;">O mapa interativo requer suporte WebGL no seu navegador. Os seletores de estado, municípios, filtros, listagem e exportação JOSM continuam funcionando normalmente.</p>
+        </div>
+      `;
+    }
+    map = null;
+  }
 
   // Layer Preservation across basemaps
   function preserveHealthLayers(currentStyle, nextStyle) {
@@ -111,7 +127,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function addHealthLayers() {
-    if (map.getSource('health-facilities')) return;
+    if (!map || !map.loaded() || map.getSource('health-facilities')) return;
 
     map.addSource('health-facilities', {
       type: 'geojson',
@@ -250,13 +266,15 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  map.on('load', () => {
-    addHealthLayers();
-    if (currentGeojson && map.getSource('health-facilities')) {
-      map.getSource('health-facilities').setData(currentGeojson);
-      applyCameraForCurrentCity();
-    }
-  });
+  if (map) {
+    map.on('load', () => {
+      addHealthLayers();
+      if (currentGeojson && map.getSource('health-facilities')) {
+        map.getSource('health-facilities').setData(currentGeojson);
+        applyCameraForCurrentCity();
+      }
+    });
+  }
 
   // Basemap switcher buttons
   document.querySelectorAll('.btn-basemap').forEach(btn => {
@@ -266,15 +284,18 @@ document.addEventListener('DOMContentLoaded', () => {
       document.querySelectorAll('.btn-basemap').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       currentStyleId = styleKey;
-      map.setStyle(BASEMAPS[styleKey], {
-        diff: true,
-        transformStyle: preserveHealthLayers,
-      });
+      if (map) {
+        map.setStyle(BASEMAPS[styleKey], {
+          diff: true,
+          transformStyle: preserveHealthLayers,
+        });
+      }
     });
   });
 
   // Hover state handlers
   function setHoverFeature(id) {
+    if (!map || !map.loaded()) return;
     if (hoveredFeatureId !== null) {
       map.setFeatureState({ source: 'health-facilities', id: hoveredFeatureId }, { hover: false });
     }
@@ -285,6 +306,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function clearHoverFeature() {
+    if (!map || !map.loaded()) return;
     if (hoveredFeatureId !== null) {
       map.setFeatureState({ source: 'health-facilities', id: hoveredFeatureId }, { hover: false });
       hoveredFeatureId = null;
@@ -292,6 +314,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function showPopup(feature) {
+    if (!popup || !map) return;
     const coords = feature.geometry.coordinates.slice();
     const p = feature.properties;
     const catStyle = CATEGORY_STYLES[p.comment] || { color: '#64748b' };
@@ -483,7 +506,7 @@ document.addEventListener('DOMContentLoaded', () => {
     visibleCountEl.textContent = filtered.length;
 
     // Update map filter
-    if (map.getLayer('health-circles')) {
+    if (map && map.loaded() && map.getLayer('health-circles')) {
       const filters = ['all'];
       if (activeCategory !== 'ALL') {
         filters.push(['==', ['get', 'comment'], activeCategory]);
@@ -546,7 +569,9 @@ document.addEventListener('DOMContentLoaded', () => {
         const id = card.dataset.id;
         const feature = features.find(f => String(f.id) === id);
 
-        map.flyTo({ center: [lon, lat], zoom: 16, speed: 1.4 });
+        if (map) {
+          map.flyTo({ center: [lon, lat], zoom: 16, speed: 1.4 });
+        }
         if (feature) {
           setHoverFeature(feature.id);
           showPopup(feature);
