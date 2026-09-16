@@ -34,8 +34,8 @@ jobs:
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Deploy the contents of playground_prototype directory as the site root
-          path: "./playground_prototype"
+          # Deploy repository root (index.html at root, prototype at /playground_prototype/)
+          path: "."
 
       - name: Deploy to GitHub Pages
         id: deployment

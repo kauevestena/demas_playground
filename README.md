@@ -35,10 +35,15 @@ records = retrieve_facilities(municipality=411850, output_format="raw", public_o
 ```
 
 ### Web Playground
-Open `playground_prototype/index.html` in your browser or run a simple local web server:
+You can try the interactive web prototype online or run it locally:
+- **Live Portal**: [https://kauevestena.github.io/demas_playground/](https://kauevestena.github.io/demas_playground/)
+- **Live Prototype Webmap**: [https://kauevestena.github.io/demas_playground/playground_prototype/](https://kauevestena.github.io/demas_playground/playground_prototype/)
+
+To run locally with a simple web server:
 ```bash
-python3 -m http.server 8000 --directory playground_prototype
+python3 -m http.server 8000
 ```
+Then visit [http://localhost:8000/](http://localhost:8000/) for the main portal or [http://localhost:8000/playground_prototype/](http://localhost:8000/playground_prototype/) for the prototype.
 
 ## License
 MIT License
