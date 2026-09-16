@@ -251,7 +251,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function applyCameraForCurrentCity() {
-    if (!map || !map.loaded()) return;
+    if (!map) return;
     const codeStr = String(currentCityInfo.code6);
     if (cachedManifest[codeStr] && cachedManifest[codeStr].center) {
       map.flyTo({
@@ -271,8 +271,8 @@ document.addEventListener('DOMContentLoaded', () => {
       addHealthLayers();
       if (currentGeojson && map.getSource('health-facilities')) {
         map.getSource('health-facilities').setData(currentGeojson);
-        applyCameraForCurrentCity();
       }
+      applyCameraForCurrentCity();
     });
   }
 
@@ -295,7 +295,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Hover state handlers
   function setHoverFeature(id) {
-    if (!map || !map.loaded()) return;
+    if (!map || !map.getSource('health-facilities')) return;
     if (hoveredFeatureId !== null) {
       map.setFeatureState({ source: 'health-facilities', id: hoveredFeatureId }, { hover: false });
     }
@@ -306,7 +306,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function clearHoverFeature() {
-    if (!map || !map.loaded()) return;
+    if (!map || !map.getSource('health-facilities')) return;
     if (hoveredFeatureId !== null) {
       map.setFeatureState({ source: 'health-facilities', id: hoveredFeatureId }, { hover: false });
       hoveredFeatureId = null;
@@ -453,8 +453,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
       currentFeatures = geojson.features || [];
       currentGeojson = geojson;
-      if (map && map.loaded() && map.getSource('health-facilities')) {
-        map.getSource('health-facilities').setData(geojson);
+      if (map) {
+        if (map.getSource('health-facilities')) {
+          map.getSource('health-facilities').setData(geojson);
+        }
         applyCameraForCurrentCity();
       }
 
