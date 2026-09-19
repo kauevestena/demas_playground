@@ -8,7 +8,9 @@
     "center": [
       -52.679959,
       -26.225204
-    ]
+    ],
+    "id7": 4118501,
+    "boundary": "data/boundaries/411850.geojson"
   },
   "120040": {
     "code": 120040,
@@ -19,7 +21,9 @@
     "center": [
       -67.818047,
       -9.976699
-    ]
+    ],
+    "id7": 1200401,
+    "boundary": "data/boundaries/120040.geojson"
   },
   "270430": {
     "code": 270430,
@@ -30,7 +34,9 @@
     "center": [
       -35.741838,
       -9.631809
-    ]
+    ],
+    "id7": 2704302,
+    "boundary": "data/boundaries/270430.geojson"
   },
   "160030": {
     "code": 160030,
@@ -41,7 +47,9 @@
     "center": [
       -50.997909,
       0.153661
-    ]
+    ],
+    "id7": 1600303,
+    "boundary": "data/boundaries/160030.geojson"
   },
   "130260": {
     "code": 130260,
@@ -52,7 +60,9 @@
     "center": [
       -59.986889,
       -3.062035
-    ]
+    ],
+    "id7": 1302603,
+    "boundary": "data/boundaries/130260.geojson"
   },
   "292740": {
     "code": 292740,
@@ -63,7 +73,9 @@
     "center": [
       -38.47221,
       -12.946168
-    ]
+    ],
+    "id7": 2927408,
+    "boundary": "data/boundaries/292740.geojson"
   },
   "230440": {
     "code": 230440,
@@ -74,7 +86,9 @@
     "center": [
       -38.542526,
       -3.768317
-    ]
+    ],
+    "id7": 2304400,
+    "boundary": "data/boundaries/230440.geojson"
   },
   "530010": {
     "code": 530010,
@@ -85,7 +99,9 @@
     "center": [
       -47.945074,
       -15.819778
-    ]
+    ],
+    "id7": 5300108,
+    "boundary": "data/boundaries/530010.geojson"
   },
   "320530": {
     "code": 320530,
@@ -96,7 +112,9 @@
     "center": [
       -40.319309,
       -20.304583
-    ]
+    ],
+    "id7": 3205309,
+    "boundary": "data/boundaries/320530.geojson"
   },
   "520870": {
     "code": 520870,
@@ -107,7 +125,9 @@
     "center": [
       -49.271772,
       -16.670237
-    ]
+    ],
+    "id7": 5208707,
+    "boundary": "data/boundaries/520870.geojson"
   },
   "211130": {
     "code": 211130,
@@ -118,7 +138,9 @@
     "center": [
       -44.28196,
       -2.549682
-    ]
+    ],
+    "id7": 2111300,
+    "boundary": "data/boundaries/211130.geojson"
   },
   "510340": {
     "code": 510340,
@@ -129,7 +151,9 @@
     "center": [
       -56.05998,
       -15.592979
-    ]
+    ],
+    "id7": 5103403,
+    "boundary": "data/boundaries/510340.geojson"
   },
   "500270": {
     "code": 500270,
@@ -140,7 +164,9 @@
     "center": [
       -54.598568,
       -20.462591
-    ]
+    ],
+    "id7": 5002704,
+    "boundary": "data/boundaries/500270.geojson"
   },
   "310620": {
     "code": 310620,
@@ -151,7 +177,9 @@
     "center": [
       -43.957916,
       -19.901331
-    ]
+    ],
+    "id7": 3106200,
+    "boundary": "data/boundaries/310620.geojson"
   },
   "150140": {
     "code": 150140,
@@ -162,7 +190,9 @@
     "center": [
       -48.463436,
       -1.395036
-    ]
+    ],
+    "id7": 1501402,
+    "boundary": "data/boundaries/150140.geojson"
   },
   "250750": {
     "code": 250750,
@@ -173,7 +203,9 @@
     "center": [
       -34.868642,
       -7.143292
-    ]
+    ],
+    "id7": 2507507,
+    "boundary": "data/boundaries/250750.geojson"
   },
   "410690": {
     "code": 410690,
@@ -184,7 +216,9 @@
     "center": [
       -49.277994,
       -25.46892
-    ]
+    ],
+    "id7": 4106902,
+    "boundary": "data/boundaries/410690.geojson"
   },
   "261160": {
     "code": 261160,
@@ -195,7 +229,9 @@
     "center": [
       -34.905027,
       -8.05835
-    ]
+    ],
+    "id7": 2611606,
+    "boundary": "data/boundaries/261160.geojson"
   },
   "221100": {
     "code": 221100,
@@ -206,7 +242,9 @@
     "center": [
       -42.782193,
       -5.085985
-    ]
+    ],
+    "id7": 2211001,
+    "boundary": "data/boundaries/221100.geojson"
   },
   "330455": {
     "code": 330455,
@@ -217,7 +255,9 @@
     "center": [
       -43.346641,
       -22.89573
-    ]
+    ],
+    "id7": 3304557,
+    "boundary": "data/boundaries/330455.geojson"
   },
   "240810": {
     "code": 240810,
@@ -228,7 +268,9 @@
     "center": [
       -35.240809,
       -5.772184
-    ]
+    ],
+    "id7": 2408102,
+    "boundary": "data/boundaries/240810.geojson"
   },
   "431490": {
     "code": 431490,
@@ -239,7 +281,9 @@
     "center": [
       -51.180574,
       -30.058422
-    ]
+    ],
+    "id7": 4314902,
+    "boundary": "data/boundaries/431490.geojson"
   },
   "110020": {
     "code": 110020,
@@ -250,7 +294,9 @@
     "center": [
       -63.886553,
       -8.768411
-    ]
+    ],
+    "id7": 1100205,
+    "boundary": "data/boundaries/110020.geojson"
   },
   "140010": {
     "code": 140010,
@@ -261,7 +307,9 @@
     "center": [
       -60.678246,
       2.882142
-    ]
+    ],
+    "id7": 1400100,
+    "boundary": "data/boundaries/140010.geojson"
   },
   "420540": {
     "code": 420540,
@@ -272,7 +320,9 @@
     "center": [
       -48.530863,
       -27.585404
-    ]
+    ],
+    "id7": 4205407,
+    "boundary": "data/boundaries/420540.geojson"
   },
   "355030": {
     "code": 355030,
@@ -283,7 +333,9 @@
     "center": [
       -46.612606,
       -23.570774
-    ]
+    ],
+    "id7": 3550308,
+    "boundary": "data/boundaries/355030.geojson"
   },
   "280030": {
     "code": 280030,
@@ -294,7 +346,9 @@
     "center": [
       -37.078016,
       -10.931619
-    ]
+    ],
+    "id7": 2800308,
+    "boundary": "data/boundaries/280030.geojson"
   },
   "172100": {
     "code": 172100,
@@ -305,6 +359,8 @@
     "center": [
       -48.335902,
       -10.225024
-    ]
+    ],
+    "id7": 1721000,
+    "boundary": "data/boundaries/172100.geojson"
   }
 }

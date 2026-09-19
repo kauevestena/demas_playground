@@ -67,10 +67,50 @@
   }
 
   /**
-   * Compute Voronoi polygons around point features.
-   * Delimited by padded bounding box of points and municipality.
+   * Filter point features to only those inside the official municipal boundary.
+   * @param {Array} features - GeoJSON point features
+   * @param {Object} boundaryGeojson - GeoJSON FeatureCollection of municipality boundary
+   * @returns {{ inside: Array, outside: Array }}
    */
-  function computeVoronoi(features, marginKm = 4.0) {
+  function filterPointsInBoundary(features, boundaryGeojson) {
+    if (!window.turf || !features || features.length === 0) {
+      return { inside: features || [], outside: [] };
+    }
+    if (!boundaryGeojson || !boundaryGeojson.features || boundaryGeojson.features.length === 0) {
+      return { inside: features, outside: [] };
+    }
+
+    const bFeats = boundaryGeojson.features;
+    const inside = [];
+    const outside = [];
+
+    for (let i = 0; i < features.length; i++) {
+      const feat = features[i];
+      let isInside = false;
+      for (let j = 0; j < bFeats.length; j++) {
+        if (window.turf.booleanPointInPolygon(feat, bFeats[j])) {
+          isInside = true;
+          break;
+        }
+      }
+      if (isInside) {
+        inside.push(feat);
+      } else {
+        outside.push(feat);
+      }
+    }
+
+    return { inside, outside };
+  }
+
+  /**
+   * Compute Voronoi polygons around point features.
+   * Delimited by padded bounding box and clipped by official municipal boundary when available.
+   * @param {Array} features
+   * @param {number} [marginKm=4.0]
+   * @param {Object} [boundaryGeojson=null]
+   */
+  function computeVoronoi(features, marginKm = 4.0, boundaryGeojson = null) {
     if (!window.turf) {
       console.error('Turf.js is not loaded.');
       return { type: 'FeatureCollection', features: [] };
@@ -80,24 +120,44 @@
       return { type: 'FeatureCollection', features: [] };
     }
 
-    // Single facility case: create circular buffer or bbox polygon
+    const bFeat = (boundaryGeojson && boundaryGeojson.features && boundaryGeojson.features.length > 0)
+      ? boundaryGeojson.features[0]
+      : null;
+
+    // Single facility case: municipality boundary polygon or circular buffer
     if (features.length === 1) {
       const pt = features[0];
-      const buffer = window.turf.buffer(pt, marginKm, { units: 'kilometers' });
-      if (buffer) {
-        buffer.properties = {
-          ...pt.properties,
-          pointId: pt.id,
-          facilityName: pt.properties.name || pt.properties.official_name || 'Estabelecimento de Saúde',
-          category: pt.properties.comment || 'Saúde'
+      let polyGeom = null;
+      if (bFeat && bFeat.geometry) {
+        polyGeom = JSON.parse(JSON.stringify(bFeat.geometry));
+      } else {
+        const buffer = window.turf.buffer(pt, marginKm, { units: 'kilometers' });
+        if (buffer) polyGeom = buffer.geometry;
+      }
+
+      if (polyGeom) {
+        return {
+          type: 'FeatureCollection',
+          features: [{
+            type: 'Feature',
+            id: 'voronoi-' + (pt.properties['ref:CNES'] || '0'),
+            geometry: polyGeom,
+            properties: {
+              ...pt.properties,
+              pointId: pt.id,
+              facilityName: pt.properties.name || pt.properties.official_name || 'Estabelecimento de Saúde',
+              cnes: pt.properties['ref:CNES'] || '—',
+              category: pt.properties.comment || 'Saúde',
+              address: [pt.properties['addr:street'], pt.properties['addr:housenumber'], pt.properties['addr:suburb']].filter(Boolean).join(', ')
+            }
+          }]
         };
-        return { type: 'FeatureCollection', features: [buffer] };
       }
     }
 
     try {
       const fc = window.turf.featureCollection(features);
-      const bbox = window.turf.bbox(fc);
+      let bbox = bFeat ? window.turf.bbox(bFeat) : window.turf.bbox(fc);
 
       // Pad bounding box in degrees (1 deg lat ~ 111km)
       const padDegLat = Math.max(marginKm / 111.0, 0.04);
@@ -116,30 +176,49 @@
         return { type: 'FeatureCollection', features: [] };
       }
 
-      // Filter valid polygons and link back properties of generating facility
+      // Filter valid polygons, link back properties, and crop to boundary if provided
       const validPolygons = [];
       voronoiResult.features.forEach((poly, idx) => {
         if (!poly || !poly.geometry || !poly.geometry.coordinates) return;
 
         // Associate generating point
         let genPt = features[idx];
-        // Double check point containment for reliability
         if (!genPt || !window.turf.booleanPointInPolygon(genPt, poly)) {
           const matched = features.find(p => window.turf.booleanPointInPolygon(p, poly));
           if (matched) genPt = matched;
         }
 
         if (genPt) {
-          poly.properties = {
-            ...genPt.properties,
-            pointId: genPt.id,
-            facilityName: genPt.properties.name || genPt.properties.official_name || 'Estabelecimento de Saúde',
-            cnes: genPt.properties['ref:CNES'] || '—',
-            category: genPt.properties.comment || 'Saúde',
-            address: [genPt.properties['addr:street'], genPt.properties['addr:housenumber'], genPt.properties['addr:suburb']].filter(Boolean).join(', ')
+          let finalGeom = poly.geometry;
+
+          // Crop by municipality boundary if provided
+          if (bFeat) {
+            try {
+              const clipped = window.turf.intersect(poly, bFeat);
+              if (clipped && clipped.geometry) {
+                finalGeom = clipped.geometry;
+              } else {
+                return;
+              }
+            } catch (clipErr) {
+              console.warn('Voronoi cell clipping warning:', clipErr);
+            }
+          }
+
+          const clippedPoly = {
+            type: 'Feature',
+            id: 'voronoi-' + (genPt.properties['ref:CNES'] || idx),
+            geometry: finalGeom,
+            properties: {
+              ...genPt.properties,
+              pointId: genPt.id,
+              facilityName: genPt.properties.name || genPt.properties.official_name || 'Estabelecimento de Saúde',
+              cnes: genPt.properties['ref:CNES'] || '—',
+              category: genPt.properties.comment || 'Saúde',
+              address: [genPt.properties['addr:street'], genPt.properties['addr:housenumber'], genPt.properties['addr:suburb']].filter(Boolean).join(', ')
+            }
           };
-          poly.id = 'voronoi-' + (genPt.properties['ref:CNES'] || idx);
-          validPolygons.push(poly);
+          validPolygons.push(clippedPoly);
         }
       });
 
@@ -393,8 +472,13 @@
 
   /**
    * Compute Hexagonal binning for given point features.
+   * Delimited by points extent and cropped by official municipal boundary when available.
+   * @param {Array} features
+   * @param {number} [radiusKm=1.0]
+   * @param {string} [classificationMethod='continuous']
+   * @param {Object} [boundaryGeojson=null]
    */
-  function computeHexbins(features, radiusKm = 1.0, classificationMethod = 'continuous') {
+  function computeHexbins(features, radiusKm = 1.0, classificationMethod = 'continuous', boundaryGeojson = null) {
     if (!window.turf) {
       console.error('Turf.js is not loaded.');
       return { featureCollection: { type: 'FeatureCollection', features: [] }, classification: null };
@@ -406,6 +490,10 @@
         classification: classify1D([], classificationMethod)
       };
     }
+
+    const bFeat = (boundaryGeojson && boundaryGeojson.features && boundaryGeojson.features.length > 0)
+      ? boundaryGeojson.features[0]
+      : null;
 
     try {
       const fc = window.turf.featureCollection(features);
@@ -449,6 +537,21 @@
         const insidePoints = candidatePoints.filter(pt => window.turf.booleanPointInPolygon(pt, hex));
 
         if (insidePoints.length > 0) {
+          let finalGeom = hex.geometry;
+
+          // Crop hexagon boundary by municipal perimeter if provided
+          if (bFeat) {
+            try {
+              const clipped = window.turf.intersect(hex, bFeat);
+              if (clipped && clipped.geometry) {
+                finalGeom = clipped.geometry;
+              }
+            } catch (clipErr) {
+              console.warn('Hexagon clipping warning:', clipErr);
+            }
+          }
+
+          hex.geometry = finalGeom;
           hex.properties = {
             count: insidePoints.length,
             radiusKm,
@@ -500,6 +603,7 @@
 
   // Export to global window object
   window.GeospatialAnalysis = {
+    filterPointsInBoundary,
     computeVoronoi,
     computeHexbins,
     classify1D,

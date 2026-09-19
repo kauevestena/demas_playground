@@ -211,6 +211,8 @@ document.addEventListener('DOMContentLoaded', () => {
   let hoveredFeatureId = null;
   let currentFeatures = [];
   let currentGeojson = null;
+  let currentBoundaryGeojson = null;
+  let filteredOutliers = [];
   let activeCategory = 'ALL';
   let searchQuery = '';
   let cachedManifest = {};
@@ -296,8 +298,10 @@ document.addEventListener('DOMContentLoaded', () => {
   // Layer Preservation across basemaps
   function preserveHealthLayers(currentStyle, nextStyle) {
     if (!currentStyle || !currentStyle.sources) return nextStyle;
-    const sourcesToPreserve = ['health-facilities', 'analysis-voronoi', 'analysis-hexbin'];
+    const sourcesToPreserve = ['health-facilities', 'analysis-voronoi', 'analysis-hexbin', 'municipality-boundary'];
     const layersToPreserve = [
+      'boundary-fill',
+      'boundary-line',
       'analysis-voronoi-fill',
       'analysis-voronoi-line',
       'analysis-hex-fill',
@@ -327,6 +331,40 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function addHealthLayers() {
     if (!map || map.getSource('health-facilities')) return;
+
+    // 0. Municipality Boundary Sources and Layers (Rendered directly above basemap)
+    if (!map.getSource('municipality-boundary')) {
+      map.addSource('municipality-boundary', {
+        type: 'geojson',
+        data: currentBoundaryGeojson || { type: 'FeatureCollection', features: [] },
+      });
+    }
+
+    if (!map.getLayer('boundary-fill')) {
+      map.addLayer({
+        id: 'boundary-fill',
+        type: 'fill',
+        source: 'municipality-boundary',
+        paint: {
+          'fill-color': '#2563eb',
+          'fill-opacity': 0.03,
+        },
+      });
+    }
+
+    if (!map.getLayer('boundary-line')) {
+      map.addLayer({
+        id: 'boundary-line',
+        type: 'line',
+        source: 'municipality-boundary',
+        paint: {
+          'line-color': '#2563eb',
+          'line-width': 2.0,
+          'line-opacity': 0.85,
+          'line-dasharray': [4, 2],
+        },
+      });
+    }
 
     // 1. Spatial Analysis Sources
     if (!map.getSource('analysis-voronoi')) {
@@ -648,6 +686,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function applyCameraForCurrentCity() {
     if (!map) return;
+    if (currentBoundaryGeojson && window.turf && currentBoundaryGeojson.features && currentBoundaryGeojson.features.length > 0) {
+      try {
+        const bbox = window.turf.bbox(currentBoundaryGeojson);
+        map.fitBounds([[bbox[0], bbox[1]], [bbox[2], bbox[3]]], {
+          padding: 48,
+          maxZoom: 14.5,
+          speed: 1.3,
+        });
+        return;
+      } catch (_) {}
+    }
     const codeStr = String(currentCityInfo.code6);
     if (cachedManifest[codeStr] && cachedManifest[codeStr].center) {
       map.flyTo({
@@ -665,6 +714,9 @@ document.addEventListener('DOMContentLoaded', () => {
   if (map) {
     map.on('load', () => {
       addHealthLayers();
+      if (currentBoundaryGeojson && map.getSource('municipality-boundary')) {
+        map.getSource('municipality-boundary').setData(currentBoundaryGeojson);
+      }
       if (currentGeojson && map.getSource('health-facilities')) {
         map.getSource('health-facilities').setData(currentGeojson);
       }
@@ -687,6 +739,9 @@ document.addEventListener('DOMContentLoaded', () => {
           transformStyle: preserveHealthLayers,
         });
         map.once('styledata', () => {
+          if (currentBoundaryGeojson && map.getSource('municipality-boundary')) {
+            map.getSource('municipality-boundary').setData(currentBoundaryGeojson);
+          }
           updateUI();
         });
       }
@@ -764,7 +819,7 @@ document.addEventListener('DOMContentLoaded', () => {
       await loadMunicipalitiesForState('PR', 411850);
 
       // 4. Load initial city (Pato Branco)
-      await loadCityData(411850, 'Pato Branco', 'PR');
+      await loadCityData(411850, 'Pato Branco', 'PR', 4118501);
     } catch (err) {
       console.error('Initialization error:', err);
     }
@@ -788,7 +843,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const badge = isCached ? '⚡ ' : '';
         const suffix = isCached ? ' (Pré-carregado)' : '';
         return `
-          <option value="${m.code6}" data-name="${m.nome}" ${selectCode === m.code6 ? 'selected' : ''}>
+          <option value="${m.code6}" data-name="${m.nome}" data-id7="${m.id7}" ${selectCode === m.code6 ? 'selected' : ''}>
             ${badge}${m.nome}${suffix}
           </option>
         `;
@@ -801,10 +856,10 @@ document.addEventListener('DOMContentLoaded', () => {
         const firstCached = munis.find(m => cachedManifest[String(m.code6)]);
         if (firstCached) {
           muniSelect.value = String(firstCached.code6);
-          await loadCityData(firstCached.code6, firstCached.nome, uf);
+          await loadCityData(firstCached.code6, firstCached.nome, uf, firstCached.id7);
         } else if (munis.length > 0) {
           muniSelect.value = String(munis[0].code6);
-          await loadCityData(munis[0].code6, munis[0].nome, uf);
+          await loadCityData(munis[0].code6, munis[0].nome, uf, munis[0].id7);
         }
       }
     } catch (err) {
@@ -818,12 +873,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const code6 = parseInt(muniSelect.value, 10);
     const selectedOption = muniSelect.options[muniSelect.selectedIndex];
     const name = selectedOption.dataset.name || selectedOption.text.replace(/^[⚡\s]+/, '').replace(/\s*\(Pré-carregado\)$/, '');
+    const id7 = selectedOption.dataset.id7 ? parseInt(selectedOption.dataset.id7, 10) : null;
     const uf = ufSelect.value;
-    await loadCityData(code6, name, uf);
+    await loadCityData(code6, name, uf, id7);
   });
 
   // 5. Load City Data (Cache or Live via Proxy)
-  async function loadCityData(code6, name, uf) {
+  async function loadCityData(code6, name, uf, id7 = null) {
     currentCityInfo = { code6, name, uf };
     currentCityTitle.textContent = `${name} — ${uf}`;
     currentCitySubtitle.textContent = `Código IBGE: ${code6}`;
@@ -836,9 +892,17 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
 
-    showProgress(true, `Carregando dados de ${name}...`, 10);
+    showProgress(true, `Carregando limites e unidades de ${name}...`, 10);
 
     try {
+      // 1. Fetch official municipality boundary (a priori for cached, on-demand for others)
+      const boundary = await driver.fetchMunicipalityBoundary(code6, id7, 'data/');
+      currentBoundaryGeojson = boundary;
+      if (map && map.getSource('municipality-boundary')) {
+        map.getSource('municipality-boundary').setData(boundary || { type: 'FeatureCollection', features: [] });
+      }
+
+      // 2. Fetch facilities from CNES
       const geojson = await driver.retrieveFacilities({
         code6: code6,
         name: name,
@@ -851,11 +915,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
       showProgress(false);
 
-      currentFeatures = geojson.features || [];
-      currentGeojson = geojson;
+      // 3. Filter points outside official municipal boundary
+      let rawFeatures = geojson.features || [];
+      if (boundary && window.GeospatialAnalysis && window.GeospatialAnalysis.filterPointsInBoundary) {
+        const filterRes = window.GeospatialAnalysis.filterPointsInBoundary(rawFeatures, boundary);
+        currentFeatures = filterRes.inside;
+        filteredOutliers = filterRes.outside;
+      } else {
+        currentFeatures = rawFeatures;
+        filteredOutliers = [];
+      }
+
+      currentGeojson = { ...geojson, features: currentFeatures };
       if (map) {
         if (map.getSource('health-facilities')) {
-          map.getSource('health-facilities').setData(geojson);
+          map.getSource('health-facilities').setData(currentGeojson);
         }
         applyCameraForCurrentCity();
       }
@@ -889,6 +963,12 @@ document.addEventListener('DOMContentLoaded', () => {
   // 6. UI Rendering & Filters
   function updateUI() {
     totalCountEl.textContent = currentFeatures.length;
+
+    if (filteredOutliers.length > 0) {
+      currentCitySubtitle.textContent = `Código IBGE: ${currentCityInfo.code6} • ${currentFeatures.length} no município (${filteredOutliers.length} fora dos limites filtradas)`;
+    } else {
+      currentCitySubtitle.textContent = `Código IBGE: ${currentCityInfo.code6} • ${currentFeatures.length} unidades municipais`;
+    }
 
     // Filter features
     const filtered = currentFeatures.filter(f => {
@@ -963,7 +1043,7 @@ document.addEventListener('DOMContentLoaded', () => {
         properties: { ...f.properties, color: catColor }
       }));
 
-      const voronoiResult = window.GeospatialAnalysis.computeVoronoi(coloredFeatures);
+      const voronoiResult = window.GeospatialAnalysis.computeVoronoi(coloredFeatures, 4.0, currentBoundaryGeojson);
       if (voronoiSource) voronoiSource.setData(voronoiResult);
 
       const cellCount = voronoiResult.features.length;
@@ -983,14 +1063,14 @@ document.addEventListener('DOMContentLoaded', () => {
             <span style="font-weight:600;color:#1e293b;">${activeCategory === 'ALL' ? 'Todos os Serviços' : activeCategory}</span>
           </div>
           <p style="margin-top:6px;font-size:10.5px;color:var(--text-muted);line-height:1.35;">
-            Células de influência delimitando a área mais próxima a cada estabelecimento.
+            Células de influência delimitando a área mais próxima a cada estabelecimento dentro do município.
           </p>
         `;
       }
     } else if (analysisMode === 'hexbin') {
       if (voronoiSource) voronoiSource.setData({ type: 'FeatureCollection', features: [] });
 
-      const hexResult = window.GeospatialAnalysis.computeHexbins(lastFilteredFeatures, hexRadiusKm, hexMethod);
+      const hexResult = window.GeospatialAnalysis.computeHexbins(lastFilteredFeatures, hexRadiusKm, hexMethod, currentBoundaryGeojson);
       if (hexSource) hexSource.setData(hexResult.featureCollection);
 
       const cellCount = hexResult.featureCollection.features.length;

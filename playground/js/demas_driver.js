@@ -27,6 +27,7 @@
       this.proxyUrl = options.proxyUrl ? options.proxyUrl.replace(/\/+$/, '') : '';
       this._statesCache = null;
       this._manifestCache = null;
+      this._boundaryCache = new Map();
     }
 
     /**
@@ -104,6 +105,108 @@
       } catch {
         return null;
       }
+    }
+
+    /**
+     * Compute the standard 7-digit IBGE code with verification digit from a 6-digit code.
+     * Incorporates known exceptions in the IBGE code table.
+     * @param {number|string} code6
+     * @returns {number} 7-digit IBGE code
+     */
+    calculateIbgeId7(code6) {
+      const exceptions = {
+        220191: 2201919,
+        220198: 2201988,
+        220225: 2202251,
+        261153: 2611533,
+        311783: 3117836,
+        315213: 3152131,
+        430587: 4305871,
+        520017: 5200175,
+        520077: 5200772,
+      };
+      const num = parseInt(code6, 10);
+      if (exceptions[num]) return exceptions[num];
+      const s = String(num);
+      if (s.length !== 6) return num;
+      const weights = [1, 2, 1, 2, 1, 2];
+      let total = 0;
+      for (let i = 0; i < 6; i++) {
+        let prod = parseInt(s[i], 10) * weights[i];
+        if (prod > 9) prod = Math.floor(prod / 10) + (prod % 10);
+        total += prod;
+      }
+      const rem = total % 10;
+      const dv = (10 - rem) % 10;
+      return parseInt(`${s}${dv}`, 10);
+    }
+
+    /**
+     * Fetch municipality boundary GeoJSON from local cache/preloaded files or on-demand from IBGE Malhas API.
+     * @param {number|string} code6 - 6-digit IBGE code
+     * @param {number|string} [id7] - Optional 7-digit IBGE code
+     * @param {string} [basePath='data/'] - Base data directory
+     * @returns {Promise<Object|null>} GeoJSON FeatureCollection containing municipal boundary
+     */
+    async fetchMunicipalityBoundary(code6, id7 = null, basePath = 'data/') {
+      const key = String(code6);
+      if (this._boundaryCache.has(key)) {
+        return this._boundaryCache.get(key);
+      }
+
+      // 1. Try local pre-cached boundary
+      try {
+        const localPath = `${basePath}boundaries/${key}.geojson`;
+        const res = await fetch(localPath);
+        if (res.ok) {
+          const data = await res.json();
+          if (data && data.features && data.features.length > 0) {
+            this._boundaryCache.set(key, data);
+            return data;
+          }
+        }
+      } catch (_) {
+        // Fall through to on-demand fetch
+      }
+
+      // 2. Fetch on demand from official IBGE Malhas API (supports native CORS)
+      const targetId7 = id7 || (this._manifestCache && this._manifestCache[key] && this._manifestCache[key].id7) || this.calculateIbgeId7(code6);
+      const ibgeMalhaUrl = `https://servicodados.ibge.gov.br/api/v3/malhas/municipios/${targetId7}?formato=application/vnd.geo+json`;
+
+      try {
+        const res = await fetch(ibgeMalhaUrl);
+        if (res.ok) {
+          const data = await res.json();
+          if (data && data.features && data.features.length > 0) {
+            if (!data.features[0].properties) data.features[0].properties = {};
+            data.features[0].properties.code6 = parseInt(code6, 10);
+            data.features[0].properties.id7 = parseInt(targetId7, 10);
+            this._boundaryCache.set(key, data);
+            return data;
+          }
+        }
+      } catch (err) {
+        console.warn(`Direct IBGE Malhas fetch failed for ${targetId7}:`, err);
+      }
+
+      // 3. Fallback via proxy if configured
+      if (this.proxyUrl) {
+        try {
+          const proxyTarget = `${this.proxyUrl}/api/v3/malhas/municipios/${targetId7}?formato=application/vnd.geo+json`;
+          const res = await fetch(proxyTarget);
+          if (res.ok) {
+            const data = await res.json();
+            if (data && data.features && data.features.length > 0) {
+              this._boundaryCache.set(key, data);
+              return data;
+            }
+          }
+        } catch (proxyErr) {
+          console.warn(`Proxy IBGE Malhas fetch failed for ${targetId7}:`, proxyErr);
+        }
+      }
+
+      return null;
     }
 
     /**
