@@ -237,6 +237,22 @@ document.addEventListener('DOMContentLoaded', () => {
   const progressBar = document.getElementById('progress-bar');
   const progressText = document.getElementById('progress-text');
 
+  // Analysis DOM Elements and State
+  const analysisStatusBadge = document.getElementById('analysis-status-badge');
+  const hexOptionsContainer = document.getElementById('hex-options');
+  const voronoiOptionsContainer = document.getElementById('voronoi-options');
+  const hexMethodSelect = document.getElementById('hex-method-select');
+  const analysisLegend = document.getElementById('analysis-legend');
+  const analysisLegendTitle = document.getElementById('analysis-legend-title');
+  const analysisLegendSubtitle = document.getElementById('analysis-legend-subtitle');
+  const analysisLegendBody = document.getElementById('analysis-legend-body');
+  const closeAnalysisLegendBtn = document.getElementById('close-analysis-legend-btn');
+
+  let analysisMode = 'none'; // 'none' | 'voronoi' | 'hexbin'
+  let hexRadiusKm = 1.0;     // 0.5 | 1.0 | 5.0 | 10.0
+  let hexMethod = 'continuous'; // 'continuous' | 'quartiles' | 'equal_5' | 'equal_10' | 'std_dev' | 'jenks'
+  let lastFilteredFeatures = [];
+
   if (proxyInput) proxyInput.value = savedProxy;
 
   // 3. Initialize MapLibre GL
@@ -280,8 +296,17 @@ document.addEventListener('DOMContentLoaded', () => {
   // Layer Preservation across basemaps
   function preserveHealthLayers(currentStyle, nextStyle) {
     if (!currentStyle || !currentStyle.sources) return nextStyle;
-    const sourcesToPreserve = ['health-facilities'];
-    const layersToPreserve = ['health-glow', 'health-circles', 'health-labels'];
+    const sourcesToPreserve = ['health-facilities', 'analysis-voronoi', 'analysis-hexbin'];
+    const layersToPreserve = [
+      'analysis-voronoi-fill',
+      'analysis-voronoi-line',
+      'analysis-hex-fill',
+      'analysis-hex-line',
+      'analysis-hex-labels',
+      'health-glow',
+      'health-circles',
+      'health-labels'
+    ];
 
     nextStyle.sources = nextStyle.sources || {};
     for (const sId of sourcesToPreserve) {
@@ -303,6 +328,95 @@ document.addEventListener('DOMContentLoaded', () => {
   function addHealthLayers() {
     if (!map || map.getSource('health-facilities')) return;
 
+    // 1. Spatial Analysis Sources
+    if (!map.getSource('analysis-voronoi')) {
+      map.addSource('analysis-voronoi', {
+        type: 'geojson',
+        data: { type: 'FeatureCollection', features: [] },
+      });
+    }
+
+    if (!map.getSource('analysis-hexbin')) {
+      map.addSource('analysis-hexbin', {
+        type: 'geojson',
+        data: { type: 'FeatureCollection', features: [] },
+      });
+    }
+
+    // 2. Voronoi Layers (Rendered beneath health facilities)
+    if (!map.getLayer('analysis-voronoi-fill')) {
+      map.addLayer({
+        id: 'analysis-voronoi-fill',
+        type: 'fill',
+        source: 'analysis-voronoi',
+        paint: {
+          'fill-color': ['coalesce', ['get', 'color'], '#7c3aed'],
+          'fill-opacity': 0.20,
+        },
+      });
+    }
+
+    if (!map.getLayer('analysis-voronoi-line')) {
+      map.addLayer({
+        id: 'analysis-voronoi-line',
+        type: 'line',
+        source: 'analysis-voronoi',
+        paint: {
+          'line-color': ['coalesce', ['get', 'color'], '#7c3aed'],
+          'line-width': 1.5,
+          'line-opacity': 0.75,
+          'line-dasharray': [3, 2],
+        },
+      });
+    }
+
+    // 3. Hexbin Layers (Rendered beneath health facilities)
+    if (!map.getLayer('analysis-hex-fill')) {
+      map.addLayer({
+        id: 'analysis-hex-fill',
+        type: 'fill',
+        source: 'analysis-hexbin',
+        paint: {
+          'fill-color': ['coalesce', ['get', 'fillColor'], '#f03b20'],
+          'fill-opacity': 0.65,
+        },
+      });
+    }
+
+    if (!map.getLayer('analysis-hex-line')) {
+      map.addLayer({
+        id: 'analysis-hex-line',
+        type: 'line',
+        source: 'analysis-hexbin',
+        paint: {
+          'line-color': '#ffffff',
+          'line-width': 1.2,
+          'line-opacity': 0.6,
+        },
+      });
+    }
+
+    if (!map.getLayer('analysis-hex-labels')) {
+      map.addLayer({
+        id: 'analysis-hex-labels',
+        type: 'symbol',
+        source: 'analysis-hexbin',
+        layout: {
+          'text-field': ['get', 'countLabel'],
+          'text-font': ['Open Sans Bold', 'Noto Sans Bold'],
+          'text-size': 11,
+          'text-anchor': 'center',
+          'text-allow-overlap': true,
+        },
+        paint: {
+          'text-color': '#0f172a',
+          'text-halo-color': '#ffffff',
+          'text-halo-width': 1.5,
+        },
+      });
+    }
+
+    // 4. Core Facilities Source
     map.addSource('health-facilities', {
       type: 'geojson',
       data: currentGeojson || { type: 'FeatureCollection', features: [] },
@@ -466,6 +580,70 @@ document.addEventListener('DOMContentLoaded', () => {
         highlightInList(feat.id);
       }
     });
+
+    // Voronoi map events
+    map.on('mouseenter', 'analysis-voronoi-fill', (e) => {
+      if (analysisMode !== 'voronoi' || !popup) return;
+      map.getCanvas().style.cursor = 'pointer';
+      if (e.features && e.features.length > 0) {
+        const p = e.features[0].properties;
+        popup.setLngLat(e.lngLat).setHTML(`
+          <div class="popup-inner">
+            <div class="popup-badge" style="background: rgba(124, 58, 237, 0.15); color: #7c3aed; border: 1px solid rgba(124, 58, 237, 0.4);">
+              Célula Voronoi • ${p.category || 'Saúde'}
+            </div>
+            <h4 class="popup-title">${p.facilityName || 'Estabelecimento'}</h4>
+            <div class="popup-meta">
+              <div><strong>CNES:</strong> ${p.cnes || '—'}</div>
+              <div>${p.address || ''}</div>
+              <div style="font-size: 10.5px; color: #64748b; margin-top: 4px;">Área de menor distância geográfica a esta unidade.</div>
+            </div>
+          </div>
+        `).addTo(map);
+      }
+    });
+
+    map.on('mouseleave', 'analysis-voronoi-fill', () => {
+      if (analysisMode !== 'voronoi') return;
+      map.getCanvas().style.cursor = '';
+      if (popup) popup.remove();
+    });
+
+    // Hexbin map events
+    map.on('mouseenter', 'analysis-hex-fill', (e) => {
+      if (analysisMode !== 'hexbin' || !popup) return;
+      map.getCanvas().style.cursor = 'pointer';
+      if (e.features && e.features.length > 0) {
+        const p = e.features[0].properties;
+        let names = [];
+        try {
+          names = typeof p.facilityNames === 'string' ? JSON.parse(p.facilityNames) : (p.facilityNames || []);
+        } catch (_) {}
+
+        const namesList = names.map(name => `• ${name}`).join('<br>') || 'Estabelecimentos de saúde';
+        const more = (p.count > names.length) ? `<div style="margin-top:3px; font-size:10px; color:#64748b;">+ ${p.count - names.length} outros estabelecimentos</div>` : '';
+        const radiusStr = (p.radiusKm >= 1) ? `${p.radiusKm}km` : `${p.radiusKm * 1000}m`;
+
+        popup.setLngLat(e.lngLat).setHTML(`
+          <div class="popup-inner">
+            <div class="popup-badge" style="background: rgba(234, 88, 12, 0.15); color: #ea580c; border: 1px solid rgba(234, 88, 12, 0.4);">
+              Célula Hexagonal (Raio: ${radiusStr})
+            </div>
+            <h4 class="popup-title">${p.count} estabelecimento${p.count > 1 ? 's' : ''} nesta célula</h4>
+            <div class="popup-meta" style="font-size: 11px; line-height: 1.4; max-height: 120px; overflow-y: auto;">
+              ${namesList}
+              ${more}
+            </div>
+          </div>
+        `).addTo(map);
+      }
+    });
+
+    map.on('mouseleave', 'analysis-hex-fill', () => {
+      if (analysisMode !== 'hexbin') return;
+      map.getCanvas().style.cursor = '';
+      if (popup) popup.remove();
+    });
   }
 
   function applyCameraForCurrentCity() {
@@ -491,6 +669,7 @@ document.addEventListener('DOMContentLoaded', () => {
         map.getSource('health-facilities').setData(currentGeojson);
       }
       applyCameraForCurrentCity();
+      updateUI();
     });
   }
 
@@ -751,6 +930,131 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     renderFacilityCards(filtered);
+    updateSpatialAnalysis(filtered);
+  }
+
+  function updateSpatialAnalysis(filteredFeatures) {
+    lastFilteredFeatures = filteredFeatures || [];
+
+    const voronoiSource = map ? map.getSource('analysis-voronoi') : null;
+    const hexSource = map ? map.getSource('analysis-hexbin') : null;
+
+    if (!window.GeospatialAnalysis || analysisMode === 'none' || lastFilteredFeatures.length === 0) {
+      if (voronoiSource) voronoiSource.setData({ type: 'FeatureCollection', features: [] });
+      if (hexSource) hexSource.setData({ type: 'FeatureCollection', features: [] });
+      if (analysisLegend) analysisLegend.style.display = 'none';
+      if (analysisStatusBadge) {
+        analysisStatusBadge.className = 'analysis-badge';
+        analysisStatusBadge.textContent = 'Desativada';
+      }
+      return;
+    }
+
+    if (analysisMode === 'voronoi') {
+      if (hexSource) hexSource.setData({ type: 'FeatureCollection', features: [] });
+
+      // Determine category theme color
+      const catColor = (activeCategory !== 'ALL' && CATEGORY_STYLES[activeCategory])
+        ? CATEGORY_STYLES[activeCategory].color
+        : '#7c3aed';
+
+      const coloredFeatures = lastFilteredFeatures.map(f => ({
+        ...f,
+        properties: { ...f.properties, color: catColor }
+      }));
+
+      const voronoiResult = window.GeospatialAnalysis.computeVoronoi(coloredFeatures);
+      if (voronoiSource) voronoiSource.setData(voronoiResult);
+
+      const cellCount = voronoiResult.features.length;
+      if (analysisStatusBadge) {
+        analysisStatusBadge.className = 'analysis-badge active-voronoi';
+        analysisStatusBadge.textContent = `Voronoi (${cellCount} células)`;
+      }
+
+      // Render Voronoi legend
+      if (analysisLegend) {
+        analysisLegend.style.display = 'block';
+        analysisLegendTitle.textContent = 'Diagrama de Voronoi';
+        analysisLegendSubtitle.textContent = `${cellCount} células para ${activeCategory === 'ALL' ? 'Todos os Estabelecimentos' : activeCategory}`;
+        analysisLegendBody.innerHTML = `
+          <div style="display:flex;align-items:center;gap:8px;margin-top:4px;">
+            <span style="width:14px;height:14px;border:1.5px dashed ${catColor};background:${catColor}33;border-radius:2px;"></span>
+            <span style="font-weight:600;color:#1e293b;">${activeCategory === 'ALL' ? 'Todos os Serviços' : activeCategory}</span>
+          </div>
+          <p style="margin-top:6px;font-size:10.5px;color:var(--text-muted);line-height:1.35;">
+            Células de influência delimitando a área mais próxima a cada estabelecimento.
+          </p>
+        `;
+      }
+    } else if (analysisMode === 'hexbin') {
+      if (voronoiSource) voronoiSource.setData({ type: 'FeatureCollection', features: [] });
+
+      const hexResult = window.GeospatialAnalysis.computeHexbins(lastFilteredFeatures, hexRadiusKm, hexMethod);
+      if (hexSource) hexSource.setData(hexResult.featureCollection);
+
+      const cellCount = hexResult.featureCollection.features.length;
+      const radiusLabel = hexRadiusKm >= 1 ? `${hexRadiusKm}km` : `${hexRadiusKm * 1000}m`;
+      if (analysisStatusBadge) {
+        analysisStatusBadge.className = 'analysis-badge active-hex';
+        analysisStatusBadge.textContent = `Hexágonos (${cellCount} células)`;
+      }
+
+      // Render Hexbin Legend / Colorbar
+      if (analysisLegend) {
+        analysisLegend.style.display = 'block';
+        const methodLabels = {
+          'continuous': 'Escala Contínua (Não agrupado)',
+          'quartiles': 'Quartis (4 classes)',
+          'equal_5': 'Intervalos Iguais (5 quebras)',
+          'equal_10': 'Intervalos Iguais (10 quebras)',
+          'std_dev': 'Desvio Padrão',
+          'jenks': 'Quebras Naturais (Jenks)',
+        };
+        analysisLegendTitle.textContent = 'Densidade Hexagonal';
+        analysisLegendSubtitle.textContent = `Raio: ${radiusLabel} • ${methodLabels[hexMethod] || hexMethod}`;
+
+        const classification = hexResult.classification;
+        if (!classification || cellCount === 0) {
+          analysisLegendBody.innerHTML = `
+            <div style="font-size:11px;color:var(--text-muted);">Nenhum estabelecimento na seleção atual.</div>
+          `;
+        } else if (classification.type === 'continuous') {
+          analysisLegendBody.innerHTML = `
+            <div class="colorbar-gradient-bar" style="background: ${classification.gradientCss};"></div>
+            <div class="colorbar-range-labels">
+              <span>Mín: ${classification.min} unid.</span>
+              <span>Total: ${lastFilteredFeatures.length}</span>
+              <span>Máx: ${classification.max} unid.</span>
+            </div>
+          `;
+        } else if (classification.type === 'single') {
+          analysisLegendBody.innerHTML = `
+            <div class="colorbar-step-item">
+              <div class="colorbar-step-left">
+                <span class="colorbar-step-color" style="background: ${classification.getColor()};"></span>
+                <span>${classification.getClassLabel()}</span>
+              </div>
+              <span class="colorbar-step-count">${cellCount} células</span>
+            </div>
+          `;
+        } else {
+          analysisLegendBody.innerHTML = `
+            <div class="colorbar-steps">
+              ${classification.bins.map(bin => `
+                <div class="colorbar-step-item">
+                  <div class="colorbar-step-left">
+                    <span class="colorbar-step-color" style="background: ${bin.color};"></span>
+                    <span>${bin.label} unid.</span>
+                  </div>
+                  <span class="colorbar-step-count">${bin.count} cél.</span>
+                </div>
+              `).join('')}
+            </div>
+          `;
+        }
+      }
+    }
   }
 
   function renderFacilityCards(features) {
@@ -826,6 +1130,46 @@ document.addEventListener('DOMContentLoaded', () => {
     searchQuery = e.target.value.trim();
     updateUI();
   });
+
+  // Spatial Analysis Controls
+  document.querySelectorAll('.btn-analysis-mode').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const mode = btn.dataset.mode;
+      if (mode === analysisMode) return;
+      document.querySelectorAll('.btn-analysis-mode').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      analysisMode = mode;
+
+      if (hexOptionsContainer) hexOptionsContainer.style.display = (mode === 'hexbin') ? 'flex' : 'none';
+      if (voronoiOptionsContainer) voronoiOptionsContainer.style.display = (mode === 'voronoi') ? 'flex' : 'none';
+
+      updateSpatialAnalysis(lastFilteredFeatures);
+    });
+  });
+
+  document.querySelectorAll('#hex-radius-group .btn-segment').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const radius = parseFloat(btn.dataset.radius);
+      if (radius === hexRadiusKm) return;
+      document.querySelectorAll('#hex-radius-group .btn-segment').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      hexRadiusKm = radius;
+      updateSpatialAnalysis(lastFilteredFeatures);
+    });
+  });
+
+  if (hexMethodSelect) {
+    hexMethodSelect.addEventListener('change', () => {
+      hexMethod = hexMethodSelect.value;
+      updateSpatialAnalysis(lastFilteredFeatures);
+    });
+  }
+
+  if (closeAnalysisLegendBtn) {
+    closeAnalysisLegendBtn.addEventListener('click', () => {
+      if (analysisLegend) analysisLegend.style.display = 'none';
+    });
+  }
 
   // Export GeoJSON
   exportBtn.addEventListener('click', () => {
