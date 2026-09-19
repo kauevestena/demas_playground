@@ -55,7 +55,8 @@
     const g = Math.round(lower.color[1] + factor * (upper.color[1] - lower.color[1]));
     const b = Math.round(lower.color[2] + factor * (upper.color[2] - lower.color[2]));
 
-    return `rgb(${r}, ${g}, ${b})`;
+    const hex = (x) => ('0' + parseInt(x, 10).toString(16)).slice(-2);
+    return `#${hex(r)}${hex(g)}${hex(b)}`;
   }
 
   function rgbToHex(rgbStr) {

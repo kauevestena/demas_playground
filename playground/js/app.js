@@ -403,7 +403,7 @@ document.addEventListener('DOMContentLoaded', () => {
         source: 'analysis-hexbin',
         layout: {
           'text-field': ['get', 'countLabel'],
-          'text-font': ['Open Sans Bold', 'Noto Sans Bold'],
+          'text-font': ['Noto Sans Bold'],
           'text-size': 11,
           'text-anchor': 'center',
           'text-allow-overlap': true,
@@ -545,7 +545,7 @@ document.addEventListener('DOMContentLoaded', () => {
       minzoom: 14.5,
       layout: {
         'text-field': ['coalesce', ['get', 'short_name'], ['get', 'name'], ''],
-        'text-font': ['Open Sans Semibold', 'Noto Sans Regular'],
+        'text-font': ['Noto Sans Regular'],
         'text-size': 11,
         'text-offset': [0, 1.2],
         'text-anchor': 'top',
