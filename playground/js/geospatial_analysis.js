@@ -104,6 +104,111 @@
   }
 
   /**
+   * Clusters point features that are within a specified distance threshold (in meters).
+   * Aggregates very close facilities into single composite point features.
+   * 
+   * @param {Array<Object>} features - GeoJSON point features
+   * @param {number} maxDistanceMeters - Maximum distance threshold in meters (e.g. 10m to 100m)
+   * @returns {Array<Object>} Array of clustered point features
+   */
+  function clusterNearbyPoints(features, maxDistanceMeters = 20) {
+    if (!features || features.length <= 1 || !maxDistanceMeters || maxDistanceMeters <= 0) {
+      return features || [];
+    }
+
+    const n = features.length;
+    const coords = features.map(f => f.geometry.coordinates);
+
+    // Fast geodesic/metric distance for nearby points
+    function getDistanceMeters(c1, c2) {
+      const latRad = ((c1[1] + c2[1]) / 2) * (Math.PI / 180);
+      const dx = (c2[0] - c1[0]) * (Math.PI / 180) * 6371000 * Math.cos(latRad);
+      const dy = (c2[1] - c1[1]) * (Math.PI / 180) * 6371000;
+      return Math.sqrt(dx * dx + dy * dy);
+    }
+
+    // Connected components grouping using BFS
+    const visited = new Uint8Array(n);
+    const clusters = [];
+
+    for (let i = 0; i < n; i++) {
+      if (visited[i]) continue;
+      visited[i] = 1;
+
+      const clusterIndices = [i];
+      const queue = [i];
+
+      while (queue.length > 0) {
+        const curr = queue.shift();
+        const currCoord = coords[curr];
+
+        for (let j = 0; j < n; j++) {
+          if (!visited[j]) {
+            const d = getDistanceMeters(currCoord, coords[j]);
+            if (d <= maxDistanceMeters) {
+              visited[j] = 1;
+              clusterIndices.push(j);
+              queue.push(j);
+            }
+          }
+        }
+      }
+
+      clusters.push(clusterIndices.map(idx => features[idx]));
+    }
+
+    return clusters.map((clusterPts, clusterIdx) => {
+      if (clusterPts.length === 1) {
+        return clusterPts[0];
+      }
+
+      // Compute centroid of cluster coordinates
+      let sumLon = 0, sumLat = 0;
+      for (let p = 0; p < clusterPts.length; p++) {
+        sumLon += clusterPts[p].geometry.coordinates[0];
+        sumLat += clusterPts[p].geometry.coordinates[1];
+      }
+      const centerLon = sumLon / clusterPts.length;
+      const centerLat = sumLat / clusterPts.length;
+
+      const primary = clusterPts[0];
+      const names = clusterPts.map(f => f.properties.name || f.properties.official_name || 'Sem nome');
+      const cnesList = clusterPts.map(f => f.properties['ref:CNES']).filter(Boolean);
+      const categories = Array.from(new Set(clusterPts.map(f => f.properties.comment || 'Saúde')));
+
+      const compositeTitle = `${primary.properties.name || primary.properties.official_name || 'Complexo de Saúde'} (+${clusterPts.length - 1} un.)`;
+
+      return {
+        type: 'Feature',
+        id: `cluster-${clusterIdx}-${primary.id}`,
+        geometry: {
+          type: 'Point',
+          coordinates: [centerLon, centerLat]
+        },
+        properties: {
+          ...primary.properties,
+          isCluster: true,
+          clusterCount: clusterPts.length,
+          clusterRadiusMeters: maxDistanceMeters,
+          clusteredFacilities: clusterPts.map(f => ({
+            id: f.id,
+            name: f.properties.name || f.properties.official_name || 'Sem nome',
+            cnes: f.properties['ref:CNES'] || '—',
+            category: f.properties.comment || 'Saúde',
+            address: [f.properties['addr:street'], f.properties['addr:housenumber'], f.properties['addr:suburb']].filter(Boolean).join(', ')
+          })),
+          facilityNames: names,
+          name: compositeTitle,
+          official_name: compositeTitle,
+          cnes: cnesList.join(', ') || primary.properties['ref:CNES'] || '—',
+          category: categories.length === 1 ? categories[0] : (categories.includes('UBS') ? 'UBS' : categories[0]),
+          compositeCategories: categories,
+        }
+      };
+    });
+  }
+
+  /**
    * Enriches spatial partitions (Voronoi cells or Hexagons) with census tract attributes
    * using Areal Weighting (Interpolação de Área Ponderada).
    * 
@@ -887,6 +992,7 @@
   // Export to global window object
   window.GeospatialAnalysis = {
     filterPointsInBoundary,
+    clusterNearbyPoints,
     computeVoronoi,
     computeHexbins,
     classify1D,

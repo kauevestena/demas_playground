@@ -643,6 +643,113 @@
       user-select: none;
     }
 
+    /* Point Clustering / Aggregation Control Box */
+    .cluster-control-box {
+      background: #ffffff;
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-sm);
+      padding: 8px 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+    }
+
+    .cluster-toggle-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
+
+    .cluster-checkbox-label {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 11.5px;
+      font-weight: 500;
+      color: #1e293b;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .cluster-checkbox-label input[type="checkbox"] {
+      cursor: pointer;
+      accent-color: var(--primary);
+    }
+
+    .cluster-badge {
+      font-size: 9.5px;
+      font-weight: 600;
+      padding: 1px 6px;
+      border-radius: 9999px;
+      background: #eff6ff;
+      color: #2563eb;
+      border: 1px solid #bfdbfe;
+    }
+
+    .cluster-slider-row {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      padding-top: 4px;
+      border-top: 1px dashed var(--border-color);
+    }
+
+    .cluster-slider-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 10.5px;
+      color: var(--text-muted);
+    }
+
+    .cluster-slider-val {
+      font-weight: 700;
+      color: #2563eb;
+      background: #eff6ff;
+      padding: 1px 5px;
+      border-radius: 4px;
+      font-family: var(--font-mono, monospace);
+    }
+
+    .cluster-slider-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .cluster-slider-limit {
+      font-size: 10px;
+      color: var(--text-muted);
+      min-width: 26px;
+    }
+
+    .analysis-slider {
+      flex: 1;
+      height: 4px;
+      border-radius: 2px;
+      background: #e2e8f0;
+      outline: none;
+      -webkit-appearance: none;
+      cursor: pointer;
+    }
+
+    .analysis-slider::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: #2563eb;
+      cursor: pointer;
+      border: 2px solid #ffffff;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+      transition: transform 0.1s ease;
+    }
+
+    .analysis-slider::-webkit-slider-thumb:hover {
+      transform: scale(1.15);
+    }
+
     .analysis-badge {
       font-size: 9.5px;
       font-weight: 600;
@@ -1177,6 +1284,28 @@
           </div>
           <div class="analysis-info-text">
             Polígonos de proximidade delimitando a área de menor distância até cada estabelecimento da categoria ativa.
+          </div>
+        </div>
+
+        <!-- Point Clustering / Aggregation Control Box (for Voronoi & Hexbins) -->
+        <div class="cluster-control-box" id="cluster-control-box" style="display: none;">
+          <div class="cluster-toggle-row">
+            <label class="cluster-checkbox-label" for="toggle-cluster-points">
+              <input type="checkbox" id="toggle-cluster-points" />
+              <span>Aglutinar pontos muito próximos</span>
+            </label>
+            <span class="cluster-badge" id="cluster-status-badge" style="display: none;">0 polos</span>
+          </div>
+          <div class="cluster-slider-row" id="cluster-slider-row" style="display: none;">
+            <div class="cluster-slider-header">
+              <span class="cluster-slider-title">Distância máxima de aglutinação:</span>
+              <span class="cluster-slider-val" id="cluster-distance-val">20m</span>
+            </div>
+            <div class="cluster-slider-wrapper">
+              <span class="cluster-slider-limit">10m</span>
+              <input type="range" id="cluster-distance-slider" min="10" max="100" step="5" value="20" class="analysis-slider" />
+              <span class="cluster-slider-limit">100m</span>
+            </div>
           </div>
         </div>
 

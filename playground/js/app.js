@@ -255,6 +255,15 @@ document.addEventListener('DOMContentLoaded', () => {
   const censusStatusBadge = document.getElementById('census-status-badge');
   const censusOptionsRow = document.getElementById('census-options-row');
   const toggleShowCensusTracts = document.getElementById('toggle-show-census-tracts');
+
+  // Point Clustering DOM Elements
+  const clusterControlBox = document.getElementById('cluster-control-box');
+  const toggleClusterPoints = document.getElementById('toggle-cluster-points');
+  const clusterStatusBadge = document.getElementById('cluster-status-badge');
+  const clusterSliderRow = document.getElementById('cluster-slider-row');
+  const clusterDistanceSlider = document.getElementById('cluster-distance-slider');
+  const clusterDistanceVal = document.getElementById('cluster-distance-val');
+
   const analysisLegend = document.getElementById('analysis-legend');
   const analysisLegendTitle = document.getElementById('analysis-legend-title');
   const analysisLegendSubtitle = document.getElementById('analysis-legend-subtitle');
@@ -266,6 +275,8 @@ document.addEventListener('DOMContentLoaded', () => {
   let hexMethod = 'continuous'; // 'continuous' | 'quartiles' | 'equal_5' | 'equal_10' | 'std_dev' | 'jenks'
   let voronoiMetric = 'category'; // 'category' | 'population' | 'income' | 'sobrecarga'
   let hexMetric = 'count';        // 'count' | 'population' | 'income' | 'hab_per_unit'
+  let clusterPointsEnabled = false;
+  let clusterDistanceMeters = 20;
   let currentCensusTractsGeojson = null;
   let lastFilteredFeatures = [];
 
@@ -734,6 +745,33 @@ document.addEventListener('DOMContentLoaded', () => {
           `;
         }
 
+        let clusterHtml = '';
+        if (p.isCluster && p.clusteredFacilities) {
+          let facList = [];
+          try {
+            facList = typeof p.clusteredFacilities === 'string'
+              ? JSON.parse(p.clusteredFacilities)
+              : p.clusteredFacilities;
+          } catch (_) {}
+
+          if (facList && facList.length > 1) {
+            clusterHtml = `
+              <div style="margin-top: 6px; padding: 6px 8px; background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 4px;">
+                <div style="font-size: 10px; font-weight: 700; color: #1e40af; margin-bottom: 3px;">
+                  🔗 Polo de Saúde • ${facList.length} estabelecimentos aglutinados (≤ ${p.clusterRadiusMeters || 20}m)
+                </div>
+                <div style="max-height: 90px; overflow-y: auto; font-size: 10px; line-height: 1.35; color: #1e293b;">
+                  ${facList.map(cf => `
+                    <div style="padding: 2px 0; border-bottom: 1px dashed #dbeafe;">
+                      <strong>${cf.name}</strong> • <span style="color:#64748b;">CNES ${cf.cnes}</span> (${cf.category})
+                    </div>
+                  `).join('')}
+                </div>
+              </div>
+            `;
+          }
+        }
+
         popup.setLngLat(e.lngLat).setHTML(`
           <div class="popup-inner">
             <div class="popup-badge" style="background: rgba(124, 58, 237, 0.15); color: #7c3aed; border: 1px solid rgba(124, 58, 237, 0.4);">
@@ -743,7 +781,8 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="popup-meta">
               <div><strong>CNES:</strong> ${p.cnes || '—'}</div>
               <div>${p.address || ''}</div>
-              <div style="font-size: 10.5px; color: #64748b; margin-top: 4px;">Área de menor distância geográfica a esta unidade.</div>
+              <div style="font-size: 10.5px; color: #64748b; margin-top: 4px;">Área de menor distância geográfica a este estabelecimento/polo.</div>
+              ${clusterHtml}
               ${censusInfo}
             </div>
           </div>
@@ -792,12 +831,16 @@ document.addEventListener('DOMContentLoaded', () => {
           `;
         }
 
+        const hexCountLabel = clusterPointsEnabled
+          ? (p.count > 1 ? `${p.count} polos de saúde` : '1 polo de saúde')
+          : (p.count > 1 ? `${p.count} estabelecimentos` : '1 estabelecimento');
+
         popup.setLngLat(e.lngLat).setHTML(`
           <div class="popup-inner">
             <div class="popup-badge" style="background: rgba(234, 88, 12, 0.15); color: #ea580c; border: 1px solid rgba(234, 88, 12, 0.4);">
               Célula Hexagonal (Raio: ${radiusStr})
             </div>
-            <h4 class="popup-title">${p.count} estabelecimento${p.count > 1 ? 's' : ''} nesta célula</h4>
+            <h4 class="popup-title">${hexCountLabel} nesta célula</h4>
             <div class="popup-meta" style="font-size: 11px; line-height: 1.4; max-height: 120px; overflow-y: auto;">
               ${namesList}
               ${more}
@@ -1185,11 +1228,27 @@ document.addEventListener('DOMContentLoaded', () => {
       if (voronoiSource) voronoiSource.setData({ type: 'FeatureCollection', features: [] });
       if (hexSource) hexSource.setData({ type: 'FeatureCollection', features: [] });
       if (analysisLegend) analysisLegend.style.display = 'none';
+      if (clusterControlBox) clusterControlBox.style.display = 'none';
       if (analysisStatusBadge) {
         analysisStatusBadge.className = 'analysis-badge';
         analysisStatusBadge.textContent = 'Desativada';
       }
       return;
+    }
+
+    // Show clustering controls when spatial analysis is active
+    if (clusterControlBox) clusterControlBox.style.display = 'flex';
+
+    // Apply point clustering if enabled
+    let featuresForAnalysis = lastFilteredFeatures;
+    if (clusterPointsEnabled && window.GeospatialAnalysis && window.GeospatialAnalysis.clusterNearbyPoints) {
+      featuresForAnalysis = window.GeospatialAnalysis.clusterNearbyPoints(lastFilteredFeatures, clusterDistanceMeters);
+      if (clusterStatusBadge) {
+        clusterStatusBadge.style.display = 'inline-block';
+        clusterStatusBadge.textContent = `${featuresForAnalysis.length} polos (${lastFilteredFeatures.length} unid.)`;
+      }
+    } else if (clusterStatusBadge) {
+      clusterStatusBadge.style.display = 'none';
     }
 
     if (analysisMode === 'voronoi') {
@@ -1200,7 +1259,7 @@ document.addEventListener('DOMContentLoaded', () => {
         ? CATEGORY_STYLES[activeCategory].color
         : '#7c3aed';
 
-      const coloredFeatures = lastFilteredFeatures.map(f => ({
+      const coloredFeatures = featuresForAnalysis.map(f => ({
         ...f,
         properties: { ...f.properties, color: catColor }
       }));
@@ -1217,16 +1276,19 @@ document.addEventListener('DOMContentLoaded', () => {
       const cellCount = voronoiResult.features.length;
       if (analysisStatusBadge) {
         analysisStatusBadge.className = 'analysis-badge active-voronoi';
-        analysisStatusBadge.textContent = `Voronoi (${cellCount} células)`;
+        analysisStatusBadge.textContent = clusterPointsEnabled
+          ? `Voronoi (${cellCount} polos)`
+          : `Voronoi (${cellCount} células)`;
       }
 
       // Render Voronoi legend
       if (analysisLegend) {
         analysisLegend.style.display = 'block';
+        const clusterSuffix = clusterPointsEnabled ? ` • ${cellCount} polos aglutinados (≤ ${clusterDistanceMeters}m)` : '';
 
         if (voronoiMetric === 'population') {
           analysisLegendTitle.textContent = 'População Adscrita (Voronoi)';
-          analysisLegendSubtitle.textContent = `Interpolação Censo IBGE 2022 (${cellCount} células)`;
+          analysisLegendSubtitle.textContent = `Interpolação Censo IBGE 2022 (${cellCount} células)${clusterSuffix}`;
           const cl = voronoiResult.classification;
           if (cl && cl.bins && cl.bins.length > 0) {
             analysisLegendBody.innerHTML = `
@@ -1247,7 +1309,7 @@ document.addEventListener('DOMContentLoaded', () => {
           }
         } else if (voronoiMetric === 'income') {
           analysisLegendTitle.textContent = 'Renda Média Per Capita (Voronoi)';
-          analysisLegendSubtitle.textContent = `Quartis de Rendimento Censo 2022 (${cellCount} células)`;
+          analysisLegendSubtitle.textContent = `Quartis de Rendimento Censo 2022 (${cellCount} células)${clusterSuffix}`;
           const cl = voronoiResult.classification;
           if (cl && cl.bins && cl.bins.length > 0) {
             analysisLegendBody.innerHTML = `
@@ -1268,7 +1330,7 @@ document.addEventListener('DOMContentLoaded', () => {
           }
         } else if (voronoiMetric === 'sobrecarga') {
           analysisLegendTitle.textContent = 'Índice de Sobrecarga PNAB';
-          analysisLegendSubtitle.textContent = `Referência: 2.000 a 3.500 hab/equipe (${cellCount} células)`;
+          analysisLegendSubtitle.textContent = `Referência: 2.000 a 3.500 hab/equipe (${cellCount} células)${clusterSuffix}`;
           const cl = voronoiResult.classification;
           if (cl && cl.bins) {
             analysisLegendBody.innerHTML = `
@@ -1288,14 +1350,14 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
           // Category default
           analysisLegendTitle.textContent = 'Diagrama de Voronoi';
-          analysisLegendSubtitle.textContent = `${cellCount} células para ${activeCategory === 'ALL' ? 'Todos os Estabelecimentos' : activeCategory}`;
+          analysisLegendSubtitle.textContent = `${cellCount} ${clusterPointsEnabled ? 'polos' : 'células'} para ${activeCategory === 'ALL' ? 'Todos os Estabelecimentos' : activeCategory}${clusterSuffix}`;
           analysisLegendBody.innerHTML = `
             <div style="display:flex;align-items:center;gap:8px;margin-top:4px;">
               <span style="width:14px;height:14px;border:1.5px dashed ${catColor};background:${catColor}33;border-radius:2px;"></span>
               <span style="font-weight:600;color:#1e293b;">${activeCategory === 'ALL' ? 'Todos os Serviços' : activeCategory}</span>
             </div>
             <p style="margin-top:6px;font-size:10.5px;color:var(--text-muted);line-height:1.35;">
-              Células de influência delimitando a área mais próxima a cada estabelecimento dentro do município.
+              Células de influência delimitando a área mais próxima a cada estabelecimento/polo dentro do município.
             </p>
           `;
         }
@@ -1304,7 +1366,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if (voronoiSource) voronoiSource.setData({ type: 'FeatureCollection', features: [] });
 
       const hexResult = window.GeospatialAnalysis.computeHexbins(
-        lastFilteredFeatures,
+        featuresForAnalysis,
         hexRadiusKm,
         hexMethod,
         currentBoundaryGeojson,
@@ -1317,7 +1379,9 @@ document.addEventListener('DOMContentLoaded', () => {
       const radiusLabel = hexRadiusKm >= 1 ? `${hexRadiusKm}km` : `${hexRadiusKm * 1000}m`;
       if (analysisStatusBadge) {
         analysisStatusBadge.className = 'analysis-badge active-hex';
-        analysisStatusBadge.textContent = `Hexágonos (${cellCount} células)`;
+        analysisStatusBadge.textContent = clusterPointsEnabled
+          ? `Hexágonos (${cellCount} células / polos)`
+          : `Hexágonos (${cellCount} células)`;
       }
 
       // Render Hexbin Legend / Colorbar
@@ -1333,14 +1397,15 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
         const metricTitles = {
-          'count': 'Densidade de Estabelecimentos',
+          'count': clusterPointsEnabled ? 'Densidade de Polos de Saúde' : 'Densidade de Estabelecimentos',
           'population': 'População Estimada (Censo 2022)',
           'income': 'Renda Média Per Capita',
-          'hab_per_unit': 'Razão Habitantes / Unidade'
+          'hab_per_unit': clusterPointsEnabled ? 'Razão Habitantes / Polo' : 'Razão Habitantes / Unidade'
         };
 
+        const clusterSuffix = clusterPointsEnabled ? ` • Aglutinação: ≤ ${clusterDistanceMeters}m` : '';
         analysisLegendTitle.textContent = metricTitles[hexMetric] || 'Densidade Hexagonal';
-        analysisLegendSubtitle.textContent = `Raio: ${radiusLabel} • ${methodLabels[hexMethod] || hexMethod}`;
+        analysisLegendSubtitle.textContent = `Raio: ${radiusLabel} • ${methodLabels[hexMethod] || hexMethod}${clusterSuffix}`;
 
         const classification = hexResult.classification;
         if (!classification || cellCount === 0) {
@@ -1470,6 +1535,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       if (hexOptionsContainer) hexOptionsContainer.style.display = (mode === 'hexbin') ? 'flex' : 'none';
       if (voronoiOptionsContainer) voronoiOptionsContainer.style.display = (mode === 'voronoi') ? 'flex' : 'none';
+      if (clusterControlBox) clusterControlBox.style.display = (mode !== 'none') ? 'flex' : 'none';
 
       updateSpatialAnalysis(lastFilteredFeatures);
     });
@@ -1571,6 +1637,26 @@ document.addEventListener('DOMContentLoaded', () => {
   if (closeAnalysisLegendBtn) {
     closeAnalysisLegendBtn.addEventListener('click', () => {
       if (analysisLegend) analysisLegend.style.display = 'none';
+    });
+  }
+
+  // Point Clustering Controls (Voronoi & Hexbins)
+  if (toggleClusterPoints) {
+    toggleClusterPoints.addEventListener('change', (e) => {
+      clusterPointsEnabled = e.target.checked;
+      if (clusterSliderRow) clusterSliderRow.style.display = clusterPointsEnabled ? 'flex' : 'none';
+      if (clusterStatusBadge) clusterStatusBadge.style.display = clusterPointsEnabled ? 'inline-block' : 'none';
+      updateSpatialAnalysis(lastFilteredFeatures);
+    });
+  }
+
+  if (clusterDistanceSlider) {
+    clusterDistanceSlider.addEventListener('input', (e) => {
+      clusterDistanceMeters = parseInt(e.target.value, 10);
+      if (clusterDistanceVal) clusterDistanceVal.textContent = `${clusterDistanceMeters}m`;
+      if (clusterPointsEnabled) {
+        updateSpatialAnalysis(lastFilteredFeatures);
+      }
     });
   }
 
