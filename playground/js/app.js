@@ -198,7 +198,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const BASEMAPS = {
     liberty: 'https://tiles.openfreemap.org/styles/liberty',
     positron: 'https://tiles.openfreemap.org/styles/positron',
-    bright: 'https://tiles.openfreemap.org/styles/bright',
+    dark: 'https://tiles.openfreemap.org/styles/dark',
   };
 
   // 2. State & Driver Initialization
