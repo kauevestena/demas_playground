@@ -28,6 +28,7 @@
       this._statesCache = null;
       this._manifestCache = null;
       this._boundaryCache = new Map();
+      this._censusTractsCache = new Map();
     }
 
     /**
@@ -203,6 +204,53 @@
           }
         } catch (proxyErr) {
           console.warn(`Proxy IBGE Malhas fetch failed for ${targetId7}:`, proxyErr);
+        }
+      }
+
+      return null;
+    }
+
+    /**
+     * Fetch census tracts GeoJSON for a municipality (from local cache or remote proxy).
+     * @param {number|string} code6 - 6-digit IBGE code
+     * @param {number|string} [id7] - 7-digit IBGE code
+     * @param {string} [basePath='data/']
+     * @returns {Promise<Object|null>} GeoJSON FeatureCollection of census tracts
+     */
+    async fetchCensusTracts(code6, id7 = null, basePath = 'data/') {
+      const key = String(code6);
+      if (this._censusTractsCache.has(key)) {
+        return this._censusTractsCache.get(key);
+      }
+
+      // 1. Try local pre-cached census tracts file
+      try {
+        const localPath = `${basePath}census_tracts/${key}.geojson`;
+        const res = await fetch(localPath);
+        if (res.ok) {
+          const data = await res.json();
+          if (data && data.features && data.features.length > 0) {
+            this._censusTractsCache.set(key, data);
+            return data;
+          }
+        }
+      } catch (_) {}
+
+      // 2. Try proxy / remote if configured
+      if (this.proxyUrl) {
+        const targetId7 = id7 || (this._manifestCache && this._manifestCache[key] && this._manifestCache[key].id7) || this.calculateIbgeId7(code6);
+        try {
+          const proxyUrl = `${this.proxyUrl}/census_tracts/${targetId7}.geojson`;
+          const res = await fetch(proxyUrl);
+          if (res.ok) {
+            const data = await res.json();
+            if (data && data.features && data.features.length > 0) {
+              this._censusTractsCache.set(key, data);
+              return data;
+            }
+          }
+        } catch (err) {
+          console.warn(`Remote census tracts fetch failed for ${key}:`, err);
         }
       }
 
