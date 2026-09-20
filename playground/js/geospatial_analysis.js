@@ -386,13 +386,15 @@
    * @param {Object} [boundaryGeojson=null]
    * @param {Object} [censusTractsFC=null]
    * @param {string} [metric='category'] - 'category' | 'population' | 'income' | 'sobrecarga'
+   * @param {string} [classificationMethod='jenks'] - 'continuous' | 'quartiles' | 'equal_5' | 'equal_10' | 'std_dev' | 'jenks'
    */
-  function computeVoronoi(features, marginKm = 4.0, boundaryGeojson = null, censusTractsFC = null, metric = 'category') {
+  function computeVoronoi(features, marginKm = 4.0, boundaryGeojson = null, censusTractsFC = null, metric = 'category', classificationMethod = 'jenks') {
     if (!window.turf) {
       console.error('Turf.js is not loaded.');
       const emptyFC = { type: 'FeatureCollection', features: [] };
       emptyFC.classification = null;
       emptyFC.metric = metric;
+      emptyFC.activeMethod = classificationMethod;
       return emptyFC;
     }
 
@@ -400,6 +402,7 @@
       const emptyFC = { type: 'FeatureCollection', features: [] };
       emptyFC.classification = null;
       emptyFC.metric = metric;
+      emptyFC.activeMethod = classificationMethod;
       return emptyFC;
     }
 
@@ -528,19 +531,23 @@
 
     if (metric === 'population') {
       const pops = resultFC.features.map(f => f.properties.populacao_total || 0);
-      classification = classify1D(pops, 'jenks', 'hab.');
+      classification = classify1D(pops, classificationMethod || 'jenks', 'hab.');
       resultFC.features.forEach(f => {
         const p = f.properties.populacao_total || 0;
         f.properties.color = classification.getColor(p);
+        f.properties.classIndex = classification.getClassIndex(p);
+        f.properties.classLabel = classification.getClassLabel(p);
         f.properties.metricValue = p;
         f.properties.metricLabel = classification.getClassLabel(p);
       });
     } else if (metric === 'income') {
       const incomes = resultFC.features.map(f => f.properties.renda_per_capita || 0);
-      classification = classify1D(incomes, 'quartiles', 'R$');
+      classification = classify1D(incomes, classificationMethod || 'jenks', 'R$');
       resultFC.features.forEach(f => {
         const inc = f.properties.renda_per_capita || 0;
         f.properties.color = classification.getColor(inc);
+        f.properties.classIndex = classification.getClassIndex(inc);
+        f.properties.classLabel = classification.getClassLabel(inc);
         f.properties.metricValue = inc;
         f.properties.metricLabel = classification.getClassLabel(inc);
       });
@@ -557,7 +564,9 @@
           { label: 'Atenção (3.501 a 6.000 hab)', color: '#f59e0b', count: attentionCount },
           { label: 'Crítica / Sobrecarga (> 6.000 hab)', color: '#ef4444', count: criticalCount }
         ],
-        getColor: (v) => v.pnab_color
+        getColor: (v) => v.pnab_color,
+        getClassIndex: (v) => 0,
+        getClassLabel: (v) => v.pnab_class || 'Adequada'
       };
 
       resultFC.features.forEach(f => {
@@ -574,6 +583,7 @@
 
     resultFC.classification = classification;
     resultFC.metric = metric;
+    resultFC.activeMethod = classificationMethod;
     return resultFC;
   }
 

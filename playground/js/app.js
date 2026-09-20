@@ -250,6 +250,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const hexMetricSelect = document.getElementById('hex-metric-select');
   const voronoiMetricRow = document.getElementById('voronoi-metric-row');
   const voronoiMetricSelect = document.getElementById('voronoi-metric-select');
+  const voronoiMethodRow = document.getElementById('voronoi-method-row');
+  const voronoiMethodSelect = document.getElementById('voronoi-method-select');
   const btnDownloadCensusTracts = document.getElementById('btn-download-census-tracts');
   const censusBtnLabel = document.getElementById('census-btn-label');
   const censusStatusBadge = document.getElementById('census-status-badge');
@@ -274,11 +276,36 @@ document.addEventListener('DOMContentLoaded', () => {
   let hexRadiusKm = 1.0;     // 0.5 | 1.0 | 5.0 | 10.0
   let hexMethod = 'continuous'; // 'continuous' | 'quartiles' | 'equal_5' | 'equal_10' | 'std_dev' | 'jenks'
   let voronoiMetric = 'category'; // 'category' | 'population' | 'income' | 'sobrecarga'
+  let voronoiMethod = 'jenks';    // 'continuous' | 'quartiles' | 'equal_5' | 'equal_10' | 'std_dev' | 'jenks'
   let hexMetric = 'count';        // 'count' | 'population' | 'income' | 'hab_per_unit'
   let clusterPointsEnabled = false;
   let clusterDistanceMeters = 20;
   let currentCensusTractsGeojson = null;
   let lastFilteredFeatures = [];
+
+  const METHOD_LABELS = {
+    'continuous': 'Escala Contínua (Não agrupado)',
+    'quartiles': 'Quartis (4 classes)',
+    'equal_5': 'Intervalos Iguais (5 quebras)',
+    'equal_10': 'Intervalos Iguais (10 quebras)',
+    'std_dev': 'Desvio Padrão',
+    'jenks': 'Quebras Naturais (Jenks)',
+  };
+
+  function isFloatVoronoiMetric(metric) {
+    return ['population', 'income'].includes(metric);
+  }
+
+  function updateVoronoiControlsVisibility() {
+    const hasCensus = !!currentCensusTractsGeojson;
+    if (voronoiMetricRow) {
+      voronoiMetricRow.style.display = hasCensus ? 'flex' : 'none';
+    }
+    if (voronoiMethodRow) {
+      const showMethod = hasCensus && isFloatVoronoiMetric(voronoiMetric) && (analysisMode === 'voronoi');
+      voronoiMethodRow.style.display = showMethod ? 'flex' : 'none';
+    }
+  }
 
   if (proxyInput) proxyInput.value = savedProxy;
 
@@ -1118,8 +1145,8 @@ document.addEventListener('DOMContentLoaded', () => {
           censusStatusBadge.textContent = `${cachedTracts.features.length} setores (${totalPop.toLocaleString('pt-BR')} hab)`;
         }
         if (censusOptionsRow) censusOptionsRow.style.display = 'flex';
-        if (voronoiMetricRow) voronoiMetricRow.style.display = 'flex';
         if (hexMetricRow) hexMetricRow.style.display = 'flex';
+        updateVoronoiControlsVisibility();
         if (censusBtnLabel) censusBtnLabel.textContent = 'Atualizar Setores Censitários';
         if (map && map.getSource('census-tracts')) {
           map.getSource('census-tracts').setData(cachedTracts);
@@ -1131,8 +1158,8 @@ document.addEventListener('DOMContentLoaded', () => {
           censusStatusBadge.textContent = 'Não carregados';
         }
         if (censusOptionsRow) censusOptionsRow.style.display = 'none';
-        if (voronoiMetricRow) voronoiMetricRow.style.display = 'none';
         if (hexMetricRow) hexMetricRow.style.display = 'none';
+        updateVoronoiControlsVisibility();
         if (censusBtnLabel) censusBtnLabel.textContent = 'Baixar Setores Censitários';
         if (map && map.getSource('census-tracts')) {
           map.getSource('census-tracts').setData({ type: 'FeatureCollection', features: [] });
@@ -1218,6 +1245,48 @@ document.addEventListener('DOMContentLoaded', () => {
     updateSpatialAnalysis(filtered);
   }
 
+  function renderClassificationLegend(classification, cellCount) {
+    if (!analysisLegendBody) return;
+    if (!classification || cellCount === 0) {
+      analysisLegendBody.innerHTML = `
+        <div style="font-size:11px;color:var(--text-muted);">Nenhum dado na seleção atual.</div>
+      `;
+    } else if (classification.type === 'continuous') {
+      analysisLegendBody.innerHTML = `
+        <div class="colorbar-gradient-bar" style="background: ${classification.gradientCss};"></div>
+        <div class="colorbar-range-labels">
+          <span>Mín: ${classification.getClassLabel(classification.min)}</span>
+          <span>Total: ${cellCount}</span>
+          <span>Máx: ${classification.getClassLabel(classification.max)}</span>
+        </div>
+      `;
+    } else if (classification.type === 'single') {
+      analysisLegendBody.innerHTML = `
+        <div class="colorbar-step-item">
+          <div class="colorbar-step-left">
+            <span class="colorbar-step-color" style="background: ${classification.getColor()};"></span>
+            <span>${classification.getClassLabel()}</span>
+          </div>
+          <span class="colorbar-step-count">${cellCount} células</span>
+        </div>
+      `;
+    } else if (classification.bins && classification.bins.length > 0) {
+      analysisLegendBody.innerHTML = `
+        <div class="colorbar-steps">
+          ${classification.bins.map(bin => `
+            <div class="colorbar-step-item">
+              <div class="colorbar-step-left">
+                <span class="colorbar-step-color" style="background: ${bin.color};"></span>
+                <span>${bin.label}</span>
+              </div>
+              <span class="colorbar-step-count">${bin.count} cél.</span>
+            </div>
+          `).join('')}
+        </div>
+      `;
+    }
+  }
+
   function updateSpatialAnalysis(filteredFeatures) {
     lastFilteredFeatures = filteredFeatures || [];
 
@@ -1235,6 +1304,9 @@ document.addEventListener('DOMContentLoaded', () => {
       }
       return;
     }
+
+    // Keep controls in sync
+    updateVoronoiControlsVisibility();
 
     // Show clustering controls when spatial analysis is active
     if (clusterControlBox) clusterControlBox.style.display = 'flex';
@@ -1269,7 +1341,8 @@ document.addEventListener('DOMContentLoaded', () => {
         4.0,
         currentBoundaryGeojson,
         currentCensusTractsGeojson,
-        voronoiMetric
+        voronoiMetric,
+        voronoiMethod
       );
       if (voronoiSource) voronoiSource.setData(voronoiResult);
 
@@ -1281,6 +1354,16 @@ document.addEventListener('DOMContentLoaded', () => {
           : `Voronoi (${cellCount} células)`;
       }
 
+      // Adjust fill opacity and border styling for demographic choropleth vs category
+      if (map && map.getLayer('analysis-voronoi-fill')) {
+        const opacity = (voronoiMetric === 'category') ? 0.20 : 0.40;
+        map.setPaintProperty('analysis-voronoi-fill', 'fill-opacity', opacity);
+      }
+      if (map && map.getLayer('analysis-voronoi-line')) {
+        const dash = (voronoiMetric === 'category') ? [3, 2] : [1, 0];
+        map.setPaintProperty('analysis-voronoi-line', 'line-dasharray', dash);
+      }
+
       // Render Voronoi legend
       if (analysisLegend) {
         analysisLegend.style.display = 'block';
@@ -1288,65 +1371,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (voronoiMetric === 'population') {
           analysisLegendTitle.textContent = 'População Adscrita (Voronoi)';
-          analysisLegendSubtitle.textContent = `Interpolação Censo IBGE 2022 (${cellCount} células)${clusterSuffix}`;
-          const cl = voronoiResult.classification;
-          if (cl && cl.bins && cl.bins.length > 0) {
-            analysisLegendBody.innerHTML = `
-              <div class="colorbar-steps">
-                ${cl.bins.map(bin => `
-                  <div class="colorbar-step-item">
-                    <div class="colorbar-step-left">
-                      <span class="colorbar-step-color" style="background: ${bin.color};"></span>
-                      <span>${bin.label}</span>
-                    </div>
-                    <span class="colorbar-step-count">${bin.count} cél.</span>
-                  </div>
-                `).join('')}
-              </div>
-            `;
-          } else {
-            analysisLegendBody.innerHTML = `<div style="font-size:11px;color:var(--text-muted);">${cellCount} células calculadas.</div>`;
-          }
+          analysisLegendSubtitle.textContent = `Interpolação Censo IBGE 2022 • ${METHOD_LABELS[voronoiMethod] || voronoiMethod}${clusterSuffix}`;
+          renderClassificationLegend(voronoiResult.classification, cellCount);
         } else if (voronoiMetric === 'income') {
           analysisLegendTitle.textContent = 'Renda Média Per Capita (Voronoi)';
-          analysisLegendSubtitle.textContent = `Quartis de Rendimento Censo 2022 (${cellCount} células)${clusterSuffix}`;
-          const cl = voronoiResult.classification;
-          if (cl && cl.bins && cl.bins.length > 0) {
-            analysisLegendBody.innerHTML = `
-              <div class="colorbar-steps">
-                ${cl.bins.map(bin => `
-                  <div class="colorbar-step-item">
-                    <div class="colorbar-step-left">
-                      <span class="colorbar-step-color" style="background: ${bin.color};"></span>
-                      <span>${bin.label}</span>
-                    </div>
-                    <span class="colorbar-step-count">${bin.count} cél.</span>
-                  </div>
-                `).join('')}
-              </div>
-            `;
-          } else {
-            analysisLegendBody.innerHTML = `<div style="font-size:11px;color:var(--text-muted);">${cellCount} células calculadas.</div>`;
-          }
+          analysisLegendSubtitle.textContent = `Censo IBGE 2022 • ${METHOD_LABELS[voronoiMethod] || voronoiMethod}${clusterSuffix}`;
+          renderClassificationLegend(voronoiResult.classification, cellCount);
         } else if (voronoiMetric === 'sobrecarga') {
           analysisLegendTitle.textContent = 'Índice de Sobrecarga PNAB';
           analysisLegendSubtitle.textContent = `Referência: 2.000 a 3.500 hab/equipe (${cellCount} células)${clusterSuffix}`;
-          const cl = voronoiResult.classification;
-          if (cl && cl.bins) {
-            analysisLegendBody.innerHTML = `
-              <div class="colorbar-steps">
-                ${cl.bins.map(bin => `
-                  <div class="colorbar-step-item">
-                    <div class="colorbar-step-left">
-                      <span class="colorbar-step-color" style="background: ${bin.color};"></span>
-                      <span>${bin.label}</span>
-                    </div>
-                    <span class="colorbar-step-count">${bin.count} cél.</span>
-                  </div>
-                `).join('')}
-              </div>
-            `;
-          }
+          renderClassificationLegend(voronoiResult.classification, cellCount);
         } else {
           // Category default
           analysisLegendTitle.textContent = 'Diagrama de Voronoi';
@@ -1387,14 +1421,6 @@ document.addEventListener('DOMContentLoaded', () => {
       // Render Hexbin Legend / Colorbar
       if (analysisLegend) {
         analysisLegend.style.display = 'block';
-        const methodLabels = {
-          'continuous': 'Escala Contínua (Não agrupado)',
-          'quartiles': 'Quartis (4 classes)',
-          'equal_5': 'Intervalos Iguais (5 quebras)',
-          'equal_10': 'Intervalos Iguais (10 quebras)',
-          'std_dev': 'Desvio Padrão',
-          'jenks': 'Quebras Naturais (Jenks)',
-        };
 
         const metricTitles = {
           'count': clusterPointsEnabled ? 'Densidade de Polos de Saúde' : 'Densidade de Estabelecimentos',
@@ -1405,47 +1431,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const clusterSuffix = clusterPointsEnabled ? ` • Aglutinação: ≤ ${clusterDistanceMeters}m` : '';
         analysisLegendTitle.textContent = metricTitles[hexMetric] || 'Densidade Hexagonal';
-        analysisLegendSubtitle.textContent = `Raio: ${radiusLabel} • ${methodLabels[hexMethod] || hexMethod}${clusterSuffix}`;
+        analysisLegendSubtitle.textContent = `Raio: ${radiusLabel} • ${METHOD_LABELS[hexMethod] || hexMethod}${clusterSuffix}`;
 
-        const classification = hexResult.classification;
-        if (!classification || cellCount === 0) {
-          analysisLegendBody.innerHTML = `
-            <div style="font-size:11px;color:var(--text-muted);">Nenhum estabelecimento na seleção atual.</div>
-          `;
-        } else if (classification.type === 'continuous') {
-          analysisLegendBody.innerHTML = `
-            <div class="colorbar-gradient-bar" style="background: ${classification.gradientCss};"></div>
-            <div class="colorbar-range-labels">
-              <span>Mín: ${classification.getClassLabel(classification.min)}</span>
-              <span>Total Células: ${cellCount}</span>
-              <span>Máx: ${classification.getClassLabel(classification.max)}</span>
-            </div>
-          `;
-        } else if (classification.type === 'single') {
-          analysisLegendBody.innerHTML = `
-            <div class="colorbar-step-item">
-              <div class="colorbar-step-left">
-                <span class="colorbar-step-color" style="background: ${classification.getColor()};"></span>
-                <span>${classification.getClassLabel()}</span>
-              </div>
-              <span class="colorbar-step-count">${cellCount} células</span>
-            </div>
-          `;
-        } else {
-          analysisLegendBody.innerHTML = `
-            <div class="colorbar-steps">
-              ${classification.bins.map(bin => `
-                <div class="colorbar-step-item">
-                  <div class="colorbar-step-left">
-                    <span class="colorbar-step-color" style="background: ${bin.color};"></span>
-                    <span>${bin.label}</span>
-                  </div>
-                  <span class="colorbar-step-count">${bin.count} cél.</span>
-                </div>
-              `).join('')}
-            </div>
-          `;
-        }
+        renderClassificationLegend(hexResult.classification, cellCount);
       }
     }
   }
@@ -1536,6 +1524,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if (hexOptionsContainer) hexOptionsContainer.style.display = (mode === 'hexbin') ? 'flex' : 'none';
       if (voronoiOptionsContainer) voronoiOptionsContainer.style.display = (mode === 'voronoi') ? 'flex' : 'none';
       if (clusterControlBox) clusterControlBox.style.display = (mode !== 'none') ? 'flex' : 'none';
+      updateVoronoiControlsVisibility();
 
       updateSpatialAnalysis(lastFilteredFeatures);
     });
@@ -1565,8 +1554,8 @@ document.addEventListener('DOMContentLoaded', () => {
             censusStatusBadge.textContent = `${tracts.features.length} setores (${totalPop.toLocaleString('pt-BR')} hab)`;
           }
           if (censusOptionsRow) censusOptionsRow.style.display = 'flex';
-          if (voronoiMetricRow) voronoiMetricRow.style.display = 'flex';
           if (hexMetricRow) hexMetricRow.style.display = 'flex';
+          updateVoronoiControlsVisibility();
           if (censusBtnLabel) censusBtnLabel.textContent = 'Atualizar Setores Censitários';
 
           if (map && map.getSource('census-tracts')) {
@@ -1605,6 +1594,14 @@ document.addEventListener('DOMContentLoaded', () => {
   if (voronoiMetricSelect) {
     voronoiMetricSelect.addEventListener('change', () => {
       voronoiMetric = voronoiMetricSelect.value;
+      updateVoronoiControlsVisibility();
+      updateSpatialAnalysis(lastFilteredFeatures);
+    });
+  }
+
+  if (voronoiMethodSelect) {
+    voronoiMethodSelect.addEventListener('change', () => {
+      voronoiMethod = voronoiMethodSelect.value;
       updateSpatialAnalysis(lastFilteredFeatures);
     });
   }

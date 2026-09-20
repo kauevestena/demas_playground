@@ -1282,6 +1282,17 @@
               <option value="sobrecarga">Índice de Sobrecarga PNAB</option>
             </select>
           </div>
+          <div class="analysis-control-row" id="voronoi-method-row" style="display: none;">
+            <label class="analysis-label" for="voronoi-method-select">Classificação 1D:</label>
+            <select id="voronoi-method-select" class="analysis-select">
+              <option value="continuous">Não Agrupado (Escala Contínua)</option>
+              <option value="quartiles">Quartis (4 classes)</option>
+              <option value="equal_5">Intervalos Iguais (5 quebras)</option>
+              <option value="equal_10">Intervalos Iguais (10 quebras)</option>
+              <option value="std_dev">Desvio Padrão</option>
+              <option value="jenks" selected>Quebras Naturais (Jenks)</option>
+            </select>
+          </div>
           <div class="analysis-info-text">
             Polígonos de proximidade delimitando a área de menor distância até cada estabelecimento da categoria ativa.
           </div>
