@@ -10,7 +10,8 @@
       -26.225204
     ],
     "id7": 4118501,
-    "boundary": "data/boundaries/411850.geojson"
+    "boundary": "data/boundaries/411850.geojson",
+    "census_tracts": "data/census_tracts/411850.geojson"
   },
   "120040": {
     "code": 120040,
@@ -218,7 +219,8 @@
       -25.46892
     ],
     "id7": 4106902,
-    "boundary": "data/boundaries/410690.geojson"
+    "boundary": "data/boundaries/410690.geojson",
+    "census_tracts": "data/census_tracts/410690.geojson"
   },
   "261160": {
     "code": 261160,
@@ -322,7 +324,8 @@
       -27.585404
     ],
     "id7": 4205407,
-    "boundary": "data/boundaries/420540.geojson"
+    "boundary": "data/boundaries/420540.geojson",
+    "census_tracts": "data/census_tracts/420540.geojson"
   },
   "355030": {
     "code": 355030,
@@ -335,7 +338,8 @@
       -23.570774
     ],
     "id7": 3550308,
-    "boundary": "data/boundaries/355030.geojson"
+    "boundary": "data/boundaries/355030.geojson",
+    "census_tracts": "data/census_tracts/355030.geojson"
   },
   "280030": {
     "code": 280030,

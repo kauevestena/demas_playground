@@ -1153,9 +1153,15 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       } else {
         currentCensusTractsGeojson = null;
+        const hasPrecached = !!(cachedManifest[String(code6)] && cachedManifest[String(code6)].census_tracts);
         if (censusStatusBadge) {
-          censusStatusBadge.className = 'census-badge';
-          censusStatusBadge.textContent = 'Não carregados';
+          if (hasPrecached) {
+            censusStatusBadge.className = 'census-badge available';
+            censusStatusBadge.textContent = 'Disponível';
+          } else {
+            censusStatusBadge.className = 'census-badge';
+            censusStatusBadge.textContent = 'Sob demanda';
+          }
         }
         if (censusOptionsRow) censusOptionsRow.style.display = 'none';
         if (hexMetricRow) hexMetricRow.style.display = 'none';
@@ -1565,7 +1571,7 @@ document.addEventListener('DOMContentLoaded', () => {
           // If spatial analysis is active, recompute with enriched demographic data
           updateSpatialAnalysis(lastFilteredFeatures);
         } else {
-          alert('Não foi possível carregar os setores censitários para o município.');
+          alert(`Os setores censitários do Censo 2022 ainda não foram pré-carregados para ${currentCityInfo.name} (${currentCityInfo.uf}).\n\nMunicípios com malha censitária pré-carregada:\n• Curitiba (PR)\n• Florianópolis (SC)\n• São Paulo (SP)\n• Pato Branco (PR)\n\nPara municípios adicionais, utilize o script de extração do IBGE ou configure o proxy de dados.`);
           if (censusBtnLabel) censusBtnLabel.textContent = originalText;
         }
       } catch (err) {
