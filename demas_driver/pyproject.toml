@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "demas-driver"
-version = "0.1.0"
-description = "Python driver to query DEMAS/CNES Open Data API and export healthcare facilities to OSM-ready GeoJSON"
+version = "0.2.0"
+description = "Python driver to query DEMAS/CNES Open Data API, Censo 2022 census tracts, and perform spatial demographic analysis (Voronoi, Hexbins, Areal Weighting)"
 readme = "README.md"
 authors = [
     { name = "Kaue" }
@@ -13,6 +13,16 @@ authors = [
 license = { text = "MIT" }
 requires-python = ">=3.8"
 dependencies = []
+
+[project.optional-dependencies]
+geo = [
+    "geopandas>=0.14.0",
+    "pyarrow>=14.0.0",
+    "pyogrio>=0.7.0",
+    "shapely>=2.0.0",
+    "scipy>=1.10.0",
+    "pandas>=2.0.0"
+]
 
 [project.urls]
 Homepage = "https://github.com/demas_playground/demas_driver"
