@@ -226,9 +226,10 @@
    * 
    * @param {Object} cellsFC - GeoJSON FeatureCollection of spatial cells (Voronoi or Hexbins)
    * @param {Object} tractsFC - GeoJSON FeatureCollection of census tracts (IBGE Censo 2022)
+   * @param {string} [situacao='ambos'] - Territorial filter: 'ambos', 'urbanos', or 'rurais'
    * @returns {Object} Enriched GeoJSON FeatureCollection
    */
-  function enrichWithCensusTracts(cellsFC, tractsFC) {
+  function enrichWithCensusTracts(cellsFC, tractsFC, situacao = 'ambos') {
     if (!window.turf || !cellsFC || !cellsFC.features || cellsFC.features.length === 0) {
       return cellsFC;
     }
@@ -236,7 +237,48 @@
       return cellsFC;
     }
 
-    const tracts = tractsFC.features;
+    let tracts = tractsFC.features;
+    if (situacao && situacao !== 'ambos') {
+      const target = situacao.toLowerCase().includes('urban') ? 'urban' : 'rural';
+      tracts = tracts.filter(t => {
+        const s = String(t.properties?.situacao || '').toLowerCase();
+        return s.includes(target);
+      });
+    }
+
+    if (tracts.length === 0) {
+      // If no tracts match the filter, assign 0 values to cells
+      cellsFC.features.forEach(cell => {
+        if (!cell.geometry) return;
+        const cellArea = window.turf.area(cell);
+        const cellProps = cell.properties || {};
+        const qtdEsf = Number(cellProps.qtd_equipes_esf) > 0 ? Number(cellProps.qtd_equipes_esf) : 1;
+        const nominalCap = Number(cellProps.capacidade_pnab) > 0 ? Number(cellProps.capacidade_pnab) : (qtdEsf * 3500);
+        cell.properties = {
+          ...cell.properties,
+          hasCensusData: true,
+          populacao_total: 0,
+          populacao_estimada: 0,
+          renda_per_capita: 0,
+          renda_per_capita_estimada: 0,
+          domicilios_estimados: 0,
+          pct_agua_encanada: null,
+          pct_esgoto_coletado: null,
+          qtd_equipes_esf: qtdEsf,
+          capacidade_pnab: nominalCap,
+          sobrecarga_pnab: 0,
+          pnab_class: `Adequada (≤ ${nominalCap.toLocaleString('pt-BR')} hab)`,
+          pnab_color: '#10b981',
+          intersecting_tracts_count: 0,
+          situacao_filtro: situacao,
+          area_km2: Number((cellArea / 1e6).toFixed(2))
+        };
+        if (cell.properties.facilitiesCount !== undefined) {
+          cell.properties.hab_per_unit = 0;
+        }
+      });
+      return cellsFC;
+    }
 
     // Precalculate and cache bbox, area, and demographic properties for each tract
     const preparedTracts = tracts.map(t => {
@@ -376,6 +418,7 @@
         pnab_class: pnabClassification,
         pnab_color: pnabClassColor,
         intersecting_tracts_count: intersectingTractsCount,
+        situacao_filtro: situacao,
         area_km2: Number((cellArea / 1e6).toFixed(2))
       };
 
@@ -432,8 +475,9 @@
    * @param {Object} [censusTractsFC=null]
    * @param {string} [metric='category'] - 'category' | 'population' | 'income' | 'sobrecarga'
    * @param {string} [classificationMethod='jenks'] - 'continuous' | 'quartiles' | 'equal_5' | 'equal_10' | 'std_dev' | 'jenks'
+   * @param {string} [situacao='ambos'] - 'ambos' | 'urbanos' | 'rurais'
    */
-  function computeVoronoi(features, marginKm = 4.0, boundaryGeojson = null, censusTractsFC = null, metric = 'category', classificationMethod = 'jenks') {
+  function computeVoronoi(features, marginKm = 4.0, boundaryGeojson = null, censusTractsFC = null, metric = 'category', classificationMethod = 'jenks', situacao = 'ambos') {
     if (!window.turf) {
       console.error('Turf.js is not loaded.');
       const emptyFC = { type: 'FeatureCollection', features: [] };
@@ -569,7 +613,7 @@
 
     // Enrich with census demographics if census tracts are provided
     if (censusTractsFC && censusTractsFC.features && censusTractsFC.features.length > 0) {
-      enrichWithCensusTracts(resultFC, censusTractsFC);
+      enrichWithCensusTracts(resultFC, censusTractsFC, situacao);
     }
 
     let classification = null;
@@ -902,8 +946,9 @@
    * @param {Object} [boundaryGeojson=null]
    * @param {Object} [censusTractsFC=null]
    * @param {string} [metric='count'] - 'count' | 'population' | 'income' | 'hab_per_unit'
+   * @param {string} [situacao='ambos'] - 'ambos' | 'urbanos' | 'rurais'
    */
-  function computeHexbins(features, radiusKm = 1.0, classificationMethod = 'continuous', boundaryGeojson = null, censusTractsFC = null, metric = 'count') {
+  function computeHexbins(features, radiusKm = 1.0, classificationMethod = 'continuous', boundaryGeojson = null, censusTractsFC = null, metric = 'count', situacao = 'ambos') {
     if (!window.turf) {
       console.error('Turf.js is not loaded.');
       return { featureCollection: { type: 'FeatureCollection', features: [] }, classification: null };
@@ -1003,7 +1048,7 @@
 
       // Enrich with census tracts demographics if provided
       if (censusTractsFC && censusTractsFC.features && censusTractsFC.features.length > 0) {
-        enrichWithCensusTracts(hexFC, censusTractsFC);
+        enrichWithCensusTracts(hexFC, censusTractsFC, situacao);
       }
 
       // Determine metric values and label unit

@@ -74,9 +74,10 @@ class CensusDuckDB {
    * @param {string} uf - 2-letter state code
    * @param {string|number} id7 - 7-digit IBGE code
    * @param {Array<string>} themes - Array of themes, e.g. ['basico', 'renda', 'saneamento']
+   * @param {string} [situacao='ambos'] - Territorial filter: 'ambos', 'urbanos', or 'rurais'
    * @returns {Promise<Object|null>} Standard GeoJSON FeatureCollection
    */
-  async queryCensusTracts(code6, uf, id7, themes = ['basico', 'renda']) {
+  async queryCensusTracts(code6, uf, id7, themes = ['basico', 'renda'], situacao = 'ambos') {
     const ready = await this.init();
     if (!ready || !this.conn) {
       console.warn('[CensusDuckDB] Engine not available, falling back.');
@@ -137,15 +138,21 @@ class CensusDuckDB {
         joins.push(`LEFT JOIN read_parquet('censo_saneamento.parquet') s ON g.cd_setor = s.cd_setor`);
       }
 
+      let whereClause = `WHERE g.cd_mun = ${munId}`;
+      if (situacao && situacao !== 'ambos') {
+        const targetSit = situacao.toLowerCase().includes('urban') ? 'urban' : 'rural';
+        whereClause += ` AND LOWER(b.situacao) LIKE '%${targetSit}%'`;
+      }
+
       const sql = `
         SELECT 
           ${selectFields.join(',\n          ')}
         FROM read_parquet('${geomVirtual}') g
         ${joins.join('\n        ')}
-        WHERE g.cd_mun = ${munId};
+        ${whereClause};
       `;
 
-      console.log(`[CensusDuckDB] Executing spatial-demographic join for ${code6} (${ufUpper})...`);
+      console.log(`[CensusDuckDB] Executing spatial-demographic join for ${code6} (${ufUpper}, situacao=${situacao})...`);
       const t0 = performance.now();
       const arrowTable = await this.conn.query(sql);
       const queryTime = Math.round(performance.now() - t0);
@@ -210,6 +217,7 @@ class CensusDuckDB {
           census_year: 2022,
           total_tracts: features.length,
           total_population: totalPop,
+          filter_situacao: situacao,
           engine: 'DuckDB-Wasm (Decoupled Parquet)',
           themes: themes,
           query_time_ms: queryTime

@@ -54,6 +54,7 @@ def query_parquet_tracts(
     id7: int,
     themes: List[str] = None,
     parquet_dir: Optional[Union[str, Path]] = None,
+    situacao: str = "ambos",
     as_gdf: bool = True
 ) -> Optional[Any]:
     """
@@ -122,6 +123,12 @@ def query_parquet_tracts(
         if san_file.is_file():
             df_san = pd.read_parquet(san_file)
             df_result = pd.merge(df_result, df_san, on="cd_setor", how="left")
+
+    # Filter by situacao if requested ('urbanos' / 'rurais')
+    if situacao and situacao.lower() not in ("ambos", "todas", "todos", "all"):
+        target_sit = "urbana" if "urban" in situacao.lower() else "rural"
+        if "situacao" in df_result.columns:
+            df_result = df_result[df_result["situacao"].astype(str).str.lower().str.contains(target_sit)].copy()
 
     # Convert geom_json strings to Shapely shapes or GeoJSON features
     if HAS_GEOPANDAS and as_gdf:

@@ -292,11 +292,13 @@ def cluster_nearby_points(
 
 def enrich_cells_with_census(
     cells: Any,
-    tracts: Any
+    tracts: Any,
+    situacao: str = "ambos"
 ) -> Any:
     """
     Enrich spatial cells (Voronoi polygons or Hexagons) with census demographics
     using exact geometric areal interpolation (areal weighting).
+    Optionally filters tracts by territorial situation ('ambos', 'urbanos', 'rurais').
     """
     if not HAS_GEOPANDAS:
         return cells
@@ -311,6 +313,25 @@ def enrich_cells_with_census(
 
     if cells_gdf.empty or tracts_gdf.empty:
         return cells
+
+    # Filter tracts by territorial situation if specified
+    if situacao and situacao.lower() not in ("ambos", "todas", "todos", "all"):
+        target_sit = "urbana" if "urban" in situacao.lower() else "rural"
+        if "situacao" in tracts_gdf.columns:
+            tracts_gdf = tracts_gdf[tracts_gdf["situacao"].astype(str).str.lower().str.contains(target_sit)].copy()
+
+    if tracts_gdf.empty:
+        # If no tracts match the filter, populate with zero population and return
+        cells_gdf["populacao_total"] = 0
+        cells_gdf["domicilios"] = 0
+        cells_gdf["renda_per_capita"] = 0.0
+        cells_gdf["pct_agua_encanada"] = None
+        cells_gdf["pct_esgoto_coletado"] = None
+        cells_gdf["sobrecarga_pnab"] = 0.0
+        cells_gdf["classificacao_pnab"] = "Adequada (≤ 3.500 hab)"
+        cells_gdf["cor_pnab"] = "#10b981"
+        cells_gdf["filtro_situacao"] = situacao
+        return cells_gdf if isinstance(cells, gpd.GeoDataFrame) else json.loads(cells_gdf.to_json())
 
     # Ensure valid geometries
     tracts_gdf["geometry"] = tracts_gdf["geometry"].buffer(0)
@@ -475,6 +496,7 @@ def compute_voronoi(
     boundary: Optional[Any] = None,
     census_tracts: Optional[Any] = None,
     metric: str = "category",
+    situacao: str = "ambos",
     cluster_distance_m: float = 0.0,
     classification_method: str = "jenks",
     n_classes: int = 5,
@@ -484,6 +506,7 @@ def compute_voronoi(
     Compute Voronoi / Thiessen polygons for healthcare facilities,
     clipped to municipal boundary, enriched with Census tracts,
     and styled according to chosen metric.
+    Optionally filters tracts by territorial situation ('ambos', 'urbanos', 'rurais').
     """
     if not HAS_GEOPANDAS:
         raise RuntimeError("geopandas is required for Voronoi computation.")
@@ -572,7 +595,7 @@ def compute_voronoi(
 
     # Enrich with census tracts if provided
     if census_tracts is not None:
-        res_gdf = enrich_cells_with_census(res_gdf, census_tracts)
+        res_gdf = enrich_cells_with_census(res_gdf, census_tracts, situacao=situacao)
 
     # Classify / style by metric
     classification_meta = None
@@ -624,6 +647,7 @@ def compute_hexbins(
     radius_km: float = 1.0,
     census_tracts: Optional[Any] = None,
     metric: str = "count",
+    situacao: str = "ambos",
     classification_method: str = "jenks",
     n_classes: int = 5,
     as_gdf: bool = True
@@ -721,7 +745,7 @@ def compute_hexbins(
 
     # Enrich with census tracts if provided
     if census_tracts is not None:
-        hex_gdf = enrich_cells_with_census(hex_gdf, census_tracts)
+        hex_gdf = enrich_cells_with_census(hex_gdf, census_tracts, situacao=situacao)
 
     # Classify by metric
     classification_meta = None

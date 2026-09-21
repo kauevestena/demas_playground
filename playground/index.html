@@ -1361,6 +1361,28 @@
             </div>
           </div>
 
+          <!-- Territorial Situation Filter (Ambos / Urbanos / Rurais) -->
+          <div class="census-situation-box" id="census-situation-box" style="margin-bottom: 8px; font-size: 11px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; padding: 6px 8px;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 5px;">
+              <span style="font-weight: 600; color: var(--text-secondary);">Situação Territorial:</span>
+              <span id="census-situation-counts" style="font-size: 10px; color: var(--text-muted); font-weight: 500;"></span>
+            </div>
+            <div style="display: flex; gap: 12px; align-items: center;">
+              <label style="display: inline-flex; align-items: center; gap: 4px; cursor: pointer; user-select: none;">
+                <input type="radio" name="census-situation-filter" value="ambos" checked />
+                <span>Ambos</span>
+              </label>
+              <label style="display: inline-flex; align-items: center; gap: 4px; cursor: pointer; user-select: none;">
+                <input type="radio" name="census-situation-filter" value="urbanos" />
+                <span>Urbanos</span>
+              </label>
+              <label style="display: inline-flex; align-items: center; gap: 4px; cursor: pointer; user-select: none;">
+                <input type="radio" name="census-situation-filter" value="rurais" />
+                <span>Rurais</span>
+              </label>
+            </div>
+          </div>
+
           <button id="btn-download-census-tracts" class="btn-census-download">
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>

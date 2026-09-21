@@ -19,11 +19,43 @@ except ImportError:
     HAS_GEOPANDAS = False
 
 
+def filter_tracts_by_situacao(tracts: Any, situacao: str = "ambos") -> Any:
+    """Filter tracts by territorial situation: 'ambos', 'urbanos' (Urbana), or 'rurais' (Rural)."""
+    if tracts is None or not situacao or situacao.lower() in ("ambos", "todas", "todos", "all"):
+        return tracts
+
+    target = "urbana" if "urban" in situacao.lower() else "rural"
+
+    if HAS_GEOPANDAS and isinstance(tracts, gpd.GeoDataFrame):
+        if "situacao" in tracts.columns:
+            return tracts[tracts["situacao"].astype(str).str.lower().str.contains(target)].copy()
+        return tracts
+
+    if isinstance(tracts, dict) and tracts.get("type") == "FeatureCollection":
+        features = tracts.get("features", [])
+        filtered = [
+            f for f in features
+            if target in str(f.get("properties", {}).get("situacao", "")).lower()
+        ]
+        return {
+            **tracts,
+            "features": filtered,
+            "metadata": {
+                **tracts.get("metadata", {}),
+                "filter_situacao": situacao,
+                "total_tracts": len(filtered)
+            }
+        }
+
+    return tracts
+
+
 def get_census_tracts(
     municipality: Union[str, int],
     themes: Optional[List[str]] = None,
     source: str = "auto",
     cache_dir: Optional[Union[str, Path]] = None,
+    situacao: str = "ambos",
     as_gdf: bool = True
 ) -> Any:
     """
@@ -42,6 +74,8 @@ def get_census_tracts(
         - 'ibge': Directly queries IBGE FTP GPKG.
     cache_dir : str or Path, optional
         Custom directory containing or storing Parquet files. Default: bundled playground or ~/.cache/demas/parquet.
+    situacao : str, default 'ambos'
+        Territorial filter: 'ambos' (all tracts), 'urbanos' (only urban tracts), or 'rurais' (only rural tracts).
     as_gdf : bool, default True
         If True, returns a GeoPandas GeoDataFrame (requires geopandas).
         If False, returns a GeoJSON FeatureCollection dictionary.
@@ -65,17 +99,18 @@ def get_census_tracts(
             id7=id7,
             themes=themes,
             parquet_dir=cache_dir,
+            situacao=situacao,
             as_gdf=as_gdf
         )
         if tracts is not None and (not hasattr(tracts, "empty") or not tracts.empty):
-            return tracts
+            return filter_tracts_by_situacao(tracts, situacao)
 
     if source == "parquet":
         return None
 
     # 2. Tier 2: On-Demand Direct Retrieval from IBGE FTP GPKG + Auto-caching
     if source in ("auto", "ibge"):
-        return fetch_ibge_tracts_direct(
+        tracts = fetch_ibge_tracts_direct(
             code6=code6,
             uf=uf,
             id7=id7,
@@ -83,6 +118,7 @@ def get_census_tracts(
             cache_dir=cache_dir,
             as_gdf=as_gdf
         )
+        return filter_tracts_by_situacao(tracts, situacao)
 
     raise ValueError(f"Invalid source '{source}'. Choose 'auto', 'parquet', or 'ibge'.")
 
@@ -124,6 +160,7 @@ def analyze_coverage(
     census_tracts: Optional[Any] = None,
     mode: str = "voronoi",
     metric: str = "population",
+    situacao: str = "ambos",
     radius_km: float = 1.0,
     cluster_distance_m: float = 20.0,
     classification_method: str = "jenks",
@@ -134,6 +171,11 @@ def analyze_coverage(
     End-to-end spatial-demographic coverage analysis.
     Automatically retrieves facilities, municipal boundary, and Censo 2022 tracts if not provided,
     and computes Voronoi or Hexagonal catchment areas with demographic indicators and PNAB overload.
+
+    Parameters:
+    -----------
+    situacao : str, default 'ambos'
+        Territorial filter: 'ambos' (all tracts), 'urbanos' (only urban tracts), or 'rurais' (only rural tracts).
     """
     code6 = resolve_municipality_code(municipality)
 
@@ -151,7 +193,9 @@ def analyze_coverage(
         pass
 
     if census_tracts is None:
-        census_tracts = get_census_tracts(code6, as_gdf=True)
+        census_tracts = get_census_tracts(code6, situacao=situacao, as_gdf=True)
+    elif situacao and situacao != "ambos":
+        census_tracts = filter_tracts_by_situacao(census_tracts, situacao)
 
     m = mode.lower()
     if m == "voronoi":
@@ -160,6 +204,7 @@ def analyze_coverage(
             boundary=boundary,
             census_tracts=census_tracts,
             metric=metric,
+            situacao=situacao,
             cluster_distance_m=cluster_distance_m,
             classification_method=classification_method,
             n_classes=n_classes,
@@ -172,6 +217,7 @@ def analyze_coverage(
             radius_km=radius_km,
             census_tracts=census_tracts,
             metric=metric,
+            situacao=situacao,
             classification_method=classification_method,
             n_classes=n_classes,
             as_gdf=as_gdf

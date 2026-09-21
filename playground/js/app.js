@@ -260,6 +260,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const toggleShowCensusTracts = document.getElementById('toggle-show-census-tracts');
   const themeRendaCheckbox = document.getElementById('theme-renda');
   const themeSaneamentoCheckbox = document.getElementById('theme-saneamento');
+  const censusSituationRadios = document.querySelectorAll('input[name="census-situation-filter"]');
+  const censusSituationCounts = document.getElementById('census-situation-counts');
 
   // Point Clustering DOM Elements
   const clusterControlBox = document.getElementById('cluster-control-box');
@@ -284,7 +286,54 @@ document.addEventListener('DOMContentLoaded', () => {
   let clusterPointsEnabled = false;
   let clusterDistanceMeters = 20;
   let currentCensusTractsGeojson = null;
+  let censusSituationFilter = 'ambos'; // 'ambos' | 'urbanos' | 'rurais'
   let lastFilteredFeatures = [];
+
+  function applyCensusMapFilter() {
+    if (!map) return;
+    let filter = null;
+    if (censusSituationFilter === 'urbanos') {
+      filter = ['==', ['downcase', ['coalesce', ['get', 'situacao'], 'urbana']], 'urbana'];
+    } else if (censusSituationFilter === 'rurais') {
+      filter = ['==', ['downcase', ['coalesce', ['get', 'situacao'], 'rural']], 'rural'];
+    }
+    if (map.getLayer('census-tracts-fill')) {
+      map.setFilter('census-tracts-fill', filter);
+    }
+    if (map.getLayer('census-tracts-line')) {
+      map.setFilter('census-tracts-line', filter);
+    }
+  }
+
+  function updateCensusBadgeAndCounts() {
+    if (!currentCensusTractsGeojson || !currentCensusTractsGeojson.features) {
+      if (censusSituationCounts) censusSituationCounts.textContent = '';
+      return;
+    }
+    const feats = currentCensusTractsGeojson.features;
+    const urbanFeats = feats.filter(f => String(f.properties?.situacao || '').toLowerCase().includes('urban'));
+    const ruralFeats = feats.filter(f => String(f.properties?.situacao || '').toLowerCase().includes('rural'));
+
+    if (censusSituationCounts) {
+      censusSituationCounts.textContent = `${urbanFeats.length} urb. / ${ruralFeats.length} rur.`;
+    }
+
+    let activeFeats = feats;
+    let labelSuffix = '';
+    if (censusSituationFilter === 'urbanos') {
+      activeFeats = urbanFeats;
+      labelSuffix = ' urbanos';
+    } else if (censusSituationFilter === 'rurais') {
+      activeFeats = ruralFeats;
+      labelSuffix = ' rurais';
+    }
+
+    const activePop = activeFeats.reduce((acc, f) => acc + (f.properties.populacao || f.properties.populacao_total || 0), 0);
+    if (censusStatusBadge) {
+      censusStatusBadge.className = 'census-badge loaded';
+      censusStatusBadge.textContent = `${activeFeats.length} setores${labelSuffix} (${activePop.toLocaleString('pt-BR')} hab)`;
+    }
+  }
 
   const METHOD_LABELS = {
     'continuous': 'Escala Contínua (Não agrupado)',
@@ -462,6 +511,7 @@ document.addEventListener('DOMContentLoaded', () => {
           'line-dasharray': [2, 2],
         },
       });
+      applyCensusMapFilter();
     }
 
     // 1. Spatial Analysis Sources
@@ -773,8 +823,13 @@ document.addEventListener('DOMContentLoaded', () => {
           const teamsDesc = qtdEsf > 1 ? `${qtdEsf} equipes eSF` : `${qtdEsf} equipe eSF`;
           const eapText = p.qtd_equipes_eap > 0 ? ` + ${p.qtd_equipes_eap} eAP` : '';
 
+          const sitBadge = (p.situacao_filtro && p.situacao_filtro !== 'ambos')
+            ? `<div style="display:inline-block; font-size:9.5px; font-weight:600; padding:1px 6px; border-radius:4px; margin-bottom:4px; ${p.situacao_filtro === 'urbanos' ? 'background:#eff6ff;color:#1d4ed8;border:1px solid #bfdbfe;' : 'background:#f0fdf4;color:#15803d;border:1px solid #bbf7d0;'}">Recorte: Setores ${p.situacao_filtro === 'urbanos' ? 'Urbanos' : 'Rurais'}</div>`
+            : '';
+
           censusInfo = `
             <div style="margin-top: 8px; padding-top: 8px; border-top: 1px solid #e2e8f0;">
+              ${sitBadge}
               <div style="font-size: 11px; font-weight: 700; color: #1e293b; margin-bottom: 4px;">Demografia Censo 2022 (Estimada):</div>
               <div style="font-size: 11px; line-height: 1.45;">
                 <div>👥 <strong>População Adscrita:</strong> ${pop.toLocaleString('pt-BR')} hab.</div>
@@ -860,8 +915,13 @@ document.addEventListener('DOMContentLoaded', () => {
           const habPerUnit = Number(p.hab_per_unit || pop);
           const dom = Number(p.domicilios_estimados || 0);
 
+          const sitBadge = (p.situacao_filtro && p.situacao_filtro !== 'ambos')
+            ? `<div style="display:inline-block; font-size:9.5px; font-weight:600; padding:1px 6px; border-radius:4px; margin-bottom:4px; ${p.situacao_filtro === 'urbanos' ? 'background:#eff6ff;color:#1d4ed8;border:1px solid #bfdbfe;' : 'background:#f0fdf4;color:#15803d;border:1px solid #bbf7d0;'}">Recorte: Setores ${p.situacao_filtro === 'urbanos' ? 'Urbanos' : 'Rurais'}</div>`
+            : '';
+
           censusInfo = `
             <div style="margin-top: 8px; padding-top: 8px; border-top: 1px solid #e2e8f0;">
+              ${sitBadge}
               <div style="font-size: 11px; font-weight: 700; color: #1e293b; margin-bottom: 4px;">Demografia Censo 2022 (Estimada):</div>
               <div style="font-size: 11px; line-height: 1.45;">
                 <div>👥 <strong>População na Célula:</strong> ${pop.toLocaleString('pt-BR')} hab.</div>
@@ -1153,15 +1213,17 @@ document.addEventListener('DOMContentLoaded', () => {
         applyCameraForCurrentCity();
       }
 
+      // Reset territorial situation filter to default 'ambos'
+      censusSituationFilter = 'ambos';
+      const defaultSitRadio = document.querySelector('input[name="census-situation-filter"][value="ambos"]');
+      if (defaultSitRadio) defaultSitRadio.checked = true;
+      applyCensusMapFilter();
+
       // 4. Check or reset census tracts for this municipality
       const cachedTracts = driver._censusTractsCache.get(String(code6));
       if (cachedTracts) {
         currentCensusTractsGeojson = cachedTracts;
-        const totalPop = cachedTracts.features.reduce((acc, f) => acc + (f.properties.populacao || f.properties.populacao_total || 0), 0);
-        if (censusStatusBadge) {
-          censusStatusBadge.className = 'census-badge loaded';
-          censusStatusBadge.textContent = `${cachedTracts.features.length} setores (${totalPop.toLocaleString('pt-BR')} hab)`;
-        }
+        updateCensusBadgeAndCounts();
         if (censusOptionsRow) censusOptionsRow.style.display = 'flex';
         if (hexMetricRow) hexMetricRow.style.display = 'flex';
         updateVoronoiControlsVisibility();
@@ -1171,6 +1233,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       } else {
         currentCensusTractsGeojson = null;
+        if (censusSituationCounts) censusSituationCounts.textContent = '';
         if (censusEngineBadge) censusEngineBadge.style.display = 'none';
         const hasPrecached = !!(cachedManifest[String(code6)] && cachedManifest[String(code6)].census_tracts);
         if (censusStatusBadge) {
@@ -1367,7 +1430,8 @@ document.addEventListener('DOMContentLoaded', () => {
         currentBoundaryGeojson,
         currentCensusTractsGeojson,
         voronoiMetric,
-        voronoiMethod
+        voronoiMethod,
+        censusSituationFilter
       );
       if (voronoiSource) voronoiSource.setData(voronoiResult);
 
@@ -1393,31 +1457,34 @@ document.addEventListener('DOMContentLoaded', () => {
       if (analysisLegend) {
         analysisLegend.style.display = 'block';
         const clusterSuffix = clusterPointsEnabled ? ` • ${cellCount} polos aglutinados (≤ ${clusterDistanceMeters}m)` : '';
+        const situacaoSuffix = (currentCensusTractsGeojson && censusSituationFilter !== 'ambos')
+          ? (censusSituationFilter === 'urbanos' ? ' • Setores Urbanos' : ' • Setores Rurais')
+          : '';
 
         if (voronoiMetric === 'population') {
           analysisLegendTitle.textContent = 'População Adscrita (Voronoi)';
-          analysisLegendSubtitle.textContent = `Interpolação Censo IBGE 2022 • ${METHOD_LABELS[voronoiMethod] || voronoiMethod}${clusterSuffix}`;
+          analysisLegendSubtitle.textContent = `Interpolação Censo IBGE 2022 • ${METHOD_LABELS[voronoiMethod] || voronoiMethod}${clusterSuffix}${situacaoSuffix}`;
           renderClassificationLegend(voronoiResult.classification, cellCount);
         } else if (voronoiMetric === 'income') {
           analysisLegendTitle.textContent = 'Renda Média Per Capita (Voronoi)';
-          analysisLegendSubtitle.textContent = `Censo IBGE 2022 • ${METHOD_LABELS[voronoiMethod] || voronoiMethod}${clusterSuffix}`;
+          analysisLegendSubtitle.textContent = `Censo IBGE 2022 • ${METHOD_LABELS[voronoiMethod] || voronoiMethod}${clusterSuffix}${situacaoSuffix}`;
           renderClassificationLegend(voronoiResult.classification, cellCount);
         } else if (voronoiMetric === 'saneamento_agua') {
           analysisLegendTitle.textContent = '% Água Encanada (Voronoi)';
-          analysisLegendSubtitle.textContent = `Abastecimento de Água • Censo IBGE 2022 • ${METHOD_LABELS[voronoiMethod] || voronoiMethod}${clusterSuffix}`;
+          analysisLegendSubtitle.textContent = `Abastecimento de Água • Censo IBGE 2022 • ${METHOD_LABELS[voronoiMethod] || voronoiMethod}${clusterSuffix}${situacaoSuffix}`;
           renderClassificationLegend(voronoiResult.classification, cellCount);
         } else if (voronoiMetric === 'saneamento_esgoto') {
           analysisLegendTitle.textContent = '% Esgoto Coletado (Voronoi)';
-          analysisLegendSubtitle.textContent = `Esgotamento Sanitário • Censo IBGE 2022 • ${METHOD_LABELS[voronoiMethod] || voronoiMethod}${clusterSuffix}`;
+          analysisLegendSubtitle.textContent = `Esgotamento Sanitário • Censo IBGE 2022 • ${METHOD_LABELS[voronoiMethod] || voronoiMethod}${clusterSuffix}${situacaoSuffix}`;
           renderClassificationLegend(voronoiResult.classification, cellCount);
         } else if (voronoiMetric === 'sobrecarga') {
           analysisLegendTitle.textContent = 'Índice de Sobrecarga PNAB';
-          analysisLegendSubtitle.textContent = `Referência: 2.000 a 3.500 hab/equipe (${cellCount} células)${clusterSuffix}`;
+          analysisLegendSubtitle.textContent = `Referência: 2.000 a 3.500 hab/equipe (${cellCount} células)${clusterSuffix}${situacaoSuffix}`;
           renderClassificationLegend(voronoiResult.classification, cellCount);
         } else {
           // Category default
           analysisLegendTitle.textContent = 'Diagrama de Voronoi';
-          analysisLegendSubtitle.textContent = `${cellCount} ${clusterPointsEnabled ? 'polos' : 'células'} para ${activeCategory === 'ALL' ? 'Todos os Estabelecimentos' : activeCategory}${clusterSuffix}`;
+          analysisLegendSubtitle.textContent = `${cellCount} ${clusterPointsEnabled ? 'polos' : 'células'} para ${activeCategory === 'ALL' ? 'Todos os Estabelecimentos' : activeCategory}${clusterSuffix}${situacaoSuffix}`;
           analysisLegendBody.innerHTML = `
             <div style="display:flex;align-items:center;gap:8px;margin-top:4px;">
               <span style="width:14px;height:14px;border:1.5px dashed ${catColor};background:${catColor}33;border-radius:2px;"></span>
@@ -1438,7 +1505,8 @@ document.addEventListener('DOMContentLoaded', () => {
         hexMethod,
         currentBoundaryGeojson,
         currentCensusTractsGeojson,
-        hexMetric
+        hexMetric,
+        censusSituationFilter
       );
       if (hexSource) hexSource.setData(hexResult.featureCollection);
 
@@ -1465,8 +1533,11 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
         const clusterSuffix = clusterPointsEnabled ? ` • Aglutinação: ≤ ${clusterDistanceMeters}m` : '';
+        const situacaoSuffix = (currentCensusTractsGeojson && censusSituationFilter !== 'ambos')
+          ? (censusSituationFilter === 'urbanos' ? ' • Setores Urbanos' : ' • Setores Rurais')
+          : '';
         analysisLegendTitle.textContent = metricTitles[hexMetric] || 'Densidade Hexagonal';
-        analysisLegendSubtitle.textContent = `Raio: ${radiusLabel} • ${METHOD_LABELS[hexMethod] || hexMethod}${clusterSuffix}`;
+        analysisLegendSubtitle.textContent = `Raio: ${radiusLabel} • ${METHOD_LABELS[hexMethod] || hexMethod}${clusterSuffix}${situacaoSuffix}`;
 
         renderClassificationLegend(hexResult.classification, cellCount);
       }
@@ -1587,11 +1658,8 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         if (tracts && tracts.features && tracts.features.length > 0) {
           currentCensusTractsGeojson = tracts;
-          const totalPop = tracts.features.reduce((acc, f) => acc + (f.properties.populacao || f.properties.populacao_total || 0), 0);
-          if (censusStatusBadge) {
-            censusStatusBadge.className = 'census-badge loaded';
-            censusStatusBadge.textContent = `${tracts.features.length} setores (${totalPop.toLocaleString('pt-BR')} hab)`;
-          }
+          updateCensusBadgeAndCounts();
+          applyCensusMapFilter();
           if (censusEngineBadge) {
             if (tracts.metadata && tracts.metadata.engine) {
               censusEngineBadge.style.display = 'inline-block';
@@ -1648,6 +1716,19 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   }
+
+  // Territorial Situation Filter (Ambos / Urbanos / Rurais)
+  censusSituationRadios.forEach(radio => {
+    radio.addEventListener('change', (e) => {
+      if (!e.target.checked) return;
+      censusSituationFilter = e.target.value;
+      updateCensusBadgeAndCounts();
+      applyCensusMapFilter();
+      if (analysisMode !== 'none') {
+        updateSpatialAnalysis(lastFilteredFeatures);
+      }
+    });
+  });
 
   // Metric Selectors
   if (voronoiMetricSelect) {
