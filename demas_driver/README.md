@@ -99,10 +99,29 @@ hexbins_gdf = compute_hexbins(
 )
 ```
 
-### 5. High-Level One-Liner (`analyze_coverage`)
+### 5. Official CNES Health Teams & Dynamic PNAB Overload
+```python
+from demas_driver import get_cnes_teams, enrich_facilities_with_teams, retrieve_facilities
+
+# 1. Retrieve official active teams from DataSUS FTP (auto-cached in Parquet)
+teams_df = get_cnes_teams(uf="PR", municipality_code=411850)
+print(f"Active teams in municipality: {len(teams_df)}")
+
+# 2. Enrich facilities with active teams count (eSF, eAP, total) and nominal capacity
+facilities = retrieve_facilities("Pato Branco, PR", public_only=True)
+enriched_facilities = enrich_facilities_with_teams(facilities, uf="PR", municipality_code=411850)
+
+# Multi-team facilities now dynamically scale their nominal capacity
+# (e.g. 2 eSF = 7,000 hab capacity instead of fixed 3,500)
+```
+
+### 6. High-Level One-Liner (`analyze_coverage`)
 ```python
 from demas_driver import analyze_coverage
 
-# Automatically fetches facilities, boundary, and tracts, and performs analysis:
-result_gdf = analyze_coverage("São Paulo, SP", mode="voronoi", metric="population")
+# Automatically fetches facilities, enriches with official health teams,
+# clips to municipal boundary, overlays Censo 2022 tracts, and computes dynamic PNAB overload:
+result_gdf = analyze_coverage("Pato Branco, PR", mode="voronoi", metric="sobrecarga_pnab")
+print(result_gdf[["facility_name", "qtd_equipes_esf", "capacidade_pnab", "populacao_total", "sobrecarga_pnab", "classificacao_pnab"]])
 ```
+

@@ -262,6 +262,17 @@ def cluster_nearby_points(
             first["ref:CNES"] = ", ".join(cnes_list)
             first["cluster_size"] = len(group)
             first["clustered"] = True
+            # Aggregate health teams properties across cluster
+            if "qtd_equipes_esf" in group.columns:
+                first["qtd_equipes_esf"] = int(group["qtd_equipes_esf"].fillna(0).sum())
+            if "qtd_equipes_eap" in group.columns:
+                first["qtd_equipes_eap"] = int(group["qtd_equipes_eap"].fillna(0).sum())
+            if "qtd_equipes_total" in group.columns:
+                first["qtd_equipes_total"] = int(group["qtd_equipes_total"].fillna(0).sum())
+            if "capacidade_pnab" in group.columns:
+                first["capacidade_pnab"] = int(group["capacidade_pnab"].fillna(3500).sum())
+            elif "qtd_equipes_esf" in first:
+                first["capacidade_pnab"] = int(max(1, first["qtd_equipes_esf"]) * 3500 + first.get("qtd_equipes_eap", 0) * 2000)
         else:
             first["cluster_size"] = 1
             first["clustered"] = False
@@ -404,16 +415,32 @@ def enrich_cells_with_census(
         final_agua = round(w_agua / agua_pop, 1) if agua_pop > 0 else None
         final_esgoto = round(w_esgoto / esgoto_pop, 1) if esgoto_pop > 0 else None
 
-        # PNAB ratio & category
-        ratio = round(final_p / 3500.0, 2)
-        if ratio > 1.8 or final_p > 6000:
-            p_cat = "Crítica (> 6.000 hab)"
+        # Dynamic PNAB ratio & category based on facility health teams
+        cell_cap = cell_row.get("capacidade_pnab") if "capacidade_pnab" in cell_row else None
+        qtd_esf = cell_row.get("qtd_equipes_esf") if "qtd_equipes_esf" in cell_row else None
+
+        try:
+            cell_cap = float(cell_cap) if cell_cap is not None and pd.notna(cell_cap) and float(cell_cap) > 0 else None
+        except (ValueError, TypeError):
+            cell_cap = None
+
+        try:
+            qtd_esf = int(qtd_esf) if qtd_esf is not None and pd.notna(qtd_esf) and int(qtd_esf) > 0 else 1
+        except (ValueError, TypeError):
+            qtd_esf = 1
+
+        cap = cell_cap if cell_cap else float(qtd_esf * 3500.0)
+        ratio = round(final_p / cap, 2)
+        crit_pop = int(round(cap * 1.714))
+
+        if ratio > 1.8 or final_p > crit_pop:
+            p_cat = f"Crítica (> {crit_pop:,} hab)".replace(",", ".")
             p_col = "#ef4444"
-        elif ratio > 1.0 or final_p > 3500:
-            p_cat = "Atenção (3.501 a 6.000 hab)"
+        elif ratio > 1.0 or final_p > cap:
+            p_cat = f"Atenção ({int(cap)+1:,} a {crit_pop:,} hab)".replace(",", ".")
             p_col = "#f59e0b"
         else:
-            p_cat = "Adequada (≤ 3.500 hab)"
+            p_cat = f"Adequada (≤ {int(cap):,} hab)".replace(",", ".")
             p_col = "#10b981"
 
         allocated_pop.append(final_p)

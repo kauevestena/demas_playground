@@ -178,6 +178,13 @@
 
       const compositeTitle = `${primary.properties.name || primary.properties.official_name || 'Complexo de Saúde'} (+${clusterPts.length - 1} un.)`;
 
+      // Aggregate health teams properties across cluster
+      const sumEsf = clusterPts.reduce((acc, f) => acc + Number(f.properties.qtd_equipes_esf || 0), 0);
+      const sumEap = clusterPts.reduce((acc, f) => acc + Number(f.properties.qtd_equipes_eap || 0), 0);
+      const sumTot = clusterPts.reduce((acc, f) => acc + Number(f.properties.qtd_equipes_total || 0), 0);
+      const sumCap = clusterPts.reduce((acc, f) => acc + Number(f.properties.capacidade_pnab || 3500), 0);
+      const allTeamNames = clusterPts.map(f => f.properties.nomes_equipes).filter(Boolean).join('; ');
+
       return {
         type: 'Feature',
         id: `cluster-${clusterIdx}-${primary.id}`,
@@ -203,6 +210,11 @@
           cnes: cnesList.join(', ') || primary.properties['ref:CNES'] || '—',
           category: categories.length === 1 ? categories[0] : (categories.includes('UBS') ? 'UBS' : categories[0]),
           compositeCategories: categories,
+          qtd_equipes_esf: sumEsf > 0 ? sumEsf : (clusterPts.some(f => (f.properties.comment || '').toLowerCase().includes('ubs')) ? 1 : 0),
+          qtd_equipes_eap: sumEap,
+          qtd_equipes_total: sumTot > 0 ? sumTot : 1,
+          capacidade_pnab: sumCap > 0 ? sumCap : 3500,
+          nomes_equipes: allTeamNames,
         }
       };
     });
@@ -331,15 +343,20 @@
         ? Number((weightedEsgotoSum / totalAllocatedPop).toFixed(1))
         : null;
 
-      // PNAB Overload Ratio: 3,500 hab is the standard reference per equipe Saúde da Família (PNAB)
-      const sobrecargaPnab = Number((finalPop / 3500).toFixed(2));
-      let pnabClassification = 'Adequada (≤ 3.500 hab)';
+      // PNAB Overload Ratio: dynamic calculation per active health teams (eSF)
+      const cellProps = cell.properties || {};
+      const qtdEsf = Number(cellProps.qtd_equipes_esf) > 0 ? Number(cellProps.qtd_equipes_esf) : 1;
+      const nominalCap = Number(cellProps.capacidade_pnab) > 0 ? Number(cellProps.capacidade_pnab) : (qtdEsf * 3500);
+      const sobrecargaPnab = Number((finalPop / nominalCap).toFixed(2));
+      const critPop = Math.round(nominalCap * 1.714);
+
+      let pnabClassification = `Adequada (≤ ${nominalCap.toLocaleString('pt-BR')} hab)`;
       let pnabClassColor = '#10b981'; // Green
-      if (sobrecargaPnab > 1.8 || finalPop > 6000) {
-        pnabClassification = 'Crítica (> 6.000 hab)';
+      if (sobrecargaPnab > 1.8 || finalPop > critPop) {
+        pnabClassification = `Crítica (> ${critPop.toLocaleString('pt-BR')} hab)`;
         pnabClassColor = '#ef4444'; // Red
-      } else if (sobrecargaPnab > 1.0 || finalPop > 3500) {
-        pnabClassification = 'Atenção (3.501 a 6.000 hab)';
+      } else if (sobrecargaPnab > 1.0 || finalPop > nominalCap) {
+        pnabClassification = `Atenção (${(nominalCap + 1).toLocaleString('pt-BR')} a ${critPop.toLocaleString('pt-BR')} hab)`;
         pnabClassColor = '#f59e0b'; // Amber
       }
 
@@ -353,6 +370,8 @@
         domicilios_estimados: finalDom,
         pct_agua_encanada: finalAgua,
         pct_esgoto_coletado: finalEsgoto,
+        qtd_equipes_esf: qtdEsf,
+        capacidade_pnab: nominalCap,
         sobrecarga_pnab: sobrecargaPnab,
         pnab_class: pnabClassification,
         pnab_color: pnabClassColor,

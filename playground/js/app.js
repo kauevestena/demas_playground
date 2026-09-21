@@ -768,12 +768,17 @@ document.addEventListener('DOMContentLoaded', () => {
           const pnabClass = p.pnab_class || 'Adequada';
           const dom = Number(p.domicilios_estimados || 0);
           const area = p.area_km2 || '—';
+          const qtdEsf = Number(p.qtd_equipes_esf || 1);
+          const nominalCap = Number(p.capacidade_pnab || (qtdEsf * 3500));
+          const teamsDesc = qtdEsf > 1 ? `${qtdEsf} equipes eSF` : `${qtdEsf} equipe eSF`;
+          const eapText = p.qtd_equipes_eap > 0 ? ` + ${p.qtd_equipes_eap} eAP` : '';
 
           censusInfo = `
             <div style="margin-top: 8px; padding-top: 8px; border-top: 1px solid #e2e8f0;">
               <div style="font-size: 11px; font-weight: 700; color: #1e293b; margin-bottom: 4px;">Demografia Censo 2022 (Estimada):</div>
               <div style="font-size: 11px; line-height: 1.45;">
                 <div>👥 <strong>População Adscrita:</strong> ${pop.toLocaleString('pt-BR')} hab.</div>
+                <div>🏥 <strong>Equipes CNES:</strong> ${teamsDesc}${eapText} (Capacidade: ~${nominalCap.toLocaleString('pt-BR')} hab.)</div>
                 <div>💰 <strong>Renda Média:</strong> ${inc > 0 ? 'R$ ' + inc.toLocaleString('pt-BR') : '—'}</div>
                 <div>🩺 <strong>Índice PNAB:</strong> ${pnab} • <span style="color:${pnabColor};font-weight:700;">${pnabClass}</span></div>
                 <div>🏠 <strong>Domicílios:</strong> ~${dom.toLocaleString('pt-BR')} • <strong>Área:</strong> ${area} km²</div>
@@ -993,6 +998,9 @@ document.addEventListener('DOMContentLoaded', () => {
         <h4 class="popup-title">${p.name || p.official_name || 'Sem nome'}</h4>
         <div class="popup-meta">
           <div><strong>CNES:</strong> ${p['ref:CNES'] || '—'}</div>
+          ${p.qtd_equipes_esf !== undefined && Number(p.qtd_equipes_esf) > 0 ? `
+            <div><strong>Equipes de Saúde:</strong> ${p.qtd_equipes_esf} eSF${p.qtd_equipes_eap ? ` + ${p.qtd_equipes_eap} eAP` : ''} (Capacidade nominal: ~${(p.capacidade_pnab || Number(p.qtd_equipes_esf) * 3500).toLocaleString('pt-BR')} hab.)</div>
+          ` : ''}
           <div><strong>Endereço:</strong> ${[p['addr:street'], p['addr:housenumber'], p['addr:suburb']].filter(Boolean).join(', ') || 'Não informado'}</div>
           ${p.phone ? `<div><strong>Telefone:</strong> <a href="tel:${p.phone}">${p.phone}</a></div>` : ''}
           ${p.opening_hours ? `<div><strong>Horário:</strong> ${p.opening_hours}</div>` : ''}

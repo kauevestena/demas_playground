@@ -13,7 +13,13 @@ from .analysis import (
     classify_1d
 )
 
-__version__ = "0.2.0"
+from .teams import (
+    get_cnes_teams,
+    aggregate_teams_by_cnes,
+    enrich_facilities_with_teams
+)
+
+__version__ = "0.3.0"
 __all__ = [
     "retrieve_facilities",
     "resolve_municipality_code",
@@ -24,5 +30,8 @@ __all__ = [
     "compute_hexbins",
     "enrich_cells_with_census",
     "cluster_nearby_points",
-    "classify_1d"
+    "classify_1d",
+    "get_cnes_teams",
+    "aggregate_teams_by_cnes",
+    "enrich_facilities_with_teams"
 ]

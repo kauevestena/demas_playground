@@ -30,7 +30,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Cense Curitiba",
         "short_name": "UBS Cense Curitiba",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -62,7 +67,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Cense Joana Miguel Richa",
         "short_name": "UBS Cense Joana Miguel Richa",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -94,7 +104,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Abaete",
         "short_name": "UBS Ums Abaete",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 5,
+        "qtd_equipes_total": 8,
+        "capacidade_pnab": 13500,
+        "nomes_equipes": "ABAETE 5 EAP; ABAETE 2 EAP; ABAETE 1 EAP; ABAETE 3 SB; ABAETE 1 SB; ABAETE 4 EAP; ABAETE 2 SB; ABAETE 3 EAP"
       },
       "geometry": {
         "type": "Point",
@@ -126,7 +141,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Abranches",
         "short_name": "UBS Ums Abranches",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 5,
+        "qtd_equipes_total": 9,
+        "capacidade_pnab": 13500,
+        "nomes_equipes": "ABRANCHES 4 SB; ABRANCHES 4 EAP; ABRANCHES 2 EAP; ABRANCHES 1 EAP; ABRANCHES 3 EAP; ABRANCHES 5 EAP; ABRANCHES 2 SB; ABRANCHES 1 SB; ABRANCHES 3 SB"
       },
       "geometry": {
         "type": "Point",
@@ -157,7 +177,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Alvorada Psf",
         "short_name": "UBS Ums Alvorada Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 3,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 7,
+        "capacidade_pnab": 10500,
+        "nomes_equipes": "ALVORADA 3 SB; ALVORADA 2 SB; ALVORADA 3; ALVORADA 2; ALVORADA 1; ALVORADA 1 SB; EMULTI C CJ 2"
       },
       "geometry": {
         "type": "Point",
@@ -188,7 +213,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Atenas",
         "short_name": "UBS Ums Atenas",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 3,
+        "qtd_equipes_total": 6,
+        "capacidade_pnab": 9500,
+        "nomes_equipes": "ATENAS 4 SB; ATENAS 1 SB; ATENAS 2 EAP; ATENAS 3 SB; ATENAS 1 EAP; ATENAS 3 EAP"
       },
       "geometry": {
         "type": "Point",
@@ -219,7 +249,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Atuba",
         "short_name": "UBS Ums Atuba",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 5,
+        "qtd_equipes_total": 9,
+        "capacidade_pnab": 13500,
+        "nomes_equipes": "ATUBA 1 EAP; ATUBA 3 SB; ATUBA 3 EAP; ATUBA 2 EAP; ATUBA 4 SB; ATUBA 2 SB; ATUBA 4 EAP; ATUBA 5 EAP; ATUBA 1 SB"
       },
       "geometry": {
         "type": "Point",
@@ -250,7 +285,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Augusta Psf",
         "short_name": "UBS Ums Augusta Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 3,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 5,
+        "capacidade_pnab": 10500,
+        "nomes_equipes": "AUGUSTA 1 SB; AUGUSTA 2 SB; AUGUSTA 2; AUGUSTA 3; AUGUSTA 1"
       },
       "geometry": {
         "type": "Point",
@@ -281,7 +321,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Aurora",
         "short_name": "UBS Ums Aurora",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 4,
+        "qtd_equipes_total": 7,
+        "capacidade_pnab": 11500,
+        "nomes_equipes": "AURORA 1 SB; AURORA 2 SB; AURORA 3 EAP; AURORA 4 EAP; AURORA 1 EAP; AURORA 3 SB; AURORA 2 EAP"
       },
       "geometry": {
         "type": "Point",
@@ -313,7 +358,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Bacacheri",
         "short_name": "UBS Ums Bacacheri",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 5,
+        "qtd_equipes_total": 8,
+        "capacidade_pnab": 13500,
+        "nomes_equipes": "BACACHERI 5 EAP; BACACHERI 2 EAP; BACACHERI 1 EAP; BACACHERI 3 EAP; BACACHERI 3 SB; BACACHERI 4 EAP; BACACHERI 2 SB; BACACHERI 1 SB"
       },
       "geometry": {
         "type": "Point",
@@ -345,7 +395,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Bairro Alto",
         "short_name": "UBS Ums Bairro Alto",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 6,
+        "qtd_equipes_total": 11,
+        "capacidade_pnab": 15500,
+        "nomes_equipes": "BAIRRO ALTO 3 SB; BAIRRO ALTO 4 SB; BAIRRO ALTO 5 EAP; BAIRRO ALTO 5 SB; BAIRRO ALTO 1 EAP; BAIRRO ALTO 2 EAP; BAIRRO ALTO 6 EAP; BAIRRO ALTO 2 SB; BAIRRO ALTO 1 SB; BAIRRO ALTO 3 EAP; BAIRRO ALTO 4 EAP"
       },
       "geometry": {
         "type": "Point",
@@ -377,7 +432,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Bairro Novo Psf",
         "short_name": "UBS Ums Bairro Novo Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 4,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 6,
+        "capacidade_pnab": 14000,
+        "nomes_equipes": "BAIRRO NOVO 2 SB; BAIRRO NOVO 2; BAIRRO NOVO 1; BAIRRO NOVO 3; BAIRRO NOVO 4 SB; BAIRRO NOVO 4"
       },
       "geometry": {
         "type": "Point",
@@ -408,7 +468,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Barigui Psf",
         "short_name": "UBS Ums Barigui Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 4,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 7,
+        "capacidade_pnab": 14000,
+        "nomes_equipes": "BARIGUI D; BARIGUI B SB; BARIGUI A; BARIGUI A SB; BARIGUI C SB; BARIGUI C; BARIGUI B"
       },
       "geometry": {
         "type": "Point",
@@ -440,7 +505,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Barreirinha",
         "short_name": "UBS Ums Barreirinha",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 4,
+        "qtd_equipes_total": 8,
+        "capacidade_pnab": 11500,
+        "nomes_equipes": "BARREIRINHA 2 EAP; BARREIRINHA 3 EAP; ECR BARREIRINHA 1; BARREIRINHA 4 EAP; BARREIRINHA 3 SB; BARREIRINHA 2 SB; BARREIRINHA 1 SB; BARREIRINHA 1 EAP"
       },
       "geometry": {
         "type": "Point",
@@ -472,7 +542,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Bom Pastor",
         "short_name": "UBS Ums Bom Pastor",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 4,
+        "qtd_equipes_total": 7,
+        "capacidade_pnab": 11500,
+        "nomes_equipes": "BOM PASTOR 2 EAP; BOM PASTOR 4 EAP; BOM PASTOR 1 EAP; BOM PASTOR 1 SB; BOM PASTOR 2 SB; BOM PASTOR 3 SB; BOM PASTOR 3 EAP"
       },
       "geometry": {
         "type": "Point",
@@ -503,7 +578,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Butiatuvinha Psf",
         "short_name": "UBS Ums Butiatuvinha Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 3,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 6,
+        "capacidade_pnab": 10500,
+        "nomes_equipes": "BUTIATUVINHA 4; BUTIATUVINHA 5; BUTIATUVINHA 3; BUTIATUVINHA 5 SB; BUTIATUVINHA 4 SB; EMULTI A SF1"
       },
       "geometry": {
         "type": "Point",
@@ -534,7 +614,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Caiua",
         "short_name": "UBS Ums Caiua",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 5,
+        "qtd_equipes_total": 10,
+        "capacidade_pnab": 13500,
+        "nomes_equipes": "CAIUA 1 EAP; CAIUA 3 SB; CAIUA 4 SB; CAIUA 2 SB; CAIUA 1 SB; CAIUA 4 EAP; CAIUA 5 EAP; CAIUA 5 SB; CAIUA 2 EAP; CAIUA 3 EAP"
       },
       "geometry": {
         "type": "Point",
@@ -565,7 +650,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Cajuru",
         "short_name": "UBS Ums Cajuru",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 4,
+        "qtd_equipes_total": 8,
+        "capacidade_pnab": 11500,
+        "nomes_equipes": "CAJURU 3 EAP; CAJURU 4 EAP; CAJURU 2 SB; CAJURU 1 SB; CAJURU 2 EAP; CAJURU 1 EAP; CAJURU 4 SB; CAJURU 3 SB"
       },
       "geometry": {
         "type": "Point",
@@ -596,7 +686,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Camargo",
         "short_name": "UBS Ums Camargo",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 3,
+        "qtd_equipes_total": 6,
+        "capacidade_pnab": 9500,
+        "nomes_equipes": "CAMARGO 1 SB; CAMARGO 2 EAP; CAMARGO 1 EAP; CAMARGO 3 SB; CAMARGO 2 SB; CAMARGO 3 EAP"
       },
       "geometry": {
         "type": "Point",
@@ -628,7 +723,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Campina do Siqueira",
         "short_name": "UBS Ums Campina do Siqueira",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 5,
+        "qtd_equipes_total": 9,
+        "capacidade_pnab": 13500,
+        "nomes_equipes": "CAMPINA DO SIQUEIRA 1 EAP; CAMPINA DO SIQUEIRA 1 SB; CAMPINA DO SIQUEIRA 3 SB; CAMPINA DO SIQUEIRA 2 SB; CAMPINA DO SIQUEIRA 4 SB; CAMPINA DO SIQUEIRA 4 EAP; CAMPINA DO SIQUEIRA 2 EAP; CAMPINA DO SIQUEIRA 3 EAP; CAMPINA DO SIQUEIRA 5 EAP"
       },
       "geometry": {
         "type": "Point",
@@ -659,7 +759,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Campo Alegre",
         "short_name": "UBS Ums Campo Alegre",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 4,
+        "qtd_equipes_total": 8,
+        "capacidade_pnab": 11500,
+        "nomes_equipes": "CAMPO ALEGRE 3 SB; CAMPO ALEGRE 2 EAP; CAMPO ALEGRE 1 EAP; CAMPO ALEGRE 4 SB; CAMPO ALEGRE 2 SB; CAMPO ALEGRE 1 SB; CAMPO ALEGRE 4 EAP; CAMPO ALEGRE 3 EAP"
       },
       "geometry": {
         "type": "Point",
@@ -690,7 +795,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Candido Portinari Psf",
         "short_name": "UBS Ums Candido Portinari Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 3,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 4,
+        "capacidade_pnab": 10500,
+        "nomes_equipes": "CANDIDO PORTINARI 1 SB; CANDIDO PORTINARI 1; CANDIDO PORTINARI 2; CANDIDO PORTINARI 3"
       },
       "geometry": {
         "type": "Point",
@@ -722,7 +832,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Capanema Psf",
         "short_name": "UBS Ums Capanema Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 2,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 4,
+        "capacidade_pnab": 7000,
+        "nomes_equipes": "CAPANEMA C SB; CAPANEMA A SB; CAPANEMA C; CAPANEMA A"
       },
       "geometry": {
         "type": "Point",
@@ -753,7 +868,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Caximba Psf",
         "short_name": "UBS Ums Caximba Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 3,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 4,
+        "capacidade_pnab": 10500,
+        "nomes_equipes": "CAXIMBA 2 SB; CAXIMBA 1; CAXIMBA 2; CAXIMBA 3"
       },
       "geometry": {
         "type": "Point",
@@ -785,7 +905,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Concordia Psf",
         "short_name": "UBS Ums Concordia Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 4,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 6,
+        "capacidade_pnab": 14000,
+        "nomes_equipes": "CONCORDIA 3; CONCORDIA 1 SB; CONCORDIA 1; CONCORDIA 2; CONCORDIA 4; CONCORDIA 3 SB"
       },
       "geometry": {
         "type": "Point",
@@ -817,7 +942,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Coqueiros Psf",
         "short_name": "UBS Ums Coqueiros Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 4,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 6,
+        "capacidade_pnab": 14000,
+        "nomes_equipes": "COQUEIROS 3 SB; COQUEIROS 1 SB; COQUEIROS 2; COQUEIROS 4; COQUEIROS 1; COQUEIROS 3"
       },
       "geometry": {
         "type": "Point",
@@ -848,7 +978,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Dom Bosco Psf",
         "short_name": "UBS Ums Dom Bosco Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 5,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 9,
+        "capacidade_pnab": 17500,
+        "nomes_equipes": "DOM BOSCO 5; DOM BOSCO 1 SB; DOM BOSCO 2 SB; DOM BOSCO 3 SB; DOM BOSCO 4; DOM BOSCO 3; DOM BOSCO 2; DOM BOSCO 1; EMULTI A TQ1"
       },
       "geometry": {
         "type": "Point",
@@ -879,7 +1014,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Erico Verissimo Psf",
         "short_name": "UBS Ums Erico Verissimo Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 3,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 5,
+        "capacidade_pnab": 10500,
+        "nomes_equipes": "ERICO VERISSIMO 1 SB; ERICO VERISSIMO 2 SB; ERICO VERISSIMO 1; ERICO VERISSIMO 2; ERICO VERISSIMO 3"
       },
       "geometry": {
         "type": "Point",
@@ -910,7 +1050,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Esmeralda",
         "short_name": "UBS Ums Esmeralda",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 3,
+        "qtd_equipes_total": 6,
+        "capacidade_pnab": 9500,
+        "nomes_equipes": "ESMERALDA 2 EAP; ESMERALDA 2 SB; ESMERALDA 1 EAP; ESMERALDA 3 SB; ESMERALDA 3 EAP; ESMERALDA 1 SB"
       },
       "geometry": {
         "type": "Point",
@@ -941,7 +1086,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Estrela",
         "short_name": "UBS Ums Estrela",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 2,
+        "qtd_equipes_total": 5,
+        "capacidade_pnab": 7500,
+        "nomes_equipes": "ESTRELA 2 EAP; ESTRELA 1SB; ESTRELA 2 SB; ESTRELA 1 EAP; EMULTI A PR1"
       },
       "geometry": {
         "type": "Point",
@@ -973,7 +1123,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Eucaliptos",
         "short_name": "UBS Ums Eucaliptos",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 6,
+        "qtd_equipes_total": 10,
+        "capacidade_pnab": 15500,
+        "nomes_equipes": "EUCALIPTOS 6 EAP; EUCALIPTOS 1 SB; EUCALIPTOS 2 SB; EUCALIPTOS 4 EAP; EUCALIPTOS 3 EAP; EUCALIPTOS 2 EAP; EUCALIPTOS 1 EAP; EUCALIPTOS 3 SB; EUCALIPTOS 4 SB; EUCALIPTOS 5 EAP"
       },
       "geometry": {
         "type": "Point",
@@ -1004,7 +1159,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Fanny Lindoia",
         "short_name": "UBS Ums Fanny Lindoia",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 4,
+        "qtd_equipes_total": 7,
+        "capacidade_pnab": 11500,
+        "nomes_equipes": "FANNY LINDOIA 3 SB; FANNY LINDOIA 2 SB; FANNY LINDOIA 4 EAP; FANNY LINDOIA 1 EAP; FANNY LINDOIA 2 EAP; FANNY LINDOIA 3 EAP; FANNY LINDOIA 1 SB"
       },
       "geometry": {
         "type": "Point",
@@ -1036,7 +1196,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Fernando de Noronha",
         "short_name": "UBS Ums Fernando de Noronha",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 4,
+        "qtd_equipes_total": 8,
+        "capacidade_pnab": 11500,
+        "nomes_equipes": "FERNANDO DE NORONHA 4 EAP; FERNANDO DE NORONHA 2 SB; FERNANDO DE NORONHA 1 SB; FERNANDO DE NORONHA 2 EAP; FERNANDO DE NORONHA 3 EAP; FERNANDO DE NORONHA 3 SB; FERNANDO DE NORONHA 4 SB; FERNANDO DE NORONHA 1 EAP"
       },
       "geometry": {
         "type": "Point",
@@ -1067,7 +1232,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Ipiranga",
         "short_name": "UBS Ums Ipiranga",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 5,
+        "qtd_equipes_total": 9,
+        "capacidade_pnab": 13500,
+        "nomes_equipes": "IPIRANGA 5 EAP; IPIRANGA 3 EAP; IPIRANGA 1 SB; IPIRANGA 4 SB; IPIRANGA 2 EAP; IPIRANGA 1 EAP; IPIRANGA 3 SB; IPIRANGA 2 SB; IPIRANGA 4 EAP"
       },
       "geometry": {
         "type": "Point",
@@ -1098,7 +1268,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Iracema",
         "short_name": "UBS Ums Iracema",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 4,
+        "qtd_equipes_total": 8,
+        "capacidade_pnab": 11500,
+        "nomes_equipes": "IRACEMA 1 SB; IRACEMA 4 EAP; IRACEMA 2 SB; IRACEMA 4 SB; IRACEMA 3 SB; IRACEMA 1 EAP; IRACEMA 2 EAP; IRACEMA 3 EAP"
       },
       "geometry": {
         "type": "Point",
@@ -1130,7 +1305,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Irma Tereza Araujo Psf",
         "short_name": "UBS Ums Irma Tereza Araujo Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 3,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 6,
+        "capacidade_pnab": 10500,
+        "nomes_equipes": "IRMA TEREZA ARAUJO 3; IRMA TEREZA ARAUJO 1; IRMA TEREZA ARAUJO 1 SB; IRMA TEREZA ARAUJO 2 SB; EMULTI C BQ 2; IRMA TEREZA ARAUJO 2"
       },
       "geometry": {
         "type": "Point",
@@ -1162,7 +1342,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Jardim Alianca Psf",
         "short_name": "UBS Ums Jardim Alianca Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 4,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 6,
+        "capacidade_pnab": 14000,
+        "nomes_equipes": "JARDIM ALIANCA 3; JARDIM ALIANCA 2 SB; JARDIM ALIANCA 2; JARDIM ALIANCA 4; JARDIM ALIANCA 1 SB; JARDIM ALIANCA 1"
       },
       "geometry": {
         "type": "Point",
@@ -1193,7 +1378,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Jardim Gabineto Psf",
         "short_name": "UBS Ums Jardim Gabineto Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 3,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 5,
+        "capacidade_pnab": 10500,
+        "nomes_equipes": "JARDIM GABINETO 3; JARDIM GABINETO 1; JARDIM GABINETO 3 SB; JARDIM GABINETO 1 SB; JARDIM GABINETO 2"
       },
       "geometry": {
         "type": "Point",
@@ -1225,7 +1415,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Jardim Paranaense Psf",
         "short_name": "UBS Ums Jardim Paranaense Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 3,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 5,
+        "capacidade_pnab": 10500,
+        "nomes_equipes": "JARDIM PARANAENSE 2 SB; JARDIM PARANAENSE 1 SB; JARDIM PARANAENSE 1; JARDIM PARANAENSE 3; JARDIM PARANAENSE 2"
       },
       "geometry": {
         "type": "Point",
@@ -1257,7 +1452,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums João Candido Psf",
         "short_name": "UBS Ums João Candido Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 3,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 5,
+        "capacidade_pnab": 10500,
+        "nomes_equipes": "JOAO CANDIDO 3 SB; JOAO CANDIDO 2; JOAO CANDIDO 1; JOAO CANDIDO 1 SB; JOAO CANDIDO 3"
       },
       "geometry": {
         "type": "Point",
@@ -1288,7 +1488,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Lotiguacu Psf",
         "short_name": "UBS Ums Lotiguacu Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 4,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 6,
+        "capacidade_pnab": 14000,
+        "nomes_equipes": "LOTIGUACU 4 SB; LOTIGUACU 1; LOTIGUACU 2; LOTIGUACU 3; LOTIGUACU 3 SB; LOTIGUACU 4"
       },
       "geometry": {
         "type": "Point",
@@ -1319,7 +1524,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Mae Curitibana",
         "short_name": "UBS Ums Mae Curitibana",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 7,
+        "qtd_equipes_total": 9,
+        "capacidade_pnab": 17500,
+        "nomes_equipes": "MAE CURITIBANA 6 EAP; MAE CURITIBANA 5 EAP; MAE CURITIBANA 4 EAP; MAE CURITIBANA 3 EAP; MAE CURITIBANA 7 EAP; MAE CURITIBANA 1 EAP; MAE CURITIBANA 1 SB; MAE CURITIBANA 2 SB; MAE CURITIBANA 2 EAP"
       },
       "geometry": {
         "type": "Point",
@@ -1350,7 +1560,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Maria Angelica Psf",
         "short_name": "UBS Ums Maria Angelica Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 3,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 6,
+        "capacidade_pnab": 10500,
+        "nomes_equipes": "MARIA ANGELICA 1 SB; MARIA ANGELICA 2; MARIA ANGELICA 3 SB; MARIA ANGELICA 3; MARIA ANGELICA 1; MARIA ANGELICA 2 SB"
       },
       "geometry": {
         "type": "Point",
@@ -1381,7 +1596,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Menonitas",
         "short_name": "UBS Ums Menonitas",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 3,
+        "qtd_equipes_total": 7,
+        "capacidade_pnab": 9500,
+        "nomes_equipes": "MENONITAS 1 EAP; MENONITAS 3 SB; MENONITAS 2 EAP; MENONITAS 3 EAP; MENONITAS 2 SB; MENONITAS 1 SB; MENONITAS 4 SB"
       },
       "geometry": {
         "type": "Point",
@@ -1411,7 +1631,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Monteiro Lobato Psf",
         "short_name": "UBS Ums Monteiro Lobato Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 4,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 7,
+        "capacidade_pnab": 14000,
+        "nomes_equipes": "MONTEIRO LOBATO 1; MONTEIRO LOBATO 4; MONTEIRO LOBATO 3; MONTEIRO LOBATO 1 SB; MONTEIRO LOBATO 2; MONTEIRO LOBATO 4 SB; MONTEIRO LOBATO 3 SB"
       },
       "geometry": {
         "type": "Point",
@@ -1443,7 +1668,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Moradias Belem Psf",
         "short_name": "UBS Ums Moradias Belem Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 3,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 5,
+        "capacidade_pnab": 10500,
+        "nomes_equipes": "MORADIAS BELEM 2 SB; MORADIAS BELEM 1 SB; MORADIAS BELEM 1; MORADIAS BELEM 3; MORADIAS BELEM 2"
       },
       "geometry": {
         "type": "Point",
@@ -1474,7 +1704,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Moradias da Ordem Psf",
         "short_name": "UBS Ums Moradias da Ordem Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 4,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 8,
+        "capacidade_pnab": 14000,
+        "nomes_equipes": "EMULTI E TQ2; MORADIAS DA ORDEM 2 SB; MORADIAS DA ORDEM 4; MORADIAS DA ORDEM 3; MORADIAS DA ORDEM 2; MORADIAS DA ORDEM 1; MORADIAS DA ORDEM 3 SB; MORADIAS DA ORDEM 1 SB"
       },
       "geometry": {
         "type": "Point",
@@ -1505,7 +1740,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Moradias Santa Rita Psf",
         "short_name": "UBS Ums Moradias Santa Rita Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 4,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 7,
+        "capacidade_pnab": 14000,
+        "nomes_equipes": "SANTA RITA 2 SB; SANTA RITA 4; SANTA RITA 1; SANTA RITA 3; SANTA RITA 2; SANTA RITA 1 SB; SANTA RITA 3 SB"
       },
       "geometry": {
         "type": "Point",
@@ -1537,7 +1777,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Nossa Senhora Aparecida Psf",
         "short_name": "UBS Ums Nossa Senhora Aparecida Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 4,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 6,
+        "capacidade_pnab": 14000,
+        "nomes_equipes": "N. S. APARECIDA 2 SB; N. S. APARECIDA 1 SB; N. S. APARECIDA 3; N.S. APARECIDA 4; N. S. APARECIDA 1; N. S. APARECIDA 2"
       },
       "geometry": {
         "type": "Point",
@@ -1568,7 +1813,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Nossa Senhora da Luz Psf",
         "short_name": "UBS Ums Nossa Senhora da Luz Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 4,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 6,
+        "capacidade_pnab": 14000,
+        "nomes_equipes": "NOSSA SENHORA DA LUZ 2; NOSSA SENHORA DA LUZ 1; NOSSA SENHORA DA LUZ 3 SB; NOSSA SENHORA DA LUZ 4; NOSSA SENHORA DA LUZ 1 SB; NOSSA SENHORA DA LUZ 3"
       },
       "geometry": {
         "type": "Point",
@@ -1599,7 +1849,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Nossa Senhora do Sagrado Coracao Psf",
         "short_name": "UBS Ums Nossa Senhora do Sagrado Coracao Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 3,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 5,
+        "capacidade_pnab": 10500,
+        "nomes_equipes": "SAGRADO CORACAO 1; SAGRADO CORACAO 2 SB; SAGRADO CORACAO 1 SB; SAGRADO CORACAO 3; SAGRADO CORACAO 2"
       },
       "geometry": {
         "type": "Point",
@@ -1631,7 +1886,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Nova Orleans",
         "short_name": "UBS Ums Nova Orleans",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 4,
+        "qtd_equipes_total": 8,
+        "capacidade_pnab": 11500,
+        "nomes_equipes": "NOVA ORLEANS 2 SB; NOVA ORLEANS 1 SB; NOVA ORLEANS 2 EAP; NOVA ORLEANS 4 SB; NOVA ORLEANS 1 EAP; NOVA ORLEANS 4 EAP; NOVA ORLEANS 3 EAP; NOVA ORLEANS 3 SB"
       },
       "geometry": {
         "type": "Point",
@@ -1663,7 +1923,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Osternack Psf",
         "short_name": "UBS Ums Osternack Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 5,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 7,
+        "capacidade_pnab": 17500,
+        "nomes_equipes": "OSTERNACK 2; OSTERNACK 3; OSTERNACK 1; OSTERNACK 5; OSTERNACK 1 SB; OSTERNACK 3 SB; OSTERNACK 4"
       },
       "geometry": {
         "type": "Point",
@@ -1693,7 +1958,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Oswaldo Cruz",
         "short_name": "UBS Ums Oswaldo Cruz",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 5,
+        "qtd_equipes_total": 10,
+        "capacidade_pnab": 13500,
+        "nomes_equipes": "OSWALDO CRUZ 1 EAP; OSWALDO CRUZ 3 EAP; OSWALDO CRUZ 4 EAP; OSWALDO CRUZ 5 EAP; OSWALDO CRUZ 2 SB; OSWALDO CRUZ 4 SB; OSWALDO CRUZ 5 SB; OSWALDO CRUZ 6 SB; OSWALDO CRUZ 7 SB; OSWALDO CRUZ 2 EAP"
       },
       "geometry": {
         "type": "Point",
@@ -1725,7 +1995,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Ouvidor Pardinho",
         "short_name": "UBS Ums Ouvidor Pardinho",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 12,
+        "qtd_equipes_total": 25,
+        "capacidade_pnab": 27500,
+        "nomes_equipes": "OUVIDOR PARDINHO 1 SB; EMULTI C MZ1; OUVIDOR PARDINHO 6 SB; OUVIDOR PARDINHO 7 SB; OUVIDOR PARDINHO 8 SB; OUVIDOR PARDINHO 9 SB; ECR OUVIDOR PARDINHO 4; OUVIDOR PARDINHO 6 EAP; OUVIDOR PARDINHO 7 EAP; OUVIDOR PARDINHO 8 EAP; OUVIDOR PARDINHO 5 EAP; OUVIDOR PARDINHO 2 SB; OUVIDOR PARDINHO 3 SB; ECR OUVIDOR PARDINHO 2; OUVIDOR PARDINHO 2 EAP; OUVIDOR PARDINHO 1 EAP; ECR OUVIDOR PARDINHO 3; OUVIDOR PARDINHO 5 SB; OUVIDOR PARDINHO 9 EAP; OUVIDOR PARDINHO 10 EAP; OUVIDOR PARDINHO 11 EAP; OUVIDOR PARDINHO 12 EAP; OUVIDOR PARDINHO 4 SB; OUVIDOR PARDINHO 3 EAP; OUVIDOR PARDINHO 4 EAP"
       },
       "geometry": {
         "type": "Point",
@@ -1756,7 +2031,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Palmeiras Psf",
         "short_name": "UBS Ums Palmeiras Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 4,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 7,
+        "capacidade_pnab": 14000,
+        "nomes_equipes": "PALMEIRAS 3 SB; PALMEIRAS 1; PALMEIRAS 3; PALMEIRAS 2 SB; PALMEIRAS 4; PALMEIRAS 2; PALMEIRAS 1 SB"
       },
       "geometry": {
         "type": "Point",
@@ -1786,7 +2066,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Pantanal Psf",
         "short_name": "UBS Ums Pantanal Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 2,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 3,
+        "capacidade_pnab": 7000,
+        "nomes_equipes": "PANTANAL 1 SB; PANTANAL 2; PANTANAL 1"
       },
       "geometry": {
         "type": "Point",
@@ -1818,7 +2103,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Parigot de Souza",
         "short_name": "UBS Ums Parigot de Souza",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 3,
+        "qtd_equipes_total": 6,
+        "capacidade_pnab": 9500,
+        "nomes_equipes": "PARIGOT DE SOUZA 3; PARIGOT DE SOUZA 3 SB; PARIGOT DE SOUZA 2 SB; PARIGOT DE SOUZA 2 EAP; PARIGOT DE SOUZA 1 SB; PARIGOT DE SOUZA 1 EAP"
       },
       "geometry": {
         "type": "Point",
@@ -1849,7 +2139,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Parolin Psf",
         "short_name": "UBS Ums Parolin Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 4,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 7,
+        "capacidade_pnab": 14000,
+        "nomes_equipes": "PAROLIN 3; PAROLIN 2; PAROLIN 2 SB; PAROLIN 1; PAROLIN 4; PAROLIN 1 SB; PAROLIN 4 SB"
       },
       "geometry": {
         "type": "Point",
@@ -1880,7 +2175,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Parque Industrial",
         "short_name": "UBS Ums Parque Industrial",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 4,
+        "qtd_equipes_total": 6,
+        "capacidade_pnab": 11500,
+        "nomes_equipes": "PARQUE INDUSTRIAL 3 EAP; PARQUE INDUSTRIAL 4 EAP; PARQUE INDUSTRIAL 1 EAP; PARQUE INDUSTRIAL 1 SB; PARQUE INDUSTRIAL 2 SB; PARQUE INDUSTRIAL 2 EAP"
       },
       "geometry": {
         "type": "Point",
@@ -1912,7 +2212,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Pilarzinho",
         "short_name": "UBS Ums Pilarzinho",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 5,
+        "qtd_equipes_total": 10,
+        "capacidade_pnab": 13500,
+        "nomes_equipes": "PILARZINHO 2 EAP; PILARZINHO 4 EAP; PILARZINHO 5 SB; PILARZINHO 1 EAP; PILARZINHO 3 EAP; PILARZINHO 5 EAP; PILARZINHO 4 SB; PILARZINHO 3 SB; PILARZINHO 1 SB; PILARZINHO 2 SB"
       },
       "geometry": {
         "type": "Point",
@@ -1944,7 +2249,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Pinheiros",
         "short_name": "UBS Ums Pinheiros",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 5,
+        "qtd_equipes_total": 8,
+        "capacidade_pnab": 13500,
+        "nomes_equipes": "PINHEIROS 2 EAP; PINHEIROS 1 EAP; PINHEIROS 1 SB; PINHEIROS 3 SB; PINHEIROS 2 SB; PINHEIROS 3 EAP; PINHEIROS 4EAP; PINHEIROS 5 EAP"
       },
       "geometry": {
         "type": "Point",
@@ -1974,7 +2284,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Pompeia Psf",
         "short_name": "UBS Ums Pompeia Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 4,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 7,
+        "capacidade_pnab": 14000,
+        "nomes_equipes": "POMPEIA 2; POMPEIA 3; POMPEIA 4; POMPEIA 1; POMPEIA 4 SB; POMPEIA 2 SB; POMPEIA 3 SB"
       },
       "geometry": {
         "type": "Point",
@@ -2005,7 +2320,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Rio Bonito Psf",
         "short_name": "UBS Ums Rio Bonito Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 5,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 8,
+        "capacidade_pnab": 17500,
+        "nomes_equipes": "RIO BONITO 5 SB; RIO BONITO 2 SB; RIO BONITO 1; RIO BONITO 4; RIO BONITO 1 SB; RIO BONITO 5; RIO BONITO 3; RIO BONITO 2"
       },
       "geometry": {
         "type": "Point",
@@ -2036,7 +2356,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Sabara Psf",
         "short_name": "UBS Ums Sabara Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 4,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 7,
+        "capacidade_pnab": 14000,
+        "nomes_equipes": "SABARA B; SABARA D; SABARA A SB; SABARA B SB; SABARA C SB; SABARA A; SABARA C"
       },
       "geometry": {
         "type": "Point",
@@ -2067,7 +2392,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Salgado Filho",
         "short_name": "UBS Ums Salgado Filho",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 3,
+        "qtd_equipes_total": 8,
+        "capacidade_pnab": 9500,
+        "nomes_equipes": "SALGADO FILHO 3 EAP; SALGADO FILHO 2 EAP; SALGADO FILHO 1 EAP; SALGADO FILHO 5 SB; SALGADO FILHO 4 SB; SALGADO FILHO 3 SB; SALGADO FILHO 1 SB; SALGADO FILHO 2 SB"
       },
       "geometry": {
         "type": "Point",
@@ -2099,7 +2429,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Salvador Allende Psf",
         "short_name": "UBS Ums Salvador Allende Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 4,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 7,
+        "capacidade_pnab": 14000,
+        "nomes_equipes": "SALVADOR ALLENDE 3; SALVADOR ALLENDE 1; SALVADOR ALLENDE 4; SALVADOR ALLENDE 1 SB; SALVADOR ALLENDE 3 SB; EMULTI A BN 1; SALVADOR ALLENDE 2"
       },
       "geometry": {
         "type": "Point",
@@ -2131,7 +2466,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Sambaqui Psf",
         "short_name": "UBS Ums Sambaqui Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 4,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 7,
+        "capacidade_pnab": 14000,
+        "nomes_equipes": "SAMBAQUI 4; SAMBAQUI 5; SAMBAQUI 1; SAMBAQUI 4 SB; SAMBAQUI 5 SB; SAMBAQUI 1 SB; SAMBAQUI 2"
       },
       "geometry": {
         "type": "Point",
@@ -2162,7 +2502,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Santa Amelia",
         "short_name": "UBS Ums Santa Amelia",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 4,
+        "qtd_equipes_total": 7,
+        "capacidade_pnab": 11500,
+        "nomes_equipes": "SANTA AMELIA 3 SB; SANTA AMELIA 1 EAP; SANTA AMELIA 2 SB; SANTA AMELIA 1 SB; SANTA AMELIA 4 EAP; SANTA AMELIA 2 EAP; SANTA AMELIA 3 EAP"
       },
       "geometry": {
         "type": "Point",
@@ -2194,7 +2539,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Santa Candida",
         "short_name": "UBS Ums Santa Candida",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 5,
+        "qtd_equipes_total": 9,
+        "capacidade_pnab": 13500,
+        "nomes_equipes": "SANTA CANDIDA 2 SB; SANTA CANDIDA 1 SB; SANTA CANDIDA 2 EAP; SANTA CANDIDA 3 EAP; SANTA CANDIDA 4 SB; SANTA CANDIDA 5 EAP; SANTA CANDIDA 4 EAP; SANTA CANDIDA 1 EAP; SANTA CANDIDA 3 SB"
       },
       "geometry": {
         "type": "Point",
@@ -2226,7 +2576,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Santa Efigenia",
         "short_name": "UBS Ums Santa Efigenia",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 4,
+        "qtd_equipes_total": 7,
+        "capacidade_pnab": 11500,
+        "nomes_equipes": "SANTA EFIGENIA 2 EAP; SANTA EFIGENIA 3 SB; SANTA EFIGENIA 2 SB; SANTA EFIGENIA 1 SB; SANTA EFIGENIA 4 EAP; SANTA EFIGENIA 3 EAP; SANTA EFIGENIA 1 EAP"
       },
       "geometry": {
         "type": "Point",
@@ -2258,7 +2613,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Santa Felicidade",
         "short_name": "UBS Ums Santa Felicidade",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 6,
+        "qtd_equipes_total": 10,
+        "capacidade_pnab": 15500,
+        "nomes_equipes": "SANTA FELICIDADE 1 SB; SANTA FELICIDADE 2 SB; SANTA FELICIDADE 1 EAP; SANTA FELICIDADE 3 SB; SANTA FELICIDADE 5 SB; SANTA FELICIDADE 5 EAP; SANTA FELICIDADE 4 EAP; SANTA FELICIDADE 2 EAP; SANTA FELICIDADE 3 EAP; SANTA FELICIDADE 6 EAP"
       },
       "geometry": {
         "type": "Point",
@@ -2289,7 +2649,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Santa Quiteria",
         "short_name": "UBS Ums Santa Quiteria",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 3,
+        "qtd_equipes_total": 5,
+        "capacidade_pnab": 9500,
+        "nomes_equipes": "SANTA QUITERIA 2 EAP; SANTA QUITERIA 3 EAP; SANTA QUITERIA 1 SB; SANTA QUITERIA 3 SB; SANTA QUITERIA 1 EAP"
       },
       "geometry": {
         "type": "Point",
@@ -2320,7 +2685,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Santa Quiteria II",
         "short_name": "UBS Ums Santa Quiteria II",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 4,
+        "qtd_equipes_total": 8,
+        "capacidade_pnab": 11500,
+        "nomes_equipes": "SANTA QUITERIA II 2 SB; SANTA QUITERIA II 3 EAP; SANTA QUITERIA II 3 SB; SANTA QUITERIA II 4 SB; SANTA QUITERIA II 1 SB; SANTA QUITERIA II 2 EAP; SANTA QUITERIA II 4 EAP; SANTA QUITERIA II 1 EAP"
       },
       "geometry": {
         "type": "Point",
@@ -2352,7 +2722,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Santos Andrade",
         "short_name": "UBS Ums Santos Andrade",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 2,
+        "qtd_equipes_total": 4,
+        "capacidade_pnab": 7500,
+        "nomes_equipes": "SANTOS ANDRADE 1 EAP; SANTOS ANDRADE 2 EAP; SANTOS ANDRADE 1 SB; SANTOS ANDRADE 2 SB"
       },
       "geometry": {
         "type": "Point",
@@ -2384,7 +2759,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums São Braz",
         "short_name": "UBS Ums São Braz",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 5,
+        "qtd_equipes_total": 8,
+        "capacidade_pnab": 13500,
+        "nomes_equipes": "SAO BRAZ 1 EAP; SAO BRAZ 2 SB; SAO BRAZ 2 EAP; SAO BRAZ 3 EAP; SAO BRAZ 4 EAP; SAO BRAZ 5 EAP; SAO BRAZ 3 SB; SAO BRAZ 4 SB"
       },
       "geometry": {
         "type": "Point",
@@ -2415,7 +2795,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums São Domingos Psf",
         "short_name": "UBS Ums São Domingos Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 4,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 6,
+        "capacidade_pnab": 14000,
+        "nomes_equipes": "SAO DOMINGOS 3 SB; SAO DOMINGOS 3; SAO DOMINGOS 4 SB; SAO DOMINGOS 2; SAO DOMINGOS 4; SAO DOMINGOS 5"
       },
       "geometry": {
         "type": "Point",
@@ -2447,7 +2832,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums São João Del Rey Psf",
         "short_name": "UBS Ums São João Del Rey Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 3,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 5,
+        "capacidade_pnab": 10500,
+        "nomes_equipes": "DEL REY 2 SB; DEL REY 1 SB; DEL REY 1 (DEL REY); DEL REY 2 (PLANALTO); DEL REY 4"
       },
       "geometry": {
         "type": "Point",
@@ -2478,7 +2868,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums São Jose Psf",
         "short_name": "UBS Ums São Jose Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 2,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 4,
+        "capacidade_pnab": 7000,
+        "nomes_equipes": "SAO JOSE A SB; SAO JOSE B SB; SAO JOSE A; SAO JOSE B"
       },
       "geometry": {
         "type": "Point",
@@ -2509,7 +2904,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums São Miguel",
         "short_name": "UBS Ums São Miguel",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 3,
+        "qtd_equipes_total": 5,
+        "capacidade_pnab": 9500,
+        "nomes_equipes": "SAO MIGUEL 1 EAP; SAO MIGUEL 2 SB; SAO MIGUEL 3 EAP; SAO MIGUEL 2 EAP; SAO MIGUEL 3 SB"
       },
       "geometry": {
         "type": "Point",
@@ -2540,7 +2940,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums São Paulo",
         "short_name": "UBS Ums São Paulo",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 3,
+        "qtd_equipes_total": 6,
+        "capacidade_pnab": 9500,
+        "nomes_equipes": "SAO PAULO 3 EAP; SAO PAULO 3 SB; SAO PAULO 2 SB; SAO PAULO 1 EAP; SAO PAULO 1 SB; SAO PAULO 2 EAP"
       },
       "geometry": {
         "type": "Point",
@@ -2570,7 +2975,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums São Pedro",
         "short_name": "UBS Ums São Pedro",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 4,
+        "qtd_equipes_total": 7,
+        "capacidade_pnab": 11500,
+        "nomes_equipes": "SAO PEDRO 4 EAP; SAO PEDRO 3 EAP; SAO PEDRO 1 EAP; SAO PEDRO 3 SB; SAO PEDRO 2 EAP; SAO PEDRO 2 SB; SAO PEDRO 1 SB"
       },
       "geometry": {
         "type": "Point",
@@ -2601,7 +3011,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Solitude Psf",
         "short_name": "UBS Ums Solitude Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 4,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 8,
+        "capacidade_pnab": 14000,
+        "nomes_equipes": "SOLITUDE 4; SOLITUDE 2; SOLITUDE 1; SOLITUDE 3 SB; SOLITUDE 1 SB; EMULTI A CJ 1; SOLITUDE 3; SOLITUDE 2 SB"
       },
       "geometry": {
         "type": "Point",
@@ -2632,7 +3047,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Taiz Viviane Machado Psf",
         "short_name": "UBS Ums Taiz Viviane Machado Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 4,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 7,
+        "capacidade_pnab": 14000,
+        "nomes_equipes": "TAIZ VIVIANE MACHADO 3; TAIZ VIVIANE MACHADO 2; TAIZ VIVIANE MACHADO 4; TAIZ VIVIANE MACHADO 1; TAIZ VIVIANE MACHADO 3 SB; TAIZ VIVIANE MACHADO 1 SB; TAIZ VIVIANE MACHADO 2 SB"
       },
       "geometry": {
         "type": "Point",
@@ -2663,7 +3083,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Tancredo Neves",
         "short_name": "UBS Ums Tancredo Neves",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 4,
+        "qtd_equipes_total": 7,
+        "capacidade_pnab": 11500,
+        "nomes_equipes": "TANCREDO NEVES 3 EAP; TANCREDO NEVES 1 EAP; TANCREDO NEVES 2 EAP; TANCREDO NEVES 4 EAP; TANCREDO NEVES 2 SB; TANCREDO NEVES 1 SB; TANCREDO NEVES 4 SB"
       },
       "geometry": {
         "type": "Point",
@@ -2694,7 +3119,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Tapajós",
         "short_name": "UBS Ums Tapajós",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 4,
+        "qtd_equipes_total": 8,
+        "capacidade_pnab": 11500,
+        "nomes_equipes": "TAPAJOS 1 SB; TAPAJOS 3 SB; TAPAJOS 2 SB; TAPAJOS 4 SB; TAPAJOS 2 EAP; TAPAJOS 3 EAP; TAPAJOS 1 EAP; TAPAJOS 4 EAP"
       },
       "geometry": {
         "type": "Point",
@@ -2726,7 +3156,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Taruma Psf",
         "short_name": "UBS Ums Taruma Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 3,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 5,
+        "capacidade_pnab": 10500,
+        "nomes_equipes": "TARUMA 2; TARUMA 3; TARUMA 1; TARUMA 1 SB; TARUMA 2 SB"
       },
       "geometry": {
         "type": "Point",
@@ -2758,7 +3193,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Tingui",
         "short_name": "UBS Ums Tingui",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 5,
+        "qtd_equipes_total": 9,
+        "capacidade_pnab": 13500,
+        "nomes_equipes": "TINGUI 4 SB; TINGUI 2 EAP; TINGUI 1 EAP; TINGUI 4 EAP; TINGUI 3 EAP; TINGUI 5 EAP; TINGUI 1 SB; TINGUI 2 SB; TINGUI 3 SB"
       },
       "geometry": {
         "type": "Point",
@@ -2789,7 +3229,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Trindade II Psf",
         "short_name": "UBS Ums Trindade II Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 4,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 7,
+        "capacidade_pnab": 14000,
+        "nomes_equipes": "FLORIANOPOLIS SB; JERUSALEM; FLORIANOPOLIS; SAO JOAO DEL REY SB; JERUSALEM SB; SAO JOAO DEL REY; LIBERATO EVANGELISTA DO PRADO"
       },
       "geometry": {
         "type": "Point",
@@ -2820,7 +3265,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Trindade Psf",
         "short_name": "UBS Ums Trindade Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 5,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 7,
+        "capacidade_pnab": 17500,
+        "nomes_equipes": "TRINDADE 5 SB; TRINDADE 3 SB; TRINDADE 5; TRINDADE 2; TRINDADE 3; TRINDADE 1; TRINDADE 4"
       },
       "geometry": {
         "type": "Point",
@@ -2851,7 +3301,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Uberaba de Cima",
         "short_name": "UBS Ums Uberaba de Cima",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 3,
+        "qtd_equipes_total": 6,
+        "capacidade_pnab": 9500,
+        "nomes_equipes": "UBERABA 3 SB; UBERABA 2 SB; UBERABA 3 EAP; UBERABA 2 EAP; UBERABA 1 EAP; UBERABA 1 SB"
       },
       "geometry": {
         "type": "Point",
@@ -2883,7 +3338,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Umbara II Psf",
         "short_name": "UBS Ums Umbara II Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 3,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 5,
+        "capacidade_pnab": 10500,
+        "nomes_equipes": "UMBARA II PSF 2; UMBARA II SB; CALIXTO; UMBARA II; CALIXTO SB"
       },
       "geometry": {
         "type": "Point",
@@ -2915,7 +3375,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Umbara Psf",
         "short_name": "UBS Ums Umbara Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 4,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 7,
+        "capacidade_pnab": 14000,
+        "nomes_equipes": "UMBARA 1; UMBARA 4; UMBARA 2 SB; UMBARA 3; UMBARA 2; EMULTI C BN 2; UMBARA 1 SB"
       },
       "geometry": {
         "type": "Point",
@@ -2947,7 +3412,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Uniao das Vilas",
         "short_name": "UBS Ums Uniao das Vilas",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 4,
+        "qtd_equipes_total": 8,
+        "capacidade_pnab": 11500,
+        "nomes_equipes": "UNIAO DAS VILAS 4 EAP; UNIAO DAS VILAS 2 SB; UNIAO DAS VILAS 1 EAP; UNIAO DAS VILAS 3 EAP; UNIAO DAS VILAS 2 EAP; EMULTI E SF2; UNIAO DAS VILAS 3 SB; UNIAO DAS VILAS 1 SB"
       },
       "geometry": {
         "type": "Point",
@@ -2978,7 +3448,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Vila Clarice",
         "short_name": "UBS Ums Vila Clarice",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 4,
+        "qtd_equipes_total": 8,
+        "capacidade_pnab": 11500,
+        "nomes_equipes": "VILA CLARICE 3 SB; VILA CLARICE 4 EAP; VILA CLARICE 1 EAP; VILA CLARICE 1 SB; VILA CLARICE 3 EAP; VILA CLARICE 2 EAP; VILA CLARICE 2 SB; EMULTI A PN1"
       },
       "geometry": {
         "type": "Point",
@@ -3010,7 +3485,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Vila Diana",
         "short_name": "UBS Ums Vila Diana",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 3,
+        "qtd_equipes_total": 6,
+        "capacidade_pnab": 9500,
+        "nomes_equipes": "VILA DIANA 3 EAP; VILA DIANA 1 EAP; VILA DIANA 3 SB; VILA DIANA 2 SB; VILA DIANA 2 EAP; VILA DIANA 1 SB"
       },
       "geometry": {
         "type": "Point",
@@ -3042,7 +3522,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Vila Esperança Psf",
         "short_name": "UBS Ums Vila Esperança Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 4,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 7,
+        "capacidade_pnab": 14000,
+        "nomes_equipes": "VILA ESPERANCA 1; VILA ESPERANCA 4; VILA ESPERANCA 2; VILA ESPERANCA 3; EMULTI A BV 2; VILA ESPERANCA 3 SB; VILA ESPERANCA 1 SB"
       },
       "geometry": {
         "type": "Point",
@@ -3074,7 +3559,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Vila Feliz",
         "short_name": "UBS Ums Vila Feliz",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 4,
+        "qtd_equipes_total": 9,
+        "capacidade_pnab": 11500,
+        "nomes_equipes": "VILA FELIZ 4 SB; VILA FELIZ 3 SB; VILA FELIZ 4 EAP; VILA FELIZ 3 EAP; VILA FELIZ 2 EAP; VILA FELIZ 1 EAP; VILA FELIZ 2 SB; VILA FELIZ 1 SB; EMULTI E PN2"
       },
       "geometry": {
         "type": "Point",
@@ -3104,7 +3594,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Vila Guaira",
         "short_name": "UBS Ums Vila Guaira",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 4,
+        "qtd_equipes_total": 7,
+        "capacidade_pnab": 11500,
+        "nomes_equipes": "VILA GUAIRA 1 EAP; VILA GUAIRA 1 SB; VILA GUAIRA 2 SB; VILA GUAIRA 4 SB; VILA GUAIRA 4 EAP; VILA GUAIRA 3 EAP; VILA GUAIRA 2 EAP"
       },
       "geometry": {
         "type": "Point",
@@ -3136,7 +3631,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Vila Hauer",
         "short_name": "UBS Ums Vila Hauer",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 6,
+        "qtd_equipes_total": 12,
+        "capacidade_pnab": 15500,
+        "nomes_equipes": "VILA HAUER 2 EAP; VILA HAUER 2 SB; VILA HAUER 1 SB; VILA HAUER 3 EAP; VILA HAUER 4 EAP; VILA HAUER 3 SB; VILA HAUER 4 SB; VILA HAUER 5 SB; VILA HAUER 6 EAP; ECR VILA HAUER; VILA HAUER 5 EAP; VILA HAUER 1 EAP"
       },
       "geometry": {
         "type": "Point",
@@ -3166,7 +3666,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Vila Leao",
         "short_name": "UBS Ums Vila Leao",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 4,
+        "qtd_equipes_total": 9,
+        "capacidade_pnab": 11500,
+        "nomes_equipes": "VILA LEAO 4 EAP; VILA LEAO 1 SB; VILA LEAO 2 SB; VILA LEAO 2 EAP; VILA LEAO 3 EAP; VILA LEAO 3 SB; VILA LEAO 4 SB; VILA LEAO 1 EAP; ECR VILA LEAO"
       },
       "geometry": {
         "type": "Point",
@@ -3198,7 +3703,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Vila Leonice Psf",
         "short_name": "UBS Ums Vila Leonice Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 3,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 6,
+        "capacidade_pnab": 10500,
+        "nomes_equipes": "VILA LEONICE 1 SB; EMULTI A BV 1; VILA LEONICE 2 SB; VILA LEONICE 4; VILA LEONICE 2; VILA LEONICE 3"
       },
       "geometry": {
         "type": "Point",
@@ -3229,7 +3739,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Vila Machado",
         "short_name": "UBS Ums Vila Machado",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 4,
+        "qtd_equipes_total": 8,
+        "capacidade_pnab": 11500,
+        "nomes_equipes": "VILA MACHADO 4 EAP; VILA MACHADO 2 EAP; VILA MACHADO 3 SB; VILA MACHADO 4 SB; VILA MACHADO 3 EAP; VILA MACHADO 1 EAP; VILA MACHADO 1 SB; VILA MACHADO 2 SB"
       },
       "geometry": {
         "type": "Point",
@@ -3259,7 +3774,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Vila Sandra Psf",
         "short_name": "UBS Ums Vila Sandra Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 4,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 7,
+        "capacidade_pnab": 14000,
+        "nomes_equipes": "VILA SANDRA 2 SB; VILA SANDRA 1 SB; VILA SANDRA 1; VILA SANDRA 2; EMULTI A CIC 2; VILA SANDRA 4; VILA SANDRA 3"
       },
       "geometry": {
         "type": "Point",
@@ -3290,7 +3810,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Vila Verde Psf",
         "short_name": "UBS Ums Vila Verde Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 3,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 5,
+        "capacidade_pnab": 10500,
+        "nomes_equipes": "VILA VERDE 2; VILA VERDE 3; VILA VERDE 1; VILA VERDE 1 SB; VILA VERDE 2 SB"
       },
       "geometry": {
         "type": "Point",
@@ -3322,7 +3847,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Visitacao",
         "short_name": "UBS Ums Visitacao",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 4,
+        "qtd_equipes_total": 8,
+        "capacidade_pnab": 11500,
+        "nomes_equipes": "VISITACAO 1 EAP; VISITACAO 4 SB; VISITACAO 3 EAP; VISITACAO 1 SB; VISITACAO 2 EAP; VISITACAO 2 SB; VISITACAO 3 SB; VISITACAO 4 EAP"
       },
       "geometry": {
         "type": "Point",
@@ -3354,7 +3884,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Vista Alegre",
         "short_name": "UBS Ums Vista Alegre",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 4,
+        "qtd_equipes_total": 8,
+        "capacidade_pnab": 11500,
+        "nomes_equipes": "VISTA ALEGRE 1 EAP; VISTA ALEGRE 4 EAP; VISTA ALEGRE 2 SB; VISTA ALEGRE 1 SB; VISTA ALEGRE 2 EAP; VISTA ALEGRE 4 SB; VISTA ALEGRE 3 SB; VISTA ALEGRE 3 EAP"
       },
       "geometry": {
         "type": "Point",
@@ -3386,7 +3921,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Vitoria Regia Psf",
         "short_name": "UBS Ums Vitoria Regia Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 4,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 8,
+        "capacidade_pnab": 14000,
+        "nomes_equipes": "VITORIA REGIA 3 SB; EMULTI A CIC 1; VITORIA REGIA 3; VITORIA REGIA 1 SB; VITORIA REGIA 2 SB; VITORIA REGIA 4; VITORIA REGIA 1; VITORIA REGIA 2"
       },
       "geometry": {
         "type": "Point",
@@ -3417,7 +3957,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Waldemar Monastier Psf",
         "short_name": "UBS Ums Waldemar Monastier Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 3,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 7,
+        "capacidade_pnab": 10500,
+        "nomes_equipes": "WALDEMAR MONASTIER 1 SB; WALDEMAR MONASTIER 3 SB; WALDEMAR MONASTIER 2; WALDEMAR MONASTIER 1; WALDEMAR MONASTIER 3; EMULTI A BQ 1; WALDEMAR MONASTIER 2 SB"
       },
       "geometry": {
         "type": "Point",
@@ -3448,7 +3993,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Xapinhal Psf",
         "short_name": "UBS Ums Xapinhal Psf",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 3,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 5,
+        "capacidade_pnab": 10500,
+        "nomes_equipes": "XAPINHAL 3 SB; XAPINHAL 1 SB; XAPINHAL 3; XAPINHAL 1; XAPINHAL 2"
       },
       "geometry": {
         "type": "Point",
@@ -3480,7 +4030,12 @@
         "healthcare": "clinic",
         "name": "Unidade Básica de Saúde Ums Xaxim",
         "short_name": "UBS Ums Xaxim",
-        "comment": "UBS"
+        "comment": "UBS",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 4,
+        "qtd_equipes_total": 7,
+        "capacidade_pnab": 11500,
+        "nomes_equipes": "XAXIM 1 EAP; XAXIM 3 SB; XAXIM 2 EAP; XAXIM 2 SB; XAXIM 3 EAP; XAXIM 4 EAP; XAXIM 1 SB"
       },
       "geometry": {
         "type": "Point",
@@ -3509,7 +4064,12 @@
         "amenity": "clinic",
         "healthcare": "rehabilitation",
         "name": "Serviço de Reabilitação Física Nível Intermediário",
-        "comment": "Reabilitação Física"
+        "comment": "Reabilitação Física",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -3539,7 +4099,12 @@
         "amenity": "clinic",
         "healthcare": "rehabilitation",
         "name": "Serviço de Reabilitação Física Nível Intermediário",
-        "comment": "Reabilitação Física"
+        "comment": "Reabilitação Física",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -3570,7 +4135,12 @@
         "amenity": "clinic",
         "healthcare": "rehabilitation",
         "name": "Serviço de Reabilitação Física Nível Intermediário",
-        "comment": "Reabilitação Física"
+        "comment": "Reabilitação Física",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -3600,7 +4170,12 @@
         "amenity": "clinic",
         "healthcare": "rehabilitation",
         "name": "Serviço de Reabilitação Física Nível Intermediário",
-        "comment": "Reabilitação Física"
+        "comment": "Reabilitação Física",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -3630,7 +4205,12 @@
         "amenity": "clinic",
         "healthcare": "rehabilitation",
         "name": "Serviço de Reabilitação Física Nível Intermediário",
-        "comment": "Reabilitação Física"
+        "comment": "Reabilitação Física",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -3661,7 +4241,12 @@
         "amenity": "clinic",
         "healthcare": "rehabilitation",
         "name": "Serviço de Reabilitação Física Nível Intermediário",
-        "comment": "Reabilitação Física"
+        "comment": "Reabilitação Física",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -3691,7 +4276,12 @@
         "amenity": "clinic",
         "healthcare": "rehabilitation",
         "name": "Serviço de Reabilitação Física Nível Intermediário",
-        "comment": "Reabilitação Física"
+        "comment": "Reabilitação Física",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -3722,7 +4312,12 @@
         "amenity": "clinic",
         "healthcare": "rehabilitation",
         "name": "Serviço de Reabilitação Física Nível Intermediário",
-        "comment": "Reabilitação Física"
+        "comment": "Reabilitação Física",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -3753,7 +4348,12 @@
         "amenity": "clinic",
         "healthcare": "rehabilitation",
         "name": "Serviço de Reabilitação Física Nível Intermediário",
-        "comment": "Reabilitação Física"
+        "comment": "Reabilitação Física",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -3784,7 +4384,12 @@
         "amenity": "clinic",
         "healthcare": "clinic",
         "name": "Centro Medico Comunitario Bairro Novo",
-        "comment": "Outros Serviços de Saúde"
+        "comment": "Outros Serviços de Saúde",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -3815,7 +4420,12 @@
         "amenity": "clinic",
         "healthcare": "clinic",
         "name": "Complexo Hospitalar do Trabalhador",
-        "comment": "Outros Serviços de Saúde"
+        "comment": "Outros Serviços de Saúde",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -3845,7 +4455,12 @@
         "amenity": "clinic",
         "healthcare": "clinic",
         "name": "Hospital da Policia Militar do Paraná Nn",
-        "comment": "Outros Serviços de Saúde"
+        "comment": "Outros Serviços de Saúde",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -3876,7 +4491,12 @@
         "amenity": "clinic",
         "healthcare": "clinic",
         "name": "Hospital do Idoso Zilda Arns",
-        "comment": "Outros Serviços de Saúde"
+        "comment": "Outros Serviços de Saúde",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": "EACP HIZA"
       },
       "geometry": {
         "type": "Point",
@@ -3906,7 +4526,12 @@
         "amenity": "clinic",
         "healthcare": "clinic",
         "name": "Hospital Geral de Curitiba",
-        "comment": "Outros Serviços de Saúde"
+        "comment": "Outros Serviços de Saúde",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -3937,7 +4562,12 @@
         "amenity": "clinic",
         "healthcare": "clinic",
         "name": "Hospital Osvaldo Cruz",
-        "comment": "Outros Serviços de Saúde"
+        "comment": "Outros Serviços de Saúde",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -3968,7 +4598,12 @@
         "amenity": "clinic",
         "healthcare": "clinic",
         "name": "Segundo Centro Int Defesa Aerea e Controle Trafego Aer",
-        "comment": "Outros Serviços de Saúde"
+        "comment": "Outros Serviços de Saúde",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -3996,7 +4631,12 @@
         "amenity": "clinic",
         "healthcare": "clinic",
         "name": "Centro de Controle de Envenenamentos de Curitiba",
-        "comment": "Outros Serviços de Saúde"
+        "comment": "Outros Serviços de Saúde",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -4027,7 +4667,12 @@
         "amenity": "clinic",
         "healthcare": "clinic",
         "name": "Centro de Atencao A Saude Casa 4 Ufpr",
-        "comment": "Centro de Especialidades"
+        "comment": "Centro de Especialidades",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -4055,7 +4700,12 @@
         "amenity": "clinic",
         "healthcare": "clinic",
         "name": "Centro Estadual de Saude do Trabalhador",
-        "comment": "Centro de Especialidades"
+        "comment": "Centro de Especialidades",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -4086,7 +4736,12 @@
         "healthcare": "dentist",
         "name": "Centro de Especialidades Odontológicas (CEO)",
         "short_name": "CEO",
-        "comment": "Odontologia (CEO)"
+        "comment": "Odontologia (CEO)",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -4117,7 +4772,12 @@
         "healthcare": "dentist",
         "name": "Centro de Especialidades Odontológicas (CEO)",
         "short_name": "CEO",
-        "comment": "Odontologia (CEO)"
+        "comment": "Odontologia (CEO)",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -4148,7 +4808,12 @@
         "healthcare": "occupational_health",
         "name": "CEREST Macro Centro Sul",
         "short_name": "CEREST",
-        "comment": "Saúde do Trabalhador (CEREST)"
+        "comment": "Saúde do Trabalhador (CEREST)",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -4179,7 +4844,12 @@
         "healthcare": "occupational_health",
         "name": "CEREST Macro Centro Sul",
         "short_name": "CEREST",
-        "comment": "Saúde do Trabalhador (CEREST)"
+        "comment": "Saúde do Trabalhador (CEREST)",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -4210,7 +4880,12 @@
         "amenity": "clinic",
         "healthcare": "clinic",
         "name": "Craid",
-        "comment": "Centro de Especialidades"
+        "comment": "Centro de Especialidades",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -4242,7 +4917,12 @@
         "healthcare": "dentist",
         "name": "Centro de Especialidades Odontológicas (CEO)",
         "short_name": "CEO",
-        "comment": "Odontologia (CEO)"
+        "comment": "Odontologia (CEO)",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -4276,7 +4956,12 @@
         "opening_hours": "24/7",
         "name": "UPA 24 Horas Maria Itália Freddo",
         "short_name": "UPA 24h",
-        "comment": "UPA 24h"
+        "comment": "UPA 24h",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -4306,7 +4991,12 @@
         "amenity": "clinic",
         "healthcare": "clinic",
         "name": "Ums Coa Centro de Orientacao e Aconselhamento",
-        "comment": "Centro de Especialidades"
+        "comment": "Centro de Especialidades",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -4337,7 +5027,12 @@
         "amenity": "clinic",
         "healthcare": "clinic",
         "name": "Ums de Ortese e Protese",
-        "comment": "Centro de Especialidades"
+        "comment": "Centro de Especialidades",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -4368,7 +5063,12 @@
         "amenity": "clinic",
         "healthcare": "diagnostic_centre",
         "name": "Centro de Saude Publica de Precisao",
-        "comment": "Diagnóstico por Imagem"
+        "comment": "Diagnóstico por Imagem",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -4402,7 +5102,12 @@
         "opening_hours": "24/7",
         "name": "UPA 24 Horas Maria Itália Freddo",
         "short_name": "UPA 24h",
-        "comment": "UPA 24h"
+        "comment": "UPA 24h",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -4433,7 +5138,12 @@
         "amenity": "clinic",
         "healthcare": "diagnostic_centre",
         "name": "Fiocruz Icc Lab Leishmaniose",
-        "comment": "Diagnóstico por Imagem"
+        "comment": "Diagnóstico por Imagem",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -4464,7 +5174,12 @@
         "amenity": "clinic",
         "healthcare": "diagnostic_centre",
         "name": "Instituto Carlos Chagas Fiocruz",
-        "comment": "Diagnóstico por Imagem"
+        "comment": "Diagnóstico por Imagem",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -4494,7 +5209,12 @@
         "amenity": "clinic",
         "healthcare": "diagnostic_centre",
         "name": "Laboratorio de Histocompatibilidade Ligh",
-        "comment": "Diagnóstico por Imagem"
+        "comment": "Diagnóstico por Imagem",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -4525,7 +5245,12 @@
         "amenity": "clinic",
         "healthcare": "diagnostic_centre",
         "name": "Laboratorio Municipal",
-        "comment": "Diagnóstico por Imagem"
+        "comment": "Diagnóstico por Imagem",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -4556,7 +5281,12 @@
         "amenity": "clinic",
         "healthcare": "clinic",
         "name": "Carreta da Saude da Mulher",
-        "comment": "Outros Serviços de Saúde"
+        "comment": "Outros Serviços de Saúde",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -4586,7 +5316,12 @@
         "amenity": "clinic",
         "healthcare": "clinic",
         "name": "Unidade Odontologica Movel Curitiba",
-        "comment": "Outros Serviços de Saúde"
+        "comment": "Outros Serviços de Saúde",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -4618,7 +5353,12 @@
         "opening_hours": "24/7",
         "name": "Base SAMU 192",
         "short_name": "SAMU 192",
-        "comment": "SAMU 192"
+        "comment": "SAMU 192",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -4650,7 +5390,12 @@
         "opening_hours": "24/7",
         "name": "Base SAMU 192",
         "short_name": "SAMU 192",
-        "comment": "SAMU 192"
+        "comment": "SAMU 192",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -4682,7 +5427,12 @@
         "opening_hours": "24/7",
         "name": "Base SAMU 192",
         "short_name": "SAMU 192",
-        "comment": "SAMU 192"
+        "comment": "SAMU 192",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -4713,7 +5463,12 @@
         "opening_hours": "24/7",
         "name": "Base SAMU 192",
         "short_name": "SAMU 192",
-        "comment": "SAMU 192"
+        "comment": "SAMU 192",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -4744,7 +5499,12 @@
         "opening_hours": "24/7",
         "name": "Base SAMU 192",
         "short_name": "SAMU 192",
-        "comment": "SAMU 192"
+        "comment": "SAMU 192",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -4775,7 +5535,12 @@
         "opening_hours": "24/7",
         "name": "Base SAMU 192",
         "short_name": "SAMU 192",
-        "comment": "SAMU 192"
+        "comment": "SAMU 192",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -4806,7 +5571,12 @@
         "opening_hours": "24/7",
         "name": "Base SAMU 192",
         "short_name": "SAMU 192",
-        "comment": "SAMU 192"
+        "comment": "SAMU 192",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -4838,7 +5608,12 @@
         "opening_hours": "24/7",
         "name": "Base SAMU 192",
         "short_name": "SAMU 192",
-        "comment": "SAMU 192"
+        "comment": "SAMU 192",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -4869,7 +5644,12 @@
         "opening_hours": "24/7",
         "name": "Base SAMU 192",
         "short_name": "SAMU 192",
-        "comment": "SAMU 192"
+        "comment": "SAMU 192",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -4900,7 +5680,12 @@
         "opening_hours": "24/7",
         "name": "Base SAMU 192",
         "short_name": "SAMU 192",
-        "comment": "SAMU 192"
+        "comment": "SAMU 192",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -4931,7 +5716,12 @@
         "opening_hours": "24/7",
         "name": "Base SAMU 192",
         "short_name": "SAMU 192",
-        "comment": "SAMU 192"
+        "comment": "SAMU 192",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -4962,7 +5752,12 @@
         "opening_hours": "24/7",
         "name": "Base SAMU 192",
         "short_name": "SAMU 192",
-        "comment": "SAMU 192"
+        "comment": "SAMU 192",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -4993,7 +5788,12 @@
         "opening_hours": "24/7",
         "name": "Base SAMU 192",
         "short_name": "SAMU 192",
-        "comment": "SAMU 192"
+        "comment": "SAMU 192",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -5024,7 +5824,12 @@
         "opening_hours": "24/7",
         "name": "Base SAMU 192",
         "short_name": "SAMU 192",
-        "comment": "SAMU 192"
+        "comment": "SAMU 192",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -5055,7 +5860,12 @@
         "opening_hours": "24/7",
         "name": "Base SAMU 192",
         "short_name": "SAMU 192",
-        "comment": "SAMU 192"
+        "comment": "SAMU 192",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -5088,7 +5898,12 @@
         "opening_hours": "24/7",
         "name": "Base SAMU 192",
         "short_name": "SAMU 192",
-        "comment": "SAMU 192"
+        "comment": "SAMU 192",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -5119,7 +5934,12 @@
         "opening_hours": "24/7",
         "name": "Base SAMU 192",
         "short_name": "SAMU 192",
-        "comment": "SAMU 192"
+        "comment": "SAMU 192",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -5150,7 +5970,12 @@
         "opening_hours": "24/7",
         "name": "Base SAMU 192",
         "short_name": "SAMU 192",
-        "comment": "SAMU 192"
+        "comment": "SAMU 192",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -5181,7 +6006,12 @@
         "opening_hours": "24/7",
         "name": "Base SAMU 192",
         "short_name": "SAMU 192",
-        "comment": "SAMU 192"
+        "comment": "SAMU 192",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -5213,7 +6043,12 @@
         "opening_hours": "24/7",
         "name": "Base SAMU 192",
         "short_name": "SAMU 192",
-        "comment": "SAMU 192"
+        "comment": "SAMU 192",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -5245,7 +6080,12 @@
         "opening_hours": "24/7",
         "name": "Base SAMU 192",
         "short_name": "SAMU 192",
-        "comment": "SAMU 192"
+        "comment": "SAMU 192",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -5276,7 +6116,12 @@
         "opening_hours": "24/7",
         "name": "Base SAMU 192",
         "short_name": "SAMU 192",
-        "comment": "SAMU 192"
+        "comment": "SAMU 192",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -5307,7 +6152,12 @@
         "opening_hours": "24/7",
         "name": "Base SAMU 192",
         "short_name": "SAMU 192",
-        "comment": "SAMU 192"
+        "comment": "SAMU 192",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -5339,7 +6189,12 @@
         "opening_hours": "24/7",
         "name": "Base SAMU 192",
         "short_name": "SAMU 192",
-        "comment": "SAMU 192"
+        "comment": "SAMU 192",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -5370,7 +6225,12 @@
         "opening_hours": "24/7",
         "name": "Base SAMU 192",
         "short_name": "SAMU 192",
-        "comment": "SAMU 192"
+        "comment": "SAMU 192",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -5402,7 +6262,12 @@
         "opening_hours": "24/7",
         "name": "Base SAMU 192",
         "short_name": "SAMU 192",
-        "comment": "SAMU 192"
+        "comment": "SAMU 192",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -5433,7 +6298,12 @@
         "opening_hours": "24/7",
         "name": "Base SAMU 192",
         "short_name": "SAMU 192",
-        "comment": "SAMU 192"
+        "comment": "SAMU 192",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -5465,7 +6335,12 @@
         "opening_hours": "24/7",
         "name": "Base SAMU 192",
         "short_name": "SAMU 192",
-        "comment": "SAMU 192"
+        "comment": "SAMU 192",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -5497,7 +6372,12 @@
         "opening_hours": "24/7",
         "name": "Base SAMU 192",
         "short_name": "SAMU 192",
-        "comment": "SAMU 192"
+        "comment": "SAMU 192",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -5527,7 +6407,12 @@
         "healthcare": "pharmacy",
         "dispensing": "yes",
         "name": "Farmácia Distrital Cic",
-        "comment": "Farmácia Pública"
+        "comment": "Farmácia Pública",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -5558,7 +6443,12 @@
         "healthcare": "pharmacy",
         "dispensing": "yes",
         "name": "Farmácia Escola Ufpr",
-        "comment": "Farmácia Pública"
+        "comment": "Farmácia Pública",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -5590,7 +6480,12 @@
         "government": "healthcare",
         "name": "Vigilância Sanitária Municipal",
         "short_name": "VISA",
-        "comment": "Vigilância Sanitária"
+        "comment": "Vigilância Sanitária",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -5622,7 +6517,12 @@
         "government": "healthcare",
         "name": "Vigilância Sanitária Municipal",
         "short_name": "VISA",
-        "comment": "Vigilância Sanitária"
+        "comment": "Vigilância Sanitária",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -5654,7 +6554,12 @@
         "government": "healthcare",
         "name": "Vigilância Sanitária Municipal",
         "short_name": "VISA",
-        "comment": "Vigilância Sanitária"
+        "comment": "Vigilância Sanitária",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -5685,7 +6590,12 @@
         "government": "healthcare",
         "name": "7ª Regional de Saúde de Pato Branco (SESA-PR)",
         "short_name": "7ª RS SESA",
-        "comment": "Regional de Saúde (Estadual)"
+        "comment": "Regional de Saúde (Estadual)",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -5717,7 +6627,12 @@
         "government": "healthcare",
         "name": "Secretaria Municipal de Saúde de Pato Branco",
         "short_name": "SMS Pato Branco",
-        "comment": "Secretaria Municipal de Saúde"
+        "comment": "Secretaria Municipal de Saúde",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -5749,7 +6664,12 @@
         "government": "healthcare",
         "name": "Secretaria Municipal de Saúde de Pato Branco",
         "short_name": "SMS Pato Branco",
-        "comment": "Secretaria Municipal de Saúde"
+        "comment": "Secretaria Municipal de Saúde",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -5781,7 +6701,12 @@
         "government": "healthcare",
         "name": "Secretaria Municipal de Saúde de Pato Branco",
         "short_name": "SMS Pato Branco",
-        "comment": "Secretaria Municipal de Saúde"
+        "comment": "Secretaria Municipal de Saúde",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -5812,7 +6737,12 @@
         "government": "healthcare",
         "name": "Secretaria Municipal de Saúde de Pato Branco",
         "short_name": "SMS Pato Branco",
-        "comment": "Secretaria Municipal de Saúde"
+        "comment": "Secretaria Municipal de Saúde",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -5843,7 +6773,12 @@
         "government": "healthcare",
         "name": "Secretaria Municipal de Saúde de Pato Branco",
         "short_name": "SMS Pato Branco",
-        "comment": "Secretaria Municipal de Saúde"
+        "comment": "Secretaria Municipal de Saúde",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -5875,7 +6810,12 @@
         "government": "healthcare",
         "name": "Secretaria Municipal de Saúde de Pato Branco",
         "short_name": "SMS Pato Branco",
-        "comment": "Secretaria Municipal de Saúde"
+        "comment": "Secretaria Municipal de Saúde",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -5906,7 +6846,12 @@
         "government": "healthcare",
         "name": "Secretaria Municipal de Saúde de Pato Branco",
         "short_name": "SMS Pato Branco",
-        "comment": "Secretaria Municipal de Saúde"
+        "comment": "Secretaria Municipal de Saúde",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -5936,7 +6881,12 @@
         "government": "healthcare",
         "name": "Secretaria Municipal de Saúde de Pato Branco",
         "short_name": "SMS Pato Branco",
-        "comment": "Secretaria Municipal de Saúde"
+        "comment": "Secretaria Municipal de Saúde",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -5968,7 +6918,12 @@
         "government": "healthcare",
         "name": "Secretaria Municipal de Saúde de Pato Branco",
         "short_name": "SMS Pato Branco",
-        "comment": "Secretaria Municipal de Saúde"
+        "comment": "Secretaria Municipal de Saúde",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -5999,7 +6954,12 @@
         "government": "healthcare",
         "name": "Secretaria Municipal de Saúde de Pato Branco",
         "short_name": "SMS Pato Branco",
-        "comment": "Secretaria Municipal de Saúde"
+        "comment": "Secretaria Municipal de Saúde",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -6029,7 +6989,12 @@
         "government": "healthcare",
         "name": "Secretaria Municipal de Saúde de Pato Branco",
         "short_name": "SMS Pato Branco",
-        "comment": "Secretaria Municipal de Saúde"
+        "comment": "Secretaria Municipal de Saúde",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -6060,7 +7025,12 @@
         "government": "healthcare",
         "name": "Secretaria Municipal de Saúde de Pato Branco",
         "short_name": "SMS Pato Branco",
-        "comment": "Secretaria Municipal de Saúde"
+        "comment": "Secretaria Municipal de Saúde",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -6092,7 +7062,12 @@
         "healthcare": "blood_donation",
         "name": "Hemonúcleo de Pato Branco (HEMEPAR)",
         "short_name": "Hemepar Pato Branco",
-        "comment": "Doação de Sangue (HEMEPAR)"
+        "comment": "Doação de Sangue (HEMEPAR)",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -6125,7 +7100,12 @@
         "healthcare:speciality": "psychiatry",
         "name": "Centro de Atenção Psicossocial (CAPS II)",
         "short_name": "CAPS II",
-        "comment": "CAPS II"
+        "comment": "CAPS II",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -6158,7 +7138,12 @@
         "healthcare:speciality": "psychiatry",
         "name": "Centro de Atenção Psicossocial (CAPS II)",
         "short_name": "CAPS II",
-        "comment": "CAPS II"
+        "comment": "CAPS II",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -6191,7 +7176,12 @@
         "healthcare:speciality": "psychiatry",
         "name": "Centro de Atenção Psicossocial (CAPS II)",
         "short_name": "CAPS II",
-        "comment": "CAPS II"
+        "comment": "CAPS II",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -6224,7 +7214,12 @@
         "healthcare:speciality": "psychiatry",
         "name": "Centro de Atenção Psicossocial (CAPS II)",
         "short_name": "CAPS II",
-        "comment": "CAPS II"
+        "comment": "CAPS II",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -6257,7 +7252,12 @@
         "healthcare:speciality": "psychiatry",
         "name": "Centro de Atenção Psicossocial (CAPS II)",
         "short_name": "CAPS II",
-        "comment": "CAPS II"
+        "comment": "CAPS II",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -6290,7 +7290,12 @@
         "healthcare:speciality": "psychiatry",
         "name": "Centro de Atenção Psicossocial (CAPS II)",
         "short_name": "CAPS II",
-        "comment": "CAPS II"
+        "comment": "CAPS II",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -6323,7 +7328,12 @@
         "healthcare:speciality": "psychiatry",
         "name": "Centro de Atenção Psicossocial (CAPS II)",
         "short_name": "CAPS II",
-        "comment": "CAPS II"
+        "comment": "CAPS II",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -6356,7 +7366,12 @@
         "healthcare:speciality": "psychiatry",
         "name": "Centro de Atenção Psicossocial (CAPS II)",
         "short_name": "CAPS II",
-        "comment": "CAPS II"
+        "comment": "CAPS II",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -6389,7 +7404,12 @@
         "healthcare:speciality": "psychiatry",
         "name": "Centro de Atenção Psicossocial (CAPS II)",
         "short_name": "CAPS II",
-        "comment": "CAPS II"
+        "comment": "CAPS II",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -6422,7 +7442,12 @@
         "healthcare:speciality": "psychiatry",
         "name": "Centro de Atenção Psicossocial (CAPS II)",
         "short_name": "CAPS II",
-        "comment": "CAPS II"
+        "comment": "CAPS II",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -6455,7 +7480,12 @@
         "healthcare:speciality": "psychiatry",
         "name": "Centro de Atenção Psicossocial (CAPS II)",
         "short_name": "CAPS II",
-        "comment": "CAPS II"
+        "comment": "CAPS II",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -6488,7 +7518,12 @@
         "healthcare:speciality": "psychiatry",
         "name": "Centro de Atenção Psicossocial (CAPS II)",
         "short_name": "CAPS II",
-        "comment": "CAPS II"
+        "comment": "CAPS II",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -6519,7 +7554,12 @@
         "healthcare:speciality": "psychiatry",
         "name": "Centro de Atenção Psicossocial (CAPS II)",
         "short_name": "CAPS II",
-        "comment": "CAPS II"
+        "comment": "CAPS II",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -6552,7 +7592,12 @@
         "healthcare:speciality": "psychiatry",
         "name": "Centro de Atenção Psicossocial (CAPS II)",
         "short_name": "CAPS II",
-        "comment": "CAPS II"
+        "comment": "CAPS II",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -6583,7 +7628,12 @@
         "amenity": "clinic",
         "healthcare": "clinic",
         "name": "Casa de Saude Indigena Curitiba Casai",
-        "comment": "Outros Serviços de Saúde"
+        "comment": "Outros Serviços de Saúde",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -6614,7 +7664,12 @@
         "amenity": "clinic",
         "healthcare": "clinic",
         "name": "Distrito Sanitario Especial Indigena Litoral Sul Dsei Lsul",
-        "comment": "Outros Serviços de Saúde"
+        "comment": "Outros Serviços de Saúde",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -6648,7 +7703,12 @@
         "opening_hours": "24/7",
         "name": "UPA 24 Horas Maria Itália Freddo",
         "short_name": "UPA 24h",
-        "comment": "UPA 24h"
+        "comment": "UPA 24h",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 4,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": "EMAD 2 DS BOA VISTA; EMAP 03 DS BOA VISTA; EACP BOA VISTA; EMAD 11 UPA BOA VISTA"
       },
       "geometry": {
         "type": "Point",
@@ -6681,7 +7741,12 @@
         "opening_hours": "24/7",
         "name": "UPA 24 Horas Maria Itália Freddo",
         "short_name": "UPA 24h",
-        "comment": "UPA 24h"
+        "comment": "UPA 24h",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 4,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": "EACP BOQUEIRAO; EMAD 09 DS BOQUEIRAO; EMAP 4 UPA BOQUEIRAO; EMAD 13 UPA BOQUEIRAO"
       },
       "geometry": {
         "type": "Point",
@@ -6713,7 +7778,12 @@
         "opening_hours": "24/7",
         "name": "UPA 24 Horas Maria Itália Freddo",
         "short_name": "UPA 24h",
-        "comment": "UPA 24h"
+        "comment": "UPA 24h",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 3,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": "EMAD 12 UPA CAJURU; EMAP 1 DS CAJURU; EMAD 3 DS CAJURU"
       },
       "geometry": {
         "type": "Point",
@@ -6746,7 +7816,12 @@
         "opening_hours": "24/7",
         "name": "UPA 24 Horas Maria Itália Freddo",
         "short_name": "UPA 24h",
-        "comment": "UPA 24h"
+        "comment": "UPA 24h",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": "EMAD 8 DS SANTA FELICIDADE"
       },
       "geometry": {
         "type": "Point",
@@ -6779,7 +7854,12 @@
         "opening_hours": "24/7",
         "name": "UPA 24 Horas Maria Itália Freddo",
         "short_name": "UPA 24h",
-        "comment": "UPA 24h"
+        "comment": "UPA 24h",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 3,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": "EMAD 04 DS CIC; EACP CIC; EMAD 15 UPA CIDADE INDUSTRIAL"
       },
       "geometry": {
         "type": "Point",
@@ -6812,7 +7892,12 @@
         "opening_hours": "24/7",
         "name": "UPA 24 Horas Maria Itália Freddo",
         "short_name": "UPA 24h",
-        "comment": "UPA 24h"
+        "comment": "UPA 24h",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 6,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": "EMAD 14 UPA FAZENDINHA; EMAD 16 UPA FAZENDINHA; EACP PORTAO; EMAD 7 DS PORTAO; EMAP 02 DS PORTAO; EMAD 05 UPA FAZENDINHA"
       },
       "geometry": {
         "type": "Point",
@@ -6845,7 +7930,12 @@
         "opening_hours": "24/7",
         "name": "UPA 24 Horas Maria Itália Freddo",
         "short_name": "UPA 24h",
-        "comment": "UPA 24h"
+        "comment": "UPA 24h",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 2,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": "EMAD 18 UPA PINHEIRINHO; EMAD 6 DS PINHEIRINHO"
       },
       "geometry": {
         "type": "Point",
@@ -6879,7 +7969,12 @@
         "opening_hours": "24/7",
         "name": "UPA 24 Horas Maria Itália Freddo",
         "short_name": "UPA 24h",
-        "comment": "UPA 24h"
+        "comment": "UPA 24h",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 3,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": "EACP BAIRRO NOVO; EMAD 17 UPA SITIO CERCADO; EMAD 1 DS BAIRRO NOVO"
       },
       "geometry": {
         "type": "Point",
@@ -6913,7 +8008,12 @@
         "opening_hours": "24/7",
         "name": "UPA 24 Horas Maria Itália Freddo",
         "short_name": "UPA 24h",
-        "comment": "UPA 24h"
+        "comment": "UPA 24h",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": "EMAD 10 TATUQUARA"
       },
       "geometry": {
         "type": "Point",
@@ -6943,7 +8043,12 @@
         "amenity": "clinic",
         "healthcare": "clinic",
         "name": "Central de Teleatendimento Saude Ja Curitiba",
-        "comment": "Outros Serviços de Saúde"
+        "comment": "Outros Serviços de Saúde",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -6972,7 +8077,12 @@
         "amenity": "clinic",
         "healthcare": "clinic",
         "name": "Nucleo de Teleconsultoria e Telerregulacao Curitiba",
-        "comment": "Outros Serviços de Saúde"
+        "comment": "Outros Serviços de Saúde",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -7003,7 +8113,12 @@
         "amenity": "clinic",
         "healthcare": "clinic",
         "name": "Nutes Ufpr",
-        "comment": "Outros Serviços de Saúde"
+        "comment": "Outros Serviços de Saúde",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -7032,7 +8147,12 @@
         "amenity": "clinic",
         "healthcare": "clinic",
         "name": "Telessaude Distrito Sanitario Boa Vista",
-        "comment": "Outros Serviços de Saúde"
+        "comment": "Outros Serviços de Saúde",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -7061,7 +8181,12 @@
         "amenity": "clinic",
         "healthcare": "clinic",
         "name": "Telessaude Distrito Sanitario Cajuru",
-        "comment": "Outros Serviços de Saúde"
+        "comment": "Outros Serviços de Saúde",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -7090,7 +8215,12 @@
         "amenity": "clinic",
         "healthcare": "clinic",
         "name": "Telessaude Distrito Sanitario Matriz",
-        "comment": "Outros Serviços de Saúde"
+        "comment": "Outros Serviços de Saúde",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -7119,7 +8249,12 @@
         "amenity": "clinic",
         "healthcare": "clinic",
         "name": "Telessaude Distrito Sanitario Pinheirinho",
-        "comment": "Outros Serviços de Saúde"
+        "comment": "Outros Serviços de Saúde",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -7149,7 +8284,12 @@
         "amenity": "clinic",
         "healthcare": "clinic",
         "name": "Telessaude Paraná",
-        "comment": "Outros Serviços de Saúde"
+        "comment": "Outros Serviços de Saúde",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -7181,7 +8321,12 @@
         "opening_hours": "24/7",
         "name": "Central de Regulação Médica das Urgências (SAMU 192)",
         "short_name": "Regulação SAMU 192",
-        "comment": "SAMU 192"
+        "comment": "SAMU 192",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -7211,7 +8356,12 @@
         "office": "government",
         "government": "healthcare",
         "name": "Sistema Municipal de Auditoria e Regulação em Saúde",
-        "comment": "Auditoria e Regulação"
+        "comment": "Auditoria e Regulação",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -7241,7 +8391,12 @@
         "office": "government",
         "government": "healthcare",
         "name": "Sistema Municipal de Auditoria e Regulação em Saúde",
-        "comment": "Auditoria e Regulação"
+        "comment": "Auditoria e Regulação",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -7269,7 +8424,12 @@
         "amenity": "clinic",
         "healthcare": "clinic",
         "name": "Central Estadual de Transplantes do Paraná",
-        "comment": "Outros Serviços de Saúde"
+        "comment": "Outros Serviços de Saúde",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -7298,7 +8458,12 @@
         "amenity": "clinic",
         "healthcare": "clinic",
         "name": "Opo Curitiba Organizacao de Procura de Orgaos e Tecidos",
-        "comment": "Outros Serviços de Saúde"
+        "comment": "Outros Serviços de Saúde",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -7328,7 +8493,12 @@
         "office": "government",
         "government": "healthcare",
         "name": "Centro de Medicamentos do Paraná Cemepar",
-        "comment": "Suprimentos / Logística"
+        "comment": "Suprimentos / Logística",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -7358,7 +8528,12 @@
         "office": "government",
         "government": "healthcare",
         "name": "Divisao de Imunobiologicos",
-        "comment": "Suprimentos / Logística"
+        "comment": "Suprimentos / Logística",
+        "qtd_equipes_esf": 0,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 0,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",
@@ -7389,7 +8564,12 @@
         "healthcare": "vaccination",
         "name": "Sala Central de Vacinas de Pato Branco",
         "short_name": "Sala de Vacinas",
-        "comment": "Sala de Vacinas"
+        "comment": "Sala de Vacinas",
+        "qtd_equipes_esf": 1,
+        "qtd_equipes_eap": 0,
+        "qtd_equipes_total": 1,
+        "capacidade_pnab": 3500,
+        "nomes_equipes": ""
       },
       "geometry": {
         "type": "Point",

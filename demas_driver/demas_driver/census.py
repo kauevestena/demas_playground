@@ -143,6 +143,13 @@ def analyze_coverage(
     if facilities is None:
         facilities = retrieve_facilities(code6, output_format="geojson", public_only=True)
 
+    uf = get_uf_code(code6)
+    try:
+        from .teams import enrich_facilities_with_teams
+        facilities = enrich_facilities_with_teams(facilities, uf, code6)
+    except Exception:
+        pass
+
     if census_tracts is None:
         census_tracts = get_census_tracts(code6, as_gdf=True)
 

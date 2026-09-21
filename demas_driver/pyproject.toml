@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "demas-driver"
-version = "0.2.0"
+version = "0.3.0"
 description = "Python driver to query DEMAS/CNES Open Data API, Censo 2022 census tracts, and perform spatial demographic analysis (Voronoi, Hexbins, Areal Weighting)"
 readme = "README.md"
 authors = [
@@ -21,7 +21,9 @@ geo = [
     "pyogrio>=0.7.0",
     "shapely>=2.0.0",
     "scipy>=1.10.0",
-    "pandas>=2.0.0"
+    "pandas>=2.0.0",
+    "datasus-dbc>=0.1.3",
+    "dbfread>=2.0.7"
 ]
 
 [project.urls]
