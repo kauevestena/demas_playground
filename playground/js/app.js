@@ -255,8 +255,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const btnDownloadCensusTracts = document.getElementById('btn-download-census-tracts');
   const censusBtnLabel = document.getElementById('census-btn-label');
   const censusStatusBadge = document.getElementById('census-status-badge');
+  const censusEngineBadge = document.getElementById('census-engine-badge');
   const censusOptionsRow = document.getElementById('census-options-row');
   const toggleShowCensusTracts = document.getElementById('toggle-show-census-tracts');
+  const themeRendaCheckbox = document.getElementById('theme-renda');
+  const themeSaneamentoCheckbox = document.getElementById('theme-saneamento');
 
   // Point Clustering DOM Elements
   const clusterControlBox = document.getElementById('cluster-control-box');
@@ -275,9 +278,9 @@ document.addEventListener('DOMContentLoaded', () => {
   let analysisMode = 'none'; // 'none' | 'voronoi' | 'hexbin'
   let hexRadiusKm = 1.0;     // 0.5 | 1.0 | 5.0 | 10.0
   let hexMethod = 'continuous'; // 'continuous' | 'quartiles' | 'equal_5' | 'equal_10' | 'std_dev' | 'jenks'
-  let voronoiMetric = 'category'; // 'category' | 'population' | 'income' | 'sobrecarga'
+  let voronoiMetric = 'category'; // 'category' | 'population' | 'income' | 'sobrecarga' | 'saneamento_agua' | 'saneamento_esgoto'
   let voronoiMethod = 'jenks';    // 'continuous' | 'quartiles' | 'equal_5' | 'equal_10' | 'std_dev' | 'jenks'
-  let hexMetric = 'count';        // 'count' | 'population' | 'income' | 'hab_per_unit'
+  let hexMetric = 'count';        // 'count' | 'population' | 'income' | 'hab_per_unit' | 'saneamento_agua' | 'saneamento_esgoto'
   let clusterPointsEnabled = false;
   let clusterDistanceMeters = 20;
   let currentCensusTractsGeojson = null;
@@ -293,7 +296,14 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   function isFloatVoronoiMetric(metric) {
-    return ['population', 'income'].includes(metric);
+    return ['population', 'income', 'saneamento_agua', 'saneamento_esgoto'].includes(metric);
+  }
+
+  function getSelectedCensusThemes() {
+    const themes = ['basico'];
+    if (themeRendaCheckbox && themeRendaCheckbox.checked) themes.push('renda');
+    if (themeSaneamentoCheckbox && themeSaneamentoCheckbox.checked) themes.push('saneamento');
+    return themes;
   }
 
   function updateVoronoiControlsVisibility() {
@@ -1153,6 +1163,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       } else {
         currentCensusTractsGeojson = null;
+        if (censusEngineBadge) censusEngineBadge.style.display = 'none';
         const hasPrecached = !!(cachedManifest[String(code6)] && cachedManifest[String(code6)].census_tracts);
         if (censusStatusBadge) {
           if (hasPrecached) {
@@ -1383,6 +1394,14 @@ document.addEventListener('DOMContentLoaded', () => {
           analysisLegendTitle.textContent = 'Renda Média Per Capita (Voronoi)';
           analysisLegendSubtitle.textContent = `Censo IBGE 2022 • ${METHOD_LABELS[voronoiMethod] || voronoiMethod}${clusterSuffix}`;
           renderClassificationLegend(voronoiResult.classification, cellCount);
+        } else if (voronoiMetric === 'saneamento_agua') {
+          analysisLegendTitle.textContent = '% Água Encanada (Voronoi)';
+          analysisLegendSubtitle.textContent = `Abastecimento de Água • Censo IBGE 2022 • ${METHOD_LABELS[voronoiMethod] || voronoiMethod}${clusterSuffix}`;
+          renderClassificationLegend(voronoiResult.classification, cellCount);
+        } else if (voronoiMetric === 'saneamento_esgoto') {
+          analysisLegendTitle.textContent = '% Esgoto Coletado (Voronoi)';
+          analysisLegendSubtitle.textContent = `Esgotamento Sanitário • Censo IBGE 2022 • ${METHOD_LABELS[voronoiMethod] || voronoiMethod}${clusterSuffix}`;
+          renderClassificationLegend(voronoiResult.classification, cellCount);
         } else if (voronoiMetric === 'sobrecarga') {
           analysisLegendTitle.textContent = 'Índice de Sobrecarga PNAB';
           analysisLegendSubtitle.textContent = `Referência: 2.000 a 3.500 hab/equipe (${cellCount} células)${clusterSuffix}`;
@@ -1432,7 +1451,9 @@ document.addEventListener('DOMContentLoaded', () => {
           'count': clusterPointsEnabled ? 'Densidade de Polos de Saúde' : 'Densidade de Estabelecimentos',
           'population': 'População Estimada (Censo 2022)',
           'income': 'Renda Média Per Capita',
-          'hab_per_unit': clusterPointsEnabled ? 'Razão Habitantes / Polo' : 'Razão Habitantes / Unidade'
+          'hab_per_unit': clusterPointsEnabled ? 'Razão Habitantes / Polo' : 'Razão Habitantes / Unidade',
+          'saneamento_agua': '% Domicílios com Água Encanada',
+          'saneamento_esgoto': '% Domicílios com Esgoto Coletado'
         };
 
         const clusterSuffix = clusterPointsEnabled ? ` • Aglutinação: ≤ ${clusterDistanceMeters}m` : '';
@@ -1548,10 +1569,14 @@ document.addEventListener('DOMContentLoaded', () => {
     btnDownloadCensusTracts.addEventListener('click', async () => {
       btnDownloadCensusTracts.disabled = true;
       const originalText = censusBtnLabel ? censusBtnLabel.textContent : 'Baixar Setores Censitários';
-      if (censusBtnLabel) censusBtnLabel.textContent = 'Baixando setores...';
+      if (censusBtnLabel) censusBtnLabel.textContent = 'Processando (DuckDB-Wasm)...';
 
       try {
-        const tracts = await driver.fetchCensusTracts(currentCityInfo.code6, currentCityInfo.id7, 'data/');
+        const themes = getSelectedCensusThemes();
+        const tracts = await driver.fetchCensusTracts(currentCityInfo.code6, currentCityInfo.id7, 'data/', {
+          uf: currentCityInfo.uf,
+          themes: themes
+        });
         if (tracts && tracts.features && tracts.features.length > 0) {
           currentCensusTractsGeojson = tracts;
           const totalPop = tracts.features.reduce((acc, f) => acc + (f.properties.populacao || f.properties.populacao_total || 0), 0);
@@ -1559,10 +1584,19 @@ document.addEventListener('DOMContentLoaded', () => {
             censusStatusBadge.className = 'census-badge loaded';
             censusStatusBadge.textContent = `${tracts.features.length} setores (${totalPop.toLocaleString('pt-BR')} hab)`;
           }
+          if (censusEngineBadge) {
+            if (tracts.metadata && tracts.metadata.engine) {
+              censusEngineBadge.style.display = 'inline-block';
+              censusEngineBadge.textContent = `⚡ DuckDB-Wasm (${tracts.metadata.query_time_ms}ms)`;
+              censusEngineBadge.title = `Processado via DuckDB-Wasm in-browser com GeoParquet & Parquet desacoplado.\nTemas: ${themes.join(', ')}`;
+            } else {
+              censusEngineBadge.style.display = 'none';
+            }
+          }
           if (censusOptionsRow) censusOptionsRow.style.display = 'flex';
           if (hexMetricRow) hexMetricRow.style.display = 'flex';
           updateVoronoiControlsVisibility();
-          if (censusBtnLabel) censusBtnLabel.textContent = 'Atualizar Setores Censitários';
+          if (censusBtnLabel) censusBtnLabel.textContent = 'Atualizar Setores (DuckDB)';
 
           if (map && map.getSource('census-tracts')) {
             map.getSource('census-tracts').setData(tracts);
@@ -1571,7 +1605,7 @@ document.addEventListener('DOMContentLoaded', () => {
           // If spatial analysis is active, recompute with enriched demographic data
           updateSpatialAnalysis(lastFilteredFeatures);
         } else {
-          alert(`Os setores censitários do Censo 2022 ainda não foram pré-carregados para ${currentCityInfo.name} (${currentCityInfo.uf}).\n\nMunicípios com malha censitária pré-carregada:\n• Curitiba (PR)\n• Florianópolis (SC)\n• São Paulo (SP)\n• Pato Branco (PR)\n\nPara municípios adicionais, utilize o script de extração do IBGE ou configure o proxy de dados.`);
+          alert(`Os setores censitários do Censo 2022 ainda não estão disponíveis para ${currentCityInfo.name} (${currentCityInfo.uf}).`);
           if (censusBtnLabel) censusBtnLabel.textContent = originalText;
         }
       } catch (err) {
@@ -1583,6 +1617,17 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   }
+
+  // Auto-reload on Census Theme toggles if tracts are already loaded
+  [themeRendaCheckbox, themeSaneamentoCheckbox].forEach(cb => {
+    if (cb) {
+      cb.addEventListener('change', () => {
+        if (currentCensusTractsGeojson && btnDownloadCensusTracts) {
+          btnDownloadCensusTracts.click();
+        }
+      });
+    }
+  });
 
   // Toggle census tracts layer visibility
   if (toggleShowCensusTracts) {

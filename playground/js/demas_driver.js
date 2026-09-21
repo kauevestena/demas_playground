@@ -215,28 +215,55 @@
      * @param {number|string} code6 - 6-digit IBGE code
      * @param {number|string} [id7] - 7-digit IBGE code
      * @param {string} [basePath='data/']
+     * @param {Object} [options={}]
+     * @param {string} [options.uf] - 2-letter state abbreviation
+     * @param {Array<string>} [options.themes] - Census themes, e.g. ['basico', 'renda', 'saneamento']
+     * @param {boolean} [options.useDuckDB=true] - Try DuckDB-Wasm first
      * @returns {Promise<Object|null>} GeoJSON FeatureCollection of census tracts
      */
-    async fetchCensusTracts(code6, id7 = null, basePath = 'data/') {
+    async fetchCensusTracts(code6, id7 = null, basePath = 'data/', options = {}) {
       const key = String(code6);
+      const themes = options.themes || ['basico', 'renda', 'saneamento'];
+      const cacheKey = `${key}_${themes.slice().sort().join('_')}`;
+      if (this._censusTractsCache.has(cacheKey)) {
+        return this._censusTractsCache.get(cacheKey);
+      }
       if (this._censusTractsCache.has(key)) {
         return this._censusTractsCache.get(key);
       }
 
-      // 1. Try local pre-cached census tracts file
+      // 1. Try DuckDB-Wasm decoupled query if available and enabled
+      if (window.censusDuckDB && options.useDuckDB !== false) {
+        try {
+          const uf = options.uf || (this._manifestCache && this._manifestCache[key] && this._manifestCache[key].uf);
+          const targetId7 = id7 || (this._manifestCache && this._manifestCache[key] && this._manifestCache[key].id7) || this.calculateIbgeId7(code6);
+          if (uf) {
+            const duckData = await window.censusDuckDB.queryCensusTracts(code6, uf, targetId7, themes);
+            if (duckData && duckData.features && duckData.features.length > 0) {
+              console.log(`[DEMASDriver] Loaded ${duckData.features.length} census tracts via DuckDB-Wasm for ${key}`);
+              this._censusTractsCache.set(cacheKey, duckData);
+              return duckData;
+            }
+          }
+        } catch (duckErr) {
+          console.warn('[DEMASDriver] DuckDB query failed, falling back to GeoJSON:', duckErr);
+        }
+      }
+
+      // 2. Fallback to local pre-cached census tracts GeoJSON file
       try {
         const localPath = `${basePath}census_tracts/${key}.geojson`;
         const res = await fetch(localPath);
         if (res.ok) {
           const data = await res.json();
           if (data && data.features && data.features.length > 0) {
-            this._censusTractsCache.set(key, data);
+            this._censusTractsCache.set(cacheKey, data);
             return data;
           }
         }
       } catch (_) {}
 
-      // 2. Try proxy / remote if configured
+      // 3. Fallback to proxy / remote if configured
       if (this.proxyUrl) {
         const targetId7 = id7 || (this._manifestCache && this._manifestCache[key] && this._manifestCache[key].id7) || this.calculateIbgeId7(code6);
         try {
@@ -245,7 +272,7 @@
           if (res.ok) {
             const data = await res.json();
             if (data && data.features && data.features.length > 0) {
-              this._censusTractsCache.set(key, data);
+              this._censusTractsCache.set(cacheKey, data);
               return data;
             }
           }

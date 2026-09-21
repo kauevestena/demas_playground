@@ -1261,6 +1261,8 @@
               <option value="population">População Estimada (Censo 2022)</option>
               <option value="income">Renda Média Per Capita (R$)</option>
               <option value="hab_per_unit">Habitantes / Unidade</option>
+              <option value="saneamento_agua">% Água Encanada (Censo)</option>
+              <option value="saneamento_esgoto">% Esgoto Coletado (Censo)</option>
             </select>
           </div>
 
@@ -1286,6 +1288,8 @@
               <option value="population">População Adscrita Estimada</option>
               <option value="income">Renda Média Per Capita (R$)</option>
               <option value="sobrecarga">Índice de Sobrecarga PNAB</option>
+              <option value="saneamento_agua">% Água Encanada (Censo)</option>
+              <option value="saneamento_esgoto">% Esgoto Coletado (Censo)</option>
             </select>
           </div>
           <div class="analysis-control-row" id="voronoi-method-row" style="display: none;">
@@ -1330,8 +1334,33 @@
         <div class="census-tracts-control">
           <div class="census-control-header">
             <span class="analysis-label">Setores Censitários (Censo 2022)</span>
-            <span class="census-badge" id="census-status-badge">Não carregados</span>
+            <div style="display: flex; gap: 4px; align-items: center;">
+              <span class="census-badge" id="census-engine-badge" style="display: none; background: #faf5ff; color: #7c3aed; border: 1px solid #ddd6fe; font-size: 10px;">⚡ DuckDB-Wasm</span>
+              <span class="census-badge" id="census-status-badge">Não carregados</span>
+            </div>
           </div>
+
+          <!-- Thematic Layers Selector (DuckDB-Wasm Decoupled Parquet) -->
+          <div class="census-themes-box" id="census-themes-box" style="margin-bottom: 8px; font-size: 11px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; padding: 6px 8px;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
+              <span style="font-weight: 600; color: var(--text-secondary);">Temas Parquet (DuckDB):</span>
+            </div>
+            <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+              <label style="display: inline-flex; align-items: center; gap: 3px; cursor: pointer;">
+                <input type="checkbox" id="theme-basico" checked disabled />
+                <span title="População, Domicílios e Densidade Demográfica">Básico</span>
+              </label>
+              <label style="display: inline-flex; align-items: center; gap: 3px; cursor: pointer;">
+                <input type="checkbox" id="theme-renda" checked />
+                <span title="Rendimento Domiciliar Per Capita">Renda</span>
+              </label>
+              <label style="display: inline-flex; align-items: center; gap: 3px; cursor: pointer;">
+                <input type="checkbox" id="theme-saneamento" checked />
+                <span title="Abastecimento de Água e Esgotamento Sanitário">Saneamento</span>
+              </label>
+            </div>
+          </div>
+
           <button id="btn-download-census-tracts" class="btn-census-download">
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
@@ -1452,6 +1481,9 @@
   <script src="https://unpkg.com/@turf/turf@6.5.0/turf.min.js"></script>
   <script src="https://unpkg.com/simple-statistics@7.8.3/dist/simple-statistics.min.js"></script>
   <script src="js/geospatial_analysis.js"></script>
+
+  <!-- DuckDB-Wasm Decoupled Parquet Census Engine -->
+  <script src="js/census_duckdb.js"></script>
 
   <!-- DEMAS Driver and App Script -->
   <script src="js/demas_driver.js"></script>

@@ -242,13 +242,17 @@
       const pop = Number(p.populacao_total ?? p.populacao ?? p.v0001 ?? 0);
       const income = Number(p.renda_per_capita ?? 0);
       const dom = Number(p.domicilios ?? p.v0007 ?? 0);
+      const agua = p.pct_agua_encanada !== undefined ? Number(p.pct_agua_encanada) : null;
+      const esgoto = p.pct_esgoto_coletado !== undefined ? Number(p.pct_esgoto_coletado) : null;
       return {
         feature: t,
         bbox: b,
         area: a,
         pop,
         income,
-        dom
+        dom,
+        agua,
+        esgoto
       };
     });
 
@@ -273,6 +277,10 @@
       let totalAllocatedPop = 0;
       let totalAllocatedDom = 0;
       let weightedIncomeSum = 0;
+      let weightedAguaSum = 0;
+      let weightedEsgotoSum = 0;
+      let hasAguaCount = 0;
+      let hasEsgotoCount = 0;
       let intersectingTractsCount = 0;
 
       for (let i = 0; i < candidateTracts.length; i++) {
@@ -293,6 +301,14 @@
               if (pt.income > 0) {
                 weightedIncomeSum += pt.income * partPop;
               }
+              if (pt.agua !== null) {
+                weightedAguaSum += pt.agua * partPop;
+                hasAguaCount++;
+              }
+              if (pt.esgoto !== null) {
+                weightedEsgotoSum += pt.esgoto * partPop;
+                hasEsgotoCount++;
+              }
               intersectingTractsCount++;
             }
           }
@@ -306,6 +322,14 @@
       const finalIncome = totalAllocatedPop > 0 && weightedIncomeSum > 0
         ? Math.round(weightedIncomeSum / totalAllocatedPop)
         : 0;
+
+      const finalAgua = totalAllocatedPop > 0 && hasAguaCount > 0
+        ? Number((weightedAguaSum / totalAllocatedPop).toFixed(1))
+        : null;
+
+      const finalEsgoto = totalAllocatedPop > 0 && hasEsgotoCount > 0
+        ? Number((weightedEsgotoSum / totalAllocatedPop).toFixed(1))
+        : null;
 
       // PNAB Overload Ratio: 3,500 hab is the standard reference per equipe Saúde da Família (PNAB)
       const sobrecargaPnab = Number((finalPop / 3500).toFixed(2));
@@ -327,6 +351,8 @@
         renda_per_capita: finalIncome,
         renda_per_capita_estimada: finalIncome,
         domicilios_estimados: finalDom,
+        pct_agua_encanada: finalAgua,
+        pct_esgoto_coletado: finalEsgoto,
         sobrecarga_pnab: sobrecargaPnab,
         pnab_class: pnabClassification,
         pnab_color: pnabClassColor,
@@ -550,6 +576,28 @@
         f.properties.classLabel = classification.getClassLabel(inc);
         f.properties.metricValue = inc;
         f.properties.metricLabel = classification.getClassLabel(inc);
+      });
+    } else if (metric === 'saneamento_agua') {
+      const aguas = resultFC.features.map(f => f.properties.pct_agua_encanada !== null && f.properties.pct_agua_encanada !== undefined ? f.properties.pct_agua_encanada : 0);
+      classification = classify1D(aguas, classificationMethod || 'jenks', '%');
+      resultFC.features.forEach(f => {
+        const v = f.properties.pct_agua_encanada !== null && f.properties.pct_agua_encanada !== undefined ? f.properties.pct_agua_encanada : 0;
+        f.properties.color = classification.getColor(v);
+        f.properties.classIndex = classification.getClassIndex(v);
+        f.properties.classLabel = classification.getClassLabel(v);
+        f.properties.metricValue = v;
+        f.properties.metricLabel = `${v}%`;
+      });
+    } else if (metric === 'saneamento_esgoto') {
+      const esgotos = resultFC.features.map(f => f.properties.pct_esgoto_coletado !== null && f.properties.pct_esgoto_coletado !== undefined ? f.properties.pct_esgoto_coletado : 0);
+      classification = classify1D(esgotos, classificationMethod || 'jenks', '%');
+      resultFC.features.forEach(f => {
+        const v = f.properties.pct_esgoto_coletado !== null && f.properties.pct_esgoto_coletado !== undefined ? f.properties.pct_esgoto_coletado : 0;
+        f.properties.color = classification.getColor(v);
+        f.properties.classIndex = classification.getClassIndex(v);
+        f.properties.classLabel = classification.getClassLabel(v);
+        f.properties.metricValue = v;
+        f.properties.metricLabel = `${v}%`;
       });
     } else if (metric === 'sobrecarga') {
       const adequateCount = resultFC.features.filter(f => f.properties.pnab_color === '#10b981').length;
@@ -951,6 +999,12 @@
       } else if (metric === 'hab_per_unit') {
         values = occupiedHexagons.map(h => h.properties.hab_per_unit || 0);
         unit = 'hab/unid';
+      } else if (metric === 'saneamento_agua') {
+        values = occupiedHexagons.map(h => h.properties.pct_agua_encanada !== null && h.properties.pct_agua_encanada !== undefined ? h.properties.pct_agua_encanada : 0);
+        unit = '%';
+      } else if (metric === 'saneamento_esgoto') {
+        values = occupiedHexagons.map(h => h.properties.pct_esgoto_coletado !== null && h.properties.pct_esgoto_coletado !== undefined ? h.properties.pct_esgoto_coletado : 0);
+        unit = '%';
       } else {
         values = occupiedHexagons.map(h => h.properties.count);
         unit = 'unid.';
@@ -973,6 +1027,12 @@
         } else if (metric === 'hab_per_unit') {
           val = hex.properties.hab_per_unit || 0;
           countLabel = val >= 1000 ? `${(val / 1000).toFixed(1)}k` : String(val);
+        } else if (metric === 'saneamento_agua') {
+          val = hex.properties.pct_agua_encanada !== null && hex.properties.pct_agua_encanada !== undefined ? hex.properties.pct_agua_encanada : 0;
+          countLabel = `${val}%`;
+        } else if (metric === 'saneamento_esgoto') {
+          val = hex.properties.pct_esgoto_coletado !== null && hex.properties.pct_esgoto_coletado !== undefined ? hex.properties.pct_esgoto_coletado : 0;
+          countLabel = `${val}%`;
         }
 
         hex.properties.fillColor = classification.getColor(val);
