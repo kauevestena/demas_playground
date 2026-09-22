@@ -419,7 +419,8 @@
         pnab_color: pnabClassColor,
         intersecting_tracts_count: intersectingTractsCount,
         situacao_filtro: situacao,
-        area_km2: Number((cellArea / 1e6).toFixed(2))
+        area_km2: Number((cellArea / 1e6).toFixed(2)),
+        densidade_demografica: cellArea > 0 ? Number((finalPop / (cellArea / 1e6)).toFixed(1)) : 0
       };
 
       if (cell.properties.facilitiesCount !== undefined) {
@@ -464,10 +465,96 @@
     return `${minStr} - ${maxStr}${unit ? ' ' + unit : ''}`;
   }
 
+  const _maskCache = new Map();
+
+  /**
+   * Clears the cached territorial masks.
+   */
+  function clearMaskCache() {
+    _maskCache.clear();
+  }
+
+  /**
+   * Hierarchical union of polygon features to prevent call stack limits and maximize speed.
+   * Handles non-contiguous MultiPolygons (e.g. multiple distinct urban clusters).
+   */
+  function hierarchicalUnion(features) {
+    if (!features || features.length === 0) return null;
+    if (features.length === 1) return features[0];
+    let current = [...features];
+    while (current.length > 1) {
+      const next = [];
+      for (let i = 0; i < current.length; i += 2) {
+        if (i + 1 < current.length) {
+          try {
+            const u = window.turf.union(current[i], current[i + 1]);
+            next.push(u || current[i]);
+          } catch (_) {
+            next.push(current[i]);
+          }
+        } else {
+          next.push(current[i]);
+        }
+      }
+      current = next;
+    }
+    return current[0];
+  }
+
+  /**
+   * Extracts territorial clipping mask (e.g. urban or rural non-contiguous MultiPolygon, or municipal boundary).
+   */
+  function getTerritorialMask(boundaryGeojson, censusTractsFC, situacao = 'ambos') {
+    const bFeat = (boundaryGeojson && boundaryGeojson.features && boundaryGeojson.features.length > 0)
+      ? boundaryGeojson.features[0]
+      : (boundaryGeojson && boundaryGeojson.geometry ? boundaryGeojson : null);
+
+    const sitClean = (situacao || 'ambos').toLowerCase();
+    if (sitClean === 'ambos' || sitClean === 'todas' || sitClean === 'todos' || !censusTractsFC || !censusTractsFC.features || censusTractsFC.features.length === 0) {
+      return bFeat;
+    }
+
+    const munCode = censusTractsFC.metadata?.ibge_code || 'mun';
+    const cacheKey = `${munCode}_${sitClean}`;
+    if (_maskCache.has(cacheKey)) {
+      return _maskCache.get(cacheKey);
+    }
+
+    const target = sitClean.includes('urban') ? 'urban' : 'rural';
+    const matchingTracts = censusTractsFC.features.filter(f => {
+      const sit = String(f.properties?.situacao || '').toLowerCase();
+      return sit.includes(target);
+    });
+
+    if (matchingTracts.length === 0) {
+      _maskCache.set(cacheKey, bFeat);
+      return bFeat;
+    }
+
+    try {
+      let mask = hierarchicalUnion(matchingTracts);
+      if (bFeat && mask) {
+        try {
+          const inter = window.turf.intersect(mask, bFeat);
+          if (inter && inter.geometry && inter.geometry.coordinates) {
+            mask = inter;
+          }
+        } catch (_) {}
+      }
+      _maskCache.set(cacheKey, mask);
+      return mask;
+    } catch (err) {
+      console.warn('[GeospatialAnalysis] Failed to create territorial mask:', err);
+      _maskCache.set(cacheKey, bFeat);
+      return bFeat;
+    }
+  }
+
   /**
    * Compute Voronoi polygons around point features.
-   * Delimited by padded bounding box and clipped by official municipal boundary when available.
+   * Delimited by padded bounding box and clipped by active territorial mask (or municipal boundary).
    * Enriched with census demographics and colored by selected metric.
+   * Properly handles non-contiguous MultiPolygons (e.g. multiple urban clusters).
    * 
    * @param {Array} features
    * @param {number} [marginKm=4.0]
@@ -495,18 +582,20 @@
       return emptyFC;
     }
 
+    const clipFeat = getTerritorialMask(boundaryGeojson, censusTractsFC, situacao);
     const bFeat = (boundaryGeojson && boundaryGeojson.features && boundaryGeojson.features.length > 0)
       ? boundaryGeojson.features[0]
-      : null;
+      : (boundaryGeojson && boundaryGeojson.geometry ? boundaryGeojson : null);
+    const targetMask = clipFeat || bFeat;
 
     let validPolygons = [];
 
-    // Single facility case: municipality boundary polygon or circular buffer
+    // Single facility case: target mask geometry or circular buffer
     if (features.length === 1) {
       const pt = features[0];
       let polyGeom = null;
-      if (bFeat && bFeat.geometry) {
-        polyGeom = JSON.parse(JSON.stringify(bFeat.geometry));
+      if (targetMask && targetMask.geometry) {
+        polyGeom = JSON.parse(JSON.stringify(targetMask.geometry));
       } else {
         const buffer = window.turf.buffer(pt, marginKm, { units: 'kilometers' });
         if (buffer) polyGeom = buffer.geometry;
@@ -531,7 +620,7 @@
     } else {
       try {
         const fc = window.turf.featureCollection(features);
-        let bbox = bFeat ? window.turf.bbox(bFeat) : window.turf.bbox(fc);
+        let bbox = targetMask ? window.turf.bbox(targetMask) : window.turf.bbox(fc);
 
         // Pad bounding box in degrees (1 deg lat ~ 111km)
         const padDegLat = Math.max(marginKm / 111.0, 0.04);
@@ -566,17 +655,18 @@
           if (genPt) {
             let finalGeom = poly.geometry;
 
-            // Crop by municipality boundary if provided
-            if (bFeat) {
+            // Crop by active territorial mask (or municipal boundary)
+            if (targetMask) {
               try {
-                const clipped = window.turf.intersect(poly, bFeat);
-                if (clipped && clipped.geometry) {
+                const clipped = window.turf.intersect(poly, targetMask);
+                if (clipped && clipped.geometry && clipped.geometry.coordinates) {
                   finalGeom = clipped.geometry;
                 } else {
-                  return;
+                  return; // Cell lies outside active territorial mask
                 }
               } catch (clipErr) {
                 console.warn('Voronoi cell clipping warning:', clipErr);
+                return;
               }
             }
 
@@ -961,13 +1051,15 @@
       };
     }
 
+    const clipFeat = getTerritorialMask(boundaryGeojson, censusTractsFC, situacao);
     const bFeat = (boundaryGeojson && boundaryGeojson.features && boundaryGeojson.features.length > 0)
       ? boundaryGeojson.features[0]
-      : null;
+      : (boundaryGeojson && boundaryGeojson.geometry ? boundaryGeojson : null);
+    const targetMask = clipFeat || bFeat;
 
     try {
       const fc = window.turf.featureCollection(features);
-      const bbox = window.turf.bbox(fc);
+      const bbox = targetMask ? window.turf.bbox(targetMask) : window.turf.bbox(fc);
 
       // Expand bounding box with buffer
       const padKm = radiusKm * 1.5;
@@ -1009,17 +1101,18 @@
         if (insidePoints.length > 0) {
           let finalGeom = hex.geometry;
 
-          // Crop hexagon boundary by municipal perimeter if provided
-          if (bFeat) {
+          // Crop hexagon boundary by active territorial mask (or municipal boundary)
+          if (targetMask) {
             try {
-              const clipped = window.turf.intersect(hex, bFeat);
-              if (clipped && clipped.geometry) {
+              const clipped = window.turf.intersect(hex, targetMask);
+              if (clipped && clipped.geometry && clipped.geometry.coordinates) {
                 finalGeom = clipped.geometry;
               } else {
-                continue;
+                continue; // Hexagon lies outside active territorial mask
               }
             } catch (clipErr) {
               console.warn('Hexagon clipping warning:', clipErr);
+              continue;
             }
           }
 
@@ -1131,6 +1224,8 @@
     computeHexbins,
     classify1D,
     enrichWithCensusTracts,
+    getTerritorialMask,
+    clearMaskCache,
     interpolateColor,
     rgbToHex,
     COLOR_RAMP_4,

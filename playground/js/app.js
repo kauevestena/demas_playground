@@ -836,7 +836,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div>🏥 <strong>Equipes CNES:</strong> ${teamsDesc}${eapText} (Capacidade: ~${nominalCap.toLocaleString('pt-BR')} hab.)</div>
                 <div>💰 <strong>Renda Média:</strong> ${inc > 0 ? 'R$ ' + inc.toLocaleString('pt-BR') : '—'}</div>
                 <div>🩺 <strong>Índice PNAB:</strong> ${pnab} • <span style="color:${pnabColor};font-weight:700;">${pnabClass}</span></div>
-                <div>🏠 <strong>Domicílios:</strong> ~${dom.toLocaleString('pt-BR')} • <strong>Área:</strong> ${area} km²</div>
+                <div>🏠 <strong>Domicílios:</strong> ~${dom.toLocaleString('pt-BR')} • <strong>Área:</strong> ${area} km²${Number(p.densidade_demografica || 0) > 0 ? ` (${Number(p.densidade_demografica).toLocaleString('pt-BR')} hab/km²)` : ''}</div>
               </div>
             </div>
           `;
@@ -927,7 +927,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div>👥 <strong>População na Célula:</strong> ${pop.toLocaleString('pt-BR')} hab.</div>
                 <div>💰 <strong>Renda Média:</strong> ${inc > 0 ? 'R$ ' + inc.toLocaleString('pt-BR') : '—'}</div>
                 <div>⚖️ <strong>Razão:</strong> ${habPerUnit.toLocaleString('pt-BR')} hab / unidade</div>
-                <div>🏠 <strong>Domicílios:</strong> ~${dom.toLocaleString('pt-BR')}</div>
+                <div>🏠 <strong>Domicílios:</strong> ~${dom.toLocaleString('pt-BR')}${p.area_km2 ? ` • <strong>Área:</strong> ${p.area_km2} km²` : ''}${Number(p.densidade_demografica || 0) > 0 ? ` (${Number(p.densidade_demografica).toLocaleString('pt-BR')} hab/km²)` : ''}</div>
               </div>
             </div>
           `;
@@ -1220,6 +1220,9 @@ document.addEventListener('DOMContentLoaded', () => {
       applyCensusMapFilter();
 
       // 4. Check or reset census tracts for this municipality
+      if (window.GeospatialAnalysis && window.GeospatialAnalysis.clearMaskCache) {
+        window.GeospatialAnalysis.clearMaskCache();
+      }
       const cachedTracts = driver._censusTractsCache.get(String(code6));
       if (cachedTracts) {
         currentCensusTractsGeojson = cachedTracts;
@@ -1657,6 +1660,9 @@ document.addEventListener('DOMContentLoaded', () => {
           themes: themes
         });
         if (tracts && tracts.features && tracts.features.length > 0) {
+          if (window.GeospatialAnalysis && window.GeospatialAnalysis.clearMaskCache) {
+            window.GeospatialAnalysis.clearMaskCache();
+          }
           currentCensusTractsGeojson = tracts;
           updateCensusBadgeAndCounts();
           applyCensusMapFilter();

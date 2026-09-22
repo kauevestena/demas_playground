@@ -482,9 +482,101 @@ def enrich_cells_with_census(
     cells_gdf["classificacao_pnab"] = pnab_class
     cells_gdf["cor_pnab"] = pnab_color
 
+    # Compute actual area in km2 and demographic density for clipped cells
+    try:
+        utm_crs = cells_gdf.estimate_utm_crs()
+        c_proj_areas = cells_gdf.to_crs(utm_crs).geometry.area / 1e6
+        cells_gdf["area_km2"] = c_proj_areas.round(3)
+    except Exception:
+        pass
+
+    if "area_km2" in cells_gdf.columns and "populacao_total" in cells_gdf.columns:
+        cells_gdf["densidade_demografica"] = [
+            round(p / a, 1) if a and a > 0 else 0.0
+            for p, a in zip(cells_gdf["populacao_total"], cells_gdf["area_km2"])
+        ]
+
     if isinstance(cells, gpd.GeoDataFrame):
         return cells_gdf
     return json.loads(cells_gdf.to_json())
+
+
+# ==========================================
+# TERRITORIAL CLIPPING MASK (URBAN / RURAL)
+# ==========================================
+
+def extract_spatial_mask(
+    boundary: Optional[Any] = None,
+    census_tracts: Optional[Any] = None,
+    situacao: str = "ambos"
+) -> Optional[Any]:
+    """
+    Extract territorial clipping mask taking into account municipal boundary and
+    census tracts for the selected territorial situation ('ambos', 'urbanos', 'rurais').
+    Properly handles non-contiguous MultiPolygons (e.g. multiple disconnected urban clusters).
+    """
+    boundary_geom = None
+    if boundary is not None:
+        if isinstance(boundary, gpd.GeoDataFrame):
+            boundary_geom = unary_union(boundary.geometry)
+        elif isinstance(boundary, (Polygon, MultiPolygon)):
+            boundary_geom = boundary
+        elif hasattr(boundary, "geom_type"):
+            boundary_geom = boundary
+        elif isinstance(boundary, dict):
+            if boundary.get("type") == "FeatureCollection":
+                b_geoms = [shape(f["geometry"]) for f in boundary.get("features", []) if f.get("geometry")]
+                boundary_geom = unary_union(b_geoms) if b_geoms else None
+            elif "geometry" in boundary:
+                boundary_geom = shape(boundary["geometry"])
+            elif "type" in boundary:
+                boundary_geom = shape(boundary)
+
+    sit_clean = (situacao or "ambos").lower()
+    if sit_clean in ("ambos", "todas", "todos", "all") or census_tracts is None:
+        return boundary_geom
+
+    # Standardize census tracts
+    if isinstance(census_tracts, gpd.GeoDataFrame):
+        t_gdf = census_tracts.copy()
+    elif isinstance(census_tracts, dict) and census_tracts.get("type") == "FeatureCollection":
+        t_gdf = gpd.GeoDataFrame.from_features(census_tracts["features"], crs="EPSG:4326")
+    elif isinstance(census_tracts, list):
+        t_gdf = gpd.GeoDataFrame.from_features(census_tracts, crs="EPSG:4326")
+    else:
+        return boundary_geom
+
+    target_sit = "urbana" if "urban" in sit_clean else "rural"
+    if "situacao" in t_gdf.columns:
+        filtered = t_gdf[t_gdf["situacao"].astype(str).str.lower().str.contains(target_sit)]
+    else:
+        filtered = t_gdf
+
+    if filtered.empty:
+        return boundary_geom
+
+    tract_geoms = [g for g in filtered.geometry if g is not None and not g.is_empty]
+    if not tract_geoms:
+        return boundary_geom
+
+    dissolved = unary_union(tract_geoms)
+
+    # Intersect with municipal boundary if provided
+    if boundary_geom is not None:
+        try:
+            inter = dissolved.intersection(boundary_geom)
+            if not inter.is_empty and inter.area > 0:
+                dissolved = inter
+        except Exception:
+            pass
+
+    # Extract 2D polygonal components from GeometryCollection if necessary
+    if dissolved.geom_type == "GeometryCollection":
+        polys = [g for g in dissolved.geoms if g.geom_type in ("Polygon", "MultiPolygon")]
+        if polys:
+            dissolved = unary_union(polys)
+
+    return dissolved
 
 
 # ==========================================
@@ -504,9 +596,9 @@ def compute_voronoi(
 ) -> Any:
     """
     Compute Voronoi / Thiessen polygons for healthcare facilities,
-    clipped to municipal boundary, enriched with Census tracts,
-    and styled according to chosen metric.
-    Optionally filters tracts by territorial situation ('ambos', 'urbanos', 'rurais').
+    clipped to municipal boundary or active territorial mask (urban/rural),
+    enriched with Census tracts, and styled according to chosen metric.
+    Properly handles non-contiguous MultiPolygons (e.g. multiple urban clusters).
     """
     if not HAS_GEOPANDAS:
         raise RuntimeError("geopandas is required for Voronoi computation.")
@@ -528,23 +620,12 @@ def compute_voronoi(
         empty_gdf = gpd.GeoDataFrame(columns=["geometry"], crs="EPSG:4326")
         return empty_gdf if as_gdf else json.loads(empty_gdf.to_json())
 
-    # Standardize boundary geometry
-    boundary_geom = None
-    if boundary is not None:
-        if isinstance(boundary, gpd.GeoDataFrame):
-            boundary_geom = unary_union(boundary.geometry)
-        elif isinstance(boundary, dict):
-            if boundary.get("type") == "FeatureCollection":
-                b_geoms = [shape(f["geometry"]) for f in boundary.get("features", []) if f.get("geometry")]
-                boundary_geom = unary_union(b_geoms) if b_geoms else None
-            elif "geometry" in boundary:
-                boundary_geom = shape(boundary["geometry"])
-            elif "type" in boundary:
-                boundary_geom = shape(boundary)
+    # Derive clipping mask (respects territorial situation: ambos, urbanos, rurais)
+    clipping_mask = extract_spatial_mask(boundary, census_tracts, situacao=situacao)
 
     # Determine bounding envelope
-    if boundary_geom:
-        minx, miny, maxx, maxy = boundary_geom.bounds
+    if clipping_mask is not None:
+        minx, miny, maxx, maxy = clipping_mask.bounds
     else:
         minx, miny, maxx, maxy = fac_gdf.total_bounds
     
@@ -576,9 +657,16 @@ def compute_voronoi(
         if matched_geom is None:
             continue
 
-        if boundary_geom:
-            clipped = matched_geom.intersection(boundary_geom)
-            if clipped.is_empty:
+        if clipping_mask is not None:
+            if not matched_geom.intersects(clipping_mask):
+                continue
+            clipped = matched_geom.intersection(clipping_mask)
+            if clipped.geom_type == "GeometryCollection":
+                polys = [g for g in clipped.geoms if g.geom_type in ("Polygon", "MultiPolygon")]
+                if not polys:
+                    continue
+                clipped = unary_union(polys)
+            if clipped.is_empty or clipped.area <= 0:
                 continue
             final_geom = clipped
         else:
@@ -594,7 +682,7 @@ def compute_voronoi(
     res_gdf = gpd.GeoDataFrame(cells_records, geometry="geometry", crs="EPSG:4326")
 
     # Enrich with census tracts if provided
-    if census_tracts is not None:
+    if census_tracts is not None and not res_gdf.empty:
         res_gdf = enrich_cells_with_census(res_gdf, census_tracts, situacao=situacao)
 
     # Classify / style by metric
@@ -604,6 +692,11 @@ def compute_voronoi(
         res_gdf["color"] = [classification_meta["get_color"](v) for v in res_gdf["populacao_total"]]
         res_gdf["class_index"] = [classification_meta["get_class_index"](v) for v in res_gdf["populacao_total"]]
         res_gdf["metric_value"] = res_gdf["populacao_total"]
+    elif metric == "density" and "densidade_demografica" in res_gdf.columns:
+        classification_meta = classify_1d(res_gdf["densidade_demografica"].tolist(), classification_method, n_classes, "hab/km²")
+        res_gdf["color"] = [classification_meta["get_color"](v) for v in res_gdf["densidade_demografica"]]
+        res_gdf["class_index"] = [classification_meta["get_class_index"](v) for v in res_gdf["densidade_demografica"]]
+        res_gdf["metric_value"] = res_gdf["densidade_demografica"]
     elif metric == "income" and "renda_per_capita" in res_gdf.columns:
         classification_meta = classify_1d(res_gdf["renda_per_capita"].tolist(), classification_method, n_classes, "R$")
         res_gdf["color"] = [classification_meta["get_color"](v) for v in res_gdf["renda_per_capita"]]
@@ -653,29 +746,18 @@ def compute_hexbins(
     as_gdf: bool = True
 ) -> Any:
     """
-    Generate regular hexagonal grid over municipality boundary or extent,
+    Generate regular hexagonal grid over municipality boundary or active territorial mask (urban/rural),
     count facilities per hexagon, enrich with census demographics,
-    and classify by metric.
+    and classify by metric. Properly handles non-contiguous MultiPolygons.
     """
     if not HAS_GEOPANDAS:
         raise RuntimeError("geopandas is required for hexbins computation.")
 
-    # Determine bounds and boundary geometry
-    boundary_geom = None
-    if boundary is not None:
-        if isinstance(boundary, gpd.GeoDataFrame):
-            boundary_geom = unary_union(boundary.geometry)
-        elif isinstance(boundary, dict):
-            if boundary.get("type") == "FeatureCollection":
-                b_geoms = [shape(f["geometry"]) for f in boundary.get("features", []) if f.get("geometry")]
-                boundary_geom = unary_union(b_geoms) if b_geoms else None
-            elif "geometry" in boundary:
-                boundary_geom = shape(boundary["geometry"])
-            elif "type" in boundary:
-                boundary_geom = shape(boundary)
+    # Derive clipping mask (respects territorial situation: ambos, urbanos, rurais)
+    clipping_mask = extract_spatial_mask(boundary, census_tracts, situacao=situacao)
 
-    if boundary_geom:
-        minx, miny, maxx, maxy = boundary_geom.bounds
+    if clipping_mask is not None:
+        minx, miny, maxx, maxy = clipping_mask.bounds
     elif facilities is not None:
         fac_gdf = facilities if isinstance(facilities, gpd.GeoDataFrame) else gpd.GeoDataFrame.from_features(facilities["features"] if isinstance(facilities, dict) else facilities)
         minx, miny, maxx, maxy = fac_gdf.total_bounds
@@ -716,10 +798,13 @@ def compute_hexbins(
             pts.append(pts[0])
             hex_poly = Polygon(pts)
 
-            if boundary_geom:
-                if boundary_geom.intersects(hex_poly):
-                    clipped = hex_poly.intersection(boundary_geom)
-                    if not clipped.is_empty and clipped.area > 0:
+            if clipping_mask is not None:
+                if clipping_mask.intersects(hex_poly):
+                    clipped = hex_poly.intersection(clipping_mask)
+                    if clipped.geom_type == "GeometryCollection":
+                        polys = [g for g in clipped.geoms if g.geom_type in ("Polygon", "MultiPolygon")]
+                        clipped = unary_union(polys) if polys else None
+                    if clipped is not None and not clipped.is_empty and clipped.area > 0:
                         hexagons.append(clipped)
             else:
                 hexagons.append(hex_poly)
