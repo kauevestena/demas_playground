@@ -1219,11 +1219,13 @@ document.addEventListener('DOMContentLoaded', () => {
       if (defaultSitRadio) defaultSitRadio.checked = true;
       applyCensusMapFilter();
 
-      // 4. Check or reset census tracts for this municipality
+      // 4. Check or auto-load census tracts for this municipality
       if (window.GeospatialAnalysis && window.GeospatialAnalysis.clearMaskCache) {
         window.GeospatialAnalysis.clearMaskCache();
       }
       const cachedTracts = driver._censusTractsCache.get(String(code6));
+      const hasPrecached = !!(cachedManifest[String(code6)] && cachedManifest[String(code6)].census_tracts);
+
       if (cachedTracts) {
         currentCensusTractsGeojson = cachedTracts;
         updateCensusBadgeAndCounts();
@@ -1234,19 +1236,40 @@ document.addEventListener('DOMContentLoaded', () => {
         if (map && map.getSource('census-tracts')) {
           map.getSource('census-tracts').setData(cachedTracts);
         }
+      } else if (hasPrecached) {
+        currentCensusTractsGeojson = null;
+        if (censusStatusBadge) {
+          censusStatusBadge.className = 'census-badge available';
+          censusStatusBadge.textContent = 'Carregando setores...';
+        }
+        if (censusOptionsRow) censusOptionsRow.style.display = 'flex';
+        if (hexMetricRow) hexMetricRow.style.display = 'flex';
+
+        // Automatically fetch pre-cached tracts so Voronoi and Hexbins are immediately clippable
+        driver.fetchCensusTracts(code6, id7, 'data/', { uf: uf }).then(tracts => {
+          if (tracts && tracts.features && tracts.features.length > 0) {
+            currentCensusTractsGeojson = tracts;
+            updateCensusBadgeAndCounts();
+            updateVoronoiControlsVisibility();
+            if (censusBtnLabel) censusBtnLabel.textContent = 'Atualizar Setores Censitários';
+            if (map && map.getSource('census-tracts')) {
+              map.getSource('census-tracts').setData(tracts);
+            }
+            applyCensusMapFilter();
+            if (analysisMode !== 'none') {
+              updateSpatialAnalysis(lastFilteredFeatures);
+            }
+          }
+        }).catch(err => {
+          console.warn('Auto-loading census tracts failed:', err);
+        });
       } else {
         currentCensusTractsGeojson = null;
         if (censusSituationCounts) censusSituationCounts.textContent = '';
         if (censusEngineBadge) censusEngineBadge.style.display = 'none';
-        const hasPrecached = !!(cachedManifest[String(code6)] && cachedManifest[String(code6)].census_tracts);
         if (censusStatusBadge) {
-          if (hasPrecached) {
-            censusStatusBadge.className = 'census-badge available';
-            censusStatusBadge.textContent = 'Disponível';
-          } else {
-            censusStatusBadge.className = 'census-badge';
-            censusStatusBadge.textContent = 'Sob demanda';
-          }
+          censusStatusBadge.className = 'census-badge';
+          censusStatusBadge.textContent = 'Sob demanda';
         }
         if (censusOptionsRow) censusOptionsRow.style.display = 'none';
         if (hexMetricRow) hexMetricRow.style.display = 'none';
@@ -1439,11 +1462,15 @@ document.addEventListener('DOMContentLoaded', () => {
       if (voronoiSource) voronoiSource.setData(voronoiResult);
 
       const cellCount = voronoiResult.features.length;
+      let sitSuffix = '';
+      if (currentCensusTractsGeojson && censusSituationFilter !== 'ambos') {
+        sitSuffix = censusSituationFilter === 'urbanos' ? ' urbanas' : ' rurais';
+      }
       if (analysisStatusBadge) {
         analysisStatusBadge.className = 'analysis-badge active-voronoi';
         analysisStatusBadge.textContent = clusterPointsEnabled
-          ? `Voronoi (${cellCount} polos)`
-          : `Voronoi (${cellCount} células)`;
+          ? `Voronoi (${cellCount} polos${sitSuffix})`
+          : `Voronoi (${cellCount} células${sitSuffix})`;
       }
 
       // Adjust fill opacity and border styling for demographic choropleth vs category
@@ -1515,11 +1542,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
       const cellCount = hexResult.featureCollection.features.length;
       const radiusLabel = hexRadiusKm >= 1 ? `${hexRadiusKm}km` : `${hexRadiusKm * 1000}m`;
+      let hexSitSuffix = '';
+      if (currentCensusTractsGeojson && censusSituationFilter !== 'ambos') {
+        hexSitSuffix = censusSituationFilter === 'urbanos' ? ' urbanos' : ' rurais';
+      }
       if (analysisStatusBadge) {
         analysisStatusBadge.className = 'analysis-badge active-hex';
         analysisStatusBadge.textContent = clusterPointsEnabled
-          ? `Hexágonos (${cellCount} células / polos)`
-          : `Hexágonos (${cellCount} células)`;
+          ? `Hexágonos (${cellCount} células / polos${hexSitSuffix})`
+          : `Hexágonos (${cellCount} células${hexSitSuffix})`;
       }
 
       // Render Hexbin Legend / Colorbar
@@ -1725,9 +1756,32 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Territorial Situation Filter (Ambos / Urbanos / Rurais)
   censusSituationRadios.forEach(radio => {
-    radio.addEventListener('change', (e) => {
+    radio.addEventListener('change', async (e) => {
       if (!e.target.checked) return;
       censusSituationFilter = e.target.value;
+
+      // If census tracts are not yet loaded and user selected a specific situation, auto-fetch them!
+      if (!currentCensusTractsGeojson && currentCityInfo && censusSituationFilter !== 'ambos') {
+        showProgress(true, 'Carregando setores censitários para recorte territorial...', 40);
+        try {
+          const tracts = await driver.fetchCensusTracts(currentCityInfo.code6, currentCityInfo.id7, 'data/', { uf: currentCityInfo.uf });
+          if (tracts && tracts.features && tracts.features.length > 0) {
+            currentCensusTractsGeojson = tracts;
+            if (censusOptionsRow) censusOptionsRow.style.display = 'flex';
+            if (hexMetricRow) hexMetricRow.style.display = 'flex';
+            updateVoronoiControlsVisibility();
+            if (censusBtnLabel) censusBtnLabel.textContent = 'Atualizar Setores Censitários';
+            if (map && map.getSource('census-tracts')) {
+              map.getSource('census-tracts').setData(tracts);
+            }
+          }
+        } catch (err) {
+          console.warn('Auto-fetching tracts on situation change error:', err);
+        } finally {
+          showProgress(false);
+        }
+      }
+
       updateCensusBadgeAndCounts();
       applyCensusMapFilter();
       if (analysisMode !== 'none') {
