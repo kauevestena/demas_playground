@@ -333,6 +333,8 @@
       let weightedIncomeSum = 0;
       let weightedAguaSum = 0;
       let weightedEsgotoSum = 0;
+      let aguaPopSum = 0;
+      let esgotoPopSum = 0;
       let hasAguaCount = 0;
       let hasEsgotoCount = 0;
       let intersectingTractsCount = 0;
@@ -357,10 +359,12 @@
               }
               if (pt.agua !== null) {
                 weightedAguaSum += pt.agua * partPop;
+                aguaPopSum += partPop;
                 hasAguaCount++;
               }
               if (pt.esgoto !== null) {
                 weightedEsgotoSum += pt.esgoto * partPop;
+                esgotoPopSum += partPop;
                 hasEsgotoCount++;
               }
               intersectingTractsCount++;
@@ -377,12 +381,12 @@
         ? Math.round(weightedIncomeSum / totalAllocatedPop)
         : 0;
 
-      const finalAgua = totalAllocatedPop > 0 && hasAguaCount > 0
-        ? Number((weightedAguaSum / totalAllocatedPop).toFixed(1))
+      const finalAgua = aguaPopSum > 0
+        ? Number((weightedAguaSum / aguaPopSum).toFixed(1))
         : null;
 
-      const finalEsgoto = totalAllocatedPop > 0 && hasEsgotoCount > 0
-        ? Number((weightedEsgotoSum / totalAllocatedPop).toFixed(1))
+      const finalEsgoto = esgotoPopSum > 0
+        ? Number((weightedEsgotoSum / esgotoPopSum).toFixed(1))
         : null;
 
       // PNAB Overload Ratio: dynamic calculation per active health teams (eSF)
@@ -752,7 +756,7 @@
         f.properties.metricValue = v;
         f.properties.metricLabel = `${v}%`;
       });
-    } else if (metric === 'sobrecarga') {
+    } else if (metric === 'sobrecarga' || metric === 'sobrecarga_pnab') {
       const adequateCount = resultFC.features.filter(f => f.properties.pnab_color === '#10b981').length;
       const attentionCount = resultFC.features.filter(f => f.properties.pnab_color === '#f59e0b').length;
       const criticalCount = resultFC.features.filter(f => f.properties.pnab_color === '#ef4444').length;
@@ -1037,8 +1041,9 @@
    * @param {Object} [censusTractsFC=null]
    * @param {string} [metric='count'] - 'count' | 'population' | 'income' | 'hab_per_unit'
    * @param {string} [situacao='ambos'] - 'ambos' | 'urbanos' | 'rurais'
+   * @param {boolean} [occupiedOnly=true] - Only return hexagons containing facilities
    */
-  function computeHexbins(features, radiusKm = 1.0, classificationMethod = 'continuous', boundaryGeojson = null, censusTractsFC = null, metric = 'count', situacao = 'ambos') {
+  function computeHexbins(features, radiusKm = 1.0, classificationMethod = 'continuous', boundaryGeojson = null, censusTractsFC = null, metric = 'count', situacao = 'ambos', occupiedOnly = true) {
     if (!window.turf) {
       console.error('Turf.js is not loaded.');
       return { featureCollection: { type: 'FeatureCollection', features: [] }, classification: null };
@@ -1080,12 +1085,29 @@
         return { featureCollection: { type: 'FeatureCollection', features: [] }, classification: null };
       }
 
-      // Collect facilities inside each hexagon
-      const occupiedHexagons = [];
+      // Collect hexagons (occupied only or full grid clipped to mask)
+      const selectedHexagons = [];
 
       for (let i = 0; i < hexGrid.features.length; i++) {
         const hex = hexGrid.features[i];
-        const hexBbox = window.turf.bbox(hex);
+        let finalGeom = hex.geometry;
+
+        // Crop hexagon boundary by active territorial mask (or municipal boundary)
+        if (targetMask) {
+          try {
+            const clipped = window.turf.intersect(hex, targetMask);
+            if (clipped && clipped.geometry && clipped.geometry.coordinates) {
+              finalGeom = clipped.geometry;
+            } else {
+              continue; // Hexagon lies outside active territorial mask
+            }
+          } catch (clipErr) {
+            console.warn('Hexagon clipping warning:', clipErr);
+            continue;
+          }
+        }
+
+        const hexBbox = window.turf.bbox({ type: 'Feature', geometry: finalGeom });
 
         // Fast bounding-box pre-filtering
         const candidatePoints = features.filter(pt => {
@@ -1093,50 +1115,33 @@
           return lon >= hexBbox[0] && lon <= hexBbox[2] && lat >= hexBbox[1] && lat <= hexBbox[3];
         });
 
-        if (candidatePoints.length === 0) continue;
+        // Exact point-in-polygon verification against the clipped geometry
+        const insidePoints = candidatePoints.filter(pt =>
+          window.turf.booleanPointInPolygon(pt, { type: 'Feature', geometry: finalGeom })
+        );
 
-        // Exact point-in-polygon verification
-        const insidePoints = candidatePoints.filter(pt => window.turf.booleanPointInPolygon(pt, hex));
+        if (insidePoints.length === 0 && occupiedOnly) continue;
 
-        if (insidePoints.length > 0) {
-          let finalGeom = hex.geometry;
-
-          // Crop hexagon boundary by active territorial mask (or municipal boundary)
-          if (targetMask) {
-            try {
-              const clipped = window.turf.intersect(hex, targetMask);
-              if (clipped && clipped.geometry && clipped.geometry.coordinates) {
-                finalGeom = clipped.geometry;
-              } else {
-                continue; // Hexagon lies outside active territorial mask
-              }
-            } catch (clipErr) {
-              console.warn('Hexagon clipping warning:', clipErr);
-              continue;
-            }
-          }
-
-          hex.geometry = finalGeom;
-          hex.properties = {
-            count: insidePoints.length,
-            radiusKm,
-            facilityNames: insidePoints.map(p => p.properties.name || p.properties.official_name || 'Sem nome').slice(0, 5),
-            facilitiesCount: insidePoints.length,
-            facilities: insidePoints.map(p => ({
-              id: p.id,
-              name: p.properties.name || p.properties.official_name || 'Sem nome',
-              cnes: p.properties['ref:CNES'] || '—',
-              comment: p.properties.comment || 'Saúde'
-            }))
-          };
-          hex.id = 'hex-' + occupiedHexagons.length;
-          occupiedHexagons.push(hex);
-        }
+        hex.geometry = finalGeom;
+        hex.properties = {
+          count: insidePoints.length,
+          radiusKm,
+          facilityNames: insidePoints.map(p => p.properties.name || p.properties.official_name || 'Sem nome').slice(0, 5),
+          facilitiesCount: insidePoints.length,
+          facilities: insidePoints.map(p => ({
+            id: p.id,
+            name: p.properties.name || p.properties.official_name || 'Sem nome',
+            cnes: p.properties['ref:CNES'] || '—',
+            comment: p.properties.comment || 'Saúde'
+          }))
+        };
+        hex.id = 'hex-' + selectedHexagons.length;
+        selectedHexagons.push(hex);
       }
 
       const hexFC = {
         type: 'FeatureCollection',
-        features: occupiedHexagons
+        features: selectedHexagons
       };
 
       // Enrich with census tracts demographics if provided
@@ -1148,30 +1153,46 @@
       let values = [];
       let unit = '';
       if (metric === 'population') {
-        values = occupiedHexagons.map(h => h.properties.populacao_total || 0);
+        values = selectedHexagons.map(h => h.properties.populacao_total || 0);
         unit = 'hab.';
       } else if (metric === 'income') {
-        values = occupiedHexagons.map(h => h.properties.renda_per_capita || 0);
+        values = selectedHexagons.map(h => h.properties.renda_per_capita || 0);
         unit = 'R$';
       } else if (metric === 'hab_per_unit') {
-        values = occupiedHexagons.map(h => h.properties.hab_per_unit || 0);
+        values = selectedHexagons.map(h => h.properties.hab_per_unit || 0);
         unit = 'hab/unid';
       } else if (metric === 'saneamento_agua') {
-        values = occupiedHexagons.map(h => h.properties.pct_agua_encanada !== null && h.properties.pct_agua_encanada !== undefined ? h.properties.pct_agua_encanada : 0);
+        values = selectedHexagons.map(h => h.properties.pct_agua_encanada !== null && h.properties.pct_agua_encanada !== undefined ? h.properties.pct_agua_encanada : 0);
         unit = '%';
       } else if (metric === 'saneamento_esgoto') {
-        values = occupiedHexagons.map(h => h.properties.pct_esgoto_coletado !== null && h.properties.pct_esgoto_coletado !== undefined ? h.properties.pct_esgoto_coletado : 0);
+        values = selectedHexagons.map(h => h.properties.pct_esgoto_coletado !== null && h.properties.pct_esgoto_coletado !== undefined ? h.properties.pct_esgoto_coletado : 0);
         unit = '%';
+      } else if (metric === 'sobrecarga' || metric === 'sobrecarga_pnab') {
+        values = selectedHexagons.map(h => h.properties.sobrecarga_pnab || 0);
+        unit = '';
       } else {
-        values = occupiedHexagons.map(h => h.properties.count);
+        values = selectedHexagons.map(h => h.properties.count);
         unit = 'unid.';
       }
 
       // Perform 1D Classification
-      const classification = classify1D(values, classificationMethod, unit);
+      const classification = (metric === 'sobrecarga' || metric === 'sobrecarga_pnab')
+        ? {
+            method: 'pnab',
+            type: 'binned',
+            bins: [
+              { label: 'Adequada (≤ 3.500 hab)', color: '#10b981' },
+              { label: 'Atenção (3.501 a 6.000 hab)', color: '#f59e0b' },
+              { label: 'Crítica / Sobrecarga (> 6.000 hab)', color: '#ef4444' }
+            ],
+            getColor: () => '#10b981',
+            getClassIndex: () => 0,
+            getClassLabel: () => 'Adequada'
+          }
+        : classify1D(values, classificationMethod, unit);
 
       // Apply styling properties
-      occupiedHexagons.forEach(hex => {
+      selectedHexagons.forEach(hex => {
         let val = hex.properties.count;
         let countLabel = String(hex.properties.count);
 
@@ -1190,6 +1211,15 @@
         } else if (metric === 'saneamento_esgoto') {
           val = hex.properties.pct_esgoto_coletado !== null && hex.properties.pct_esgoto_coletado !== undefined ? hex.properties.pct_esgoto_coletado : 0;
           countLabel = `${val}%`;
+        } else if (metric === 'sobrecarga' || metric === 'sobrecarga_pnab') {
+          val = hex.properties.sobrecarga_pnab || 0;
+          countLabel = String(val);
+          hex.properties.fillColor = hex.properties.pnab_color || '#10b981';
+          hex.properties.classIndex = 0;
+          hex.properties.classLabel = hex.properties.pnab_class || 'Adequada';
+          hex.properties.countLabel = countLabel;
+          hex.properties.metricValue = val;
+          return;
         }
 
         hex.properties.fillColor = classification.getColor(val);

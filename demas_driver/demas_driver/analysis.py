@@ -256,6 +256,7 @@ def cluster_nearby_points(
 
         # Aggregate properties if multiple points in cluster
         if len(group) > 1:
+            rep_geom = Point(group.geometry.x.mean(), group.geometry.y.mean())
             names = [str(n) for n in group["name"].dropna().unique()]
             cnes_list = [str(c) for c in group.get("ref:CNES", group.get("cnes", [])).dropna().unique()]
             first["name"] = " / ".join(names[:2]) + (f" (+{len(names)-2})" if len(names) > 2 else "")
@@ -712,7 +713,7 @@ def compute_voronoi(
         res_gdf["color"] = [classification_meta["get_color"](v) for v in res_gdf["pct_esgoto_coletado"]]
         res_gdf["class_index"] = [classification_meta["get_class_index"](v) for v in res_gdf["pct_esgoto_coletado"]]
         res_gdf["metric_value"] = res_gdf["pct_esgoto_coletado"]
-    elif metric == "sobrecarga_pnab" and "cor_pnab" in res_gdf.columns:
+    elif metric in ("sobrecarga", "sobrecarga_pnab") and "cor_pnab" in res_gdf.columns:
         res_gdf["color"] = res_gdf["cor_pnab"]
         res_gdf["metric_value"] = res_gdf["sobrecarga_pnab"]
 
@@ -734,6 +735,74 @@ def compute_voronoi(
 # HEXAGONAL BINNING (HEXBINS)
 # ==========================================
 
+def _haversine_distance_km(lon1: float, lat1: float, lon2: float, lat2: float) -> float:
+    r = 6371.0088
+    phi1, phi2 = math.radians(lat1), math.radians(lat2)
+    dphi = math.radians(lat2 - lat1)
+    dlam = math.radians(lon2 - lon1)
+    a = math.sin(dphi / 2.0)**2 + math.cos(phi1) * math.cos(phi2) * math.sin(dlam / 2.0)**2
+    return 2.0 * r * math.asin(math.sqrt(a))
+
+
+def _generate_hex_grid(bbox: Tuple[float, float, float, float], radius_km: float) -> List[Any]:
+    """Generate flat-topped hexagonal grid exactly matching Turf.js hexGrid odd-q layout."""
+    west, south, east, north = bbox
+    center_y = (south + north) / 2.0
+    center_x = (west + east) / 2.0
+
+    x_dist = _haversine_distance_km(west, center_y, east, center_y) or 0.001
+    y_dist = _haversine_distance_km(center_x, south, center_x, north) or 0.001
+
+    x_frac = (radius_km * 2.0) / x_dist
+    cell_width = x_frac * (east - west)
+    y_frac = (radius_km * 2.0) / y_dist
+    cell_height = y_frac * (north - south)
+
+    radius = cell_width / 2.0
+    hex_width = radius * 2.0
+    hex_height = (math.sqrt(3) / 2.0) * cell_height
+    box_width = east - west
+    box_height = north - south
+
+    x_interval = (3.0 / 4.0) * hex_width
+    y_interval = hex_height
+
+    x_span = (box_width - hex_width) / (hex_width - radius / 2.0)
+    x_count = math.floor(x_span)
+    x_adjust = (x_count * x_interval - radius / 2.0 - box_width) / 2.0 - radius / 2.0 + x_interval / 2.0
+
+    y_count = math.floor((box_height - hex_height) / hex_height)
+    y_adjust = (box_height - y_count * hex_height) / 2.0
+    has_offset_y = (y_count * hex_height - box_height) > (hex_height / 2.0)
+    if has_offset_y:
+        y_adjust -= hex_height / 4.0
+
+    cosines = [math.cos((2.0 * math.pi / 6.0) * i) for i in range(6)]
+    sines = [math.sin((2.0 * math.pi / 6.0) * i) for i in range(6)]
+
+    hexagons = []
+    for x in range(x_count + 1):
+        for y in range(y_count + 1):
+            is_odd = (x % 2 == 1)
+            if y == 0 and is_odd:
+                continue
+            if y == 0 and has_offset_y:
+                continue
+            cx = x * x_interval + west - x_adjust
+            cy = y * y_interval + south + y_adjust
+            if is_odd:
+                cy -= hex_height / 2.0
+
+            pts = []
+            for i in range(6):
+                px = cx + (cell_width / 2.0) * cosines[i]
+                py = cy + (cell_height / 2.0) * sines[i]
+                pts.append((px, py))
+            pts.append(pts[0])
+            hexagons.append(Polygon(pts))
+    return hexagons
+
+
 def compute_hexbins(
     facilities: Optional[Any] = None,
     boundary: Optional[Any] = None,
@@ -743,6 +812,7 @@ def compute_hexbins(
     situacao: str = "ambos",
     classification_method: str = "jenks",
     n_classes: int = 5,
+    occupied_only: bool = False,
     as_gdf: bool = True
 ) -> Any:
     """
@@ -767,50 +837,25 @@ def compute_hexbins(
     else:
         raise ValueError("At least one of boundary, facilities, or census_tracts must be provided.")
 
-    mid_lat = (miny + maxy) / 2.0
-    km_per_deg_lat = 111.32
-    km_per_deg_lon = 111.32 * math.cos(math.radians(mid_lat))
+    pad_km = radius_km * 1.5
+    pad_lat = max(pad_km / 111.0, 0.02)
+    avg_lat = (miny + maxy) / 2.0
+    pad_lon = max(pad_km / (111.0 * math.cos(math.radians(avg_lat))), 0.02)
+    padded_bbox = (minx - pad_lon, miny - pad_lat, maxx + pad_lon, maxy + pad_lat)
 
-    rx = radius_km / km_per_deg_lon
-    ry = radius_km / km_per_deg_lat
-
-    dx = math.sqrt(3) * rx
-    dy = 1.5 * ry
-
+    raw_hexagons = _generate_hex_grid(padded_bbox, radius_km)
     hexagons = []
-    x_min = minx - dx
-    x_max = maxx + dx
-    y_min = miny - dy
-    y_max = maxy + dy
-
-    y = y_min
-    row = 0
-    while y <= y_max:
-        x_offset = (dx / 2.0) if (row % 2 == 1) else 0.0
-        x = x_min + x_offset
-        while x <= x_max:
-            pts = []
-            for i in range(6):
-                angle = math.pi / 6.0 + i * math.pi / 3.0
-                px = x + rx * math.cos(angle)
-                py = y + ry * math.sin(angle)
-                pts.append((px, py))
-            pts.append(pts[0])
-            hex_poly = Polygon(pts)
-
-            if clipping_mask is not None:
-                if clipping_mask.intersects(hex_poly):
-                    clipped = hex_poly.intersection(clipping_mask)
-                    if clipped.geom_type == "GeometryCollection":
-                        polys = [g for g in clipped.geoms if g.geom_type in ("Polygon", "MultiPolygon")]
-                        clipped = unary_union(polys) if polys else None
-                    if clipped is not None and not clipped.is_empty and clipped.area > 0:
-                        hexagons.append(clipped)
-            else:
-                hexagons.append(hex_poly)
-            x += dx
-        y += dy
-        row += 1
+    for hex_poly in raw_hexagons:
+        if clipping_mask is not None:
+            if clipping_mask.intersects(hex_poly):
+                clipped = hex_poly.intersection(clipping_mask)
+                if clipped.geom_type == "GeometryCollection":
+                    polys = [g for g in clipped.geoms if g.geom_type in ("Polygon", "MultiPolygon")]
+                    clipped = unary_union(polys) if polys else None
+                if clipped is not None and not clipped.is_empty and clipped.area > 0:
+                    hexagons.append(clipped)
+        else:
+            hexagons.append(hex_poly)
 
     hex_gdf = gpd.GeoDataFrame({"geometry": hexagons}, crs="EPSG:4326")
     hex_gdf["hex_id"] = [f"hex_{i}" for i in range(len(hex_gdf))]
@@ -827,6 +872,10 @@ def compute_hexbins(
         hex_gdf["point_count"] = counts
     else:
         hex_gdf["point_count"] = 0
+
+    if occupied_only:
+        hex_gdf = hex_gdf[hex_gdf["point_count"] > 0].copy()
+        hex_gdf["hex_id"] = [f"hex_{i}" for i in range(len(hex_gdf))]
 
     # Enrich with census tracts if provided
     if census_tracts is not None:
@@ -859,7 +908,7 @@ def compute_hexbins(
         hex_gdf["color"] = [classification_meta["get_color"](v) for v in hex_gdf["pct_esgoto_coletado"]]
         hex_gdf["class_index"] = [classification_meta["get_class_index"](v) for v in hex_gdf["pct_esgoto_coletado"]]
         hex_gdf["metric_value"] = hex_gdf["pct_esgoto_coletado"]
-    elif metric == "sobrecarga_pnab" and "cor_pnab" in hex_gdf.columns:
+    elif metric in ("sobrecarga", "sobrecarga_pnab") and "cor_pnab" in hex_gdf.columns:
         hex_gdf["color"] = hex_gdf["cor_pnab"]
         hex_gdf["metric_value"] = hex_gdf["sobrecarga_pnab"]
 

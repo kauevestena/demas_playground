@@ -1,0 +1,150 @@
+{
+  "410690": {
+    "mun_code": "410690",
+    "raw_facilities_count": 236,
+    "clustered_count": 203,
+    "voronoi": {
+      "ambos": {
+        "cell_count": 203,
+        "total_pop": 1772562,
+        "total_dom": 685701,
+        "total_area_km2": 436.56,
+        "pnab_dist": {
+          "adequada": 106,
+          "atencao": 62,
+          "critica": 35
+        }
+      },
+      "urbanos": {
+        "cell_count": 203,
+        "total_pop": 1772562,
+        "total_dom": 685701,
+        "total_area_km2": 435.92,
+        "pnab_dist": {
+          "adequada": 106,
+          "atencao": 62,
+          "critica": 35
+        }
+      },
+      "rurais": {
+        "cell_count": 203,
+        "total_pop": 0,
+        "total_dom": 0,
+        "total_area_km2": 436.56,
+        "pnab_dist": {
+          "adequada": 203,
+          "atencao": 0,
+          "critica": 0
+        }
+      }
+    },
+    "hexbins_occupied": {
+      "ambos": {
+        "cell_count": 105,
+        "total_pop": 1379875,
+        "total_points": 203
+      },
+      "urbanos": {
+        "cell_count": 105,
+        "total_pop": 1379978,
+        "total_points": 203
+      },
+      "rurais": {
+        "cell_count": 105,
+        "total_pop": 0,
+        "total_points": 203
+      }
+    },
+    "hexbins_full": {
+      "ambos": {
+        "cell_count": 210,
+        "total_pop": 1772548,
+        "total_points": 203
+      },
+      "urbanos": {
+        "cell_count": 210,
+        "total_pop": 1772551,
+        "total_points": 203
+      },
+      "rurais": {
+        "cell_count": 210,
+        "total_pop": 0,
+        "total_points": 203
+      }
+    }
+  },
+  "411850": {
+    "mun_code": "411850",
+    "raw_facilities_count": 57,
+    "clustered_count": 46,
+    "voronoi": {
+      "ambos": {
+        "cell_count": 46,
+        "total_pop": 91830,
+        "total_dom": 34342,
+        "total_area_km2": 541.21,
+        "pnab_dist": {
+          "adequada": 42,
+          "atencao": 4,
+          "critica": 0
+        }
+      },
+      "urbanos": {
+        "cell_count": 41,
+        "total_pop": 87300,
+        "total_dom": 32679,
+        "total_area_km2": 47.89,
+        "pnab_dist": {
+          "adequada": 38,
+          "atencao": 3,
+          "critica": 0
+        }
+      },
+      "rurais": {
+        "cell_count": 21,
+        "total_pop": 4529,
+        "total_dom": 1663,
+        "total_area_km2": 493.03,
+        "pnab_dist": {
+          "adequada": 21,
+          "atencao": 0,
+          "critica": 0
+        }
+      }
+    },
+    "hexbins_occupied": {
+      "ambos": {
+        "cell_count": 20,
+        "total_pop": 75582,
+        "total_points": 46
+      },
+      "urbanos": {
+        "cell_count": 15,
+        "total_pop": 73066,
+        "total_points": 40
+      },
+      "rurais": {
+        "cell_count": 6,
+        "total_pop": 133,
+        "total_points": 6
+      }
+    },
+    "hexbins_full": {
+      "ambos": {
+        "cell_count": 265,
+        "total_pop": 91823,
+        "total_points": 46
+      },
+      "urbanos": {
+        "cell_count": 38,
+        "total_pop": 87296,
+        "total_points": 40
+      },
+      "rurais": {
+        "cell_count": 258,
+        "total_pop": 4524,
+        "total_points": 6
+      }
+    }
+  }
+}
