@@ -103,8 +103,12 @@ def process_single_municipality(
         is_urb = tracts_gdf["situacao"].str.lower().str.contains("urban")
         tracts_gdf["pct_agua_encanada"] = ((is_urb * 16.2 + 82.0) - (morad - 2.5) * 3.0).clip(50.0, 99.8).round(1)
         tracts_gdf["pct_esgoto_coletado"] = ((is_urb * 49.5 + 45.0) - (morad - 2.5) * 6.0).clip(20.0, 99.5).round(1)
+        tracts_gdf["geometry"] = tracts_gdf["geometry"].make_valid()
 
-    # 2. Municipal Boundary
+    # 2. Facilities & Health Teams
+    fac_gdf = fetch_municipality_facilities_resilient(code6, uf, cache_dir, capacity_df)
+
+    # 3. Municipal Boundary
     b_json = fetch_municipality_boundary_resilient(id7, code6, cache_dir)
     if b_json and b_json.get("features"):
         bound_gdf = gpd.GeoDataFrame.from_features(b_json["features"], crs="EPSG:4326")
@@ -112,11 +116,15 @@ def process_single_municipality(
         # Fallback to unary union of census tracts
         bound_union = unary_union(tracts_gdf.geometry)
         bound_gdf = gpd.GeoDataFrame({"geometry": [bound_union], "cd_mun": [code6]}, crs="EPSG:4326")
+    elif not fac_gdf.empty:
+        # Fallback to buffered convex hull of facilities for newly created municipalities
+        hull = unary_union(fac_gdf.geometry).convex_hull.buffer(0.05)
+        bound_gdf = gpd.GeoDataFrame({"geometry": [hull], "cd_mun": [code6]}, crs="EPSG:4326")
     else:
         bound_gdf = gpd.GeoDataFrame()
 
-    # 3. Facilities & Health Teams
-    fac_gdf = fetch_municipality_facilities_resilient(code6, uf, cache_dir, capacity_df)
+    if not bound_gdf.empty:
+        bound_gdf["geometry"] = bound_gdf["geometry"].make_valid()
 
     # 4. Point Clustering (30m)
     if not fac_gdf.empty:

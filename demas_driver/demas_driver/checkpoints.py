@@ -209,7 +209,7 @@ def verify_checkpoint_integrity(conn: sqlite3.Connection, cd_mun: int) -> Tuple[
         if chk["n_clusters"] > 0 and v_count == 0:
             return False, f"Expected {chk['n_clusters']} Voronoi cells, found 0 in voronoi_ambos"
 
-        if chk["pop_total"] > 0 and v_pop == 0:
+        if chk["n_clusters"] > 0 and chk["pop_total"] > 0 and v_pop == 0:
             return False, "Voronoi ambos has 0 population despite non-zero checkpoint population"
 
     except sqlite3.OperationalError as e:

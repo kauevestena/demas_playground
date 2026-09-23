@@ -168,12 +168,14 @@ def fetch_municipality_boundary_resilient(
 
     # Fetch from IBGE API with tenacity
     url = f"https://servicodados.ibge.gov.br/api/v3/malhas/municipios/{id7}?formato=application/vnd.geo+json"
-    data = _fetch_json_with_retry(url)
-
-    with open(cache_path, "w", encoding="utf-8") as f:
-        json.dump(data, f)
-
-    return data
+    try:
+        data = _fetch_json_with_retry(url)
+        with open(cache_path, "w", encoding="utf-8") as f:
+            json.dump(data, f)
+        return data
+    except Exception as e:
+        logger.warning(f"[{code6 or id7}] Could not fetch boundary from IBGE API: {e}")
+        return None
 
 
 def fetch_municipality_facilities_resilient(
