@@ -40,7 +40,7 @@ network_retry = retry(
 def _download_file_with_retry(url: str, dest_path: Path, timeout: int = 60) -> None:
     """Download remote file atomically with exponential backoff retries."""
     dest_path.parent.mkdir(parents=True, exist_ok=True)
-    temp_path = dest_path.with_suffix(dest_path.suffix + ".part")
+    temp_path = dest_path.with_suffix(f"{dest_path.suffix}.part.{os.getpid()}")
 
     req = urllib.request.Request(
         url,
