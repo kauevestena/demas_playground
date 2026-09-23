@@ -1088,17 +1088,25 @@ document.addEventListener('DOMContentLoaded', () => {
 
       // 2. Fetch all Brazilian states from IBGE
       const states = await driver.fetchStates();
+      
+      // Parse optional URL parameters (e.g. ?uf=SP&mun=3550308)
+      const urlParams = new URLSearchParams(window.location.search);
+      const queryUf = (urlParams.get('uf') || '').toUpperCase();
+      const queryMun = urlParams.get('mun') || null;
+
+      const defaultUf = (queryUf && states.some(s => s.sigla === queryUf)) ? queryUf : 'PR';
+
       ufSelect.innerHTML = states.map(s => `
-        <option value="${s.sigla}" ${s.sigla === 'PR' ? 'selected' : ''}>
+        <option value="${s.sigla}" ${s.sigla === defaultUf ? 'selected' : ''}>
           ${s.sigla} — ${s.nome}
         </option>
       `).join('');
 
-      // 3. Populate municipalities for default UF (PR)
-      await loadMunicipalitiesForState('PR', 411850);
+      ufSelect.value = defaultUf;
 
-      // 4. Load initial city (Pato Branco)
-      await loadCityData(411850, 'Pato Branco', 'PR', 4118501);
+      // 3. Populate municipalities and load target city
+      const targetMun = queryMun ? queryMun : (defaultUf === 'PR' ? 411850 : null);
+      await loadMunicipalitiesForState(defaultUf, targetMun);
     } catch (err) {
       console.error('Initialization error:', err);
     }
@@ -1117,12 +1125,15 @@ document.addEventListener('DOMContentLoaded', () => {
     try {
       const munis = await driver.fetchMunicipalities(uf);
 
+      const targetStr = selectCode ? String(selectCode).trim() : null;
+
       muniSelect.innerHTML = munis.map(m => {
         const isCached = !!cachedManifest[String(m.code6)];
         const badge = isCached ? '⚡ ' : '';
         const suffix = isCached ? ' (Pré-carregado)' : '';
+        const isMatch = targetStr && (String(m.code6) === targetStr || String(m.id7) === targetStr || String(m.code6) === targetStr.slice(0, 6));
         return `
-          <option value="${m.code6}" data-name="${m.nome}" data-id7="${m.id7}" ${selectCode === m.code6 ? 'selected' : ''}>
+          <option value="${m.code6}" data-name="${m.nome}" data-id7="${m.id7}" ${isMatch ? 'selected' : ''}>
             ${badge}${m.nome}${suffix}
           </option>
         `;
@@ -1130,8 +1141,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
       muniSelect.disabled = false;
 
-      // If no selectCode specified, pick the first cached city if available, or first in list
-      if (!selectCode) {
+      // If selectCode specified, load it; otherwise pick first cached city or first in list
+      if (selectCode) {
+        const selected = munis.find(m => String(m.code6) === targetStr || String(m.id7) === targetStr || String(m.code6) === targetStr.slice(0, 6));
+        if (selected) {
+          muniSelect.value = String(selected.code6);
+          await loadCityData(selected.code6, selected.nome, uf, selected.id7);
+        } else if (munis.length > 0) {
+          muniSelect.value = String(munis[0].code6);
+          await loadCityData(munis[0].code6, munis[0].nome, uf, munis[0].id7);
+        }
+      } else {
         const firstCached = munis.find(m => cachedManifest[String(m.code6)]);
         if (firstCached) {
           muniSelect.value = String(firstCached.code6);
