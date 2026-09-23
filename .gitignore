@@ -38,3 +38,11 @@ Thumbs.db
 # Cloudflare & Scratch
 .wrangler/
 scratch/
+
+# Local cache & processing storage
+cache/
+output/
+*.gpkg
+*.gpkg-wal
+*.gpkg-shm
+*.log
