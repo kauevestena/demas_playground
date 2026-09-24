@@ -698,23 +698,41 @@
      * @returns {Promise<Object>} GeoJSON FeatureCollection
      */
     async retrieveFacilities({ code6, name = "", uf = "", publicOnly = true, onProgress = () => {} }) {
-      // 1. Try pre-cached local dataset first
-      onProgress({ status: 'checking_cache', message: 'Verificando cache pré-carregado...', percent: 10 });
+      // 1. Try DuckDB-Wasm National GeoParquet first (covers all 5,571 Brazilian municipalities!)
+      if (window.censusDuckDB) {
+        onProgress({ status: 'checking_parquet', message: 'Consultando base nacional GeoParquet (DuckDB-Wasm)...', percent: 20 });
+        try {
+          const parquetData = await window.censusDuckDB.queryPolos(code6, uf);
+          if (parquetData && parquetData.features && parquetData.features.length > 0) {
+            onProgress({ status: 'parquet_hit', message: `Carregado via GeoParquet: ${parquetData.features.length} unidades`, percent: 100 });
+            return parquetData;
+          }
+        } catch (pqErr) {
+          console.warn('[DEMASDriver] GeoParquet query failed, falling back:', pqErr);
+        }
+      }
+
+      // 2. Try pre-cached local dataset next
+      onProgress({ status: 'checking_cache', message: 'Verificando cache pré-carregado...', percent: 40 });
       const cached = await this.loadCachedCity(code6);
       if (cached && cached.features && cached.features.length > 0) {
         onProgress({ status: 'cache_hit', message: `Carregado do cache: ${cached.features.length} unidades`, percent: 100 });
         return cached;
       }
 
-      // 2. Fetch live from API via proxy
-      onProgress({ status: 'fetching_live', message: 'Consultando Ministério da Saúde via Proxy...', percent: 20 });
-      let records = await this.fetchAllEstablishments(code6, { onProgress });
-      
-      if (publicOnly) {
-        records = this.filterPublicServices(records);
+      // 3. Fetch live from API via proxy if configured
+      if (this.proxyUrl) {
+        onProgress({ status: 'fetching_live', message: 'Consultando Ministério da Saúde via Proxy...', percent: 60 });
+        let records = await this.fetchAllEstablishments(code6, { onProgress });
+        
+        if (publicOnly) {
+          records = this.filterPublicServices(records);
+        }
+
+        return this.toGeoJSON(records, name, uf);
       }
 
-      return this.toGeoJSON(records, name, uf);
+      return { type: 'FeatureCollection', features: [] };
     }
   }
 

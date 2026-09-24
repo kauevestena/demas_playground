@@ -356,7 +356,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function updateVoronoiControlsVisibility() {
-    const hasCensus = !!currentCensusTractsGeojson;
+    const hasCensus = !!currentCensusTractsGeojson || !!window.censusDuckDB;
     if (voronoiMetricRow) {
       voronoiMetricRow.style.display = hasCensus ? 'flex' : 'none';
     }
@@ -1185,23 +1185,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const isCached = !!cachedManifest[String(code6)];
 
-    // Check if we need a proxy for non-cached cities
-    if (!isCached && !driver.proxyUrl) {
-      showProxyNotice(name, uf);
-      return;
-    }
-
     showProgress(true, `Carregando limites e unidades de ${name}...`, 10);
 
     try {
-      // 1. Fetch official municipality boundary (a priori for cached, on-demand for others)
+      // 1. Fetch official municipality boundary (a priori for cached, on-demand for others with native CORS)
       const boundary = await driver.fetchMunicipalityBoundary(code6, id7, 'data/');
       currentBoundaryGeojson = boundary;
       if (map && map.getSource('municipality-boundary')) {
         map.getSource('municipality-boundary').setData(boundary || { type: 'FeatureCollection', features: [] });
       }
 
-      // 2. Fetch facilities from CNES
+      // 2. Fetch facilities from DuckDB-Wasm National GeoParquet / cache / CNES
       const geojson = await driver.retrieveFacilities({
         code6: code6,
         name: name,
@@ -1213,6 +1207,11 @@ document.addEventListener('DOMContentLoaded', () => {
       });
 
       showProgress(false);
+
+      if ((!geojson || !geojson.features || geojson.features.length === 0) && !isCached && !driver.proxyUrl) {
+        showProxyNotice(name, uf);
+        return;
+      }
 
       // 3. Filter points outside official municipal boundary
       let rawFeatures = geojson.features || [];
@@ -1286,13 +1285,17 @@ document.addEventListener('DOMContentLoaded', () => {
       } else {
         currentCensusTractsGeojson = null;
         if (censusSituationCounts) censusSituationCounts.textContent = '';
-        if (censusEngineBadge) censusEngineBadge.style.display = 'none';
-        if (censusStatusBadge) {
-          censusStatusBadge.className = 'census-badge';
-          censusStatusBadge.textContent = 'Sob demanda';
+        if (censusEngineBadge) {
+          censusEngineBadge.style.display = 'inline-block';
+          censusEngineBadge.textContent = '⚡ GeoParquet Brasil';
+          censusEngineBadge.title = 'Dados consolidados nacionalmente do Censo 2022 e CNES via DuckDB-Wasm.';
         }
-        if (censusOptionsRow) censusOptionsRow.style.display = 'none';
-        if (hexMetricRow) hexMetricRow.style.display = 'none';
+        if (censusStatusBadge) {
+          censusStatusBadge.className = 'census-badge available';
+          censusStatusBadge.textContent = 'Nacional Ativo';
+        }
+        if (censusOptionsRow) censusOptionsRow.style.display = 'flex';
+        if (hexMetricRow) hexMetricRow.style.display = 'flex';
         updateVoronoiControlsVisibility();
         if (censusBtnLabel) censusBtnLabel.textContent = 'Baixar Setores Censitários';
         if (map && map.getSource('census-tracts')) {
@@ -1421,7 +1424,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  function updateSpatialAnalysis(filteredFeatures) {
+  async function updateSpatialAnalysis(filteredFeatures) {
     lastFilteredFeatures = filteredFeatures || [];
 
     const voronoiSource = map ? map.getSource('analysis-voronoi') : null;
@@ -1465,20 +1468,39 @@ document.addEventListener('DOMContentLoaded', () => {
         ? CATEGORY_STYLES[activeCategory].color
         : '#7c3aed';
 
-      const coloredFeatures = featuresForAnalysis.map(f => ({
-        ...f,
-        properties: { ...f.properties, color: catColor }
-      }));
+      let voronoiResult = null;
 
-      const voronoiResult = window.GeospatialAnalysis.computeVoronoi(
-        coloredFeatures,
-        4.0,
-        currentBoundaryGeojson,
-        currentCensusTractsGeojson,
-        voronoiMetric,
-        voronoiMethod,
-        censusSituationFilter
-      );
+      // 1. Try DuckDB-Wasm pre-computed national GeoParquet Voronoi first!
+      if (window.censusDuckDB && currentCityInfo && currentCityInfo.code6 && currentCityInfo.uf) {
+        try {
+          const mod = censusSituationFilter || 'ambos';
+          const pqVoronoi = await window.censusDuckDB.queryVoronoi(currentCityInfo.code6, currentCityInfo.uf, mod);
+          if (pqVoronoi && pqVoronoi.features && pqVoronoi.features.length > 0) {
+            voronoiResult = window.GeospatialAnalysis.applyMetricToFeatures(pqVoronoi, voronoiMetric, voronoiMethod);
+          }
+        } catch (pqErr) {
+          console.warn('[DEMAS] GeoParquet Voronoi query failed, calculating on-the-fly:', pqErr);
+        }
+      }
+
+      // 2. Fallback to on-the-fly Turf.js computation
+      if (!voronoiResult) {
+        const coloredFeatures = featuresForAnalysis.map(f => ({
+          ...f,
+          properties: { ...f.properties, color: catColor }
+        }));
+
+        voronoiResult = window.GeospatialAnalysis.computeVoronoi(
+          coloredFeatures,
+          4.0,
+          currentBoundaryGeojson,
+          currentCensusTractsGeojson,
+          voronoiMetric,
+          voronoiMethod,
+          censusSituationFilter
+        );
+      }
+
       if (voronoiSource) voronoiSource.setData(voronoiResult);
 
       const cellCount = voronoiResult.features.length;

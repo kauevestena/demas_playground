@@ -710,6 +710,15 @@
       enrichWithCensusTracts(resultFC, censusTractsFC, situacao);
     }
 
+    return applyMetricToFeatures(resultFC, metric, classificationMethod);
+  }
+
+  /**
+   * Applies 1D statistical or PNAB classification to a Voronoi FeatureCollection.
+   */
+  function applyMetricToFeatures(resultFC, metric = 'category', classificationMethod = 'jenks') {
+    if (!resultFC || !resultFC.features) return resultFC;
+
     let classification = null;
 
     if (metric === 'population') {
@@ -757,9 +766,9 @@
         f.properties.metricLabel = `${v}%`;
       });
     } else if (metric === 'sobrecarga' || metric === 'sobrecarga_pnab') {
-      const adequateCount = resultFC.features.filter(f => f.properties.pnab_color === '#10b981').length;
-      const attentionCount = resultFC.features.filter(f => f.properties.pnab_color === '#f59e0b').length;
-      const criticalCount = resultFC.features.filter(f => f.properties.pnab_color === '#ef4444').length;
+      const adequateCount = resultFC.features.filter(f => (f.properties.pnab_color || f.properties.cor_pnab) === '#10b981').length;
+      const attentionCount = resultFC.features.filter(f => (f.properties.pnab_color || f.properties.cor_pnab) === '#f59e0b').length;
+      const criticalCount = resultFC.features.filter(f => (f.properties.pnab_color || f.properties.cor_pnab) === '#ef4444').length;
 
       classification = {
         method: 'pnab',
@@ -769,15 +778,17 @@
           { label: 'Atenção (3.501 a 6.000 hab)', color: '#f59e0b', count: attentionCount },
           { label: 'Crítica / Sobrecarga (> 6.000 hab)', color: '#ef4444', count: criticalCount }
         ],
-        getColor: (v) => v.pnab_color,
+        getColor: (v) => v.pnab_color || v.cor_pnab,
         getClassIndex: (v) => 0,
-        getClassLabel: (v) => v.pnab_class || 'Adequada'
+        getClassLabel: (v) => v.pnab_class || v.classificacao_pnab || 'Adequada'
       };
 
       resultFC.features.forEach(f => {
-        f.properties.color = f.properties.pnab_color || '#10b981';
+        const c = f.properties.pnab_color || f.properties.cor_pnab || '#10b981';
+        f.properties.color = c;
+        f.properties.pnab_color = c;
         f.properties.metricValue = f.properties.sobrecarga_pnab || 1.0;
-        f.properties.metricLabel = f.properties.pnab_class || 'Adequada';
+        f.properties.metricLabel = f.properties.pnab_class || f.properties.classificacao_pnab || 'Adequada';
       });
     } else {
       // Default: category color
@@ -1253,6 +1264,7 @@
     computeVoronoi,
     computeHexbins,
     classify1D,
+    applyMetricToFeatures,
     enrichWithCensusTracts,
     getTerritorialMask,
     clearMaskCache,
