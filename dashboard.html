@@ -14,6 +14,8 @@
 
   <!-- Apache ECharts 5.5.0 -->
   <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+  <!-- D3.js 7 (Cartographic projections: Albers Equal-Area SIRGAS 2000 / IBGE) -->
+  <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
 
   <style>
     :root {
@@ -1077,9 +1079,10 @@
               </svg>
               Mapa Temático das Unidades da Federação
             </h2>
-            <span class="chart-subtitle" id="map-subtitle">Polígonos das 27 UFs com dados do Censo 2022 e CNES. Clique em um estado para inspecionar e filtrar.</span>
+            <span class="chart-subtitle" id="map-subtitle">Projeção Cônica Equivalente de Albers (SIRGAS 2000 / IBGE) • Polígonos das 27 UFs com dados do Censo 2022 e CNES. Clique em um estado para inspecionar.</span>
           </div>
           <div class="chart-controls">
+            <span class="meta-tag" style="background: #f1f5f9; color: #475569; font-weight: 500; font-size: 11px;" title="Projeção Cônica Equivalente de Albers (SIRGAS 2000 Brasil Albers Equal Area - Padrão Oficial do IBGE para Mapas Temáticos e Estatísticos)">🌐 Brasil Albers (IBGE)</span>
             <span id="map-metric-badge" class="meta-tag" style="background: #e0e7ff; color: #3730a3; font-weight: 600;">% Pop. Crítica</span>
           </div>
         </div>
@@ -1800,6 +1803,12 @@
           raw: u
         }));
 
+        // Projeção Cônica Equivalente de Albers (SIRGAS 2000 Brasil Albers Equal Area - Padrão Oficial do IBGE)
+        const albersBrazil = d3.geoConicEqualArea()
+          .parallels([-2, -22])
+          .rotate([54, 0])
+          .center([0, -14]);
+
         const option = {
           tooltip: {
             trigger: 'item',
@@ -1851,8 +1860,11 @@
               map: 'BR',
               roam: true,
               scaleLimit: { min: 0.8, max: 4.0 },
-              zoom: 1.15,
-              center: [-53.0, -14.5],
+              zoom: 1.05,
+              projection: {
+                project: pt => albersBrazil(pt),
+                unproject: pt => albersBrazil.invert(pt)
+              },
               emphasis: {
                 label: { show: true, color: '#0f172a', fontWeight: 'bold' },
                 itemStyle: {
