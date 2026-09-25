@@ -230,6 +230,80 @@ class CensusDuckDB {
     }
   }
 
+  inferFacilityCategory(name, amenity, healthcare) {
+  const n = String(name || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toUpperCase();
+  const a = String(amenity || '').toLowerCase();
+  const h = String(healthcare || '').toLowerCase();
+
+  // 1. UPA 24h / Pronto Atendimento
+  if (
+    n.includes('UPA') || n.includes('PRONTO ATENDIMENTO') || n.includes('PRONTO SOCORRO') ||
+    n.includes('24H') || n.includes('24 HORAS') || h.includes('emergency')
+  ) {
+    return 'UPA 24h';
+  }
+
+  // 2. CAPS / Saúde Mental
+  if (
+    n.includes('CAPS') || n.includes('PSICOSSOCIAL') || n.includes('SAUDE MENTAL') ||
+    h === 'psychiatry'
+  ) {
+    return 'CAPS';
+  }
+
+  // 3. Hospitais / Maternidades
+  if (
+    n.includes('HOSPITAL') || n.includes('MATERNIDADE') || n.includes('SANTA CASA') ||
+    a === 'hospital' || h === 'hospital'
+  ) {
+    return 'Hospital';
+  }
+
+  // 4. Farmácias Públicas / CAF
+  if (
+    n.includes('FARMACIA') || n.includes('CAF') || n.includes('ABASTECIMENTO FARMACEUTICO') ||
+    a === 'pharmacy' || h === 'pharmacy'
+  ) {
+    return 'Farmácia';
+  }
+
+  // 5. SAMU / 192
+  if (
+    n.includes('SAMU') || n.includes('192') || n.includes('BASE DESCENTRALIZADA')
+  ) {
+    return 'SAMU';
+  }
+
+  // 6. Especialidades / Policlínicas / CEO / CER
+  if (
+    n.includes('ESPECIALIDADE') || n.includes('POLICLINICA') || n.includes('CEO') ||
+    n.includes('CER ') || n.includes('REABILITACAO') || n.includes('ODONTOLOG') ||
+    n.includes('FISIOTERAPIA') || a === 'dentist' ||
+    ['dentist', 'diagnostic_centre', 'rehabilitation'].includes(h)
+  ) {
+    return 'Especialidades';
+  }
+
+  // 7. Vigilância / Gestão / Secretaria / Regulação
+  if (
+    n.includes('VIGILANCIA') || n.includes('SECRETARIA') || n.includes('REGULACAO') ||
+    n.includes('AUDITORIA') || n.includes('CAS ') ||
+    ['vaccination', 'occupational_health'].includes(h)
+  ) {
+    return 'Vigilância';
+  }
+
+  // 8. UBS / Atenção Básica (Default)
+  if (
+    n.includes('UBS') || n.includes('BASICA') || n.includes('POSTO DE SAUDE') ||
+    n.includes('CENTRO DE SAUDE') || n.includes('ESF') || n.includes('ESTRATEGIA')
+  ) {
+    return 'UBS';
+  }
+
+  return 'UBS';
+}
+
   /**
    * Query geocoded health facilities (polos de saúde) for any municipality in Brazil.
    * Reads from data/geoparquet/polos_saude/{UF}.parquet via HTTP Range Requests.
@@ -277,13 +351,18 @@ class CensusDuckDB {
         }
         if (!geom) continue;
 
+        const cat = this.inferFacilityCategory(row.name, row.amenity, row.healthcare);
+        const cnesStr = String(row.cnes || '');
+
         features.push({
           type: 'Feature',
+          id: cnesStr || String(i + 1),
           geometry: geom,
           properties: {
             cd_mun: Number(row.cd_mun),
             uf: String(row.uf),
-            cnes: String(row.cnes || ''),
+            cnes: cnesStr,
+            'ref:CNES': cnesStr,
             name: String(row.name || 'Estabelecimento de Saúde'),
             amenity: row.amenity || 'clinic',
             healthcare: row.healthcare || 'centre',
@@ -294,7 +373,7 @@ class CensusDuckDB {
             nomes_equipes: String(row.nomes_equipes || ''),
             cluster_size: Number(row.cluster_size || 1),
             clustered: Boolean(row.clustered),
-            comment: row.amenity === 'hospital' ? 'Hospital' : 'UBS'
+            comment: cat
           }
         });
       }

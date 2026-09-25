@@ -32,55 +32,47 @@ document.addEventListener('DOMContentLoaded', () => {
    */
   function resolveCategory(props) {
     if (!props) return 'Outros';
-    const comment = String(props.comment || '').trim();
-    const name = String(props.name || props.official_name || '').toUpperCase();
+    const commentRaw = String(props.comment || '').trim();
+    const nameRaw = String(props.name || props.official_name || '').trim();
+    const comment = commentRaw.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toUpperCase();
+    const name = nameRaw.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toUpperCase();
     const amenity = String(props.amenity || '').toLowerCase();
     const healthcare = String(props.healthcare || '').toLowerCase();
 
-    // 1. UBS / Atenção Básica
-    if (
-      comment.startsWith('UBS') ||
-      comment.includes('Básica') ||
-      comment === 'Posto de Saúde' ||
-      name.startsWith('UBS') ||
-      name.includes('UNIDADE BASICA') ||
-      name.includes('POSTO DE SAUDE') ||
-      name.includes('CENTRO DE SAUDE') ||
-      name.includes('ESF ') ||
-      name.includes('ESTRATEGIA SAUDE DA FAMILIA')
-    ) {
-      return 'UBS';
-    }
-
-    // 2. UPA / Emergência / Pronto Atendimento
+    // 1. UPA / Emergência / Pronto Atendimento
     if (
       comment.startsWith('UPA') ||
-      comment.includes('Pronto Atendimento') ||
-      comment.includes('Urgência') ||
-      comment.includes('Pronto Socorro') ||
+      comment.includes('PRONTO ATENDIMENTO') ||
+      comment.includes('URGENCIA') ||
+      comment.includes('PRONTO SOCORRO') ||
       name.startsWith('UPA') ||
       name.includes('PRONTO ATENDIMENTO') ||
       name.includes('PRONTO SOCORRO') ||
-      name.includes('24H')
+      name.includes('24H') ||
+      name.includes('24 HORAS') ||
+      healthcare === 'emergency'
     ) {
       return 'UPA 24h';
     }
 
-    // 3. CAPS / Saúde Mental
+    // 2. CAPS / Saúde Mental
     if (
       comment.startsWith('CAPS') ||
-      comment.includes('Psicossocial') ||
+      comment.includes('PSICOSSOCIAL') ||
+      comment.includes('SAUDE MENTAL') ||
       name.startsWith('CAPS') ||
       name.includes('PSICOSSOCIAL') ||
+      name.includes('SAUDE MENTAL') ||
       healthcare === 'psychiatry'
     ) {
       return 'CAPS';
     }
 
-    // 4. Hospitais / Maternidades
+    // 3. Hospitais / Maternidades
     if (
-      comment.includes('Hospital') ||
-      comment.includes('Maternidade') ||
+      comment.includes('HOSPITAL') ||
+      comment.includes('MATERNIDADE') ||
+      comment.includes('SANTA CASA') ||
       name.includes('HOSPITAL') ||
       name.includes('MATERNIDADE') ||
       name.includes('SANTA CASA') ||
@@ -90,11 +82,11 @@ document.addEventListener('DOMContentLoaded', () => {
       return 'Hospital';
     }
 
-    // 5. Farmácias Públicas / CAF
+    // 4. Farmácias Públicas / CAF
     if (
-      comment.includes('Farmácia') ||
+      comment.includes('FARMACIA') ||
       comment.includes('CAF') ||
-      comment.includes('Abastecimento Farmacêutico') ||
+      comment.includes('ABASTECIMENTO FARMACEUTICO') ||
       name.includes('FARMACIA') ||
       amenity === 'pharmacy' ||
       healthcare === 'pharmacy'
@@ -102,36 +94,27 @@ document.addEventListener('DOMContentLoaded', () => {
       return 'Farmácia';
     }
 
-    // 6. SAMU / Atendimento Móvel de Urgência
+    // 5. SAMU / Atendimento Móvel de Urgência
     if (
       comment.includes('SAMU') ||
       comment.includes('192') ||
       name.includes('SAMU') ||
+      name.includes('192') ||
       name.includes('BASE DESCENTRALIZADA')
     ) {
       return 'SAMU';
     }
 
-    // 7. Especialidades / Policlínicas / CEO / CER
+    // 6. Especialidades / Policlínicas / CEO / CER
     if (
-      [
-        'Centro de Especialidades',
-        'Odontologia (CEO)',
-        'Reabilitação (CER)',
-        'Reabilitação Física',
-        'Saúde da Mulher & Criança',
-        'Apoio Sorológico (COAS)',
-        'Consórcio Intermunicipal',
-        'Diagnóstico por Imagem',
-        'Serviço de Atenção Domiciliar',
-        'Especialidades'
-      ].includes(comment) ||
-      comment.includes('Especialidade') ||
-      comment.includes('Policlínica') ||
+      comment.includes('ESPECIALIDADE') ||
+      comment.includes('POLICLINICA') ||
       comment.includes('CEO') ||
       comment.includes('CER') ||
-      comment.includes('Reabilitação') ||
-      comment.includes('Odontologia') ||
+      comment.includes('REABILITACAO') ||
+      comment.includes('ODONTOLOGIA') ||
+      comment.includes('FISIOTERAPIA') ||
+      comment.includes('DIAGNOSTICO') ||
       name.includes('ESPECIALIDADE') ||
       name.includes('POLICLINICA') ||
       name.includes('CEO') ||
@@ -148,32 +131,42 @@ document.addEventListener('DOMContentLoaded', () => {
       return 'Especialidades';
     }
 
-    // 8. Vigilância / Gestão / Secretaria / CAS
+    // 7. Vigilância / Gestão / Secretaria / CAS
     if (
-      [
-        'Vigilância Sanitária',
-        'Vigilância Epidemiológica',
-        'Secretaria Municipal de Saúde',
-        'Regional de Saúde (Estadual)',
-        'Saúde do Trabalhador (CEREST)',
-        'Auditoria e Regulação',
-        'Biossegurança em Saúde',
-        'Sala de Vacinas',
-        'Abastecimento de Saúde (CAS)',
-        'Suprimentos / Logística',
-        'Vigilância / Gestão'
-      ].includes(comment) ||
-      comment.includes('Vigilância') ||
-      comment.includes('Secretaria') ||
-      comment.includes('Regulação') ||
-      comment.includes('Logística') ||
+      comment.includes('VIGILANCIA') ||
+      comment.includes('SECRETARIA') ||
+      comment.includes('REGULACAO') ||
+      comment.includes('LOGISTICA') ||
+      comment.includes('AUDITORIA') ||
+      comment.includes('CAS ') ||
+      comment.includes('REGIONAL DE SAUDE') ||
+      comment.includes('CEREST') ||
       name.includes('VIGILANCIA') ||
       name.includes('SECRETARIA') ||
       name.includes('REGULACAO') ||
+      name.includes('AUDITORIA') ||
       name.includes('CAS ') ||
-      healthcare === 'vaccination'
+      healthcare === 'vaccination' ||
+      healthcare === 'occupational_health'
     ) {
       return 'Vigilância';
+    }
+
+    // 8. UBS / Atenção Básica
+    if (
+      comment.startsWith('UBS') ||
+      comment.includes('BASICA') ||
+      comment.includes('POSTO DE SAUDE') ||
+      comment.includes('CENTRO DE SAUDE') ||
+      comment.includes('ESF') ||
+      name.startsWith('UBS') ||
+      name.includes('UNIDADE BASICA') ||
+      name.includes('POSTO DE SAUDE') ||
+      name.includes('CENTRO DE SAUDE') ||
+      name.includes('ESF ') ||
+      name.includes('ESTRATEGIA SAUDE DA FAMILIA')
+    ) {
+      return 'UBS';
     }
 
     return 'Outros';
@@ -1215,6 +1208,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
       // 3. Filter points outside official municipal boundary
       let rawFeatures = geojson.features || [];
+      rawFeatures.forEach((f, idx) => {
+        if (!f.properties) f.properties = {};
+        const cnesVal = f.properties['ref:CNES'] || f.properties.cnes || String(f.id || (idx + 1));
+        if (f.id === undefined || f.id === null) {
+          f.id = cnesVal;
+        }
+        f.properties['ref:CNES'] = String(cnesVal);
+        f.properties.cnes = String(cnesVal);
+      });
+
       if (boundary && window.GeospatialAnalysis && window.GeospatialAnalysis.filterPointsInBoundary) {
         const filterRes = window.GeospatialAnalysis.filterPointsInBoundary(rawFeatures, boundary);
         currentFeatures = filterRes.inside;
@@ -1333,6 +1336,38 @@ document.addEventListener('DOMContentLoaded', () => {
   function updateUI() {
     totalCountEl.textContent = currentFeatures.length;
 
+    // Update individual subcategory chip counts
+    if (filterChipsContainer) {
+      const counts = { ALL: currentFeatures.length };
+      currentFeatures.forEach(f => {
+        const cat = resolveCategory(f.properties);
+        counts[cat] = (counts[cat] || 0) + 1;
+      });
+      const chipLabels = {
+        'ALL': 'Todos',
+        'UBS': 'UBS',
+        'UPA 24h': 'UPA 24h',
+        'CAPS': 'CAPS',
+        'Hospital': 'Hospitais',
+        'Farmácia': 'Farmácias',
+        'SAMU': 'SAMU',
+        'Especialidades': 'Especialidades',
+        'Vigilância': 'Vigilância / Gestão',
+        'Outros': 'Outros'
+      };
+      filterChipsContainer.querySelectorAll('.chip').forEach(c => {
+        const cat = c.dataset.category;
+        const count = counts[cat] || 0;
+        const label = chipLabels[cat] || cat;
+        if (cat === 'ALL') {
+          c.innerHTML = `${label} (<span id="total-count">${count}</span>)`;
+        } else {
+          c.innerHTML = `${label} (${count})`;
+          c.style.opacity = (count === 0) ? '0.5' : '1.0';
+        }
+      });
+    }
+
     if (filteredOutliers.length > 0) {
       currentCitySubtitle.textContent = `Código IBGE: ${currentCityInfo.code6} • ${currentFeatures.length} no município (${filteredOutliers.length} fora dos limites filtradas)`;
     } else {
@@ -1350,6 +1385,7 @@ document.addEventListener('DOMContentLoaded', () => {
         (p['addr:street'] && p['addr:street'].toLowerCase().includes(q)) ||
         (p['addr:suburb'] && p['addr:suburb'].toLowerCase().includes(q)) ||
         (p['ref:CNES'] && String(p['ref:CNES']).includes(q)) ||
+        (p.cnes && String(p.cnes).includes(q)) ||
         (p.comment && p.comment.toLowerCase().includes(q));
 
       return matchesCat && matchesSearch;
@@ -1370,8 +1406,14 @@ document.addEventListener('DOMContentLoaded', () => {
         if (map.getLayer('health-glow')) map.setFilter('health-glow', hideFilter);
         if (map.getLayer('health-labels')) map.setFilter('health-labels', hideFilter);
       } else {
-        const cnesList = filtered.map(f => String(f.properties['ref:CNES'] || f.id));
-        const filterExpr = ['in', ['get', 'ref:CNES'], ['literal', cnesList]];
+        const cnesList = filtered.map(f => String(f.properties['ref:CNES'] || f.properties.cnes || f.id));
+        const idList = filtered.map(f => f.id).filter(id => id !== undefined);
+        const filterExpr = [
+          'any',
+          ['in', ['get', 'ref:CNES'], ['literal', cnesList]],
+          ['in', ['get', 'cnes'], ['literal', cnesList]],
+          ['in', ['id'], ['literal', idList]]
+        ];
         if (map.getLayer('health-circles')) map.setFilter('health-circles', filterExpr);
         if (map.getLayer('health-glow')) map.setFilter('health-glow', filterExpr);
         if (map.getLayer('health-labels')) map.setFilter('health-labels', filterExpr);
@@ -1471,7 +1513,9 @@ document.addEventListener('DOMContentLoaded', () => {
       let voronoiResult = null;
 
       // 1. Try DuckDB-Wasm pre-computed national GeoParquet Voronoi first!
-      if (window.censusDuckDB && currentCityInfo && currentCityInfo.code6 && currentCityInfo.uf) {
+      // Only when viewing all facilities (activeCategory === 'ALL' and without search filter),
+      // as precomputed GeoParquet cells represent the full municipal health network.
+      if (activeCategory === 'ALL' && !searchQuery && window.censusDuckDB && currentCityInfo && currentCityInfo.code6 && currentCityInfo.uf) {
         try {
           const mod = censusSituationFilter || 'ambos';
           const pqVoronoi = await window.censusDuckDB.queryVoronoi(currentCityInfo.code6, currentCityInfo.uf, mod);

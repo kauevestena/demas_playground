@@ -698,9 +698,17 @@
      * @returns {Promise<Object>} GeoJSON FeatureCollection
      */
     async retrieveFacilities({ code6, name = "", uf = "", publicOnly = true, onProgress = () => {} }) {
-      // 1. Try DuckDB-Wasm National GeoParquet first (covers all 5,571 Brazilian municipalities!)
+      // 1. Try pre-cached local dataset first (covers the 27 state capitals with verified rich OSM attributes)
+      onProgress({ status: 'checking_cache', message: 'Verificando cache pré-carregado...', percent: 20 });
+      const cached = await this.loadCachedCity(code6);
+      if (cached && cached.features && cached.features.length > 0) {
+        onProgress({ status: 'cache_hit', message: `Carregado do cache: ${cached.features.length} unidades`, percent: 100 });
+        return cached;
+      }
+
+      // 2. Try DuckDB-Wasm National GeoParquet (covers all 5,571 Brazilian municipalities!)
       if (window.censusDuckDB) {
-        onProgress({ status: 'checking_parquet', message: 'Consultando base nacional GeoParquet (DuckDB-Wasm)...', percent: 20 });
+        onProgress({ status: 'checking_parquet', message: 'Consultando base nacional GeoParquet (DuckDB-Wasm)...', percent: 50 });
         try {
           const parquetData = await window.censusDuckDB.queryPolos(code6, uf);
           if (parquetData && parquetData.features && parquetData.features.length > 0) {
@@ -712,17 +720,9 @@
         }
       }
 
-      // 2. Try pre-cached local dataset next
-      onProgress({ status: 'checking_cache', message: 'Verificando cache pré-carregado...', percent: 40 });
-      const cached = await this.loadCachedCity(code6);
-      if (cached && cached.features && cached.features.length > 0) {
-        onProgress({ status: 'cache_hit', message: `Carregado do cache: ${cached.features.length} unidades`, percent: 100 });
-        return cached;
-      }
-
       // 3. Fetch live from API via proxy if configured
       if (this.proxyUrl) {
-        onProgress({ status: 'fetching_live', message: 'Consultando Ministério da Saúde via Proxy...', percent: 60 });
+        onProgress({ status: 'fetching_live', message: 'Consultando Ministério da Saúde via Proxy...', percent: 70 });
         let records = await this.fetchAllEstablishments(code6, { onProgress });
         
         if (publicOnly) {
